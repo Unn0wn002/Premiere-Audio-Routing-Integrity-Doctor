@@ -92,6 +92,11 @@ A button in the panel header switches the panel and the readable report between 
 
 Do not distribute this candidate until its host matrix and customer installation checks pass. Do not sell until the private beta criteria in `docs/BETA_RELEASE_CHECKLIST.md` pass. No scan certifies final audio output.
 
+## Cloning and package files
+
+- On Windows, some evidence file names are long. If `git clone` fails with "Filename too long", run `git config --global core.longpaths true` and clone again.
+- Package files (`artifacts/`, including the `.ccx` and `.zip` builds) are not stored in this repository. References to them in the older docs are historical and do not resolve here.
+
 ## User guide
 
 See [USER_GUIDE.md](USER_GUIDE.md) for what it does, install, use, reading the result and removal.
