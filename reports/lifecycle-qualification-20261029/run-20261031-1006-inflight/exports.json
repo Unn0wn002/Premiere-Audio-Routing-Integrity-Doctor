@@ -1,0 +1,38 @@
+{
+  "verifiedAt": "2026-10-31T03:25:46.374Z",
+  "exports": [
+    {
+      "label": "complete-before-cancel",
+      "native": "reports/lifecycle-qualification-20261029/run-20261031-0828-linear-fixture/media/audio-preflight-2026-10-31T03-08-24-777Z.json",
+      "copy": "complete-before-cancel.json",
+      "bytes": 51217142,
+      "sha256": "67d49c36d5bd40afac538ca16006f65137fa9f93516fb4fdaa900e5598953d57",
+      "generatedAt": "2026-10-31T03:08:24.777Z",
+      "durationMs": 7295,
+      "completion": "completed",
+      "diagnosticStatus": "COMPLETE"
+    },
+    {
+      "label": "cancelled",
+      "native": "reports/lifecycle-qualification-20261029/run-20261031-0828-linear-fixture/media/audio-preflight-2026-10-31T03-20-31-529Z.json",
+      "copy": "cancelled.json",
+      "bytes": 43468811,
+      "sha256": "95a595d26f71b43ef35ddb7e128476c76541d1d10c29e21b7f933c7d4a1df9d3",
+      "generatedAt": "2026-10-31T03:20:31.529Z",
+      "durationMs": 6657,
+      "completion": "cancelled",
+      "diagnosticStatus": "PARTIAL"
+    },
+    {
+      "label": "retry-complete",
+      "native": "reports/lifecycle-qualification-20261029/run-20261031-0828-linear-fixture/media/audio-preflight-2026-10-31T03-21-39-589Z.json",
+      "copy": "retry-complete.json",
+      "bytes": 51217142,
+      "sha256": "117ef210888fb74d2dce01bc2ec623c4d3db35db0943ac6408c4af9272d738e1",
+      "generatedAt": "2026-10-31T03:21:39.589Z",
+      "durationMs": 7966,
+      "completion": "completed",
+      "diagnosticStatus": "COMPLETE"
+    }
+  ]
+}

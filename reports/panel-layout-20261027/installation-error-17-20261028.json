@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-28",
+  "status": "INSTALLATION_FAILED_TIMEOUT",
+  "observedUI": "Creative Cloud Desktop: Couldn't install plugin, please try again. Error code -17. Manage plugins: No plugins acquired.",
+  "package": "artifacts/ccx-0.2.1-48bb1d177f4c/com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+  "officialReference": "https://helpx.adobe.com/creative-cloud/apps/troubleshoot/plugin-installation-issues/plugin-installation-errors-in-apps.html",
+  "officialCodeMeaning": "Timeout while waiting for prompted account credentials",
+  "localLog": "%APPDATA%/Adobe/UPI/Log/Upia.log",
+  "relevantLocalEvidence": "2026-10-28 00:18:09: DoubleClickHandler launched Creative Cloud with routeToPath pointing to the exact current candidate CCX; handler completed with status 0. This establishes handoff to Creative Cloud, not installation success.",
+  "missedPromptIdentity": "UNKNOWN; not observed directly",
+  "securityConsentAutomated": false,
+  "credentialsReadOrEntered": false,
+  "retryPerformedThisFollowup": false,
+  "operatorNextAction": "Retry opening this CCX while present at the desktop and handle the expected Adobe credentials or operating-system security consent manually. Leave the installer result available for verification.",
+  "limits": "Current desktop is an existing development profile, not a demonstrated clean customer profile. No runtime edits or installed-runtime PASS claimed."
+}

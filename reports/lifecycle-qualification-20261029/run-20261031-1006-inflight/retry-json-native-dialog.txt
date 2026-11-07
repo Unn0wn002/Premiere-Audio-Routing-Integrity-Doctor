@@ -1,0 +1,109 @@
+Window: "Save As", App: Adobe Premiere Pro.exe.
+	0 dialog Save As Secondary Actions: Raise
+		1 pane
+			2 tool bar Command Module ID: FolderBandModuleInner
+				3 button &Help Description: Get help. ID: HelpButton
+				4 split button Details Description: Change your view. ID: ViewControl
+					5 button View Slider Description: More options ID: SplitMenuButton
+				6 button Organize Description: Organize this folder's contents. ID: {7DDC1264-7E4D-4F74-BBC0-D191987C8D0F}
+				7 button New folder Description: Create a new folder. ID: {E44616AD-6DF1-4B94-85A4-E465AE8A19DB}
+			8 pane Control Host ID: ProperTreeHost
+				9 tree Navigation Pane ID: 100
+					10 scroll bar (settable, float) Vertical Value: 11 ID: NonClientVerticalScrollBar
+						11 button Line up ID: UpButton
+						12 button Page up ID: UpPageButton
+						13 thumb Position ID: ScrollbarThumb
+						14 button Page down ID: DownPageButton
+						15 button Line down ID: DownButton
+					16 tree item (selectable, settable, string) Desktop (OneDrive) Value: Desktop (OneDrive)
+						17 tree item (selectable, settable, string) Home Value: Home
+						18 tree item (selectable, settable, string) Gallery Value: Gallery
+						19 tree item (selectable, settable, string) Unn0wn - Personal (OneDrive) Value: Unn0wn - Personal (OneDrive)
+							20 tree item (selectable, settable, string) AppData (OneDrive) Value: AppData (OneDrive)
+							21 tree item (selectable, settable, string) Attachments (OneDrive) Value: Attachments (OneDrive)
+							22 tree item (selectable, settable, string) Creative Cloud Files (OneDrive) Value: Creative Cloud Files (OneDrive)
+							23 tree item (selectable, settable, string) Desktop (OneDrive) Value: Desktop (OneDrive)
+							24 tree item (selectable, settable, string) Documents (OneDrive) Value: Documents (OneDrive)
+							25 tree item (selectable, settable, string) Microsoft Copilot Chat Files (OneDrive) Value: Microsoft Copilot Chat Files (OneDrive)
+							26 tree item (selectable, settable, string) Pictures (OneDrive) Value: Pictures (OneDrive)
+						27 tree item (selectable, settable, string) Start of Quick Access - Desktop (pinned) Value: Start of Quick Access - Desktop (pinned)
+						28 tree item (selectable, settable, string) Downloads (pinned) Value: Downloads (pinned)
+						29 tree item (selectable, settable, string) Documents (pinned) Value: Documents (pinned)
+						30 tree item (selectable, settable, string) Pictures (pinned) Value: Pictures (pinned)
+						31 tree item (selectable, settable, string) Music (pinned) Value: Music (pinned)
+						32 tree item (selectable, settable, string) Videos (pinned) Value: Videos (pinned)
+						33 tree item (selectable, settable, string) Multimedia Value: Multimedia
+						34 tree item (selectable, settable, string) Kuliah Value: Kuliah
+						35 tree item (selectable, settable, string) UTS_KYOZORA_Paket_FINAL_13_Oktober_2026 Value: UTS_KYOZORA_Paket_FINAL_13_Oktober_2026
+						36 tree item (selectable, settable, string) End of Quick Access - Get Familiar Value: End of Quick Access - Get Familiar
+						37 tree item (selectable, settable, string) This PC Value: This PC
+						38 tree item (selectable, settable, string) Network Value: Network
+			39 pane Shell Folder View ID: listview
+				40 list Items View
+					41 header Header
+						42 split button Name ID: System.ItemNameDisplay
+							43 button Filter dropdown ID: DropDown
+						44 split button Date modified ID: System.DateModified
+							45 button Filter dropdown ID: DropDown
+						46 split button Type ID: System.ItemTypeText
+							47 button Filter dropdown ID: DropDown
+						48 split button Size ID: System.Size
+							49 button Filter dropdown ID: DropDown
+					50 group Today ID: 0
+						51 Group Header Today ID: UIGroupHeader
+							52 button Collapse Group ID: UIGroupButton
+							53 edit Name Value: Today ID: System.ItemNameDisplay
+						54 list item (selectable, settable, string) audio-preflight-2026-10-31T03-20-31-529Z Value: audio-preflight-2026-10-31T03-20-31-529Z ID: 0
+							55 edit (settable, string) Name Value: audio-preflight-2026-10-31T03-20-31-529Z ID: System.ItemNameDisplay
+							56 edit Date modified Value: ‎10/‎31/‎2026 ‏‎10:20 AM ID: System.DateModified
+							57 edit Type Value: JSON Source File ID: System.ItemTypeText
+							58 edit Size Value: 42,451 KB ID: System.Size
+						59 list item (selectable, settable, string) audio-preflight-2026-10-31T03-08-24-777Z Value: audio-preflight-2026-10-31T03-08-24-777Z ID: 1
+							60 edit (settable, string) Name Value: audio-preflight-2026-10-31T03-08-24-777Z ID: System.ItemNameDisplay
+							61 edit Date modified Value: ‎10/‎31/‎2026 ‏‎10:19 AM ID: System.DateModified
+							62 edit Type Value: JSON Source File ID: System.ItemTypeText
+							63 edit Size Value: 50,017 KB ID: System.Size
+			64 text File name: Description: File name: ID: SaveDialogLabel
+			65 combo box (settable, string) File name: Value: audio-preflight-2026-10-31T03-21-39-589Z ID: FileNameControlHost
+				66 edit (settable, string) File name: Value: audio-preflight-2026-10-31T03-21-39-589Z ID: 1001
+				67 button Open ID: DropDown
+			68 text Save as type: Description: Save as type: ID: SaveDialogLabel
+			69 combo box (settable, string) Save as type: Value: All files ID: FileTypeControlHost
+				70 text (settable, string) Value: All files
+				71 button Open ID: DropDown
+			72 tree Save Fields ID: SaveDialogPreviewMetadataInner
+			73 tree Application Controls ID: AppControlsModuleInner
+		74 tool bar
+			75 button Hide Folders
+		76 button Save ID: 1
+		77 button Cancel ID: 2
+		78 thumb (settable, float) Value: 0
+		79 pane ID: 40965
+			80 pane
+				81 tool bar Navigation buttons
+					82 button (disabled) Back (Alt + Left Arrow)
+					83 button (disabled) Forward (Alt + Right Arrow)
+					84 button (disabled) Recent locations
+			85 pane
+				86 tool bar Up band
+					87 button Up to "run-20261031-0828-linear-fixture" (Alt + Up Arrow)
+			88 pane ID: 41477
+				89 progress bar Loading Value: 0
+					90 pane
+						91 tool bar Address: C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\lifecycle-qualification-20261029\run-20261031-0828-linear-fixture\media ID: 1001
+							92 split button All locations
+							93 split button ‎lifecycle-qualification-20261029
+							94 split button ‎run-20261031-0828-linear-fixture
+							95 menu item ‎media
+					96 tool bar Address band
+						97 button Previous Locations
+						98 button Refresh "media" (F5)
+			99 pane
+				100 pane
+					101 pane
+						102 edit (settable, string) Search Box Description: Search media ID: SearchEditBox
+						103 button Search ID: SearchBoxSearchButton
+		104 title bar (settable, string) Value: Save As
+			105 button Close
+
+The focused UI element is 102 edit (settable, string) Search Box Description: Search media ID: SearchEditBox.

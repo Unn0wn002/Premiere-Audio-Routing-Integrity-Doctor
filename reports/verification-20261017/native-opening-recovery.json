@@ -1,0 +1,20 @@
+{
+  "observedAt": "2026-10-17T19:00:32.434Z",
+  "timezone": "Asia/Jakarta",
+  "sourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "recovery": "Selected uniquely named ARID_Disposable_20261018 from the observed default folder file list, then Open; no path typing",
+  "disposableFile": "reports/beta-20261004/ARID_Disposable_20261018.prproj",
+  "projectTitleChanged": true,
+  "workspaceReady": false,
+  "accessibility": null,
+  "actualFixtureState": null,
+  "fixtureScansExecuted": 0,
+  "evidence": "disposable-project-opened-recovery.png",
+  "finalObservationAt": "2026-10-17T19:02:24.925Z",
+  "finalWorkspaceReady": false,
+  "finalAccessibility": null,
+  "processEvidence": "native-process-after-open.json",
+  "finalEvidence": "disposable-opening-unresponsive-final.png",
+  "result": "BLOCKED_NATIVE_VALIDATION_HOST_UNRESPONSIVE"
+}

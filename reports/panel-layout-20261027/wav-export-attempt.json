@@ -1,0 +1,16 @@
+{
+  "result": "BLOCKED_NATIVE_FORMAT_MENU_SELECTION",
+  "activeSequence": "stereo-l440-r880",
+  "range": "Entire Source",
+  "displayedDuration": "00;00;06;00",
+  "displayedFormat": "H.264",
+  "exportStarted": false,
+  "wavProduced": false,
+  "analysis": "NOT_RUN",
+  "host": {
+    "Id": 37304,
+    "Responding": true
+  },
+  "requiredAction": "Select Format > Waveform Audio manually; leave Export workspace open",
+  "projectHash": "F243358DE98EB0024A0364EB6F8A90A7D8EF1B5250DB2169AE2EC1D973E82A8E"
+}

@@ -1,0 +1,195 @@
+{
+  "verifiedAt": "2026-10-31T08:44:19.153Z",
+  "status": "PASS_LOCAL_READBACK_BOUNDED_LAYOUT_SCOPE_COMPLETE",
+  "runtimeSourcesUnchanged": true,
+  "inheritedTestFilesUnchanged": true,
+  "inheritedPathsPresent": 499,
+  "fixtureUnchanged": true,
+  "documentationLinksExist": true,
+  "gitDiffCheck": true,
+  "historicalAggregateValuesPreserved": true,
+  "sharedHandoffSection9Present": true,
+  "files": [
+    {
+      "file": "access-recovery-premiere.png",
+      "sha256": "905db56c9ac877b5af6f91d8acd5cda490001558bf19530a85b85d2927efb11f"
+    },
+    {
+      "file": "access-recovery.json",
+      "sha256": "d01a0ff7f6e52aa17167b9838c24930bbcb6a71923ca072fce88c8488ae1bc0d"
+    },
+    {
+      "file": "checkpoint-verification.json",
+      "sha256": "e6ca00052cb3ea26134c9c3ade409a610676780b7683a2dfdea79b47cec63462"
+    },
+    {
+      "file": "compare-layouts.cjs",
+      "sha256": "1edfd5fb676cc11065f269c747b99bcd210b0e4d408d1fbcadd2e61045057d28"
+    },
+    {
+      "file": "config-repair.json",
+      "sha256": "d59c55748b7c936ef6ff76a971f524455d03437884413be105fc13b304e01c4c"
+    },
+    {
+      "file": "CONTINUATION.md",
+      "sha256": "f78c94f97227f162cc94a7972f3249d36d6c22960b91ea4a08789552c9a0a74f"
+    },
+    {
+      "file": "controlled-tests.txt",
+      "sha256": "840798d700ca130514946f9a8c563b9bf6da2c3e1ee4b38d252374ba5edaa14e"
+    },
+    {
+      "file": "cross-layout-verification.json",
+      "sha256": "4bee44bbe89d9dacddf0c19757a72a78b3fae143206700b61350e23fe2214a8c"
+    },
+    {
+      "file": "finalize-record.cjs",
+      "sha256": "82c4fc38a8bd83aac635be36cf94a2641aae207081fde674e51ae5d513e19e0e"
+    },
+    {
+      "file": "inherited-git-status.txt",
+      "sha256": "f7f1fb7d13e2b18ef16d1bc93f349135438562687fce32299cfce8548160e629"
+    },
+    {
+      "file": "inherited-inventory.json",
+      "sha256": "9b44a518809d79f0380ccf5f957bd008c1f0dbeb2b050dc00939674149383872"
+    },
+    {
+      "file": "inherited-tracked.patch",
+      "sha256": "363e12d44bef84fd25c74ce70f1c0a4321edd305a74ffe89ca43d900d05b34cd"
+    },
+    {
+      "file": "narrow-exports-controls.png",
+      "sha256": "db7b44e876be58eb8ebcc297590012a204152fe69cb1e24fec90f863a73bc211"
+    },
+    {
+      "file": "narrow-pair-verification.json",
+      "sha256": "6cf71cb327dca36ee016d6e0408ccbc90c70c262ad65116758a8190007d94af4"
+    },
+    {
+      "file": "narrow-scan.html",
+      "sha256": "bf83d89e63b56e5ebcd282bbbeb9e67e19123a149e99b14a7069afa517955c30"
+    },
+    {
+      "file": "narrow-scan.json",
+      "sha256": "79c62dc705465771ccf5e290f9b13342102557cde1786f0d9c6714396cdb3ef9"
+    },
+    {
+      "file": "narrow-scan.png",
+      "sha256": "0aa6890b573bc2596dcffe155ea765ee3838d91d05fedbf0240042b1e41b2c0f"
+    },
+    {
+      "file": "native-json-verification.json",
+      "sha256": "c8fbc999093bf0b1247c88149152a9e36ed3fda0933be09f193324552ca5eb78"
+    },
+    {
+      "file": "native-layout-attempt.json",
+      "sha256": "a1991320567d8c5589a62a1dec298ab2565bf409c6fce74316a2c32656499fa1"
+    },
+    {
+      "file": "native-layout-completion.json",
+      "sha256": "a78cc53cbe9aef82e3395c3d5fd89aec33758a6849b00e91e4b2f7d58fe14ac6"
+    },
+    {
+      "file": "package-verification.json",
+      "sha256": "44ff45ec7d83f40178bfc132e6cae3475fcde2b27f08a3138630ecbf1df57230"
+    },
+    {
+      "file": "project-workspace-before-udt.json",
+      "sha256": "7e244d8fbe3e81b0447e9c0efe6be5e2b2e1fe369fde5aeb591b52280c28c7db"
+    },
+    {
+      "file": "project-workspace-before-udt.png",
+      "sha256": "95759cf93d70ee85de661e7a138d3c797cd1871450f3e446e44a85ac14296f5f"
+    },
+    {
+      "file": "session-result.json",
+      "sha256": "dd140a28fe9533dc1ac084845636e5a0427538cc7da86cd5f35586b423b47524"
+    },
+    {
+      "file": "syntax-checks.txt",
+      "sha256": "3fd9cea8dc745d8e8639ecae9a31f31d837321403dd5c0c3e1fa020ee2e5bec0"
+    },
+    {
+      "file": "synthetic-tests.txt",
+      "sha256": "d7278cae69e530bde41f421a2677211fb2ca84472f382fe219ef65797cf5fa55"
+    },
+    {
+      "file": "udt-final-loaded.png",
+      "sha256": "c5853608faaad9d468d692627b1fb871912eb8aed8f61df12ed2460907cb7a0c"
+    },
+    {
+      "file": "udt-final-stage-options.txt",
+      "sha256": "5e8ee8910fbfe603d6eacf229433ab169a292ca4f35325d49a3b879653e9c31b"
+    },
+    {
+      "file": "validate-layout-pair.cjs",
+      "sha256": "33664e0349f19bd67ac5a8409a37d5f36a2dc65a4f52b647346b33c41091b232"
+    },
+    {
+      "file": "validate-native-layout.cjs",
+      "sha256": "e1c006dce25fc5f4c827aa25d8162b768e3b33403260919a0bab10a3d91c7c78"
+    },
+    {
+      "file": "verify-checkpoint.cjs",
+      "sha256": "e040fbfd7bc3167b3b4d8db2304466bd669ce86fa990057c9cb9522d2aa4c991"
+    },
+    {
+      "file": "wide-final-idle.png",
+      "sha256": "21f0b6c8dffef42549e801c903bd07b41a92fd5882b68dcdc17bee4a76c287b9"
+    },
+    {
+      "file": "wide-findings.png",
+      "sha256": "9ec248dc719bc217112afb453c804595793047c80982b76a5d31774278b5d4a1"
+    },
+    {
+      "file": "wide-pair-verification.json",
+      "sha256": "214ddd2fd8a410d24195aa5adbadc31a03a0efb387a38dc151efa5af71f22677"
+    },
+    {
+      "file": "wide-scan.html",
+      "sha256": "325f924eedd36df716473b65b7bca1f64f462be3dc350a61a534b96a488e308d"
+    },
+    {
+      "file": "wide-scan.json",
+      "sha256": "534ea0504fc8bcf166f95f77140428f9e7a301dc71415a3b2d4c0550931b7c03"
+    },
+    {
+      "file": "wide-scan.png",
+      "sha256": "6825eb274a555eec83bdc13f04d03d64875f20a6e5ff4008e2bfbd133467492d"
+    }
+  ],
+  "editedDocs": [
+    {
+      "file": "README.md",
+      "sha256": "a86f50db0a52f406842d6a5a6b10640e672ad09346a22eacffdf24db0ac670d6"
+    },
+    {
+      "file": "docs/PROJECT_STATUS.md",
+      "sha256": "75451b5b6c0f2fe23c607cf2cf9ad857cb65a4d415d576e81b9c5e08f18ec969"
+    },
+    {
+      "file": "docs/PANEL_LAYOUT_VALIDATION.md",
+      "sha256": "d338a81f02e6d6599edc03409e0e0c5a69c3f56a2c9bf4f89bd03874b9907ce1"
+    },
+    {
+      "file": "docs/LAYOUT_REFRESH_20261028.md",
+      "sha256": "d085d31bd48ee48591ff437b5711531b7fa4cc5c559ed219bc541cb427d7feeb"
+    },
+    {
+      "file": "docs/IMPLEMENTATION_REVIEW_20261028.md",
+      "sha256": "59d48109a28ae7487cae337a8062e94f78f701b32e396c704ede02fef6b96153"
+    },
+    {
+      "file": "docs/BETA_RELEASE_CHECKLIST.md",
+      "sha256": "aa738f12f0e468e29c17697713b313127e85b0db74970257960b4e010fd806be"
+    },
+    {
+      "file": "docs/SUBMISSION_OPERATOR_HANDOFF.md",
+      "sha256": "6244909d7a5e6b20f69e968cbc273d08a974c1770ff6b3b4772bb6b38cc2c570"
+    }
+  ],
+  "sharedHandoffSha256": "390615496e2c0fd7c6a6117036b523bb382e1b6fa08b7ada6977b05cd4691f0c",
+  "aggregateSha256": "d2112ac15c96948d5ab5776098ba9987fe3b059a30e107c9fb766e9fa5de6116",
+  "nativeStatus": "BOUNDED_NARROW_WIDE_LAYOUT_AND_EXPORTS_COMPLETE"
+}

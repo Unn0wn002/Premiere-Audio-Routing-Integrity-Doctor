@@ -1,0 +1,2594 @@
+{
+  "verifiedAt": "2026-10-31T02:16:15.971512+00:00",
+  "evidenceClass": "SAVED_NATIVE_PROJECT_STRUCTURE_NOT_UI_OR_SCAN_PROOF",
+  "project": "working/Linear_Audio_20261031.prproj",
+  "projectSha256": "5128092b22ab13515c0b7bd991850f99b2fdd30808254d14f808af7413a14528",
+  "sequenceCount": 1,
+  "audioTrackCount": 3,
+  "populatedAudioTracks": 1,
+  "referencedAudioClipOccurrences": 512,
+  "rootAudioClipTrackItemObjects": 512,
+  "contiguousRepeatedClipRanges": true,
+  "tracks": [
+    {
+      "id": "5b61bca5-3ddb-4003-b0e5-4b80fb00f3af",
+      "clips": [
+        {
+          "objectId": "69",
+          "startTicks": 0,
+          "endTicks": 254016000000
+        },
+        {
+          "objectId": "70",
+          "startTicks": 254016000000,
+          "endTicks": 508032000000
+        },
+        {
+          "objectId": "71",
+          "startTicks": 508032000000,
+          "endTicks": 762048000000
+        },
+        {
+          "objectId": "72",
+          "startTicks": 762048000000,
+          "endTicks": 1016064000000
+        },
+        {
+          "objectId": "73",
+          "startTicks": 1016064000000,
+          "endTicks": 1270080000000
+        },
+        {
+          "objectId": "74",
+          "startTicks": 1270080000000,
+          "endTicks": 1524096000000
+        },
+        {
+          "objectId": "75",
+          "startTicks": 1524096000000,
+          "endTicks": 1778112000000
+        },
+        {
+          "objectId": "76",
+          "startTicks": 1778112000000,
+          "endTicks": 2032128000000
+        },
+        {
+          "objectId": "77",
+          "startTicks": 2032128000000,
+          "endTicks": 2286144000000
+        },
+        {
+          "objectId": "78",
+          "startTicks": 2286144000000,
+          "endTicks": 2540160000000
+        },
+        {
+          "objectId": "79",
+          "startTicks": 2540160000000,
+          "endTicks": 2794176000000
+        },
+        {
+          "objectId": "80",
+          "startTicks": 2794176000000,
+          "endTicks": 3048192000000
+        },
+        {
+          "objectId": "81",
+          "startTicks": 3048192000000,
+          "endTicks": 3302208000000
+        },
+        {
+          "objectId": "82",
+          "startTicks": 3302208000000,
+          "endTicks": 3556224000000
+        },
+        {
+          "objectId": "83",
+          "startTicks": 3556224000000,
+          "endTicks": 3810240000000
+        },
+        {
+          "objectId": "84",
+          "startTicks": 3810240000000,
+          "endTicks": 4064256000000
+        },
+        {
+          "objectId": "85",
+          "startTicks": 4064256000000,
+          "endTicks": 4318272000000
+        },
+        {
+          "objectId": "86",
+          "startTicks": 4318272000000,
+          "endTicks": 4572288000000
+        },
+        {
+          "objectId": "87",
+          "startTicks": 4572288000000,
+          "endTicks": 4826304000000
+        },
+        {
+          "objectId": "88",
+          "startTicks": 4826304000000,
+          "endTicks": 5080320000000
+        },
+        {
+          "objectId": "89",
+          "startTicks": 5080320000000,
+          "endTicks": 5334336000000
+        },
+        {
+          "objectId": "90",
+          "startTicks": 5334336000000,
+          "endTicks": 5588352000000
+        },
+        {
+          "objectId": "91",
+          "startTicks": 5588352000000,
+          "endTicks": 5842368000000
+        },
+        {
+          "objectId": "92",
+          "startTicks": 5842368000000,
+          "endTicks": 6096384000000
+        },
+        {
+          "objectId": "93",
+          "startTicks": 6096384000000,
+          "endTicks": 6350400000000
+        },
+        {
+          "objectId": "94",
+          "startTicks": 6350400000000,
+          "endTicks": 6604416000000
+        },
+        {
+          "objectId": "95",
+          "startTicks": 6604416000000,
+          "endTicks": 6858432000000
+        },
+        {
+          "objectId": "96",
+          "startTicks": 6858432000000,
+          "endTicks": 7112448000000
+        },
+        {
+          "objectId": "97",
+          "startTicks": 7112448000000,
+          "endTicks": 7366464000000
+        },
+        {
+          "objectId": "98",
+          "startTicks": 7366464000000,
+          "endTicks": 7620480000000
+        },
+        {
+          "objectId": "99",
+          "startTicks": 7620480000000,
+          "endTicks": 7874496000000
+        },
+        {
+          "objectId": "100",
+          "startTicks": 7874496000000,
+          "endTicks": 8128512000000
+        },
+        {
+          "objectId": "101",
+          "startTicks": 8128512000000,
+          "endTicks": 8382528000000
+        },
+        {
+          "objectId": "102",
+          "startTicks": 8382528000000,
+          "endTicks": 8636544000000
+        },
+        {
+          "objectId": "103",
+          "startTicks": 8636544000000,
+          "endTicks": 8890560000000
+        },
+        {
+          "objectId": "104",
+          "startTicks": 8890560000000,
+          "endTicks": 9144576000000
+        },
+        {
+          "objectId": "105",
+          "startTicks": 9144576000000,
+          "endTicks": 9398592000000
+        },
+        {
+          "objectId": "106",
+          "startTicks": 9398592000000,
+          "endTicks": 9652608000000
+        },
+        {
+          "objectId": "107",
+          "startTicks": 9652608000000,
+          "endTicks": 9906624000000
+        },
+        {
+          "objectId": "108",
+          "startTicks": 9906624000000,
+          "endTicks": 10160640000000
+        },
+        {
+          "objectId": "109",
+          "startTicks": 10160640000000,
+          "endTicks": 10414656000000
+        },
+        {
+          "objectId": "110",
+          "startTicks": 10414656000000,
+          "endTicks": 10668672000000
+        },
+        {
+          "objectId": "111",
+          "startTicks": 10668672000000,
+          "endTicks": 10922688000000
+        },
+        {
+          "objectId": "112",
+          "startTicks": 10922688000000,
+          "endTicks": 11176704000000
+        },
+        {
+          "objectId": "113",
+          "startTicks": 11176704000000,
+          "endTicks": 11430720000000
+        },
+        {
+          "objectId": "114",
+          "startTicks": 11430720000000,
+          "endTicks": 11684736000000
+        },
+        {
+          "objectId": "115",
+          "startTicks": 11684736000000,
+          "endTicks": 11938752000000
+        },
+        {
+          "objectId": "116",
+          "startTicks": 11938752000000,
+          "endTicks": 12192768000000
+        },
+        {
+          "objectId": "117",
+          "startTicks": 12192768000000,
+          "endTicks": 12446784000000
+        },
+        {
+          "objectId": "118",
+          "startTicks": 12446784000000,
+          "endTicks": 12700800000000
+        },
+        {
+          "objectId": "119",
+          "startTicks": 12700800000000,
+          "endTicks": 12954816000000
+        },
+        {
+          "objectId": "120",
+          "startTicks": 12954816000000,
+          "endTicks": 13208832000000
+        },
+        {
+          "objectId": "121",
+          "startTicks": 13208832000000,
+          "endTicks": 13462848000000
+        },
+        {
+          "objectId": "122",
+          "startTicks": 13462848000000,
+          "endTicks": 13716864000000
+        },
+        {
+          "objectId": "123",
+          "startTicks": 13716864000000,
+          "endTicks": 13970880000000
+        },
+        {
+          "objectId": "124",
+          "startTicks": 13970880000000,
+          "endTicks": 14224896000000
+        },
+        {
+          "objectId": "125",
+          "startTicks": 14224896000000,
+          "endTicks": 14478912000000
+        },
+        {
+          "objectId": "126",
+          "startTicks": 14478912000000,
+          "endTicks": 14732928000000
+        },
+        {
+          "objectId": "127",
+          "startTicks": 14732928000000,
+          "endTicks": 14986944000000
+        },
+        {
+          "objectId": "128",
+          "startTicks": 14986944000000,
+          "endTicks": 15240960000000
+        },
+        {
+          "objectId": "129",
+          "startTicks": 15240960000000,
+          "endTicks": 15494976000000
+        },
+        {
+          "objectId": "130",
+          "startTicks": 15494976000000,
+          "endTicks": 15748992000000
+        },
+        {
+          "objectId": "131",
+          "startTicks": 15748992000000,
+          "endTicks": 16003008000000
+        },
+        {
+          "objectId": "132",
+          "startTicks": 16003008000000,
+          "endTicks": 16257024000000
+        },
+        {
+          "objectId": "133",
+          "startTicks": 16257024000000,
+          "endTicks": 16511040000000
+        },
+        {
+          "objectId": "134",
+          "startTicks": 16511040000000,
+          "endTicks": 16765056000000
+        },
+        {
+          "objectId": "135",
+          "startTicks": 16765056000000,
+          "endTicks": 17019072000000
+        },
+        {
+          "objectId": "136",
+          "startTicks": 17019072000000,
+          "endTicks": 17273088000000
+        },
+        {
+          "objectId": "137",
+          "startTicks": 17273088000000,
+          "endTicks": 17527104000000
+        },
+        {
+          "objectId": "138",
+          "startTicks": 17527104000000,
+          "endTicks": 17781120000000
+        },
+        {
+          "objectId": "139",
+          "startTicks": 17781120000000,
+          "endTicks": 18035136000000
+        },
+        {
+          "objectId": "140",
+          "startTicks": 18035136000000,
+          "endTicks": 18289152000000
+        },
+        {
+          "objectId": "141",
+          "startTicks": 18289152000000,
+          "endTicks": 18543168000000
+        },
+        {
+          "objectId": "142",
+          "startTicks": 18543168000000,
+          "endTicks": 18797184000000
+        },
+        {
+          "objectId": "143",
+          "startTicks": 18797184000000,
+          "endTicks": 19051200000000
+        },
+        {
+          "objectId": "144",
+          "startTicks": 19051200000000,
+          "endTicks": 19305216000000
+        },
+        {
+          "objectId": "145",
+          "startTicks": 19305216000000,
+          "endTicks": 19559232000000
+        },
+        {
+          "objectId": "146",
+          "startTicks": 19559232000000,
+          "endTicks": 19813248000000
+        },
+        {
+          "objectId": "147",
+          "startTicks": 19813248000000,
+          "endTicks": 20067264000000
+        },
+        {
+          "objectId": "148",
+          "startTicks": 20067264000000,
+          "endTicks": 20321280000000
+        },
+        {
+          "objectId": "149",
+          "startTicks": 20321280000000,
+          "endTicks": 20575296000000
+        },
+        {
+          "objectId": "150",
+          "startTicks": 20575296000000,
+          "endTicks": 20829312000000
+        },
+        {
+          "objectId": "151",
+          "startTicks": 20829312000000,
+          "endTicks": 21083328000000
+        },
+        {
+          "objectId": "152",
+          "startTicks": 21083328000000,
+          "endTicks": 21337344000000
+        },
+        {
+          "objectId": "153",
+          "startTicks": 21337344000000,
+          "endTicks": 21591360000000
+        },
+        {
+          "objectId": "154",
+          "startTicks": 21591360000000,
+          "endTicks": 21845376000000
+        },
+        {
+          "objectId": "155",
+          "startTicks": 21845376000000,
+          "endTicks": 22099392000000
+        },
+        {
+          "objectId": "156",
+          "startTicks": 22099392000000,
+          "endTicks": 22353408000000
+        },
+        {
+          "objectId": "157",
+          "startTicks": 22353408000000,
+          "endTicks": 22607424000000
+        },
+        {
+          "objectId": "158",
+          "startTicks": 22607424000000,
+          "endTicks": 22861440000000
+        },
+        {
+          "objectId": "159",
+          "startTicks": 22861440000000,
+          "endTicks": 23115456000000
+        },
+        {
+          "objectId": "160",
+          "startTicks": 23115456000000,
+          "endTicks": 23369472000000
+        },
+        {
+          "objectId": "161",
+          "startTicks": 23369472000000,
+          "endTicks": 23623488000000
+        },
+        {
+          "objectId": "162",
+          "startTicks": 23623488000000,
+          "endTicks": 23877504000000
+        },
+        {
+          "objectId": "163",
+          "startTicks": 23877504000000,
+          "endTicks": 24131520000000
+        },
+        {
+          "objectId": "164",
+          "startTicks": 24131520000000,
+          "endTicks": 24385536000000
+        },
+        {
+          "objectId": "165",
+          "startTicks": 24385536000000,
+          "endTicks": 24639552000000
+        },
+        {
+          "objectId": "166",
+          "startTicks": 24639552000000,
+          "endTicks": 24893568000000
+        },
+        {
+          "objectId": "167",
+          "startTicks": 24893568000000,
+          "endTicks": 25147584000000
+        },
+        {
+          "objectId": "168",
+          "startTicks": 25147584000000,
+          "endTicks": 25401600000000
+        },
+        {
+          "objectId": "169",
+          "startTicks": 25401600000000,
+          "endTicks": 25655616000000
+        },
+        {
+          "objectId": "170",
+          "startTicks": 25655616000000,
+          "endTicks": 25909632000000
+        },
+        {
+          "objectId": "171",
+          "startTicks": 25909632000000,
+          "endTicks": 26163648000000
+        },
+        {
+          "objectId": "172",
+          "startTicks": 26163648000000,
+          "endTicks": 26417664000000
+        },
+        {
+          "objectId": "173",
+          "startTicks": 26417664000000,
+          "endTicks": 26671680000000
+        },
+        {
+          "objectId": "174",
+          "startTicks": 26671680000000,
+          "endTicks": 26925696000000
+        },
+        {
+          "objectId": "175",
+          "startTicks": 26925696000000,
+          "endTicks": 27179712000000
+        },
+        {
+          "objectId": "176",
+          "startTicks": 27179712000000,
+          "endTicks": 27433728000000
+        },
+        {
+          "objectId": "177",
+          "startTicks": 27433728000000,
+          "endTicks": 27687744000000
+        },
+        {
+          "objectId": "178",
+          "startTicks": 27687744000000,
+          "endTicks": 27941760000000
+        },
+        {
+          "objectId": "179",
+          "startTicks": 27941760000000,
+          "endTicks": 28195776000000
+        },
+        {
+          "objectId": "180",
+          "startTicks": 28195776000000,
+          "endTicks": 28449792000000
+        },
+        {
+          "objectId": "181",
+          "startTicks": 28449792000000,
+          "endTicks": 28703808000000
+        },
+        {
+          "objectId": "182",
+          "startTicks": 28703808000000,
+          "endTicks": 28957824000000
+        },
+        {
+          "objectId": "183",
+          "startTicks": 28957824000000,
+          "endTicks": 29211840000000
+        },
+        {
+          "objectId": "184",
+          "startTicks": 29211840000000,
+          "endTicks": 29465856000000
+        },
+        {
+          "objectId": "185",
+          "startTicks": 29465856000000,
+          "endTicks": 29719872000000
+        },
+        {
+          "objectId": "186",
+          "startTicks": 29719872000000,
+          "endTicks": 29973888000000
+        },
+        {
+          "objectId": "187",
+          "startTicks": 29973888000000,
+          "endTicks": 30227904000000
+        },
+        {
+          "objectId": "188",
+          "startTicks": 30227904000000,
+          "endTicks": 30481920000000
+        },
+        {
+          "objectId": "189",
+          "startTicks": 30481920000000,
+          "endTicks": 30735936000000
+        },
+        {
+          "objectId": "190",
+          "startTicks": 30735936000000,
+          "endTicks": 30989952000000
+        },
+        {
+          "objectId": "191",
+          "startTicks": 30989952000000,
+          "endTicks": 31243968000000
+        },
+        {
+          "objectId": "192",
+          "startTicks": 31243968000000,
+          "endTicks": 31497984000000
+        },
+        {
+          "objectId": "193",
+          "startTicks": 31497984000000,
+          "endTicks": 31752000000000
+        },
+        {
+          "objectId": "194",
+          "startTicks": 31752000000000,
+          "endTicks": 32006016000000
+        },
+        {
+          "objectId": "195",
+          "startTicks": 32006016000000,
+          "endTicks": 32260032000000
+        },
+        {
+          "objectId": "196",
+          "startTicks": 32260032000000,
+          "endTicks": 32514048000000
+        },
+        {
+          "objectId": "197",
+          "startTicks": 32514048000000,
+          "endTicks": 32768064000000
+        },
+        {
+          "objectId": "198",
+          "startTicks": 32768064000000,
+          "endTicks": 33022080000000
+        },
+        {
+          "objectId": "199",
+          "startTicks": 33022080000000,
+          "endTicks": 33276096000000
+        },
+        {
+          "objectId": "200",
+          "startTicks": 33276096000000,
+          "endTicks": 33530112000000
+        },
+        {
+          "objectId": "201",
+          "startTicks": 33530112000000,
+          "endTicks": 33784128000000
+        },
+        {
+          "objectId": "202",
+          "startTicks": 33784128000000,
+          "endTicks": 34038144000000
+        },
+        {
+          "objectId": "203",
+          "startTicks": 34038144000000,
+          "endTicks": 34292160000000
+        },
+        {
+          "objectId": "204",
+          "startTicks": 34292160000000,
+          "endTicks": 34546176000000
+        },
+        {
+          "objectId": "205",
+          "startTicks": 34546176000000,
+          "endTicks": 34800192000000
+        },
+        {
+          "objectId": "206",
+          "startTicks": 34800192000000,
+          "endTicks": 35054208000000
+        },
+        {
+          "objectId": "207",
+          "startTicks": 35054208000000,
+          "endTicks": 35308224000000
+        },
+        {
+          "objectId": "208",
+          "startTicks": 35308224000000,
+          "endTicks": 35562240000000
+        },
+        {
+          "objectId": "209",
+          "startTicks": 35562240000000,
+          "endTicks": 35816256000000
+        },
+        {
+          "objectId": "210",
+          "startTicks": 35816256000000,
+          "endTicks": 36070272000000
+        },
+        {
+          "objectId": "211",
+          "startTicks": 36070272000000,
+          "endTicks": 36324288000000
+        },
+        {
+          "objectId": "212",
+          "startTicks": 36324288000000,
+          "endTicks": 36578304000000
+        },
+        {
+          "objectId": "213",
+          "startTicks": 36578304000000,
+          "endTicks": 36832320000000
+        },
+        {
+          "objectId": "214",
+          "startTicks": 36832320000000,
+          "endTicks": 37086336000000
+        },
+        {
+          "objectId": "215",
+          "startTicks": 37086336000000,
+          "endTicks": 37340352000000
+        },
+        {
+          "objectId": "216",
+          "startTicks": 37340352000000,
+          "endTicks": 37594368000000
+        },
+        {
+          "objectId": "217",
+          "startTicks": 37594368000000,
+          "endTicks": 37848384000000
+        },
+        {
+          "objectId": "218",
+          "startTicks": 37848384000000,
+          "endTicks": 38102400000000
+        },
+        {
+          "objectId": "219",
+          "startTicks": 38102400000000,
+          "endTicks": 38356416000000
+        },
+        {
+          "objectId": "220",
+          "startTicks": 38356416000000,
+          "endTicks": 38610432000000
+        },
+        {
+          "objectId": "221",
+          "startTicks": 38610432000000,
+          "endTicks": 38864448000000
+        },
+        {
+          "objectId": "222",
+          "startTicks": 38864448000000,
+          "endTicks": 39118464000000
+        },
+        {
+          "objectId": "223",
+          "startTicks": 39118464000000,
+          "endTicks": 39372480000000
+        },
+        {
+          "objectId": "224",
+          "startTicks": 39372480000000,
+          "endTicks": 39626496000000
+        },
+        {
+          "objectId": "225",
+          "startTicks": 39626496000000,
+          "endTicks": 39880512000000
+        },
+        {
+          "objectId": "226",
+          "startTicks": 39880512000000,
+          "endTicks": 40134528000000
+        },
+        {
+          "objectId": "227",
+          "startTicks": 40134528000000,
+          "endTicks": 40388544000000
+        },
+        {
+          "objectId": "228",
+          "startTicks": 40388544000000,
+          "endTicks": 40642560000000
+        },
+        {
+          "objectId": "229",
+          "startTicks": 40642560000000,
+          "endTicks": 40896576000000
+        },
+        {
+          "objectId": "230",
+          "startTicks": 40896576000000,
+          "endTicks": 41150592000000
+        },
+        {
+          "objectId": "231",
+          "startTicks": 41150592000000,
+          "endTicks": 41404608000000
+        },
+        {
+          "objectId": "232",
+          "startTicks": 41404608000000,
+          "endTicks": 41658624000000
+        },
+        {
+          "objectId": "233",
+          "startTicks": 41658624000000,
+          "endTicks": 41912640000000
+        },
+        {
+          "objectId": "234",
+          "startTicks": 41912640000000,
+          "endTicks": 42166656000000
+        },
+        {
+          "objectId": "235",
+          "startTicks": 42166656000000,
+          "endTicks": 42420672000000
+        },
+        {
+          "objectId": "236",
+          "startTicks": 42420672000000,
+          "endTicks": 42674688000000
+        },
+        {
+          "objectId": "237",
+          "startTicks": 42674688000000,
+          "endTicks": 42928704000000
+        },
+        {
+          "objectId": "238",
+          "startTicks": 42928704000000,
+          "endTicks": 43182720000000
+        },
+        {
+          "objectId": "239",
+          "startTicks": 43182720000000,
+          "endTicks": 43436736000000
+        },
+        {
+          "objectId": "240",
+          "startTicks": 43436736000000,
+          "endTicks": 43690752000000
+        },
+        {
+          "objectId": "241",
+          "startTicks": 43690752000000,
+          "endTicks": 43944768000000
+        },
+        {
+          "objectId": "242",
+          "startTicks": 43944768000000,
+          "endTicks": 44198784000000
+        },
+        {
+          "objectId": "243",
+          "startTicks": 44198784000000,
+          "endTicks": 44452800000000
+        },
+        {
+          "objectId": "244",
+          "startTicks": 44452800000000,
+          "endTicks": 44706816000000
+        },
+        {
+          "objectId": "245",
+          "startTicks": 44706816000000,
+          "endTicks": 44960832000000
+        },
+        {
+          "objectId": "246",
+          "startTicks": 44960832000000,
+          "endTicks": 45214848000000
+        },
+        {
+          "objectId": "247",
+          "startTicks": 45214848000000,
+          "endTicks": 45468864000000
+        },
+        {
+          "objectId": "248",
+          "startTicks": 45468864000000,
+          "endTicks": 45722880000000
+        },
+        {
+          "objectId": "249",
+          "startTicks": 45722880000000,
+          "endTicks": 45976896000000
+        },
+        {
+          "objectId": "250",
+          "startTicks": 45976896000000,
+          "endTicks": 46230912000000
+        },
+        {
+          "objectId": "251",
+          "startTicks": 46230912000000,
+          "endTicks": 46484928000000
+        },
+        {
+          "objectId": "252",
+          "startTicks": 46484928000000,
+          "endTicks": 46738944000000
+        },
+        {
+          "objectId": "253",
+          "startTicks": 46738944000000,
+          "endTicks": 46992960000000
+        },
+        {
+          "objectId": "254",
+          "startTicks": 46992960000000,
+          "endTicks": 47246976000000
+        },
+        {
+          "objectId": "255",
+          "startTicks": 47246976000000,
+          "endTicks": 47500992000000
+        },
+        {
+          "objectId": "256",
+          "startTicks": 47500992000000,
+          "endTicks": 47755008000000
+        },
+        {
+          "objectId": "257",
+          "startTicks": 47755008000000,
+          "endTicks": 48009024000000
+        },
+        {
+          "objectId": "258",
+          "startTicks": 48009024000000,
+          "endTicks": 48263040000000
+        },
+        {
+          "objectId": "259",
+          "startTicks": 48263040000000,
+          "endTicks": 48517056000000
+        },
+        {
+          "objectId": "260",
+          "startTicks": 48517056000000,
+          "endTicks": 48771072000000
+        },
+        {
+          "objectId": "261",
+          "startTicks": 48771072000000,
+          "endTicks": 49025088000000
+        },
+        {
+          "objectId": "262",
+          "startTicks": 49025088000000,
+          "endTicks": 49279104000000
+        },
+        {
+          "objectId": "263",
+          "startTicks": 49279104000000,
+          "endTicks": 49533120000000
+        },
+        {
+          "objectId": "264",
+          "startTicks": 49533120000000,
+          "endTicks": 49787136000000
+        },
+        {
+          "objectId": "265",
+          "startTicks": 49787136000000,
+          "endTicks": 50041152000000
+        },
+        {
+          "objectId": "266",
+          "startTicks": 50041152000000,
+          "endTicks": 50295168000000
+        },
+        {
+          "objectId": "267",
+          "startTicks": 50295168000000,
+          "endTicks": 50549184000000
+        },
+        {
+          "objectId": "268",
+          "startTicks": 50549184000000,
+          "endTicks": 50803200000000
+        },
+        {
+          "objectId": "269",
+          "startTicks": 50803200000000,
+          "endTicks": 51057216000000
+        },
+        {
+          "objectId": "270",
+          "startTicks": 51057216000000,
+          "endTicks": 51311232000000
+        },
+        {
+          "objectId": "271",
+          "startTicks": 51311232000000,
+          "endTicks": 51565248000000
+        },
+        {
+          "objectId": "272",
+          "startTicks": 51565248000000,
+          "endTicks": 51819264000000
+        },
+        {
+          "objectId": "273",
+          "startTicks": 51819264000000,
+          "endTicks": 52073280000000
+        },
+        {
+          "objectId": "274",
+          "startTicks": 52073280000000,
+          "endTicks": 52327296000000
+        },
+        {
+          "objectId": "275",
+          "startTicks": 52327296000000,
+          "endTicks": 52581312000000
+        },
+        {
+          "objectId": "276",
+          "startTicks": 52581312000000,
+          "endTicks": 52835328000000
+        },
+        {
+          "objectId": "277",
+          "startTicks": 52835328000000,
+          "endTicks": 53089344000000
+        },
+        {
+          "objectId": "278",
+          "startTicks": 53089344000000,
+          "endTicks": 53343360000000
+        },
+        {
+          "objectId": "279",
+          "startTicks": 53343360000000,
+          "endTicks": 53597376000000
+        },
+        {
+          "objectId": "280",
+          "startTicks": 53597376000000,
+          "endTicks": 53851392000000
+        },
+        {
+          "objectId": "281",
+          "startTicks": 53851392000000,
+          "endTicks": 54105408000000
+        },
+        {
+          "objectId": "282",
+          "startTicks": 54105408000000,
+          "endTicks": 54359424000000
+        },
+        {
+          "objectId": "283",
+          "startTicks": 54359424000000,
+          "endTicks": 54613440000000
+        },
+        {
+          "objectId": "284",
+          "startTicks": 54613440000000,
+          "endTicks": 54867456000000
+        },
+        {
+          "objectId": "285",
+          "startTicks": 54867456000000,
+          "endTicks": 55121472000000
+        },
+        {
+          "objectId": "286",
+          "startTicks": 55121472000000,
+          "endTicks": 55375488000000
+        },
+        {
+          "objectId": "287",
+          "startTicks": 55375488000000,
+          "endTicks": 55629504000000
+        },
+        {
+          "objectId": "288",
+          "startTicks": 55629504000000,
+          "endTicks": 55883520000000
+        },
+        {
+          "objectId": "289",
+          "startTicks": 55883520000000,
+          "endTicks": 56137536000000
+        },
+        {
+          "objectId": "290",
+          "startTicks": 56137536000000,
+          "endTicks": 56391552000000
+        },
+        {
+          "objectId": "291",
+          "startTicks": 56391552000000,
+          "endTicks": 56645568000000
+        },
+        {
+          "objectId": "292",
+          "startTicks": 56645568000000,
+          "endTicks": 56899584000000
+        },
+        {
+          "objectId": "293",
+          "startTicks": 56899584000000,
+          "endTicks": 57153600000000
+        },
+        {
+          "objectId": "294",
+          "startTicks": 57153600000000,
+          "endTicks": 57407616000000
+        },
+        {
+          "objectId": "295",
+          "startTicks": 57407616000000,
+          "endTicks": 57661632000000
+        },
+        {
+          "objectId": "296",
+          "startTicks": 57661632000000,
+          "endTicks": 57915648000000
+        },
+        {
+          "objectId": "297",
+          "startTicks": 57915648000000,
+          "endTicks": 58169664000000
+        },
+        {
+          "objectId": "298",
+          "startTicks": 58169664000000,
+          "endTicks": 58423680000000
+        },
+        {
+          "objectId": "299",
+          "startTicks": 58423680000000,
+          "endTicks": 58677696000000
+        },
+        {
+          "objectId": "300",
+          "startTicks": 58677696000000,
+          "endTicks": 58931712000000
+        },
+        {
+          "objectId": "301",
+          "startTicks": 58931712000000,
+          "endTicks": 59185728000000
+        },
+        {
+          "objectId": "302",
+          "startTicks": 59185728000000,
+          "endTicks": 59439744000000
+        },
+        {
+          "objectId": "303",
+          "startTicks": 59439744000000,
+          "endTicks": 59693760000000
+        },
+        {
+          "objectId": "304",
+          "startTicks": 59693760000000,
+          "endTicks": 59947776000000
+        },
+        {
+          "objectId": "305",
+          "startTicks": 59947776000000,
+          "endTicks": 60201792000000
+        },
+        {
+          "objectId": "306",
+          "startTicks": 60201792000000,
+          "endTicks": 60455808000000
+        },
+        {
+          "objectId": "307",
+          "startTicks": 60455808000000,
+          "endTicks": 60709824000000
+        },
+        {
+          "objectId": "308",
+          "startTicks": 60709824000000,
+          "endTicks": 60963840000000
+        },
+        {
+          "objectId": "309",
+          "startTicks": 60963840000000,
+          "endTicks": 61217856000000
+        },
+        {
+          "objectId": "310",
+          "startTicks": 61217856000000,
+          "endTicks": 61471872000000
+        },
+        {
+          "objectId": "311",
+          "startTicks": 61471872000000,
+          "endTicks": 61725888000000
+        },
+        {
+          "objectId": "312",
+          "startTicks": 61725888000000,
+          "endTicks": 61979904000000
+        },
+        {
+          "objectId": "313",
+          "startTicks": 61979904000000,
+          "endTicks": 62233920000000
+        },
+        {
+          "objectId": "314",
+          "startTicks": 62233920000000,
+          "endTicks": 62487936000000
+        },
+        {
+          "objectId": "315",
+          "startTicks": 62487936000000,
+          "endTicks": 62741952000000
+        },
+        {
+          "objectId": "316",
+          "startTicks": 62741952000000,
+          "endTicks": 62995968000000
+        },
+        {
+          "objectId": "317",
+          "startTicks": 62995968000000,
+          "endTicks": 63249984000000
+        },
+        {
+          "objectId": "318",
+          "startTicks": 63249984000000,
+          "endTicks": 63504000000000
+        },
+        {
+          "objectId": "319",
+          "startTicks": 63504000000000,
+          "endTicks": 63758016000000
+        },
+        {
+          "objectId": "320",
+          "startTicks": 63758016000000,
+          "endTicks": 64012032000000
+        },
+        {
+          "objectId": "321",
+          "startTicks": 64012032000000,
+          "endTicks": 64266048000000
+        },
+        {
+          "objectId": "322",
+          "startTicks": 64266048000000,
+          "endTicks": 64520064000000
+        },
+        {
+          "objectId": "323",
+          "startTicks": 64520064000000,
+          "endTicks": 64774080000000
+        },
+        {
+          "objectId": "324",
+          "startTicks": 64774080000000,
+          "endTicks": 65028096000000
+        },
+        {
+          "objectId": "325",
+          "startTicks": 65028096000000,
+          "endTicks": 65282112000000
+        },
+        {
+          "objectId": "326",
+          "startTicks": 65282112000000,
+          "endTicks": 65536128000000
+        },
+        {
+          "objectId": "327",
+          "startTicks": 65536128000000,
+          "endTicks": 65790144000000
+        },
+        {
+          "objectId": "328",
+          "startTicks": 65790144000000,
+          "endTicks": 66044160000000
+        },
+        {
+          "objectId": "329",
+          "startTicks": 66044160000000,
+          "endTicks": 66298176000000
+        },
+        {
+          "objectId": "330",
+          "startTicks": 66298176000000,
+          "endTicks": 66552192000000
+        },
+        {
+          "objectId": "331",
+          "startTicks": 66552192000000,
+          "endTicks": 66806208000000
+        },
+        {
+          "objectId": "332",
+          "startTicks": 66806208000000,
+          "endTicks": 67060224000000
+        },
+        {
+          "objectId": "333",
+          "startTicks": 67060224000000,
+          "endTicks": 67314240000000
+        },
+        {
+          "objectId": "334",
+          "startTicks": 67314240000000,
+          "endTicks": 67568256000000
+        },
+        {
+          "objectId": "335",
+          "startTicks": 67568256000000,
+          "endTicks": 67822272000000
+        },
+        {
+          "objectId": "336",
+          "startTicks": 67822272000000,
+          "endTicks": 68076288000000
+        },
+        {
+          "objectId": "337",
+          "startTicks": 68076288000000,
+          "endTicks": 68330304000000
+        },
+        {
+          "objectId": "338",
+          "startTicks": 68330304000000,
+          "endTicks": 68584320000000
+        },
+        {
+          "objectId": "339",
+          "startTicks": 68584320000000,
+          "endTicks": 68838336000000
+        },
+        {
+          "objectId": "340",
+          "startTicks": 68838336000000,
+          "endTicks": 69092352000000
+        },
+        {
+          "objectId": "341",
+          "startTicks": 69092352000000,
+          "endTicks": 69346368000000
+        },
+        {
+          "objectId": "342",
+          "startTicks": 69346368000000,
+          "endTicks": 69600384000000
+        },
+        {
+          "objectId": "343",
+          "startTicks": 69600384000000,
+          "endTicks": 69854400000000
+        },
+        {
+          "objectId": "344",
+          "startTicks": 69854400000000,
+          "endTicks": 70108416000000
+        },
+        {
+          "objectId": "345",
+          "startTicks": 70108416000000,
+          "endTicks": 70362432000000
+        },
+        {
+          "objectId": "346",
+          "startTicks": 70362432000000,
+          "endTicks": 70616448000000
+        },
+        {
+          "objectId": "347",
+          "startTicks": 70616448000000,
+          "endTicks": 70870464000000
+        },
+        {
+          "objectId": "348",
+          "startTicks": 70870464000000,
+          "endTicks": 71124480000000
+        },
+        {
+          "objectId": "349",
+          "startTicks": 71124480000000,
+          "endTicks": 71378496000000
+        },
+        {
+          "objectId": "350",
+          "startTicks": 71378496000000,
+          "endTicks": 71632512000000
+        },
+        {
+          "objectId": "351",
+          "startTicks": 71632512000000,
+          "endTicks": 71886528000000
+        },
+        {
+          "objectId": "352",
+          "startTicks": 71886528000000,
+          "endTicks": 72140544000000
+        },
+        {
+          "objectId": "353",
+          "startTicks": 72140544000000,
+          "endTicks": 72394560000000
+        },
+        {
+          "objectId": "354",
+          "startTicks": 72394560000000,
+          "endTicks": 72648576000000
+        },
+        {
+          "objectId": "355",
+          "startTicks": 72648576000000,
+          "endTicks": 72902592000000
+        },
+        {
+          "objectId": "356",
+          "startTicks": 72902592000000,
+          "endTicks": 73156608000000
+        },
+        {
+          "objectId": "357",
+          "startTicks": 73156608000000,
+          "endTicks": 73410624000000
+        },
+        {
+          "objectId": "358",
+          "startTicks": 73410624000000,
+          "endTicks": 73664640000000
+        },
+        {
+          "objectId": "359",
+          "startTicks": 73664640000000,
+          "endTicks": 73918656000000
+        },
+        {
+          "objectId": "360",
+          "startTicks": 73918656000000,
+          "endTicks": 74172672000000
+        },
+        {
+          "objectId": "361",
+          "startTicks": 74172672000000,
+          "endTicks": 74426688000000
+        },
+        {
+          "objectId": "362",
+          "startTicks": 74426688000000,
+          "endTicks": 74680704000000
+        },
+        {
+          "objectId": "363",
+          "startTicks": 74680704000000,
+          "endTicks": 74934720000000
+        },
+        {
+          "objectId": "364",
+          "startTicks": 74934720000000,
+          "endTicks": 75188736000000
+        },
+        {
+          "objectId": "365",
+          "startTicks": 75188736000000,
+          "endTicks": 75442752000000
+        },
+        {
+          "objectId": "366",
+          "startTicks": 75442752000000,
+          "endTicks": 75696768000000
+        },
+        {
+          "objectId": "367",
+          "startTicks": 75696768000000,
+          "endTicks": 75950784000000
+        },
+        {
+          "objectId": "368",
+          "startTicks": 75950784000000,
+          "endTicks": 76204800000000
+        },
+        {
+          "objectId": "369",
+          "startTicks": 76204800000000,
+          "endTicks": 76458816000000
+        },
+        {
+          "objectId": "370",
+          "startTicks": 76458816000000,
+          "endTicks": 76712832000000
+        },
+        {
+          "objectId": "371",
+          "startTicks": 76712832000000,
+          "endTicks": 76966848000000
+        },
+        {
+          "objectId": "372",
+          "startTicks": 76966848000000,
+          "endTicks": 77220864000000
+        },
+        {
+          "objectId": "373",
+          "startTicks": 77220864000000,
+          "endTicks": 77474880000000
+        },
+        {
+          "objectId": "374",
+          "startTicks": 77474880000000,
+          "endTicks": 77728896000000
+        },
+        {
+          "objectId": "375",
+          "startTicks": 77728896000000,
+          "endTicks": 77982912000000
+        },
+        {
+          "objectId": "376",
+          "startTicks": 77982912000000,
+          "endTicks": 78236928000000
+        },
+        {
+          "objectId": "377",
+          "startTicks": 78236928000000,
+          "endTicks": 78490944000000
+        },
+        {
+          "objectId": "378",
+          "startTicks": 78490944000000,
+          "endTicks": 78744960000000
+        },
+        {
+          "objectId": "379",
+          "startTicks": 78744960000000,
+          "endTicks": 78998976000000
+        },
+        {
+          "objectId": "380",
+          "startTicks": 78998976000000,
+          "endTicks": 79252992000000
+        },
+        {
+          "objectId": "381",
+          "startTicks": 79252992000000,
+          "endTicks": 79507008000000
+        },
+        {
+          "objectId": "382",
+          "startTicks": 79507008000000,
+          "endTicks": 79761024000000
+        },
+        {
+          "objectId": "383",
+          "startTicks": 79761024000000,
+          "endTicks": 80015040000000
+        },
+        {
+          "objectId": "384",
+          "startTicks": 80015040000000,
+          "endTicks": 80269056000000
+        },
+        {
+          "objectId": "385",
+          "startTicks": 80269056000000,
+          "endTicks": 80523072000000
+        },
+        {
+          "objectId": "386",
+          "startTicks": 80523072000000,
+          "endTicks": 80777088000000
+        },
+        {
+          "objectId": "387",
+          "startTicks": 80777088000000,
+          "endTicks": 81031104000000
+        },
+        {
+          "objectId": "388",
+          "startTicks": 81031104000000,
+          "endTicks": 81285120000000
+        },
+        {
+          "objectId": "389",
+          "startTicks": 81285120000000,
+          "endTicks": 81539136000000
+        },
+        {
+          "objectId": "390",
+          "startTicks": 81539136000000,
+          "endTicks": 81793152000000
+        },
+        {
+          "objectId": "391",
+          "startTicks": 81793152000000,
+          "endTicks": 82047168000000
+        },
+        {
+          "objectId": "392",
+          "startTicks": 82047168000000,
+          "endTicks": 82301184000000
+        },
+        {
+          "objectId": "393",
+          "startTicks": 82301184000000,
+          "endTicks": 82555200000000
+        },
+        {
+          "objectId": "394",
+          "startTicks": 82555200000000,
+          "endTicks": 82809216000000
+        },
+        {
+          "objectId": "395",
+          "startTicks": 82809216000000,
+          "endTicks": 83063232000000
+        },
+        {
+          "objectId": "396",
+          "startTicks": 83063232000000,
+          "endTicks": 83317248000000
+        },
+        {
+          "objectId": "397",
+          "startTicks": 83317248000000,
+          "endTicks": 83571264000000
+        },
+        {
+          "objectId": "398",
+          "startTicks": 83571264000000,
+          "endTicks": 83825280000000
+        },
+        {
+          "objectId": "399",
+          "startTicks": 83825280000000,
+          "endTicks": 84079296000000
+        },
+        {
+          "objectId": "400",
+          "startTicks": 84079296000000,
+          "endTicks": 84333312000000
+        },
+        {
+          "objectId": "401",
+          "startTicks": 84333312000000,
+          "endTicks": 84587328000000
+        },
+        {
+          "objectId": "402",
+          "startTicks": 84587328000000,
+          "endTicks": 84841344000000
+        },
+        {
+          "objectId": "403",
+          "startTicks": 84841344000000,
+          "endTicks": 85095360000000
+        },
+        {
+          "objectId": "404",
+          "startTicks": 85095360000000,
+          "endTicks": 85349376000000
+        },
+        {
+          "objectId": "405",
+          "startTicks": 85349376000000,
+          "endTicks": 85603392000000
+        },
+        {
+          "objectId": "406",
+          "startTicks": 85603392000000,
+          "endTicks": 85857408000000
+        },
+        {
+          "objectId": "407",
+          "startTicks": 85857408000000,
+          "endTicks": 86111424000000
+        },
+        {
+          "objectId": "408",
+          "startTicks": 86111424000000,
+          "endTicks": 86365440000000
+        },
+        {
+          "objectId": "409",
+          "startTicks": 86365440000000,
+          "endTicks": 86619456000000
+        },
+        {
+          "objectId": "410",
+          "startTicks": 86619456000000,
+          "endTicks": 86873472000000
+        },
+        {
+          "objectId": "411",
+          "startTicks": 86873472000000,
+          "endTicks": 87127488000000
+        },
+        {
+          "objectId": "412",
+          "startTicks": 87127488000000,
+          "endTicks": 87381504000000
+        },
+        {
+          "objectId": "413",
+          "startTicks": 87381504000000,
+          "endTicks": 87635520000000
+        },
+        {
+          "objectId": "414",
+          "startTicks": 87635520000000,
+          "endTicks": 87889536000000
+        },
+        {
+          "objectId": "415",
+          "startTicks": 87889536000000,
+          "endTicks": 88143552000000
+        },
+        {
+          "objectId": "416",
+          "startTicks": 88143552000000,
+          "endTicks": 88397568000000
+        },
+        {
+          "objectId": "417",
+          "startTicks": 88397568000000,
+          "endTicks": 88651584000000
+        },
+        {
+          "objectId": "418",
+          "startTicks": 88651584000000,
+          "endTicks": 88905600000000
+        },
+        {
+          "objectId": "419",
+          "startTicks": 88905600000000,
+          "endTicks": 89159616000000
+        },
+        {
+          "objectId": "420",
+          "startTicks": 89159616000000,
+          "endTicks": 89413632000000
+        },
+        {
+          "objectId": "421",
+          "startTicks": 89413632000000,
+          "endTicks": 89667648000000
+        },
+        {
+          "objectId": "422",
+          "startTicks": 89667648000000,
+          "endTicks": 89921664000000
+        },
+        {
+          "objectId": "423",
+          "startTicks": 89921664000000,
+          "endTicks": 90175680000000
+        },
+        {
+          "objectId": "424",
+          "startTicks": 90175680000000,
+          "endTicks": 90429696000000
+        },
+        {
+          "objectId": "425",
+          "startTicks": 90429696000000,
+          "endTicks": 90683712000000
+        },
+        {
+          "objectId": "426",
+          "startTicks": 90683712000000,
+          "endTicks": 90937728000000
+        },
+        {
+          "objectId": "427",
+          "startTicks": 90937728000000,
+          "endTicks": 91191744000000
+        },
+        {
+          "objectId": "428",
+          "startTicks": 91191744000000,
+          "endTicks": 91445760000000
+        },
+        {
+          "objectId": "429",
+          "startTicks": 91445760000000,
+          "endTicks": 91699776000000
+        },
+        {
+          "objectId": "430",
+          "startTicks": 91699776000000,
+          "endTicks": 91953792000000
+        },
+        {
+          "objectId": "431",
+          "startTicks": 91953792000000,
+          "endTicks": 92207808000000
+        },
+        {
+          "objectId": "432",
+          "startTicks": 92207808000000,
+          "endTicks": 92461824000000
+        },
+        {
+          "objectId": "433",
+          "startTicks": 92461824000000,
+          "endTicks": 92715840000000
+        },
+        {
+          "objectId": "434",
+          "startTicks": 92715840000000,
+          "endTicks": 92969856000000
+        },
+        {
+          "objectId": "435",
+          "startTicks": 92969856000000,
+          "endTicks": 93223872000000
+        },
+        {
+          "objectId": "436",
+          "startTicks": 93223872000000,
+          "endTicks": 93477888000000
+        },
+        {
+          "objectId": "437",
+          "startTicks": 93477888000000,
+          "endTicks": 93731904000000
+        },
+        {
+          "objectId": "438",
+          "startTicks": 93731904000000,
+          "endTicks": 93985920000000
+        },
+        {
+          "objectId": "439",
+          "startTicks": 93985920000000,
+          "endTicks": 94239936000000
+        },
+        {
+          "objectId": "440",
+          "startTicks": 94239936000000,
+          "endTicks": 94493952000000
+        },
+        {
+          "objectId": "441",
+          "startTicks": 94493952000000,
+          "endTicks": 94747968000000
+        },
+        {
+          "objectId": "442",
+          "startTicks": 94747968000000,
+          "endTicks": 95001984000000
+        },
+        {
+          "objectId": "443",
+          "startTicks": 95001984000000,
+          "endTicks": 95256000000000
+        },
+        {
+          "objectId": "444",
+          "startTicks": 95256000000000,
+          "endTicks": 95510016000000
+        },
+        {
+          "objectId": "445",
+          "startTicks": 95510016000000,
+          "endTicks": 95764032000000
+        },
+        {
+          "objectId": "446",
+          "startTicks": 95764032000000,
+          "endTicks": 96018048000000
+        },
+        {
+          "objectId": "447",
+          "startTicks": 96018048000000,
+          "endTicks": 96272064000000
+        },
+        {
+          "objectId": "448",
+          "startTicks": 96272064000000,
+          "endTicks": 96526080000000
+        },
+        {
+          "objectId": "449",
+          "startTicks": 96526080000000,
+          "endTicks": 96780096000000
+        },
+        {
+          "objectId": "450",
+          "startTicks": 96780096000000,
+          "endTicks": 97034112000000
+        },
+        {
+          "objectId": "451",
+          "startTicks": 97034112000000,
+          "endTicks": 97288128000000
+        },
+        {
+          "objectId": "452",
+          "startTicks": 97288128000000,
+          "endTicks": 97542144000000
+        },
+        {
+          "objectId": "453",
+          "startTicks": 97542144000000,
+          "endTicks": 97796160000000
+        },
+        {
+          "objectId": "454",
+          "startTicks": 97796160000000,
+          "endTicks": 98050176000000
+        },
+        {
+          "objectId": "455",
+          "startTicks": 98050176000000,
+          "endTicks": 98304192000000
+        },
+        {
+          "objectId": "456",
+          "startTicks": 98304192000000,
+          "endTicks": 98558208000000
+        },
+        {
+          "objectId": "457",
+          "startTicks": 98558208000000,
+          "endTicks": 98812224000000
+        },
+        {
+          "objectId": "458",
+          "startTicks": 98812224000000,
+          "endTicks": 99066240000000
+        },
+        {
+          "objectId": "459",
+          "startTicks": 99066240000000,
+          "endTicks": 99320256000000
+        },
+        {
+          "objectId": "460",
+          "startTicks": 99320256000000,
+          "endTicks": 99574272000000
+        },
+        {
+          "objectId": "461",
+          "startTicks": 99574272000000,
+          "endTicks": 99828288000000
+        },
+        {
+          "objectId": "462",
+          "startTicks": 99828288000000,
+          "endTicks": 100082304000000
+        },
+        {
+          "objectId": "463",
+          "startTicks": 100082304000000,
+          "endTicks": 100336320000000
+        },
+        {
+          "objectId": "464",
+          "startTicks": 100336320000000,
+          "endTicks": 100590336000000
+        },
+        {
+          "objectId": "465",
+          "startTicks": 100590336000000,
+          "endTicks": 100844352000000
+        },
+        {
+          "objectId": "466",
+          "startTicks": 100844352000000,
+          "endTicks": 101098368000000
+        },
+        {
+          "objectId": "467",
+          "startTicks": 101098368000000,
+          "endTicks": 101352384000000
+        },
+        {
+          "objectId": "468",
+          "startTicks": 101352384000000,
+          "endTicks": 101606400000000
+        },
+        {
+          "objectId": "469",
+          "startTicks": 101606400000000,
+          "endTicks": 101860416000000
+        },
+        {
+          "objectId": "470",
+          "startTicks": 101860416000000,
+          "endTicks": 102114432000000
+        },
+        {
+          "objectId": "471",
+          "startTicks": 102114432000000,
+          "endTicks": 102368448000000
+        },
+        {
+          "objectId": "472",
+          "startTicks": 102368448000000,
+          "endTicks": 102622464000000
+        },
+        {
+          "objectId": "473",
+          "startTicks": 102622464000000,
+          "endTicks": 102876480000000
+        },
+        {
+          "objectId": "474",
+          "startTicks": 102876480000000,
+          "endTicks": 103130496000000
+        },
+        {
+          "objectId": "475",
+          "startTicks": 103130496000000,
+          "endTicks": 103384512000000
+        },
+        {
+          "objectId": "476",
+          "startTicks": 103384512000000,
+          "endTicks": 103638528000000
+        },
+        {
+          "objectId": "477",
+          "startTicks": 103638528000000,
+          "endTicks": 103892544000000
+        },
+        {
+          "objectId": "478",
+          "startTicks": 103892544000000,
+          "endTicks": 104146560000000
+        },
+        {
+          "objectId": "479",
+          "startTicks": 104146560000000,
+          "endTicks": 104400576000000
+        },
+        {
+          "objectId": "480",
+          "startTicks": 104400576000000,
+          "endTicks": 104654592000000
+        },
+        {
+          "objectId": "481",
+          "startTicks": 104654592000000,
+          "endTicks": 104908608000000
+        },
+        {
+          "objectId": "482",
+          "startTicks": 104908608000000,
+          "endTicks": 105162624000000
+        },
+        {
+          "objectId": "483",
+          "startTicks": 105162624000000,
+          "endTicks": 105416640000000
+        },
+        {
+          "objectId": "484",
+          "startTicks": 105416640000000,
+          "endTicks": 105670656000000
+        },
+        {
+          "objectId": "485",
+          "startTicks": 105670656000000,
+          "endTicks": 105924672000000
+        },
+        {
+          "objectId": "486",
+          "startTicks": 105924672000000,
+          "endTicks": 106178688000000
+        },
+        {
+          "objectId": "487",
+          "startTicks": 106178688000000,
+          "endTicks": 106432704000000
+        },
+        {
+          "objectId": "488",
+          "startTicks": 106432704000000,
+          "endTicks": 106686720000000
+        },
+        {
+          "objectId": "489",
+          "startTicks": 106686720000000,
+          "endTicks": 106940736000000
+        },
+        {
+          "objectId": "490",
+          "startTicks": 106940736000000,
+          "endTicks": 107194752000000
+        },
+        {
+          "objectId": "491",
+          "startTicks": 107194752000000,
+          "endTicks": 107448768000000
+        },
+        {
+          "objectId": "492",
+          "startTicks": 107448768000000,
+          "endTicks": 107702784000000
+        },
+        {
+          "objectId": "493",
+          "startTicks": 107702784000000,
+          "endTicks": 107956800000000
+        },
+        {
+          "objectId": "494",
+          "startTicks": 107956800000000,
+          "endTicks": 108210816000000
+        },
+        {
+          "objectId": "495",
+          "startTicks": 108210816000000,
+          "endTicks": 108464832000000
+        },
+        {
+          "objectId": "496",
+          "startTicks": 108464832000000,
+          "endTicks": 108718848000000
+        },
+        {
+          "objectId": "497",
+          "startTicks": 108718848000000,
+          "endTicks": 108972864000000
+        },
+        {
+          "objectId": "498",
+          "startTicks": 108972864000000,
+          "endTicks": 109226880000000
+        },
+        {
+          "objectId": "499",
+          "startTicks": 109226880000000,
+          "endTicks": 109480896000000
+        },
+        {
+          "objectId": "500",
+          "startTicks": 109480896000000,
+          "endTicks": 109734912000000
+        },
+        {
+          "objectId": "501",
+          "startTicks": 109734912000000,
+          "endTicks": 109988928000000
+        },
+        {
+          "objectId": "502",
+          "startTicks": 109988928000000,
+          "endTicks": 110242944000000
+        },
+        {
+          "objectId": "503",
+          "startTicks": 110242944000000,
+          "endTicks": 110496960000000
+        },
+        {
+          "objectId": "504",
+          "startTicks": 110496960000000,
+          "endTicks": 110750976000000
+        },
+        {
+          "objectId": "505",
+          "startTicks": 110750976000000,
+          "endTicks": 111004992000000
+        },
+        {
+          "objectId": "506",
+          "startTicks": 111004992000000,
+          "endTicks": 111259008000000
+        },
+        {
+          "objectId": "507",
+          "startTicks": 111259008000000,
+          "endTicks": 111513024000000
+        },
+        {
+          "objectId": "508",
+          "startTicks": 111513024000000,
+          "endTicks": 111767040000000
+        },
+        {
+          "objectId": "509",
+          "startTicks": 111767040000000,
+          "endTicks": 112021056000000
+        },
+        {
+          "objectId": "510",
+          "startTicks": 112021056000000,
+          "endTicks": 112275072000000
+        },
+        {
+          "objectId": "511",
+          "startTicks": 112275072000000,
+          "endTicks": 112529088000000
+        },
+        {
+          "objectId": "512",
+          "startTicks": 112529088000000,
+          "endTicks": 112783104000000
+        },
+        {
+          "objectId": "513",
+          "startTicks": 112783104000000,
+          "endTicks": 113037120000000
+        },
+        {
+          "objectId": "514",
+          "startTicks": 113037120000000,
+          "endTicks": 113291136000000
+        },
+        {
+          "objectId": "515",
+          "startTicks": 113291136000000,
+          "endTicks": 113545152000000
+        },
+        {
+          "objectId": "516",
+          "startTicks": 113545152000000,
+          "endTicks": 113799168000000
+        },
+        {
+          "objectId": "517",
+          "startTicks": 113799168000000,
+          "endTicks": 114053184000000
+        },
+        {
+          "objectId": "518",
+          "startTicks": 114053184000000,
+          "endTicks": 114307200000000
+        },
+        {
+          "objectId": "519",
+          "startTicks": 114307200000000,
+          "endTicks": 114561216000000
+        },
+        {
+          "objectId": "520",
+          "startTicks": 114561216000000,
+          "endTicks": 114815232000000
+        },
+        {
+          "objectId": "521",
+          "startTicks": 114815232000000,
+          "endTicks": 115069248000000
+        },
+        {
+          "objectId": "522",
+          "startTicks": 115069248000000,
+          "endTicks": 115323264000000
+        },
+        {
+          "objectId": "523",
+          "startTicks": 115323264000000,
+          "endTicks": 115577280000000
+        },
+        {
+          "objectId": "524",
+          "startTicks": 115577280000000,
+          "endTicks": 115831296000000
+        },
+        {
+          "objectId": "525",
+          "startTicks": 115831296000000,
+          "endTicks": 116085312000000
+        },
+        {
+          "objectId": "526",
+          "startTicks": 116085312000000,
+          "endTicks": 116339328000000
+        },
+        {
+          "objectId": "527",
+          "startTicks": 116339328000000,
+          "endTicks": 116593344000000
+        },
+        {
+          "objectId": "528",
+          "startTicks": 116593344000000,
+          "endTicks": 116847360000000
+        },
+        {
+          "objectId": "529",
+          "startTicks": 116847360000000,
+          "endTicks": 117101376000000
+        },
+        {
+          "objectId": "530",
+          "startTicks": 117101376000000,
+          "endTicks": 117355392000000
+        },
+        {
+          "objectId": "531",
+          "startTicks": 117355392000000,
+          "endTicks": 117609408000000
+        },
+        {
+          "objectId": "532",
+          "startTicks": 117609408000000,
+          "endTicks": 117863424000000
+        },
+        {
+          "objectId": "533",
+          "startTicks": 117863424000000,
+          "endTicks": 118117440000000
+        },
+        {
+          "objectId": "534",
+          "startTicks": 118117440000000,
+          "endTicks": 118371456000000
+        },
+        {
+          "objectId": "535",
+          "startTicks": 118371456000000,
+          "endTicks": 118625472000000
+        },
+        {
+          "objectId": "536",
+          "startTicks": 118625472000000,
+          "endTicks": 118879488000000
+        },
+        {
+          "objectId": "537",
+          "startTicks": 118879488000000,
+          "endTicks": 119133504000000
+        },
+        {
+          "objectId": "538",
+          "startTicks": 119133504000000,
+          "endTicks": 119387520000000
+        },
+        {
+          "objectId": "539",
+          "startTicks": 119387520000000,
+          "endTicks": 119641536000000
+        },
+        {
+          "objectId": "540",
+          "startTicks": 119641536000000,
+          "endTicks": 119895552000000
+        },
+        {
+          "objectId": "541",
+          "startTicks": 119895552000000,
+          "endTicks": 120149568000000
+        },
+        {
+          "objectId": "542",
+          "startTicks": 120149568000000,
+          "endTicks": 120403584000000
+        },
+        {
+          "objectId": "543",
+          "startTicks": 120403584000000,
+          "endTicks": 120657600000000
+        },
+        {
+          "objectId": "544",
+          "startTicks": 120657600000000,
+          "endTicks": 120911616000000
+        },
+        {
+          "objectId": "545",
+          "startTicks": 120911616000000,
+          "endTicks": 121165632000000
+        },
+        {
+          "objectId": "546",
+          "startTicks": 121165632000000,
+          "endTicks": 121419648000000
+        },
+        {
+          "objectId": "547",
+          "startTicks": 121419648000000,
+          "endTicks": 121673664000000
+        },
+        {
+          "objectId": "548",
+          "startTicks": 121673664000000,
+          "endTicks": 121927680000000
+        },
+        {
+          "objectId": "549",
+          "startTicks": 121927680000000,
+          "endTicks": 122181696000000
+        },
+        {
+          "objectId": "550",
+          "startTicks": 122181696000000,
+          "endTicks": 122435712000000
+        },
+        {
+          "objectId": "551",
+          "startTicks": 122435712000000,
+          "endTicks": 122689728000000
+        },
+        {
+          "objectId": "552",
+          "startTicks": 122689728000000,
+          "endTicks": 122943744000000
+        },
+        {
+          "objectId": "553",
+          "startTicks": 122943744000000,
+          "endTicks": 123197760000000
+        },
+        {
+          "objectId": "554",
+          "startTicks": 123197760000000,
+          "endTicks": 123451776000000
+        },
+        {
+          "objectId": "555",
+          "startTicks": 123451776000000,
+          "endTicks": 123705792000000
+        },
+        {
+          "objectId": "556",
+          "startTicks": 123705792000000,
+          "endTicks": 123959808000000
+        },
+        {
+          "objectId": "557",
+          "startTicks": 123959808000000,
+          "endTicks": 124213824000000
+        },
+        {
+          "objectId": "558",
+          "startTicks": 124213824000000,
+          "endTicks": 124467840000000
+        },
+        {
+          "objectId": "559",
+          "startTicks": 124467840000000,
+          "endTicks": 124721856000000
+        },
+        {
+          "objectId": "560",
+          "startTicks": 124721856000000,
+          "endTicks": 124975872000000
+        },
+        {
+          "objectId": "561",
+          "startTicks": 124975872000000,
+          "endTicks": 125229888000000
+        },
+        {
+          "objectId": "562",
+          "startTicks": 125229888000000,
+          "endTicks": 125483904000000
+        },
+        {
+          "objectId": "563",
+          "startTicks": 125483904000000,
+          "endTicks": 125737920000000
+        },
+        {
+          "objectId": "564",
+          "startTicks": 125737920000000,
+          "endTicks": 125991936000000
+        },
+        {
+          "objectId": "565",
+          "startTicks": 125991936000000,
+          "endTicks": 126245952000000
+        },
+        {
+          "objectId": "566",
+          "startTicks": 126245952000000,
+          "endTicks": 126499968000000
+        },
+        {
+          "objectId": "567",
+          "startTicks": 126499968000000,
+          "endTicks": 126753984000000
+        },
+        {
+          "objectId": "568",
+          "startTicks": 126753984000000,
+          "endTicks": 127008000000000
+        },
+        {
+          "objectId": "569",
+          "startTicks": 127008000000000,
+          "endTicks": 127262016000000
+        },
+        {
+          "objectId": "570",
+          "startTicks": 127262016000000,
+          "endTicks": 127516032000000
+        },
+        {
+          "objectId": "571",
+          "startTicks": 127516032000000,
+          "endTicks": 127770048000000
+        },
+        {
+          "objectId": "572",
+          "startTicks": 127770048000000,
+          "endTicks": 128024064000000
+        },
+        {
+          "objectId": "573",
+          "startTicks": 128024064000000,
+          "endTicks": 128278080000000
+        },
+        {
+          "objectId": "574",
+          "startTicks": 128278080000000,
+          "endTicks": 128532096000000
+        },
+        {
+          "objectId": "575",
+          "startTicks": 128532096000000,
+          "endTicks": 128786112000000
+        },
+        {
+          "objectId": "576",
+          "startTicks": 128786112000000,
+          "endTicks": 129040128000000
+        },
+        {
+          "objectId": "577",
+          "startTicks": 129040128000000,
+          "endTicks": 129294144000000
+        },
+        {
+          "objectId": "578",
+          "startTicks": 129294144000000,
+          "endTicks": 129548160000000
+        },
+        {
+          "objectId": "579",
+          "startTicks": 129548160000000,
+          "endTicks": 129802176000000
+        },
+        {
+          "objectId": "580",
+          "startTicks": 129802176000000,
+          "endTicks": 130056192000000
+        }
+      ]
+    },
+    {
+      "id": "2ff4eda9-b23e-42db-bb42-9cefe8f7dfa7",
+      "clips": []
+    },
+    {
+      "id": "c4ab0d0f-8605-4c19-bf15-ac879978526f",
+      "clips": []
+    }
+  ],
+  "sourcePaths": [
+    "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\lifecycle-qualification-20261029\\run-20261031-0828-linear-fixture\\media\\ARID_Linear_Stereo_1s.wav"
+  ],
+  "limitations": [
+    "Saved structure is distinct from UI responsiveness and native adapter reads.",
+    "No routing, mapping, acoustic or customer-performance qualification."
+  ]
+}

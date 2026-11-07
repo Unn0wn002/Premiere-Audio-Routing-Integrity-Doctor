@@ -1,0 +1,19 @@
+{
+  "method": "Native physical scan-button input and visible panel result",
+  "pluginId": "com.unn0wn002.audio-preflight.beta",
+  "prototypeUnloaded": true,
+  "scanMs": 33,
+  "diagnosticStatus": "COMPLETE",
+  "reviewFindings": 2,
+  "unknowns": 3,
+  "projectSHA256": "F243358DE98EB0024A0364EB6F8A90A7D8EF1B5250DB2169AE2EC1D973E82A8E",
+  "projectUnchanged": true,
+  "host": {
+    "Id": 37304,
+    "Responding": true,
+    "CPU": 299.515625,
+    "WorkingSet64": 2440232960,
+    "MainWindowTitle": "Adobe Premiere - C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\Layout_Test_Copy"
+  },
+  "limits": "Visible UI result, no new JSON export; small fixture only; routing/output not qualified"
+}

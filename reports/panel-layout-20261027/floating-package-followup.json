@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-27",
+  "runtimeIdentity": "48bb1d177f4cb8ec4b8e90ff4d23fe618baec155a814db80f7b19e5d9096b28f",
+  "nativeLayout": {
+    "status": "VERIFIED_THIS_SESSION_BOUNDED",
+    "floatingOuterWidthApproxPx": 800,
+    "floatingOuterHeightApproxPx": 375,
+    "horizontalResize": true,
+    "verticalResize": "NOT_VERIFIED",
+    "physicalNextPage": true,
+    "physicalScan": {
+      "status": "COMPLETE",
+      "adapterMs": 4286,
+      "sequences": 256,
+      "tracks": 771,
+      "clips": 511,
+      "components": 2034,
+      "reviewFindings": 506,
+      "capabilityUnknowns": 3
+    },
+    "finalPanel": "DOCKED_PAGE_1"
+  },
+  "package": {
+    "path": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\artifacts\\ccx-0.2.1-48bb1d177f4c\\com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+    "sha256": "15026dd9df78c2437ab0e295a6d62c7df5f0276486ba130981c68dc9876662f5",
+    "bytes": 15420,
+    "archiveVerified": true,
+    "installation": "NOT_ATTEMPTED_THIS_FOLLOWUP",
+    "cleanCustomerProfile": "NOT_ESTABLISHED"
+  },
+  "fixtures": {
+    "Layout_Test_Copy.prproj": {
+      "sha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+      "unchanged": true
+    },
+    "Large_Inventory_Test.prproj": {
+      "sha256": "850a5354a3248815974526de640e2b040b927505ec7d5895c0be10b3fa046249",
+      "unchanged": true
+    },
+    "Positive_Signal_Test.prproj": {
+      "sha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+      "unchanged": true
+    }
+  },
+  "host": {
+    "pid": 37304,
+    "responding": true
+  }
+}

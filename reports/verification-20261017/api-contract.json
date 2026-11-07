@@ -1,0 +1,352 @@
+{
+  "recordType": "public-api-contract-review",
+  "reviewDate": "2026-10-17",
+  "continuationDate": "2026-10-18",
+  "timezone": "Asia/Jakarta",
+  "branchAtAudit": "codex/validated-beta-20261017",
+  "baselineGitSha": "cc7adbbe805767924812f32cb6bbe6e87bb2f851",
+  "finalCandidateGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "status": "DOCUMENTED_CONTRACT_REVIEW",
+  "nativeExecutionByThisAudit": false,
+  "currentBetaNativeStatus": "NOT_QUALIFIED_BY_THIS_AUDIT",
+  "workingTarget": "2026-10-22",
+  "officialSubmissionDeadline": "UNCONFIRMED",
+  "scope": "Public read-only Premiere UXP API calls and returned value shapes used by the adapter; primary official Adobe documentation only",
+  "sources": {
+    "project": "https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/project",
+    "sequence": "https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/sequence",
+    "sequencesettings": "https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/sequencesettings",
+    "audiotrack": "https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/audiotrack",
+    "audiocliptrackitem": "https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/audiocliptrackitem",
+    "clipprojectitem": "https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/clipprojectitem",
+    "audiocomponentchain": "https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/audiocomponentchain",
+    "component": "https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/component",
+    "componentparam": "https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/componentparam",
+    "keyframe": "https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/keyframe",
+    "framerate": "https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/framerate",
+    "ticktime": "https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/ticktime",
+    "guid": "https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/guid",
+    "color": "https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/color",
+    "pointf": "https://developer.adobe.com/premiere-pro/uxp/ppro-reference/classes/pointf",
+    "constants": "https://developer.adobe.com/premiere-pro/uxp/ppro-reference/constants/",
+    "host": "https://developer.adobe.com/uxp/guides/how-to/recipes/host-info/"
+  },
+  "contracts": [
+    {
+      "member": "Project.getActiveProject()",
+      "return": "Promise<Project>",
+      "source": "project"
+    },
+    {
+      "member": "Project.getSequences()",
+      "return": "Promise<Sequence[]>",
+      "source": "project"
+    },
+    {
+      "member": "Project.name / path / guid",
+      "return": "string / string / Guid (direct properties)",
+      "source": "project"
+    },
+    {
+      "member": "Sequence.name / guid",
+      "return": "string / Guid (direct properties)",
+      "source": "sequence"
+    },
+    {
+      "member": "Sequence.getAudioTrackCount()",
+      "return": "Promise<number>",
+      "source": "sequence"
+    },
+    {
+      "member": "Sequence.getAudioTrack(index)",
+      "return": "Promise<AudioTrack>",
+      "source": "sequence"
+    },
+    {
+      "member": "Sequence.getSettings()",
+      "return": "Promise<SequenceSettings>",
+      "source": "sequence"
+    },
+    {
+      "member": "SequenceSettings.getAudioChannelCount()",
+      "return": "Promise<number>",
+      "source": "sequencesettings"
+    },
+    {
+      "member": "SequenceSettings.getAudioChannelType()",
+      "return": "Promise<number>",
+      "values": {
+        "0": "Mono",
+        "1": "Stereo",
+        "2": "5.1",
+        "3": "Multichannel"
+      },
+      "source": "sequencesettings"
+    },
+    {
+      "member": "SequenceSettings.getAudioSampleRate()",
+      "return": "Promise<FrameRate>",
+      "source": "sequencesettings"
+    },
+    {
+      "member": "AudioTrack.id / name",
+      "return": "number / string (direct properties)",
+      "source": "audiotrack"
+    },
+    {
+      "member": "AudioTrack.getIndex()",
+      "return": "Promise<number>",
+      "source": "audiotrack"
+    },
+    {
+      "member": "AudioTrack.isMuted()",
+      "return": "Promise<boolean>",
+      "source": "audiotrack"
+    },
+    {
+      "member": "AudioTrack.getTrackItems(Constants.TrackItemType.CLIP, false)",
+      "return": "AudioClipTrackItem[] (synchronous)",
+      "source": "audiotrack"
+    },
+    {
+      "member": "AudioClipTrackItem.getName() / getMatchName()",
+      "return": "Promise<string>",
+      "source": "audiocliptrackitem"
+    },
+    {
+      "member": "AudioClipTrackItem.isDisabled()",
+      "return": "Promise<boolean>",
+      "source": "audiocliptrackitem"
+    },
+    {
+      "member": "AudioClipTrackItem.getStartTime() / getEndTime()",
+      "return": "Promise<TickTime>",
+      "source": "audiocliptrackitem"
+    },
+    {
+      "member": "AudioClipTrackItem.getProjectItem()",
+      "return": "Promise<ProjectItem>",
+      "source": "audiocliptrackitem"
+    },
+    {
+      "member": "AudioClipTrackItem.getComponentChain()",
+      "return": "Promise<AudioComponentChain>",
+      "source": "audiocliptrackitem"
+    },
+    {
+      "member": "ClipProjectItem.cast(projectItem)",
+      "return": "ClipProjectItem (synchronous)",
+      "source": "clipprojectitem"
+    },
+    {
+      "member": "ClipProjectItem.name",
+      "return": "string (direct property)",
+      "source": "clipprojectitem"
+    },
+    {
+      "member": "ClipProjectItem.getComponentChain(Constants.MediaType.AUDIO)",
+      "return": "Promise<AudioComponentChain | VideoComponentChain | null>",
+      "source": "clipprojectitem"
+    },
+    {
+      "member": "AudioComponentChain.getComponentCount()",
+      "return": "number (synchronous)",
+      "source": "audiocomponentchain"
+    },
+    {
+      "member": "AudioComponentChain.getComponentAtIndex(index)",
+      "return": "Component (synchronous)",
+      "source": "audiocomponentchain"
+    },
+    {
+      "member": "Component.getDisplayName() / getMatchName()",
+      "return": "Promise<string>",
+      "source": "component"
+    },
+    {
+      "member": "Component.getParamCount()",
+      "return": "number (synchronous)",
+      "source": "component"
+    },
+    {
+      "member": "Component.getParam(index)",
+      "return": "ComponentParam (synchronous; zero-based index)",
+      "source": "component"
+    },
+    {
+      "member": "ComponentParam.displayName",
+      "return": "string (direct property)",
+      "source": "componentparam"
+    },
+    {
+      "member": "ComponentParam.isTimeVarying()",
+      "return": "boolean (synchronous)",
+      "source": "componentparam"
+    },
+    {
+      "member": "ComponentParam.getStartValue()",
+      "return": "Promise<Keyframe>",
+      "source": "componentparam"
+    },
+    {
+      "member": "ComponentParam.getKeyframeListAsTickTimes()",
+      "return": "TickTime[] (synchronous)",
+      "source": "componentparam"
+    },
+    {
+      "member": "Keyframe.value / position",
+      "return": "{value: string | number | boolean | Color | PointF} / TickTime",
+      "caveat": "Reference access column is W; actual readable wrapper is separately present in historical host JSON. No getValue() member documented.",
+      "source": "keyframe"
+    },
+    {
+      "member": "FrameRate.value / ticksPerFrame",
+      "return": "number / number (direct properties)",
+      "source": "framerate"
+    },
+    {
+      "member": "TickTime.seconds / ticks / ticksNumber",
+      "return": "number / string / number (direct properties)",
+      "source": "ticktime"
+    },
+    {
+      "member": "Guid.toString()",
+      "return": "string (synchronous)",
+      "source": "guid"
+    },
+    {
+      "member": "Color.red / green / blue / alpha",
+      "return": "number (direct properties)",
+      "source": "color"
+    },
+    {
+      "member": "PointF.x / y",
+      "return": "number (direct properties)",
+      "source": "pointf"
+    },
+    {
+      "member": "Constants.TrackItemType.CLIP / MediaType.AUDIO / AudioChannelType",
+      "return": "Public enum symbols; channel numeric mapping documented in SequenceSettings",
+      "source": "constants"
+    },
+    {
+      "member": "require('uxp').host.name / version / uiLocale; versions.uxp / plugin",
+      "return": "Direct host/runtime/plugin information properties",
+      "source": "host"
+    }
+  ],
+  "implementationFindings": [
+    {
+      "finding": "FrameRate.ticksPerFrame absent from original serializer allowlist",
+      "reportedTo": "adapter_diagnostics",
+      "workingTreeResolutionAtContinuation": "Field added; implementation tests owned by adapter task"
+    },
+    {
+      "finding": "Keyframe value is a nested wrapper; false and zero must be retained",
+      "reportedTo": "adapter_diagnostics",
+      "historicalExample": {
+        "value": {
+          "value": false
+        },
+        "position": {
+          "ticks": "-91445760000000000",
+          "seconds": -360000
+        }
+      }
+    },
+    {
+      "finding": "Source component chain may legitimately resolve null",
+      "reportedTo": "adapter_diagnostics",
+      "requiredBehavior": "Record unavailable component coverage/Unknown; do not infer verified zero components or broken clip"
+    },
+    {
+      "finding": "Synchronous and Promise calls are mixed in the documented surface",
+      "reportedTo": "adapter_diagnostics",
+      "requiredBehavior": "await accepts both; cover direct returns, synchronous throws and rejected Promises in adapter regressions"
+    },
+    {
+      "finding": "Missing/failed collections must remain distinct from successful empty collections",
+      "reportedTo": "adapter_diagnostics",
+      "requiredBehavior": "Do not coerce null, undefined, invalid inventories or failed counts to []/0"
+    }
+  ],
+  "historicalNativeEvidence": {
+    "report": "reports/host-20261001-214943/HOST_VALIDATION_REPORT_FINAL.md",
+    "pluginVersion": "0.1.0",
+    "host": {
+      "name": "premierepro",
+      "version": "26.5.2",
+      "build": "5",
+      "uiLocale": "en_US",
+      "uxpVersion": "uxp-9.3.0-local"
+    },
+    "candidateContentSha256": "28c4c5f401358c1751f7f43280bd38e19740ddd74f293c3daade664d4192dac8",
+    "contentDigestIsGitSha": false,
+    "executed": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "F07",
+      "F10",
+      "F11"
+    ],
+    "blocked": [
+      "F08",
+      "F09"
+    ],
+    "f08ActualState": "Misnamed F08_Mono was Stereo2; not acceptance evidence",
+    "timing": "NOT_INSTRUMENTED",
+    "systematicFixtureRepeatability": "NOT_ESTABLISHED",
+    "reopen": "Compared parsed fields unchanged except generatedAt; mapping fixture created later and mapping drift unassessed",
+    "observableConditionMetrics": {
+      "positiveFixtures": [
+        "F05",
+        "F06",
+        "F07"
+      ],
+      "TP": 3,
+      "FN": 0,
+      "negativeRiskFixtures": [
+        "F01",
+        "F02",
+        "F03",
+        "F04"
+      ],
+      "FP": 0,
+      "blockedUnassessed": 2,
+      "scope": "Historical fixture conditions only; not current beta or population accuracy"
+    },
+    "unknownCapabilities": [
+      "pan semantics",
+      "source-channel mapping",
+      "output-bus topology",
+      "playback correctness",
+      "export correctness"
+    ],
+    "qualifiesCurrentBeta": false
+  },
+  "nativeRemainingRequirements": [
+    "Record final Git SHA plus staged runtime/package receipt, target host version/build/locale and UXP/plugin identity",
+    "Use disposable projects and independently verify F01-F11 UI state, including actual Mono1 and Multichannel4+ settings",
+    "For representative calls, record single-call thenable status and resolved value shapes, including Keyframe wrapper, FrameRate and exact TickTime strings",
+    "Per fixture retain expected/actual observations, before/after UI, raw JSON, measured timing and three repeated unchanged-state scans",
+    "Save/close/reopen and compare F11 inspected state, including mapping if mapping drift is assessed",
+    "Verify no project, successfully empty projects/tracks, multiple sequences, duplicate clips, cancellation, overlapping-scan prevention and matching JSON exports",
+    "Compute TP/FP/FN only for observable fixture conditions; report Unknown, blocked and not-run separately",
+    "Keep source mapping, bus topology and playback/export correctness Unknown unless independently proven; cap speculative pan/routing investigation at two hours"
+  ],
+  "whenHostUnavailable": "BLOCKED_NATIVE_VALIDATION",
+  "prohibitions": [
+    "No synthetic test may be called a native pass",
+    "No historical 0.1.0 run may qualify changed beta code",
+    "No auto-fix/private API/mixer replacement/complete routing-correctness claim"
+  ],
+  "relatedDocs": [
+    "docs/API_CAPABILITY_MATRIX.md",
+    "docs/API_VERIFICATION_20261017.md",
+    "docs/PROJECT_STATUS.md"
+  ]
+}

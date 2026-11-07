@@ -1,0 +1,77 @@
+{
+  "recordType": "independent-current-native-fixture-review",
+  "fixture": "F02",
+  "sourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "executionDate": "2026-10-18",
+  "timezone": "Asia/Jakarta",
+  "scope": {
+    "project": "ARID_Disposable_20261018.prproj",
+    "sequence": "stereo-l440-r880",
+    "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+    "sequenceOccurrenceIndex": 0,
+    "hardLeftTrackIndex": 0,
+    "hardLeftClipOccurrenceIndex": 0,
+    "clipStart": {"ticks": "0", "seconds": 0},
+    "clipEnd": {"ticks": "762810048000", "seconds": 3.003}
+  },
+  "independentUiTruth": {
+    "method": "Native before/after screenshots independently viewed by analysis agent show selected A1 clip Panner Balance -100.0 and all track M controls off. Operator confirms re-enabling the A2 duplicate after F07, then editing only selected A1 Balance through UI from 0.0 to -100.0.",
+    "channelConfiguration": "Existing main Stereo2 sequence",
+    "selectedClipBalanceUi": -100,
+    "trackMute": [false, false, false],
+    "beforeEvidence": ["F02-hard-left-before-current.png"],
+    "afterEvidence": ["F02-hard-left-after-current.png"],
+    "truthLimit": "UI establishes the hard-left Balance setting. Public component observations do not establish semantic pan/routing interpretation or correctness of playback, mapping or outputs."
+  },
+  "expectedActual": {
+    "expected": "No ARID-001/002/003 from the hard-left setting itself. No broken-routing or output-correctness claim; semantic pan coverage remains Unknown.",
+    "actual": "All three current native exports have no risk findings, Stereo2 Information, three product-boundary Unknowns and no unsupported pan/routing assertion.",
+    "agreement": true,
+    "exportAnalysis": "F02-three-runs-independent-export-review.json",
+    "semanticPanCoverage": "UNKNOWN"
+  },
+  "observedCurrentEvidence": {
+    "runs": 3,
+    "durationMs": [25, 33, 23],
+    "diagnosticStatus": "COMPLETE",
+    "failedReads": 0,
+    "riskRuleCounts": {"ARID-001": 0, "ARID-002": 0, "ARID-003": 0},
+    "unknownBoundaryFindings": 3,
+    "strictDocumentedShapes": "Both FrameRates and all 140 Keyframes valid in each export; no animated parameter/keyframe-time paths exercised.",
+    "repeatability": {
+      "observationFieldsStable": true,
+      "diagnosticsStable": true,
+      "excludedObservationFields": ["generatedAt", "durationMs"],
+      "stableObservationSha256": "fa474d1753bc1e6c05bb427fedb5713c56a1676d705f6d463efebd6c52e3186b",
+      "stableDiagnosticSha256": "1d4ef2e4670a2aa487cdc44131fdeba63cb34662ee5d8349f272d94fb8f88e65",
+      "medianDurationMs": 25,
+      "rawExports": ["F02-R1-current-export.json", "F02-R2-current-export.json", "F02-R3-current-export.json"],
+      "timingLimit": "Plugin-reported Date.now traversal duration. Runs span an external credit interruption and do not establish consecutive UI-wall-clock timing or broad performance.",
+      "interruption": {
+        "run": 2,
+        "status": "RECOVERED_CURRENT_REPORT",
+        "nativeScanGeneratedAt": "2026-10-18T05:20:27.442Z",
+        "fileLastWriteTime": "2026-10-18T09:16:44.339Z",
+        "operatorConfirmation": "Run initiation crossed a stale-screenshot boundary at the credit pause. On resume the current panel showed 33 ms, Balance remained -100.0 and no fixture state edits occurred during the pause. That actual report was exported; R3 was then explicitly initiated anew.",
+        "limit": "Native report duration is retained as reported; export-save elapsed time is not scan execution time."
+      }
+    },
+    "reopen": null,
+    "inspectedStateUnchanged": {
+      "selectedClipBalanceAndTrackMuteUi": true,
+      "allObservedRawFields": true,
+      "evidence": ["F02-hard-left-before-current.png", "F02-hard-left-after-current.png"],
+      "limit": "Selected A1 Balance -100.0 and unmuted track controls are preserved in independently reviewed before/after UI; stable raw collected fields do not certify all project state or output."
+    }
+  },
+  "observableFixtureMetrics": {
+    "TP": 0,
+    "FP": 0,
+    "FN": 0,
+    "observableEvaluatedFixtures": 1,
+    "positiveObservableRiskConditions": 0,
+    "interpretation": "Negative control for unsupported risk assertions from independently verified hard pan; no positive ARID-001/002/003 condition. Unknown semantic pan/mapping/output correctness is excluded, not scored as a detection success."
+  },
+  "disposition": "THREE_NATIVE_OBSERVATIONS_MATCHED_AND_STABLE; hard-left UI preserved; semantic pan coverage UNKNOWN; reopen pending"
+}

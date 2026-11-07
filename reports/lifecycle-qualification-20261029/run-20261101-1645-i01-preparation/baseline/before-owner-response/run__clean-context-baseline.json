@@ -1,0 +1,22 @@
+{
+  "case": "LQ-I01",
+  "status": "NOT_RUN",
+  "preparationStatus": "AWAITING_CLEAN_CONTEXT_DESIGNATION",
+  "environmentType": null,
+  "hostAlias": null,
+  "windowsProfileAlias": null,
+  "designationSource": null,
+  "accessMethod": null,
+  "previousPluginHistory": {"value": null, "evidenceClass": "UNVERIFIED", "evidence": []},
+  "normalAdobeAccess": {"value": null, "evidenceClass": "UNVERIFIED", "evidence": []},
+  "premiereBuild": null,
+  "uxpVersion": null,
+  "installedPluginAbsence": {"value": null, "evidenceClass": "UNVERIFIED", "evidence": []},
+  "developerRegistrationsInactive": {"value": null, "evidenceClass": "UNVERIFIED", "evidence": []},
+  "machineWidePluginHistoryChecked": false,
+  "cleanCustomerContextEstablished": false,
+  "installationAuthorized": false,
+  "installationStarted": false,
+  "newNativeExecutions": 0,
+  "notes": "Do not store credentials. Null means unresolved, not absent or passed. A separate user alone does not prove machine-wide cleanliness."
+}

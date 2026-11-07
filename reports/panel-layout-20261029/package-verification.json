@@ -1,0 +1,62 @@
+{
+  "verifiedAt": "2026-10-29T04:45:53.0291923Z",
+  "pluginId": "com.unn0wn002.audio-preflight.beta",
+  "version": "0.2.1",
+  "stagingIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+  "source": {
+    "branch": "codex/validated-beta-20261017",
+    "commit": "9330e242eadcd10623300ca39d01753355aefc7a",
+    "workingTreeDirty": true
+  },
+  "package": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\artifacts\\audio-preflight-0.2.1-037571056922-developer.zip",
+  "packageSha256": "f989dccd51b54bdab7f790816fdec7dc93b65f508b9a17a88bbd967a9371d607",
+  "developerArchiveHashMatches": true,
+  "runtimeMatchesStaging": true,
+  "nativeValidation": "NOT_ESTABLISHED_BY_PACKAGING",
+  "installationQualified": false,
+  "qualification": "Archive integrity only; no native or installation qualification",
+  "files": [
+    {
+      "file": "manifest.json",
+      "sha256": "d362207dcb2c4e32fb7b7e5b1d2201f5898f1f0c5b6ae3400793dda5b140a06b",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "index.html",
+      "sha256": "211a54f25ced54808d83a6da0fb18736f7130b18fb191d9fa1fb93305c659e77",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "index.js",
+      "sha256": "950092bcccf4a3f8bc5725fd2f5e3707f30ef0292cd3c13f5d27299c441b8d37",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "src/premiereAdapter.js",
+      "sha256": "bc7054386b37174676f4d3302216cb43d82214bdc2582dc9f46c52fe738748bf",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "src/diagnostics.js",
+      "sha256": "5ee7db940f0581fb687a3c6103f61b1f04b59fcb3c2d9034535062d3432ded90",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "src/valueSerializer.js",
+      "sha256": "3c874ee7243f30a66215fa3f1d6a5ee65bd18c0dd5a21dbaf59e17b3f787fc4a",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "src/report.js",
+      "sha256": "c93e14044b68ce27862c48c14210136e764c8ac727115b4ca848934f615eb92d",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "recordType": "independent-closeout-record-consistency",
+  "checkedAt": "2026-10-19T02:21:18.112Z",
+  "qualification": "Static consistency of retained closeout records only; no test suite, new synthetic campaign, native execution or installation performed.",
+  "branch": "codex/validated-beta-20261017",
+  "evidenceParentGitSha": "d1b2b091e28d76af60e33c99261d01108e2000db",
+  "checks": {
+    "submissionBlockedInstallation": true,
+    "distributionNotApproved": true,
+    "nativeFixtureGatePreserved": true,
+    "metricsUnchanged": true,
+    "newNativeExecutionsZero": true,
+    "installedIdentityNotEstablished": true,
+    "packageAuditOnlyPass": true,
+    "upgradePackageEligibleNotExecuted": true,
+    "exactSystemConsentBoundary": true,
+    "notCcxRejectionOrRuntimeDefect": true,
+    "noLiveCloseoutDemoReopen": true,
+    "simulatedPartialSeparate": true,
+    "singleRootHandoff": true,
+    "newScreenshotHashesMatch": true
+  },
+  "allPass": true
+}

@@ -1,0 +1,14 @@
+{
+  "saveRequestedAt": "2026-10-31T03:33:06.562Z",
+  "target": "locked-write-target.json",
+  "temporaryHandleHeld": true,
+  "saveInputReturnedAt": "2026-10-31T03:33:06.681Z",
+  "operatorApproval": "Yes—replace only the empty test file",
+  "replaceYesRequestedAt": "2026-10-31T03:34:18.407Z",
+  "agentYesInputRejected": "point (1002, 475) outside 946 x 533 parent window bounds; no input sent",
+  "operatorYesStatement": "done",
+  "errorObservedAt": "2026-10-31T03:36:14.744Z",
+  "visibleExportStatus": "Export failed: resource busy or locked",
+  "pickerClosedObserved": true,
+  "controlsRecoveredObserved": true
+}

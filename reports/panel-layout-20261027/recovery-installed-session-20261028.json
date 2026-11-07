@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-28",
+  "terminatedPid": 38364,
+  "guards": "Exact executable and fixture title matched; Responding=false",
+  "reopenedHost": {
+    "Id": 11556,
+    "Path": "C:\\Program Files\\Adobe\\Adobe Premiere Pro 2026\\Adobe Premiere Pro.exe",
+    "Responding": true,
+    "MainWindowTitle": "OS_PopupWindow"
+  },
+  "visibleState": "Premiere Home, no active project",
+  "fixtureSha256": "6403C37515E1A96FF6E34B049E5845F21BA2D692E3BF2A8202D51737FACF7012",
+  "fixtureUnchanged": true,
+  "projectReopenRetried": false,
+  "unsavedChangesSaved": false,
+  "qualification": "Recovery only; earlier installed scans remain bounded; reload cause UNKNOWN"
+}

@@ -1,0 +1,66 @@
+{
+  "recordType": "independent-current-native-fixture-review",
+  "fixture": "F05",
+  "sourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "executionDate": "2026-10-18",
+  "timezone": "Asia/Jakarta",
+  "scope": {
+    "project": "ARID_Disposable_20261018.prproj",
+    "sequence": "stereo-l440-r880",
+    "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+    "sequenceOccurrenceIndex": 0
+  },
+  "independentUiTruth": {
+    "method": "Retained native F05-truth-before-current.png viewed independently by analysis agent; UI operator reports only setup edit since F01 was clicking A1 Mute.",
+    "trackMute": [true, false, false],
+    "nonemptyTrackIndices": [0],
+    "clipTrackIndex": 0,
+    "clipOccurrences": [0, 1],
+    "beforeEvidence": ["F05-truth-before-current.png"],
+    "truthLimit": "Mute state is directly observed; expected creative audio and user intent remain unknown. No mapping, bus or playback/export truth is inferred."
+  },
+  "expectedActual": {
+    "expected": "ARID-001 exactly once at main sequence because its only nonempty audio track is muted. No ARID-002/003. Intent-aware review guidance, no auto-unmute.",
+    "actual": "ARID-001 Warning at exact main-sequence GUID/occurrence; All 1 non-empty audio tracks report muted=true. No other risk findings; LOW_INTENT_CONFIDENCE and manual review/do-not-auto-unmute guidance retained.",
+    "agreement": true,
+    "rawExport": "F05-R1-current-export.json",
+    "rawExportSha256": "6ca988d8da2c67e9a705e0a2617983cea3823fcc645ad17755c9f8493abfb9fa",
+    "exportAnalysis": "F05-R1-independent-export-review.json"
+  },
+  "observedCurrentEvidence": {
+    "runs": 3,
+    "durationMs": [24, 25, 22],
+    "diagnosticStatus": "COMPLETE",
+    "failedReads": 0,
+    "riskRuleCounts": {"ARID-001": 1, "ARID-002": 0, "ARID-003": 0},
+    "unknownBoundaryFindings": 3,
+    "repeatability": {
+      "analysis": "F05-three-runs-independent-export-review.json",
+      "observationFieldsStable": true,
+      "diagnosticsStable": true,
+      "excludedObservationFields": ["generatedAt", "durationMs"],
+      "stableObservationSha256": "19cb05c863865b4ae467919c4ede9bfd6e7b2d84c2e7dd1be456dd3b23a03bc5",
+      "stableDiagnosticSha256": "57c93d754007f3fce466bc18494552ee6e6faef878812456ee45d1632eab743e",
+      "medianDurationMs": 24,
+      "timingLimit": "Plugin-reported Date.now traversal duration. Three local observations; no broad performance or UI-wall-clock claim.",
+      "rawExports": ["F05-R1-current-export.json", "F05-R2-current-export.json", "F05-R3-current-export.json"]
+    },
+    "reopen": null,
+    "inspectedStateUnchanged": {
+      "trackMuteAndNonemptyTracksUi": true,
+      "allObservedRawFields": true,
+      "evidence": ["F05-truth-before-current.png", "F05-truth-after-current.png"],
+      "limit": "Independent before/after screenshots retain A1 M selected, A2/A3 M unselected and both clips on A1. All retained raw observation fields are stable except generatedAt/durationMs; this does not certify every project property or output."
+    }
+  },
+  "observableFixtureMetrics": {
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "observableEvaluatedFixtures": 1,
+    "positiveObservableRiskConditions": 1,
+    "interpretation": "One scoped all-nonempty-tracks-muted condition, evaluated once despite repeated scan plans. This is observation detection, not a finding that the intentional mute is an error. Unknown product capabilities and unexercised fixtures are excluded."
+  },
+  "disposition": "THREE_NATIVE_OBSERVATIONS_MATCHED_AND_STABLE; inspected mute/nonempty state preserved in UI; reopen pending"
+}

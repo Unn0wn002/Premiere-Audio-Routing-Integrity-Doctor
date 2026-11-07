@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-10-28T06:16:33.8437396Z",
+  "snapshotSha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+  "gzipValid": true,
+  "xmlWellFormed": true,
+  "root": "PremiereData",
+  "xmlElements": 4121,
+  "qualification": "Container parsing only; no semantic comparison with the earlier saved fixture"
+}

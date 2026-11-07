@@ -1,0 +1,14 @@
+{
+  "inputRequestedAt": "2026-10-31T03:08:16.070Z",
+  "purpose": "D08/D09 bounded real traversal observation",
+  "secondScanInput": true,
+  "cancelInput": true,
+  "inputReturnedAt": "2026-10-31T03:08:16.195Z",
+  "firstObservationReturnedAt": "2026-10-31T03:08:17.730Z",
+  "activeProgressObserved": "clips 132/1024; Scan/export disabled, Cancel enabled",
+  "secondScanInputRequestedAt": "2026-10-31T03:08:24.653Z",
+  "secondScanInputReturnedAt": "2026-10-31T03:08:24.773Z",
+  "cancelInputRequestedAt": "2026-10-31T03:08:33.114Z",
+  "cancelInputReturnedAt": "2026-10-31T03:08:33.235Z",
+  "cancelFirstObservationReturnedAt": "2026-10-31T03:08:34.771Z"
+}

@@ -1,0 +1,53 @@
+{
+  "recordedAt": "2026-10-29T06:16:04.139278+00:00",
+  "runId": "run-20261029-1314",
+  "context": "UDT_FINAL",
+  "runtimeIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+  "sourceAndStageFiles": [
+    {
+      "file": "manifest.json",
+      "sha256": "d362207dcb2c4e32fb7b7e5b1d2201f5898f1f0c5b6ae3400793dda5b140a06b"
+    },
+    {
+      "file": "index.html",
+      "sha256": "211a54f25ced54808d83a6da0fb18736f7130b18fb191d9fa1fb93305c659e77"
+    },
+    {
+      "file": "index.js",
+      "sha256": "950092bcccf4a3f8bc5725fd2f5e3707f30ef0292cd3c13f5d27299c441b8d37"
+    },
+    {
+      "file": "src/premiereAdapter.js",
+      "sha256": "bc7054386b37174676f4d3302216cb43d82214bdc2582dc9f46c52fe738748bf"
+    },
+    {
+      "file": "src/diagnostics.js",
+      "sha256": "5ee7db940f0581fb687a3c6103f61b1f04b59fcb3c2d9034535062d3432ded90"
+    },
+    {
+      "file": "src/valueSerializer.js",
+      "sha256": "3c874ee7243f30a66215fa3f1d6a5ee65bd18c0dd5a21dbaf59e17b3f787fc4a"
+    },
+    {
+      "file": "src/report.js",
+      "sha256": "c93e14044b68ce27862c48c14210136e764c8ac727115b4ca848934f615eb92d"
+    }
+  ],
+  "activeDisposableProject": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\Positive_Signal_Test.prproj",
+  "preservedByteIdenticalBaseline": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\lifecycle-qualification-20261029\\run-20261029-1314\\baseline\\Positive_Signal_Test.prproj",
+  "fixtureSha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+  "savedBytesMatch": true,
+  "workingSessionChoice": "Use already-open report-directory Positive_Signal_Test disposable session; preserve separate baseline, make no project-content edits and avoid reopening/closing user project",
+  "retainedReport": "baseline/retained-31ms-report.json",
+  "retainedReportSha256": "534ea0504fc8bcf166f95f77140428f9e7a301dc71415a3b2d4c0550931b7c03",
+  "nativePreflight": "Final beta loaded/path confirmed, project title matches, no unsaved marker visible",
+  "projectCloseOrAppRestartPlanned": false,
+  "hostExeVersion": "26.5.2.5",
+  "retainedReportHost": {
+    "name": "premierepro",
+    "version": "26.5.2",
+    "uiLocale": "en_US",
+    "uxpVersion": "uxp-9.3.0-local",
+    "pluginVersion": "0.2.1"
+  }
+}

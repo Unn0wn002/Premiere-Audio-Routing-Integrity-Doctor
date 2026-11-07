@@ -1,0 +1,12 @@
+[
+  {
+    "original": "reports\\panel-layout-20261027\\audio-preflight-2026-10-29T06-18-29-308Z.json",
+    "copy": "annotated-report.json",
+    "sha256": "90d6033fa7db560cda274776e517348d1f4218e44a3cae61f6e4da05ba1769ab"
+  },
+  {
+    "original": "reports\\panel-layout-20261027\\audio-preflight-2026-10-29T06-18-29-308Z.html",
+    "copy": "annotated-report.html",
+    "sha256": "a8709ffbd3515c82339e4682bfa9e1b12ee566d1749a704e9f1782b6d46bc738"
+  }
+]

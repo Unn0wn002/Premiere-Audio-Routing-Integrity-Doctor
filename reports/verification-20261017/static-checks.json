@@ -1,0 +1,47 @@
+{
+  "recordedAt": "2026-10-17T18:53:30.9003568Z",
+  "branch": "codex/validated-beta-20261017",
+  "sourceHead": "cc7adbbe805767924812f32cb6bbe6e87bb2f851",
+  "workingTreeDirty": true,
+  "nodeVersion": "v24.19.0",
+  "checks": [
+    {
+      "name": "unit-and-mocked-adapter",
+      "command": "node --test tests/*.test.js",
+      "exitCode": 0,
+      "stdout": "C:\\Users\\unn0w\\Downloads\\Management Project\\Premiere Audio Routing Integrity Doctor\\reports\\verification-20261017\\unit-and-mocked-adapter.txt"
+    },
+    {
+      "name": "synthetic-fixture-contracts",
+      "command": "node tests/evaluate-fixtures.js",
+      "exitCode": 0,
+      "stdout": "C:\\Users\\unn0w\\Downloads\\Management Project\\Premiere Audio Routing Integrity Doctor\\reports\\verification-20261017\\synthetic-fixture-contracts.txt"
+    },
+    {
+      "name": "javascript-syntax",
+      "command": "node tests/check-syntax.js",
+      "exitCode": 0,
+      "stdout": "C:\\Users\\unn0w\\Downloads\\Management Project\\Premiere Audio Routing Integrity Doctor\\reports\\verification-20261017\\javascript-syntax.txt"
+    },
+    {
+      "name": "whitespace",
+      "command": "git diff --check",
+      "exitCode": 0,
+      "stdout": "C:\\Users\\unn0w\\Downloads\\Management Project\\Premiere Audio Routing Integrity Doctor\\reports\\verification-20261017\\whitespace.txt"
+    }
+  ],
+  "qualification": "Static tests, mocked adapter checks, synthetic fixtures and syntax only; native qualification not established",
+  "counts": {
+    "unitAndMockedAdapterTests": 53,
+    "passed": 53,
+    "failed": 0,
+    "skipped": 0,
+    "syntheticFixtureContractsPassed": 6,
+    "syntheticFixtureContractsTotal": 6
+  },
+  "committedRuntime": {
+    "sourceCommit": "64e75e382cfee9626bb743d949f412d290f180e1",
+    "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+    "byteMatchAfterDocumentedNormalization": true
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "recordType": "independent-supplemental-final-native-panel-review",
+  "branch": "codex/validated-beta-20261017",
+  "evidenceParentGitSha": "7efdd4f614dbc81679a5cc287b260e8bc825261c",
+  "sourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "reviewedAt": "2026-10-19T01:28:36.086Z",
+  "executionDateUtc": "2026-10-19",
+  "method": "NATIVE_PANEL_SCAN_AND_JSON_EXPORT",
+  "executionCount": 1,
+  "countingLimit": "One supplemental native panel execution/export beyond 33 fixture-repeat reports; not added to fixture conditions, repeat denominators or TP/FP/FN. Total retained fixture-related report envelopes 34: 19 panel + 15 console.",
+  "raw": {
+    "file": "F11-supplemental-panel-current-export.json",
+    "original": "reports/beta-20261004/audio-preflight-2026-10-19T01-25-00-499Z.json",
+    "bytes": 138696,
+    "sha256": "de5c0cf9a86c93567c1e0ecb9bb194b05d25ab7c720ca8096bee98fb7004296e",
+    "originalAndRetainedBytesEqual": true
+  },
+  "independentlyViewedPanelScreenshot": "F11-final-panel-summary-coverage-current.png",
+  "visibleSummaryAgreement": true,
+  "host": {
+    "name": "premierepro",
+    "version": "26.5.2",
+    "uiLocale": "en_US",
+    "uxpVersion": "uxp-9.3.0-local",
+    "pluginVersion": "0.2.1"
+  },
+  "durationMs": 27,
+  "diagnosticStatus": "COMPLETE",
+  "coverage": {
+    "state": "COMPLETE",
+    "project": {
+      "status": "COMPLETE",
+      "expected": 1,
+      "observed": 1,
+      "known": 1,
+      "unknown": 0
+    },
+    "sequences": {
+      "status": "COMPLETE",
+      "expected": 4,
+      "observed": 4,
+      "known": 4,
+      "unknown": 0
+    },
+    "tracks": {
+      "status": "COMPLETE",
+      "expected": 15,
+      "observed": 15,
+      "known": 15,
+      "unknown": 0
+    },
+    "clips": {
+      "status": "COMPLETE",
+      "expected": 7,
+      "observed": 7,
+      "known": 7,
+      "unknown": 0
+    },
+    "components": {
+      "status": "COMPLETE",
+      "expected": 18,
+      "observed": 18,
+      "known": 18,
+      "unknown": 0
+    },
+    "failedReads": 0,
+    "capabilities": {
+      "sourceChannelMapping": "UNKNOWN",
+      "outputBusTopology": "UNKNOWN",
+      "playbackExportCorrectness": "UNKNOWN"
+    }
+  },
+  "riskLocations": [
+    {
+      "ruleId": "ARID-002",
+      "location": {
+        "sequence": "stereo-l440-r880",
+        "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+        "sequenceOccurrenceIndex": 0,
+        "track": "Audio 1",
+        "trackId": "2",
+        "trackIndex": 0,
+        "clip": null,
+        "clipOccurrenceIndex": null,
+        "startTime": null,
+        "endTime": null
+      }
+    },
+    {
+      "ruleId": "ARID-003",
+      "location": {
+        "sequence": "stereo-l440-r880",
+        "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+        "sequenceOccurrenceIndex": 0,
+        "track": "Audio 2",
+        "trackId": "3",
+        "trackIndex": 1,
+        "clip": "stereo-l440-r880.wav",
+        "clipOccurrenceIndex": 0,
+        "startTime": {
+          "ticks": "762810048000",
+          "seconds": 3.003
+        },
+        "endTime": {
+          "ticks": "1525620096000",
+          "seconds": 6.006
+        }
+      }
+    }
+  ],
+  "unknownFindings": 3,
+  "readErrors": [],
+  "strictDocumentedShapeChecks": {
+    "allObservedShapesValid": true,
+    "parameterCount": 160,
+    "keyframeCount": 160,
+    "animatedParameterCount": 0,
+    "keyframeTimeCount": 0,
+    "issues": []
+  },
+  "comparisonWithF11SixReadSet": {
+    "fullStableObservationFieldsEqual": true,
+    "diagnosticsEqual": true,
+    "diagnosticReplayAgrees": true
+  },
+  "savedProjectFileComparison": {
+    "bytesEqual": true,
+    "sha256Equal": true,
+    "mtimeEqual": true
+  },
+  "savedProjectEvidence": "F11-project-file-snapshots.json",
+  "scopeLimit": "Panel summary/host/coverage and native export agree. No native overlapping-scan instrumentation, installer lifecycle or output correctness qualification follows. The mapping/layout timing limits in F11-current-independent-review.json remain in force.",
+  "result": "BOUNDED_PASS"
+}

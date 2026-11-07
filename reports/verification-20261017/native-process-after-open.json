@@ -1,0 +1,10 @@
+{
+  "recordedAt": "2026-10-17T19:00:54.4646493Z",
+  "scope": "Read-only process status after disposable-copy open; not fixture truth",
+  "process": {
+    "ProcessName": "Adobe Premiere Pro",
+    "Responding": false,
+    "CPU": 242.1875,
+    "WorkingSet64": 2769059840
+  }
+}

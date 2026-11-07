@@ -1,0 +1,89 @@
+[
+  {
+    "id": "healthy-stereo",
+    "description": "Stereo sequence, one active track, one enabled clip.",
+    "expectedRiskRuleIds": [],
+    "report": {
+      "project": {"name": "Fixture Healthy"},
+      "unknowns": [],
+      "sequences": [{
+        "name": "Healthy Stereo",
+        "settings": {"audioChannelType": 1, "audioChannelCount": 2},
+        "audioTracks": [{"name": "A1", "index": 0, "muted": false, "clips": [{"name": "dialog.wav", "disabled": false}]}]
+      }]
+    }
+  },
+  {
+    "id": "single-muted-track",
+    "description": "All non-empty audio tracks are muted.",
+    "expectedRiskRuleIds": ["ARID-001"],
+    "report": {
+      "project": {"name": "Fixture Muted"},
+      "unknowns": [],
+      "sequences": [{
+        "name": "Muted Track",
+        "settings": {"audioChannelType": 1, "audioChannelCount": 2},
+        "audioTracks": [{"name": "A1", "index": 0, "muted": true, "clips": [{"name": "music.wav", "disabled": false}]}]
+      }]
+    }
+  },
+  {
+    "id": "mixed-mute-state",
+    "description": "One muted non-empty track and one active non-empty track.",
+    "expectedRiskRuleIds": ["ARID-002"],
+    "report": {
+      "project": {"name": "Fixture Mixed Mute"},
+      "unknowns": [],
+      "sequences": [{
+        "name": "Mixed Mute",
+        "settings": {"audioChannelType": 1, "audioChannelCount": 2},
+        "audioTracks": [
+          {"name": "A1", "index": 0, "muted": true, "clips": [{"name": "voice.wav", "disabled": false}]},
+          {"name": "A2", "index": 1, "muted": false, "clips": [{"name": "music.wav", "disabled": false}]}
+        ]
+      }]
+    }
+  },
+  {
+    "id": "disabled-clip",
+    "description": "Enabled track containing a disabled audio clip.",
+    "expectedRiskRuleIds": ["ARID-003"],
+    "report": {
+      "project": {"name": "Fixture Disabled Clip"},
+      "unknowns": [],
+      "sequences": [{
+        "name": "Disabled Clip",
+        "settings": {"audioChannelType": 1, "audioChannelCount": 2},
+        "audioTracks": [{"name": "A1", "index": 0, "muted": false, "clips": [{"name": "fx.wav", "disabled": true}]}]
+      }]
+    }
+  },
+  {
+    "id": "mono-is-not-failure",
+    "description": "Mono sequence is recorded as configuration, not classified as broken.",
+    "expectedRiskRuleIds": [],
+    "report": {
+      "project": {"name": "Fixture Mono"},
+      "unknowns": [],
+      "sequences": [{
+        "name": "Mono Delivery",
+        "settings": {"audioChannelType": 0, "audioChannelCount": 1},
+        "audioTracks": [{"name": "A1", "index": 0, "muted": false, "clips": [{"name": "mono.wav", "disabled": false}]}]
+      }]
+    }
+  },
+  {
+    "id": "multichannel-is-not-failure",
+    "description": "Multichannel sequence is recorded as configuration, not classified as broken.",
+    "expectedRiskRuleIds": [],
+    "report": {
+      "project": {"name": "Fixture Multichannel"},
+      "unknowns": [],
+      "sequences": [{
+        "name": "Multi Delivery",
+        "settings": {"audioChannelType": 3, "audioChannelCount": 4},
+        "audioTracks": [{"name": "A1", "index": 0, "muted": false, "clips": [{"name": "multi.wav", "disabled": false}]}]
+      }]
+    }
+  }
+]

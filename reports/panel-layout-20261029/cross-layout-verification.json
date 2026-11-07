@@ -1,0 +1,12 @@
+{
+  "verifiedAt": "2026-10-29T05:35:38.101Z",
+  "status": "PASS_BOUNDED_CROSS_LAYOUT_REPORT_EQUALITY",
+  "excludedOnly": [
+    "observation.generatedAt",
+    "observation.durationMs"
+  ],
+  "allOtherReportFieldsEqual": true,
+  "narrowMs": 35,
+  "wideMs": 31,
+  "timingLimit": "One scan per size; these are individual samples, not a performance comparison or benchmark"
+}

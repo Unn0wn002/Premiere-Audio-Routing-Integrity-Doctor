@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-28",
+  "result": "VERIFIED_THIS_SESSION_BOUNDED_EXPORT_CONTENT",
+  "provenance": "User-performed native installed-panel exports, files independently validated",
+  "runtimeIdentity": "48bb1d177f4cb8ec4b8e90ff4d23fe618baec155a814db80f7b19e5d9096b28f",
+  "installedFilesStillMatch": true,
+  "jsonFile": "installed-test.json",
+  "jsonBytes": 136908,
+  "jsonSha256": "af8ba7316dc2b8988dd20601b7d206cfcc82cdf5ebf720f0acd97eeeb3c8eb7e",
+  "htmlFile": "installed-test.html",
+  "htmlBytes": 170614,
+  "htmlSha256": "47b7fcb428c46e53023d72b275de0742aef09d6cd5adb51dfe3508491e5702bb",
+  "embeddedHTMLReportDeepEqualsJSON": true,
+  "htmlExactlyMatchesCompleteReportRenderer": true,
+  "htmlFindingArticles": 7,
+  "project": "Positive_Signal_Test.prproj",
+  "generatedAt": "2026-10-28T05:06:06.000Z",
+  "durationMs": 29,
+  "host": {
+    "name": "premierepro",
+    "version": "26.5.2",
+    "uiLocale": "en_US",
+    "uxpVersion": "uxp-9.3.0-local",
+    "pluginVersion": "0.2.1"
+  },
+  "diagnosticStatus": "COMPLETE",
+  "reviewFindings": 0,
+  "information": 4,
+  "unknown": 3,
+  "unknownRuleIds": [
+    "ARID-U01",
+    "ARID-U02",
+    "ARID-U03"
+  ],
+  "failedReads": 0,
+  "coverage": {
+    "sequences": 4,
+    "tracks": 15,
+    "clips": 7,
+    "components": 18
+  },
+  "annotations": {},
+  "savedFixtureUnchanged": true,
+  "savedFixtureSha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+  "limits": [
+    "Content validation is not browser visual-render QA",
+    "No full installed lifecycle, clean-profile, uninstall/reinstall or upgrade qualification",
+    "Earlier host project-opening/reload nonresponse remains unresolved",
+    "Mapping, output buses and playback/export correctness remain UNKNOWN"
+  ],
+  "postValidationHost": {
+    "pid": 11556,
+    "responding": true,
+    "activeProject": "Positive_Signal_Test"
+  }
+}

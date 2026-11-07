@@ -1,0 +1,32 @@
+[
+  {
+    "original": "reports/panel-layout-20261027/audio-preflight-2026-10-30T14-20-16-985Z.json",
+    "copy": "no-project.json",
+    "sha256": "02809fa618434275b1f4dc20ba897ac57432a896f236294232d02117f392dac4"
+  },
+  {
+    "original": "reports/panel-layout-20261027/audio-preflight-2026-10-30T14-56-12-781Z.json",
+    "copy": "empty-project.json",
+    "sha256": "5eff7e4c6339392f3b4616c95ac263b5f8423b412e6b9f57c30d6688ed818111"
+  },
+  {
+    "original": "reports/lifecycle-qualification-20261029/run-20261030-2116-boundaries/working/audio-preflight-2026-10-30T14-56-12-781Z.html",
+    "copy": "retained-B-in-A.html",
+    "sha256": "bbde696f3e569a7dc6d2189ae2b3cc74e0a2bd780a209dcc686d0f1345bdf597"
+  },
+  {
+    "original": "reports/lifecycle-qualification-20261029/run-20261030-2116-boundaries/working/audio-preflight-2026-10-30T15-00-52-082Z.json",
+    "copy": "A-before-reopen.json",
+    "sha256": "77601c843b4df75a623ad18069d90bf3740caa6c35be9d0fb039609274b15fba"
+  },
+  {
+    "original": "reports/lifecycle-qualification-20261029/run-20261030-2116-boundaries/working/audio-preflight-2026-10-30T15-03-54-082Z.json",
+    "copy": "A-after-reopen.json",
+    "sha256": "ad23adc287ead797c6edb8a00d64cac3edd503c232b4e25a33c54701f737a4e8"
+  },
+  {
+    "original": "reports/lifecycle-qualification-20261029/run-20261030-2116-boundaries/working/audio-preflight-2026-10-30T15-03-54-082Z.html",
+    "copy": "A-after-reopen.html",
+    "sha256": "775d0b4cfd50ae7ad376a82ca3940bb797d2da44a2ee8631c81f2b06e9a09806"
+  }
+]

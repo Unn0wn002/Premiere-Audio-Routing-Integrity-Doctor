@@ -1,0 +1,73 @@
+[
+  {
+    "event": "FINAL_RUNTIME_BOUND_AND_LOADED",
+    "class": "VERIFIED_THIS_SESSION_NATIVE_AND_FILESYSTEM",
+    "registrationPathObservedVia": "UDT Open Folder -> Explorer full breadcrumb accessibility tree",
+    "buildFolderOverride": "blank; no change",
+    "loaded": true,
+    "evidence": [
+      "registered-folder.txt",
+      "registered-folder-0.jpg",
+      "registered-folder-1.jpg",
+      "udt-options.jpg",
+      "udt-options.txt",
+      "udt-loaded.jpg"
+    ]
+  },
+  {
+    "event": "REAL_TRAVERSAL_AND_TIMING_LIMIT",
+    "actual": {
+      "inputRequestedAt": "2026-10-31T03:08:16.070Z",
+      "purpose": "D08/D09 bounded real traversal observation",
+      "secondScanInput": true,
+      "cancelInput": true,
+      "inputReturnedAt": "2026-10-31T03:08:16.195Z",
+      "firstObservationReturnedAt": "2026-10-31T03:08:17.730Z",
+      "activeProgressObserved": "clips 132/1024; Scan/export disabled, Cancel enabled",
+      "secondScanInputRequestedAt": "2026-10-31T03:08:24.653Z",
+      "secondScanInputReturnedAt": "2026-10-31T03:08:24.773Z",
+      "cancelInputRequestedAt": "2026-10-31T03:08:33.114Z",
+      "cancelInputReturnedAt": "2026-10-31T03:08:33.235Z",
+      "cancelFirstObservationReturnedAt": "2026-10-31T03:08:34.771Z"
+    },
+    "firstProgress": "132/1024",
+    "laterProgress": "277/1024 main capture; 281/1024 later panel capture",
+    "sequentialSnapshotsAreNotAtomic": true,
+    "scanAndExportDisabledVisibly": true,
+    "cancelEnabledVisibly": true,
+    "secondInputBusyStateAtInput": "NOT_ESTABLISHED; input was 8.583 seconds after initial Scan",
+    "retainedReport": "COMPLETE, 7295 ms, 1/1 sequences, 3/3 tracks, 1024/1024 clips, 4096/4096 components, 0 review findings, 3 capability Unknowns",
+    "nativeSaveDialogDefaultStem": "audio-preflight-2026-10-31T03-08-24-777Z",
+    "cancelledReportObtained": false,
+    "D08": "NOT_EXERCISED",
+    "D09": "NOT_EXERCISED",
+    "limits": "Disabled controls in a past screenshot do not establish their state at a delayed input. No rejected-overlap, invocation-count or cancellation PASS."
+  },
+  {
+    "event": "RESIZE_TARGET_DID_NOT_APPLY",
+    "inputStopped": true,
+    "operatorRequested": "Expose Export JSON",
+    "operatorStatement": "ready",
+    "operatorClass": "USER_STATED",
+    "independentReadback": "Panel now docked at left, export controls visible and retained 7295 ms report unchanged",
+    "evidence": [
+      "panel-resize-not-applied-input-stopped.jpg",
+      "operator-docked-report-export-visible.jpg"
+    ]
+  },
+  {
+    "event": "JSON_SAVE_TARGET_DISAGREEMENT",
+    "nativePickerObserved": true,
+    "defaultFolder": "run-20261031-0828-linear-fixture/media",
+    "saveClickTarget": "main Premiere window",
+    "actual": "Save As still exists behind main window; no file found",
+    "inputStopped": true,
+    "operatorRequested": "Bring Save As forward, Save default name/folder, reply saved",
+    "response": "PENDING",
+    "productWriteFailureEstablished": false,
+    "evidence": [
+      "complete-json-picker.jpg",
+      "native-window-metadata.json"
+    ]
+  }
+]

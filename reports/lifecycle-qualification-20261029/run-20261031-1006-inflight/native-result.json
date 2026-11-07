@@ -1,0 +1,68 @@
+{
+  "verifiedAt": "2026-10-31T03:25:46.375Z",
+  "status": "PASS_BOUNDED_NATIVE_D08_D09_REPORT_AND_TIMING_READBACK",
+  "runtime": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+  "D08": {
+    "status": "PASS_BOUNDED_NATIVE",
+    "cancelledDurationMs": 6657,
+    "visitedClips": 869,
+    "visitedComponents": 3476,
+    "visitedClipsDeepEqualCompletePrefix": true,
+    "unvisitedUnknownsExplicit": true,
+    "incompleteOrUnvisitedTracks": 3,
+    "clipAndComponentExpectedUnknown": true,
+    "partialFailedReadsReported": 4,
+    "unknownFindings": 8,
+    "inputTimestamps": {
+      "scanRequestedAt": "2026-10-31T03:20:31.352Z",
+      "scanInputReturnedAt": "2026-10-31T03:20:31.470Z",
+      "activeObservationReturnedAt": "2026-10-31T03:20:32.714Z",
+      "cancelRequestedAt": "2026-10-31T03:20:38.051Z",
+      "cancelInputReturnedAt": "2026-10-31T03:20:38.171Z",
+      "resultObservationReturnedAt": "2026-10-31T03:20:38.514Z"
+    },
+    "generatedAt": "2026-10-31T03:20:31.529Z",
+    "estimatedScanFinishedAt": "2026-10-31T03:20:38.186Z",
+    "completionTimestampLimit": "Finish estimate is generatedAt plus durationMs; independently observed completion is resultObservationReturnedAt, not an instrumented callback.",
+    "retryDurationMs": 7966,
+    "retryCompleteInventory": [
+      1,
+      3,
+      1024,
+      4096
+    ],
+    "controlsRecoveredObserved": true
+  },
+  "D09": {
+    "status": "PASS_BOUNDED_NATIVE",
+    "scope": "Native disabled-controls and deliberate second Scan input while the retained recovery scan was active; traversal progressed 101 to 980 without reset and final report retains original recovery generatedAt.",
+    "inputTimestamps": {
+      "scanRequestedAt": "2026-10-31T03:21:39.161Z",
+      "scanInputReturnedAt": "2026-10-31T03:21:39.536Z",
+      "activeObservationReturnedAt": "2026-10-31T03:21:40.487Z",
+      "secondScanRequestedAt": "2026-10-31T03:21:46.818Z",
+      "secondScanReturnedAt": "2026-10-31T03:21:46.958Z",
+      "secondInputObservationReturnedAt": "2026-10-31T03:21:47.190Z"
+    },
+    "secondInputInsideRetainedScanInterval": true,
+    "originalRetryGeneratedAtRetained": true,
+    "adapterInvocationCount": "NOT_INSTRUMENTED_UNKNOWN"
+  },
+  "completeReportsEqualExcept": [
+    "observation.generatedAt",
+    "observation.durationMs"
+  ],
+  "fullReportEquality": true,
+  "diagnosticsReproducedForAllThree": true,
+  "initialDelayedAttempt": "NOT_EXERCISED; preserved separately, not promoted",
+  "nativeScanStartsEstablished": 4,
+  "nativeCompleteReportsRetained": 2,
+  "nativeCancelledReportsRetained": 1,
+  "firstScanReportNotRetained": true,
+  "limits": [
+    "Bounded developer-context fixture evidence, not instrumented single-flight proof or representative customer performance.",
+    "The unknown clip/component denominators remain null after cancellation; do not substitute 1024/4096 from a different completed report.",
+    "Mapping/output topology/playback-export correctness and earlier crash cause UNKNOWN.",
+    "No new HTML pair required for these cases; native JSON reports retained. Customer installation and broader lifecycle remain separate."
+  ]
+}

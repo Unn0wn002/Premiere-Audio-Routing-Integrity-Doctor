@@ -1,0 +1,83 @@
+{
+  "recordType": "independent-closeout-installation-precheck-review",
+  "reviewedAt": "2026-10-19T02:20:37.414Z",
+  "branch": "codex/validated-beta-20261017",
+  "evidenceParentGitSha": "d1b2b091e28d76af60e33c99261d01108e2000db",
+  "candidate": {
+    "pluginId": "com.unn0wn002.audio-preflight.beta",
+    "pluginVersion": "0.2.1",
+    "runtimeGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+    "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+    "host": "Adobe Premiere Pro 26.5.2 Build 5",
+    "uxp": "uxp-9.3.0-local",
+    "ccx": "artifacts/ccx-0.2.1-7b544bd27f3b/com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+    "ccxSha256": "8c3c27a8dc281db5e3f4fe0555dd7455a77e7860c5e63036b728b1596f8209e2"
+  },
+  "method": "Independent visual inspection of four retained native screenshots plus byte/hash inspection of the disposable lifecycle copy. No UI input, consent choice, installation or native scan by reviewer.",
+  "inputs": [
+    {
+      "file": "creative-cloud-first-observed.png",
+      "bytes": 72469,
+      "sha256": "72aa32cd20d9d03f3aa13c54b5cecad95761e24916eb3f9d8fb42d688afe3069",
+      "fileLastWriteTime": "2026-10-19T02:14:18.737Z"
+    },
+    {
+      "file": "creative-cloud-existing-profile-apps.png",
+      "bytes": 108335,
+      "sha256": "52211007e0aea43c9bed06240b1fed0fe95401db3449636fbbe2e5fa00f2365c",
+      "fileLastWriteTime": "2026-10-19T02:17:14.193Z"
+    },
+    {
+      "file": "creative-cloud-manage-plugins-before.png",
+      "bytes": 61615,
+      "sha256": "6294a40b4a13e030d404bded97f3d0d80b7684343e21bb7088443483d537d02e",
+      "fileLastWriteTime": "2026-10-19T02:17:48.856Z"
+    },
+    {
+      "file": "creative-cloud-ccx-uac-blocker.png",
+      "bytes": 95519,
+      "sha256": "5b7ae60a78717753049326ed79570e283ab3d96f5b992f2b3632e02fbbb3fe5d",
+      "fileLastWriteTime": "2026-10-19T02:18:35.393Z"
+    }
+  ],
+  "observed": {
+    "creativeCloudAccess": true,
+    "appsPage": "Installed on this machine shows Premiere and UXP Developer Tools among existing Adobe apps.",
+    "managePlugins": "No plugins acquired is visible before the attempt; this bounds the acquired-plugin list only, not UDT loading or a clean profile.",
+    "profile": "Sole UI owner explicitly confirms existing non-clean profile; a clean test profile is not established.",
+    "normalPackageOpen": "Sole UI owner confirms normal Explorer double-click of the exact current verified CCX. The screenshot alone does not display the selected CCX path.",
+    "systemConsent": {
+      "prompt": "User Account Control",
+      "application": "Adobe Creative Cloud",
+      "verifiedPublisher": "Adobe Inc.",
+      "fileOrigin": "Hard drive on this computer",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "operatorReportedCapturedAt": "2026-10-19T02:18:35.393Z",
+      "responseProvided": false
+    },
+    "installationCompleted": false,
+    "installedCandidateIdentityEstablished": false,
+    "nativeLifecycleScans": 0,
+    "nativeLifecycleExports": 0
+  },
+  "interpretation": {
+    "result": "BLOCKED_SYSTEM_CONSENT_WITH_NON_CLEAN_PROFILE_LIMIT",
+    "reason": "Normal installation is halted at the unresolved Windows UAC consent prompt. No CCX rejection, successful installation, installed-content identity or native lifecycle outcome is established.",
+    "responsiveness": "A visible system consent prompt is not evidence of a Premiere/installer hang. No elapsed install/restart latency or cause is inferred.",
+    "noMutationClaim": "No scan ran in this closeout; unchanged inspected host/project state is not claimed from the absence of execution."
+  },
+  "disposableProjectCopy": {
+    "record": "lifecycle-project-copy.json",
+    "source": "reports/beta-20261004/ARID_Disposable_20261018.prproj",
+    "destination": "reports/beta-20261004/ARID_Lifecycle_20261019.prproj",
+    "sourceSha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+    "copySha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+    "bytesEqual": true,
+    "meaning": "Read-only independently verified disposable baseline copy only; not host opening, scan, installed candidate or lifecycle success."
+  },
+  "handoff": "Root will consolidate the one operator handoff. This independent record does not issue another consent/profile/action request.",
+  "remaining": "Installation, clean profile, restart/installed identity, lifecycle, uninstall/reinstall, actual baseline/upgrade and current demo/reopen rehearsal remain unexecuted or unqualified. Clearly labeled staged-runtime fallback has not run."
+}

@@ -1,0 +1,29 @@
+{
+  "recordedOn": "2026-10-18",
+  "timezone": "Asia/Jakarta",
+  "branch": "codex/validated-beta-20261017",
+  "sourceHeadAtCheck": "cc7adbbe805767924812f32cb6bbe6e87bb2f851",
+  "workingTreeDirty": true,
+  "command": "node --test tests/packaging.test.js",
+  "nodeVersion": "24.19.0",
+  "powershellVersion": "7.6.5",
+  "exitCode": 0,
+  "tests": 7,
+  "passed": 7,
+  "failed": 0,
+  "skipped": 0,
+  "durationMs": 6105.7456,
+  "checks": [
+    "Identical input produces the same seven-file runtime ZIP and SHA-256 identity",
+    "Altered existing staging files and developer archive are rejected",
+    "LF and CRLF source checkouts produce identical ZIP bytes and identity",
+    "Independent PowerShell/.NET archive reader verifies all seven file hashes",
+    "Receipt allowlist, receipt identity and manifest identity tampering are rejected",
+    "Modified developer ZIP hash and unexpected CCX entry paths are rejected",
+    "CCX manifest reformat is rejected by default, accepted only with explicit opt-in and authenticated staging"
+  ],
+  "normalization": "UTF-8 runtime text; CRLF normalized to LF",
+  "qualification": "Static packaging regressions only. No Premiere host or customer installation success is established.",
+  "nativeValidation": "BLOCKED_NATIVE_VALIDATION",
+  "nextAction": "Rebuild final runtime after adapter review, independently verify archive and record final identity/SHA; run CI after branch push."
+}

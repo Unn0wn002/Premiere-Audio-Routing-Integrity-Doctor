@@ -1,0 +1,176 @@
+{
+  "verifiedAt": "2026-10-29T07:00:18.661Z",
+  "status": "PASS_EXECUTION_RECORD_AND_PRESERVATION_READBACK",
+  "scopeStatus": "INITIAL_DEVELOPER_CHECKS_COMPLETE_BOUNDED",
+  "cases": [
+    {
+      "id": "LQ-P01",
+      "status": "PASS_BOUNDED_NATIVE"
+    },
+    {
+      "id": "LQ-D01",
+      "status": "PASS_BOUNDED_NATIVE"
+    },
+    {
+      "id": "LQ-D02",
+      "status": "PASS_BOUNDED_NATIVE"
+    },
+    {
+      "id": "LQ-D03",
+      "status": "PASS_BOUNDED_NATIVE"
+    },
+    {
+      "id": "LQ-D04",
+      "status": "PASS_BOUNDED_NATIVE"
+    }
+  ],
+  "annotationChecks": {
+    "annotationEqualsExpected": true,
+    "observedReviewValue": "reviewed",
+    "annotatedFindingCount": 7,
+    "rendererEquals": true,
+    "diagnosticsReproduce": true,
+    "otherReportFieldsUnchanged": true,
+    "resetVerified": true
+  },
+  "repeatabilityChecks": {
+    "reports": [
+      "reports/panel-layout-20261029/narrow-scan.json",
+      "reports/panel-layout-20261029/wide-scan.json",
+      "reports\\lifecycle-qualification-20261029\\run-20261029-1314\\reset-report.json"
+    ],
+    "durationsMs": [
+      35,
+      31,
+      29
+    ],
+    "fullReportEquality": true,
+    "excludedFields": [
+      "observation.generatedAt",
+      "observation.durationMs"
+    ],
+    "additionalDetectionCases": 0,
+    "performanceBenchmark": false
+  },
+  "runtimeSourceAndStageUnchanged": true,
+  "inheritedTestsUnchanged": true,
+  "savedFixtureUnchanged": true,
+  "caseEvidenceExists": true,
+  "newNativeScans": 2,
+  "newInstallations": 0,
+  "gitDiffCheck": true,
+  "limits": [
+    "Record/content checks do not independently operate UI or convert unexecuted cases into PASS",
+    "Saved fixture hash is distinct from all in-memory state"
+  ],
+  "files": [
+    {
+      "file": "annotated-export-files.json",
+      "sha256": "6c07be3f7dc0a52a566448de0779f77928900d345529134d102456ee80e3b1d4"
+    },
+    {
+      "file": "annotated-report.html",
+      "sha256": "a8709ffbd3515c82339e4682bfa9e1b12ee566d1749a704e9f1782b6d46bc738"
+    },
+    {
+      "file": "annotated-report.json",
+      "sha256": "90d6033fa7db560cda274776e517348d1f4218e44a3cae61f6e4da05ba1769ab"
+    },
+    {
+      "file": "baseline-new-scan.png",
+      "sha256": "098af875a128e56677eaf38c4d4b3b43a5a731ab4ac178a006eb9630f18c8586"
+    },
+    {
+      "file": "cancel-picker-open.jpg",
+      "sha256": "55b2ace1c49f670dce3dea06cb53d0b7644d02cc616df2aa454be2becdc00907"
+    },
+    {
+      "file": "cancelled-picker.jpg",
+      "sha256": "5aeae0b62fcc336c6b0cfdb9790ff3f14f64d8dfdd77e32c6eb5e73f48e320cd"
+    },
+    {
+      "file": "native-events.json",
+      "sha256": "66427ae79f7fa4aef3f613500cb83066e1586935e01f2c767c43e453ffcf15af"
+    },
+    {
+      "file": "panel-before-close.png",
+      "sha256": "469ec18b1100de42bb365c4c45e01fa09e28d43cd0e8ad9750d24a6811645719"
+    },
+    {
+      "file": "panel-closed-project-open.png",
+      "sha256": "67c46a46fec10da7ed60f23d0b360b0c58ef279914137fdf5e1ec6e8fe6c5622"
+    },
+    {
+      "file": "panel-reopened-reviewed.png",
+      "sha256": "8a2ed57b96e5918119027e1552ede6ab6c6aac1637f542a8a3e00307d35603a4"
+    },
+    {
+      "file": "panel-reopened-summary.png",
+      "sha256": "0d6389cd293d60a6b1d0a38e2073a45fd18665b942bffb9dd4735d70a29d4305"
+    },
+    {
+      "file": "preflight-files.json",
+      "sha256": "3c210296c369d1b37d104ec05380597f2c184ea2bf814f9989f730eb772c4178"
+    },
+    {
+      "file": "preflight-project.png",
+      "sha256": "31c3beaf137556500ea60706aa9a197e4532ad3683c243fa377439911e0e8cb1"
+    },
+    {
+      "file": "preflight-udt-loaded.png",
+      "sha256": "73ac395249027602a65a5240d6b81754bae23a9f43e5928f2681e0c076e37170"
+    },
+    {
+      "file": "preflight-udt-options.txt",
+      "sha256": "97a866e32060b520b1723fd3fe592f9958205862690ba9ffb410f600cbf712ef"
+    },
+    {
+      "file": "README.md",
+      "sha256": "0ef107d495f665d8e28d6dcbe8af7d56760f7723f3fc46d118648e64ba6d0b8d"
+    },
+    {
+      "file": "repeatability-verification.json",
+      "sha256": "856334c4ec2933e32e77a2eaa945fdfa1cc35a8b7d9f655dc5de9763514e914a"
+    },
+    {
+      "file": "reset-export-file.json",
+      "sha256": "128934c26eef6af27a008275a0380dba96bf2bcfbf36e47135025e369ed4e1d5"
+    },
+    {
+      "file": "reset-report.json",
+      "sha256": "0d320c71d19bd7d972f6f03eb6d7e5a0b1724de396f198070c2c4e42676e7a62"
+    },
+    {
+      "file": "reset-scan-29ms.png",
+      "sha256": "ebeb28957d11146f98a24ea96bcfccd5f77b1ec886205c94a16100250e033192"
+    },
+    {
+      "file": "retry-picker.jpg",
+      "sha256": "55b2ace1c49f670dce3dea06cb53d0b7644d02cc616df2aa454be2becdc00907"
+    },
+    {
+      "file": "retry-saved-json.jpg",
+      "sha256": "3d22758cbb839bf856a78bd0927962ac91387b29241cd99b2f5199f97f61b9c1"
+    },
+    {
+      "file": "review-before.png",
+      "sha256": "5d31eb1366ee32e617f39bc0bd8a6c89461327043aac406b642a257cd177e32b"
+    },
+    {
+      "file": "review-popup-selection-not-applied.png",
+      "sha256": "ded65ec4d50c6c095ed3837eecd6ba37814a24158aa09650bc3622bb3405853a"
+    },
+    {
+      "file": "review-reset-unreviewed.png",
+      "sha256": "50c81283c2d1dcaf962b2914a4fa8538497b3ad0f2d593e1e770e825d68ee8bf"
+    },
+    {
+      "file": "review-selected-reviewed.png",
+      "sha256": "879e5ab21e52f463d3b05aa1827e9f36db3b5cb79493de6a1087401a738abc96"
+    },
+    {
+      "file": "verify-run.cjs",
+      "sha256": "274cd0844961f01fc98b6e87863ce7624b94fef321879b305bb7ff17e8bbcbd2"
+    }
+  ]
+}

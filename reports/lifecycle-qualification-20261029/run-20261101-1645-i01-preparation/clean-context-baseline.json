@@ -1,0 +1,45 @@
+{
+  "case": "LQ-I01",
+  "status": "NOT_RUN",
+  "preparationStatus": "CLEAN_CONTEXT_UNAVAILABLE_USER_STATED",
+  "environmentType": null,
+  "hostAlias": null,
+  "windowsProfileAlias": null,
+  "designationSource": null,
+  "accessMethod": null,
+  "previousPluginHistory": {
+    "value": null,
+    "evidenceClass": "UNVERIFIED",
+    "evidence": []
+  },
+  "normalAdobeAccess": {
+    "value": null,
+    "evidenceClass": "UNVERIFIED",
+    "evidence": []
+  },
+  "premiereBuild": null,
+  "uxpVersion": null,
+  "installedPluginAbsence": {
+    "value": null,
+    "evidenceClass": "UNVERIFIED",
+    "evidence": []
+  },
+  "developerRegistrationsInactive": {
+    "value": null,
+    "evidenceClass": "UNVERIFIED",
+    "evidence": []
+  },
+  "machineWidePluginHistoryChecked": false,
+  "cleanCustomerContextEstablished": false,
+  "installationAuthorized": false,
+  "installationStarted": false,
+  "newNativeExecutions": 0,
+  "notes": "Do not store credentials. Null means unresolved, not absent or passed. A separate user alone does not prove machine-wide cleanliness.",
+  "environmentAvailability": {
+    "recordedAt": "2026-11-01T09:49:09.363242+00:00",
+    "evidenceClass": "USER_STATED",
+    "question": "Which clean environment can we use for installation qualification?",
+    "answer": "None available yet",
+    "interpretation": "Owner reports no candidate clean environment currently available; not an independent inventory of machines or Windows users."
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "recordedAt": "2026-10-29T05:23:28.324Z",
+  "runtimeIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+  "runtimeBinding": {
+    "optionsEvidence": "udt-final-stage-options.txt",
+    "path": "C:/Users/unn0w/Downloads/02_Projects/Premiere-Audio-Routing-Integrity-Doctor/artifacts/audio-preflight-0.2.1-037571056922",
+    "prototypeUnloaded": true,
+    "betaLoaded": true,
+    "loadedScreenshot": "udt-final-loaded.png",
+    "sourceStageReceiptCheckedSeparately": true
+  },
+  "nativeWindow": {
+    "app": "{6D809377-6AF0-444B-8957-A3773F02200E}\\Adobe\\Adobe Premiere Pro 2026\\Adobe Premiere Pro.exe",
+    "id": 68096,
+    "title": "Adobe Premiere - C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\Positive_Signal_Test"
+  },
+  "narrow": {
+    "evidenceClass": "VERIFIED_THIS_SESSION_BOUNDED_NATIVE",
+    "outerWidth": 326,
+    "outerHeight": 359,
+    "units": "logical pixels per sky Screenshot metadata",
+    "originX": 107,
+    "originY": 100,
+    "geometry": [
+      {
+        "id": "screenshot-0",
+        "width": 1601,
+        "height": 881,
+        "originX": -2,
+        "originY": 0,
+        "zIndex": 0
+      },
+      {
+        "id": "screenshot-1",
+        "width": 326,
+        "height": 359,
+        "originX": 107,
+        "originY": 100,
+        "zIndex": 1
+      }
+    ],
+    "screenshot": "narrow-scan.png",
+    "exportControlsScreenshot": "narrow-exports-controls.png",
+    "scanInitiatedByAssistant": true,
+    "displayedDurationMs": 35,
+    "displayedDiagnosticStatus": "COMPLETE",
+    "displayedReviewFindings": 0,
+    "displayedCapabilityUnknowns": 3,
+    "displayedCoverage": {
+      "sequences": "4/4",
+      "tracks": "15/15",
+      "clips": "7/7",
+      "components": "18/18"
+    },
+    "coverageEvidence": "Initial scan and subsequent scroll screenshots returned in chat; persisted top screenshot clips part of the coverage text",
+    "scanControlsRecovered": true,
+    "jsonExport": "VERIFIED_FROM_FRESH_ORIGINAL_IN_PREVIOUS_FOLDER",
+    "htmlExport": "NOT_RUN",
+    "rawTextareaAtThisSize": "NOT_RUN",
+    "cssViewportDimensions": "NOT_MEASURED",
+    "failedReadsVerifiedFromJSON": 0,
+    "verification": "native-json-verification.json"
+  },
+  "wide": {
+    "status": "NOT_RUN"
+  },
+  "exportIncident": {
+    "saveDialogReturnedWindowId": 133342,
+    "requestedPath": "C:/Users/unn0w/Downloads/02_Projects/Premiere-Audio-Routing-Integrity-Doctor/reports/panel-layout-20261029/narrow-scan.json",
+    "filenameSetByIndexedSetValue": true,
+    "filenameValueReadbackMatched": true,
+    "typingIntoParent": false,
+    "firstSaveClickError": "coordinate input geometry is unavailable",
+    "recovery": "Fresh Save As selection, explicit activation, screenshot plus accessibility; filename verified again",
+    "secondSaveClick": "Indexed Save button; subsequent parent capture returned Codex instead of Premiere",
+    "requestedFileFoundAfterClick": false,
+    "inputStopped": true,
+    "exactPostAttemptDialogState": "UNKNOWN; no further desktop calls",
+    "cause": "UNKNOWN",
+    "originalFound": "reports/panel-layout-20261027/audio-preflight-2026-10-29T05-21-05-797Z.json",
+    "originalPreserved": true,
+    "byteIdenticalCopy": "narrow-scan.json",
+    "explanation": "Native JSON was saved with default name in previous folder despite full requested filename echoed by UIA; only later filesystem copying created narrow-scan.json"
+  },
+  "limits": [
+    "No wide native trial",
+    "No fresh JSON/HTML export pair",
+    "No native failure-read count independently read from export",
+    "No docking transition repeated",
+    "No full lifecycle or installation qualification",
+    "Mapping, buses and playback/export correctness UNKNOWN"
+  ]
+}

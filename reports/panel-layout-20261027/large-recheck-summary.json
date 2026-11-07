@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "assertions": 13,
+  "passed": 13,
+  "diagnosticsEqualAdapterOnly": true,
+  "adapterOnly": {
+    "adapterWallMs": 4286,
+    "diagnosticsMs": 61,
+    "jsonMs": 61,
+    "jsonCharacters": 26308531,
+    "htmlMs": 151,
+    "htmlCharacters": 32010728
+  },
+  "findings": {
+    "risk": 506,
+    "information": 256,
+    "unknown": 3
+  },
+  "runs": [
+    {
+      "mode": "MID_INVENTORY_CANCEL",
+      "adapterMs": 100,
+      "wallMs": 125,
+      "cancelToIdleMs": 25,
+      "progressAtCancellation": "clips · stereo-l440-r880 Copy · Audio 1 · 1/1",
+      "retainedSequences": 5,
+      "responsiveness": {
+        "timerPeriodMs": 5,
+        "samples": 80,
+        "maxGapMs": 25,
+        "p95GapMs": 2,
+        "gapsOver100ms": 0,
+        "qualification": "UXP event-loop timer latency including final report render; not OS-wide or mouse latency."
+      }
+    },
+    {
+      "mode": "FULL_RETRY",
+      "adapterMs": 4485,
+      "wallMs": 5055,
+      "retainedSequences": 256,
+      "responsiveness": {
+        "timerPeriodMs": 5,
+        "samples": 3658,
+        "maxGapMs": 599,
+        "p95GapMs": 2,
+        "gapsOver100ms": 1,
+        "qualification": "UXP event-loop timer latency including final report render; not OS-wide or mouse latency."
+      }
+    }
+  ],
+  "conclusion": "OPENING_STALL_NOT_REPRODUCED_IN_EXISTING_RESPONSIVE_SESSION; ROOT_CAUSE_UNKNOWN; UI_LATENCY_REMAINS",
+  "physicalDockedScan": {
+    "adapterMs": 4691,
+    "status": "COMPLETE",
+    "sequenceCoverage": "256/256",
+    "risk": 506,
+    "unknown": 3
+  },
+  "finalHost": {
+    "Id": 37304,
+    "Responding": true,
+    "CPU": 1485.953125,
+    "WorkingSet64": 3473068032
+  },
+  "largeFixtureUnchanged": true,
+  "positiveFixtureUnchanged": true
+}

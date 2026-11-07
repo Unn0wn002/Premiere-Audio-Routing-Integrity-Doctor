@@ -1,0 +1,22 @@
+ M README.md
+ M docs/BETA_GUIDE.md
+ M docs/BETA_RELEASE_CHECKLIST.md
+ M docs/DEMO_CHECKLIST.md
+ M docs/HOST_TEST_RUNBOOK.md
+ M docs/PROJECT_STATUS.md
+ M docs/SUBMISSION_OPERATOR_HANDOFF.md
+ M index.html
+ M index.js
+ M tests/beta.test.js
+ M tests/recovery.test.js
+?? .agents/
+?? .claude/
+?? PROJECT_LOG.md
+?? docs/IMPLEMENTATION_REVIEW_20261028.md
+?? docs/LAYOUT_REFRESH_20261028.md
+?? docs/LIFECYCLE_QUALIFICATION_PLAN_20261029.md
+?? docs/PANEL_LAYOUT_VALIDATION.md
+?? reports/lifecycle-qualification-20261029/
+?? reports/panel-layout-20261027/
+?? reports/panel-layout-20261029/
+?? skills-lock.json

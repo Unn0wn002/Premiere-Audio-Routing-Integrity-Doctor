@@ -1,0 +1,39 @@
+{
+  "result": "BOUNDED_POSITIVE_CONTROL_AND_LIFECYCLE_PASS",
+  "fixture": "Positive_Signal_Test.prproj",
+  "fixtureSHA256": "6403C37515E1A96FF6E34B049E5845F21BA2D692E3BF2A8202D51737FACF7012",
+  "baselineUnchanged": true,
+  "setupChanges": [
+    "Saved As new disposable project before mutations",
+    "Unmuted Audio 1",
+    "Enabled Audio 2 clip",
+    "Mapped stereo source Left to Left and Right to Right in test project",
+    "Centered first clip Balance from 100.0 to 0.0 after preserving hard-right export"
+  ],
+  "nativeAssertionsPassed": 20,
+  "nativeAssertionsTotal": 20,
+  "scanDurationsMs": [
+    43,
+    38,
+    36
+  ],
+  "retryDurationMs": 41,
+  "physicalDockedScan": {
+    "durationMs": 34,
+    "risks": 0,
+    "status": "COMPLETE",
+    "unknowns": 3
+  },
+  "renderedAudio": "PASS_BOUNDED_RENDERED_CHANNEL_CONTROL",
+  "reports": "Native report copied unchanged from plugin data folder; HTML generated locally with repository report helper and embedded JSON deep-equality checked",
+  "host": {
+    "Id": 37304,
+    "Responding": true,
+    "WorkingSet64": 2696368128
+  },
+  "remaining": [
+    "Large-fixture responsiveness remains unqualified",
+    "Physical listening and customer installation not qualified",
+    "Capability unknowns retained"
+  ]
+}

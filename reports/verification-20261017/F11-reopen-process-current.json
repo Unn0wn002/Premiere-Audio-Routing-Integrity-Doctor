@@ -1,0 +1,13 @@
+{
+  "recordedAt": "2026-10-18T14:47:59.5033967Z",
+  "scope": "Read-only process metadata during normal F11 project reopen, before POST scans; UI truth is separate",
+  "processes": [
+    {
+      "Id": 22888,
+      "ProcessName": "Adobe Premiere Pro",
+      "Responding": false,
+      "CPU": 5794.203125,
+      "StartTime": "2026-10-18T01:49:16.8023322+07:00"
+    }
+  ]
+}

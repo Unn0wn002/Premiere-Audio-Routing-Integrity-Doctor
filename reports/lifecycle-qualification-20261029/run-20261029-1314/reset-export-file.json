@@ -1,0 +1,7 @@
+{
+  "original": "reports/panel-layout-20261027/audio-preflight-2026-10-29T06-49-49-197Z.json",
+  "copy": "reset-report.json",
+  "sha256": "0d320c71d19bd7d972f6f03eb6d7e5a0b1724de396f198070c2c4e42676e7a62",
+  "nativePickerCancelledThenRetried": true,
+  "rescanBetweenCancelAndRetry": false
+}

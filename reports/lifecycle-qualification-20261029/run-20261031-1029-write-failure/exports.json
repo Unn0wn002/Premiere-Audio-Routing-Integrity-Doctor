@@ -1,0 +1,20 @@
+{
+  "verifiedAt": "2026-10-31T10:46:29.802316+07:00",
+  "baseline": "reports/lifecycle-qualification-20261029/run-20261031-1006-inflight/retry-complete.json",
+  "baselineSha256": "117ef210888fb74d2dce01bc2ec623c4d3db35db0943ac6408c4af9272d738e1",
+  "exports": [
+    {
+      "file": "audio-preflight-2026-10-31T03-21-39-589Z.json",
+      "bytes": 51217142,
+      "sha256": "117ef210888fb74d2dce01bc2ec623c4d3db35db0943ac6408c4af9272d738e1",
+      "byteIdenticalToRetainedReport": true
+    },
+    {
+      "file": "post-trace-recovery.json",
+      "bytes": 51217142,
+      "sha256": "117ef210888fb74d2dce01bc2ec623c4d3db35db0943ac6408c4af9272d738e1",
+      "byteIdenticalToRetainedReport": true
+    }
+  ],
+  "newScans": 0
+}

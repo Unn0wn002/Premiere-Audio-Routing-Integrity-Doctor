@@ -1,0 +1,1707 @@
+{
+  "recordType": "current-beta-native-fixture-ledger",
+  "executionDate": "2026-10-18",
+  "timezone": "Asia/Jakarta",
+  "branch": "codex/validated-beta-20261017",
+  "sourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "pluginVersion": "0.2.1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "runtimeFolder": "artifacts/audio-preflight-0.2.1-7b544bd27f3b",
+  "status": "NATIVE_FIXTURES_BOUNDED_PASS",
+  "host": {
+    "name": "premierepro",
+    "version": "26.5.2",
+    "build": "5",
+    "uiLocale": "en_US",
+    "uxpVersion": "uxp-9.3.0-local"
+  },
+  "disposableProject": {
+    "file": "reports/beta-20261004/ARID_Disposable_20261018.prproj",
+    "sha256Before": "0d517d6f057d4c619fe71d34dc9295d41720fd8f2debc5708cd0913ad1b60efe",
+    "sha256After": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+    "openRequested": true,
+    "projectTitleConfirmed": true,
+    "workspaceReady": true,
+    "fixtureScansExecuted": 33,
+    "unchangedFileHash": false,
+    "inspectedNativeStateUnchanged": null,
+    "fixtureStateSetupMutationsOccurred": true,
+    "hashCheckedAt": "2026-10-19T01:24:18.976Z",
+    "hashMeaning": "Disk hash only. Deliberate fixture setup edits occur in the disposable project; per-scan nonmutation is assessed from before/after UI and stable raw observations.",
+    "fixtureAssertionsReviewed": 11,
+    "uniqueFixtureSetupsReviewed": 10,
+    "fixtureScanMethodCounts": {
+      "NATIVE_PANEL_SCAN_AND_JSON_EXPORT": 18,
+      "UDT_CONSOLE_STAGED_ADAPTER_SEQUENTIAL_NATIVE_READS": 15
+    },
+    "fixtureScanCountMeaning": "Unique retained native report envelopes in the independently reviewed fixture repeat sets; any supplemental final panel execution is recorded separately and does not increase fixture condition denominators."
+  },
+  "blocker": null,
+  "boundedNativeChecks": {
+    "supplementalFinalPanel": {
+      "result": "BOUNDED_PASS",
+      "independentReview": "F11-supplemental-panel-current-independent-review.json",
+      "rawExport": "F11-supplemental-panel-current-export.json",
+      "executionCount": 1,
+      "durationMs": 27,
+      "totalRetainedFixtureRelatedReports": 34,
+      "totalPanelReports": 19,
+      "totalConsoleReports": 15,
+      "scope": "One final native panel scan/export beyond the 33 repeated fixture reads; matching visible summary/host/coverage, stable observations/diagnostics and unchanged saved-file bytes/hash/timestamp. Does not increase fixture, detection or repeat denominators."
+    },
+    "udtLoad": {
+      "result": "PASS",
+      "evidence": "udt-load-current.png",
+      "scope": "Supported UDT Load succeeded after selecting frozen runtime build folder; not packaged CCX installation"
+    },
+    "noProjectScan": {
+      "result": "PASS",
+      "expected": "Failed scan, diagnostic UNKNOWN, no risk findings, explicit missing-project Unknown plus three product-boundary Unknowns, controls recover",
+      "actual": {
+        "completion": "failed",
+        "diagnosticStatus": "UNKNOWN",
+        "riskFindings": 0,
+        "unknownFindings": 4,
+        "durationMs": 1,
+        "errors": [
+          "No active Premiere project."
+        ]
+      },
+      "evidence": [
+        "no-project-current.png",
+        "no-project-coverage-current.png",
+        "no-project-current-export.json"
+      ],
+      "repeatability": null
+    },
+    "jsonExport": {
+      "result": "PASS",
+      "file": "no-project-current-export.json",
+      "bytes": 4038,
+      "sha256": "9cc70a6bf60be3e8ffe3ec2a9a1e9f8526659d15aaf425187a8a42cc8dd51d8c",
+      "scope": "Actual native Save As export parsed successfully and agreed with visible summary/host/coverage",
+      "pathNote": "The filename edit displayed a requested destination, but Save retained its default location/name in reports/beta-20261004/audio-preflight-2026-10-17T18-54-40-562Z.json. Raw bytes were copied unchanged into this verification folder; this is not synthetic data."
+    },
+    "nativeScanOverlapInstrumentation": "NOT_RUN",
+    "packagedCcxInstallation": "NOT_RUN",
+    "apiThenableInstrumentation": {
+      "result": "BOUNDED_PASS",
+      "evidence": [
+        "current-native-api-export.json",
+        "current-native-api-review.json"
+      ],
+      "reads": 57,
+      "thenables": 24,
+      "direct": 33,
+      "mismatches": 0,
+      "scope": "One representative static clip/source parameter path in current host; no broad host/version contract qualification."
+    },
+    "keyframeAndFrameRateNativeQualification": {
+      "result": "BOUNDED_PASS",
+      "evidence": [
+        "current-native-api-export.json",
+        "current-native-api-review.json"
+      ],
+      "observed": "Finite positive FrameRate fields; exact TickTime tick strings; boolean nested Keyframe.value.value and position; direct empty keyframe lists on static clip/source params.",
+      "unexercised": [
+        "isTimeVarying true and nonempty keyframe-time list",
+        "numeric/string/Color/PointF Keyframe value variants",
+        "nullable absent source component chain",
+        "native rejected/throwing/missing getters",
+        "successfully empty project/audio-track inventory",
+        "other components/params and host versions beyond bounded representative"
+      ],
+      "additionalScanEvidence": "All observed parameter start values in each independently reviewed fixture export satisfy strict supported nested value/position shape checks; exact counts are retained in the individual export analyses."
+    },
+    "saveCloseReopen": {
+      "result": "BOUNDED_PASS",
+      "independentReview": "F11-current-independent-review.json",
+      "rawAnalysis": "F11-six-runs-independent-export-review.json",
+      "savedFileEvidence": "F11-project-file-snapshots.json",
+      "scope": "One deliberately authored compound state, three retained reads before save/close/reopen and three after; independently inspected UI and unchanged saved-file bytes. Earlier individual fixture layouts were not each reopened."
+    }
+  },
+  "fixtures": [
+    {
+      "id": "F01",
+      "expectedState": "Stereo2; nonempty unmuted track; enabled clip",
+      "expectedObservation": "Channel configuration recorded; no unsupported risk",
+      "execution": "THREE_NATIVE_OBSERVATIONS_MATCHED_AND_STABLE; inspected mute/enable state preserved in UI; reopen pending",
+      "actualObservation": "Scoped channel type=1 (Stereo), count=2, 48000Hz; Audio 1/2/3 muted=false; A1 clip occurrences 0 and 1 disabled=false; no risk findings; three boundary Unknowns.",
+      "independentUiTruth": {
+        "method": "Retained native screenshots viewed independently by analysis agent; UI operator independently confirmed exact scope and controls.",
+        "channelFormat": "Stereo",
+        "channelCount": 2,
+        "sampleRateHz": 48000,
+        "trackMute": [
+          false,
+          false,
+          false
+        ],
+        "clipEnabled": [
+          true,
+          true
+        ],
+        "clipTrackIndex": 0,
+        "beforeEvidence": [
+          "F01-settings-before-current.png",
+          "F01-clip0-enabled-before-current.png",
+          "F01-clip1-enabled-before-current.png"
+        ],
+        "truthLimit": "No source-channel mapping, mixer topology, playback/export correctness or intent inferred. Empty F08_Mono sequence is outside F01 scope and its name is not Mono truth."
+      },
+      "durationMs": [
+        23,
+        24,
+        26
+      ],
+      "repeatability": {
+        "analysis": "F01-three-runs-independent-export-review.json",
+        "observationFieldsStable": true,
+        "diagnosticsStable": true,
+        "excludedObservationFields": [
+          "generatedAt",
+          "durationMs"
+        ],
+        "stableObservationSha256": "1c2936dbdcf06afc918ad3c41406f11732e94f760e09025beb7d78a8f3dc1d2b",
+        "stableDiagnosticSha256": "1d4ef2e4670a2aa487cdc44131fdeba63cb34662ee5d8349f272d94fb8f88e65",
+        "medianDurationMs": 24,
+        "timingLimit": "Plugin-reported Date.now traversal duration. Three local observations; no broad performance or UI-wall-clock claim.",
+        "rawExports": [
+          "F01-R1-current-export.json",
+          "F01-R2-current-export.json",
+          "F01-R3-current-export.json"
+        ]
+      },
+      "reopen": null,
+      "inspectedStateUnchanged": {
+        "trackMuteAndClipEnableUi": true,
+        "clipBalanceUiValuesBeforeAfter": [
+          0,
+          50
+        ],
+        "clipOccurrencesAndTimingRaw": true,
+        "channelConfigurationRaw": true,
+        "channelConfigurationAfterUiReopened": null,
+        "evidence": [
+          "F01-R3-after-current.png",
+          "F01-clip0-enabled-after-current.png",
+          "F01-clip1-enabled-after-current.png"
+        ],
+        "limit": "After screenshots independently retain unhighlighted track M controls, both Enable menu checks and the same clip Balance values. Channel configuration and locator fields agree in all three raw exports; the Settings dialog was not independently reopened after the scans. This is scoped inspected-state evidence, not proof that every project property is unchanged."
+      },
+      "actualSequenceScope": {
+        "project": "ARID_Disposable_20261018.prproj",
+        "sequence": "stereo-l440-r880",
+        "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+        "sequenceOccurrenceIndex": 0
+      },
+      "independentReview": "F01-current-independent-review.json",
+      "rawExportFiles": [
+        "F01-R1-current-export.json",
+        "F01-R2-current-export.json",
+        "F01-R3-current-export.json"
+      ],
+      "observableFixtureMetrics": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "observableEvaluatedFixtures": 1,
+        "positiveObservableRiskConditions": 0,
+        "interpretation": "F01 is a negative control for ARID-001/002/003. Zero positive conditions prevents sensitivity conclusions. Metrics concern only independently verified unmuted/enabled conditions in the scoped sequence; Unknown capabilities are excluded."
+      },
+      "physicalRunIds": [
+        "F01-R1",
+        "F01-R2",
+        "F01-R3"
+      ],
+      "physicalSetupId": "F01",
+      "rawReportReferences": [
+        {
+          "source": "F01-R1-current-export.json",
+          "reportJsonPointer": ""
+        },
+        {
+          "source": "F01-R2-current-export.json",
+          "reportJsonPointer": ""
+        },
+        {
+          "source": "F01-R3-current-export.json",
+          "reportJsonPointer": ""
+        }
+      ],
+      "executionMethod": "NATIVE_PANEL_SCAN_AND_JSON_EXPORT"
+    },
+    {
+      "id": "F02",
+      "expectedState": "Stereo; known hard-left panner",
+      "expectedObservation": "No broken-routing claim from pan; semantic pan coverage remains Unknown unless proven",
+      "execution": "THREE_NATIVE_OBSERVATIONS_MATCHED_AND_STABLE; hard-left UI preserved; semantic pan coverage UNKNOWN; reopen pending",
+      "actualObservation": "All three current native exports have no risk findings, Stereo2 Information, three product-boundary Unknowns and no unsupported pan/routing assertion.",
+      "independentUiTruth": {
+        "method": "Native before/after screenshots independently viewed by analysis agent show selected A1 clip Panner Balance -100.0 and all track M controls off. Operator confirms re-enabling the A2 duplicate after F07, then editing only selected A1 Balance through UI from 0.0 to -100.0.",
+        "channelConfiguration": "Existing main Stereo2 sequence",
+        "selectedClipBalanceUi": -100,
+        "trackMute": [
+          false,
+          false,
+          false
+        ],
+        "beforeEvidence": [
+          "F02-hard-left-before-current.png"
+        ],
+        "afterEvidence": [
+          "F02-hard-left-after-current.png"
+        ],
+        "truthLimit": "UI establishes the hard-left Balance setting. Public component observations do not establish semantic pan/routing interpretation or correctness of playback, mapping or outputs."
+      },
+      "durationMs": [
+        25,
+        33,
+        23
+      ],
+      "repeatability": {
+        "observationFieldsStable": true,
+        "diagnosticsStable": true,
+        "excludedObservationFields": [
+          "generatedAt",
+          "durationMs"
+        ],
+        "stableObservationSha256": "fa474d1753bc1e6c05bb427fedb5713c56a1676d705f6d463efebd6c52e3186b",
+        "stableDiagnosticSha256": "1d4ef2e4670a2aa487cdc44131fdeba63cb34662ee5d8349f272d94fb8f88e65",
+        "medianDurationMs": 25,
+        "rawExports": [
+          "F02-R1-current-export.json",
+          "F02-R2-current-export.json",
+          "F02-R3-current-export.json"
+        ],
+        "timingLimit": "Plugin-reported Date.now traversal duration. Runs span an external credit interruption and do not establish consecutive UI-wall-clock timing or broad performance.",
+        "interruption": {
+          "run": 2,
+          "status": "RECOVERED_CURRENT_REPORT",
+          "nativeScanGeneratedAt": "2026-10-18T05:20:27.442Z",
+          "fileLastWriteTime": "2026-10-18T09:16:44.339Z",
+          "operatorConfirmation": "Run initiation crossed a stale-screenshot boundary at the credit pause. On resume the current panel showed 33 ms, Balance remained -100.0 and no fixture state edits occurred during the pause. That actual report was exported; R3 was then explicitly initiated anew.",
+          "limit": "Native report duration is retained as reported; export-save elapsed time is not scan execution time."
+        }
+      },
+      "reopen": null,
+      "inspectedStateUnchanged": {
+        "selectedClipBalanceAndTrackMuteUi": true,
+        "allObservedRawFields": true,
+        "evidence": [
+          "F02-hard-left-before-current.png",
+          "F02-hard-left-after-current.png"
+        ],
+        "limit": "Selected A1 Balance -100.0 and unmuted track controls are preserved in independently reviewed before/after UI; stable raw collected fields do not certify all project state or output."
+      },
+      "actualSequenceScope": {
+        "project": "ARID_Disposable_20261018.prproj",
+        "sequence": "stereo-l440-r880",
+        "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+        "sequenceOccurrenceIndex": 0,
+        "hardLeftTrackIndex": 0,
+        "hardLeftClipOccurrenceIndex": 0,
+        "clipStart": {
+          "ticks": "0",
+          "seconds": 0
+        },
+        "clipEnd": {
+          "ticks": "762810048000",
+          "seconds": 3.003
+        }
+      },
+      "independentReview": "F02-current-independent-review.json",
+      "rawExportFiles": [
+        "F02-R1-current-export.json",
+        "F02-R2-current-export.json",
+        "F02-R3-current-export.json"
+      ],
+      "observableFixtureMetrics": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "observableEvaluatedFixtures": 1,
+        "positiveObservableRiskConditions": 0,
+        "interpretation": "Negative control for unsupported risk assertions from independently verified hard pan; no positive ARID-001/002/003 condition. Unknown semantic pan/mapping/output correctness is excluded, not scored as a detection success."
+      },
+      "physicalRunIds": [
+        "F02-R1",
+        "F02-R2",
+        "F02-R3"
+      ],
+      "physicalSetupId": "F02",
+      "rawReportReferences": [
+        {
+          "source": "F02-R1-current-export.json",
+          "reportJsonPointer": ""
+        },
+        {
+          "source": "F02-R2-current-export.json",
+          "reportJsonPointer": ""
+        },
+        {
+          "source": "F02-R3-current-export.json",
+          "reportJsonPointer": ""
+        }
+      ],
+      "executionMethod": "NATIVE_PANEL_SCAN_AND_JSON_EXPORT"
+    },
+    {
+      "id": "F03",
+      "expectedState": "Stereo; known hard-right panner",
+      "expectedObservation": "No broken-routing claim from pan; semantic pan coverage remains Unknown unless proven",
+      "execution": "THREE_SHARED_NATIVE_OBSERVATIONS_MATCHED_AND_STABLE; intentional hard-right UI preserved; semantic pan UNKNOWN; reopen pending",
+      "actualObservation": "All three shared native exports contain no risk findings, Stereo2 Information and three product-boundary Unknowns; the exact renamed A1 clip is enabled at the expected locator.",
+      "independentUiTruth": {
+        "method": "Joint before/after native screenshots independently viewed by analysis agent: full selected A1 clip label F04 Intentional creative hard-right, Panner Balance +100.0, Enable checked and all track M controls off. Operator authored the label before all three shared scans and reports no intervening edits.",
+        "selectedClipBalanceUi": 100,
+        "selectedClipEnableUi": true,
+        "declaredTestIntent": "Intentional creative hard-right; explicit UI clip label is the declaration, not an inference from audio or the API.",
+        "trackMute": [
+          false,
+          false,
+          false
+        ],
+        "beforeEvidence": [
+          "F03-F04-intentional-hard-right-before-current.png"
+        ],
+        "afterEvidence": [
+          "F03-F04-intentional-hard-right-after-current.png"
+        ],
+        "sharedFixtureAssertions": [
+          "F03",
+          "F04"
+        ],
+        "truthLimit": "One authored physical state supports two assertions. Semantic pan coverage, source mapping, bus routing and playback/export correctness remain Unknown. The UI intent declaration is not proof of output correctness."
+      },
+      "durationMs": [
+        25,
+        21,
+        21
+      ],
+      "repeatability": {
+        "observationFieldsStable": true,
+        "diagnosticsStable": true,
+        "excludedObservationFields": [
+          "generatedAt",
+          "durationMs"
+        ],
+        "stableObservationSha256": "b5c3ae48362b2b49af7b47a09df75e4ebdac7aeeec9c40bdd6f0c728551cd52e",
+        "stableDiagnosticSha256": "1d4ef2e4670a2aa487cdc44131fdeba63cb34662ee5d8349f272d94fb8f88e65",
+        "medianDurationMs": 21,
+        "rawExports": [
+          "F03-F04-R1-current-export.json",
+          "F03-F04-R2-current-export.json",
+          "F03-F04-R3-current-export.json"
+        ],
+        "timingLimit": "Three physical panel scans shared by F03/F04, not six. Plugin-reported traversal times only; no broad performance or UI-wall-clock claim."
+      },
+      "reopen": null,
+      "inspectedStateUnchanged": {
+        "labelBalanceEnableMuteUi": true,
+        "allObservedRawFields": true,
+        "evidence": [
+          "F03-F04-intentional-hard-right-before-current.png",
+          "F03-F04-intentional-hard-right-after-current.png"
+        ],
+        "limit": "The same full intent label, +100.0 Balance, checked Enable and active track states are retained before/after. Stable collected raw fields do not establish all-property nonmutation or correct output."
+      },
+      "actualSequenceScope": {
+        "project": "ARID_Disposable_20261018.prproj",
+        "sequence": "stereo-l440-r880",
+        "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+        "sequenceOccurrenceIndex": 0,
+        "selectedTrackIndex": 0,
+        "selectedClipOccurrenceIndex": 0,
+        "selectedClipName": "F04 Intentional creative hard-right",
+        "clipStart": {
+          "ticks": "0",
+          "seconds": 0
+        },
+        "clipEnd": {
+          "ticks": "762810048000",
+          "seconds": 3.003
+        }
+      },
+      "independentReview": "F03-current-independent-review.json",
+      "rawExportFiles": [
+        "F03-F04-R1-current-export.json",
+        "F03-F04-R2-current-export.json",
+        "F03-F04-R3-current-export.json"
+      ],
+      "rawReportReferences": [
+        {
+          "source": "F03-F04-R1-current-export.json",
+          "reportJsonPointer": ""
+        },
+        {
+          "source": "F03-F04-R2-current-export.json",
+          "reportJsonPointer": ""
+        },
+        {
+          "source": "F03-F04-R3-current-export.json",
+          "reportJsonPointer": ""
+        }
+      ],
+      "physicalRunIds": [
+        "F03-F04-R1",
+        "F03-F04-R2",
+        "F03-F04-R3"
+      ],
+      "physicalSetupId": "F03-F04-shared-intentional-hard-right",
+      "executionMethod": "NATIVE_PANEL_SCAN_AND_JSON_EXPORT",
+      "observableFixtureMetrics": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "observableEvaluatedFixtures": 1,
+        "evaluationGroupId": "F03-F04-shared-intentional-hard-right",
+        "positiveObservableRiskConditions": 0,
+        "interpretation": "One negative-control physical setup shared with F04. Counted once for setup/condition denominators; no positive ARID-001/002/003 condition. Unknown semantic pan/output correctness is excluded."
+      }
+    },
+    {
+      "id": "F04",
+      "expectedState": "Deliberate creative hard pan independently labeled intentional",
+      "expectedObservation": "No risk solely from intentional pan",
+      "execution": "THREE_SHARED_NATIVE_OBSERVATIONS_MATCHED_AND_STABLE; intentional hard-right UI preserved; semantic pan UNKNOWN; reopen pending",
+      "actualObservation": "All three shared native exports contain no risk findings, Stereo2 Information and three product-boundary Unknowns; the exact renamed A1 clip is enabled at the expected locator.",
+      "independentUiTruth": {
+        "method": "Joint before/after native screenshots independently viewed by analysis agent: full selected A1 clip label F04 Intentional creative hard-right, Panner Balance +100.0, Enable checked and all track M controls off. Operator authored the label before all three shared scans and reports no intervening edits.",
+        "selectedClipBalanceUi": 100,
+        "selectedClipEnableUi": true,
+        "declaredTestIntent": "Intentional creative hard-right; explicit UI clip label is the declaration, not an inference from audio or the API.",
+        "trackMute": [
+          false,
+          false,
+          false
+        ],
+        "beforeEvidence": [
+          "F03-F04-intentional-hard-right-before-current.png"
+        ],
+        "afterEvidence": [
+          "F03-F04-intentional-hard-right-after-current.png"
+        ],
+        "sharedFixtureAssertions": [
+          "F03",
+          "F04"
+        ],
+        "truthLimit": "One authored physical state supports two assertions. Semantic pan coverage, source mapping, bus routing and playback/export correctness remain Unknown. The UI intent declaration is not proof of output correctness."
+      },
+      "durationMs": [
+        25,
+        21,
+        21
+      ],
+      "repeatability": {
+        "observationFieldsStable": true,
+        "diagnosticsStable": true,
+        "excludedObservationFields": [
+          "generatedAt",
+          "durationMs"
+        ],
+        "stableObservationSha256": "b5c3ae48362b2b49af7b47a09df75e4ebdac7aeeec9c40bdd6f0c728551cd52e",
+        "stableDiagnosticSha256": "1d4ef2e4670a2aa487cdc44131fdeba63cb34662ee5d8349f272d94fb8f88e65",
+        "medianDurationMs": 21,
+        "rawExports": [
+          "F03-F04-R1-current-export.json",
+          "F03-F04-R2-current-export.json",
+          "F03-F04-R3-current-export.json"
+        ],
+        "timingLimit": "Three physical panel scans shared by F03/F04, not six. Plugin-reported traversal times only; no broad performance or UI-wall-clock claim."
+      },
+      "reopen": null,
+      "inspectedStateUnchanged": {
+        "labelBalanceEnableMuteUi": true,
+        "allObservedRawFields": true,
+        "evidence": [
+          "F03-F04-intentional-hard-right-before-current.png",
+          "F03-F04-intentional-hard-right-after-current.png"
+        ],
+        "limit": "The same full intent label, +100.0 Balance, checked Enable and active track states are retained before/after. Stable collected raw fields do not establish all-property nonmutation or correct output."
+      },
+      "actualSequenceScope": {
+        "project": "ARID_Disposable_20261018.prproj",
+        "sequence": "stereo-l440-r880",
+        "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+        "sequenceOccurrenceIndex": 0,
+        "selectedTrackIndex": 0,
+        "selectedClipOccurrenceIndex": 0,
+        "selectedClipName": "F04 Intentional creative hard-right",
+        "clipStart": {
+          "ticks": "0",
+          "seconds": 0
+        },
+        "clipEnd": {
+          "ticks": "762810048000",
+          "seconds": 3.003
+        }
+      },
+      "independentReview": "F04-current-independent-review.json",
+      "rawExportFiles": [
+        "F03-F04-R1-current-export.json",
+        "F03-F04-R2-current-export.json",
+        "F03-F04-R3-current-export.json"
+      ],
+      "rawReportReferences": [
+        {
+          "source": "F03-F04-R1-current-export.json",
+          "reportJsonPointer": ""
+        },
+        {
+          "source": "F03-F04-R2-current-export.json",
+          "reportJsonPointer": ""
+        },
+        {
+          "source": "F03-F04-R3-current-export.json",
+          "reportJsonPointer": ""
+        }
+      ],
+      "physicalRunIds": [
+        "F03-F04-R1",
+        "F03-F04-R2",
+        "F03-F04-R3"
+      ],
+      "physicalSetupId": "F03-F04-shared-intentional-hard-right",
+      "executionMethod": "NATIVE_PANEL_SCAN_AND_JSON_EXPORT",
+      "observableFixtureMetrics": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "observableEvaluatedFixtures": 0,
+        "evaluationGroupId": "F03-F04-shared-intentional-hard-right",
+        "positiveObservableRiskConditions": 0,
+        "interpretation": "F04 evaluates the intentional-pan assertion on the same physical setup and three actual runs already counted by F03. It adds no native executions, unique negative-control setup or detection denominator. Unknown semantic pan/output correctness remains unscored."
+      }
+    },
+    {
+      "id": "F05",
+      "expectedState": "Only nonempty audio track muted",
+      "expectedObservation": "ARID-001 once, subject to complete inventory; intent remains unknown",
+      "execution": "THREE_NATIVE_OBSERVATIONS_MATCHED_AND_STABLE; inspected mute/nonempty state preserved in UI; reopen pending",
+      "actualObservation": "ARID-001 Warning at exact main-sequence GUID/occurrence; All 1 non-empty audio tracks report muted=true. No other risk findings; LOW_INTENT_CONFIDENCE and manual review/do-not-auto-unmute guidance retained.",
+      "independentUiTruth": {
+        "method": "Retained native F05-truth-before-current.png viewed independently by analysis agent; UI operator reports only setup edit since F01 was clicking A1 Mute.",
+        "trackMute": [
+          true,
+          false,
+          false
+        ],
+        "nonemptyTrackIndices": [
+          0
+        ],
+        "clipTrackIndex": 0,
+        "clipOccurrences": [
+          0,
+          1
+        ],
+        "beforeEvidence": [
+          "F05-truth-before-current.png"
+        ],
+        "truthLimit": "Mute state is directly observed; expected creative audio and user intent remain unknown. No mapping, bus or playback/export truth is inferred."
+      },
+      "durationMs": [
+        24,
+        25,
+        22
+      ],
+      "repeatability": {
+        "analysis": "F05-three-runs-independent-export-review.json",
+        "observationFieldsStable": true,
+        "diagnosticsStable": true,
+        "excludedObservationFields": [
+          "generatedAt",
+          "durationMs"
+        ],
+        "stableObservationSha256": "19cb05c863865b4ae467919c4ede9bfd6e7b2d84c2e7dd1be456dd3b23a03bc5",
+        "stableDiagnosticSha256": "57c93d754007f3fce466bc18494552ee6e6faef878812456ee45d1632eab743e",
+        "medianDurationMs": 24,
+        "timingLimit": "Plugin-reported Date.now traversal duration. Three local observations; no broad performance or UI-wall-clock claim.",
+        "rawExports": [
+          "F05-R1-current-export.json",
+          "F05-R2-current-export.json",
+          "F05-R3-current-export.json"
+        ]
+      },
+      "reopen": null,
+      "inspectedStateUnchanged": {
+        "trackMuteAndNonemptyTracksUi": true,
+        "allObservedRawFields": true,
+        "evidence": [
+          "F05-truth-before-current.png",
+          "F05-truth-after-current.png"
+        ],
+        "limit": "Independent before/after screenshots retain A1 M selected, A2/A3 M unselected and both clips on A1. All retained raw observation fields are stable except generatedAt/durationMs; this does not certify every project property or output."
+      },
+      "actualSequenceScope": {
+        "project": "ARID_Disposable_20261018.prproj",
+        "sequence": "stereo-l440-r880",
+        "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+        "sequenceOccurrenceIndex": 0
+      },
+      "independentReview": "F05-current-independent-review.json",
+      "rawExportFiles": [
+        "F05-R1-current-export.json",
+        "F05-R2-current-export.json",
+        "F05-R3-current-export.json"
+      ],
+      "observableFixtureMetrics": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "observableEvaluatedFixtures": 1,
+        "positiveObservableRiskConditions": 1,
+        "interpretation": "One scoped all-nonempty-tracks-muted condition, evaluated once despite repeated scan plans. This is observation detection, not a finding that the intentional mute is an error. Unknown product capabilities and unexercised fixtures are excluded."
+      },
+      "physicalRunIds": [
+        "F05-R1",
+        "F05-R2",
+        "F05-R3"
+      ],
+      "physicalSetupId": "F05",
+      "rawReportReferences": [
+        {
+          "source": "F05-R1-current-export.json",
+          "reportJsonPointer": ""
+        },
+        {
+          "source": "F05-R2-current-export.json",
+          "reportJsonPointer": ""
+        },
+        {
+          "source": "F05-R3-current-export.json",
+          "reportJsonPointer": ""
+        }
+      ],
+      "executionMethod": "NATIVE_PANEL_SCAN_AND_JSON_EXPORT"
+    },
+    {
+      "id": "F06",
+      "expectedState": "Nonempty A1 muted and nonempty A2 active",
+      "expectedObservation": "ARID-002 on A1; no ARID-001",
+      "execution": "THREE_NATIVE_OBSERVATIONS_MATCHED_AND_STABLE; inspected mute/nonempty state preserved in UI; reopen pending",
+      "actualObservation": "All three exports contain exactly one ARID-002 Review at sequence GUID 06a6a407-a666-40bd-b196-ebd09a74fc7f, track Audio 1, trackId2, trackIndex0. No ARID-001/003; low intent confidence and manual review guidance retained.",
+      "independentUiTruth": {
+        "method": "Before/after native screenshots viewed independently by analysis agent. Operator constructed F06 by moving the second duplicate clip occurrence from A1 to A2, retaining A1 Mute selected.",
+        "trackMute": [
+          true,
+          false,
+          false
+        ],
+        "nonemptyTrackIndices": [
+          0,
+          1
+        ],
+        "clipsPerTrack": [
+          1,
+          1,
+          0
+        ],
+        "beforeEvidence": [
+          "F06-truth-before-current.png"
+        ],
+        "afterEvidence": [
+          "F06-truth-after-current.png"
+        ],
+        "truthLimit": "Expected creative audio and mute intent remain unknown. No mapping, bus or playback/export truth is inferred."
+      },
+      "durationMs": [
+        30,
+        21,
+        23
+      ],
+      "repeatability": {
+        "observationFieldsStable": true,
+        "diagnosticsStable": true,
+        "excludedObservationFields": [
+          "generatedAt",
+          "durationMs"
+        ],
+        "stableObservationSha256": "b950a2680a7ed3b7bf3d2ebe4d501e942097fdcc3e7c3b76609a186e391d20b0",
+        "stableDiagnosticSha256": "8f4d218145c5c1d67240f6a926681b4e8eac42973b820c0dadf47b93ab792679",
+        "medianDurationMs": 23,
+        "timingLimit": "Plugin-reported Date.now traversal duration; three local observations, no broad performance or UI-wall-clock claim.",
+        "rawExports": [
+          "F06-R1-current-export.json",
+          "F06-R2-current-export.json",
+          "F06-R3-current-export.json"
+        ]
+      },
+      "reopen": null,
+      "inspectedStateUnchanged": {
+        "trackMuteAndNonemptyTracksUi": true,
+        "allObservedRawFields": true,
+        "evidence": [
+          "F06-truth-before-current.png",
+          "F06-truth-after-current.png"
+        ],
+        "limit": "Before/after screenshots retain nonempty muted A1 and nonempty active A2. All raw observed fields are stable except generatedAt/durationMs; this does not certify every project property or output."
+      },
+      "actualSequenceScope": {
+        "project": "ARID_Disposable_20261018.prproj",
+        "sequence": "stereo-l440-r880",
+        "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+        "sequenceOccurrenceIndex": 0
+      },
+      "independentReview": "F06-current-independent-review.json",
+      "rawExportFiles": [
+        "F06-R1-current-export.json",
+        "F06-R2-current-export.json",
+        "F06-R3-current-export.json"
+      ],
+      "observableFixtureMetrics": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "observableEvaluatedFixtures": 1,
+        "positiveObservableRiskConditions": 1,
+        "interpretation": "One scoped nonempty muted-track condition in a mixed active/muted sequence, evaluated once despite three scans. This is observation detection, not a finding that the intentional mute is an error. Unknown capabilities and unexercised fixtures are excluded."
+      },
+      "physicalRunIds": [
+        "F06-R1",
+        "F06-R2",
+        "F06-R3"
+      ],
+      "physicalSetupId": "F06",
+      "rawReportReferences": [
+        {
+          "source": "F06-R1-current-export.json",
+          "reportJsonPointer": ""
+        },
+        {
+          "source": "F06-R2-current-export.json",
+          "reportJsonPointer": ""
+        },
+        {
+          "source": "F06-R3-current-export.json",
+          "reportJsonPointer": ""
+        }
+      ],
+      "executionMethod": "NATIVE_PANEL_SCAN_AND_JSON_EXPORT"
+    },
+    {
+      "id": "F07",
+      "expectedState": "Active audio track with one disabled clip and distinct repeated clip occurrences",
+      "expectedObservation": "ARID-003 at independently verified disabled occurrence with exact locator",
+      "execution": "THREE_NATIVE_OBSERVATIONS_MATCHED_AND_STABLE_WITH_DOCUMENTED_LAYOUT_DEVIATION; inspected mute/disabled state preserved in UI; reopen pending",
+      "actualObservation": "All three exports contain exactly one ARID-003 Review at the full expected sequence/track/occurrence/time locator, with no ARID-001/002 and low intent confidence/manual review guidance.",
+      "independentUiTruth": {
+        "method": "F07-disabled-before-current.png viewed independently by analysis agent: second chronological same-name clip selected on A2, Enable context item unchecked, track M controls all unselected. Operator reports unmuting A1 then toggling only the A2 clip Enable.",
+        "trackMute": [
+          false,
+          false,
+          false
+        ],
+        "nonemptyTrackIndices": [
+          0,
+          1
+        ],
+        "clipsPerTrack": [
+          1,
+          1,
+          0
+        ],
+        "disabledClips": [
+          {
+            "trackIndex": 1,
+            "occurrenceIndex": 0
+          }
+        ],
+        "beforeEvidence": [
+          "F07-disabled-before-current.png"
+        ],
+        "layoutDeviation": "The duplicate source occurrences remain split across A1 and A2 after F06. This current run qualifies exact cross-track locator discrimination and disabled-clip observation; it does not qualify the same-track duplicate occurrence-index-1 edge. That edge remains mock/historical unless separately restored and exercised.",
+        "truthLimit": "Clip disable state is directly observed; whether the disabled clip should contribute creative audio remains unknown. Mapping, bus and playback/export truth are not inferred."
+      },
+      "durationMs": [
+        24,
+        21,
+        23
+      ],
+      "repeatability": {
+        "observationFieldsStable": true,
+        "diagnosticsStable": true,
+        "excludedObservationFields": [
+          "generatedAt",
+          "durationMs"
+        ],
+        "stableObservationSha256": "a4dde97a54fadb849740efc861f5d5bb05305ea1b6015c9394251443f9782735",
+        "stableDiagnosticSha256": "8820b35883400922a3f533c4927e329852b25541a3fc4ba994d031494a5af840",
+        "medianDurationMs": 23,
+        "timingLimit": "Plugin-reported Date.now traversal duration; three local observations, no broad performance or UI-wall-clock claim.",
+        "rawExports": [
+          "F07-R1-current-export.json",
+          "F07-R2-current-export.json",
+          "F07-R3-current-export.json"
+        ]
+      },
+      "reopen": null,
+      "inspectedStateUnchanged": {
+        "trackMuteAndDisabledClipUi": true,
+        "allObservedRawFields": true,
+        "evidence": [
+          "F07-disabled-before-current.png",
+          "F07-disabled-after-current.png"
+        ],
+        "limit": "Both independently reviewed context-menu screenshots retain Enable unchecked on the same A2 duplicate and all M controls unselected. Raw observed fields stable except generatedAt/durationMs; no all-property or playback/output claim."
+      },
+      "actualSequenceScope": {
+        "project": "ARID_Disposable_20261018.prproj",
+        "sequence": "stereo-l440-r880",
+        "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+        "sequenceOccurrenceIndex": 0,
+        "disabledTrack": "Audio 2",
+        "disabledTrackId": "3",
+        "disabledTrackIndex": 1,
+        "disabledClipOccurrenceIndex": 0,
+        "disabledClipStart": {
+          "ticks": "762810048000",
+          "seconds": 3.003
+        },
+        "disabledClipEnd": {
+          "ticks": "1525620096000",
+          "seconds": 6.006
+        }
+      },
+      "independentReview": "F07-current-independent-review.json",
+      "rawExportFiles": [
+        "F07-R1-current-export.json",
+        "F07-R2-current-export.json",
+        "F07-R3-current-export.json"
+      ],
+      "observableFixtureMetrics": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "observableEvaluatedFixtures": 1,
+        "positiveObservableRiskConditions": 1,
+        "interpretation": "One independently verified disabled-clip occurrence, evaluated once. This is observation detection, not a finding that the intentional disable is an error. Unknown capabilities and same-track duplicate edge are excluded."
+      },
+      "physicalRunIds": [
+        "F07-R1",
+        "F07-R2",
+        "F07-R3"
+      ],
+      "physicalSetupId": "F07",
+      "rawReportReferences": [
+        {
+          "source": "F07-R1-current-export.json",
+          "reportJsonPointer": ""
+        },
+        {
+          "source": "F07-R2-current-export.json",
+          "reportJsonPointer": ""
+        },
+        {
+          "source": "F07-R3-current-export.json",
+          "reportJsonPointer": ""
+        }
+      ],
+      "executionMethod": "NATIVE_PANEL_SCAN_AND_JSON_EXPORT"
+    },
+    {
+      "id": "F08",
+      "expectedState": "Actual Mono1 sequence and normal mono content, verified in Settings",
+      "expectedObservation": "Mono1 configuration only; no risk solely from layout",
+      "execution": "THREE_NATIVE_ADAPTER_OBSERVATIONS_MATCHED_AND_STABLE; actual Mono1/content and inspected UI preserved; reopen pending",
+      "actualObservation": "All three indexed native report envelopes record channel type0/count1/48000 Hz at the exact new sequence GUID, with one disabled=false clip on muted=false A1. No risk findings; three product-boundary Unknowns. The separately named old F08_Mono sequence remains Stereo2 and is not used as Mono truth.",
+      "independentUiTruth": {
+        "method": "Analysis agent independently viewed created-sequence Settings and before/after clip context-menu/Settings screenshots. Channel Format Mono / 1 / 48000 Hz, enabled A1 content and A1 M off are visible; operator confirms importing the exact copied mono WAV through UI and no intervening setup edits.",
+        "channelFormat": "Mono",
+        "channelCount": 1,
+        "sampleRateHz": 48000,
+        "populatedTrackIndex": 0,
+        "populatedTrackMute": false,
+        "clipEnabled": true,
+        "contentAssociation": {
+          "importedFile": "reports/beta-20261004/ARID_20261018_mono.wav",
+          "associationEvidence": "Operator confirmed exact copied-file UI import; timeline/source/Properties label is visible in before/after screenshots. The analysis agent did not independently view a full source-path Properties dialog.",
+          "staticHeaderReview": "native-fixture-asset-independent-review.json",
+          "sha256": "759763e2dbfc66aa157eac5bd26b5ad68d9d961bbd79096bc6fddee9acdde433",
+          "sourceChannels": 1,
+          "sourceDurationSeconds": 3
+        },
+        "beforeEvidence": [
+          "F08-create-mono1-current.png",
+          "F08-settings-before-current.png",
+          "F08-content-enabled-before-current.png"
+        ],
+        "afterEvidence": [
+          "F08-content-enabled-after-current.png",
+          "F08-settings-after-current.png"
+        ],
+        "truthLimit": "Actual Settings establish Mono1 independently of the name. Source WAV headers are static asset evidence; they do not prove host playback or output. The visible panel still holds the earlier F03/F04 report and is not F08 scan evidence."
+      },
+      "durationMs": [
+        30,
+        27,
+        26
+      ],
+      "repeatability": {
+        "observationFieldsStable": true,
+        "diagnosticsStable": true,
+        "diagnosticReplayAgreesAllRuns": true,
+        "excludedObservationFields": [
+          "generatedAt",
+          "durationMs"
+        ],
+        "stableObservationSha256": "8a89697f0b67bf646fdbaacab68be3cc998190fcd2a1bd4471083779985f5419",
+        "stableDiagnosticSha256": "8870ff2c8d4bbc6e9fddf8d178596cb26c37140af08ccd25ae909eec4642f46e",
+        "medianDurationMs": 27,
+        "rawExports": [
+          "F08-native-repeat-batch-export.json"
+        ],
+        "rawReportReferences": [
+          {
+            "source": "F08-native-repeat-batch-export.json",
+            "parentSha256": "6fe85951869cf58dea04ad6d17abb774b357d4a33baade31692281260d2f0358",
+            "reportJsonPointer": "/runs/0/report",
+            "runId": "F08-2026-10-18T09-44-04-730Z-3ba17b:1"
+          },
+          {
+            "source": "F08-native-repeat-batch-export.json",
+            "parentSha256": "6fe85951869cf58dea04ad6d17abb774b357d4a33baade31692281260d2f0358",
+            "reportJsonPointer": "/runs/1/report",
+            "runId": "F08-2026-10-18T09-44-04-730Z-3ba17b:2"
+          },
+          {
+            "source": "F08-native-repeat-batch-export.json",
+            "parentSha256": "6fe85951869cf58dea04ad6d17abb774b357d4a33baade31692281260d2f0358",
+            "reportJsonPointer": "/runs/2/report",
+            "runId": "F08-2026-10-18T09-44-04-730Z-3ba17b:3"
+          }
+        ],
+        "timingLimit": "Plugin-reported traversal durations; three sequential native reads in one helper call, not three panel interactions. Saving time is separate; no broad performance claim."
+      },
+      "reopen": null,
+      "inspectedStateUnchanged": {
+        "settingsMono1SampleRateUi": true,
+        "clipEnabledAndPopulatedTrackMuteUi": true,
+        "allObservedRawFields": true,
+        "evidence": [
+          "F08-settings-before-current.png",
+          "F08-settings-after-current.png",
+          "F08-content-enabled-before-current.png",
+          "F08-content-enabled-after-current.png"
+        ],
+        "limit": "Inspected Mono1/48000 Settings, A1 clip Enable and M state are preserved, and collected raw fields stable. This is not an all-property or playback/output correctness claim."
+      },
+      "actualSequenceScope": {
+        "project": "ARID_Disposable_20261018.prproj",
+        "sequence": "F08 Actual Mono1",
+        "sequenceGuid": "0bafa115-0b9a-40b8-a5b4-931ca848ed8c",
+        "sequenceOccurrenceIndex": 1,
+        "track": "Audio 1",
+        "trackId": "2",
+        "trackIndex": 0,
+        "clip": "ARID_20261018_mono.wav",
+        "clipOccurrenceIndex": 0,
+        "clipStart": {
+          "ticks": "0",
+          "seconds": 0
+        },
+        "clipEnd": {
+          "ticks": "752215464000",
+          "seconds": 2.961291666666667
+        }
+      },
+      "independentReview": "F08-current-independent-review.json",
+      "rawExportFiles": [
+        "F08-native-repeat-batch-export.json"
+      ],
+      "rawReportReferences": [
+        {
+          "source": "F08-native-repeat-batch-export.json",
+          "parentSha256": "6fe85951869cf58dea04ad6d17abb774b357d4a33baade31692281260d2f0358",
+          "reportJsonPointer": "/runs/0/report",
+          "runId": "F08-2026-10-18T09-44-04-730Z-3ba17b:1"
+        },
+        {
+          "source": "F08-native-repeat-batch-export.json",
+          "parentSha256": "6fe85951869cf58dea04ad6d17abb774b357d4a33baade31692281260d2f0358",
+          "reportJsonPointer": "/runs/1/report",
+          "runId": "F08-2026-10-18T09-44-04-730Z-3ba17b:2"
+        },
+        {
+          "source": "F08-native-repeat-batch-export.json",
+          "parentSha256": "6fe85951869cf58dea04ad6d17abb774b357d4a33baade31692281260d2f0358",
+          "reportJsonPointer": "/runs/2/report",
+          "runId": "F08-2026-10-18T09-44-04-730Z-3ba17b:3"
+        }
+      ],
+      "physicalRunIds": [
+        "F08-2026-10-18T09-44-04-730Z-3ba17b:1",
+        "F08-2026-10-18T09-44-04-730Z-3ba17b:2",
+        "F08-2026-10-18T09-44-04-730Z-3ba17b:3"
+      ],
+      "physicalSetupId": "F08-actual-Mono1-content",
+      "executionMethod": "UDT_CONSOLE_STAGED_ADAPTER_SEQUENTIAL_NATIVE_READS",
+      "observableFixtureMetrics": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "observableEvaluatedFixtures": 1,
+        "positiveObservableRiskConditions": 0,
+        "interpretation": "One native negative-control setup with verified Mono1 configuration. Configuration agreement is recorded separately; no positive ARID-001/002/003 condition and no mapping/playback/output sensitivity claim."
+      }
+    },
+    {
+      "id": "F09",
+      "expectedState": "Actual Multichannel4+ sequence and normal multichannel content, verified in Settings",
+      "expectedObservation": "Multichannel configuration only; no risk solely from layout",
+      "execution": "THREE_NATIVE_ADAPTER_OBSERVATIONS_MATCHED_AND_STABLE; actual Multichannel4/linked mono content and inspected UI preserved; reopen pending",
+      "actualObservation": "All three indexed reports record type3/count4/48000 Hz at the new sequence GUID and four enabled, unmuted track occurrences at the exact locators. No risk findings, three boundary Unknowns and zero failed reads.",
+      "independentUiTruth": {
+        "method": "Analysis agent independently viewed before/after Settings, all four populated track M controls, linked clip selection/Enable menus and the import filename path. Created sequence is Multichannel / 4 / 48000 Hz. All four linked mono occurrences are enabled on unmuted A1-A4; operator reports no intervening setup edits.",
+        "channelFormat": "Multichannel",
+        "channelCount": 4,
+        "sampleRateHz": 48000,
+        "trackMute": [
+          false,
+          false,
+          false,
+          false
+        ],
+        "clipEnabled": [
+          true,
+          true,
+          true,
+          true
+        ],
+        "layout": "One four-channel source imported as four linked mono occurrences across A1-A4, one per track, with visible Ch.1-Ch.4 labels. This is the exercised layout, not a single multichannel track item.",
+        "contentAssociation": {
+          "importedFile": "reports/beta-20261004/ARID_20261018_four_channel.wav",
+          "associationEvidence": "F09-source-import-path-current.png shows the exact copied file path suffix in the observed Import filename field; timeline/Effect Controls show the imported four-channel source as four linked channel occurrences.",
+          "staticHeaderReview": "native-fixture-asset-independent-review.json",
+          "sha256": "283f645ab0f64dda448bdd6fa9be01d2c4e27ee6bd2a604ff5834aacaad8a1aa",
+          "sourceChannels": 4,
+          "sourceDurationSeconds": 3
+        },
+        "beforeEvidence": [
+          "F09-create-multichannel4-current.png",
+          "F09-settings-before-current.png",
+          "F09-source-import-path-current.png",
+          "F09-content-enabled-before-current.png",
+          "F09-four-tracks-unmuted-before-current.png"
+        ],
+        "afterEvidence": [
+          "F09-four-tracks-unmuted-after-current.png",
+          "F09-content-enabled-after-current.png",
+          "F09-settings-after-current.png"
+        ],
+        "truthLimit": "Settings establish actual Multichannel4 independently of its name. Source headers and linked channel labels do not prove source-channel mapping, output-bus topology, or playback/export correctness. The stale F03/F04 panel report is not F09 batch evidence."
+      },
+      "durationMs": [
+        33,
+        33,
+        33
+      ],
+      "repeatability": {
+        "observationFieldsStable": true,
+        "diagnosticsStable": true,
+        "diagnosticReplayAgreesAllRuns": true,
+        "excludedObservationFields": [
+          "generatedAt",
+          "durationMs"
+        ],
+        "stableObservationSha256": "817806eb202fc46c3736b4bdb504214ae475abe6a180f749fcfa42c8c00d83e1",
+        "stableDiagnosticSha256": "81217adaa7757d07ffa6122e7e2f3d01ee8510fafc46c4cf51ecee1a1453c93a",
+        "medianDurationMs": 33,
+        "rawExports": [
+          "F09-native-repeat-batch-export.json"
+        ],
+        "rawReportReferences": [
+          {
+            "source": "F09-native-repeat-batch-export.json",
+            "parentSha256": "daed241b5f1e79d05d53fb1d92ad884577baab64856b9c84004636604dfc740c",
+            "reportJsonPointer": "/runs/0/report",
+            "runId": "F09-2026-10-18T14-26-28-636Z-8a20e6:1"
+          },
+          {
+            "source": "F09-native-repeat-batch-export.json",
+            "parentSha256": "daed241b5f1e79d05d53fb1d92ad884577baab64856b9c84004636604dfc740c",
+            "reportJsonPointer": "/runs/1/report",
+            "runId": "F09-2026-10-18T14-26-28-636Z-8a20e6:2"
+          },
+          {
+            "source": "F09-native-repeat-batch-export.json",
+            "parentSha256": "daed241b5f1e79d05d53fb1d92ad884577baab64856b9c84004636604dfc740c",
+            "reportJsonPointer": "/runs/2/report",
+            "runId": "F09-2026-10-18T14-26-28-636Z-8a20e6:3"
+          }
+        ],
+        "timingLimit": "Three sequential native adapter reads, with plugin-reported durations; no panel-interaction, save-wall-clock or broad performance claim."
+      },
+      "reopen": null,
+      "inspectedStateUnchanged": {
+        "settingsMultichannel4SampleRateUi": true,
+        "fourLinkedClipEnableAndTrackMuteUi": true,
+        "allObservedRawFields": true,
+        "evidence": [
+          "F09-settings-before-current.png",
+          "F09-settings-after-current.png",
+          "F09-content-enabled-before-current.png",
+          "F09-content-enabled-after-current.png",
+          "F09-four-tracks-unmuted-before-current.png",
+          "F09-four-tracks-unmuted-after-current.png"
+        ],
+        "limit": "Inspected Multichannel4/48000 Settings and linked clip Enable/M states remain unchanged. Stable collected raw fields do not prove all project properties or signal/output correctness."
+      },
+      "actualSequenceScope": {
+        "project": "ARID_Disposable_20261018.prproj",
+        "sequence": "F09 Actual Multichannel4",
+        "sequenceGuid": "9c2671d2-cc02-4005-988d-350951e9a7b2",
+        "sequenceOccurrenceIndex": 2,
+        "tracks": [
+          {
+            "name": "Audio 1",
+            "id": "2",
+            "index": 0
+          },
+          {
+            "name": "Audio 2",
+            "id": "3",
+            "index": 1
+          },
+          {
+            "name": "Audio 3",
+            "id": "4",
+            "index": 2
+          },
+          {
+            "name": "Audio 4",
+            "id": "5",
+            "index": 3
+          }
+        ],
+        "clip": "ARID_20261018_four_channel.wav",
+        "clipOccurrenceIndexPerTrack": 0,
+        "clipStart": {
+          "ticks": "0",
+          "seconds": 0
+        },
+        "clipEnd": {
+          "ticks": "752215464000",
+          "seconds": 2.961291666666667
+        }
+      },
+      "independentReview": "F09-current-independent-review.json",
+      "rawExportFiles": [
+        "F09-native-repeat-batch-export.json"
+      ],
+      "rawReportReferences": [
+        {
+          "source": "F09-native-repeat-batch-export.json",
+          "parentSha256": "daed241b5f1e79d05d53fb1d92ad884577baab64856b9c84004636604dfc740c",
+          "reportJsonPointer": "/runs/0/report",
+          "runId": "F09-2026-10-18T14-26-28-636Z-8a20e6:1"
+        },
+        {
+          "source": "F09-native-repeat-batch-export.json",
+          "parentSha256": "daed241b5f1e79d05d53fb1d92ad884577baab64856b9c84004636604dfc740c",
+          "reportJsonPointer": "/runs/1/report",
+          "runId": "F09-2026-10-18T14-26-28-636Z-8a20e6:2"
+        },
+        {
+          "source": "F09-native-repeat-batch-export.json",
+          "parentSha256": "daed241b5f1e79d05d53fb1d92ad884577baab64856b9c84004636604dfc740c",
+          "reportJsonPointer": "/runs/2/report",
+          "runId": "F09-2026-10-18T14-26-28-636Z-8a20e6:3"
+        }
+      ],
+      "physicalRunIds": [
+        "F09-2026-10-18T14-26-28-636Z-8a20e6:1",
+        "F09-2026-10-18T14-26-28-636Z-8a20e6:2",
+        "F09-2026-10-18T14-26-28-636Z-8a20e6:3"
+      ],
+      "physicalSetupId": "F09-actual-Multichannel4-linked-mono-content",
+      "executionMethod": "UDT_CONSOLE_STAGED_ADAPTER_SEQUENTIAL_NATIVE_READS",
+      "observableFixtureMetrics": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "observableEvaluatedFixtures": 1,
+        "positiveObservableRiskConditions": 0,
+        "interpretation": "One native negative-control setup for configuration-only Multichannel4 reporting. Configuration agreement is separate; mapping/output Unknowns and absent positive ARID risk conditions do not establish sensitivity."
+      }
+    },
+    {
+      "id": "F10",
+      "expectedState": "Intentionally altered Modify > Audio Channels mapping, independently verified",
+      "expectedObservation": "Source-channel mapping Unknown unless supported public observation proves it; no full-output claim",
+      "execution": "THREE_NATIVE_ADAPTER_OBSERVATIONS_STABLE_WITH_EXPLICIT_MAPPING_UNKNOWN; authored mapping UI preserved; reopen pending",
+      "actualObservation": "Every indexed native report retains sourceChannelMapping UNKNOWN and ARID-U02, outputBusTopology UNKNOWN and playbackExportCorrectness UNKNOWN. No risk findings. Collected raw observation fields and diagnostics match the F09 baseline despite the independently verified UI mapping change, so this probe does not distinguish that change.",
+      "independentUiTruth": {
+        "method": "Analysis agent independently viewed original, authored, reopened-before and post-scan Modify Clip Audio Channels screenshots. Original Use File matrix [1,2,3,4] becomes Custom [2,1,3,4]; Clip Channel Format Mono, four audio clips, Apply changes to all matching clips in sequences checked. Operator applied the change, reopened before scanning, and canceled subsequent inspections without edits.",
+        "clipChannelFormat": "Mono",
+        "audioClipCount": 4,
+        "authoredSourceChannelPerClip": [
+          2,
+          1,
+          3,
+          4
+        ],
+        "applyToMatchingSequenceClips": true,
+        "declaredTestIntent": "Deliberate source-channel swap of the first two channel assignments, not an asserted creative error.",
+        "beforeEvidence": [
+          "F10-mapping-original-current.png",
+          "F10-mapping-authored-current.png",
+          "F10-mapping-before-current.png"
+        ],
+        "afterEvidence": [
+          "F10-mapping-after-current.png"
+        ],
+        "truthLimit": "The UI proves this particular project-source assignment state. It does not establish that the plugin observes source mapping, that output buses are correct, or that playback/export is correct. The stale panel is not F10 scan evidence."
+      },
+      "durationMs": [
+        37,
+        35,
+        36
+      ],
+      "repeatability": {
+        "observationFieldsStable": true,
+        "diagnosticsStable": true,
+        "diagnosticReplayAgreesAllRuns": true,
+        "excludedObservationFields": [
+          "generatedAt",
+          "durationMs"
+        ],
+        "stableObservationSha256": "817806eb202fc46c3736b4bdb504214ae475abe6a180f749fcfa42c8c00d83e1",
+        "stableDiagnosticSha256": "81217adaa7757d07ffa6122e7e2f3d01ee8510fafc46c4cf51ecee1a1453c93a",
+        "medianDurationMs": 36,
+        "f09BaselineObservationAndDiagnosticsEqual": true,
+        "f09BaselineComparisonLimit": "Equality while UI mapping differs demonstrates this probe's limited observability; it is not evidence that mapping did not change or that output is correct.",
+        "rawExports": [
+          "F10-native-repeat-batch-export.json"
+        ],
+        "rawReportReferences": [
+          {
+            "source": "F10-native-repeat-batch-export.json",
+            "parentSha256": "d953e324c48e45caa03792bc7359353d5393b677e623b035a681a9fd4a77cf11",
+            "reportJsonPointer": "/runs/0/report",
+            "runId": "F10-2026-10-18T14-32-35-819Z-cb4172:1"
+          },
+          {
+            "source": "F10-native-repeat-batch-export.json",
+            "parentSha256": "d953e324c48e45caa03792bc7359353d5393b677e623b035a681a9fd4a77cf11",
+            "reportJsonPointer": "/runs/1/report",
+            "runId": "F10-2026-10-18T14-32-35-819Z-cb4172:2"
+          },
+          {
+            "source": "F10-native-repeat-batch-export.json",
+            "parentSha256": "d953e324c48e45caa03792bc7359353d5393b677e623b035a681a9fd4a77cf11",
+            "reportJsonPointer": "/runs/2/report",
+            "runId": "F10-2026-10-18T14-32-35-819Z-cb4172:3"
+          }
+        ],
+        "timingLimit": "Three sequential native reads with plugin-reported traversal durations; no UI wall-clock or broad performance claim."
+      },
+      "reopen": null,
+      "inspectedStateUnchanged": {
+        "authoredMappingMatrixUi": true,
+        "applyToMatchingCheckboxUi": true,
+        "allObservedRawFields": true,
+        "evidence": [
+          "F10-mapping-before-current.png",
+          "F10-mapping-after-current.png"
+        ],
+        "limit": "Independently inspected mapping state and Apply checkbox are unchanged before/after; raw observation stability does not verify mapping or all project/output state."
+      },
+      "actualSequenceScope": {
+        "project": "ARID_Disposable_20261018.prproj",
+        "sequence": "F09 Actual Multichannel4",
+        "sequenceGuid": "9c2671d2-cc02-4005-988d-350951e9a7b2",
+        "sequenceOccurrenceIndex": 2,
+        "source": "ARID_20261018_four_channel.wav",
+        "projectItemSetting": "Modify > Audio Channels",
+        "sourceChannelAssignmentsOriginal": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "sourceChannelAssignmentsAuthored": [
+          2,
+          1,
+          3,
+          4
+        ]
+      },
+      "independentReview": "F10-current-independent-review.json",
+      "rawExportFiles": [
+        "F10-native-repeat-batch-export.json"
+      ],
+      "rawReportReferences": [
+        {
+          "source": "F10-native-repeat-batch-export.json",
+          "parentSha256": "d953e324c48e45caa03792bc7359353d5393b677e623b035a681a9fd4a77cf11",
+          "reportJsonPointer": "/runs/0/report",
+          "runId": "F10-2026-10-18T14-32-35-819Z-cb4172:1"
+        },
+        {
+          "source": "F10-native-repeat-batch-export.json",
+          "parentSha256": "d953e324c48e45caa03792bc7359353d5393b677e623b035a681a9fd4a77cf11",
+          "reportJsonPointer": "/runs/1/report",
+          "runId": "F10-2026-10-18T14-32-35-819Z-cb4172:2"
+        },
+        {
+          "source": "F10-native-repeat-batch-export.json",
+          "parentSha256": "d953e324c48e45caa03792bc7359353d5393b677e623b035a681a9fd4a77cf11",
+          "reportJsonPointer": "/runs/2/report",
+          "runId": "F10-2026-10-18T14-32-35-819Z-cb4172:3"
+        }
+      ],
+      "physicalRunIds": [
+        "F10-2026-10-18T14-32-35-819Z-cb4172:1",
+        "F10-2026-10-18T14-32-35-819Z-cb4172:2",
+        "F10-2026-10-18T14-32-35-819Z-cb4172:3"
+      ],
+      "physicalSetupId": "F10-intentional-project-source-channel-swap",
+      "executionMethod": "UDT_CONSOLE_STAGED_ADAPTER_SEQUENTIAL_NATIVE_READS",
+      "observableFixtureMetrics": {
+        "TP": null,
+        "FP": null,
+        "FN": null,
+        "observableEvaluatedFixtures": 0,
+        "positiveObservableRiskConditions": 0,
+        "unknownFixtureConditions": 1,
+        "interpretation": "The authored mapping condition is Unknown to this probe and is separately reported, not scored as mapping TP/FP/FN or added to the risk-condition setup denominator. COMPLETE traversal and absence of risks do not imply correct mapping/output."
+      }
+    },
+    {
+      "id": "F11",
+      "expectedState": "Disposable project saved, closed, reopened with independent before/after inspected state",
+      "expectedObservation": "Compare raw observations and UI state, retaining Unknown mapping/pan semantics; report drift only if reproduced",
+      "execution": "SIX_NATIVE_ADAPTER_OBSERVATIONS_PRE_POST_REOPEN_STABLE_WITH_SCOPED_UI_PRESERVATION",
+      "actualObservation": "All three PRE and three POST native reports have identical full observation fields excluding generatedAt/durationMs and identical diagnostics, with exact ARID-002/003 locators, no ARID-001, three boundary Unknowns and zero failed reads. Independent reopened/final stereo UI and reopened mapping/layout checks agree within stated timing bounds. Saved project bytes/hash/mtime are identical after reopen/POST and final UI.",
+      "independentUiTruth": {
+        "method": "Analysis agent independently viewed retained before, saved/closed/reopened, reopened property and final after-POST screenshots. A1 is nonempty and muted; first enabled occurrence is labeled F04 Intentional creative hard-right with Balance +100.0. A2 is nonempty and unmuted; its second chronological stereo duplicate has Enable unchecked. A3 is empty and unmuted. Manual save and final post-scan titles have no asterisk. Reopened Settings retain Mono1 and Multichannel4 at 48000 Hz; source Modify Audio Channels retains Custom Mono/four-clip matrix [2,1,3,4] with Apply-to-matching checked.",
+        "beforeEvidence": [
+          "F11-disabled-before-current.png",
+          "F11-pan-enabled-before-current.png",
+          "F11-stereo-state-before-current.png"
+        ],
+        "lifecycleEvidence": [
+          "F11-saved-before-close-current.png",
+          "F11-project-closed-current.png",
+          "F11-reopened-current.png"
+        ],
+        "afterReopenBeforePostScansEvidence": [
+          "F11-disabled-reopened-current.png",
+          "F11-pan-enabled-reopened-current.png",
+          "F11-mapping-reopened-current.png",
+          "F11-mono-settings-reopened-current.png",
+          "F11-multichannel-settings-reopened-current.png"
+        ],
+        "afterPostScansEvidence": [
+          "F11-pan-enabled-after-POST-current.png",
+          "F11-disabled-after-POST-current.png",
+          "F11-stereo-clean-after-POST-current.png"
+        ],
+        "truthLimit": "Reopened mapping/layout UI was inspected before POST3 and canceled without edits; final after-POST UI reinspects stereo mute/Enable/Balance/label only. Raw exports cannot prove mapping or all hidden state. Earlier F01-F10 original layouts were not each individually saved/reopened. No playback/export or API user-intent inference is established."
+      },
+      "durationMs": [
+        38,
+        33,
+        36,
+        35,
+        35,
+        34
+      ],
+      "repeatability": {
+        "observationFieldsStable": true,
+        "diagnosticsStable": true,
+        "diagnosticReplayAgreesAllRuns": true,
+        "prePostObservationFieldsEqual": true,
+        "prePostDiagnosticsEqual": true,
+        "excludedObservationFields": [
+          "generatedAt",
+          "durationMs"
+        ],
+        "stableObservationSha256": "7fbb3f58a05132f51168eefc0d40532255699674cd0ccccdc932ad8cf3aaf21d",
+        "stableDiagnosticSha256": "825a822c3adc95052f27c045f5f480953ae88c01f13ed46ab7c6d306d2a02919",
+        "medianDurationMs": 35,
+        "rawExports": [
+          "F11-PRE-native-repeat-batch-export.json",
+          "F11-POST-native-repeat-batch-export.json"
+        ],
+        "rawReportReferences": [
+          {
+            "source": "F11-PRE-native-repeat-batch-export.json",
+            "parentSha256": "9580f1bbc0964ff267739774a8200026feefe448c1abf042e2dd7f74d4c927ab",
+            "reportJsonPointer": "/runs/0/report",
+            "runId": "F11-2026-10-18T14-39-03-832Z-3f1b52:1"
+          },
+          {
+            "source": "F11-PRE-native-repeat-batch-export.json",
+            "parentSha256": "9580f1bbc0964ff267739774a8200026feefe448c1abf042e2dd7f74d4c927ab",
+            "reportJsonPointer": "/runs/1/report",
+            "runId": "F11-2026-10-18T14-39-03-832Z-3f1b52:2"
+          },
+          {
+            "source": "F11-PRE-native-repeat-batch-export.json",
+            "parentSha256": "9580f1bbc0964ff267739774a8200026feefe448c1abf042e2dd7f74d4c927ab",
+            "reportJsonPointer": "/runs/2/report",
+            "runId": "F11-2026-10-18T14-39-03-832Z-3f1b52:3"
+          },
+          {
+            "source": "F11-POST-native-repeat-batch-export.json",
+            "parentSha256": "ca0767be686f3f77bbf8cc31924cb48f1bd197596aea6fa9688f76be4e6a3b00",
+            "reportJsonPointer": "/runs/0/report",
+            "runId": "F11-2026-10-18T14-58-43-539Z-00f8ab:1"
+          },
+          {
+            "source": "F11-POST-native-repeat-batch-export.json",
+            "parentSha256": "ca0767be686f3f77bbf8cc31924cb48f1bd197596aea6fa9688f76be4e6a3b00",
+            "reportJsonPointer": "/runs/1/report",
+            "runId": "F11-2026-10-18T14-58-43-539Z-00f8ab:2"
+          },
+          {
+            "source": "F11-POST-native-repeat-batch-export.json",
+            "parentSha256": "ca0767be686f3f77bbf8cc31924cb48f1bd197596aea6fa9688f76be4e6a3b00",
+            "reportJsonPointer": "/runs/2/report",
+            "runId": "F11-2026-10-18T14-58-43-539Z-00f8ab:3"
+          }
+        ],
+        "rawByteScope": "Two entire native parents retained. Embedded reports are indexed by parent hash and pointer; none was separately host-exported."
+      },
+      "reopen": {
+        "result": "BOUNDED_PASS",
+        "method": "Operator manually saved the authored disposable project, closed it through normal UI, then reopened the same file. No force quit, private API or scanner input during the unresponsive interval.",
+        "preReports": 3,
+        "postReports": 3,
+        "rawStableFieldsEqual": true,
+        "diagnosticsEqual": true,
+        "scopedUiAgreement": true,
+        "savedFileBytesHashAndMtimeEqual": true,
+        "savedFileEvidence": "F11-project-file-snapshots.json",
+        "savedFileSha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+        "recoveredSettlingHistory": {
+          "processFalse": {
+            "recordedAt": "2026-10-18T14:47:59.5033967Z",
+            "scope": "Read-only process metadata during normal F11 project reopen, before POST scans; UI truth is separate",
+            "processes": [
+              {
+                "Id": 22888,
+                "ProcessName": "Adobe Premiere Pro",
+                "Responding": false,
+                "CPU": 5794.203125,
+                "StartTime": "2026-10-18T01:49:16.8023322+07:00"
+              }
+            ]
+          },
+          "processTrue": {
+            "recordedAt": "2026-10-18T14:49:53.4951725Z",
+            "scope": "Second read-only process snapshot after bounded normal F11 reopen settling; no POST scan or app input during unresponsive interval",
+            "processes": [
+              {
+                "Id": 22888,
+                "ProcessName": "Adobe Premiere Pro",
+                "Responding": true,
+                "CPU": 5881.796875,
+                "StartTime": "2026-10-18T01:49:16.8023322+07:00"
+              }
+            ]
+          },
+          "responsiveUiEvidence": [
+            "F11-disabled-reopened-current.png",
+            "F11-pan-enabled-reopened-current.png"
+          ],
+          "qualification": "Observed false/true process snapshots at 14:47:59Z and 14:49:53Z bound sampled responsiveness only; they do not establish exact reopen latency or cause. Fresh responsive context-menu inspection subsequently established recovery before POST scans. The interval is historical, not a current validation blocker."
+        },
+        "limit": "One compound authored state and the independently inspected properties only; not all previous fixture layouts or complete project/output correctness."
+      },
+      "inspectedStateUnchanged": {
+        "stereoTrackMuteUi": true,
+        "stereoClipEnableUi": true,
+        "intentLabelAndBalanceUi": true,
+        "reopenedMonoMultichannelSettingsUi": true,
+        "reopenedSourceMappingUi": true,
+        "allObservedRawFieldsAcrossSixReads": true,
+        "savedFileBytesHashMtime": true,
+        "evidence": [
+          "F11-disabled-reopened-current.png",
+          "F11-pan-enabled-reopened-current.png",
+          "F11-mapping-reopened-current.png",
+          "F11-mono-settings-reopened-current.png",
+          "F11-multichannel-settings-reopened-current.png",
+          "F11-pan-enabled-after-POST-current.png",
+          "F11-disabled-after-POST-current.png",
+          "F11-stereo-clean-after-POST-current.png"
+        ],
+        "limit": "Mapping/layout UI checked after reopen before POST3; final after-POST UI checks stereo properties. Same saved disk bytes and stable raw observations do not independently prove unobserved/hidden state."
+      },
+      "actualSequenceScope": {
+        "project": "ARID_Disposable_20261018.prproj",
+        "sequence": "stereo-l440-r880",
+        "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+        "sequenceOccurrenceIndex": 0,
+        "carriedConfigurations": [
+          "F08 Actual Mono1: Mono1/48000",
+          "F09 Actual Multichannel4: Multichannel4/48000"
+        ],
+        "carriedSourceAssignment": [
+          2,
+          1,
+          3,
+          4
+        ]
+      },
+      "independentReview": "F11-current-independent-review.json",
+      "rawExportFiles": [
+        "F11-PRE-native-repeat-batch-export.json",
+        "F11-POST-native-repeat-batch-export.json"
+      ],
+      "rawReportReferences": [
+        {
+          "source": "F11-PRE-native-repeat-batch-export.json",
+          "parentSha256": "9580f1bbc0964ff267739774a8200026feefe448c1abf042e2dd7f74d4c927ab",
+          "reportJsonPointer": "/runs/0/report",
+          "runId": "F11-2026-10-18T14-39-03-832Z-3f1b52:1"
+        },
+        {
+          "source": "F11-PRE-native-repeat-batch-export.json",
+          "parentSha256": "9580f1bbc0964ff267739774a8200026feefe448c1abf042e2dd7f74d4c927ab",
+          "reportJsonPointer": "/runs/1/report",
+          "runId": "F11-2026-10-18T14-39-03-832Z-3f1b52:2"
+        },
+        {
+          "source": "F11-PRE-native-repeat-batch-export.json",
+          "parentSha256": "9580f1bbc0964ff267739774a8200026feefe448c1abf042e2dd7f74d4c927ab",
+          "reportJsonPointer": "/runs/2/report",
+          "runId": "F11-2026-10-18T14-39-03-832Z-3f1b52:3"
+        },
+        {
+          "source": "F11-POST-native-repeat-batch-export.json",
+          "parentSha256": "ca0767be686f3f77bbf8cc31924cb48f1bd197596aea6fa9688f76be4e6a3b00",
+          "reportJsonPointer": "/runs/0/report",
+          "runId": "F11-2026-10-18T14-58-43-539Z-00f8ab:1"
+        },
+        {
+          "source": "F11-POST-native-repeat-batch-export.json",
+          "parentSha256": "ca0767be686f3f77bbf8cc31924cb48f1bd197596aea6fa9688f76be4e6a3b00",
+          "reportJsonPointer": "/runs/1/report",
+          "runId": "F11-2026-10-18T14-58-43-539Z-00f8ab:2"
+        },
+        {
+          "source": "F11-POST-native-repeat-batch-export.json",
+          "parentSha256": "ca0767be686f3f77bbf8cc31924cb48f1bd197596aea6fa9688f76be4e6a3b00",
+          "reportJsonPointer": "/runs/2/report",
+          "runId": "F11-2026-10-18T14-58-43-539Z-00f8ab:3"
+        }
+      ],
+      "physicalRunIds": [
+        "F11-2026-10-18T14-39-03-832Z-3f1b52:1",
+        "F11-2026-10-18T14-39-03-832Z-3f1b52:2",
+        "F11-2026-10-18T14-39-03-832Z-3f1b52:3",
+        "F11-2026-10-18T14-58-43-539Z-00f8ab:1",
+        "F11-2026-10-18T14-58-43-539Z-00f8ab:2",
+        "F11-2026-10-18T14-58-43-539Z-00f8ab:3"
+      ],
+      "physicalSetupId": "F11-combined-positive-state-save-close-reopen",
+      "executionMethod": "UDT_CONSOLE_STAGED_ADAPTER_SEQUENTIAL_NATIVE_READS",
+      "observableFixtureMetrics": {
+        "TP": null,
+        "FP": null,
+        "FN": null,
+        "observableEvaluatedFixtures": 0,
+        "positiveObservableRiskConditions": 0,
+        "preservationFixtureConditions": 1,
+        "interpretation": "F11 is a preservation assertion. Six repeats of already established mute/disable conditions do not add detection TP/FP/FN or physical risk-condition denominators. Mapping/output/playback capabilities remain Unknown."
+      }
+    }
+  ],
+  "fixtureMetrics": {
+    "TP": 3,
+    "FP": 0,
+    "FN": 0,
+    "observableEvaluatedFixtures": 8,
+    "positiveObservableRiskConditions": 3,
+    "fixtureAssertionIdsReviewed": 11,
+    "uniquePhysicalSetupsObserved": 10,
+    "unknownOnlyFixtureAssertions": [
+      "F10"
+    ],
+    "preservationOnlyFixtureAssertions": [
+      "F11"
+    ],
+    "pendingUnassessedFixtures": 0,
+    "blockedUnassessedFixtures": 0,
+    "unknownCapabilities": [
+      "source-channel mapping",
+      "output-bus topology",
+      "playback correctness",
+      "export correctness"
+    ],
+    "productBoundaryUnknownFindingsPerCurrentFixtureScan": 3,
+    "note": "Counts concern only independently established observable risk conditions in reviewed current fixtures. Repeated scans and multiple assertion IDs sharing one physical setup do not increase setup/condition denominators; physical run IDs are deduplicated. No playback/export or mapping correctness, user-intent error rate, or native sensitivity outside these conditions is claimed; pending/blocked/Unknown are separate."
+  },
+  "remainingSteps": [
+    "Current representative API probe passed bounded direct/thenable and static value-shape contracts; animated nonempty keyframe lists and unsampled value variants remain unqualified",
+    "Record native empty zero-sequence project and cancellation/overlap controls if feasible; six successfully empty track collections already observed in F01",
+    "Keep CCX installation/restart/upgrade/uninstall/reinstall separate from archive verification and UDT loading; no distribution qualification yet"
+  ],
+  "initialPickerAttempt": {
+    "scope": "Disposable-project selection and independent fixture UI verification",
+    "actual": "Open Project dialog appeared, but returned filename edit indexes were unavailable to set_value. Fresh list_windows returned only main Premiere without a separately bindable Open Project window. Rebinding, activation, keyboard focus and screenshot-based filename clicks left contradictory Search Box focus. No path text was entered into an unverified field.",
+    "recoveryAttempted": true,
+    "evidence": [
+      "native-project-picker-blocker.json",
+      "native-project-picker-blocker.png"
+    ],
+    "nextAction": "Open the disposable project through a reliable supported UI control surface, independently establish fixture state, then run the staged candidate without changing runtime files."
+  },
+  "initialUntouchedDisposableProject": {
+    "file": "reports/verification-20261017/ARID_Disposable_20261017.prproj",
+    "sha256Before": "0d517d6f057d4c619fe71d34dc9295d41720fd8f2debc5708cd0913ad1b60efe",
+    "sha256After": "0d517d6f057d4c619fe71d34dc9295d41720fd8f2debc5708cd0913ad1b60efe",
+    "opened": false,
+    "unchangedFileHash": true,
+    "inspectedNativeStateUnchanged": null
+  },
+  "initialOpeningAttempt": {
+    "status": "BLOCKED_NATIVE_VALIDATION",
+    "disposableProject": {
+      "file": "reports/beta-20261004/ARID_Disposable_20261018.prproj",
+      "sha256Before": "0d517d6f057d4c619fe71d34dc9295d41720fd8f2debc5708cd0913ad1b60efe",
+      "sha256After": "0d517d6f057d4c619fe71d34dc9295d41720fd8f2debc5708cd0913ad1b60efe",
+      "openRequested": true,
+      "projectTitleConfirmed": true,
+      "workspaceReady": false,
+      "fixtureScansExecuted": 0,
+      "unchangedFileHash": true,
+      "inspectedNativeStateUnchanged": null
+    },
+    "blocker": {
+      "scope": "Host unresponsive while opening disposable project after successful picker recovery",
+      "actual": "Safe recovery selected uniquely named ARID_Disposable_20261018 from observed default folder list and Open, with no path typing. Premiere title changed to the correct new copy and some panels appeared, but timeline remained black and accessibility stayed null. Process status Responding=false was independently recorded. Bounded natural recovery did not establish a responsive fixture workspace; no fixture scan started.",
+      "initialPickerBlockerRecovered": true,
+      "finalUiObservationAt": "2026-10-17T19:02:24.925Z",
+      "recoveryAttempted": true,
+      "forceQuit": false,
+      "securityPreferencesChanged": false,
+      "evidence": [
+        "native-opening-recovery.json",
+        "disposable-project-opened-recovery.png",
+        "native-process-after-open.json",
+        "disposable-opening-unresponsive-final.png"
+      ],
+      "nextAction": "Recover a responsive Premiere workspace normally, then independently verify fixture UI state in the new disposable copy before scans. Do not force-terminate or infer fixture state from names."
+    },
+    "note": "Historical interruption before fixtures; recovered naturally and is not current evidence of host unavailability."
+  },
+  "updatedAt": "2026-10-19T01:24:18.976Z",
+  "recoveredOpeningInterruption": {
+    "history": "initialOpeningAttempt",
+    "responsiveWorkspaceEstablished": true,
+    "evidence": [
+      "current-environment-and-process.json",
+      "F01-settings-before-current.png",
+      "F01-R1-scan-current.png"
+    ],
+    "method": "Natural host recovery followed by independently observed fixture UI; no force quit."
+  },
+  "qualificationLimit": "Current-host observable fixture assertions only. Unknown mapping/output/playback, unsampled API paths, overlap instrumentation and distribution installation are separate qualifications.",
+  "latestEvidenceParentGitSha": "7efdd4f614dbc81679a5cc287b260e8bc825261c"
+}

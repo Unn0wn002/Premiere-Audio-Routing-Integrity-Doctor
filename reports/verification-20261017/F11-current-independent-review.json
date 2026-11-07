@@ -1,0 +1,317 @@
+{
+  "recordType": "independent-current-native-fixture-review",
+  "fixture": "F11",
+  "branch": "codex/validated-beta-20261017",
+  "evidenceParentGitSha": "7efdd4f614dbc81679a5cc287b260e8bc825261c",
+  "sourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "reviewedAt": "2026-10-19T01:23:56.625Z",
+  "nativeExecutionDatesUtc": [
+    "2026-10-18"
+  ],
+  "finalPostScanUiDateUtc": "2026-10-19",
+  "timezone": "Asia/Jakarta",
+  "scope": {
+    "project": "ARID_Disposable_20261018.prproj",
+    "sequence": "stereo-l440-r880",
+    "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+    "sequenceOccurrenceIndex": 0,
+    "carriedConfigurations": [
+      "F08 Actual Mono1: Mono1/48000",
+      "F09 Actual Multichannel4: Multichannel4/48000"
+    ],
+    "carriedSourceAssignment": [
+      2,
+      1,
+      3,
+      4
+    ]
+  },
+  "independentUiTruth": {
+    "method": "Analysis agent independently viewed retained before, saved/closed/reopened, reopened property and final after-POST screenshots. A1 is nonempty and muted; first enabled occurrence is labeled F04 Intentional creative hard-right with Balance +100.0. A2 is nonempty and unmuted; its second chronological stereo duplicate has Enable unchecked. A3 is empty and unmuted. Manual save and final post-scan titles have no asterisk. Reopened Settings retain Mono1 and Multichannel4 at 48000 Hz; source Modify Audio Channels retains Custom Mono/four-clip matrix [2,1,3,4] with Apply-to-matching checked.",
+    "beforeEvidence": [
+      "F11-disabled-before-current.png",
+      "F11-pan-enabled-before-current.png",
+      "F11-stereo-state-before-current.png"
+    ],
+    "lifecycleEvidence": [
+      "F11-saved-before-close-current.png",
+      "F11-project-closed-current.png",
+      "F11-reopened-current.png"
+    ],
+    "afterReopenBeforePostScansEvidence": [
+      "F11-disabled-reopened-current.png",
+      "F11-pan-enabled-reopened-current.png",
+      "F11-mapping-reopened-current.png",
+      "F11-mono-settings-reopened-current.png",
+      "F11-multichannel-settings-reopened-current.png"
+    ],
+    "afterPostScansEvidence": [
+      "F11-pan-enabled-after-POST-current.png",
+      "F11-disabled-after-POST-current.png",
+      "F11-stereo-clean-after-POST-current.png"
+    ],
+    "truthLimit": "Reopened mapping/layout UI was inspected before POST3 and canceled without edits; final after-POST UI reinspects stereo mute/Enable/Balance/label only. Raw exports cannot prove mapping or all hidden state. Earlier F01-F10 original layouts were not each individually saved/reopened. No playback/export or API user-intent inference is established."
+  },
+  "expectedActual": {
+    "expected": "Preserve the authored compound state across normal save/close/reopen. Exactly ARID-002 at main Audio1 track ID 2 / index 0 and ARID-003 at Audio2 track ID 3 / index 1 / occurrence 0, ticks 762810048000-1525620096000; no ARID-001. Retain explicit mapping/output/playback Unknown.",
+    "actual": "All three PRE and three POST native reports have identical full observation fields excluding generatedAt/durationMs and identical diagnostics, with exact ARID-002/003 locators, no ARID-001, three boundary Unknowns and zero failed reads. Independent reopened/final stereo UI and reopened mapping/layout checks agree within stated timing bounds. Saved project bytes/hash/mtime are identical after reopen/POST and final UI.",
+    "agreement": true,
+    "risks": [
+      {
+        "ruleId": "ARID-002",
+        "confidence": "HIGH_OBSERVATION_LOW_INTENT_CONFIDENCE",
+        "location": {
+          "sequence": "stereo-l440-r880",
+          "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+          "sequenceOccurrenceIndex": 0,
+          "track": "Audio 1",
+          "trackId": "2",
+          "trackIndex": 0,
+          "clip": null,
+          "clipOccurrenceIndex": null,
+          "startTime": null,
+          "endTime": null
+        }
+      },
+      {
+        "ruleId": "ARID-003",
+        "confidence": "HIGH_OBSERVATION_LOW_INTENT_CONFIDENCE",
+        "location": {
+          "sequence": "stereo-l440-r880",
+          "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+          "sequenceOccurrenceIndex": 0,
+          "track": "Audio 2",
+          "trackId": "3",
+          "trackIndex": 1,
+          "clip": "stereo-l440-r880.wav",
+          "clipOccurrenceIndex": 0,
+          "startTime": {
+            "ticks": "762810048000",
+            "seconds": 3.003
+          },
+          "endTime": {
+            "ticks": "1525620096000",
+            "seconds": 6.006
+          }
+        }
+      }
+    ],
+    "sourceMappingCoverage": "UNKNOWN",
+    "exportAnalysis": "F11-six-runs-independent-export-review.json"
+  },
+  "observedCurrentEvidence": {
+    "runs": 6,
+    "physicalSetupId": "F11-combined-positive-state-save-close-reopen",
+    "physicalRunIds": [
+      "F11-2026-10-18T14-39-03-832Z-3f1b52:1",
+      "F11-2026-10-18T14-39-03-832Z-3f1b52:2",
+      "F11-2026-10-18T14-39-03-832Z-3f1b52:3",
+      "F11-2026-10-18T14-58-43-539Z-00f8ab:1",
+      "F11-2026-10-18T14-58-43-539Z-00f8ab:2",
+      "F11-2026-10-18T14-58-43-539Z-00f8ab:3"
+    ],
+    "executionMethod": "UDT_CONSOLE_STAGED_ADAPTER_SEQUENTIAL_NATIVE_READS",
+    "executionMethodLimit": "Six actual staged adapter/diagnostic/report host reads in two native batches; helper does not exercise panel controls/export/overlap guard. Any later supplemental panel execution is separate.",
+    "durationMs": [
+      38,
+      33,
+      36,
+      35,
+      35,
+      34
+    ],
+    "phaseDurationMs": {
+      "PRE": [
+        38,
+        33,
+        36
+      ],
+      "POST": [
+        35,
+        35,
+        34
+      ]
+    },
+    "timingLimit": "Native report traversal duration only; not reopen latency, wall-clock inspection/save time or a broad performance result. Exact PRE durations 38/33/36 supersede earlier operator 38/36/36 note.",
+    "diagnosticStatus": "COMPLETE",
+    "host": {
+      "name": "premierepro",
+      "version": "26.5.2",
+      "uiLocale": "en_US",
+      "uxpVersion": "uxp-9.3.0-local",
+      "pluginVersion": "0.2.1"
+    },
+    "failedReads": 0,
+    "wholeProjectCoverage": {
+      "sequences": 4,
+      "tracks": 15,
+      "clips": 7,
+      "components": 18
+    },
+    "riskRuleCounts": {
+      "ARID-001": 0,
+      "ARID-002": 1,
+      "ARID-003": 1
+    },
+    "unknownBoundaryFindings": 3,
+    "strictDocumentedShapes": "Four FrameRates and all 160 static Keyframes valid in each report; no animated/nonempty keyframe-time path exercised.",
+    "rawParents": [
+      {
+        "file": "F11-PRE-native-repeat-batch-export.json",
+        "original": "reports/beta-20261004/arid-native-F11-2026-10-18T14-39-03-832Z-3f1b52.json",
+        "bytes": 480787,
+        "sha256": "9580f1bbc0964ff267739774a8200026feefe448c1abf042e2dd7f74d4c927ab",
+        "originalAndRetainedBytesEqual": true,
+        "helperVersion": "1.0.1",
+        "executionStatus": "THREE_REPORTS_COLLECTED",
+        "scanAttempts": 3,
+        "actualRetainedReports": 3
+      },
+      {
+        "file": "F11-POST-native-repeat-batch-export.json",
+        "original": "reports/beta-20261004/arid-native-F11-2026-10-18T14-58-43-539Z-00f8ab.json",
+        "bytes": 480810,
+        "sha256": "ca0767be686f3f77bbf8cc31924cb48f1bd197596aea6fa9688f76be4e6a3b00",
+        "originalAndRetainedBytesEqual": true,
+        "helperVersion": "1.0.1",
+        "executionStatus": "THREE_REPORTS_COLLECTED",
+        "scanAttempts": 3,
+        "actualRetainedReports": 3
+      }
+    ],
+    "repeatability": {
+      "observationFieldsStable": true,
+      "diagnosticsStable": true,
+      "diagnosticReplayAgreesAllRuns": true,
+      "prePostObservationFieldsEqual": true,
+      "prePostDiagnosticsEqual": true,
+      "excludedObservationFields": [
+        "generatedAt",
+        "durationMs"
+      ],
+      "stableObservationSha256": "7fbb3f58a05132f51168eefc0d40532255699674cd0ccccdc932ad8cf3aaf21d",
+      "stableDiagnosticSha256": "825a822c3adc95052f27c045f5f480953ae88c01f13ed46ab7c6d306d2a02919",
+      "medianDurationMs": 35,
+      "rawExports": [
+        "F11-PRE-native-repeat-batch-export.json",
+        "F11-POST-native-repeat-batch-export.json"
+      ],
+      "rawReportReferences": [
+        {
+          "source": "F11-PRE-native-repeat-batch-export.json",
+          "parentSha256": "9580f1bbc0964ff267739774a8200026feefe448c1abf042e2dd7f74d4c927ab",
+          "reportJsonPointer": "/runs/0/report",
+          "runId": "F11-2026-10-18T14-39-03-832Z-3f1b52:1"
+        },
+        {
+          "source": "F11-PRE-native-repeat-batch-export.json",
+          "parentSha256": "9580f1bbc0964ff267739774a8200026feefe448c1abf042e2dd7f74d4c927ab",
+          "reportJsonPointer": "/runs/1/report",
+          "runId": "F11-2026-10-18T14-39-03-832Z-3f1b52:2"
+        },
+        {
+          "source": "F11-PRE-native-repeat-batch-export.json",
+          "parentSha256": "9580f1bbc0964ff267739774a8200026feefe448c1abf042e2dd7f74d4c927ab",
+          "reportJsonPointer": "/runs/2/report",
+          "runId": "F11-2026-10-18T14-39-03-832Z-3f1b52:3"
+        },
+        {
+          "source": "F11-POST-native-repeat-batch-export.json",
+          "parentSha256": "ca0767be686f3f77bbf8cc31924cb48f1bd197596aea6fa9688f76be4e6a3b00",
+          "reportJsonPointer": "/runs/0/report",
+          "runId": "F11-2026-10-18T14-58-43-539Z-00f8ab:1"
+        },
+        {
+          "source": "F11-POST-native-repeat-batch-export.json",
+          "parentSha256": "ca0767be686f3f77bbf8cc31924cb48f1bd197596aea6fa9688f76be4e6a3b00",
+          "reportJsonPointer": "/runs/1/report",
+          "runId": "F11-2026-10-18T14-58-43-539Z-00f8ab:2"
+        },
+        {
+          "source": "F11-POST-native-repeat-batch-export.json",
+          "parentSha256": "ca0767be686f3f77bbf8cc31924cb48f1bd197596aea6fa9688f76be4e6a3b00",
+          "reportJsonPointer": "/runs/2/report",
+          "runId": "F11-2026-10-18T14-58-43-539Z-00f8ab:3"
+        }
+      ],
+      "rawByteScope": "Two entire native parents retained. Embedded reports are indexed by parent hash and pointer; none was separately host-exported."
+    },
+    "reopen": {
+      "result": "BOUNDED_PASS",
+      "method": "Operator manually saved the authored disposable project, closed it through normal UI, then reopened the same file. No force quit, private API or scanner input during the unresponsive interval.",
+      "preReports": 3,
+      "postReports": 3,
+      "rawStableFieldsEqual": true,
+      "diagnosticsEqual": true,
+      "scopedUiAgreement": true,
+      "savedFileBytesHashAndMtimeEqual": true,
+      "savedFileEvidence": "F11-project-file-snapshots.json",
+      "savedFileSha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+      "recoveredSettlingHistory": {
+        "processFalse": {
+          "recordedAt": "2026-10-18T14:47:59.5033967Z",
+          "scope": "Read-only process metadata during normal F11 project reopen, before POST scans; UI truth is separate",
+          "processes": [
+            {
+              "Id": 22888,
+              "ProcessName": "Adobe Premiere Pro",
+              "Responding": false,
+              "CPU": 5794.203125,
+              "StartTime": "2026-10-18T01:49:16.8023322+07:00"
+            }
+          ]
+        },
+        "processTrue": {
+          "recordedAt": "2026-10-18T14:49:53.4951725Z",
+          "scope": "Second read-only process snapshot after bounded normal F11 reopen settling; no POST scan or app input during unresponsive interval",
+          "processes": [
+            {
+              "Id": 22888,
+              "ProcessName": "Adobe Premiere Pro",
+              "Responding": true,
+              "CPU": 5881.796875,
+              "StartTime": "2026-10-18T01:49:16.8023322+07:00"
+            }
+          ]
+        },
+        "responsiveUiEvidence": [
+          "F11-disabled-reopened-current.png",
+          "F11-pan-enabled-reopened-current.png"
+        ],
+        "qualification": "Observed false/true process snapshots at 14:47:59Z and 14:49:53Z bound sampled responsiveness only; they do not establish exact reopen latency or cause. Fresh responsive context-menu inspection subsequently established recovery before POST scans. The interval is historical, not a current validation blocker."
+      },
+      "limit": "One compound authored state and the independently inspected properties only; not all previous fixture layouts or complete project/output correctness."
+    },
+    "inspectedStateUnchanged": {
+      "stereoTrackMuteUi": true,
+      "stereoClipEnableUi": true,
+      "intentLabelAndBalanceUi": true,
+      "reopenedMonoMultichannelSettingsUi": true,
+      "reopenedSourceMappingUi": true,
+      "allObservedRawFieldsAcrossSixReads": true,
+      "savedFileBytesHashMtime": true,
+      "evidence": [
+        "F11-disabled-reopened-current.png",
+        "F11-pan-enabled-reopened-current.png",
+        "F11-mapping-reopened-current.png",
+        "F11-mono-settings-reopened-current.png",
+        "F11-multichannel-settings-reopened-current.png",
+        "F11-pan-enabled-after-POST-current.png",
+        "F11-disabled-after-POST-current.png",
+        "F11-stereo-clean-after-POST-current.png"
+      ],
+      "limit": "Mapping/layout UI checked after reopen before POST3; final after-POST UI checks stereo properties. Same saved disk bytes and stable raw observations do not independently prove unobserved/hidden state."
+    }
+  },
+  "observableFixtureMetrics": {
+    "TP": null,
+    "FP": null,
+    "FN": null,
+    "observableEvaluatedFixtures": 0,
+    "positiveObservableRiskConditions": 0,
+    "preservationFixtureConditions": 1,
+    "interpretation": "F11 is a preservation assertion. Six repeats of already established mute/disable conditions do not add detection TP/FP/FN or physical risk-condition denominators. Mapping/output/playback capabilities remain Unknown."
+  },
+  "disposition": "SIX_NATIVE_ADAPTER_OBSERVATIONS_PRE_POST_REOPEN_STABLE_WITH_SCOPED_UI_PRESERVATION"
+}

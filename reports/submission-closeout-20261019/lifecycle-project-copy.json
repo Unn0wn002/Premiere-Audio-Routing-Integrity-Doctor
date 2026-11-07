@@ -1,0 +1,11 @@
+{
+  "recordType": "disposable-lifecycle-project-copy",
+  "copiedAt": "2026-10-19T02:17:54.2741945Z",
+  "branch": "codex/validated-beta-20261017",
+  "evidenceParent": "d1b2b091e28d76af60e33c99261d01108e2000db",
+  "source": "reports/beta-20261004/ARID_Disposable_20261018.prproj",
+  "destination": "reports/beta-20261004/ARID_Lifecycle_20261019.prproj",
+  "sourceSha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+  "copiedSha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+  "qualification": "Disposable copy only; neither installed runtime nor lifecycle success is established"
+}

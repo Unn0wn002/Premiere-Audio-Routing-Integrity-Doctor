@@ -1,0 +1,179 @@
+[
+  {
+    "event": "READINESS",
+    "evidenceClass": "USER_STATED",
+    "statement": "Yes, Premiere work is saved and safe to switch/close"
+  },
+  {
+    "event": "STARTUP",
+    "premiereInitiallyRunning": false,
+    "udtInitiallyRunning": false,
+    "normalLaunch": true,
+    "premiereHomeObserved": true,
+    "noProjectVisible": true,
+    "udtWorkspaceEmpty": true,
+    "causeOfWorkspaceChange": "UNKNOWN"
+  },
+  {
+    "event": "RUNTIME_BINDING_PICKER",
+    "observedDirectory": "artifacts/audio-preflight-0.2.1-037571056922",
+    "manifestRowPresent": true,
+    "automation": "UIA double click manifest item",
+    "actualResult": "Address bar focused/selected; manifest not added",
+    "inputStopped": true,
+    "operatorRequested": "Manually double-click manifest and reply added",
+    "pluginDefectEstablished": false
+  },
+  {
+    "event": "MANIFEST_ADDED_RECOVERY",
+    "operatorStatement": "added",
+    "operatorActionClass": "USER_STATED",
+    "independentNativeReadback": "Registered beta, Not loaded; Open Folder exposed exact final stage/manifest; Options build folder blank (default)",
+    "pathEvidence": "udt-open-folder-path.txt"
+  },
+  {
+    "event": "FINAL_RUNTIME_LOADED",
+    "udtState": "Loaded",
+    "evidence": "udt-final-loaded.jpg",
+    "pluginOpenedAtHome": true
+  },
+  {
+    "event": "NO_PROJECT_SCAN",
+    "durationMs": 1,
+    "status": "UNKNOWN",
+    "scanCompletion": "failed",
+    "unknowns": 4,
+    "observedUI": "No active project; failed scan, no claimed denominator",
+    "evidence": [
+      "no-project-scan-unknown.jpg",
+      "no-project.json"
+    ]
+  },
+  {
+    "event": "EMPTY_CREATE_REQUESTED",
+    "name": "Boundary_B_Empty_20261030",
+    "template": "None",
+    "skipImport": true,
+    "existingDefaultLocationKept": true,
+    "awaitingOperatorSettled": true,
+    "desktopInspectionIdleDuringLoading": true
+  },
+  {
+    "event": "EMPTY_PROJECT_SETTLED",
+    "operatorStatement": "ready",
+    "operatorEvidenceClass": "USER_STATED",
+    "independentNativeUI": "Boundary_B_Empty_20261030 title/project panel; no media and no sequences",
+    "evidence": "empty-project-settled.jpg"
+  },
+  {
+    "event": "EMPTY_PROJECT_SCAN",
+    "durationMs": 3,
+    "diagnosticStatus": "COMPLETE",
+    "sequenceCount": 0,
+    "coverageDenominators": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "failedReads": 0,
+    "capabilityUnknowns": 3,
+    "evidence": [
+      "empty-project-scan-3ms-complete.jpg",
+      "empty-project.json"
+    ]
+  },
+  {
+    "event": "PROJECT_SWITCH_B_TO_A",
+    "operatorSettledStatement": "ready",
+    "operatorEvidenceClass": "USER_STATED",
+    "assistantOpenPath": "working/Boundary_A.prproj",
+    "inspectionIdleDuringLoading": true,
+    "activeProjectObserved": "Boundary_A",
+    "retainedReportObserved": "Boundary_B_Empty_20261030.prproj",
+    "retainedReportNativeHTML": "retained-B-in-A.html",
+    "retainedHTMLMatchesPreSwitchJSON": true,
+    "evidence": [
+      "A-open-path.jpg",
+      "A-active-retained-B-before-scan.jpg",
+      "retained-B-in-A-html-picker.jpg",
+      "retained-B-in-A.html"
+    ]
+  },
+  {
+    "event": "A_WORKING_SAVE_BASELINE",
+    "nativeCommand": "Ctrl+S",
+    "onlyDisposableCopySaved": true,
+    "setupSerializationChangedBytes": true,
+    "postSetupSHA256": "9cc2a7e49681d915795695ecf49e2c06ded37494b90576ec1c31fa472bb5d9d8",
+    "baseline": "baseline/Boundary_A-post-save.prproj",
+    "independentVisibleState": "stereo-l440-r880 timeline at zero; Audio 1/2/3 M/S/R indicators unlit, visible pan 0.0, faders 0.0, automation Read; title no unsaved marker",
+    "evidence": [
+      "working-copy-baseline.json",
+      "A-saved-audio-state-baseline.jpg"
+    ]
+  },
+  {
+    "event": "A_BEFORE_REOPEN_SCAN",
+    "durationMs": 38,
+    "projectName": "Boundary_A.prproj",
+    "coverage": [
+      4,
+      15,
+      7,
+      18
+    ],
+    "failedReads": 0,
+    "capabilityUnknowns": 3,
+    "evidence": [
+      "A-before-reopen-scan-38ms.jpg",
+      "A-before-reopen.json"
+    ]
+  },
+  {
+    "event": "A_NORMAL_CLOSE_REOPEN",
+    "closeCommand": "Ctrl+Shift+W",
+    "closedProject": "Boundary_A",
+    "remainingProjectObserved": "Boundary_B_Empty_20261030",
+    "reopenCommand": "Ctrl+O then double-click observed Boundary_A in working folder",
+    "operatorSettledStatement": "ready",
+    "operatorEvidenceClass": "USER_STATED",
+    "inspectionIdleDuringLoading": true,
+    "appRestart": false,
+    "udtReload": false,
+    "saveOrDiscardPromptHandled": false,
+    "evidence": [
+      "A-before-close-clean.jpg",
+      "A-closed-B-still-open.jpg",
+      "A-reopen-dialog.jpg",
+      "A-reopened-audio-state.jpg"
+    ]
+  },
+  {
+    "event": "A_AFTER_REOPEN_SCAN_EXPORT",
+    "durationMs": 47,
+    "coverage": [
+      4,
+      15,
+      7,
+      18
+    ],
+    "failedReads": 0,
+    "capabilityUnknowns": 3,
+    "nativeJSON": "A-after-reopen.json",
+    "nativeHTML": "A-after-reopen.html",
+    "reportEqualityExclusions": [
+      "observation.generatedAt",
+      "observation.durationMs"
+    ],
+    "workingSavedBytesUnchangedSinceSetup": true,
+    "independentVisibleAudioStateUnchanged": true,
+    "scopeLimit": "Visible active-sequence indicators and captured report observations only; not every property, undo history, routing or playback correctness",
+    "evidence": [
+      "A-after-reopen-scan-47ms.jpg",
+      "A-after-reopen-saved-html.jpg",
+      "final-idle-47ms.jpg",
+      "final-window-metadata.json"
+    ]
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "event": "P01_PRECHECK",
+    "runtime": "037571056922",
+    "udtLoaded": true,
+    "udtBuildFolder": "C:/Users/unn0w/Downloads/02_Projects/Premiere-Audio-Routing-Integrity-Doctor/artifacts/audio-preflight-0.2.1-037571056922",
+    "evidence": [
+      "preflight-project.png",
+      "preflight-udt-loaded.png",
+      "preflight-udt-options.txt",
+      "preflight-files.json"
+    ],
+    "projectUnsavedMarkerVisible": false,
+    "limitation": "Relevant visible timeline indicators captured; mixer partly obscured. On-disk hash is not proof of every in-memory state."
+  },
+  {
+    "event": "FRESH_BASELINE_SCAN",
+    "execution": "Assistant physical Scan click",
+    "displayedDurationMs": 31,
+    "displayedStatus": "COMPLETE",
+    "reviewFindings": 0,
+    "capabilityUnknowns": 3,
+    "evidence": "baseline-new-scan.png",
+    "reason": "Unique native export timestamp avoids overwriting frozen layout exports; can serve the additional repeat observation"
+  },
+  {
+    "event": "REVIEW_POPUP_CLICK",
+    "opened": true,
+    "attemptedValue": "intentional",
+    "actualDisplayedValue": "unreviewed",
+    "hostFocusAfter": "Program panel blue focus border",
+    "typingUsed": false,
+    "inputStopped": true,
+    "evidence": "review-popup-selection-not-applied.png",
+    "cause": "UNKNOWN; no product-failure attribution",
+    "operatorActionRequested": "Manually select first ARID-I01 Intentional and report selected"
+  },
+  {
+    "event": "OPERATOR_SELECTION_RECOVERED",
+    "operatorStatement": "Selected",
+    "operatorActionEvidenceClass": "USER_STATED",
+    "firstVisibleValue": "Reviewed",
+    "exportedReviewValue": "reviewed",
+    "exportedAnnotatedFindingCount": 7,
+    "intendedRequestedValueWas": "Intentional",
+    "actualValueUsedForTest": "Reviewed; do not relabel Intentional",
+    "evidence": [
+      "review-selected-reviewed.png",
+      "annotated-report.json",
+      "annotated-report.html",
+      "annotated-export-files.json"
+    ],
+    "substantiveFindingAssessment": false
+  },
+  {
+    "event": "ANNOTATED_NATIVE_EXPORTS",
+    "scanDurationMs": 31,
+    "originalStem": "reports/panel-layout-20261027/audio-preflight-2026-10-29T06-18-29-308Z",
+    "unchangedNativeDefaults": true,
+    "bothSavedByAssistant": true,
+    "evidence": [
+      "annotated-report.json",
+      "annotated-report.html",
+      "annotated-export-files.json"
+    ]
+  },
+  {
+    "event": "PANEL_ONLY_CLOSE_REOPEN",
+    "order": "After annotated pair, before reset scan",
+    "summaryRetained": true,
+    "retainedDurationMs": 31,
+    "firstVisibleReviewRetained": true,
+    "visibleReview": "Reviewed",
+    "outerBoundsAfterReopen": [
+      326,
+      359
+    ],
+    "outerBoundsBeforeClose": [
+      807,
+      359
+    ],
+    "appRestart": false,
+    "projectClosed": false,
+    "udtReload": false,
+    "allSevenAnnotationsReexportedAfterReopen": false,
+    "evidence": [
+      "panel-before-close.png",
+      "panel-closed-project-open.png",
+      "panel-reopened-summary.png",
+      "panel-reopened-reviewed.png"
+    ]
+  },
+  {
+    "event": "RESET_SCAN",
+    "scanDurationMs": 29,
+    "status": "COMPLETE",
+    "visibleFirstReview": "Unreviewed",
+    "exportedAnnotations": {},
+    "coverage": [
+      4,
+      15,
+      7,
+      18
+    ],
+    "failedReads": 0,
+    "riskFindings": 0,
+    "capabilityUnknowns": 3,
+    "evidence": [
+      "reset-scan-29ms.png",
+      "review-reset-unreviewed.png",
+      "reset-report.json"
+    ]
+  },
+  {
+    "event": "EXPORT_CANCEL_RETRY",
+    "defaultStem": "audio-preflight-2026-10-29T06-49-49-197Z",
+    "cancelStatus": "Export cancelled.",
+    "pickerClosedAfterCancel": true,
+    "exportControlsAvailableAfterCancel": true,
+    "retryStatus": "Saved JSON report. Review project names and paths before sharing.",
+    "savedAfterRetry": true,
+    "pickerClosedAfterRetry": true,
+    "rescanBetweenCancelAndRetry": false,
+    "unchangedNativeDefaults": true,
+    "evidence": [
+      "cancel-picker-open.jpg",
+      "cancelled-picker.jpg",
+      "retry-picker.jpg",
+      "retry-saved-json.jpg",
+      "reset-report.json",
+      "reset-export-file.json"
+    ]
+  }
+]

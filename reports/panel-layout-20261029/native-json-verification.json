@@ -1,0 +1,79 @@
+{
+  "verifiedAt": "2026-10-29T05:24:21.655Z",
+  "status": "PASS_BOUNDED_NATIVE_NARROW_JSON_CONTENT",
+  "runtimeIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+  "runtimeBinding": "Supported UDT Options path independently read, prototype unloaded, beta loaded, source/stage files match frozen receipt",
+  "original": "reports/panel-layout-20261027/audio-preflight-2026-10-29T05-21-05-797Z.json",
+  "copy": "narrow-scan.json",
+  "sha256": "79c62dc705465771ccf5e290f9b13342102557cde1786f0d9c6714396cdb3ef9",
+  "bytes": 136908,
+  "durationMs": 35,
+  "project": {
+    "name": "Positive_Signal_Test.prproj",
+    "path": "\\\\?\\C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\Positive_Signal_Test.prproj",
+    "guid": "e27b97e8-83d0-45fb-960f-d3c9ea4f9cb6"
+  },
+  "host": {
+    "name": "premierepro",
+    "version": "26.5.2",
+    "uiLocale": "en_US",
+    "uxpVersion": "uxp-9.3.0-local",
+    "pluginVersion": "0.2.1"
+  },
+  "coverage": {
+    "state": "COMPLETE",
+    "project": {
+      "status": "COMPLETE",
+      "expected": 1,
+      "observed": 1,
+      "known": 1,
+      "unknown": 0
+    },
+    "sequences": {
+      "status": "COMPLETE",
+      "expected": 4,
+      "observed": 4,
+      "known": 4,
+      "unknown": 0
+    },
+    "tracks": {
+      "status": "COMPLETE",
+      "expected": 15,
+      "observed": 15,
+      "known": 15,
+      "unknown": 0
+    },
+    "clips": {
+      "status": "COMPLETE",
+      "expected": 7,
+      "observed": 7,
+      "known": 7,
+      "unknown": 0
+    },
+    "components": {
+      "status": "COMPLETE",
+      "expected": 18,
+      "observed": 18,
+      "known": 18,
+      "unknown": 0
+    },
+    "failedReads": 0,
+    "capabilities": {
+      "sourceChannelMapping": "UNKNOWN",
+      "outputBusTopology": "UNKNOWN",
+      "playbackExportCorrectness": "UNKNOWN"
+    }
+  },
+  "reviewFindings": 0,
+  "capabilityUnknowns": 3,
+  "diagnosticsReproduce": true,
+  "fixtureSha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+  "htmlExport": "NOT_RUN",
+  "wideTrial": "NOT_RUN",
+  "limits": [
+    "UIA filename readback matched requested destination but native save used old default directory/name; cause UNKNOWN",
+    "Subsequent parent capture returned Codex; desktop input stopped",
+    "No complete narrow JSON/HTML pair or wide-size qualification",
+    "Exact CSS content viewport dimensions not measured"
+  ]
+}

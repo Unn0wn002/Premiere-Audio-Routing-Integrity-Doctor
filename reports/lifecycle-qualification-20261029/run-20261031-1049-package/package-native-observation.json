@@ -1,0 +1,15 @@
+{
+  "observedAt": "2026-10-31T08:41:33.393Z",
+  "window": {
+    "app": "process:C:\\Program Files\\Adobe\\Adobe UXP Developer Tools\\Adobe UXP Developer Tools.exe",
+    "id": 1839784,
+    "title": "Adobe UXP Developer Tools"
+  },
+  "action": "UDT candidate ellipsis > Package > Select target directory",
+  "result": "Successfully packaged plugin.",
+  "registeredFolder": "artifacts/audio-preflight-0.2.1-037571056922",
+  "buildOverride": "blank",
+  "destination": "artifacts/ccx-0.2.1-037571056922",
+  "installationStarted": false,
+  "newScans": 0
+}

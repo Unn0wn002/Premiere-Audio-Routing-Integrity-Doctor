@@ -1,0 +1,107 @@
+{
+  "recordedAt": "2026-10-29T05:35:37.762Z",
+  "evidenceClass": "VERIFIED_THIS_SESSION_BOUNDED_NATIVE",
+  "runtimeIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+  "runtimeBinding": [
+    "udt-final-stage-options.txt",
+    "udt-final-loaded.png",
+    "native-json-verification.json"
+  ],
+  "narrow": {
+    "outerWidth": 326,
+    "outerHeight": 359,
+    "units": "logical pixels per sky screenshot metadata",
+    "geometry": [
+      {
+        "id": "screenshot-0",
+        "width": 1601,
+        "height": 881,
+        "originX": -2,
+        "originY": 0,
+        "zIndex": 0
+      },
+      {
+        "id": "screenshot-1",
+        "width": 326,
+        "height": 359,
+        "originX": 107,
+        "originY": 100,
+        "zIndex": 1
+      }
+    ],
+    "scanDurationMs": 35,
+    "scanScreenshot": "narrow-scan.png",
+    "exports": [
+      "narrow-scan.json",
+      "narrow-scan.html"
+    ],
+    "pairVerification": "narrow-pair-verification.json",
+    "execution": "Assistant triggered scan and export dialogs; user completed final HTML Save after observed filename-focus disagreement; file contents independently verified"
+  },
+  "wide": {
+    "outerWidth": 807,
+    "outerHeight": 359,
+    "units": "logical pixels per sky screenshot metadata",
+    "geometry": [
+      {
+        "id": "screenshot-0",
+        "width": 1601,
+        "height": 881,
+        "originX": -2,
+        "originY": 0,
+        "zIndex": 0
+      },
+      {
+        "id": "screenshot-1",
+        "width": 807,
+        "height": 359,
+        "originX": 107,
+        "originY": 100,
+        "zIndex": 1
+      }
+    ],
+    "scanDurationMs": 31,
+    "scanScreenshot": "wide-scan.png",
+    "findingsScreenshot": "wide-findings.png",
+    "finalScreenshot": "wide-final-idle.png",
+    "exports": [
+      "wide-scan.json",
+      "wide-scan.html"
+    ],
+    "pairVerification": "wide-pair-verification.json",
+    "execution": "Assistant native right-border resize, one physical scan, JSON and HTML save actions with unchanged default filenames"
+  },
+  "resizeAttempts": [
+    {
+      "action": "bottom-right drag at parent-relative (430,456)",
+      "result": "Geometry unchanged; no wide-size claim from this attempt"
+    },
+    {
+      "action": "right-border drag at parent-relative (434,300) using screenshot-origin offsets",
+      "result": "Outer width changed 326 to 807; height stayed 359"
+    }
+  ],
+  "exportWorkaround": "Explicitly select native Save As window and its full screenshot, retain native default filename/folder, click Save, refresh window inventory, then activate parent before capture; both wide exports saved and independently verified",
+  "filenameFocusIssue": "Earlier screenshot/edit focus and accessibility Search focus disagreed; no filename typing was sent. User completed narrow HTML Save.",
+  "finalState": {
+    "project": "Positive_Signal_Test",
+    "panel": "floating",
+    "outerWidth": 807,
+    "outerHeight": 359,
+    "scanMs": 31,
+    "exportStatus": "Saved HTML report",
+    "scanEnabled": true,
+    "cancelDisabled": true,
+    "pickerClosed": true
+  },
+  "notClaimed": [
+    "CSS viewport dimensions",
+    "Per-size repeated performance benchmarks",
+    "Full lifecycle, clean-customer installation or distribution",
+    "A cause/fix for earlier docking crash or every Computer Use targeting issue",
+    "Mapping, output-bus topology or playback/export correctness"
+  ],
+  "redockingRepeated": false,
+  "projectSavedByAssistant": false,
+  "runtimeSourceChanged": false
+}

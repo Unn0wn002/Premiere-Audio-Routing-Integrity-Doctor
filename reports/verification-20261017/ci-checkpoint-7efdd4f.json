@@ -1,0 +1,177 @@
+{
+  "recordedAt": "2026-10-18 15:00:56 UTC",
+  "branch": "codex/validated-beta-20261017",
+  "queriedCommit": "7efdd4f614dbc81679a5cc287b260e8bc825261c",
+  "runtimeSourceCommit": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runId": 39136977286,
+  "url": "https://github.com/Unn0wn002/Premiere-Audio-Routing-Integrity-Doctor/actions/runs/39136977286",
+  "observationMethod": "Authenticated GitHub connector; workflow result plus job/step and artifact records",
+  "scope": "Static/mock/synthetic/package checks only; no Premiere host",
+  "jobs": [
+    {
+      "id": 117703362788,
+      "name": "Static checks (windows-latest, Node 24)",
+      "status": "completed",
+      "conclusion": "success",
+      "validationSteps": [
+        {
+          "name": "Unit and mocked adapter regressions (not native validation)",
+          "conclusion": "success"
+        },
+        {
+          "name": "Synthetic diagnostic contracts (not native fixtures)",
+          "conclusion": "success"
+        },
+        {
+          "name": "JavaScript syntax",
+          "conclusion": "success"
+        },
+        {
+          "name": "Whitespace check",
+          "conclusion": "success"
+        },
+        {
+          "name": "Build deterministic developer ZIP",
+          "conclusion": "success"
+        },
+        {
+          "name": "Verify archive allowlist and identity",
+          "conclusion": "success"
+        },
+        {
+          "name": "Retain unsigned developer handoff (native validation pending)",
+          "conclusion": "skipped"
+        }
+      ]
+    },
+    {
+      "id": 117703362881,
+      "name": "Static checks (ubuntu-latest, Node 24)",
+      "status": "completed",
+      "conclusion": "success",
+      "validationSteps": [
+        {
+          "name": "Unit and mocked adapter regressions (not native validation)",
+          "conclusion": "success"
+        },
+        {
+          "name": "Synthetic diagnostic contracts (not native fixtures)",
+          "conclusion": "success"
+        },
+        {
+          "name": "JavaScript syntax",
+          "conclusion": "success"
+        },
+        {
+          "name": "Whitespace check",
+          "conclusion": "success"
+        },
+        {
+          "name": "Build deterministic developer ZIP",
+          "conclusion": "success"
+        },
+        {
+          "name": "Verify archive allowlist and identity",
+          "conclusion": "success"
+        },
+        {
+          "name": "Retain unsigned developer handoff (native validation pending)",
+          "conclusion": "success"
+        }
+      ]
+    },
+    {
+      "id": 117703362903,
+      "name": "Static checks (ubuntu-latest, Node 22)",
+      "status": "completed",
+      "conclusion": "success",
+      "validationSteps": [
+        {
+          "name": "Unit and mocked adapter regressions (not native validation)",
+          "conclusion": "success"
+        },
+        {
+          "name": "Synthetic diagnostic contracts (not native fixtures)",
+          "conclusion": "success"
+        },
+        {
+          "name": "JavaScript syntax",
+          "conclusion": "success"
+        },
+        {
+          "name": "Whitespace check",
+          "conclusion": "success"
+        },
+        {
+          "name": "Build deterministic developer ZIP",
+          "conclusion": "success"
+        },
+        {
+          "name": "Verify archive allowlist and identity",
+          "conclusion": "success"
+        },
+        {
+          "name": "Retain unsigned developer handoff (native validation pending)",
+          "conclusion": "skipped"
+        }
+      ]
+    },
+    {
+      "id": 117703362950,
+      "name": "Static checks (windows-latest, Node 22)",
+      "status": "completed",
+      "conclusion": "success",
+      "validationSteps": [
+        {
+          "name": "Unit and mocked adapter regressions (not native validation)",
+          "conclusion": "success"
+        },
+        {
+          "name": "Synthetic diagnostic contracts (not native fixtures)",
+          "conclusion": "success"
+        },
+        {
+          "name": "JavaScript syntax",
+          "conclusion": "success"
+        },
+        {
+          "name": "Whitespace check",
+          "conclusion": "success"
+        },
+        {
+          "name": "Build deterministic developer ZIP",
+          "conclusion": "success"
+        },
+        {
+          "name": "Verify archive allowlist and identity",
+          "conclusion": "success"
+        },
+        {
+          "name": "Retain unsigned developer handoff (native validation pending)",
+          "conclusion": "skipped"
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": 12139803513,
+      "name": "audio-preflight-developer-candidate",
+      "size_in_bytes": 15297,
+      "url": "https://api.github.com/repos/Unn0wn002/Premiere-Audio-Routing-Integrity-Doctor/actions/artifacts/12139803513",
+      "archive_download_url": "https://api.github.com/repos/Unn0wn002/Premiere-Audio-Routing-Integrity-Doctor/actions/artifacts/12139803513/zip",
+      "expired": false,
+      "created_at": "2026-10-18T14:40:00Z",
+      "expires_at": "2026-11-01T14:39:59Z",
+      "updated_at": "2026-10-18T14:40:00Z",
+      "digest": "sha256:35eafb2237b45f2f97862e0ea92505a2481cd3fb69bff7c3a4a10bb3a326bfc8",
+      "workflow_run": {
+        "id": 39136977286,
+        "repository_id": 1383529927,
+        "head_repository_id": 1383529927,
+        "head_branch": "codex/validated-beta-20261017",
+        "head_sha": "7efdd4f614dbc81679a5cc287b260e8bc825261c"
+      }
+    }
+  ]
+}

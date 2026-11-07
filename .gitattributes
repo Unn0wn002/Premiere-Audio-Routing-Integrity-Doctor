@@ -1,0 +1,13 @@
+# Verbatim evidence: retain captured bytes across checkouts.
+reports/verification-20261017/inherited-working-tree.patch binary
+reports/verification-20261017/*-export.json -text
+# Preserve captured JSON bytes; recognize CRLF while retaining whitespace checks.
+reports/submission-closeout-20261019/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+# Verbatim evidence from the 20261027-20261101 runs: captured console output, patches and copies of old notes keep
+# their trailing whitespace, so git diff --check must not flag them. Line-ending handling is left unchanged.
+reports/panel-layout-20261027/** -whitespace
+reports/panel-layout-20261029/** -whitespace
+reports/lifecycle-qualification-20261029/** -whitespace
+reports/language-20261102/** -whitespace
+reports/span-label-20261102/** -whitespace
+reports/installed-0.3.0-20261102/** -whitespace

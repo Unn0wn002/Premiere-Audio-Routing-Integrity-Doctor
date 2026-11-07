@@ -1,0 +1,30 @@
+{
+  "window": {
+    "app": "{6D809377-6AF0-444B-8957-A3773F02200E}\\Adobe\\Adobe Premiere Pro 2026\\Adobe Premiere Pro.exe",
+    "id": 266426,
+    "title": "Adobe Premiere - C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\lifecycle-qualification-20261029\\run-20261030-2116-boundaries\\working\\Boundary_A"
+  },
+  "captures": [
+    {
+      "height": 881,
+      "id": "screenshot-0",
+      "originX": -2,
+      "originY": 0,
+      "width": 1601,
+      "zIndex": 0
+    },
+    {
+      "height": 359,
+      "id": "screenshot-1",
+      "originX": 856,
+      "originY": 100,
+      "width": 326,
+      "zIndex": 1
+    }
+  ],
+  "retainedScanMs": 47,
+  "scanAvailable": true,
+  "cancelDisabled": true,
+  "pickerClosed": true,
+  "titleUnsavedMarkerVisible": false
+}

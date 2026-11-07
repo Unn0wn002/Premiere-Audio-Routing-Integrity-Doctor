@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-28",
+  "package": "artifacts/ccx-0.2.1-48bb1d177f4c/com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+  "sha256": "15026dd9df78c2437ab0e295a6d62c7df5f0276486ba130981c68dc9876662f5",
+  "hashMatchesVerifiedCandidate": true,
+  "normalExplorerOpen": "Creative Cloud Desktop opened",
+  "lastObservedUI": "Welcome to Adobe Creative Cloud informational modal with Done button",
+  "inputAttempt": "Dismiss welcome modal; failed to activate captured window",
+  "singleFocusRecovery": "GetCursorPos failed: Access is denied. (0x80070005)",
+  "securityPromptObserved": false,
+  "securityConsentAutomated": false,
+  "installationResult": "UNVERIFIED",
+  "cleanCustomerProfile": "NOT_ESTABLISHED",
+  "handoff": "Operator must inspect the desktop and handle any expected Adobe security consent manually; then leave Creative Cloud available for inspection. No further UI input attempted after focus recovery failed."
+}

@@ -1,0 +1,13 @@
+{
+  "recordedAt": "2026-10-17T18:51:57.213Z",
+  "timezone": "Asia/Jakarta",
+  "source": "Independently observed Help > About Premiere via supported computer-use UI",
+  "host": {
+    "name": "Adobe Premiere",
+    "version": "26.5.2",
+    "build": "5",
+    "uxpVersion": "uxp-9.3.0-local"
+  },
+  "evidence": "premiere-about-current.png",
+  "scope": "Host identity only; no candidate loaded or fixture pass claimed"
+}

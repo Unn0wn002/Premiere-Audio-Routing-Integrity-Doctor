@@ -1,0 +1,64 @@
+{
+  "recordType": "independent-current-native-fixture-review",
+  "fixture": "F06",
+  "sourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "executionDate": "2026-10-18",
+  "timezone": "Asia/Jakarta",
+  "scope": {
+    "project": "ARID_Disposable_20261018.prproj",
+    "sequence": "stereo-l440-r880",
+    "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+    "sequenceOccurrenceIndex": 0
+  },
+  "independentUiTruth": {
+    "method": "Before/after native screenshots viewed independently by analysis agent. Operator constructed F06 by moving the second duplicate clip occurrence from A1 to A2, retaining A1 Mute selected.",
+    "trackMute": [true, false, false],
+    "nonemptyTrackIndices": [0, 1],
+    "clipsPerTrack": [1, 1, 0],
+    "beforeEvidence": ["F06-truth-before-current.png"],
+    "afterEvidence": ["F06-truth-after-current.png"],
+    "truthLimit": "Expected creative audio and mute intent remain unknown. No mapping, bus or playback/export truth is inferred."
+  },
+  "expectedActual": {
+    "expected": "ARID-002 exactly once on A1; no ARID-001 because nonempty A2 is active. No ARID-003. Retain intent-aware review/do-not-auto-unmute guidance.",
+    "actual": "All three exports contain exactly one ARID-002 Review at sequence GUID 06a6a407-a666-40bd-b196-ebd09a74fc7f, track Audio 1, trackId2, trackIndex0. No ARID-001/003; low intent confidence and manual review guidance retained.",
+    "agreement": true,
+    "exportAnalysis": "F06-three-runs-independent-export-review.json"
+  },
+  "observedCurrentEvidence": {
+    "runs": 3,
+    "durationMs": [30, 21, 23],
+    "diagnosticStatus": "COMPLETE",
+    "failedReads": 0,
+    "riskRuleCounts": {"ARID-001": 0, "ARID-002": 1, "ARID-003": 0},
+    "unknownBoundaryFindings": 3,
+    "strictDocumentedShapes": "Both FrameRates and all 140 Keyframes valid in each export; no animated parameter/keyframe-time paths exercised.",
+    "repeatability": {
+      "observationFieldsStable": true,
+      "diagnosticsStable": true,
+      "excludedObservationFields": ["generatedAt", "durationMs"],
+      "stableObservationSha256": "b950a2680a7ed3b7bf3d2ebe4d501e942097fdcc3e7c3b76609a186e391d20b0",
+      "stableDiagnosticSha256": "8f4d218145c5c1d67240f6a926681b4e8eac42973b820c0dadf47b93ab792679",
+      "medianDurationMs": 23,
+      "timingLimit": "Plugin-reported Date.now traversal duration; three local observations, no broad performance or UI-wall-clock claim.",
+      "rawExports": ["F06-R1-current-export.json", "F06-R2-current-export.json", "F06-R3-current-export.json"]
+    },
+    "reopen": null,
+    "inspectedStateUnchanged": {
+      "trackMuteAndNonemptyTracksUi": true,
+      "allObservedRawFields": true,
+      "evidence": ["F06-truth-before-current.png", "F06-truth-after-current.png"],
+      "limit": "Before/after screenshots retain nonempty muted A1 and nonempty active A2. All raw observed fields are stable except generatedAt/durationMs; this does not certify every project property or output."
+    }
+  },
+  "observableFixtureMetrics": {
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "observableEvaluatedFixtures": 1,
+    "positiveObservableRiskConditions": 1,
+    "interpretation": "One scoped nonempty muted-track condition in a mixed active/muted sequence, evaluated once despite three scans. This is observation detection, not a finding that the intentional mute is an error. Unknown capabilities and unexercised fixtures are excluded."
+  },
+  "disposition": "THREE_NATIVE_OBSERVATIONS_MATCHED_AND_STABLE; inspected mute/nonempty state preserved in UI; reopen pending"
+}

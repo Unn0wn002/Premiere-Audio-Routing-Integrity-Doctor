@@ -1,0 +1,164 @@
+Window: "Audio Preflight - Private Beta - Premiere Pro v26.5.2 (Debug)", App: Adobe UXP Developer Tools.exe.
+	0 pane Audio Preflight - Private Beta - Premiere Pro v26.5.2 (Debug) Secondary Actions: Raise
+		1 document Audio Preflight - Private Beta - Premiere Pro v26.5.2 (Debug) Value: file:///C%3a/Program%20Files/Adobe/Adobe%20UXP%20Developer%20Tools/resources/app.asar/node_modules/%40adobe/uxp-inspect-frontend/main/front_end/devtools_app.html?ws=127.0.0.1%3A14001%2Fsocket%2Fcdt%2F21e3da84-8beb-42f6-bfff-9989bf8aa0ac&uxp_window_title=Audio+Preflight+-+Private+Beta+-+Premiere+Pro+v26.5.2+%28Debug%29&uxp_window_type=debug&memory_tab=false&protocol_monitor=false ID: -1104332272
+			20 group Select an element in the page to inspect it Panels Console panel
+				27 button Select an element in the page to inspect it
+				21 tab Panels
+					22 tab item (selectable) Elements ID: tab-elements
+					23 tab item (selectable) Console ID: tab-console
+					24 tab item (selectable) Sources ID: tab-sources
+					25 tab item (selectable) Network ID: tab-network
+				28 button Settings
+				29 menu item Customize and control DevTools
+				26 tab panel Console panel
+					30 button Show console sidebar
+					31 button Clear console
+					32 button JavaScript context: Audio Preflight - Private Beta
+					33 button Create live expression
+					34 edit (settable, string) Filter Description: Filter
+					35 menu item Log level: Default levels
+						36 text Default levels
+					37 button No Issues
+					38 button Console settings
+					39 log ID: console-messages
+						40 group JSON.stringify({title:document.title,selects:document.querySelectorAll('select').length,dispatch:typeofdocument.querySelector('select').dispatchEvent,event:typeofEvent,click:typeofdocument.getElementById('scanButton').click}) "{\"selects\":9,\"dispatch\":\"function\",\"event\":\"function\",\"click\":\"function\"}" // Run in the loaded plugin's UDT console, with a disposable project open.// Programmatic native UXP DOM events; no stubs, host setters, or source edits.// Does not qualify physical mouse selection, large-project cancellation, or installation. (asyncfunction () { constrecord=globalThis.aridNativeUI= { method: 'NATIVE_PREMIERE_UXP_PROGRAMMATIC_DOM_EVENTS', startedAt: newDate().toISOString(), results: [], reports: {}, qualification: 'Native panel handlers and actual host reads; not physical mouse interaction.' }; constel=id=>document.getElementById(id); constreport= () =>JSON.parse(el('output').textContent); constassert= (name, ok, actual) => { record.results.push({ name, pass: Boolean(ok), actual }); if (!ok) throwError(name); }; constidle
+							302 group JSON.stringify({title:document.title,selects:document.querySelectorAll('select').length,dispatch:typeofdocument.querySelector('select').dispatchEvent,event:typeofEvent,click:typeofdocument.getElementById('scanButton').click})
+								303 group
+									304 text JSON
+									305 text .
+									306 text stringify
+									307 text ({
+									308 text title
+									309 text :
+									310 text document
+									311 text .
+									312 text title
+									313 text ,
+									314 text selects
+									315 text :
+									316 text document
+									317 text .
+									318 text querySelectorAll
+									319 text (
+									320 text 'select'
+									321 text ).
+									322 text length
+									323 text ,
+									324 text dispatch
+									325 text :
+									326 text typeof
+									327 text 
+									328 text document
+									329 text .
+									330 text querySelector
+									331 text (
+									332 text 'select'
+									333 text ).
+									334 text dispatchEvent
+									335 text ,
+									336 text event
+									337 text :
+									338 text typeof
+									339 text 
+									340 text Event
+									341 text ,
+									342 text click
+									343 text :
+									344 text typeof
+									345 text 
+									346 text document
+									347 text .
+									348 text getElementById
+									349 text (
+									350 text 'scanButton'
+									351 text ).
+									352 text click
+									353 text })
+							354 group "{\"selects\":9,\"dispatch\":\"function\",\"event\":\"function\",\"click\":\"function\"}"
+								355 group
+									356 text "{\"selects\":9,\"dispatch\":\"function\",\"event\":\"function\",\"click\":\"function\"}"
+							568 group // Run in the loaded plugin's UDT console, with a disposable project open.// Programmatic native UXP DOM events; no stubs, host setters, or source edits.// Does not qualify physical mouse selection, large-project cancellation, or installation. (asyncfunction () { constrecord=globalThis.aridNativeUI= { method: 'NATIVE_PREMIERE_UXP_PROGRAMMATIC_DOM_EVENTS', startedAt: newDate().toISOString(), results: [], reports: {}, qualification: 'Native panel handlers and actual host reads; not physical mouse interaction.' }; constel=id=>document.getElementById(id); constreport= () =>JSON.parse(el('output').textContent); constassert= (name, ok, actual) => { record.results.push({ name, pass: Boolean(ok), actual }); if (!ok) throwError(name); }; constidle=async () => { conststarted=Date.now(); while (el('scanButton').disabled) { if (Date.now() -started>10000) throwError('UI did not become idle within 10 seconds'); awaitnewPromise(resolve=>setTimeout(resolve, 10)); } }; letcountAcceptedClicks=0; constcountClick
+								569 group (truncated: child_limit, omitted 921 children)
+							570 group
+								571 group
+									572 group
+										573 tree
+											574 tree item (selectable) Promise {<fulfilled>: "{\"status\":\"FAIL_OR_UNSUPPORTED\",\"results\":[{\"name\"… at <anonymous>:36:5\\n at <anonymous>:67:3\"}"}
+												575 group
+													576 text 
+												577 group Promise {<fulfilled>: "{\"status\":\"FAIL_OR_UNSUPPORTED\",\"results\":[{\"name\"… at <anonymous>:36:5\\n at <anonymous>:67:3\"}"}
+													578 text Promise
+													579 text {
+													580 text <fulfilled>
+													581 text :
+													582 text "{\"status\":\"FAIL_OR_UNSUPPORTED\",\"results\":[{\"name\"… at <anonymous>:36:5\\n at <anonymous>:67:3\"}"
+													583 text }
+							632 group JSON.stringify({status:aridNativeUI.status,results:aridNativeUI.results,error:aridNativeUI.error})
+								633 group
+									634 text JSON
+									635 text .
+									636 text stringify
+									637 text ({
+									638 text status
+									639 text :
+									640 text aridNativeUI
+									641 text .
+									642 text status
+									643 text ,
+									644 text results
+									645 text :
+									646 text aridNativeUI
+									647 text .
+									648 text results
+									649 text ,
+									650 text error
+									651 text :
+									652 text aridNativeUI
+									653 text .
+									654 text error
+									655 text })
+							656 group "{\"status\":\"FAIL_OR_UNSUPPORTED\",\"results\":[{\"name\":\"initial report available\",\"pass\":true,\"actual\":\"completed\"},{\"name\":\"annotation change reaches raw report\",\"pass\":true,\"actual\":{\"risk:0\":\"intentional\"}},{\"name\":\"selector retains annotation\",\"pass\":true,\"actual\":\"intentional\"},{\"name\":\"scan disables start and exports\",\"pass\":false,\"actual\":{\"scan\":false,\"json\":false,\"html\":false}}],\"error\":\"Error: scan disables start and exports\\n at assert (<anonymous>:14:20)\\n at <anonymous>:36:5\\n at <anonymous>:67:3\"}"
+								657 group
+									658 text "{\"status\":\"FAIL_OR_UNSUPPORTED\",\"results\":[{\"name\":\"initial report available\",\"pass\":true,\"actual\":\"completed\"},{\"name\":\"annotation change reaches raw report\",\"pass\":true,\"actual\":{\"risk:0\":\"intentional\"}},{\"name\":\"selector retains annotation\",\"pass\":true,\"actual\":\"intentional\"},{\"name\":\"scan disables start and exports\",\"pass\":false,\"actual\":{\"scan\":false,\"json\":false,\"html\":false}}],\"error\":\"Error: scan disables start and exports\\n at assert (<anonymous>:14:20)\\n at <anonymous>:36:5\\n at <anonymous>:67:3\"}"
+						41 group ID: console-prompt
+							42 group
+								43 group ​
+									44 group
+										45 group
+											46 edit (settable, string) Console prompt
+										47 group ​
+											48 group
+												49 group
+													584 group
+													672 group
+														673 group
+															674 text 
+													659 group
+														660 group
+														661 group
+														662 text ​
+											58 group
+								59 group
+									60 group
+		2 pane (disabled)
+		3 title bar (settable, string) Value: Audio Preflight - Private Beta - Premiere Pro v26.5.2 (Debug)
+			4 menu bar System ID: MenuBar
+				5 menu item System
+			6 button Minimize
+			7 button Maximize
+			8 button Close
+		9 pane
+			10 pane
+			11 pane
+				12 pane
+					13 pane
+						14 menu item File
+						15 menu item Edit
+						16 menu item Actions
+						17 menu item View
+						18 menu item Help
+					19 pane
+
+Document text: ```
+Filter
+```

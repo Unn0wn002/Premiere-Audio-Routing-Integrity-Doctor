@@ -1,0 +1,56 @@
+{
+  "recordType": "independent-native-disposable-project-file-snapshots",
+  "branch": "codex/validated-beta-20261017",
+  "runtimeSourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "qualification": "Disk-file evidence only. Deliberate fixture authoring/manual save changes are expected; audio-state preservation requires independent UI and raw observations.",
+  "snapshots": [
+    {
+      "phase": "AFTER_MANUAL_SAVE_BEFORE_REOPEN_POST_SCANS",
+      "recordedAt": "2026-10-18T14:43:35.736Z",
+      "file": "reports/beta-20261004/ARID_Disposable_20261018.prproj",
+      "bytes": 19889,
+      "sha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+      "fileLastWriteTime": "2026-10-18T14:42:51.572Z"
+    },
+    {
+      "phase": "AFTER_REOPEN_POST_SCANS",
+      "recordedAt": "2026-10-18T15:00:04.393Z",
+      "file": "reports/beta-20261004/ARID_Disposable_20261018.prproj",
+      "bytes": 19889,
+      "sha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+      "fileLastWriteTime": "2026-10-18T14:42:51.572Z"
+    },
+    {
+      "phase": "AFTER_FINAL_POST_UI_BEFORE_SUPPLEMENTAL_PANEL_SCAN",
+      "recordedAt": "2026-10-19T01:23:56.623Z",
+      "file": "reports/beta-20261004/ARID_Disposable_20261018.prproj",
+      "bytes": 19889,
+      "sha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+      "fileLastWriteTime": "2026-10-18T14:42:51.572Z"
+    },
+    {
+      "phase": "AFTER_SUPPLEMENTAL_FINAL_PANEL_SCAN_EXPORT",
+      "recordedAt": "2026-10-19T01:28:17.930Z",
+      "file": "reports/beta-20261004/ARID_Disposable_20261018.prproj",
+      "bytes": 19889,
+      "sha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+      "fileLastWriteTime": "2026-10-18T14:42:51.572Z"
+    }
+  ],
+  "beforeAfterComparison": {
+    "bytesEqual": true,
+    "sha256Equal": true,
+    "mtimeEqual": true
+  },
+  "finalUiComparison": {
+    "bytesEqual": true,
+    "sha256Equal": true,
+    "mtimeEqual": true
+  },
+  "supplementalPanelComparison": {
+    "bytesEqual": true,
+    "sha256Equal": true,
+    "mtimeEqual": true
+  }
+}

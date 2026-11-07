@@ -1,0 +1,354 @@
+{
+  "verifiedAt": "2026-10-31T02:15:08.978700+00:00",
+  "evidenceClass": "SAVED_NATIVE_PROJECT_STRUCTURE_NOT_UI_OR_SCAN_PROOF",
+  "project": "working/Linear_Audio_20261031.prproj",
+  "projectSha256": "4a19db539f9efc0cc681c92d074545fd37edb84228d659cbfe9c47ccd8ad342a",
+  "sequenceCount": 1,
+  "audioTrackCount": 3,
+  "populatedAudioTracks": 1,
+  "referencedAudioClipOccurrences": 64,
+  "rootAudioClipTrackItemObjects": 64,
+  "contiguousRepeatedClipRanges": true,
+  "tracks": [
+    {
+      "id": "5b61bca5-3ddb-4003-b0e5-4b80fb00f3af",
+      "clips": [
+        {
+          "objectId": "69",
+          "startTicks": 0,
+          "endTicks": 254016000000
+        },
+        {
+          "objectId": "70",
+          "startTicks": 254016000000,
+          "endTicks": 508032000000
+        },
+        {
+          "objectId": "71",
+          "startTicks": 508032000000,
+          "endTicks": 762048000000
+        },
+        {
+          "objectId": "72",
+          "startTicks": 762048000000,
+          "endTicks": 1016064000000
+        },
+        {
+          "objectId": "73",
+          "startTicks": 1016064000000,
+          "endTicks": 1270080000000
+        },
+        {
+          "objectId": "74",
+          "startTicks": 1270080000000,
+          "endTicks": 1524096000000
+        },
+        {
+          "objectId": "75",
+          "startTicks": 1524096000000,
+          "endTicks": 1778112000000
+        },
+        {
+          "objectId": "76",
+          "startTicks": 1778112000000,
+          "endTicks": 2032128000000
+        },
+        {
+          "objectId": "77",
+          "startTicks": 2032128000000,
+          "endTicks": 2286144000000
+        },
+        {
+          "objectId": "78",
+          "startTicks": 2286144000000,
+          "endTicks": 2540160000000
+        },
+        {
+          "objectId": "79",
+          "startTicks": 2540160000000,
+          "endTicks": 2794176000000
+        },
+        {
+          "objectId": "80",
+          "startTicks": 2794176000000,
+          "endTicks": 3048192000000
+        },
+        {
+          "objectId": "81",
+          "startTicks": 3048192000000,
+          "endTicks": 3302208000000
+        },
+        {
+          "objectId": "82",
+          "startTicks": 3302208000000,
+          "endTicks": 3556224000000
+        },
+        {
+          "objectId": "83",
+          "startTicks": 3556224000000,
+          "endTicks": 3810240000000
+        },
+        {
+          "objectId": "84",
+          "startTicks": 3810240000000,
+          "endTicks": 4064256000000
+        },
+        {
+          "objectId": "85",
+          "startTicks": 4064256000000,
+          "endTicks": 4318272000000
+        },
+        {
+          "objectId": "86",
+          "startTicks": 4318272000000,
+          "endTicks": 4572288000000
+        },
+        {
+          "objectId": "87",
+          "startTicks": 4572288000000,
+          "endTicks": 4826304000000
+        },
+        {
+          "objectId": "88",
+          "startTicks": 4826304000000,
+          "endTicks": 5080320000000
+        },
+        {
+          "objectId": "89",
+          "startTicks": 5080320000000,
+          "endTicks": 5334336000000
+        },
+        {
+          "objectId": "90",
+          "startTicks": 5334336000000,
+          "endTicks": 5588352000000
+        },
+        {
+          "objectId": "91",
+          "startTicks": 5588352000000,
+          "endTicks": 5842368000000
+        },
+        {
+          "objectId": "92",
+          "startTicks": 5842368000000,
+          "endTicks": 6096384000000
+        },
+        {
+          "objectId": "93",
+          "startTicks": 6096384000000,
+          "endTicks": 6350400000000
+        },
+        {
+          "objectId": "94",
+          "startTicks": 6350400000000,
+          "endTicks": 6604416000000
+        },
+        {
+          "objectId": "95",
+          "startTicks": 6604416000000,
+          "endTicks": 6858432000000
+        },
+        {
+          "objectId": "96",
+          "startTicks": 6858432000000,
+          "endTicks": 7112448000000
+        },
+        {
+          "objectId": "97",
+          "startTicks": 7112448000000,
+          "endTicks": 7366464000000
+        },
+        {
+          "objectId": "98",
+          "startTicks": 7366464000000,
+          "endTicks": 7620480000000
+        },
+        {
+          "objectId": "99",
+          "startTicks": 7620480000000,
+          "endTicks": 7874496000000
+        },
+        {
+          "objectId": "100",
+          "startTicks": 7874496000000,
+          "endTicks": 8128512000000
+        },
+        {
+          "objectId": "101",
+          "startTicks": 8128512000000,
+          "endTicks": 8382528000000
+        },
+        {
+          "objectId": "102",
+          "startTicks": 8382528000000,
+          "endTicks": 8636544000000
+        },
+        {
+          "objectId": "103",
+          "startTicks": 8636544000000,
+          "endTicks": 8890560000000
+        },
+        {
+          "objectId": "104",
+          "startTicks": 8890560000000,
+          "endTicks": 9144576000000
+        },
+        {
+          "objectId": "105",
+          "startTicks": 9144576000000,
+          "endTicks": 9398592000000
+        },
+        {
+          "objectId": "106",
+          "startTicks": 9398592000000,
+          "endTicks": 9652608000000
+        },
+        {
+          "objectId": "107",
+          "startTicks": 9652608000000,
+          "endTicks": 9906624000000
+        },
+        {
+          "objectId": "108",
+          "startTicks": 9906624000000,
+          "endTicks": 10160640000000
+        },
+        {
+          "objectId": "109",
+          "startTicks": 10160640000000,
+          "endTicks": 10414656000000
+        },
+        {
+          "objectId": "110",
+          "startTicks": 10414656000000,
+          "endTicks": 10668672000000
+        },
+        {
+          "objectId": "111",
+          "startTicks": 10668672000000,
+          "endTicks": 10922688000000
+        },
+        {
+          "objectId": "112",
+          "startTicks": 10922688000000,
+          "endTicks": 11176704000000
+        },
+        {
+          "objectId": "113",
+          "startTicks": 11176704000000,
+          "endTicks": 11430720000000
+        },
+        {
+          "objectId": "114",
+          "startTicks": 11430720000000,
+          "endTicks": 11684736000000
+        },
+        {
+          "objectId": "115",
+          "startTicks": 11684736000000,
+          "endTicks": 11938752000000
+        },
+        {
+          "objectId": "116",
+          "startTicks": 11938752000000,
+          "endTicks": 12192768000000
+        },
+        {
+          "objectId": "117",
+          "startTicks": 12192768000000,
+          "endTicks": 12446784000000
+        },
+        {
+          "objectId": "118",
+          "startTicks": 12446784000000,
+          "endTicks": 12700800000000
+        },
+        {
+          "objectId": "119",
+          "startTicks": 12700800000000,
+          "endTicks": 12954816000000
+        },
+        {
+          "objectId": "120",
+          "startTicks": 12954816000000,
+          "endTicks": 13208832000000
+        },
+        {
+          "objectId": "121",
+          "startTicks": 13208832000000,
+          "endTicks": 13462848000000
+        },
+        {
+          "objectId": "122",
+          "startTicks": 13462848000000,
+          "endTicks": 13716864000000
+        },
+        {
+          "objectId": "123",
+          "startTicks": 13716864000000,
+          "endTicks": 13970880000000
+        },
+        {
+          "objectId": "124",
+          "startTicks": 13970880000000,
+          "endTicks": 14224896000000
+        },
+        {
+          "objectId": "125",
+          "startTicks": 14224896000000,
+          "endTicks": 14478912000000
+        },
+        {
+          "objectId": "126",
+          "startTicks": 14478912000000,
+          "endTicks": 14732928000000
+        },
+        {
+          "objectId": "127",
+          "startTicks": 14732928000000,
+          "endTicks": 14986944000000
+        },
+        {
+          "objectId": "128",
+          "startTicks": 14986944000000,
+          "endTicks": 15240960000000
+        },
+        {
+          "objectId": "129",
+          "startTicks": 15240960000000,
+          "endTicks": 15494976000000
+        },
+        {
+          "objectId": "130",
+          "startTicks": 15494976000000,
+          "endTicks": 15748992000000
+        },
+        {
+          "objectId": "131",
+          "startTicks": 15748992000000,
+          "endTicks": 16003008000000
+        },
+        {
+          "objectId": "132",
+          "startTicks": 16003008000000,
+          "endTicks": 16257024000000
+        }
+      ]
+    },
+    {
+      "id": "2ff4eda9-b23e-42db-bb42-9cefe8f7dfa7",
+      "clips": []
+    },
+    {
+      "id": "c4ab0d0f-8605-4c19-bf15-ac879978526f",
+      "clips": []
+    }
+  ],
+  "sourcePaths": [
+    "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\lifecycle-qualification-20261029\\run-20261031-0828-linear-fixture\\media\\ARID_Linear_Stereo_1s.wav"
+  ],
+  "limitations": [
+    "Saved structure is distinct from UI responsiveness and native adapter reads.",
+    "No routing, mapping, acoustic or customer-performance qualification."
+  ]
+}

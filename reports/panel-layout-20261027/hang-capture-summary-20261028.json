@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-28",
+  "status": "VERIFIED_THIS_SESSION_HANG_REPRODUCED_AND_CAPTURED; ROOT_CAUSE_UNKNOWN",
+  "sourceHead": "9330e242eadcd10623300ca39d01753355aefc7a",
+  "runtimeIdentity": "48bb1d177f4cb8ec4b8e90ff4d23fe618baec155a814db80f7b19e5d9096b28f",
+  "trial": {
+    "count": 1,
+    "route": "Close saved sole active Positive_Signal_Test project; native File > Open Recent > exact saved project",
+    "installedPanelOpenIdle": true,
+    "udtRunning": false,
+    "newScanInvoked": false,
+    "newExportInvoked": false,
+    "savedEditMarkerAbsentBeforeClose": true,
+    "closeSavePromptShown": false,
+    "reopenedTimelineVisible": true,
+    "subsequentNativeTitle": "Positive_Signal_Test (Not Responding)",
+    "processRespondingFalseRepeated": true,
+    "qualification": "Warm close/reopen; no cold-start or plugin-unloaded control"
+  },
+  "tool": {
+    "download": "https://download.sysinternals.com/files/Procdump.zip",
+    "executable": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\hang-capture-tools\\procdump64.exe",
+    "signatureStatus": "Valid",
+    "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+    "sha256": "22C2A2B09ADE73A342A18DAB838354385F73FC98E324B9903FD61FFF949C5124",
+    "version": "12.02"
+  },
+  "capture": {
+    "targetPid": 11556,
+    "monitorPid": 7332,
+    "dumpFile": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\hang-capture-20261028\\premiere-11556-reopen-mini.dmp",
+    "mode": "Mini, hung window >=5 seconds, one capture",
+    "startedAt": "2026-10-28T05:41:27.9258769Z",
+    "completed": true,
+    "localOnly": true,
+    "automaticTargetTermination": false,
+    "uploadEnabled": false,
+    "signature": "MDMP",
+    "bytes": 201778984,
+    "sha256": "a4d00b0ba45ceb2e2642913f0d99dcbaac69ad8ca656f52bd6ddf7d62cd33b21",
+    "capturedAt": "2026-10-28T05:44:50.000Z",
+    "processId": 11556,
+    "streams": 20,
+    "modules": 340,
+    "threads": 198,
+    "exceptionStreamPresent": false,
+    "structuralValidation": "Header, stream bounds, AMD64 contexts and stack ranges passed",
+    "symbolizedStackAnalysis": "NOT_RUN"
+  },
+  "preservation": [
+    {
+      "file": "Positive_Signal_Test.prproj",
+      "sha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+      "unchanged": true
+    },
+    {
+      "file": "Layout_Test_Copy.prproj",
+      "sha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+      "unchanged": true
+    },
+    {
+      "file": "Large_Inventory_Test.prproj",
+      "sha256": "850a5354a3248815974526de640e2b040b927505ec7d5895c0be10b3fa046249",
+      "unchanged": true
+    },
+    {
+      "file": "reload-control-20261028.prproj",
+      "sha256": "4ec4a6a959676f5f36b7f27ae0b1f984c4d1302afe28dd2f59daa63efb626aad",
+      "unchanged": true
+    },
+    {
+      "file": "installed-test.json",
+      "sha256": "af8ba7316dc2b8988dd20601b7d206cfcc82cdf5ebf720f0acd97eeeb3c8eb7e",
+      "unchanged": true
+    },
+    {
+      "file": "installed-test.html",
+      "sha256": "47b7fcb428c46e53023d72b275de0742aef09d6cd5adb51dfe3508491e5702bb",
+      "unchanged": true
+    }
+  ],
+  "installedRuntimeStillMatches": true,
+  "installedFiles": [
+    {
+      "file": "manifest.json",
+      "exactBytes": false,
+      "manifestValuesEqual": true
+    },
+    {
+      "file": "index.html",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "index.js",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "src/premiereAdapter.js",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "src/diagnostics.js",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "src/valueSerializer.js",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "src/report.js",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    }
+  ],
+  "logReview": {
+    "file": "UXPLogs_2026-10-28_12-01-12_964570.log",
+    "bytes": 137110,
+    "betaRegistrationMentions": 1,
+    "uncaughtUnhandledFatalOrDeadlockLines": 0,
+    "qualification": "Selected keyword review only; no root cause established and no absence-of-error claim"
+  },
+  "recovery": {
+    "terminatedPid": 11556,
+    "at": "2026-10-28T05:45:52.1872312Z",
+    "guards": "Exact executable, fixture title without edit marker, nonresponsive, unchanged saved fixture, dump complete",
+    "monitorExited": true,
+    "finalHost": {
+      "observedAt": "2026-10-28T05:48:32.9220351Z",
+      "pid": 38540,
+      "path": "C:\\Program Files\\Adobe\\Adobe Premiere Pro 2026\\Adobe Premiere Pro.exe",
+      "responding": true,
+      "processTitle": "OS_PopupWindow",
+      "nativeWindowTitle": "Adobe Premiere",
+      "uiStateVerified": false,
+      "uiInspectionError": "foreground window did not report a process id",
+      "uiInspectionAttempts": 2,
+      "furtherAppInputStopped": true,
+      "projectReopenRetried": false,
+      "monitorRunning": false
+    }
+  },
+  "debuggerCheck": {
+    "onPath": false,
+    "checkedSDKPathsPresent": false,
+    "scope": "cdb.exe, windbg.exe, WinDbgX.exe on PATH and three standard Windows Kits debugger locations only"
+  },
+  "limits": [
+    "A captured hang is not a root-cause fix or broad lifecycle PASS.",
+    "Raw instruction pointers and thread order do not identify the UI thread or the cause.",
+    "A mini dump can omit heap/object data needed for a definitive diagnosis.",
+    "Recovery responsiveness is process-level evidence; Home UI inspection failed twice and no further app input was sent.",
+    "Clean-profile installation, upgrade/uninstall, scanner routing/mapping/playback capabilities remain unqualified."
+  ],
+  "nextEvidence": "Analyze captured thread stacks with an available native debugger and symbols; do not repeat the fixture opening before analysis justifies a control."
+}

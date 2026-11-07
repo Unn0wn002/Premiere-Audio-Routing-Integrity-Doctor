@@ -1,0 +1,4530 @@
+{
+  "sessionDate": "2026-10-27",
+  "timezone": "Asia/Jakarta",
+  "sourceCommit": "c7d63f7f568900d941acdb658ea1123c352ccb0e",
+  "sourceDirty": true,
+  "stagedRuntimeIdentity": "b4460b46135c7e7b07b1ff905cbd27afd110f66fbb07c6fda4e46627fb3a140a",
+  "loadedRuntimePathIndependentlyVerified": true,
+  "exportSHA256": "ED0917CFAD29BDC1210C8B782189CB1736EB928BD59041825B7A0A56251A12B2",
+  "fixtureCopySHA256": "F243358DE98EB0024A0364EB6F8A90A7D8EF1B5250DB2169AE2EC1D973E82A8E",
+  "fixtureSourceSHA256": "F243358DE98EB0024A0364EB6F8A90A7D8EF1B5250DB2169AE2EC1D973E82A8E",
+  "nativeCompletion": "failed",
+  "nativeDiagnosticStatus": "UNKNOWN",
+  "nativeDurationMs": 6,
+  "nativeHost": {
+    "name": "premierepro",
+    "version": "26.5.2",
+    "uiLocale": "en_US",
+    "uxpVersion": "uxp-9.3.0-local",
+    "pluginVersion": "0.2.1"
+  },
+  "floatingResize": "OBSERVED: approximate outer bounds 326x359 to 632x780; screenshots retained in chat",
+  "docked": "PASS: approximately 320px wide, scan, JSON export, redocking and result retention",
+  "hostFailure": "Recovered opening stall; no forced termination",
+  "attribution": "UNKNOWN",
+  "controlledTests": "53/53 PASS",
+  "syntheticFixtures": "6/6 PASS",
+  "syntax": "PASS",
+  "originalExportLocation": "C:\\Users\\unn0w\\Downloads\\Management Project\\Premiere Audio Routing Integrity Doctor\\reports\\beta-20261004\\audio-preflight-2026-10-26T18-28-07-970Z.json",
+  "floatingFixture": {
+    "completion": "completed",
+    "status": "COMPLETE",
+    "durationMs": 31,
+    "sequencesMatchDocked": true,
+    "diagnosticsMatchDocked": true,
+    "readableExport": "audio-preflight-2026-10-26T18-36-11-466Z.html"
+  },
+  "cancelledExport": "PASS: Export cancelled message and controls recovered",
+  "nativeUnqualified": [
+    "Persistent host responsiveness stall after 256-sequence full scan; root cause unknown",
+    "Docked and repeated larger-project performance trials blocked",
+    "Physical native popup selection and rapid double-click timing",
+    "Deliberate native write failure",
+    "Project switching/reopen and customer installation",
+    "Full F01-F11 matrix not repeated"
+  ],
+  "nativeProgrammaticLifecycle": {
+    "docked": "13/13 PASS",
+    "floating": "13/13 PASS",
+    "method": "UDT console: real native UXP DOM dispatchEvent and actual host retry reads",
+    "evidence": "native-ui-lifecycle.json",
+    "sha256": "9DEB08F3FA0167D11222E940B905DF8876BA14023E34747FDBAAFBB501C84395",
+    "scope": "annotation/reset, busy controls, duplicate event busy state, immediate pre-acquisition cancellation, cleanup/retry, raw toggle",
+    "retryDurationMs": {
+      "floating": 40,
+      "docked": 33
+    }
+  },
+  "largeInventory": {
+    "result": "FUNCTIONAL_CANCEL_PASS_RESPONSIVENESS_UNQUALIFIED_HOST_STALL",
+    "fixtureSequences": 256,
+    "fixtureSHA256": "850A5354A3248815974526DE640E2B040B927505EC7D5895C0BE10B3FA046249",
+    "sourceUnchanged": true,
+    "nativeEvidenceSHA256": "2D5563F04013BB33FCCF0E0935749FEE16B0FCE1597E1037A51A5AA002866267",
+    "cancellationAtMs": 101,
+    "retainedSequences": 6,
+    "cancelToIdleMs": 22,
+    "fullWallMs": 5206,
+    "adapterMs": 4618,
+    "maxTimerGapMs": 619,
+    "functionalAssertionsPassed": 13,
+    "functionalAssertionsTotal": 13,
+    "host": {
+      "Id": 23620,
+      "Responding": false,
+      "CPU": 2556.765625,
+      "WorkingSet64": 4247150592
+    },
+    "repeatTrials": "BLOCKED while host reports Responding=false",
+    "cause": "UNKNOWN; eager full-report serialization/card rendering is a candidate, not established root cause"
+  },
+  "recovery": {
+    "result": "HOST_RESTARTED_RESPONSIVE_AT_HOME",
+    "before": "recovery-process-before.json",
+    "after": "recovery-process-after.json",
+    "stressProjectReopened": true,
+    "performanceIssueResolved": false,
+    "latestEvidence": "small-control-recovery.json",
+    "finalState": "User-opened Layout_Test_Copy responsive; preserved without restart"
+  },
+  "stallIsolation": {
+    "result": "FIXTURE_OPEN_STALL_REPRODUCED_WITH_UDT_PLUGINS_UNLOADED",
+    "loadedNoScan": "Responding=false",
+    "unloadedNoScan": "Responding=false",
+    "fixtureHashUnchanged": true,
+    "adapterOnly": "NOT_RUN: fixture opening stalls",
+    "cause": "UNKNOWN fixture/host cause; new panel scan not required",
+    "evidence": [
+      "reopen-without-scan-process-final.json",
+      "unloaded-control-udt.txt",
+      "unloaded-control-process-final.json"
+    ]
+  },
+  "smallerReopenControl": {
+    "result": "BLOCKED_PROJECT_OPEN_STALL_WITHOUT_DEVELOPER_PLUGIN",
+    "fixture": "Layout_Test_Copy.prproj",
+    "independentProvenance": false,
+    "scanStarted": false,
+    "hashUnchanged": true,
+    "evidence": [
+      "small-reopen-unloaded-process.json",
+      "small-reopen-unloaded-process-final.json"
+    ],
+    "cause": "UNKNOWN"
+  },
+  "userOpenedSession": {
+    "host": "RESPONSIVE",
+    "timelineVisible": true,
+    "scan": "NOT_RUN",
+    "blocker": "UDT: No applications are connected to the service",
+    "preserved": true,
+    "evidence": [
+      "user-open-session-process.json",
+      "user-open-session-udt-error.txt"
+    ]
+  },
+  "reconnectedScan": {
+    "method": "Native physical scan-button input and visible panel result",
+    "pluginId": "com.unn0wn002.audio-preflight.beta",
+    "prototypeUnloaded": true,
+    "scanMs": 33,
+    "diagnosticStatus": "COMPLETE",
+    "reviewFindings": 2,
+    "unknowns": 3,
+    "projectSHA256": "F243358DE98EB0024A0364EB6F8A90A7D8EF1B5250DB2169AE2EC1D973E82A8E",
+    "projectUnchanged": true,
+    "host": {
+      "Id": 37304,
+      "Responding": true,
+      "CPU": 299.515625,
+      "WorkingSet64": 2440232960,
+      "MainWindowTitle": "Adobe Premiere - C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\Layout_Test_Copy"
+    },
+    "limits": "Visible UI result, no new JSON export; small fixture only; routing/output not qualified"
+  },
+  "reconnectedExports": {
+    "result": "PASS",
+    "jsonParse": true,
+    "htmlRawEvidenceMatchesJSON": true,
+    "allFiveFindingIDsPresent": true,
+    "durationMs": 33,
+    "status": "COMPLETE",
+    "riskRules": [
+      "ARID-002",
+      "ARID-003"
+    ],
+    "unknownRules": [
+      "ARID-U01",
+      "ARID-U02",
+      "ARID-U03"
+    ]
+  },
+  "renderedAudio": {
+    "method": "Parse native-export RIFF PCM and inspect every 16-bit sample",
+    "file": "reports/panel-layout-20261027/active-sequence-baseline.wav",
+    "sha256": "55a3281e8a38c54bbcde0be843c4664f510bcf3c49167745b88c91b8f93e395d",
+    "bytes": 1165468,
+    "format": "PCM",
+    "channels": 2,
+    "sampleRateHz": 48000,
+    "bitsPerSample": 16,
+    "frames": 288288,
+    "durationSeconds": 6.006,
+    "chunks": [
+      {
+        "id": "fmt ",
+        "bytes": 16
+      },
+      {
+        "id": "data",
+        "bytes": 1153152
+      },
+      {
+        "id": "LIST",
+        "bytes": 82
+      },
+      {
+        "id": "bext",
+        "bytes": 602
+      },
+      {
+        "id": "iXML",
+        "bytes": 1649
+      },
+      {
+        "id": "_PMX",
+        "bytes": 9905
+      }
+    ],
+    "channelMetrics": [
+      {
+        "channel": 1,
+        "peakInteger": 0,
+        "peakDBFS": "-Infinity",
+        "rmsDBFS": "-Infinity",
+        "nonzeroSamples": 0,
+        "clippedSamples": 0
+      },
+      {
+        "channel": 2,
+        "peakInteger": 0,
+        "peakDBFS": "-Infinity",
+        "rmsDBFS": "-Infinity",
+        "nonzeroSamples": 0,
+        "clippedSamples": 0
+      }
+    ],
+    "differentFrames": 0,
+    "allSamplesDigitalZero": true,
+    "interpretation": "Rendered-file measurement only; no speaker playback or routing intent certification",
+    "projectUnchanged": true,
+    "host": {
+      "Id": 37304,
+      "Responding": true
+    }
+  },
+  "extendedValidation": {
+    "result": "BOUNDED_POSITIVE_CONTROL_AND_LIFECYCLE_PASS",
+    "fixture": "Positive_Signal_Test.prproj",
+    "fixtureSHA256": "6403C37515E1A96FF6E34B049E5845F21BA2D692E3BF2A8202D51737FACF7012",
+    "baselineUnchanged": true,
+    "setupChanges": [
+      "Saved As new disposable project before mutations",
+      "Unmuted Audio 1",
+      "Enabled Audio 2 clip",
+      "Mapped stereo source Left to Left and Right to Right in test project",
+      "Centered first clip Balance from 100.0 to 0.0 after preserving hard-right export"
+    ],
+    "nativeAssertionsPassed": 20,
+    "nativeAssertionsTotal": 20,
+    "scanDurationsMs": [
+      43,
+      38,
+      36
+    ],
+    "retryDurationMs": 41,
+    "physicalDockedScan": {
+      "durationMs": 34,
+      "risks": 0,
+      "status": "COMPLETE",
+      "unknowns": 3
+    },
+    "renderedAudio": "PASS_BOUNDED_RENDERED_CHANNEL_CONTROL",
+    "reports": "Native report copied unchanged from plugin data folder; HTML generated locally with repository report helper and embedded JSON deep-equality checked",
+    "host": {
+      "Id": 37304,
+      "Responding": true,
+      "WorkingSet64": 2696368128
+    },
+    "remaining": [
+      "Large-fixture responsiveness remains unqualified",
+      "Physical listening and customer installation not qualified",
+      "Capability unknowns retained"
+    ]
+  },
+  "largeStallInvestigation": {
+    "status": "PASS",
+    "assertions": 13,
+    "passed": 13,
+    "diagnosticsEqualAdapterOnly": true,
+    "adapterOnly": {
+      "adapterWallMs": 4286,
+      "diagnosticsMs": 61,
+      "jsonMs": 61,
+      "jsonCharacters": 26308531,
+      "htmlMs": 151,
+      "htmlCharacters": 32010728
+    },
+    "findings": {
+      "risk": 506,
+      "information": 256,
+      "unknown": 3
+    },
+    "runs": [
+      {
+        "mode": "MID_INVENTORY_CANCEL",
+        "adapterMs": 100,
+        "wallMs": 125,
+        "cancelToIdleMs": 25,
+        "progressAtCancellation": "clips · stereo-l440-r880 Copy · Audio 1 · 1/1",
+        "retainedSequences": 5,
+        "responsiveness": {
+          "timerPeriodMs": 5,
+          "samples": 80,
+          "maxGapMs": 25,
+          "p95GapMs": 2,
+          "gapsOver100ms": 0,
+          "qualification": "UXP event-loop timer latency including final report render; not OS-wide or mouse latency."
+        }
+      },
+      {
+        "mode": "FULL_RETRY",
+        "adapterMs": 4485,
+        "wallMs": 5055,
+        "retainedSequences": 256,
+        "responsiveness": {
+          "timerPeriodMs": 5,
+          "samples": 3658,
+          "maxGapMs": 599,
+          "p95GapMs": 2,
+          "gapsOver100ms": 1,
+          "qualification": "UXP event-loop timer latency including final report render; not OS-wide or mouse latency."
+        }
+      }
+    ],
+    "conclusion": "OPENING_STALL_NOT_REPRODUCED_IN_EXISTING_RESPONSIVE_SESSION; ROOT_CAUSE_UNKNOWN; UI_LATENCY_REMAINS",
+    "physicalDockedScan": {
+      "adapterMs": 4691,
+      "status": "COMPLETE",
+      "sequenceCoverage": "256/256",
+      "risk": 506,
+      "unknown": 3
+    },
+    "finalHost": {
+      "Id": 37304,
+      "Responding": true,
+      "CPU": 1485.953125,
+      "WorkingSet64": 3473068032
+    },
+    "largeFixtureUnchanged": true,
+    "positiveFixtureUnchanged": true
+  },
+  "paginationValidation": {
+    "date": "2026-10-27",
+    "status": "VERIFIED_THIS_SESSION_BOUNDED_DEVELOPER_RUNTIME",
+    "runtimeIdentity": "48bb1d177f4cb8ec4b8e90ff4d23fe618baec155a814db80f7b19e5d9096b28f",
+    "packageSha256": "689df3d49c9987e4390c69ed4381cb7bd839ed448a1394b136e449db50e8dd3e",
+    "sourceAndStageHashesMatch": true,
+    "previousStagePreserved": true,
+    "controlledChecks": {
+      "tests": {
+        "passed": 56,
+        "failed": 0,
+        "command": "node --test tests/*.test.js"
+      },
+      "fixtures": {
+        "passed": 6,
+        "failed": 0,
+        "command": "node tests/evaluate-fixtures.js"
+      },
+      "syntax": {
+        "status": "PASS",
+        "command": "node tests/check-syntax.js"
+      }
+    },
+    "native": {
+      "assertionsPassed": 47,
+      "assertionsTotal": 47,
+      "status": "PASS",
+      "runs": [
+        {
+          "wallMs": 4575,
+          "maxGapMs": 114,
+          "gapsOver100ms": 1,
+          "cardCount": 25,
+          "rawHidden": true,
+          "rawCharacters": 0
+        },
+        {
+          "wallMs": 4512,
+          "maxGapMs": 106,
+          "gapsOver100ms": 1,
+          "cardCount": 25,
+          "rawHidden": true,
+          "rawCharacters": 0
+        },
+        {
+          "wallMs": 4425,
+          "maxGapMs": 107,
+          "gapsOver100ms": 1,
+          "cardCount": 25,
+          "rawHidden": true,
+          "rawCharacters": 0
+        }
+      ],
+      "pages": 31,
+      "findings": 765,
+      "maxPageMs": 17,
+      "rawOpenParseHideMs": 135,
+      "diagnosticsMatchPriorAdapter": true,
+      "exports": {
+        "result": "PASS",
+        "nativeJSONMatchesFullReport": true,
+        "nativeHTMLRawMatchesJSON": true,
+        "htmlArticles": 765,
+        "jsonBytes": 26308531,
+        "htmlBytes": 32011500
+      }
+    },
+    "physicalChecks": {
+      "dockedNext": true,
+      "dockedPrevious": true,
+      "undockAndRedockPreservesResults": true,
+      "floatingResizeAttempt": "DID_NOT_CHANGE_SIZE; no added size coverage",
+      "finalPanel": "DOCKED_PAGE_1"
+    },
+    "fixtures": {
+      "Layout_Test_Copy.prproj": {
+        "sha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+        "unchanged": true
+      },
+      "Large_Inventory_Test.prproj": {
+        "sha256": "850a5354a3248815974526de640e2b040b927505ec7d5895c0be10b3fa046249",
+        "unchanged": true
+      },
+      "Positive_Signal_Test.prproj": {
+        "sha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+        "unchanged": true
+      }
+    },
+    "finalHost": {
+      "pid": 37304,
+      "responding": true,
+      "workingSetBytes": 3279810560
+    },
+    "limits": [
+      "Earlier opening stall root cause UNKNOWN",
+      "Three scanner capability unknowns remain",
+      "UXP timer gaps are not OS-wide latency",
+      "Developer load is not customer installation qualification"
+    ]
+  },
+  "floatingPackageFollowup": {
+    "date": "2026-10-27",
+    "runtimeIdentity": "48bb1d177f4cb8ec4b8e90ff4d23fe618baec155a814db80f7b19e5d9096b28f",
+    "nativeLayout": {
+      "status": "VERIFIED_THIS_SESSION_BOUNDED",
+      "floatingOuterWidthApproxPx": 800,
+      "floatingOuterHeightApproxPx": 375,
+      "horizontalResize": true,
+      "verticalResize": "NOT_VERIFIED",
+      "physicalNextPage": true,
+      "physicalScan": {
+        "status": "COMPLETE",
+        "adapterMs": 4286,
+        "sequences": 256,
+        "tracks": 771,
+        "clips": 511,
+        "components": 2034,
+        "reviewFindings": 506,
+        "capabilityUnknowns": 3
+      },
+      "finalPanel": "DOCKED_PAGE_1"
+    },
+    "package": {
+      "path": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\artifacts\\ccx-0.2.1-48bb1d177f4c\\com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+      "sha256": "15026dd9df78c2437ab0e295a6d62c7df5f0276486ba130981c68dc9876662f5",
+      "bytes": 15420,
+      "archiveVerified": true,
+      "installation": "NOT_ATTEMPTED_THIS_FOLLOWUP",
+      "cleanCustomerProfile": "NOT_ESTABLISHED"
+    },
+    "fixtures": {
+      "Layout_Test_Copy.prproj": {
+        "sha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+        "unchanged": true
+      },
+      "Large_Inventory_Test.prproj": {
+        "sha256": "850a5354a3248815974526de640e2b040b927505ec7d5895c0be10b3fa046249",
+        "unchanged": true
+      },
+      "Positive_Signal_Test.prproj": {
+        "sha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+        "unchanged": true
+      }
+    },
+    "host": {
+      "pid": 37304,
+      "responding": true
+    }
+  },
+  "installedRuntimeVerification": {
+    "date": "2026-10-28",
+    "result": "INSTALLED_RUNTIME_BYTES_VERIFIED",
+    "installedDirectory": "C:\\Users\\unn0w\\AppData\\Roaming\\Adobe\\UXP\\Plugins\\External\\com.unn0wn002.audio-preflight.beta_0.2.1",
+    "runtimeIdentity": "48bb1d177f4cb8ec4b8e90ff4d23fe618baec155a814db80f7b19e5d9096b28f",
+    "pluginId": "com.unn0wn002.audio-preflight.beta",
+    "version": "0.2.1",
+    "files": [
+      {
+        "file": "manifest.json",
+        "sha256": "b64a06e9c9ad68438f3d2eb4f0ca4c07c6002ca470c767035539aadc29e46401",
+        "exactBytes": false,
+        "manifestValuesEqual": true
+      },
+      {
+        "file": "index.html",
+        "sha256": "984534960aef9a3a6d90457a3073f979451a4c28d3f7cfb49813f56513764bdf",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "index.js",
+        "sha256": "a3e0b20c49519be0457bb1c493593ed88b0f8354a74d4804d6c9976b3aaceccc",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "src/premiereAdapter.js",
+        "sha256": "bc7054386b37174676f4d3302216cb43d82214bdc2582dc9f46c52fe738748bf",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "src/diagnostics.js",
+        "sha256": "5ee7db940f0581fb687a3c6103f61b1f04b59fcb3c2d9034535062d3432ded90",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "src/valueSerializer.js",
+        "sha256": "3c874ee7243f30a66215fa3f1d6a5ee65bd18c0dd5a21dbaf59e17b3f787fc4a",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "src/report.js",
+        "sha256": "c93e14044b68ce27862c48c14210136e764c8ac727115b4ca848934f615eb92d",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      }
+    ],
+    "installerConfirmation": "USER_SUPPLIED_SCREENSHOT: Creative Cloud reports installed",
+    "hostMenu": "VERIFIED_THIS_SESSION: Window > UXP Plugins > Audio Preflight - Private Beta",
+    "installedLifecycle": "BLOCKED_PROJECT_OPEN_NONRESPONSE",
+    "cleanProfile": "NOT_ESTABLISHED",
+    "installedPanelRender": "VERIFIED_THIS_SESSION: floating native panel, UDT not launched",
+    "noProjectScan": {
+      "status": "UNKNOWN",
+      "unknowns": 4,
+      "reviewFindings": 0,
+      "durationMs": 7,
+      "controlsRecovered": true
+    },
+    "projectOpen": {
+      "fixture": "Positive_Signal_Test.prproj",
+      "savedFixtureUnchanged": true,
+      "sha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+      "projectScanStarted": false,
+      "pid": 18076,
+      "observations": [
+        {
+          "responding": false,
+          "cpuSeconds": 89.765625,
+          "workingSetBytes": 2466611200
+        },
+        {
+          "afterWaitAtLeastSeconds": 20,
+          "responding": false,
+          "cpuSeconds": 121.0625,
+          "workingSetBytes": 2465722368
+        }
+      ],
+      "rootCause": "UNKNOWN",
+      "recoveryPerformed": false
+    },
+    "installationConclusion": "Current installed identity and standard-menu panel loading verified in existing development profile; full installed-runtime lifecycle and clean-profile qualification remain unverified."
+  },
+  "installedFixtureFollowup": {
+    "date": "2026-10-28",
+    "runtimeIdentity": "48bb1d177f4cb8ec4b8e90ff4d23fe618baec155a814db80f7b19e5d9096b28f",
+    "fixture": "Positive_Signal_Test.prproj",
+    "session": "User-opened responsive Premiere, PID 38364, no UDT window present",
+    "installedPanelMenu": "Window > UXP Plugins > Audio Preflight - Private Beta",
+    "physicalScans": [
+      {
+        "layout": "docked",
+        "durationMs": 36,
+        "status": "COMPLETE",
+        "reviewFindings": 0,
+        "capabilityUnknowns": 3
+      },
+      {
+        "layout": "floating",
+        "durationMs": 32,
+        "status": "COMPLETE",
+        "reviewFindings": 0,
+        "capabilityUnknowns": 3
+      }
+    ],
+    "coverage": {
+      "sequences": "4/4",
+      "tracks": "15/15",
+      "clips": "7/7",
+      "components": "18/18"
+    },
+    "redockRetainedReport": true,
+    "nativeExport": "NOT_VERIFIED",
+    "automationIncident": "Save As was a separate native window. Keyboard filename input targeted the parent Premiere window, invoking shortcuts and marking the disposable project edited. Export was cancelled through the actual Save As window; controls recovered. No project save occurred. Native File > Revert discarded the automation-induced unsaved changes; the edit marker cleared and the six-second saved timeline reappeared. Subsequent reload/export retry encountered nonresponse.",
+    "savedFixtureSha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+    "savedFixtureUnchanged": true,
+    "postRevertHost": "Responding=false; project reload qualification unresolved",
+    "limits": "Physical visible installed-runtime scan and docking evidence only. No new exported JSON/HTML or complete installed lifecycle PASS. Earlier project-opening/nonresponse root cause remains UNKNOWN. No termination, restart, host preferences, installed files or runtime source changes performed.",
+    "postRevertProcessObservations": [
+      {
+        "pid": 38364,
+        "responding": false,
+        "cpuSeconds": 352.65625
+      },
+      {
+        "afterWaitAtLeastSeconds": 20,
+        "pid": 38364,
+        "responding": false,
+        "cpuSeconds": 395.59375
+      }
+    ]
+  },
+  "installedExportValidation": {
+    "date": "2026-10-28",
+    "result": "VERIFIED_THIS_SESSION_BOUNDED_EXPORT_CONTENT",
+    "provenance": "User-performed native installed-panel exports, files independently validated",
+    "runtimeIdentity": "48bb1d177f4cb8ec4b8e90ff4d23fe618baec155a814db80f7b19e5d9096b28f",
+    "installedFilesStillMatch": true,
+    "jsonFile": "installed-test.json",
+    "jsonBytes": 136908,
+    "jsonSha256": "af8ba7316dc2b8988dd20601b7d206cfcc82cdf5ebf720f0acd97eeeb3c8eb7e",
+    "htmlFile": "installed-test.html",
+    "htmlBytes": 170614,
+    "htmlSha256": "47b7fcb428c46e53023d72b275de0742aef09d6cd5adb51dfe3508491e5702bb",
+    "embeddedHTMLReportDeepEqualsJSON": true,
+    "htmlExactlyMatchesCompleteReportRenderer": true,
+    "htmlFindingArticles": 7,
+    "project": "Positive_Signal_Test.prproj",
+    "generatedAt": "2026-10-28T05:06:06.000Z",
+    "durationMs": 29,
+    "host": {
+      "name": "premierepro",
+      "version": "26.5.2",
+      "uiLocale": "en_US",
+      "uxpVersion": "uxp-9.3.0-local",
+      "pluginVersion": "0.2.1"
+    },
+    "diagnosticStatus": "COMPLETE",
+    "reviewFindings": 0,
+    "information": 4,
+    "unknown": 3,
+    "unknownRuleIds": [
+      "ARID-U01",
+      "ARID-U02",
+      "ARID-U03"
+    ],
+    "failedReads": 0,
+    "coverage": {
+      "sequences": 4,
+      "tracks": 15,
+      "clips": 7,
+      "components": 18
+    },
+    "annotations": {},
+    "savedFixtureUnchanged": true,
+    "savedFixtureSha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+    "limits": [
+      "Content validation is not browser visual-render QA",
+      "No full installed lifecycle, clean-profile, uninstall/reinstall or upgrade qualification",
+      "Earlier host project-opening/reload nonresponse remains unresolved",
+      "Mapping, output buses and playback/export correctness remain UNKNOWN"
+    ],
+    "postValidationHost": {
+      "pid": 11556,
+      "responding": true,
+      "activeProject": "Positive_Signal_Test"
+    }
+  },
+  "reloadInvestigation": {
+    "date": "2026-10-28",
+    "status": "INVESTIGATION_BOUNDED; ROOT_CAUSE_UNKNOWN",
+    "sourceHead": "9330e242eadcd10623300ca39d01753355aefc7a",
+    "fixtures": [
+      {
+        "file": "Positive_Signal_Test.prproj",
+        "sha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+        "gzipValid": true,
+        "xmlWellFormed": true,
+        "xmlElements": 4120,
+        "xmlRoot": "PremiereData",
+        "mediaReferences": [
+          {
+            "name": "stereo-l440-r880.wav",
+            "exists": true
+          },
+          {
+            "name": "ARID_20261018_four_channel.wav",
+            "exists": true
+          },
+          {
+            "name": "ARID_20261018_mono.wav",
+            "exists": true
+          }
+        ]
+      },
+      {
+        "file": "Layout_Test_Copy.prproj",
+        "sha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+        "gzipValid": true,
+        "xmlWellFormed": true,
+        "xmlElements": 4110,
+        "xmlRoot": "PremiereData",
+        "mediaReferences": [
+          {
+            "name": "stereo-l440-r880.wav",
+            "exists": true
+          },
+          {
+            "name": "ARID_20261018_four_channel.wav",
+            "exists": true
+          },
+          {
+            "name": "ARID_20261018_mono.wav",
+            "exists": true
+          }
+        ]
+      },
+      {
+        "file": "reload-control-20261028.prproj",
+        "sha256": "4ec4a6a959676f5f36b7f27ae0b1f984c4d1302afe28dd2f59daa63efb626aad",
+        "gzipValid": true,
+        "xmlWellFormed": true,
+        "xmlElements": 828,
+        "xmlRoot": "PremiereData",
+        "mediaReferences": []
+      }
+    ],
+    "control": {
+      "nativeNewProject": true,
+      "template": "None",
+      "skipImport": true,
+      "sequenceObjects": 0,
+      "sourceMediaReferences": 0,
+      "closedAndReopenedOnce": true,
+      "reopenPath": "Native File > Open Recent",
+      "originalProjectStillLoaded": true,
+      "panelOpenIdle": true,
+      "scanInvoked": false,
+      "responsiveMenuCheck": true,
+      "fileHashUnchanged": true,
+      "controlClosedAfterward": true
+    },
+    "logComparison": [
+      {
+        "log": "UXPLogs_2026-10-28_11-44-47_533852.log",
+        "betaMentions": 1,
+        "homeFallbackErrors": 2,
+        "homeContainerFailures": 2
+      },
+      {
+        "log": "UXPLogs_2026-10-28_11-49-37_730250.log",
+        "betaMentions": 1,
+        "homeFallbackErrors": 2,
+        "homeContainerFailures": 2
+      },
+      {
+        "log": "UXPLogs_2026-10-27_12-29-28_998833.log",
+        "betaMentions": 6,
+        "homeFallbackErrors": 2,
+        "homeContainerFailures": 2
+      }
+    ],
+    "currentUXPLogBytes": 0,
+    "nativeHangStackAvailable": false,
+    "debuggerCLIFoundOnPath": false,
+    "userExportsUnchanged": true,
+    "finalHost": {
+      "pid": 11556,
+      "responding": true,
+      "project": "Positive_Signal_Test",
+      "unsavedMarker": false
+    },
+    "nextEvidence": "Native hang capture during one guarded reproduction; no code fix justified yet",
+    "limits": [
+      "One warm multi-project empty control; no cold start, unloaded-plugin, or Revert equivalence",
+      "Gzip/XML and path existence checks do not prove full native project semantics",
+      "Generic Home errors occur in both failed and previously successful sessions"
+    ]
+  },
+  "hangCaptureValidation": {
+    "date": "2026-10-28",
+    "status": "VERIFIED_THIS_SESSION_HANG_REPRODUCED_AND_CAPTURED; ROOT_CAUSE_UNKNOWN",
+    "sourceHead": "9330e242eadcd10623300ca39d01753355aefc7a",
+    "runtimeIdentity": "48bb1d177f4cb8ec4b8e90ff4d23fe618baec155a814db80f7b19e5d9096b28f",
+    "trial": {
+      "count": 1,
+      "route": "Close saved sole active Positive_Signal_Test project; native File > Open Recent > exact saved project",
+      "installedPanelOpenIdle": true,
+      "udtRunning": false,
+      "newScanInvoked": false,
+      "newExportInvoked": false,
+      "savedEditMarkerAbsentBeforeClose": true,
+      "closeSavePromptShown": false,
+      "reopenedTimelineVisible": true,
+      "subsequentNativeTitle": "Positive_Signal_Test (Not Responding)",
+      "processRespondingFalseRepeated": true,
+      "qualification": "Warm close/reopen; no cold-start or plugin-unloaded control"
+    },
+    "tool": {
+      "download": "https://download.sysinternals.com/files/Procdump.zip",
+      "executable": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\hang-capture-tools\\procdump64.exe",
+      "signatureStatus": "Valid",
+      "publisher": "CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US",
+      "sha256": "22C2A2B09ADE73A342A18DAB838354385F73FC98E324B9903FD61FFF949C5124",
+      "version": "12.02"
+    },
+    "capture": {
+      "targetPid": 11556,
+      "monitorPid": 7332,
+      "dumpFile": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\hang-capture-20261028\\premiere-11556-reopen-mini.dmp",
+      "mode": "Mini, hung window >=5 seconds, one capture",
+      "startedAt": "2026-10-28T05:41:27.9258769Z",
+      "completed": true,
+      "localOnly": true,
+      "automaticTargetTermination": false,
+      "uploadEnabled": false,
+      "signature": "MDMP",
+      "bytes": 201778984,
+      "sha256": "a4d00b0ba45ceb2e2642913f0d99dcbaac69ad8ca656f52bd6ddf7d62cd33b21",
+      "capturedAt": "2026-10-28T05:44:50.000Z",
+      "processId": 11556,
+      "streams": 20,
+      "modules": 340,
+      "threads": 198,
+      "exceptionStreamPresent": false,
+      "structuralValidation": "Header, stream bounds, AMD64 contexts and stack ranges passed",
+      "symbolizedStackAnalysis": "NOT_RUN"
+    },
+    "preservation": [
+      {
+        "file": "Positive_Signal_Test.prproj",
+        "sha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+        "unchanged": true
+      },
+      {
+        "file": "Layout_Test_Copy.prproj",
+        "sha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+        "unchanged": true
+      },
+      {
+        "file": "Large_Inventory_Test.prproj",
+        "sha256": "850a5354a3248815974526de640e2b040b927505ec7d5895c0be10b3fa046249",
+        "unchanged": true
+      },
+      {
+        "file": "reload-control-20261028.prproj",
+        "sha256": "4ec4a6a959676f5f36b7f27ae0b1f984c4d1302afe28dd2f59daa63efb626aad",
+        "unchanged": true
+      },
+      {
+        "file": "installed-test.json",
+        "sha256": "af8ba7316dc2b8988dd20601b7d206cfcc82cdf5ebf720f0acd97eeeb3c8eb7e",
+        "unchanged": true
+      },
+      {
+        "file": "installed-test.html",
+        "sha256": "47b7fcb428c46e53023d72b275de0742aef09d6cd5adb51dfe3508491e5702bb",
+        "unchanged": true
+      }
+    ],
+    "installedRuntimeStillMatches": true,
+    "installedFiles": [
+      {
+        "file": "manifest.json",
+        "exactBytes": false,
+        "manifestValuesEqual": true
+      },
+      {
+        "file": "index.html",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "index.js",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "src/premiereAdapter.js",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "src/diagnostics.js",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "src/valueSerializer.js",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "src/report.js",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      }
+    ],
+    "logReview": {
+      "file": "UXPLogs_2026-10-28_12-01-12_964570.log",
+      "bytes": 137110,
+      "betaRegistrationMentions": 1,
+      "uncaughtUnhandledFatalOrDeadlockLines": 0,
+      "qualification": "Selected keyword review only; no root cause established and no absence-of-error claim"
+    },
+    "recovery": {
+      "terminatedPid": 11556,
+      "at": "2026-10-28T05:45:52.1872312Z",
+      "guards": "Exact executable, fixture title without edit marker, nonresponsive, unchanged saved fixture, dump complete",
+      "monitorExited": true,
+      "finalHost": {
+        "observedAt": "2026-10-28T05:48:32.9220351Z",
+        "pid": 38540,
+        "path": "C:\\Program Files\\Adobe\\Adobe Premiere Pro 2026\\Adobe Premiere Pro.exe",
+        "responding": true,
+        "processTitle": "OS_PopupWindow",
+        "nativeWindowTitle": "Adobe Premiere",
+        "uiStateVerified": false,
+        "uiInspectionError": "foreground window did not report a process id",
+        "uiInspectionAttempts": 2,
+        "furtherAppInputStopped": true,
+        "projectReopenRetried": false,
+        "monitorRunning": false
+      }
+    },
+    "debuggerCheck": {
+      "onPath": false,
+      "checkedSDKPathsPresent": false,
+      "scope": "cdb.exe, windbg.exe, WinDbgX.exe on PATH and three standard Windows Kits debugger locations only"
+    },
+    "limits": [
+      "A captured hang is not a root-cause fix or broad lifecycle PASS.",
+      "Raw instruction pointers and thread order do not identify the UI thread or the cause.",
+      "A mini dump can omit heap/object data needed for a definitive diagnosis.",
+      "Recovery responsiveness is process-level evidence; Home UI inspection failed twice and no further app input was sent.",
+      "Clean-profile installation, upgrade/uninstall, scanner routing/mapping/playback capabilities remain unqualified."
+    ],
+    "nextEvidence": "Analyze captured thread stacks with an available native debugger and symbols; do not repeat the fixture opening before analysis justifies a control."
+  },
+  "nativeHangAnalysis": {
+    "analyzedAt": "2026-10-28T05:59:19.769Z",
+    "status": "VERIFIED_THIS_SESSION_NATIVE_STACK_ANALYSIS; ROOT_CAUSE_NOT_PROVEN",
+    "debuggerVersion": "10.0.29661.1004 AMD64",
+    "dumpSha256": "a4d00b0ba45ceb2e2642913f0d99dcbaac69ad8ca656f52bd6ddf7d62cd33b21",
+    "nativeRuns": {
+      "symbolAnalysisExitCode": 0,
+      "cachedStackAnalysisExitCode": 0,
+      "symbolVerificationExitCode": 0
+    },
+    "automatedClassification": {
+      "bucket": "APPLICATION_HANG_BusyHang_cfffffff_Adobe_Premiere_Pro.exe!Unknown",
+      "module": "Adobe_Premiere_Pro",
+      "instructionOffset": "0x176ffb9e",
+      "qualification": "Debugger heuristic; not proof of initiating client or defective function"
+    },
+    "symbolStatus": {
+      "ntdll": "PDB symbols verified in native-stack-analysis-symbols.txt",
+      "UIAutomationCore": "PDB symbols verified",
+      "oleacc": "PDB symbols verified",
+      "user32": "PDB symbols verified",
+      "Adobe_Premiere_Pro": "EXPORTS ONLY; private PDB unavailable"
+    },
+    "threadsUnwound": 198,
+    "uiThread": {
+      "index": 0,
+      "threadId": 31364,
+      "identifiedBy": "GetMessageW message-loop stack and native window-procedure callbacks, not thread order alone",
+      "calls": [
+        "inc eax",
+        "Adobe_Premiere_Pro+0x176ffb9e",
+        "Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x9315b3",
+        "Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x93160a",
+        "Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x93160a",
+        "Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x93160a",
+        "Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x93160a",
+        "Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x931732",
+        "Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x931759",
+        "Adobe_Premiere_Pro!pion::algorithm::xml_encode+0xa0bbd5",
+        "Adobe_Premiere_Pro!pion::algorithm::xml_encode+0xa4bce9",
+        "Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x955de8",
+        "Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x95aad9",
+        "Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x955149",
+        "Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x95c833",
+        "Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x95474c",
+        "Adobe_Premiere_Pro+0x185ee280",
+        "Adobe_Premiere_Pro+0x18692585",
+        "Adobe_Premiere_Pro!boost::serialization::singleton_module::unlock+0x14e7b26",
+        "Adobe_Premiere_Pro!boost::serialization::singleton_module::unlock+0x14e7b52",
+        "Adobe_Premiere_Pro+0x185ee419",
+        "Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x954eba",
+        "user32!UserCallWinProcCheckWow+0x356",
+        "user32!DispatchClientMessage+0x9c",
+        "user32!_fnDWORD+0x33",
+        "ntdll!KiUserCallbackDispatcherContinue",
+        "win32u!NtUserMessageCall+0x14",
+        "user32!SendMessageTimeoutW+0xca",
+        "oleacc!AccessibleObjectFromWindowTimeout+0x107",
+        "uiautomationcore!CreateMsaaProxy+0x8b",
+        "uiautomationcore!BuiltinProxyFactory::TryCreateProxy+0x68",
+        "uiautomationcore!InProcProxyEventManager::TranslateWinEvents+0x27a",
+        "uiautomationcore!HandleHookMessage+0x387",
+        "uiautomationcore!HookMessageWndProc+0x2a",
+        "user32!fnHkINLPCWPSTRUCTW+0xeb",
+        "user32!_fnDWORD+0x33",
+        "ntdll!KiUserCallbackDispatcherContinue",
+        "win32u!NtUserGetMessage+0x14",
+        "user32!GetMessageW+0x22",
+        "Adobe_Premiere_Pro!boost::serialization::singleton_module::unlock+0x1480651",
+        "Adobe_Premiere_Pro!boost::serialization::singleton_module::unlock+0x147a90b",
+        "Adobe_Premiere_Pro!boost::serialization::singleton_module::unlock+0x14260f3",
+        "Adobe_Premiere_Pro!boost::serialization::singleton_module::unlock+0x140fe88",
+        "Adobe_Premiere_Pro!boost::serialization::singleton_module::unlock+0x141008e",
+        "Adobe_Premiere_Pro+0x176fd0b7",
+        "Adobe_Premiere_Pro!HandlerTools::CreateModule+0x482d2",
+        "kernel32!BaseThreadInitThunk+0x17",
+        "ntdll!RtlUserThreadStart+0x2c"
+      ]
+    },
+    "accessibilityRequestThreads": [
+      {
+        "index": 99,
+        "threadId": 36948,
+        "calls": [
+          "ret",
+          "win32u!NtUserMessageCall+0x14",
+          "user32!SendMessageTimeoutW+0xca",
+          "uiautomationcore!HwndUtils::SendWmGetObject+0x223",
+          "uiautomationcore!`anonymous namespace'::GetNodeFromProviderEntryPoint+0x3de",
+          "uiautomationcore!ProcessStaticMethod+0x36",
+          "uiautomationcore!`anonymous namespace'::ProcessIncomingRequestNoThrow+0x146",
+          "uiautomationcore!ProcessIncomingRequest+0x37",
+          "uiautomationcore!ProcessIncomingBatchedMessages+0xcf",
+          "uiautomationcore!ChannelBasedServerConnection::ProcessQueuedMessages+0x5d",
+          "uiautomationcore!ChannelBasedServerConnection::OnData+0x271",
+          "uiautomationcore!ReadWriteChannelInfo::Service+0x2b5",
+          "uiautomationcore!OverlappedIOManager::IoThreadProc+0x69",
+          "uiautomationcore!OverlappedIOManager::StaticIoThreadProc+0x9",
+          "kernel32!BaseThreadInitThunk+0x17",
+          "ntdll!RtlUserThreadStart+0x2c"
+        ]
+      },
+      {
+        "index": 182,
+        "threadId": 46536,
+        "calls": [
+          "ret",
+          "win32u!NtUserMessageCall+0x14",
+          "user32!SendMessageTimeoutW+0x10b",
+          "uiautomationcore!PerformOperationOnHwndThread+0xd3",
+          "uiautomationcore!`anonymous namespace'::DispatchWinEventsToCorrectThread+0x1a3",
+          "uiautomationcore!winrt::impl::delegate<winrt::Windows::System::Threading::TimerElapsedHandler,<lambda_b158c712f3c5687b8cddeb5c0e33d5b6> >::Invoke+0xd",
+          "threadpoolwinrt!Windows::System::Threading::CThreadPoolTimer::TimerCallback+0x7c",
+          "ntdll!TppTimerpExecuteCallback+0x2ba",
+          "ntdll!TppWorkerThread+0x80d",
+          "kernel32!BaseThreadInitThunk+0x17",
+          "ntdll!RtlUserThreadStart+0x2c"
+        ]
+      }
+    ],
+    "namedUXPThreads": [
+      {
+        "index": 110,
+        "threadId": 29988,
+        "name": "UXP Database Thread",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 133,
+        "threadId": 39216,
+        "name": "UXP COM Thread",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 141,
+        "threadId": 37720,
+        "name": "Background DOM Loader Thread - UXP JavaScript Thread",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      }
+    ],
+    "allThreadSummary": [
+      {
+        "index": 0,
+        "threadId": 31364,
+        "name": null,
+        "framesCaptured": 32,
+        "topCall": "Adobe_Premiere_Pro+0x176ffb9e",
+        "hasUIAutomationFrames": true,
+        "waitSyscallAtTop": false
+      },
+      {
+        "index": 1,
+        "threadId": 32636,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 2,
+        "threadId": 32584,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 3,
+        "threadId": 32548,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 4,
+        "threadId": 9668,
+        "name": null,
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 5,
+        "threadId": 18640,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 6,
+        "threadId": 27492,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 7,
+        "threadId": 10004,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 8,
+        "threadId": 48640,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 9,
+        "threadId": 44120,
+        "name": null,
+        "framesCaptured": 9,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 10,
+        "threadId": 45604,
+        "name": null,
+        "framesCaptured": 9,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 11,
+        "threadId": 42336,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 12,
+        "threadId": 38884,
+        "name": null,
+        "framesCaptured": 9,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 13,
+        "threadId": 18156,
+        "name": null,
+        "framesCaptured": 9,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 14,
+        "threadId": 41128,
+        "name": null,
+        "framesCaptured": 18,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 15,
+        "threadId": 8088,
+        "name": null,
+        "framesCaptured": 18,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 16,
+        "threadId": 43372,
+        "name": "sentry-http",
+        "framesCaptured": 6,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 17,
+        "threadId": 46104,
+        "name": null,
+        "framesCaptured": 6,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 18,
+        "threadId": 19356,
+        "name": null,
+        "framesCaptured": 6,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 19,
+        "threadId": 35256,
+        "name": "WinAsyncFileReader Async Read Thread",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 20,
+        "threadId": 16672,
+        "name": null,
+        "framesCaptured": 19,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 21,
+        "threadId": 25876,
+        "name": "DispatchQueueWin: SDK Worker",
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 22,
+        "threadId": 27304,
+        "name": null,
+        "framesCaptured": 17,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 23,
+        "threadId": 30748,
+        "name": null,
+        "framesCaptured": 18,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 24,
+        "threadId": 8020,
+        "name": null,
+        "framesCaptured": 5,
+        "topCall": "win32u!NtUserMsgWaitForMultipleObjectsEx+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 25,
+        "threadId": 34956,
+        "name": null,
+        "framesCaptured": 9,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 26,
+        "threadId": 37256,
+        "name": null,
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 27,
+        "threadId": 29320,
+        "name": "dvascripting::Engine",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 28,
+        "threadId": 37364,
+        "name": "dvascripting::Engine3P",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 29,
+        "threadId": 39372,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 30,
+        "threadId": 5580,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 31,
+        "threadId": 26740,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 32,
+        "threadId": 35640,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 33,
+        "threadId": 11540,
+        "name": null,
+        "framesCaptured": 13,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 34,
+        "threadId": 25872,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 35,
+        "threadId": 16800,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 36,
+        "threadId": 40712,
+        "name": null,
+        "framesCaptured": 13,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 37,
+        "threadId": 36692,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 38,
+        "threadId": 30184,
+        "name": null,
+        "framesCaptured": 13,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 39,
+        "threadId": 44880,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 40,
+        "threadId": 39200,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 41,
+        "threadId": 38568,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 42,
+        "threadId": 5808,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 43,
+        "threadId": 33020,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 44,
+        "threadId": 37568,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 45,
+        "threadId": 38844,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 46,
+        "threadId": 21956,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 47,
+        "threadId": 24164,
+        "name": null,
+        "framesCaptured": 19,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 48,
+        "threadId": 40748,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 49,
+        "threadId": 9884,
+        "name": "AR::AudioPrefetch",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 50,
+        "threadId": 12092,
+        "name": null,
+        "framesCaptured": 17,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 51,
+        "threadId": 23748,
+        "name": "intra-op-0",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 52,
+        "threadId": 12040,
+        "name": "inter-op-0",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 53,
+        "threadId": 36020,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 54,
+        "threadId": 47160,
+        "name": null,
+        "framesCaptured": 9,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 55,
+        "threadId": 40300,
+        "name": "ML::PlayModuleThreadQueue",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 56,
+        "threadId": 35984,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 57,
+        "threadId": 11280,
+        "name": null,
+        "framesCaptured": 4,
+        "topCall": "win32u!NtUserMsgWaitForMultipleObjectsEx+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 58,
+        "threadId": 28076,
+        "name": null,
+        "framesCaptured": 9,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 59,
+        "threadId": 19324,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 60,
+        "threadId": 46248,
+        "name": null,
+        "framesCaptured": 9,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 61,
+        "threadId": 33380,
+        "name": null,
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 62,
+        "threadId": 3028,
+        "name": null,
+        "framesCaptured": 6,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 63,
+        "threadId": 44452,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 64,
+        "threadId": 20772,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 65,
+        "threadId": 20156,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 66,
+        "threadId": 21020,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 67,
+        "threadId": 10936,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 68,
+        "threadId": 36492,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 69,
+        "threadId": 32684,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 70,
+        "threadId": 37536,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 71,
+        "threadId": 32608,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 72,
+        "threadId": 41228,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 73,
+        "threadId": 7852,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 74,
+        "threadId": 41624,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 75,
+        "threadId": 31864,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 76,
+        "threadId": 30836,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 77,
+        "threadId": 38544,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 78,
+        "threadId": 39804,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 79,
+        "threadId": 39852,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 80,
+        "threadId": 12680,
+        "name": null,
+        "framesCaptured": 9,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 81,
+        "threadId": 37812,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 82,
+        "threadId": 35424,
+        "name": null,
+        "framesCaptured": 6,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 83,
+        "threadId": 32764,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 84,
+        "threadId": 32460,
+        "name": null,
+        "framesCaptured": 6,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 85,
+        "threadId": 30772,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 86,
+        "threadId": 32468,
+        "name": "D3D Background Thread 0",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 87,
+        "threadId": 32464,
+        "name": "D3D Background Thread 1",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 88,
+        "threadId": 13628,
+        "name": "D3D Background Thread 2",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 89,
+        "threadId": 31552,
+        "name": "D3D Background Thread 3",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 90,
+        "threadId": 32472,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 91,
+        "threadId": 30752,
+        "name": "AsyncDisplaySurfaceDirectX",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 92,
+        "threadId": 30840,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 93,
+        "threadId": 37652,
+        "name": "AsyncDisplaySurfaceDirectX",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 94,
+        "threadId": 10520,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 95,
+        "threadId": 31052,
+        "name": "AsyncDisplaySurfaceDirectX",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 96,
+        "threadId": 43280,
+        "name": null,
+        "framesCaptured": 6,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 97,
+        "threadId": 9492,
+        "name": "Display Thread",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 98,
+        "threadId": 4068,
+        "name": null,
+        "framesCaptured": 5,
+        "topCall": "win32u!NtUserGetMessage+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 99,
+        "threadId": 36948,
+        "name": null,
+        "framesCaptured": 15,
+        "topCall": "win32u!NtUserMessageCall+0x14",
+        "hasUIAutomationFrames": true,
+        "waitSyscallAtTop": false
+      },
+      {
+        "index": 100,
+        "threadId": 18308,
+        "name": null,
+        "framesCaptured": 6,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 101,
+        "threadId": 35728,
+        "name": "Pie Thread",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 102,
+        "threadId": 14240,
+        "name": null,
+        "framesCaptured": 5,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 103,
+        "threadId": 3304,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 104,
+        "threadId": 30800,
+        "name": null,
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 105,
+        "threadId": 34904,
+        "name": null,
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 106,
+        "threadId": 31728,
+        "name": "dunamis-control",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 107,
+        "threadId": 30688,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 108,
+        "threadId": 19768,
+        "name": null,
+        "framesCaptured": 9,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 109,
+        "threadId": 46448,
+        "name": null,
+        "framesCaptured": 9,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 110,
+        "threadId": 29988,
+        "name": "UXP Database Thread",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 111,
+        "threadId": 15624,
+        "name": "LibUV Loop Thread",
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtRemoveIoCompletionEx+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 112,
+        "threadId": 6416,
+        "name": null,
+        "framesCaptured": 6,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 113,
+        "threadId": 33788,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 114,
+        "threadId": 16108,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 115,
+        "threadId": 20456,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 116,
+        "threadId": 45552,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 117,
+        "threadId": 37328,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 118,
+        "threadId": 46900,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 119,
+        "threadId": 35696,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 120,
+        "threadId": 40672,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 121,
+        "threadId": 35592,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 122,
+        "threadId": 20420,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 123,
+        "threadId": 14088,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 124,
+        "threadId": 7836,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 125,
+        "threadId": 45288,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 126,
+        "threadId": 11344,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 127,
+        "threadId": 35380,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 128,
+        "threadId": 46424,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 129,
+        "threadId": 45732,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 130,
+        "threadId": 19844,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 131,
+        "threadId": 44928,
+        "name": null,
+        "framesCaptured": 18,
+        "topCall": "ntdll!NtDelayExecution+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 132,
+        "threadId": 12540,
+        "name": null,
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 133,
+        "threadId": 39216,
+        "name": "UXP COM Thread",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 134,
+        "threadId": 34948,
+        "name": null,
+        "framesCaptured": 6,
+        "topCall": "win32u!NtUserMsgWaitForMultipleObjectsEx+0x14",
+        "hasUIAutomationFrames": true,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 135,
+        "threadId": 6680,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "win32u!NtUserGetMessage+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 136,
+        "threadId": 33816,
+        "name": "Temporary Thread",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 137,
+        "threadId": 26968,
+        "name": "libuv-worker",
+        "framesCaptured": 9,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 138,
+        "threadId": 2812,
+        "name": "libuv-worker",
+        "framesCaptured": 9,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 139,
+        "threadId": 19544,
+        "name": "libuv-worker",
+        "framesCaptured": 9,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 140,
+        "threadId": 33452,
+        "name": "libuv-worker",
+        "framesCaptured": 9,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 141,
+        "threadId": 37720,
+        "name": "Background DOM Loader Thread - UXP JavaScript Thread",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 142,
+        "threadId": 15244,
+        "name": null,
+        "framesCaptured": 9,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 143,
+        "threadId": 46552,
+        "name": null,
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 144,
+        "threadId": 23628,
+        "name": null,
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 145,
+        "threadId": 11812,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 146,
+        "threadId": 11308,
+        "name": null,
+        "framesCaptured": 5,
+        "topCall": "win32u!NtUserGetMessage+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 147,
+        "threadId": 41840,
+        "name": null,
+        "framesCaptured": 6,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 148,
+        "threadId": 47240,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 149,
+        "threadId": 16908,
+        "name": null,
+        "framesCaptured": 6,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 150,
+        "threadId": 10964,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 151,
+        "threadId": 26984,
+        "name": "D3D Background Thread 0",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 152,
+        "threadId": 6252,
+        "name": "D3D Background Thread 1",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 153,
+        "threadId": 28216,
+        "name": "D3D Background Thread 2",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 154,
+        "threadId": 15200,
+        "name": "D3D Background Thread 3",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 155,
+        "threadId": 39388,
+        "name": null,
+        "framesCaptured": 6,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 156,
+        "threadId": 31256,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 157,
+        "threadId": 26616,
+        "name": null,
+        "framesCaptured": 6,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 158,
+        "threadId": 43560,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 159,
+        "threadId": 5572,
+        "name": "D3D Background Thread 0",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 160,
+        "threadId": 47568,
+        "name": "D3D Background Thread 1",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 161,
+        "threadId": 28472,
+        "name": "D3D Background Thread 2",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 162,
+        "threadId": 36488,
+        "name": "D3D Background Thread 3",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtWaitForAlertByThreadId+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 163,
+        "threadId": 36688,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 164,
+        "threadId": 45460,
+        "name": null,
+        "framesCaptured": 6,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 165,
+        "threadId": 15404,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 166,
+        "threadId": 34024,
+        "name": "AR::AudioWaveformQueue",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 167,
+        "threadId": 44804,
+        "name": null,
+        "framesCaptured": 9,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 168,
+        "threadId": 28060,
+        "name": null,
+        "framesCaptured": 8,
+        "topCall": "win32u!NtUserGetMessage+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 169,
+        "threadId": 49912,
+        "name": null,
+        "framesCaptured": 6,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 170,
+        "threadId": 34276,
+        "name": "DispatchQueueWin: SDK Worker",
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 171,
+        "threadId": 27788,
+        "name": "DispatchQueueWin: SDK Worker",
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 172,
+        "threadId": 28416,
+        "name": "DispatchQueueWin: aep-log Worker",
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 173,
+        "threadId": 15728,
+        "name": null,
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 174,
+        "threadId": 47540,
+        "name": null,
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 175,
+        "threadId": 43208,
+        "name": null,
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 176,
+        "threadId": 30332,
+        "name": "DispatchQueueWin: SDK Worker",
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 177,
+        "threadId": 4236,
+        "name": null,
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 178,
+        "threadId": 23776,
+        "name": "DispatchQueueWin: SDK Worker",
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 179,
+        "threadId": 48024,
+        "name": null,
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 180,
+        "threadId": 4256,
+        "name": "DispatchQueueWin: SDK Worker",
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 181,
+        "threadId": 42840,
+        "name": null,
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 182,
+        "threadId": 46536,
+        "name": null,
+        "framesCaptured": 10,
+        "topCall": "win32u!NtUserMessageCall+0x14",
+        "hasUIAutomationFrames": true,
+        "waitSyscallAtTop": false
+      },
+      {
+        "index": 183,
+        "threadId": 27780,
+        "name": null,
+        "framesCaptured": 6,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 184,
+        "threadId": 21160,
+        "name": null,
+        "framesCaptured": 5,
+        "topCall": "ntdll!NtWaitForSingleObject+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 185,
+        "threadId": 15332,
+        "name": null,
+        "framesCaptured": 5,
+        "topCall": "win32u!NtUserGetMessage+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 186,
+        "threadId": 11340,
+        "name": "DispatchQueueWin: SDK Worker",
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 187,
+        "threadId": 8240,
+        "name": null,
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 188,
+        "threadId": 25884,
+        "name": null,
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 189,
+        "threadId": 35936,
+        "name": "DispatchQueueWin: SDK Worker",
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 190,
+        "threadId": 47620,
+        "name": null,
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 191,
+        "threadId": 12252,
+        "name": "DispatchQueueWin: SDK Worker",
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 192,
+        "threadId": 38520,
+        "name": null,
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 193,
+        "threadId": 28560,
+        "name": null,
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 194,
+        "threadId": 35988,
+        "name": null,
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 195,
+        "threadId": 28388,
+        "name": "ORT_AudioClipAudioFP16-20250912",
+        "framesCaptured": 10,
+        "topCall": "ntdll!NtRemoveIoCompletion+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 196,
+        "threadId": 14552,
+        "name": null,
+        "framesCaptured": 7,
+        "topCall": "ntdll!NtWaitForMultipleObjects+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      },
+      {
+        "index": 197,
+        "threadId": 27528,
+        "name": null,
+        "framesCaptured": 4,
+        "topCall": "ntdll!NtWaitForWorkViaWorkerFactory+0x14",
+        "hasUIAutomationFrames": false,
+        "waitSyscallAtTop": true
+      }
+    ],
+    "interpretation": {
+      "observed": "The captured UI thread is executing Adobe native frames inside a Windows UI Automation/MSAA callback. Two other captured accessibility threads are in SendMessageTimeoutW request paths.",
+      "inference": "Host/accessibility interaction is a strong investigation lead and possible observer effect during automated inspection.",
+      "notEstablished": [
+        "Identity of accessibility client",
+        "Exact Adobe internal function",
+        "Plugin causality or innocence",
+        "Deadlock cycle",
+        "A root-cause fix",
+        "Broad project lifecycle reliability"
+      ],
+      "symbolCaution": "Large offsets from exported pion::algorithm::xml_encode / boost names are nearest-export labels; they do not identify the actual executing internal function.",
+      "threadCaution": "The three explicitly named UXP threads are waiting in this snapshot; this does not prove every UXP operation is inactive."
+    },
+    "logFiles": [
+      {
+        "file": "native-stack-analysis-symbols.txt",
+        "sha256": "e67c0f0685d371ddb6929daa74a46a7fd813a24239b9c550b9d13f9c27331ee7"
+      },
+      {
+        "file": "native-stack-analysis-cached.txt",
+        "sha256": "df2729af8c10b2b26652395e34c8166e54c16b5474fb3315703c81360ed2737b"
+      },
+      {
+        "file": "native-symbol-verification.txt",
+        "sha256": "37e46721eb9e2882f13ace7486dfb4a66070297732d96e9f2d3ece4f86d4816c"
+      }
+    ],
+    "earlierOfflineAttempt": "Preserved separately; lacked OS PDBs and produced WRONG_SYMBOLS. Excluded from diagnostic conclusions.",
+    "nextControl": {
+      "status": "PREPARED_NOT_RUN",
+      "route": "Operator manually closes/reopens the unchanged disposable Positive_Signal_Test project; no new computer-use/accessibility inspection during opening.",
+      "observation": "Process-only responsiveness samples and operator confirmation of timeline/menu usability; no settings/cache/plugin changes.",
+      "limit": "Avoiding new inspection calls does not prove no other accessibility clients are attached. One successful trial would not identify the caller or establish a fix."
+    },
+    "preservation": {
+      "verifiedAt": "2026-10-28T06:01:09.791Z",
+      "files": [
+        {
+          "file": "Positive_Signal_Test.prproj",
+          "sha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+          "unchanged": true
+        },
+        {
+          "file": "Layout_Test_Copy.prproj",
+          "sha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+          "unchanged": true
+        },
+        {
+          "file": "Large_Inventory_Test.prproj",
+          "sha256": "850a5354a3248815974526de640e2b040b927505ec7d5895c0be10b3fa046249",
+          "unchanged": true
+        },
+        {
+          "file": "reload-control-20261028.prproj",
+          "sha256": "4ec4a6a959676f5f36b7f27ae0b1f984c4d1302afe28dd2f59daa63efb626aad",
+          "unchanged": true
+        },
+        {
+          "file": "installed-test.json",
+          "sha256": "af8ba7316dc2b8988dd20601b7d206cfcc82cdf5ebf720f0acd97eeeb3c8eb7e",
+          "unchanged": true
+        },
+        {
+          "file": "installed-test.html",
+          "sha256": "47b7fcb428c46e53023d72b275de0742aef09d6cd5adb51dfe3508491e5702bb",
+          "unchanged": true
+        }
+      ],
+      "installedRuntimeIdentity": "48bb1d177f4cb8ec4b8e90ff4d23fe618baec155a814db80f7b19e5d9096b28f",
+      "installedRuntimeStillMatches": true,
+      "runtimeFiles": [
+        {
+          "file": "manifest.json",
+          "exactBytes": false,
+          "manifestValuesEqual": true
+        },
+        {
+          "file": "index.html",
+          "exactBytes": true,
+          "manifestValuesEqual": null
+        },
+        {
+          "file": "index.js",
+          "exactBytes": true,
+          "manifestValuesEqual": null
+        },
+        {
+          "file": "src/premiereAdapter.js",
+          "exactBytes": true,
+          "manifestValuesEqual": null
+        },
+        {
+          "file": "src/diagnostics.js",
+          "exactBytes": true,
+          "manifestValuesEqual": null
+        },
+        {
+          "file": "src/valueSerializer.js",
+          "exactBytes": true,
+          "manifestValuesEqual": null
+        },
+        {
+          "file": "src/report.js",
+          "exactBytes": true,
+          "manifestValuesEqual": null
+        }
+      ],
+      "dumpUnchanged": true,
+      "host": {
+        "observedAt": "2026-10-28T06:01:09.5448655Z",
+        "pid": 38540,
+        "path": "C:\\Program Files\\Adobe\\Adobe Premiere Pro 2026\\Adobe Premiere Pro.exe",
+        "responding": true,
+        "title": "Adobe Premiere",
+        "computerUseCallsDuringAnalysis": 0,
+        "liveAttachPerformed": false,
+        "debuggerProcessesRemaining": 0
+      }
+    }
+  },
+  "manualReopenControl": {
+    "recordedAt": "2026-10-28T06:19:02.690Z",
+    "status": "USER_REPORTED_RECOVERY; VERIFIED_LATER_BUSY_PERIOD_AND_RECOVERY; MODIFIED_SAVED_FIXTURE",
+    "userObservations": {
+      "provenance": "USER_STATED",
+      "firstOpening": "Frozen initially, recovered after an unspecified delay",
+      "closeAndReopen": "Same delay then recovery",
+      "fan": "Faster for a while when opening AP; no quantitative telemetry",
+      "timelineVisible": true,
+      "fileMenuResponds": true,
+      "audioPreflightPanelVisible": true,
+      "savePrompt": true,
+      "saveChoice": "Save"
+    },
+    "savedSnapshot": {
+      "recordedAt": "2026-10-28T06:15:55.5266885Z",
+      "saveChoice": "USER_STATED: Save",
+      "previousSha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+      "currentSha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+      "snapshot": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\manual-control-20261028\\Positive_Signal_Test-user-saved-7bfc2f703ec7.prproj",
+      "bytes": 23183,
+      "sourceLastWriteTimeUtc": "2026-10-28T06:13:05.1184718Z",
+      "qualification": "User-saved bytes differ from previous fixture; semantic changes not yet established; original is not overwritten or reverted"
+    },
+    "currentProjectSha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+    "snapshotContainerAudit": {
+      "checkedAt": "2026-10-28T06:16:33.8437396Z",
+      "snapshotSha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+      "gzipValid": true,
+      "xmlWellFormed": true,
+      "root": "PremiereData",
+      "xmlElements": 4121,
+      "qualification": "Container parsing only; no semantic comparison with the earlier saved fixture"
+    },
+    "processObservations": {
+      "provenance": "VERIFIED_THIS_SESSION_PROCESS_ONLY",
+      "pid": 46156,
+      "nonresponsiveSamples": 7,
+      "allNonresponsive": true,
+      "observationSpanSeconds": 30.131,
+      "cpuSecondsAdded": 30.765625,
+      "approximateCPUCoreEquivalents": 1.0210621950814776,
+      "recoverySamples": 4,
+      "allRecoverySamplesResponsive": true,
+      "recoveryObservationSpanSeconds": 15.09,
+      "recoverySampleCPUSecondsAdded": 0.46875,
+      "finalObservation": {
+        "at": "2026-10-28T06:17:36.5466452Z",
+        "pid": 46156,
+        "exists": true,
+        "responding": true,
+        "cpuSeconds": 241.875,
+        "title": "Adobe Premiere - C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\Positive_Signal_Test"
+      },
+      "qualification": "Samples were taken after the user report, not synchronized to opening. Exact opening delay and total unresponsive duration are unknown."
+    },
+    "captureAttempt": {
+      "status": "SKIPPED_BY_GUARD",
+      "reason": "Target became responsive before capture invocation",
+      "newDumpCreated": false,
+      "targetTerminated": false
+    },
+    "inference": "A sustained CPU-busy, nonresponsive interval can recover without termination in this session. It does not establish the cause or equivalence to the earlier captured hang.",
+    "limits": [
+      "The user chose Save and project bytes changed; this is not the unchanged saved-fixture control originally specified.",
+      "The changed hash does not identify semantic edits or their cause.",
+      "Fan speed was user observed; no thermal/fan telemetry was measured.",
+      "No new computer-use calls occurred during these samples; existing accessibility clients are not established as detached.",
+      "Process responsiveness and user menu observations do not establish broad lifecycle qualification."
+    ],
+    "mutationsByAssistant": [
+      "Created a separate verified copy of the user-saved project and local diagnostic records only"
+    ],
+    "nextStep": "Keep the recovered session open. A later timing trial should use this preserved snapshot, record elapsed time from Open until the menu responds, and avoid new automated UI inspection during opening."
+  },
+  "postLoadScanAttempt": {
+    "recordedAt": "2026-10-28T13:28:11.3641117Z",
+    "status": "BLOCKED_UI_INSPECTION; SCAN_NOT_RUN",
+    "requestedAction": "One installed Audio Preflight scan after host settling",
+    "host": {
+      "pid": 34960,
+      "path": "C:\\Program Files\\Adobe\\Adobe Premiere Pro 2026\\Adobe Premiere Pro.exe",
+      "responding": true,
+      "processTitle": "Adobe Premiere"
+    },
+    "window": {
+      "id": 6032238,
+      "title": "Adobe Premiere",
+      "currentProject": "UNVERIFIED",
+      "panelVisible": "UNVERIFIED"
+    },
+    "inspection": {
+      "skill": "computer-use",
+      "includeScreenshot": true,
+      "includeText": false,
+      "error": "foreground window did not report a process id",
+      "initialAttemptFailed": true,
+      "freshWindowSelectionDone": true,
+      "retryFailed": true,
+      "furtherAppInputStopped": true
+    },
+    "scanInvoked": false,
+    "scanButtonClicked": false,
+    "projectOpenedByAssistant": false,
+    "newNativeResultsAvailable": false,
+    "fixtureSha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+    "matchesPreservedUserSnapshot": true,
+    "sourceRuntimeEdited": false,
+    "requiredOperatorAction": "Manually open the saved Positive_Signal_Test if necessary, click Scan active project once, and provide the displayed completion status, duration and finding counts or a fresh JSON export"
+  },
+  "postLoadManualScan": {
+    "recordedAt": "2026-10-28T13:38:47.587Z",
+    "status": "VERIFIED_THIS_SESSION_SCREENSHOT_CONTENT; BOUNDED_MANUAL_SCAN_COMPLETE",
+    "provenance": "User-supplied native screenshot after request for one manual scan; execution was not observed live by the assistant",
+    "screenshot": {
+      "file": "postload-manual-scan-20261028.png",
+      "sha256": "2122d9ab929b7550f00cb435a18c27fd06f171dd8497744c625bc44720de3866"
+    },
+    "displayedResult": {
+      "project": "Positive_Signal_Test.prproj",
+      "diagnosticStatus": "COMPLETE",
+      "reportedDurationMs": 37,
+      "reviewFindings": 0,
+      "unknowns": 3,
+      "coverage": {
+        "sequences": {
+          "known": 4,
+          "total": 4
+        },
+        "tracks": {
+          "known": 15,
+          "total": 15
+        },
+        "clips": {
+          "known": 7,
+          "total": 7
+        },
+        "components": {
+          "known": 18,
+          "total": 18
+        }
+      },
+      "capabilityUnknowns": [
+        "Source-channel mapping",
+        "Output buses",
+        "Playback/export correctness"
+      ],
+      "host": "premierepro 26.5.2",
+      "uxp": "uxp-9.3.0-local",
+      "pluginVersion": "0.2.1",
+      "locale": "en_US",
+      "panelConfiguration": "Visible docked left panel",
+      "findingRange": "1-7 of 7; page 1 of 1"
+    },
+    "fixture": {
+      "sha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+      "matchesPreservedUserSavedSnapshot": true
+    },
+    "installedBytes": {
+      "checked": true,
+      "receiptIdentity": "48bb1d177f4cb8ec4b8e90ff4d23fe618baec155a814db80f7b19e5d9096b28f",
+      "files": [
+        {
+          "file": "manifest.json",
+          "exactBytes": false,
+          "manifestValuesEqual": true
+        },
+        {
+          "file": "index.html",
+          "exactBytes": true,
+          "manifestValuesEqual": null
+        },
+        {
+          "file": "index.js",
+          "exactBytes": true,
+          "manifestValuesEqual": null
+        },
+        {
+          "file": "src/premiereAdapter.js",
+          "exactBytes": true,
+          "manifestValuesEqual": null
+        },
+        {
+          "file": "src/diagnostics.js",
+          "exactBytes": true,
+          "manifestValuesEqual": null
+        },
+        {
+          "file": "src/valueSerializer.js",
+          "exactBytes": true,
+          "manifestValuesEqual": null
+        },
+        {
+          "file": "src/report.js",
+          "exactBytes": true,
+          "manifestValuesEqual": null
+        }
+      ],
+      "qualification": "Independent filesystem verification; screenshot version alone does not prove the exact loaded path/identity"
+    },
+    "priorAutomationAttempt": {
+      "file": "postload-scan-attempt-20261028.json",
+      "status": "Historical failed automation attempt remains valid; no scan was invoked by that attempt"
+    },
+    "freshJSONExportVerified": false,
+    "freshHTMLExportVerified": false,
+    "computerUseCallsThisTurn": 0,
+    "limitations": [
+      "Screenshot evidence does not verify full fresh report contents or zero failed-read counters not shown in the panel.",
+      "The displayed 37 ms is scan duration, not project opening time.",
+      "This one manual docked scan does not establish broad lifecycle reliability or fix the loading delay.",
+      "The three capability unknowns remain UNKNOWN; zero review findings is not proof of correct routing, mapping or playback."
+    ],
+    "nextEvidence": "Export this completed scan as fresh JSON and readable HTML for full content comparison if continuing report validation."
+  },
+  "postLoadExportValidation": {
+    "verifiedAt": "2026-10-28T13:41:13.260Z",
+    "status": "VERIFIED_THIS_SESSION_BOUNDED_EXPORT_CONTENT",
+    "provenance": "User-performed native exports; saved file contents independently checked",
+    "json": {
+      "file": "audio-preflight-2026-10-28T13-37-12-486Z.json",
+      "bytes": 136908,
+      "sha256": "4e51efc297ad9e4555e2699fcff9d3f0a04822e888a84e05807528a1d68187c4"
+    },
+    "html": {
+      "file": "audio-preflight-2026-10-28T13-37-12-486Z.html",
+      "bytes": 170614,
+      "sha256": "2ee217e1286b3ee01a7ab6adc90ea8d1f951a873074256c42bfe14c5546ce2d4"
+    },
+    "checks": {
+      "jsonParsed": true,
+      "embeddedHTMLDeepEqualsJSON": true,
+      "fullHTMLMatchesRenderer": true,
+      "diagnosticsReproduce": true,
+      "screenshotCountsAndDurationAgree": true,
+      "fullTraversalComplete": true,
+      "sequenceInventoryComplete": true,
+      "htmlFindingArticles": 7,
+      "allFindingRuleIdsPresent": true
+    },
+    "project": "Positive_Signal_Test.prproj",
+    "generatedAt": "2026-10-28T13:37:12.486Z",
+    "durationMs": 37,
+    "host": {
+      "name": "premierepro",
+      "version": "26.5.2",
+      "uiLocale": "en_US",
+      "uxpVersion": "uxp-9.3.0-local",
+      "pluginVersion": "0.2.1"
+    },
+    "diagnosticStatus": "COMPLETE",
+    "reviewFindings": 0,
+    "information": 4,
+    "unknown": 3,
+    "unknownRuleIds": [
+      "ARID-U01",
+      "ARID-U02",
+      "ARID-U03"
+    ],
+    "coverage": {
+      "state": "COMPLETE",
+      "project": {
+        "status": "COMPLETE",
+        "expected": 1,
+        "observed": 1,
+        "known": 1,
+        "unknown": 0
+      },
+      "sequences": {
+        "status": "COMPLETE",
+        "expected": 4,
+        "observed": 4,
+        "known": 4,
+        "unknown": 0
+      },
+      "tracks": {
+        "status": "COMPLETE",
+        "expected": 15,
+        "observed": 15,
+        "known": 15,
+        "unknown": 0
+      },
+      "clips": {
+        "status": "COMPLETE",
+        "expected": 7,
+        "observed": 7,
+        "known": 7,
+        "unknown": 0
+      },
+      "components": {
+        "status": "COMPLETE",
+        "expected": 18,
+        "observed": 18,
+        "known": 18,
+        "unknown": 0
+      },
+      "failedReads": 0,
+      "capabilities": {
+        "sourceChannelMapping": "UNKNOWN",
+        "outputBusTopology": "UNKNOWN",
+        "playbackExportCorrectness": "UNKNOWN"
+      }
+    },
+    "annotations": {},
+    "installedRuntimeIdentity": "48bb1d177f4cb8ec4b8e90ff4d23fe618baec155a814db80f7b19e5d9096b28f",
+    "installedFiles": [
+      {
+        "file": "manifest.json",
+        "exactBytes": false,
+        "manifestValuesEqual": true
+      },
+      {
+        "file": "index.html",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "index.js",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "src/premiereAdapter.js",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "src/diagnostics.js",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "src/valueSerializer.js",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "src/report.js",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      }
+    ],
+    "fixtureSha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+    "earlierExportComparison": {
+      "file": "installed-test.json",
+      "equalExceptGeneratedAtAndDuration": true,
+      "qualification": "Equality covers exported observations/diagnostics only, not all native project semantics"
+    },
+    "limits": [
+      "No browser visual-render QA was performed.",
+      "This validates one completed scan/export pair; it does not resolve the opening delay or qualify full lifecycle reliability.",
+      "Mapping, output buses and playback/export correctness remain UNKNOWN.",
+      "No new native input or scan was performed by the assistant during file verification."
+    ]
+  },
+  "accessibilityCallerInvestigation": {
+    "recordedAt": "2026-10-28T13:48:36.016Z",
+    "status": "UNRESOLVED; OPERATOR_ADMIN_TRACE_REQUIRED",
+    "hostPidObserved": 34960,
+    "hostResponsive": true,
+    "providerRegistered": true,
+    "traceStarted": false,
+    "traceStartError": "Access is denied; administrator required",
+    "preparedScript": "accessibility-trace-20261028/Capture-PremiereUIA.ps1",
+    "scriptSyntax": "PASS; native capture not run",
+    "projectOrSettingsEdited": false
+  },
+  "accessibilityCallerTrace": {
+    "recordedAt": "2026-10-28T14:07:07.770Z",
+    "status": "CLIENT_IDENTIFIED; CANDIDATE_MITIGATION_APPLIED; COMPARISON_PENDING",
+    "rawETLSha256": "81c36e2c7606b8d6b53cd2c93038b257d435524bce8d05e7a619d87f04f569b6",
+    "operatorRestartedWholeApp": true,
+    "oldPid": 34960,
+    "newPid": 16356,
+    "oldSamplerTrackedNewPid": false,
+    "observedClientPid": 28268,
+    "clientImage": "codex-computer-use.exe",
+    "targetRequestsCaptured": 879,
+    "completedMethodPairs": 871,
+    "completedPairsOver60Seconds": [
+      {
+        "clientPid": 28268,
+        "targetPid": 16356,
+        "method": "Static_EntireProcessAddEventGroup",
+        "requestId": "1701",
+        "startUTC": "2026-10-28T13:57:09.9898648Z",
+        "endUTC": "2026-10-28T13:58:15.2297498Z",
+        "elapsedMs": 65240
+      },
+      {
+        "clientPid": 28268,
+        "targetPid": 16356,
+        "method": "Static_GetNodeFromProviderEntryPoint",
+        "requestId": "1703",
+        "startUTC": "2026-10-28T13:57:09.9965033Z",
+        "endUTC": "2026-10-28T13:58:15.2297380Z",
+        "elapsedMs": 65233
+      },
+      {
+        "clientPid": 28268,
+        "targetPid": 16356,
+        "method": "Static_GetNodeFromProviderEntryPoint",
+        "requestId": "1706",
+        "startUTC": "2026-10-28T13:57:09.9997587Z",
+        "endUTC": "2026-10-28T13:58:15.2297371Z",
+        "elapsedMs": 65230
+      },
+      {
+        "clientPid": 28268,
+        "targetPid": 16356,
+        "method": "UiaNode_GetPropertyValues",
+        "requestId": "1709",
+        "startUTC": "2026-10-28T13:57:10.0025695Z",
+        "endUTC": "2026-10-28T13:58:15.2297377Z",
+        "elapsedMs": 65227
+      },
+      {
+        "clientPid": 28268,
+        "targetPid": 16356,
+        "method": "Static_GetNodeFromProviderEntryPoint",
+        "requestId": "1710",
+        "startUTC": "2026-10-28T13:58:15.2299873Z",
+        "endUTC": "2026-10-28T13:59:20.3659761Z",
+        "elapsedMs": 65136
+      },
+      {
+        "clientPid": 28268,
+        "targetPid": 16356,
+        "method": "Static_GetNodeFromProviderEntryPoint",
+        "requestId": "1711",
+        "startUTC": "2026-10-28T13:58:15.2300384Z",
+        "endUTC": "2026-10-28T13:59:20.3659721Z",
+        "elapsedMs": 65135
+      },
+      {
+        "clientPid": 28268,
+        "targetPid": 16356,
+        "method": "Static_GetNodeFromProviderEntryPoint",
+        "requestId": "1712",
+        "startUTC": "2026-10-28T13:58:15.2301017Z",
+        "endUTC": "2026-10-28T13:59:20.3659723Z",
+        "elapsedMs": 65135
+      }
+    ],
+    "eventsLost": 68443,
+    "fixtureUnchanged": true,
+    "helperDetach": {
+      "atUTC": "2026-10-28T14:04:13.1213272Z",
+      "pid": 28268,
+      "path": "C:\\Users\\unn0w\\AppData\\Local\\OpenAI\\Codex\\runtimes\\cua_node\\e8c74e7ee9bd567e\\bin\\node_modules\\@oai\\sky\\bin\\windows\\codex-computer-use.exe",
+      "action": "Stop only the identified computer-use helper to detach its UIA requests; do not relaunch during comparison",
+      "premierePid": 16356
+    },
+    "helperAbsentAfterStop": true,
+    "comparisonScript": "accessibility-trace-20261028/Capture-PremiereUIA-v2.ps1",
+    "comparisonCaptureRun": false,
+    "causation": "Not proven; long calls can be cause or consequence of server nonresponse",
+    "nextStep": "Operator restart/open capture with helper absent; no desktop tool calls during comparison"
+  },
+  "accessibilityHelperOffComparison": {
+    "recordedAt": "2026-10-28T14:14:22.711Z",
+    "status": "HELPER_ASSOCIATED_LONG_WAITS_ABSENT_IN_ONE_CONTROL; RESIDUAL_DELAY_UNDER_10S_USER_REPORTED",
+    "captureStart": {
+      "startUTC": "2026-10-28T14:07:30.8808775Z",
+      "pid": 16356,
+      "session": "PremiereUIA-20261028-210730",
+      "fixtureBefore": "7BFC2F703EC78C5592F4150986A4635270FEB6E197806F11D02D61F478D723EC",
+      "seconds": 180,
+      "keywords": "ConnectionTimeout and PerfInstrumentation",
+      "limitMB": 128
+    },
+    "captureEnd": {
+      "endUTC": "2026-10-28T14:10:32.9818240Z",
+      "stopExitCode": 0,
+      "fixtureAfter": "7BFC2F703EC78C5592F4150986A4635270FEB6E197806F11D02D61F478D723EC",
+      "fixtureUnchanged": true
+    },
+    "rawETLSha256": "204bb184d5cfe23a32ed5cf58fb9368f2faad2d4a06452eecbb591720bf4dc22",
+    "sampleCount": 36,
+    "helperAbsentAllSamples": true,
+    "newPid": 40980,
+    "newPidSamples": 34,
+    "allNewPidSamplesResponsive": true,
+    "decodedEvents": 8201,
+    "tracerptEvents": 8202,
+    "lostEvents": 0,
+    "clientRequestEventsCaptured": 0,
+    "callbackPairs": 50,
+    "maxCallbackDurationMsAtMillisecondResolution": 1,
+    "operatorFeedback": {
+      "initial": "Long freeze remained",
+      "clarification": "Under 10 seconds, then recovered",
+      "provenance": "USER_STATED; no stopwatch measurement"
+    },
+    "mitigation": "Keep the identified desktop automation helper disconnected while opening Premiere projects",
+    "notEstablished": [
+      "Zero opening delay",
+      "Cause of the residual sub-10-second loading time",
+      "Universal root cause or broad lifecycle qualification"
+    ],
+    "projectUnchanged": true,
+    "comparisonScriptSyntaxOnlyNotRuntimeTestClaim": false
+  },
+  "residualOpeningDelayInvestigation": {
+    "recordedAt": "2026-10-28T14:18:00.202Z",
+    "status": "UNRESOLVED; CPU_AND_IO_CAPTURE_PREPARED",
+    "reportedDelay": "USER_STATED under 10 seconds followed by recovery",
+    "helperDisconnected": true,
+    "hostPidObserved": 40980,
+    "wprRecordingActive": false,
+    "availableProfilesVerified": [
+      "CPU",
+      "DiskIO",
+      "FileIO"
+    ],
+    "CPUProfileIncludesSampledStacks": true,
+    "script": "accessibility-trace-20261028/Capture-PremiereOpenPerformance.ps1",
+    "scriptSyntax": "PASS; capture not executed",
+    "captureDurationSeconds": 60,
+    "trial": "Warm project opening from already running Premiere Home, without restart",
+    "requiredUserEvidence": "Completed capture output and elapsed time until timeline/File menu usable",
+    "analysisToolLimit": "WPR and tracerpt present; WPA/xperf and .NET SDK not found in checked locations; further CPU stack analysis tooling may be required"
+  },
+  "residualOpeningDelayPerformance": {
+    "recordedAt": "2026-10-28T14:29:02.442Z",
+    "status": "WARM_OPEN_2_TO_4_SECONDS_USER_MEASURED; SHORT_CPU_BURST; NO_LONG_PAIRED_READ_WRITE_WAIT",
+    "operatorTimingSeconds": {
+      "minimum": 2,
+      "maximum": 4,
+      "provenance": "USER_STATED stopwatch"
+    },
+    "traceEventsProcessed": 10419164,
+    "traceEventsLost": 0,
+    "rawTraceSHA256": "0c9a324f030e25aaf8b16faaf056bae2c26d8365fef683c84a885ef3e505be23",
+    "sampleCount": 59,
+    "helperAbsentAllSamples": true,
+    "pid": 21080,
+    "CPUSecondsAdded": 6.625,
+    "observationSeconds": 59.673,
+    "targetedKernelAnalysis": {
+      "TotalEvents": 9490402,
+      "TargetEvents": 343401,
+      "TargetCpuSamples": 6694,
+      "FileBytes": 48420401,
+      "EventCounts": {
+        "StackWalk/Stack": 228309,
+        "Process/DCStart": 1,
+        "Thread/DCStart": 183,
+        "Image/DCStart": 302,
+        "Thread/CSwitch": 62391,
+        "PerfInfo/Sample": 6694,
+        "FileIO/QueryInfo": 3729,
+        "FileIO/OperationEnd": 21564,
+        "FileIO/Write": 931,
+        "FileIO/Read": 1965,
+        "DiskIO/ReadInit": 517,
+        "DiskIO/Read": 517,
+        "Memory/HardFault": 229,
+        "FileIO/Create": 6439,
+        "FileIO/Cleanup": 3784,
+        "FileIO/Close": 3669,
+        "Image/Load": 9,
+        "Image/Unload": 5,
+        "FileIO/DirEnum": 609,
+        "FileIO/Rename": 5,
+        "FileIO/Delete": 22,
+        "DiskIO/WriteInit": 84,
+        "DiskIO/Write": 94,
+        "Thread/SetName": 493,
+        "FileIO/Flush": 13,
+        "DiskIO/FlushInit": 13,
+        "FileIO/SetInfo": 25,
+        "FileIO/FSControl": 229,
+        "Thread/Start": 42,
+        "Thread/Stop": 21,
+        "DiskIO/FlushBuffers": 1,
+        "Image/DCStop": 306,
+        "Thread/DCStop": 204,
+        "Process/PerfCtrRundown": 1,
+        "Process/DCStop": 1
+      },
+      "FileBytesByBasename": {
+        "": 9382534,
+        "__sentry-event": 80452,
+        "3a3ff7fa-698e-4f89-0974-391391b93280.envelope": 17594,
+        "CURRENT": 36864,
+        "MANIFEST-000413": 8192,
+        "000415.log": 258048,
+        "000417.ldb": 570221,
+        "MANIFEST-000416": 9120,
+        "000416.dbtmp": 16,
+        "000418.log": 8242,
+        "000414.ldb": 6656,
+        "000411.ldb": 5120,
+        "000408.ldb": 5120,
+        "000406.ldb": 33280,
+        "000419.ldb": 33098,
+        "Adobe Premiere Pro.exe": 3936,
+        "MZUtilMID.dat": 44,
+        "d30e3b56-a0dc-4a5c-97fb-383c38fcd5d2": 1,
+        "ProgressDialog.adam.eve": 788,
+        "api.json": 7847,
+        "PPRO-26.5.2.5-en_US-79f6cb8c-ed88-4aa2-a7af-da65bc9d5c8d.json": 72333,
+        "000421.ldb": 4836,
+        "Positive_Signal_Test.prproj": 131072,
+        "PPRO-26.5.2.5-en_US-79b2143f-e042-468c-b16c-13f6a9660f49.json": 60116,
+        "MANIFEST-000420": 8533,
+        "000420.dbtmp": 16,
+        "000422.log": 11707,
+        "058de0d7-a76a-401d-a7b4-bad21c1c7f35": 1,
+        "P2 DVCPRO50 NTSC.epr": 65536,
+        "P2 DVCPro50 PAL.epr": 65536,
+        "P2 720p 60Hz DVCPROHD.epr": 65536,
+        "P2 720p 50Hz DVCPROHD.epr": 65536,
+        "P2 1080i-1080p 60Hz DVCPROHD.epr": 65536,
+        "P2 1080i-1080p 50Hz DVCPROHD.epr": 65536,
+        "I-Frame Only MPEG.epr": 196608,
+        "effectcontrolscolors.table": 3540,
+        "Installed Guides.guides": 1025,
+        "HandlerMonitor_Program_Wing_Menu.eve": 7370,
+        "HandlerProject_Wing_Menu.eve": 6400,
+        "HandlerSharedProjects_Wing_Menu.eve": 1697,
+        "HandlerTimeline_Flyout_Menu.eve": 4138,
+        "HandlerColor_WithoutHDR_Wing_Menu.eve": 603,
+        "HandlerMediaBrowser_Wing_Menu.eve": 1053,
+        "HandlerEffectControls_Flyout_Menu.eve": 2825,
+        "HandlerEffects_Flyout_Menu.eve": 1677,
+        "HandlerMetadata_Wing_Menu.eve": 203,
+        "HandlerAudioMixer_Wing_Menu.eve": 1128,
+        "HandlerAudioClipMixer_Wing_Menu.eve": 531,
+        "HandlerMonitor_Source_Wing_Menu.eve": 6349,
+        "HandlerHistory_Wing_Menu.eve": 641,
+        "HandlerMarkerList_Wing_Menu.eve": 1137,
+        "HandlerProperties2_Wing_Menu.eve": 52,
+        "UserWorkspace.xml": 1239608,
+        "LEARNINGWORKSPACELAYOUT.xml": 674356,
+        "spectrum_all_channel_substitution.css": 15372,
+        "S_TabMenu_SM_N@2x.svg": 964,
+        "P_DangerStripes.png": 65536,
+        "S_TouchOverlayPlayScrub_45x45_N_D@2x.svg": 65536,
+        "S_TouchOverlayStopScrub_45x45_N_D@2x.svg": 65536,
+        "S_TouchOverlayFastForward_32x32_N_D@2x.svg": 65536,
+        "S_TouchOverlayFastBackward_32x32_N_D@2x.svg": 65536,
+        "S_NextEditPoint_32x32_N_D@2x.svg": 65536,
+        "S_PreviousEditPoint_32x32_N_D@2x.svg": 65536,
+        "S_NoEdit_Xs_N@2x.svg": 65536,
+        "S_NoEdit_Xs_N_D@2x.svg": 65536,
+        "SP_AudioZoomBarNaviZoomThumbLeft_Sm_N_D.png": 65536,
+        "SP_AudioZoomBarNaviZoomThumbLeft_Sm_N_D@2x.png": 65536,
+        "SP_AudioZoomBarNaviZoomThumbRight_Sm_N_D.png": 65536,
+        "SP_AudioZoomBarNaviZoomThumbRight_Sm_N_D@2x.png": 65536,
+        "S_CaptureInPoint_Md_N_D@2x.svg": 65536,
+        "S_CaptureOutPoint_Md_N_D@2x.svg": 65536,
+        "HandlerMonitor_Zoom_Menu.eve": 3087,
+        "HandlerMonitor_Resolution_Menu.eve": 1941,
+        "S_WaveForm_Sm_N_D@2x.svg": 65536,
+        "S_Video_Sm_N_D@2x.svg": 65536,
+        "S_VideoAudio_Sm_N_D@2x.svg": 65536,
+        "S_CaptureInPoint_Lg_N_D@2x.svg": 499,
+        "S_CaptureOutPoint_Lg_N_D@2x.svg": 1000,
+        "S_JumpIn_Lg_N_D@2x.svg": 1272,
+        "S_JumpOut_Md_N_D@2x.svg": 1270,
+        "S_AddMarker_Lg_N_D@2x.svg": 411,
+        "S_StepBack_Md_N_D@2x.svg": 1176,
+        "S_StepForward_Md_N_D@2x.svg": 1192,
+        "S_Play_Md_N_D@2x.svg": 1004,
+        "S_Insert_Lg_N_D@2x.svg": 715,
+        "S_Overwrite_Lg_N_D@2x.svg": 629,
+        "S_Snapshot_Md_N_D@2x.svg": 668,
+        "S_ShowProxyOff_14_N_D@2x.svg": 1145,
+        "S_VolumeTwo_18_N@2x.svg": 70591,
+        "S_FindSimilar_18_N_D@2x.svg": 1046,
+        "S_Settings_Lg_N_D@2x.svg": 2517,
+        "HandlerEffectControls_Filtering_Menu.eve": 455,
+        "S_CollapseSidebar_18_N_D@2x.svg": 692,
+        "S_AudioVideoColGrey_Sm_N_D@2x.svg": 1708,
+        "S_SequenceGrey_Sm_N_D@2x.svg": 1003,
+        "S_ChevUp_Sm_N_D@2x.svg": 65536,
+        "S_ChevDown_Sm_N_D@2x.svg": 65536,
+        "S_AMSquigglyLines_14x148_N_D@2x.svg": 65536,
+        "S_Lift_Lg_N_D@2x.svg": 1268,
+        "S_Extract_Lg_N_D@2x.svg": 799,
+        "S_ComparisonView_Lg_N_D@2x.svg": 758,
+        "S_GoToNextEdit_Lg_N_D@2x.svg": 630,
+        "S_GoToPreviousEdit_Lg_N_D@2x.svg": 643,
+        "S_MarkerColorMode_Lg_N_D@2x.svg": 2155,
+        "S_GoToNextMarker_Lg_N_D@2x.svg": 672,
+        "S_GoToPreviousMarker_Lg_N_D@2x.svg": 625,
+        "S_LoopPlay_Lg_N_D@2x.svg": 696,
+        "S_Effects_Xs_N_D@2x.svg": 1242,
+        "S_RGBColor_18_N_D@2x.svg": 1167,
+        "S_RoundedCorner_Sm_N_D@2x.svg": 65536,
+        "S_CaptionsOpaque_16_N_D@2x.svg": 65536,
+        "S_CaptionsTransparent_16_N_D@2x.svg": 65536,
+        "S_CaptionsNoColor_16_N_D@2x.svg": 65536,
+        "S_CornerCount_Sm_N_D@2x.svg": 65536,
+        "S_AlignLeft_Md_N_D@2x.svg": 65536,
+        "S_FillContent_18_N_D@2x.svg": 691,
+        "S_FitContent_18_N_D@2x.svg": 491,
+        "S_TriangleLeft_18_N_D@2x.svg": 412,
+        "HandlerGraphics_NewLayer_Menu.eve": 692,
+        "S_Graphic_18_N@2x.svg": 1172,
+        "S_Gauge4_18_N@2x.svg": 909,
+        "metadatacache_paths_definition.xml": 12276,
+        "Positive_Signal_Test2103adee-3650-4a53-a457-63157c5e6eb3.prmdc2": 164140,
+        "Positive_Signal_Test2103adee-3650-4a53-a457-63157c5e6eb3.prmdc2-shm": 32768,
+        "Positive_Signal_Test2103adee-3650-4a53-a457-63157c5e6eb3.prmdc2-wal": 217840,
+        "S_Alert_Xs_N@2x.svg": 65536,
+        "S_Alert_Xs_N_D@2x.svg": 65536,
+        "S_LockAll_Xs_N@2x.svg": 65536,
+        "S_LockAll_Xs_N_D@2x.svg": 65536,
+        "S_StepForward_32x32_N_D@2x.svg": 65536,
+        "S_StepBack_32x32_N_D@2x.svg": 65536,
+        "S_SetInMark_32x32_N_D@2x.svg": 65536,
+        "S_SetOutMark_32x32_N_D@2x.svg": 65536,
+        "S_EditGreenModifier_16_N_D@2x.svg": 65536,
+        "S_ReadOnlyRed_Sm_N_D@2x.svg": 65536,
+        "S_ZoomOut_Wi_N_D@2x.svg": 65536,
+        "S_ZoomIn_Wi_N_D@2x.svg": 65536,
+        "S_Scrub_14x14_N@2x.svg": 65536,
+        "S_Scrub_14x14_S@2x.svg": 65536,
+        "S_Folder_48x48_N_D@2x.svg": 65536,
+        "Media Browser Provider Exception": 65536,
+        "Recent Directories": 65536,
+        "desktop.ini": 456,
+        "SharedView Column Settings": 65536,
+        "S_ListView_18_N_D@2x.svg": 1030,
+        "S_ArrowPrevious_Sm_N_D@2x.svg": 1014,
+        "Sample.xml": 65536,
+        "Factory Presets.prfpset": 524288,
+        "Positive_Signal_Test.prin": 13375,
+        "Lumetri Presets.prfpset": 24379392,
+        "S_KEMSequence_Sm_N_D@2x.svg": 65536,
+        "S_SnapClip_13x11_N_D@2x.svg": 65536,
+        "S_MarkerOverlay_9x12_N@2x.svg": 65536,
+        "S_SnapClipFlipped_13x11_N_D@2x.svg": 65536,
+        "S_NonAlignedSnapClip_13x11_N@2x.svg": 65536,
+        "S_NonAlignedSnapClipFlipped_13x11_N@2x.svg": 65536,
+        "P_InsertClipArrow_N.png": 65536,
+        "S_Close_5x7_N@2x.svg": 1412,
+        "S_EndOfMediaIndicator_24x16_N@2x.svg": 65536,
+        "S_EditPointHead_Xl_N@2x.svg": 65536,
+        "S_EditPointTail_Xl_N@2x.svg": 65536,
+        "SP_AMFxSendsLcd_N.png": 65536,
+        "SP_AMFxSendsLcd_N@2x.png": 65536,
+        "SP_AMParameter_N.png": 65536,
+        "SP_AMParameter_N@2x.png": 65536,
+        "SP_AMParameter_S.png": 65536,
+        "SP_AMParameter_S@2x.png": 65536,
+        "SP_AMParameterDial_N.png": 65536,
+        "SP_AMParameterDial_N@2x.png": 65536,
+        "SP_AMParameterDial_S.png": 65536,
+        "SP_AMParameterDial_S@2x.png": 65536,
+        "S_AMFx_Md_N_D@2x.svg": 65536,
+        "S_AMFxMute_Md_N_D@2x.svg": 65536,
+        "S_AMFxSends_Md_N_D@2x.svg": 65536,
+        "S_AMFxSendsMute_Md_N_D@2x.svg": 65536,
+        "SP_AMParameterDrop_SN.png": 65536,
+        "SP_AMParameterDrop_SN@2x.png": 65536,
+        "SP_AMParameterDrop_S.png": 65536,
+        "SP_AMParameterDrop_S@2x.png": 65536,
+        "SP_AMParameterDrop_R.png": 65536,
+        "SP_AMParameterDrop_R@2x.png": 65536,
+        "SP_AMParameterDrop_N.png": 65536,
+        "SP_AMParameterDrop_N@2x.png": 65536,
+        "SP_AMEffectDrop_TBG.png": 65536,
+        "SP_AMEffectDrop_TBG@2x.png": 65536,
+        "SP_AMEffectDrop_R.png": 65536,
+        "SP_AMEffectDrop_R@2x.png": 65536,
+        "SP_AMEffectDrop_S.png": 65536,
+        "SP_AMEffectDrop_S@2x.png": 65536,
+        "SP_AMEffectDrop_SS.png": 65536,
+        "SP_AMEffectDrop_SS@2x.png": 65536,
+        "SP_AMEffectDropMenu_N.png": 65536,
+        "SP_AMEffectDropMenu_N@2x.png": 65536,
+        "SP_AMEffectDropMenu_R.png": 65536,
+        "SP_AMEffectDropMenu_R@2x.png": 65536,
+        "SP_AMEffectDropMenu_P.png": 65536,
+        "SP_AMEffectDropMenu_P@2x.png": 65536,
+        "SP_AMEffectDrop_BG.png": 65536,
+        "SP_AMEffectDrop_BG@2x.png": 65536,
+        "S_ChannelMapping_Sm_N_D@2x.svg": 65536,
+        "SP_AMFxSendsLcdMaster_N.png": 65536,
+        "SP_AMFxSendsLcdMaster_N@2x.png": 65536,
+        "P_Through_Edit_Left.png": 65536,
+        "P_Through_Edit_Right.png": 65536,
+        "S_Key_Xs_N_D@2x.svg": 65536,
+        "S_Key_Xs_S_D@2x.svg": 65536,
+        "S_TLTrackKey_Xs_N_D@2x.svg": 65536,
+        "S_SpeedKeyframeDual_Sm_N_D@2x.svg": 65536,
+        "S_SpeedKeyframeLeft_6x16_N_D@2x.svg": 65536,
+        "S_SpeedKeyframeRight_Sm_N_D@2x.svg": 65536,
+        "S_SpeedKeyframeHold_Sm_N_D@2x.svg": 65536,
+        "S_SpeedKeyframeDualHoldRight_Sm_N_D@2x.svg": 65536,
+        "S_SpeedKeyframeDualHoldLeft_Sm_N_D@2x.svg": 65536,
+        "S_UnlockAll_Xs_N@2x.svg": 65536,
+        "S_UnlockAll_Xs_N_D@2x.svg": 70338,
+        "P_TargetTrack_S.png": 65536,
+        "S_SyncLock_Sm_N_D@2x.svg": 2636,
+        "S_Visibility_Sm_N_D@2x.svg": 2696,
+        "S_KeyNavPrev_Sm_N_D@2x.svg": 2256,
+        "S_KeyNavKey_Sm_N_D@2x.svg": 3252,
+        "S_KeyNavNext_Sm_N_D@2x.svg": 2256,
+        "S_AudioMute_Xs_N_D@2x.svg": 3528,
+        "S_Solo_Xs_N_D@2x.svg": 5752,
+        "S_VoiceOver_Md_N_D@2x.svg": 3120,
+        "S_KeyframeEffects_Xs_N_D@2x.svg": 2944,
+        "Adobe Premiere Pro Prefsbd5198ba-7461-475b-a73d-a253f7c01ac1": 64794,
+        "Adobe Premiere Pro Prefs": 65536,
+        "AMERequestDB": 8340,
+        "b2409b96-d181-473b-b82f-ed9973a4c6ad": 1,
+        "ARID_20261018_four_channel-8d1147c3-53ca-cd1f-2556-9bd400000197.ims": 65536,
+        "stereo-l440-r880-f2e02a50-5e7d-737d-b114-c214000001af.ims": 65536,
+        "ARID_20261018_mono-22ca1f10-36e2-d819-eaaa-e69700000187.ims": 65536,
+        "S_DriveButton_Sm_N_D@2x.svg": 619,
+        "076e8723-28fc-9092-fe20-cb4a000000246656.mcdb": 65536,
+        "stereo-l440-r880.wav 48000.pek": 65536,
+        "73f78f82-e043-4e2f-9f6c-6d03000000246656.mcdb": 65536,
+        "ARID_20261018_four_channel.wav 48000_3.pek": 65536,
+        "S_TeamProjectServer_Sm_N_D@2x.svg": 2639,
+        "ac1843c4-18fa-2ee1-54b8-cd85000000246656.mcdb": 65536,
+        "ARID_20261018_mono.wav 48000.pek": 65536,
+        "ARID_20261018_four_channel.wav 48000_2.pek": 65536,
+        "e99e91ac-6586-4213-b54a-45e824a8f6e6.json": 1197,
+        "ARID_20261018_four_channel.wav 48000_1.pek": 65536,
+        "20695669-34aa-4f11-9fb6-1faed98af164.jpeg": 8192,
+        "ARID_20261018_four_channel.wav 48000.pek": 65536,
+        "S_Chevron_Sm_N@2x.svg": 1314,
+        "S_JumpIn_Md_N_D@2x.svg": 1270,
+        "S_PlayInOut_Md_N_D@2x.svg": 1496,
+        "S_LoopPlay_Md_N_D@2x.svg": 1306,
+        "S_Record_Md_N_D@2x.svg": 676,
+        "S_ChevronDown_18_N@2x.svg": 842,
+        "S_TrackRecord_Xs_N_D@2x.svg": 1176,
+        "S_Add_Sm_N_D@2x.svg": 1024,
+        "S_Sequence_Sm_N_D@2x.svg": 2256,
+        "S_More_18_N@2x.svg": 864,
+        "S_UIMagnifier_18_N@2x.svg": 942,
+        "S_SmartBin_Sm_N_D@2x.svg": 1500,
+        "S_Folder_Xl_N_D@2x.svg": 65536,
+        "S_SoundWaveCol_Xl_N_D@2x.svg": 65536,
+        "S_UsedAudio_17x15_N_D@2x.svg": 65536,
+        "S_Sequence_17x15_N_D@2x.svg": 65536,
+        "S_SortOrder_18_N_D@2x.svg": 65536,
+        "S_UpOneFolderLevel_Lg_N_D@2x.svg": 1398,
+        "S_ListView_26x12_N_D@2x.svg": 1382,
+        "S_IconView_Wi_N_D@2x.svg": 1128,
+        "S_RearrageableView_26x12_N_D@2x.svg": 1344,
+        "S_Select_Lg_N_D@2x.svg": 65536,
+        "S_TrackSelect_Lg_N_D@2x.svg": 65536,
+        "S_Ripple_Lg_N_D@2x.svg": 65536,
+        "S_Razor_LG_N_D@2x.svg": 65536,
+        "S_Slip_Lg_N_D@2x.svg": 65536,
+        "S_VectorDraw_Lg_N_D@2x.svg": 65536,
+        "S_Rectangle_Lg_N_D@2x.svg": 65536,
+        "S_ObjectSelectionLasso_18_N_D@2x.svg": 65536,
+        "S_Pan_Lg_N_D@2x.svg": 65536,
+        "S_Marker_11x16_N_D@2x.svg": 978,
+        "S_LinkedSelection_Sm_N_D@2x.svg": 1522,
+        "S_SelectionFollowsPlayhead_18_N_D@2x.svg": 2298,
+        "S_SnapToClip_Md_N_D@2x.svg": 1558,
+        "S_FullSequence_Sm_N_D@2x.svg": 2062,
+        "timelinecolors.table": 3845,
+        "S_EffectsOnColor_12_D_D@2x.svg": 1600,
+        "S_SoundEffectsOnColor_12_N_D@2x.svg": 587,
+        "ARID_20261018_mono.wav": 52,
+        "stereo-l440-r880.wav": 52,
+        "ARID_20261018_four_channel.wav": 52,
+        "S_TB_Home_N_D@2x.svg": 625,
+        "S_Workspaces_Md_N_D@2x.svg": 489,
+        "S_Share_18_N@2x.svg": 660,
+        "S_Dashboard_18_N_D@2x.svg": 65536,
+        "S_AiGenSearch_18_N@2x.svg": 65536,
+        "S_Maximize_Md_N_D@2x.svg": 810,
+        "000424.ldb": 6237,
+        "MANIFEST-000423": 451,
+        "000423.dbtmp": 16,
+        "000425.log": 47,
+        "manifest.db": 119840,
+        "manifest.db-shm": 32768,
+        "etilqs_kHf9CmCPVyHNZl8": 37428,
+        "manifest.db-wal": 119128
+      },
+      "SlowestCompletedReadWrites": [
+        {
+          "File": "",
+          "Kind": "FileIO/Read",
+          "StartMs": 1672.6486,
+          "DurationMs": 8.655899999999974,
+          "Bytes": 16384,
+          "Status": "0"
+        },
+        {
+          "File": "",
+          "Kind": "FileIO/Read",
+          "StartMs": 1682.9564,
+          "DurationMs": 5.0996000000000095,
+          "Bytes": 16384,
+          "Status": "0"
+        },
+        {
+          "File": "Lumetri Presets.prfpset",
+          "Kind": "FileIO/Read",
+          "StartMs": 6924.5375,
+          "DurationMs": 0.7577999999994063,
+          "Bytes": 131072,
+          "Status": "0"
+        },
+        {
+          "File": "manifest.db-wal",
+          "Kind": "FileIO/Write",
+          "StartMs": 54162.3838,
+          "DurationMs": 0.5980999999956111,
+          "Bytes": 4096,
+          "Status": "0"
+        },
+        {
+          "File": "Lumetri Presets.prfpset",
+          "Kind": "FileIO/Read",
+          "StartMs": 6971.3979,
+          "DurationMs": 0.49459999999999127,
+          "Bytes": 131072,
+          "Status": "0"
+        },
+        {
+          "File": "Lumetri Presets.prfpset",
+          "Kind": "FileIO/Read",
+          "StartMs": 6690.6006,
+          "DurationMs": 0.48360000000047876,
+          "Bytes": 131072,
+          "Status": "0"
+        },
+        {
+          "File": "Lumetri Presets.prfpset",
+          "Kind": "FileIO/Read",
+          "StartMs": 6594.5539,
+          "DurationMs": 0.4655000000002474,
+          "Bytes": 131072,
+          "Status": "0"
+        },
+        {
+          "File": "Factory Presets.prfpset",
+          "Kind": "FileIO/Read",
+          "StartMs": 6489.1534,
+          "DurationMs": 0.4420000000000073,
+          "Bytes": 131072,
+          "Status": "0"
+        },
+        {
+          "File": "Lumetri Presets.prfpset",
+          "Kind": "FileIO/Read",
+          "StartMs": 7015.3269,
+          "DurationMs": 0.4341000000003987,
+          "Bytes": 131072,
+          "Status": "0"
+        },
+        {
+          "File": "Lumetri Presets.prfpset",
+          "Kind": "FileIO/Read",
+          "StartMs": 6918.599,
+          "DurationMs": 0.4297999999998865,
+          "Bytes": 131072,
+          "Status": "0"
+        },
+        {
+          "File": "Lumetri Presets.prfpset",
+          "Kind": "FileIO/Read",
+          "StartMs": 7060.1034,
+          "DurationMs": 0.4293999999999869,
+          "Bytes": 131072,
+          "Status": "0"
+        },
+        {
+          "File": "Lumetri Presets.prfpset",
+          "Kind": "FileIO/Read",
+          "StartMs": 6660.246,
+          "DurationMs": 0.42180000000007567,
+          "Bytes": 131072,
+          "Status": "0"
+        },
+        {
+          "File": "Lumetri Presets.prfpset",
+          "Kind": "FileIO/Read",
+          "StartMs": 6980.3416,
+          "DurationMs": 0.4209000000000742,
+          "Bytes": 131072,
+          "Status": "0"
+        },
+        {
+          "File": "Lumetri Presets.prfpset",
+          "Kind": "FileIO/Read",
+          "StartMs": 6798.1456,
+          "DurationMs": 0.4171999999998661,
+          "Bytes": 131072,
+          "Status": "0"
+        },
+        {
+          "File": "Lumetri Presets.prfpset",
+          "Kind": "FileIO/Read",
+          "StartMs": 7042.9354,
+          "DurationMs": 0.41669999999976426,
+          "Bytes": 131072,
+          "Status": "0"
+        },
+        {
+          "File": "Lumetri Presets.prfpset",
+          "Kind": "FileIO/Read",
+          "StartMs": 7036.9739,
+          "DurationMs": 0.4107000000003609,
+          "Bytes": 131072,
+          "Status": "0"
+        },
+        {
+          "File": "Lumetri Presets.prfpset",
+          "Kind": "FileIO/Read",
+          "StartMs": 6654.8273,
+          "DurationMs": 0.4080000000003565,
+          "Bytes": 131072,
+          "Status": "0"
+        },
+        {
+          "File": "Lumetri Presets.prfpset",
+          "Kind": "FileIO/Read",
+          "StartMs": 6617.8146,
+          "DurationMs": 0.4059000000006563,
+          "Bytes": 131072,
+          "Status": "0"
+        },
+        {
+          "File": "Lumetri Presets.prfpset",
+          "Kind": "FileIO/Read",
+          "StartMs": 6936.9019,
+          "DurationMs": 0.4032999999999447,
+          "Bytes": 131072,
+          "Status": "0"
+        },
+        {
+          "File": "Lumetri Presets.prfpset",
+          "Kind": "FileIO/Read",
+          "StartMs": 6765.1771,
+          "DurationMs": 0.40279999999984284,
+          "Bytes": 131072,
+          "Status": "0"
+        }
+      ],
+      "CompletedReadWrites": 2896,
+      "PendingReadWrites": 0
+    },
+    "fixtureUnchanged": true,
+    "remainingInterpretation": "Brief CPU and preset/workspace resource-loading activity; exact causal function not attributed",
+    "mitigation": "Keep desktop automation helper disconnected while opening projects",
+    "limits": [
+      "One warm-open trial, not cold-launch or broad lifecycle qualification",
+      "Read/write IRP completion analysis does not cover every type of I/O or all UI/GPU waits",
+      "No full symbolized CPU stack attribution",
+      "A 2–4-second delay remains; zero-delay opening is not claimed"
+    ],
+    "nativeRuntimePatchMade": false
+  },
+  "cleanupPatchValidation": {
+    "verifiedAt": "2026-10-28T14:35:47.492Z",
+    "sourceBaseHEAD": "9330e242eadcd10623300ca39d01753355aefc7a",
+    "sourceDirty": true,
+    "changedRuntimeFiles": [
+      "index.js"
+    ],
+    "regressionFile": "tests/beta.test.js",
+    "regressions": {
+      "beforeFix": {
+        "passed": 0,
+        "failed": 2
+      },
+      "afterFix": {
+        "passed": 2,
+        "failed": 0
+      }
+    },
+    "checks": {
+      "unit": {
+        "command": "node --test tests/*.test.js",
+        "passed": 58,
+        "failed": 0,
+        "skipped": 0
+      },
+      "fixtures": {
+        "command": "node tests/evaluate-fixtures.js",
+        "passed": 6,
+        "total": 6
+      },
+      "syntax": "PASS: node tests/check-syntax.js",
+      "whitespace": "PASS: git diff --check",
+      "package": "PASS: scripts/verify-package.ps1; seven exact files"
+    },
+    "candidateIdentity": "6fb3f7af946ff01d90137acdf1f6c5199b9fd1f022df9f421edd1ec8ade517ab",
+    "packageSha256": "838ac5c0f3ffefe4bb7d45b89f73045ba19e77b40ae41d153e5b9c28b8ffe93f",
+    "newNativeValidation": "NOT_RUN",
+    "newCCXGenerated": false,
+    "installedRuntimePreserved": true,
+    "otherSixRuntimeFilesUnchanged": true,
+    "desktopAutomationReconnected": false,
+    "documentation": [
+      "README.md",
+      "docs/PROJECT_STATUS.md",
+      "docs/BETA_RELEASE_CHECKLIST.md",
+      "docs/SUBMISSION_OPERATOR_HANDOFF.md",
+      "docs/IMPLEMENTATION_REVIEW_20261028.md"
+    ],
+    "trackedDiffFile": "cleanup-patch-working-diff-20261028.patch",
+    "trackedDiffSha256": "750281b5f31a3fb3cbf72367e09cbb0d1b29cdd53ffefa261fe6d9de57d2e3c3",
+    "commitPushMergePerformed": false
+  },
+  "layoutRefreshValidation": {
+    "recordedAt": "2026-10-28T15:09:48.430Z",
+    "status": "CONTROLLED_PASS_NATIVE_DOCKING_CRASH_OBSERVED_DISTRIBUTION_HOLD",
+    "runtimeIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+    "packageSha256": "f989dccd51b54bdab7f790816fdec7dc93b65f508b9a17a88bbd967a9371d607",
+    "exactSource": [
+      {
+        "file": "manifest.json",
+        "normalizedSourceMatchesReceipt": true
+      },
+      {
+        "file": "index.html",
+        "normalizedSourceMatchesReceipt": true
+      },
+      {
+        "file": "index.js",
+        "normalizedSourceMatchesReceipt": true
+      },
+      {
+        "file": "src/premiereAdapter.js",
+        "normalizedSourceMatchesReceipt": true
+      },
+      {
+        "file": "src/diagnostics.js",
+        "normalizedSourceMatchesReceipt": true
+      },
+      {
+        "file": "src/valueSerializer.js",
+        "normalizedSourceMatchesReceipt": true
+      },
+      {
+        "file": "src/report.js",
+        "normalizedSourceMatchesReceipt": true
+      }
+    ],
+    "finalCandidateNative": {
+      "developerLoadObserved": true,
+      "floatingScanMs": 39,
+      "reviewFindings": 0,
+      "unknowns": 3,
+      "rawEvidence": "Read-only textarea rendered wrapped long diagnostic strings and scrolled to ending annotations without the earlier overlap.",
+      "docking": "Premiere exited following panel tab drag toward left docking area; crash reporter returned by window inventory; process inspection found crash reporter PID 8184 and no Premiere process.",
+      "cause": "UNKNOWN",
+      "wideFloating": "NOT_VERIFIED",
+      "finalCandidateExport": "NOT_RUN",
+      "crashReportSubmitted": false,
+      "hostAutomaticallyRestarted": false
+    },
+    "earlierLayoutCandidate": {
+      "identity": "9b0796ebae7aab7a16de87c133c0065426d44238e6c1e494f4e9d5eb5b9b95f0",
+      "dockedScanMs": 36,
+      "floatingScanMs": 32,
+      "exports": {
+        "verifiedAt": "2026-10-28T15:07:13.509Z",
+        "status": "VERIFIED_THIS_SESSION_BOUNDED_EXPORT_CONTENT",
+        "runtimeIdentity": "9b0796ebae7aab7a16de87c133c0065426d44238e6c1e494f4e9d5eb5b9b95f0",
+        "provenance": "Assistant-operated native floating scan and save dialogs; exported content independently verified",
+        "durationMs": 32,
+        "checks": {
+          "embeddedHTMLDeepEqualsJSON": true,
+          "fullHTMLMatchesRenderer": true,
+          "diagnosticsReproduce": true,
+          "htmlFindingArticles": 7
+        },
+        "coverage": {
+          "state": "COMPLETE",
+          "project": {
+            "status": "COMPLETE",
+            "expected": 1,
+            "observed": 1,
+            "known": 1,
+            "unknown": 0
+          },
+          "sequences": {
+            "status": "COMPLETE",
+            "expected": 4,
+            "observed": 4,
+            "known": 4,
+            "unknown": 0
+          },
+          "tracks": {
+            "status": "COMPLETE",
+            "expected": 15,
+            "observed": 15,
+            "known": 15,
+            "unknown": 0
+          },
+          "clips": {
+            "status": "COMPLETE",
+            "expected": 7,
+            "observed": 7,
+            "known": 7,
+            "unknown": 0
+          },
+          "components": {
+            "status": "COMPLETE",
+            "expected": 18,
+            "observed": 18,
+            "known": 18,
+            "unknown": 0
+          },
+          "failedReads": 0,
+          "capabilities": {
+            "sourceChannelMapping": "UNKNOWN",
+            "outputBusTopology": "UNKNOWN",
+            "playbackExportCorrectness": "UNKNOWN"
+          }
+        },
+        "files": [
+          {
+            "file": "audio-preflight-2026-10-28T14-56-29-341Z.json",
+            "sha256": "d970681cfc249ec7c86e13e33947a768592bf6a619dfe80ac0215c31d0c13fd6"
+          },
+          {
+            "file": "audio-preflight-2026-10-28T14-56-29-341Z.html",
+            "sha256": "a5c3c6a414977275c90e31a5935c9d5403602ec0bff0ab8be4a9d7121d65e2e5"
+          }
+        ],
+        "limits": [
+          "These exports bind to the initial 9b0796ebae7a layout candidate, not the later 037571056922 raw-textarea candidate.",
+          "No full lifecycle or customer installation qualification."
+        ]
+      }
+    },
+    "intermediateCSSTrial": {
+      "identity": "f2863dbb6a19101373378de509deed43755eb1e252442708b1d91ceb967f008b",
+      "scanMs": 42,
+      "rawOverlap": "STILL_OBSERVED_SUPERSEDED"
+    },
+    "computerUse": {
+      "openingStallWithHelper": true,
+      "detachingAllowedRecovery": true,
+      "reconnectedAfterSettling": true,
+      "postSettleScansWorked": true,
+      "limit": "One successful reconnection is not a root-cause fix or a broad reliability pass.",
+      "finalState": "JavaScript session reset; exact-path process inventory returned no computer-use helper processes. Earlier explicit PID/start guard refused termination; no successful guarded-stop claim for that attempt."
+    },
+    "checks": {
+      "controlled": 58,
+      "controlledPassed": 58,
+      "synthetic": 6,
+      "syntheticPassed": 6,
+      "syntaxPassed": true,
+      "whitespacePassed": true,
+      "archive": {
+        "verifiedAt": "2026-10-28T15:06:54.7644628Z",
+        "pluginId": "com.unn0wn002.audio-preflight.beta",
+        "version": "0.2.1",
+        "stagingIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+        "source": {
+          "branch": "codex/validated-beta-20261017",
+          "commit": "9330e242eadcd10623300ca39d01753355aefc7a",
+          "workingTreeDirty": true
+        },
+        "package": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\artifacts\\audio-preflight-0.2.1-037571056922-developer.zip",
+        "packageSha256": "f989dccd51b54bdab7f790816fdec7dc93b65f508b9a17a88bbd967a9371d607",
+        "developerArchiveHashMatches": true,
+        "runtimeMatchesStaging": true,
+        "nativeValidation": "NOT_ESTABLISHED_BY_PACKAGING",
+        "installationQualified": false,
+        "qualification": "Archive integrity only; no native or installation qualification",
+        "files": [
+          {
+            "file": "manifest.json",
+            "sha256": "d362207dcb2c4e32fb7b7e5b1d2201f5898f1f0c5b6ae3400793dda5b140a06b",
+            "exactBytes": true,
+            "manifestValuesEqual": null
+          },
+          {
+            "file": "index.html",
+            "sha256": "211a54f25ced54808d83a6da0fb18736f7130b18fb191d9fa1fb93305c659e77",
+            "exactBytes": true,
+            "manifestValuesEqual": null
+          },
+          {
+            "file": "index.js",
+            "sha256": "950092bcccf4a3f8bc5725fd2f5e3707f30ef0292cd3c13f5d27299c441b8d37",
+            "exactBytes": true,
+            "manifestValuesEqual": null
+          },
+          {
+            "file": "src/premiereAdapter.js",
+            "sha256": "bc7054386b37174676f4d3302216cb43d82214bdc2582dc9f46c52fe738748bf",
+            "exactBytes": true,
+            "manifestValuesEqual": null
+          },
+          {
+            "file": "src/diagnostics.js",
+            "sha256": "5ee7db940f0581fb687a3c6103f61b1f04b59fcb3c2d9034535062d3432ded90",
+            "exactBytes": true,
+            "manifestValuesEqual": null
+          },
+          {
+            "file": "src/valueSerializer.js",
+            "sha256": "3c874ee7243f30a66215fa3f1d6a5ee65bd18c0dd5a21dbaf59e17b3f787fc4a",
+            "exactBytes": true,
+            "manifestValuesEqual": null
+          },
+          {
+            "file": "src/report.js",
+            "sha256": "c93e14044b68ce27862c48c14210136e764c8ac727115b4ca848934f615eb92d",
+            "exactBytes": true,
+            "manifestValuesEqual": null
+          }
+        ]
+      }
+    },
+    "fixtureSha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+    "remaining": [
+      "Isolate docking failure with manual helper-off baseline before attributing cause.",
+      "Final candidate docked and wider-floating tests.",
+      "Final candidate JSON/HTML exports.",
+      "Clean-profile installation and lifecycle qualification."
+    ],
+    "distributionApproved": false
+  },
+  "layoutPostRestartValidation": {
+    "recordedAt": "2026-10-28T15:32:14.637Z",
+    "runtimeIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+    "status": "VERIFIED_THIS_SESSION_BOUNDED_DOCKED_SCAN_AND_EXPORTS",
+    "hostPid": 46824,
+    "windowId": 2950814,
+    "hostResponsiveBeforeDisconnect": true,
+    "dockedScanMs": 42,
+    "reviewFindings": 0,
+    "unknowns": 3,
+    "exports": {
+      "verifiedAt": "2026-10-28T15:31:01.107Z",
+      "status": "VERIFIED_THIS_SESSION_BOUNDED_EXPORT_CONTENT",
+      "runtimeIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+      "provenance": "Assistant-operated native docked scan and save dialogs; exported content independently verified",
+      "durationMs": 42,
+      "checks": {
+        "embeddedHTMLDeepEqualsJSON": true,
+        "fullHTMLMatchesRenderer": true,
+        "diagnosticsReproduce": true,
+        "htmlFindingArticles": 7
+      },
+      "coverage": {
+        "state": "COMPLETE",
+        "project": {
+          "status": "COMPLETE",
+          "expected": 1,
+          "observed": 1,
+          "known": 1,
+          "unknown": 0
+        },
+        "sequences": {
+          "status": "COMPLETE",
+          "expected": 4,
+          "observed": 4,
+          "known": 4,
+          "unknown": 0
+        },
+        "tracks": {
+          "status": "COMPLETE",
+          "expected": 15,
+          "observed": 15,
+          "known": 15,
+          "unknown": 0
+        },
+        "clips": {
+          "status": "COMPLETE",
+          "expected": 7,
+          "observed": 7,
+          "known": 7,
+          "unknown": 0
+        },
+        "components": {
+          "status": "COMPLETE",
+          "expected": 18,
+          "observed": 18,
+          "known": 18,
+          "unknown": 0
+        },
+        "failedReads": 0,
+        "capabilities": {
+          "sourceChannelMapping": "UNKNOWN",
+          "outputBusTopology": "UNKNOWN",
+          "playbackExportCorrectness": "UNKNOWN"
+        }
+      },
+      "files": [
+        {
+          "file": "audio-preflight-2026-10-28T15-26-38-306Z.json",
+          "sha256": "44876bea0ba9fd3dc1790aa8c82a47374439959687be8b5595d88050110dafc1"
+        },
+        {
+          "file": "audio-preflight-2026-10-28T15-26-38-306Z.html",
+          "sha256": "030f5449c3d171024906acd370749d4d23d9c32ccbfa454142eaed0b11f026be"
+        }
+      ],
+      "limits": [
+        "These exports bind to the final 037571056922 raw-textarea candidate after manual restart and post-settling reconnection.",
+        "No full lifecycle or customer installation qualification."
+      ]
+    },
+    "dockedRawTextarea": "Expanded readable wrapped JSON and collapsed successfully",
+    "widerDocked": "Resize gesture did not establish geometry change",
+    "transientReviewTag": "A wheel gesture changed one information finding to Intentional after exports. This is an interaction observation, not an assessment. No later export; fresh scan resets.",
+    "fixtureSha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+    "helperState": "Session reset, then process inventory found Premiere responsive and no codex-computer-use process",
+    "limits": [
+      "Previous docking crash unresolved; no repeated automated docking drag.",
+      "Manual helper-off undock/redock comparison pending.",
+      "Wider floating and customer lifecycle qualification remain incomplete."
+    ],
+    "distributionApproved": false
+  },
+  "manualHelperOffDockingValidation": {
+    "recordedAt": "2026-10-28T15:37:44.930Z",
+    "evidenceClass": "USER_STATED",
+    "action": "Manual undock/redock comparison after computer use disconnected",
+    "userReport": "Normal, no freeze. and dint crashed",
+    "outcome": {
+      "dockedNormally": true,
+      "freezeReported": false,
+      "crashReported": false
+    },
+    "runtimeIdentityFromSessionContext": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+    "identityLimit": "No intervening runtime or session change reported; no fresh independent host identity readback performed.",
+    "interpretation": "Earlier automated helper-connected crash was not reproduced in this manual helper-off trial. Causation remains UNKNOWN.",
+    "remaining": [
+      "Manual narrow and larger floating resize/layout checks.",
+      "Broader native lifecycle and customer installation qualification."
+    ],
+    "computerUseReconnectedForThisRecord": false,
+    "distributionApproved": false
+  },
+  "manualHelperOffResizeValidation": {
+    "recordedAt": "2026-10-28T15:41:44.956Z",
+    "evidenceClass": "USER_STATED",
+    "requestedTest": "Helper-off floating panel resized narrow and wide; check buttons, text and host stability.",
+    "userReport": "Button Normal, text Normal, not freezing, not crashed",
+    "outcome": {
+      "buttonsReportedNormal": true,
+      "textReportedNormal": true,
+      "freezeReported": false,
+      "crashReported": false
+    },
+    "runtimeIdentityFromSessionContext": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+    "basicManualLayoutStatus": "COMPLETE_FOR_REPORTED_TRIAL",
+    "limits": [
+      "Exact dimensions and screenshots not supplied.",
+      "No fresh per-size scan result or duration supplied.",
+      "Runtime association is continued session context, not fresh independent readback.",
+      "Earlier helper-connected automated docking crash remains unexplained.",
+      "Customer installation and broader lifecycle qualification remain pending."
+    ],
+    "computerUseReconnected": false,
+    "distributionApproved": false
+  },
+  "continuation20261029": {
+    "updatedAt": "2026-10-31T08:44:18.794Z",
+    "evidenceRecord": "../panel-layout-20261029/session-result.json",
+    "continuation": "../panel-layout-20261029/CONTINUATION.md",
+    "sourceStageRuntime": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+    "status": "BOUNDED_NARROW_WIDE_LAYOUT_AND_EXPORTS_COMPLETE",
+    "historicalNative": "HISTORICAL_RECORDED; 42 ms final docked scan/exports retained, not rerun",
+    "manualLayout": "Historical helper-off docking/resizing remains USER_STATED; see perSizeNative for the new measured checks",
+    "perSizeNative": {
+      "narrow": {
+        "status": "BOUNDED_NATIVE_SCAN_AND_EXPORT_PAIR_VERIFIED",
+        "outerWidth": 326,
+        "outerHeight": 359,
+        "units": "logical pixels",
+        "durationMs": 35,
+        "coverage": {
+          "sequences": "4/4",
+          "tracks": "15/15",
+          "clips": "7/7",
+          "components": "18/18"
+        },
+        "failedReads": 0,
+        "reviewFindings": 0,
+        "capabilityUnknowns": 3,
+        "screenshot": "narrow-scan.png",
+        "json": "narrow-scan.json",
+        "html": "narrow-scan.html",
+        "pairVerification": "narrow-pair-verification.json",
+        "htmlFinalSave": "USER_STATED saved; file independently verified"
+      },
+      "wide": {
+        "status": "BOUNDED_NATIVE_SCAN_AND_EXPORT_PAIR_VERIFIED",
+        "outerWidth": 807,
+        "outerHeight": 359,
+        "units": "logical pixels",
+        "durationMs": 31,
+        "coverage": {
+          "sequences": "4/4",
+          "tracks": "15/15",
+          "clips": "7/7",
+          "components": "18/18"
+        },
+        "failedReads": 0,
+        "reviewFindings": 0,
+        "capabilityUnknowns": 3,
+        "screenshot": "wide-scan.png",
+        "json": "wide-scan.json",
+        "html": "wide-scan.html",
+        "pairVerification": "wide-pair-verification.json",
+        "saveActions": "Assistant native default-filename dialog clicks; files independently verified"
+      },
+      "screenshots": [
+        "narrow-scan.png",
+        "narrow-exports-controls.png",
+        "wide-findings.png",
+        "wide-scan.png",
+        "wide-final-idle.png"
+      ],
+      "freshExports": [
+        "narrow-scan.json",
+        "narrow-scan.html",
+        "wide-scan.json",
+        "wide-scan.html"
+      ],
+      "crossLayoutVerification": "cross-layout-verification.json",
+      "cssViewport": "NOT_MEASURED_NOT_CLAIMED"
+    },
+    "distributionApproved": false
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "verifiedAt": "2026-10-29T05:31:11.796Z",
+  "status": "VERIFIED_THIS_SESSION_BOUNDED_NATIVE_EXPORT_PAIR",
+  "label": "narrow",
+  "runtimeIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+  "durationMs": 35,
+  "coverage": {
+    "state": "COMPLETE",
+    "project": {
+      "status": "COMPLETE",
+      "expected": 1,
+      "observed": 1,
+      "known": 1,
+      "unknown": 0
+    },
+    "sequences": {
+      "status": "COMPLETE",
+      "expected": 4,
+      "observed": 4,
+      "known": 4,
+      "unknown": 0
+    },
+    "tracks": {
+      "status": "COMPLETE",
+      "expected": 15,
+      "observed": 15,
+      "known": 15,
+      "unknown": 0
+    },
+    "clips": {
+      "status": "COMPLETE",
+      "expected": 7,
+      "observed": 7,
+      "known": 7,
+      "unknown": 0
+    },
+    "components": {
+      "status": "COMPLETE",
+      "expected": 18,
+      "observed": 18,
+      "known": 18,
+      "unknown": 0
+    },
+    "failedReads": 0,
+    "capabilities": {
+      "sourceChannelMapping": "UNKNOWN",
+      "outputBusTopology": "UNKNOWN",
+      "playbackExportCorrectness": "UNKNOWN"
+    }
+  },
+  "reviewFindings": 0,
+  "capabilityUnknowns": 3,
+  "embeddedJSONEquals": true,
+  "rendererEquals": true,
+  "diagnosticsReproduce": true,
+  "findingArticles": 7,
+  "files": [
+    {
+      "file": "narrow-scan.json",
+      "original": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\audio-preflight-2026-10-29T05-21-05-797Z.json",
+      "sha256": "79c62dc705465771ccf5e290f9b13342102557cde1786f0d9c6714396cdb3ef9",
+      "bytes": 136908,
+      "originalPreserved": true,
+      "copyByteIdentical": true
+    },
+    {
+      "file": "narrow-scan.html",
+      "original": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\audio-preflight-2026-10-29T05-21-05-797Z.html",
+      "sha256": "bf83d89e63b56e5ebcd282bbbeb9e67e19123a149e99b14a7069afa517955c30",
+      "bytes": 170614,
+      "originalPreserved": true,
+      "copyByteIdentical": true
+    }
+  ],
+  "executionProvenance": "Assistant-triggered scan/native export dialogs; JSON saved through automation, final HTML Save clicked by user after focus disagreement",
+  "qualification": "Bounded panel/export-content evidence; no routing correctness, customer installation or full lifecycle qualification"
+}

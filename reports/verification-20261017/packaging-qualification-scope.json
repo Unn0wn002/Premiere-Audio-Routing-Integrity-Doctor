@@ -1,0 +1,20 @@
+{
+  "recordedAt": "2026-10-18T09:23:44.323Z",
+  "branch": "codex/validated-beta-20261017",
+  "testedFromCommit": "27ba2919c69e01f994015804672270a58d72933b",
+  "workingChanges": [
+    "scripts/prepare-beta.js",
+    "scripts/verify-package.ps1",
+    "tests/packaging.test.js"
+  ],
+  "change": "Archive-only tooling reports NOT_ESTABLISHED_BY_PACKAGING instead of unconditionally asserting native execution is blocked",
+  "runtimeFilesChanged": false,
+  "command": "node --test tests/packaging.test.js",
+  "exitCode": 0,
+  "tests": 7,
+  "passed": 7,
+  "failed": 0,
+  "skipped": 0,
+  "durationMs": 5923.3438,
+  "evidence": "Actual direct Node test command output retained in task tool record; existing source-runtime/archive receipts unchanged. Subsequent CI executes full suite."
+}

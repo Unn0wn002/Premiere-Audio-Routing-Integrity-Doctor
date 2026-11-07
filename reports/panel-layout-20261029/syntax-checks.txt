@@ -1,0 +1,17 @@
+index.js: PASS
+src/diagnostics.js: PASS
+src/premiereAdapter.js: PASS
+src/report.js: PASS
+src/valueSerializer.js: PASS
+tests/adapter-validation.test.js: PASS
+tests/beta.test.js: PASS
+tests/check-syntax.js: PASS
+tests/diagnostic-validation.test.js: PASS
+tests/diagnostics.test.js: PASS
+tests/evaluate-fixtures.js: PASS
+tests/packaging.test.js: PASS
+tests/recovery.test.js: PASS
+tests/ui-summary.test.js: PASS
+scripts/native-api-probe.js: PASS
+scripts/native-fixture-repeat-probe.js: PASS
+scripts/prepare-beta.js: PASS

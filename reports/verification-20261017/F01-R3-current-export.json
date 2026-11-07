@@ -1,0 +1,2664 @@
+{
+  "reportVersion": "1.0.0",
+  "observation": {
+    "schemaVersion": "0.3.0",
+    "completion": "completed",
+    "scanTraversalComplete": true,
+    "durationMs": 26,
+    "sequenceInventoryComplete": true,
+    "sequenceCount": 2,
+    "verification": "HOST OBSERVATION WHEN EXECUTED IN PREMIERE",
+    "generatedAt": "2026-10-18T04:33:29.722Z",
+    "host": {
+      "name": "premierepro",
+      "version": "26.5.2",
+      "uiLocale": "en_US",
+      "uxpVersion": "uxp-9.3.0-local",
+      "pluginVersion": "0.2.1"
+    },
+    "project": {
+      "name": "ARID_Disposable_20261018.prproj",
+      "path": "\\\\?\\C:\\Users\\unn0w\\Downloads\\Management Project\\Premiere Audio Routing Integrity Doctor\\reports\\beta-20261004\\ARID_Disposable_20261018.prproj",
+      "guid": "5fe57359-da5b-4852-909d-c3595b59c6a5"
+    },
+    "sequences": [
+      {
+        "name": "stereo-l440-r880",
+        "guid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+        "occurrenceIndex": 0,
+        "trackInventoryComplete": true,
+        "audioTrackCount": 3,
+        "settings": {
+          "audioChannelCount": 2,
+          "audioChannelType": 1,
+          "audioSampleRate": {
+            "value": 48000,
+            "ticksPerFrame": 5292000
+          }
+        },
+        "audioTracks": [
+          {
+            "id": "2",
+            "name": "Audio 1",
+            "index": 0,
+            "muted": false,
+            "clipInventoryComplete": true,
+            "clipCount": 2,
+            "clips": [
+              {
+                "sequenceName": "stereo-l440-r880",
+                "trackIndex": 0,
+                "occurrenceIndex": 0,
+                "startTime": {
+                  "ticks": "0",
+                  "seconds": 0
+                },
+                "endTime": {
+                  "ticks": "762810048000",
+                  "seconds": 3.003
+                },
+                "name": "stereo-l440-r880.wav",
+                "matchName": "stereo-l440-r880.wav",
+                "disabled": false,
+                "componentChain": {
+                  "componentCount": 2,
+                  "componentInventoryComplete": true,
+                  "components": [
+                    {
+                      "index": 0,
+                      "displayName": "Volume",
+                      "matchName": "Internal Volume Stereo",
+                      "paramCount": 2,
+                      "paramInventoryComplete": true,
+                      "params": [
+                        {
+                          "index": 0,
+                          "displayName": "Mute",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": false
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 1,
+                          "displayName": "Level",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        }
+                      ],
+                      "errors": []
+                    },
+                    {
+                      "index": 1,
+                      "displayName": "Channel Volume",
+                      "matchName": "Internal Channel Volume Stereo",
+                      "paramCount": 33,
+                      "paramInventoryComplete": true,
+                      "params": [
+                        {
+                          "index": 0,
+                          "displayName": "Bypass",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": false
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 1,
+                          "displayName": "Left",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 2,
+                          "displayName": "Right",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 3,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 4,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 5,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 6,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 7,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 8,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 9,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 10,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 11,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 12,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 13,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 14,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 15,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 16,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 17,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 18,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 19,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 20,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 21,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 22,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 23,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 24,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 25,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 26,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 27,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 28,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 29,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 30,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 31,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 32,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        }
+                      ],
+                      "errors": []
+                    }
+                  ],
+                  "errors": []
+                },
+                "sourceProjectItem": {
+                  "name": "stereo-l440-r880.wav",
+                  "componentChain": {
+                    "componentCount": 2,
+                    "componentInventoryComplete": true,
+                    "components": [
+                      {
+                        "index": 0,
+                        "displayName": "Volume",
+                        "matchName": "Internal Volume Stereo",
+                        "paramCount": 2,
+                        "paramInventoryComplete": true,
+                        "params": [
+                          {
+                            "index": 0,
+                            "displayName": "Mute",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": false
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 1,
+                            "displayName": "Level",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          }
+                        ],
+                        "errors": []
+                      },
+                      {
+                        "index": 1,
+                        "displayName": "Channel Volume",
+                        "matchName": "Internal Channel Volume Stereo",
+                        "paramCount": 33,
+                        "paramInventoryComplete": true,
+                        "params": [
+                          {
+                            "index": 0,
+                            "displayName": "Bypass",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": false
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 1,
+                            "displayName": "Left",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 2,
+                            "displayName": "Right",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 3,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 4,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 5,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 6,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 7,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 8,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 9,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 10,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 11,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 12,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 13,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 14,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 15,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 16,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 17,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 18,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 19,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 20,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 21,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 22,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 23,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 24,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 25,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 26,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 27,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 28,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 29,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 30,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 31,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 32,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          }
+                        ],
+                        "errors": []
+                      }
+                    ],
+                    "errors": []
+                  },
+                  "errors": []
+                },
+                "errors": [],
+                "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+                "sequenceOccurrenceIndex": 0,
+                "trackId": "2"
+              },
+              {
+                "sequenceName": "stereo-l440-r880",
+                "trackIndex": 0,
+                "occurrenceIndex": 1,
+                "startTime": {
+                  "ticks": "762810048000",
+                  "seconds": 3.003
+                },
+                "endTime": {
+                  "ticks": "1525620096000",
+                  "seconds": 6.006
+                },
+                "name": "stereo-l440-r880.wav",
+                "matchName": "stereo-l440-r880.wav",
+                "disabled": false,
+                "componentChain": {
+                  "componentCount": 2,
+                  "componentInventoryComplete": true,
+                  "components": [
+                    {
+                      "index": 0,
+                      "displayName": "Volume",
+                      "matchName": "Internal Volume Stereo",
+                      "paramCount": 2,
+                      "paramInventoryComplete": true,
+                      "params": [
+                        {
+                          "index": 0,
+                          "displayName": "Mute",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": false
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 1,
+                          "displayName": "Level",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        }
+                      ],
+                      "errors": []
+                    },
+                    {
+                      "index": 1,
+                      "displayName": "Channel Volume",
+                      "matchName": "Internal Channel Volume Stereo",
+                      "paramCount": 33,
+                      "paramInventoryComplete": true,
+                      "params": [
+                        {
+                          "index": 0,
+                          "displayName": "Bypass",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": false
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 1,
+                          "displayName": "Left",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 2,
+                          "displayName": "Right",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 3,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 4,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 5,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 6,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 7,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 8,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 9,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 10,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 11,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 12,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 13,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 14,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 15,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 16,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 17,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 18,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 19,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 20,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 21,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 22,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 23,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 24,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 25,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 26,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 27,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 28,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 29,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 30,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 31,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        },
+                        {
+                          "index": 32,
+                          "displayName": "",
+                          "isTimeVarying": false,
+                          "startValue": {
+                            "value": {
+                              "value": 0.17782793939113617
+                            },
+                            "position": {
+                              "ticks": "-91445760000000000",
+                              "seconds": -360000
+                            }
+                          },
+                          "keyframeTimes": null,
+                          "errors": []
+                        }
+                      ],
+                      "errors": []
+                    }
+                  ],
+                  "errors": []
+                },
+                "sourceProjectItem": {
+                  "name": "stereo-l440-r880.wav",
+                  "componentChain": {
+                    "componentCount": 2,
+                    "componentInventoryComplete": true,
+                    "components": [
+                      {
+                        "index": 0,
+                        "displayName": "Volume",
+                        "matchName": "Internal Volume Stereo",
+                        "paramCount": 2,
+                        "paramInventoryComplete": true,
+                        "params": [
+                          {
+                            "index": 0,
+                            "displayName": "Mute",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": false
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 1,
+                            "displayName": "Level",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          }
+                        ],
+                        "errors": []
+                      },
+                      {
+                        "index": 1,
+                        "displayName": "Channel Volume",
+                        "matchName": "Internal Channel Volume Stereo",
+                        "paramCount": 33,
+                        "paramInventoryComplete": true,
+                        "params": [
+                          {
+                            "index": 0,
+                            "displayName": "Bypass",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": false
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 1,
+                            "displayName": "Left",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 2,
+                            "displayName": "Right",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 3,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 4,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 5,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 6,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 7,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 8,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 9,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 10,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 11,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 12,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 13,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 14,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 15,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 16,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 17,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 18,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 19,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 20,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 21,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 22,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 23,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 24,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 25,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 26,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 27,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 28,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 29,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 30,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 31,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          },
+                          {
+                            "index": 32,
+                            "displayName": "",
+                            "isTimeVarying": false,
+                            "startValue": {
+                              "value": {
+                                "value": 0.17782793939113617
+                              },
+                              "position": {
+                                "ticks": "-91445760000000000",
+                                "seconds": -360000
+                              }
+                            },
+                            "keyframeTimes": null,
+                            "errors": []
+                          }
+                        ],
+                        "errors": []
+                      }
+                    ],
+                    "errors": []
+                  },
+                  "errors": []
+                },
+                "errors": [],
+                "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+                "sequenceOccurrenceIndex": 0,
+                "trackId": "2"
+              }
+            ],
+            "errors": []
+          },
+          {
+            "id": "3",
+            "name": "Audio 2",
+            "index": 1,
+            "muted": false,
+            "clipInventoryComplete": true,
+            "clipCount": 0,
+            "clips": [],
+            "errors": []
+          },
+          {
+            "id": "4",
+            "name": "Audio 3",
+            "index": 2,
+            "muted": false,
+            "clipInventoryComplete": true,
+            "clipCount": 0,
+            "clips": [],
+            "errors": []
+          }
+        ],
+        "errors": []
+      },
+      {
+        "name": "F08_Mono",
+        "guid": "ca7fe906-c517-4456-a63a-7ce5c3042092",
+        "occurrenceIndex": 1,
+        "trackInventoryComplete": true,
+        "audioTrackCount": 4,
+        "settings": {
+          "audioChannelCount": 2,
+          "audioChannelType": 1,
+          "audioSampleRate": {
+            "value": 48000,
+            "ticksPerFrame": 5292000
+          }
+        },
+        "audioTracks": [
+          {
+            "id": "2",
+            "name": "Audio 1",
+            "index": 0,
+            "muted": false,
+            "clipInventoryComplete": true,
+            "clipCount": 0,
+            "clips": [],
+            "errors": []
+          },
+          {
+            "id": "3",
+            "name": "Audio 2",
+            "index": 1,
+            "muted": false,
+            "clipInventoryComplete": true,
+            "clipCount": 0,
+            "clips": [],
+            "errors": []
+          },
+          {
+            "id": "4",
+            "name": "Audio 3",
+            "index": 2,
+            "muted": false,
+            "clipInventoryComplete": true,
+            "clipCount": 0,
+            "clips": [],
+            "errors": []
+          },
+          {
+            "id": "5",
+            "name": "Audio 4",
+            "index": 3,
+            "muted": false,
+            "clipInventoryComplete": true,
+            "clipCount": 0,
+            "clips": [],
+            "errors": []
+          }
+        ],
+        "errors": []
+      }
+    ],
+    "unknowns": [
+      "Final Audio Track Mixer output-bus routing topology is not established by this probe.",
+      "Modify > Audio Channels source-channel mapping is not established by this probe.",
+      "End-to-end playback/export correctness is not established by DOM observation alone."
+    ],
+    "errors": []
+  },
+  "diagnostics": {
+    "schemaVersion": "0.3.0",
+    "completion": "completed",
+    "status": "COMPLETE",
+    "coverage": {
+      "state": "COMPLETE",
+      "project": {
+        "status": "COMPLETE",
+        "expected": 1,
+        "observed": 1,
+        "known": 1,
+        "unknown": 0
+      },
+      "sequences": {
+        "status": "COMPLETE",
+        "expected": 2,
+        "observed": 2,
+        "known": 2,
+        "unknown": 0
+      },
+      "tracks": {
+        "status": "COMPLETE",
+        "expected": 7,
+        "observed": 7,
+        "known": 7,
+        "unknown": 0
+      },
+      "clips": {
+        "status": "COMPLETE",
+        "expected": 2,
+        "observed": 2,
+        "known": 2,
+        "unknown": 0
+      },
+      "components": {
+        "status": "COMPLETE",
+        "expected": 8,
+        "observed": 8,
+        "known": 8,
+        "unknown": 0
+      },
+      "failedReads": 0,
+      "capabilities": {
+        "sourceChannelMapping": "UNKNOWN",
+        "outputBusTopology": "UNKNOWN",
+        "playbackExportCorrectness": "UNKNOWN"
+      }
+    },
+    "risk": [],
+    "information": [
+      {
+        "ruleId": "ARID-I01",
+        "severity": "Information",
+        "confidence": "DIRECT_OBSERVATION",
+        "location": {
+          "sequence": "stereo-l440-r880",
+          "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+          "sequenceOccurrenceIndex": 0,
+          "track": null,
+          "trackId": null,
+          "trackIndex": null,
+          "clip": null,
+          "clipOccurrenceIndex": null,
+          "startTime": null,
+          "endTime": null
+        },
+        "observed": "Sequence audio channel type=Stereo, count=2.",
+        "why": "Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.",
+        "remediation": "Compare against delivery requirements and source expectations."
+      },
+      {
+        "ruleId": "ARID-I01",
+        "severity": "Information",
+        "confidence": "DIRECT_OBSERVATION",
+        "location": {
+          "sequence": "F08_Mono",
+          "sequenceGuid": "ca7fe906-c517-4456-a63a-7ce5c3042092",
+          "sequenceOccurrenceIndex": 1,
+          "track": null,
+          "trackId": null,
+          "trackIndex": null,
+          "clip": null,
+          "clipOccurrenceIndex": null,
+          "startTime": null,
+          "endTime": null
+        },
+        "observed": "Sequence audio channel type=Stereo, count=2.",
+        "why": "Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.",
+        "remediation": "Compare against delivery requirements and source expectations."
+      }
+    ],
+    "unknown": [
+      {
+        "ruleId": "ARID-U01",
+        "severity": "Unknown",
+        "confidence": "UNKNOWN_CANNOT_VERIFY",
+        "location": {
+          "project": "ARID_Disposable_20261018.prproj"
+        },
+        "observed": "Final Audio Track Mixer output-bus routing topology is not established by this probe.",
+        "why": "The current public-observable probe does not establish this state.",
+        "remediation": "Verify manually in Premiere until a supported public API is proven in host testing."
+      },
+      {
+        "ruleId": "ARID-U02",
+        "severity": "Unknown",
+        "confidence": "UNKNOWN_CANNOT_VERIFY",
+        "location": {
+          "project": "ARID_Disposable_20261018.prproj"
+        },
+        "observed": "Modify > Audio Channels source-channel mapping is not established by this probe.",
+        "why": "The current public-observable probe does not establish this state.",
+        "remediation": "Verify manually in Premiere until a supported public API is proven in host testing."
+      },
+      {
+        "ruleId": "ARID-U03",
+        "severity": "Unknown",
+        "confidence": "UNKNOWN_CANNOT_VERIFY",
+        "location": {
+          "project": "ARID_Disposable_20261018.prproj"
+        },
+        "observed": "End-to-end playback/export correctness is not established by DOM observation alone.",
+        "why": "The current public-observable probe does not establish this state.",
+        "remediation": "Verify manually in Premiere until a supported public API is proven in host testing."
+      }
+    ]
+  },
+  "annotations": {}
+}

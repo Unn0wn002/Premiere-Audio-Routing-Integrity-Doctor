@@ -1,0 +1,107 @@
+{
+  "recordType": "independent-current-native-fixture-review",
+  "fixture": "F08",
+  "sourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "executionDate": "2026-10-18",
+  "timezone": "Asia/Jakarta",
+  "scope": {
+    "project": "ARID_Disposable_20261018.prproj",
+    "sequence": "F08 Actual Mono1",
+    "sequenceGuid": "0bafa115-0b9a-40b8-a5b4-931ca848ed8c",
+    "sequenceOccurrenceIndex": 1,
+    "track": "Audio 1",
+    "trackId": "2",
+    "trackIndex": 0,
+    "clip": "ARID_20261018_mono.wav",
+    "clipOccurrenceIndex": 0,
+    "clipStart": {"ticks": "0", "seconds": 0},
+    "clipEnd": {"ticks": "752215464000", "seconds": 2.961291666666667}
+  },
+  "independentUiTruth": {
+    "method": "Analysis agent independently viewed created-sequence Settings and before/after clip context-menu/Settings screenshots. Channel Format Mono / 1 / 48000 Hz, enabled A1 content and A1 M off are visible; operator confirms importing the exact copied mono WAV through UI and no intervening setup edits.",
+    "channelFormat": "Mono",
+    "channelCount": 1,
+    "sampleRateHz": 48000,
+    "populatedTrackIndex": 0,
+    "populatedTrackMute": false,
+    "clipEnabled": true,
+    "contentAssociation": {
+      "importedFile": "reports/beta-20261004/ARID_20261018_mono.wav",
+      "associationEvidence": "Operator confirmed exact copied-file UI import; timeline/source/Properties label is visible in before/after screenshots. The analysis agent did not independently view a full source-path Properties dialog.",
+      "staticHeaderReview": "native-fixture-asset-independent-review.json",
+      "sha256": "759763e2dbfc66aa157eac5bd26b5ad68d9d961bbd79096bc6fddee9acdde433",
+      "sourceChannels": 1,
+      "sourceDurationSeconds": 3
+    },
+    "beforeEvidence": ["F08-create-mono1-current.png", "F08-settings-before-current.png", "F08-content-enabled-before-current.png"],
+    "afterEvidence": ["F08-content-enabled-after-current.png", "F08-settings-after-current.png"],
+    "truthLimit": "Actual Settings establish Mono1 independently of the name. Source WAV headers are static asset evidence; they do not prove host playback or output. The visible panel still holds the earlier F03/F04 report and is not F08 scan evidence."
+  },
+  "expectedActual": {
+    "expected": "ARID-I01 records actual Mono1 configuration without a risk finding solely for mono; enabled/unmuted normal mono content does not produce ARID-001/002/003. Mapping, bus and playback/export correctness stay Unknown.",
+    "actual": "All three indexed native report envelopes record channel type0/count1/48000 Hz at the exact new sequence GUID, with one disabled=false clip on muted=false A1. No risk findings; three product-boundary Unknowns. The separately named old F08_Mono sequence remains Stereo2 and is not used as Mono truth.",
+    "agreement": true,
+    "configurationObservationAgreement": true,
+    "exportAnalysis": "F08-three-runs-independent-export-review.json"
+  },
+  "observedCurrentEvidence": {
+    "runs": 3,
+    "physicalSetupId": "F08-actual-Mono1-content",
+    "physicalRunIds": ["F08-2026-10-18T09-44-04-730Z-3ba17b:1", "F08-2026-10-18T09-44-04-730Z-3ba17b:2", "F08-2026-10-18T09-44-04-730Z-3ba17b:3"],
+    "executionMethod": "UDT_CONSOLE_STAGED_ADAPTER_SEQUENTIAL_NATIVE_READS",
+    "executionMethodLimit": "Actual native adapter/diagnostic/report modules in loaded frozen staging context. This helper does not exercise panel scan controls, panel export or its overlap guard.",
+    "durationMs": [30, 27, 26],
+    "diagnosticStatus": "COMPLETE",
+    "failedReads": 0,
+    "wholeProjectCoverage": {"sequences": 3, "tracks": 11, "clips": 3, "components": 10},
+    "riskRuleCounts": {"ARID-001": 0, "ARID-002": 0, "ARID-003": 0},
+    "unknownBoundaryFindings": 3,
+    "strictDocumentedShapes": "Three FrameRates and all 144 Keyframes valid per native report; no animated parameter/keyframe-time paths exercised.",
+    "rawParent": {
+      "file": "F08-native-repeat-batch-export.json",
+      "original": "reports/beta-20261004/arid-native-F08-2026-10-18T09-44-04-730Z-3ba17b.json",
+      "bytes": 399374,
+      "sha256": "6fe85951869cf58dea04ad6d17abb774b357d4a33baade31692281260d2f0358",
+      "originalAndRetainedBytesEqual": true,
+      "helperVersion": "1.0.1",
+      "executionStatus": "THREE_REPORTS_COLLECTED",
+      "scanAttempts": 3,
+      "actualRetainedReports": 3,
+      "limit": "One whole native batch was exported. Embedded reports were not separately host-exported or reconstructed as standalone JSON files."
+    },
+    "repeatability": {
+      "observationFieldsStable": true,
+      "diagnosticsStable": true,
+      "diagnosticReplayAgreesAllRuns": true,
+      "excludedObservationFields": ["generatedAt", "durationMs"],
+      "stableObservationSha256": "8a89697f0b67bf646fdbaacab68be3cc998190fcd2a1bd4471083779985f5419",
+      "stableDiagnosticSha256": "8870ff2c8d4bbc6e9fddf8d178596cb26c37140af08ccd25ae909eec4642f46e",
+      "medianDurationMs": 27,
+      "rawExports": ["F08-native-repeat-batch-export.json"],
+      "rawReportReferences": [
+        {"source": "F08-native-repeat-batch-export.json", "parentSha256": "6fe85951869cf58dea04ad6d17abb774b357d4a33baade31692281260d2f0358", "reportJsonPointer": "/runs/0/report", "runId": "F08-2026-10-18T09-44-04-730Z-3ba17b:1"},
+        {"source": "F08-native-repeat-batch-export.json", "parentSha256": "6fe85951869cf58dea04ad6d17abb774b357d4a33baade31692281260d2f0358", "reportJsonPointer": "/runs/1/report", "runId": "F08-2026-10-18T09-44-04-730Z-3ba17b:2"},
+        {"source": "F08-native-repeat-batch-export.json", "parentSha256": "6fe85951869cf58dea04ad6d17abb774b357d4a33baade31692281260d2f0358", "reportJsonPointer": "/runs/2/report", "runId": "F08-2026-10-18T09-44-04-730Z-3ba17b:3"}
+      ],
+      "timingLimit": "Plugin-reported traversal durations; three sequential native reads in one helper call, not three panel interactions. Saving time is separate; no broad performance claim."
+    },
+    "reopen": null,
+    "inspectedStateUnchanged": {
+      "settingsMono1SampleRateUi": true,
+      "clipEnabledAndPopulatedTrackMuteUi": true,
+      "allObservedRawFields": true,
+      "evidence": ["F08-settings-before-current.png", "F08-settings-after-current.png", "F08-content-enabled-before-current.png", "F08-content-enabled-after-current.png"],
+      "limit": "Inspected Mono1/48000 Settings, A1 clip Enable and M state are preserved, and collected raw fields stable. This is not an all-property or playback/output correctness claim."
+    }
+  },
+  "observableFixtureMetrics": {
+    "TP": 0,
+    "FP": 0,
+    "FN": 0,
+    "observableEvaluatedFixtures": 1,
+    "positiveObservableRiskConditions": 0,
+    "interpretation": "One native negative-control setup with verified Mono1 configuration. Configuration agreement is recorded separately; no positive ARID-001/002/003 condition and no mapping/playback/output sensitivity claim."
+  },
+  "disposition": "THREE_NATIVE_ADAPTER_OBSERVATIONS_MATCHED_AND_STABLE; actual Mono1/content and inspected UI preserved; reopen pending"
+}

@@ -1,0 +1,127 @@
+{
+  "verifiedAt": "2026-10-31T02:06:09.074756+00:00",
+  "status": "PASS_PRESERVATION_READBACK_FIXTURE_TIMING_GAP_OPEN",
+  "currentStage": "AWAITING_OPERATOR_TIMEBASE_SELECTION",
+  "runtimeSourceStageUnchanged": true,
+  "protectedFixtureHashes": {
+    "reports/panel-layout-20261027/Positive_Signal_Test.prproj": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+    "reports/panel-layout-20261027/Large_Inventory_Test.prproj": "850a5354a3248815974526de640e2b040b927505ec7d5895c0be10b3fa046249",
+    "reports/panel-layout-20261027/Layout_Test_Copy.prproj": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+    "reports/lifecycle-qualification-20261029/run-20261030-2116-boundaries/working/Boundary_A.prproj": "9cc2a7e49681d915795695ecf49e2c06ded37494b90576ec1c31fa472bb5d9d8"
+  },
+  "inheritedPathsPresent": 499,
+  "inheritedTestsUnchanged": true,
+  "priorLinkedMediaUnchanged": true,
+  "newWavHashVerified": true,
+  "oneClipNativeBaselineVerified": true,
+  "savedTwoClipDiagnosticPreserved": true,
+  "firstDuplicationContinuity": "FAILED_GROWTH_STOPPED",
+  "inMemoryOneClipAfterUndo": "NATIVE_SCREENSHOT_OBSERVATION_NOT_CURRENT_DISK_STATE",
+  "nativeLargerResponsivenessEstablished": false,
+  "newNativeScans": 0,
+  "D08": "NOT_RUN",
+  "D09": "NOT_RUN",
+  "gitDiffCheck": true,
+  "localLinksExist": true,
+  "operatorTimebaseResponseRequired": true,
+  "expectedOperatorReply": "30 selected",
+  "sharedHandoffSha256": "b6d153ad023dac1e8b6504b2b5377a094e047263a1d9a31ff429585360ef4d58",
+  "files": [
+    {
+      "file": "baseline/git-status.txt",
+      "sha256": "e219a1e5457a08ff7d3d4d100de246a299f8cfa919801e32ce72ac0e17f907c2"
+    },
+    {
+      "file": "baseline/ledger-before.json",
+      "sha256": "0ca4b921dd94ccdbb8214770cdf274eb1d48c2171cb3cf0fccce707bc9f6c0e0"
+    },
+    {
+      "file": "baseline/runtime-receipt.json",
+      "sha256": "39e71c0e66826b38c33813d7a017708973d8a994e0bc7dabafa426e9a0d8a185"
+    },
+    {
+      "file": "baseline/stage-0001.prproj",
+      "sha256": "65300adaf97b9d3522a60e3b69b2905734e7c71c44680a45fe81c508be81390c"
+    },
+    {
+      "file": "baseline/stage-empty-created.prproj",
+      "sha256": "265765cffa1a5a17ebd3cf0f030ab46d3cd5d40e73b4b3a3ab3722f7cefd8d5e"
+    },
+    {
+      "file": "baseline/two-clip-gap-diagnostic.prproj",
+      "sha256": "a1f1ae55ad57c55aa3e8de44602062baed8ebcff8347a2a32431f90b5421637e"
+    },
+    {
+      "file": "empty-project-settled.jpg",
+      "sha256": "f29620fbdaa64cf50610049a3f00c5ed5ee5a7ea2efdfbe58391f71d29955cd2"
+    },
+    {
+      "file": "inspect-project.py",
+      "sha256": "19200c41b8016893fb6c395d00e906cdbe4696e2a17b39a1eb91de7c3d9bea02"
+    },
+    {
+      "file": "media/ARID_Linear_Stereo_1s.wav",
+      "sha256": "3db4c9dee27fd8ee8ed414cc12fb962cb67a780ef3f73445a5e1dad3b170ea8d"
+    },
+    {
+      "file": "media-imported.jpg",
+      "sha256": "226f3fb54b158b20faca959c5cb388e990d1da569151303dfd53b608f9f3d497"
+    },
+    {
+      "file": "native-events.json",
+      "sha256": "aa20a1a85c0f4765c6ef8d4b16a38f5dab5d33a25a2701a6b11be0c9a7dce965"
+    },
+    {
+      "file": "new-project-form.jpg",
+      "sha256": "b865d5eb04cd77558c0af7967283e7e2e91d67ce49efad704d7efe9fe8d719c8"
+    },
+    {
+      "file": "preflight.json",
+      "sha256": "43df5e77f7d5848e640f607d617e60359618cf3e2e5cde794f0bfd23db56648c"
+    },
+    {
+      "file": "premiere-home.jpg",
+      "sha256": "9ffe7dcd7db8069fd635ad3b028adf47e645d246bc78ee3523233e2de4ad065c"
+    },
+    {
+      "file": "README.md",
+      "sha256": "4efc9a77bb1790150f0fb674fef796d1c3c1e593033e9cdb312e24c29c0f4acc"
+    },
+    {
+      "file": "sequence-settings-2997-before-correction.jpg",
+      "sha256": "85e3a55ed0f79877fac3b681a4c71572c282ff8a026f8cd5b0f249489fefe085"
+    },
+    {
+      "file": "sequence-timebase-popup-selection-not-applied.jpg",
+      "sha256": "31fabd29bb8583c13ac114447861145e978da2f87d419810278b502391bcf0be"
+    },
+    {
+      "file": "stage-0001-native.jpg",
+      "sha256": "966feec3a6f5de18a96b6dc62677d10fc6841f9f4dd59dcec4b8ce8cad55f308"
+    },
+    {
+      "file": "stage-0001-structure.json",
+      "sha256": "5e5fef9d7b65a4f95e55ad1ebabe29098e1cee02a293bfc1b8c59a1e2c9d2760"
+    },
+    {
+      "file": "stage-empty-created-structure.json",
+      "sha256": "b09936aebf753f9cb9f6e60067f4f6b352e29260792dda5c8512f45dc99f99ee"
+    },
+    {
+      "file": "two-clip-gap-diagnostic.json",
+      "sha256": "71f5a0082902970887bc9b2dc93689c79264439e6d65e8818e4503e6489c8f7c"
+    },
+    {
+      "file": "two-clip-gap-native.jpg",
+      "sha256": "6467b156505b55c66bfa69a6dcd7a8dfff0c29c592c468949444859a4b3b2d46"
+    },
+    {
+      "file": "working/Linear_Audio_20261031.prin",
+      "sha256": "2c41a0d4bca0a427bc9f41dcc4ea495f69a508a7180211cd44f3f5ec5bcc7e89"
+    },
+    {
+      "file": "working/Linear_Audio_20261031.prproj",
+      "sha256": "a1f1ae55ad57c55aa3e8de44602062baed8ebcff8347a2a32431f90b5421637e"
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+{
+  "observedAt": "2026-10-17T18:59:22Z",
+  "clientDate": "2026-10-18",
+  "clientTimezone": "Asia/Jakarta",
+  "repository": "Unn0wn002/Premiere-Audio-Routing-Integrity-Doctor",
+  "branch": "codex/validated-beta-20261017",
+  "queriedCommit": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "pullRequest": "https://github.com/Unn0wn002/Premiere-Audio-Routing-Integrity-Doctor/pull/1",
+  "observationMethod": "Authenticated connected GitHub tools: fetch_commit_workflow_runs, fetch_workflow_run_jobs, fetch_workflow_run_artifacts, get_commit_combined_status",
+  "workflowQueryScope": "PR-triggered runs associated with the queried commit; connector returns first page",
+  "remoteStaticCI": "PASS",
+  "workflowRuns": [
+    {
+      "id": 39060347426,
+      "name": "Validate beta candidate",
+      "status": "completed",
+      "conclusion": "success",
+      "run_number": 2,
+      "jobs_url": "https://api.github.com/repos/Unn0wn002/Premiere-Audio-Routing-Integrity-Doctor/actions/runs/39060347426/jobs",
+      "logs_url": "https://api.github.com/repos/Unn0wn002/Premiere-Audio-Routing-Integrity-Doctor/actions/runs/39060347426/logs",
+      "workflow_id": 387893320,
+      "url": "https://github.com/Unn0wn002/Premiere-Audio-Routing-Integrity-Doctor/actions/runs/39060347426"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 117476855711,
+      "name": "Static checks (windows-latest, Node 22)",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Unit and mocked adapter regressions (not native validation)",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Synthetic diagnostic contracts (not native fixtures)",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "JavaScript syntax",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Whitespace check",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        },
+        {
+          "name": "Build deterministic developer ZIP",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8
+        },
+        {
+          "name": "Verify archive allowlist and identity",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        },
+        {
+          "name": "Retain unsigned developer handoff (native validation pending)",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 10
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 20
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 21
+        }
+      ]
+    },
+    {
+      "id": 117476855803,
+      "name": "Static checks (ubuntu-latest, Node 22)",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Unit and mocked adapter regressions (not native validation)",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Synthetic diagnostic contracts (not native fixtures)",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "JavaScript syntax",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Whitespace check",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        },
+        {
+          "name": "Build deterministic developer ZIP",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8
+        },
+        {
+          "name": "Verify archive allowlist and identity",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        },
+        {
+          "name": "Retain unsigned developer handoff (native validation pending)",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 10
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 20
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 21
+        }
+      ]
+    },
+    {
+      "id": 117476855833,
+      "name": "Static checks (ubuntu-latest, Node 24)",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Unit and mocked adapter regressions (not native validation)",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Synthetic diagnostic contracts (not native fixtures)",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "JavaScript syntax",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Whitespace check",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        },
+        {
+          "name": "Build deterministic developer ZIP",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8
+        },
+        {
+          "name": "Verify archive allowlist and identity",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        },
+        {
+          "name": "Retain unsigned developer handoff (native validation pending)",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 20
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 21
+        }
+      ]
+    },
+    {
+      "id": 117476855852,
+      "name": "Static checks (windows-latest, Node 24)",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Unit and mocked adapter regressions (not native validation)",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Synthetic diagnostic contracts (not native fixtures)",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "JavaScript syntax",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Whitespace check",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        },
+        {
+          "name": "Build deterministic developer ZIP",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8
+        },
+        {
+          "name": "Verify archive allowlist and identity",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        },
+        {
+          "name": "Retain unsigned developer handoff (native validation pending)",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 10
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 20
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 21
+        }
+      ]
+    }
+  ],
+  "artifacts": [
+    {
+      "id": 12110902658,
+      "name": "audio-preflight-developer-candidate",
+      "size_in_bytes": 15287,
+      "url": "https://api.github.com/repos/Unn0wn002/Premiere-Audio-Routing-Integrity-Doctor/actions/artifacts/12110902658",
+      "archive_download_url": "https://api.github.com/repos/Unn0wn002/Premiere-Audio-Routing-Integrity-Doctor/actions/artifacts/12110902658/zip",
+      "expired": false,
+      "created_at": "2026-10-17T18:57:46Z",
+      "expires_at": "2026-10-31T18:57:46Z",
+      "updated_at": "2026-10-17T18:57:46Z",
+      "digest": "sha256:db3fb19763217e6034d95a49fa6c5993b1613d8c7b744dfa6f53c8b6ca7f8918",
+      "workflow_run": {
+        "id": 39060347426,
+        "repository_id": 1383529927,
+        "head_repository_id": 1383529927,
+        "head_branch": "codex/validated-beta-20261017",
+        "head_sha": "64e75e382cfee9626bb743d949f412d290f180e1"
+      },
+      "digestScope": "GitHub upload artifact container; not the inner developer ZIP SHA-256"
+    }
+  ],
+  "legacyCombinedStatuses": [],
+  "interpretation": "Workflow conclusion and all four matrix-job conclusions are success; package integrity and artifact upload also succeeded. The empty legacy statuses array alone is not success evidence.",
+  "qualification": "Static CI only. No native fixture execution, unchanged Premiere project state, or customer installation success is established by CI.",
+  "nativeValidation": "BLOCKED_NATIVE_VALIDATION"
+}

@@ -1,0 +1,249 @@
+Window: "Adobe UXP Developer Tools", App: Adobe UXP Developer Tools.exe.
+	0 pane Adobe UXP Developer Tools Secondary Actions: Raise
+		35 dialog Select the plugin's manifest.json file Secondary Actions: Raise
+			36 pane
+				37 tool bar Command Module ID: FolderBandModuleInner
+					38 button &Help Description: Get help. ID: HelpButton
+					39 check box Preview pane Description: Show the preview pane. ID: PreviewButton
+					40 split button Details Description: Change your view. ID: ViewControl
+						41 button View Slider Description: More options ID: SplitMenuButton
+					42 button Organize Description: Organize this folder's contents. ID: {7DDC1264-7E4D-4F74-BBC0-D191987C8D0F}
+					43 button New folder Description: Create a new folder. ID: {E44616AD-6DF1-4B94-85A4-E465AE8A19DB}
+				44 pane Control Host ID: ProperTreeHost
+					45 tree Navigation Pane ID: 100
+						46 scroll bar (settable, float) Vertical Value: 6 ID: NonClientVerticalScrollBar
+							47 button Line up ID: UpButton
+							48 button Page up ID: UpPageButton
+							49 thumb Position ID: ScrollbarThumb
+							50 button Page down ID: DownPageButton
+							51 button Line down ID: DownButton
+						52 tree item (selectable, settable, string) Desktop (OneDrive) Value: Desktop (OneDrive)
+							53 tree item (selectable, settable, string) Home Value: Home
+							54 tree item (selectable, settable, string) Gallery Value: Gallery
+							55 tree item (selectable, settable, string) Unn0wn - Personal (OneDrive) Value: Unn0wn - Personal (OneDrive)
+								56 tree item (selectable, settable, string) AppData (OneDrive) Value: AppData (OneDrive)
+								57 tree item (selectable, settable, string) Attachments (OneDrive) Value: Attachments (OneDrive)
+								58 tree item (selectable, settable, string) Creative Cloud Files (OneDrive) Value: Creative Cloud Files (OneDrive)
+								59 tree item (selectable, settable, string) Desktop (OneDrive) Value: Desktop (OneDrive)
+								60 tree item (selectable, settable, string) Documents (OneDrive) Value: Documents (OneDrive)
+								61 tree item (selectable, settable, string) Microsoft Copilot Chat Files (OneDrive) Value: Microsoft Copilot Chat Files (OneDrive)
+								62 tree item (selectable, settable, string) Pictures (OneDrive) Value: Pictures (OneDrive)
+							63 tree item (selectable, settable, string) Start of Quick Access - Desktop (pinned) Value: Start of Quick Access - Desktop (pinned)
+							64 tree item (selectable, settable, string) Downloads (pinned) Value: Downloads (pinned)
+							65 tree item (selectable, settable, string) Documents (pinned) Value: Documents (pinned)
+							66 tree item (selectable, settable, string) Pictures (pinned) Value: Pictures (pinned)
+							67 tree item (selectable, settable, string) Music (pinned) Value: Music (pinned)
+							68 tree item (selectable, settable, string) Videos (pinned) Value: Videos (pinned)
+							69 tree item (selectable, settable, string) Multimedia Value: Multimedia
+							70 tree item (selectable, settable, string) Kuliah Value: Kuliah
+							71 tree item (selectable, settable, string) UTS_KYOZORA_Paket_FINAL_13_Oktober_2026 Value: UTS_KYOZORA_Paket_FINAL_13_Oktober_2026
+							72 tree item (selectable, settable, string) End of Quick Access - Get Familiar Value: End of Quick Access - Get Familiar
+							73 tree item (selectable, settable, string) This PC Value: This PC
+							74 tree item (selectable, settable, string) Network Value: Network
+				75 pane Shell Folder View ID: listview
+					76 list Items View
+						77 header Header
+							78 split button Name ID: System.ItemNameDisplay
+								79 button Filter dropdown ID: DropDown
+							80 split button Date modified ID: System.DateModified
+								81 button Filter dropdown ID: DropDown
+							82 split button Type ID: System.ItemTypeText
+								83 button Filter dropdown ID: DropDown
+							84 split button Size ID: System.Size
+								85 button Filter dropdown ID: DropDown
+						86 group Earlier this week ID: 0
+							87 Group Header Earlier this week ID: UIGroupHeader
+								88 button Collapse Group ID: UIGroupButton
+								89 edit Name Value: Earlier this week ID: System.ItemNameDisplay
+							90 list item (selectable, settable, string) manifest Value: manifest ID: 0
+								91 edit (settable, string) Name Value: manifest ID: System.ItemNameDisplay
+								92 edit Date modified Value: ‎10/‎28/‎2026 ‏‎10:02 PM ID: System.DateModified
+								93 edit Type Value: JSON Source File ID: System.ItemTypeText
+								94 edit Size Value: 1 KB ID: System.Size
+							95 list item (selectable, settable, string) src Value: src ID: 1
+								96 edit (settable, string) Name Value: src ID: System.ItemNameDisplay
+								97 edit Date modified Value: ‎10/‎28/‎2026 ‏‎10:02 PM ID: System.DateModified
+								98 edit Type Value: File folder ID: System.ItemTypeText
+								99 edit Size ID: System.Size
+				100 tree Application Controls ID: AppControlsModuleInner
+			101 text File name: ID: 1090
+			102 combo box (settable, string) File name: ID: 1148
+				103 edit (settable, string) File name: ID: 1148
+				104 button Open ID: DropDown
+			105 combo box (settable, string) Files of type: Value: UXP Manifest File ID: 1136
+				106 text (settable, string) Files of type: Value: UXP Manifest File
+				107 button Open ID: DropDown
+			108 split button Open ID: 1
+				109 split button
+			110 button Cancel ID: 2
+			111 thumb (settable, float) Value: 0
+			112 pane ID: 40965
+				113 pane
+					114 tool bar Navigation buttons
+						115 button (disabled) Back (Alt + Left Arrow)
+						116 button (disabled) Forward (Alt + Right Arrow)
+						117 button (disabled) Recent locations
+				118 pane
+					119 tool bar Up band
+						120 button Up to "artifacts" (Alt + Up Arrow)
+				121 pane ID: 41477
+					122 progress bar Loading Value: 0
+						123 pane
+							124 tool bar Address: C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\artifacts\audio-preflight-0.2.1-037571056922 ID: 1001
+								125 split button All locations
+								126 split button ‎artifacts
+								127 split button ‎audio-preflight-0.2.1-037571056922
+						128 tool bar Address band
+							129 button Previous Locations
+							130 button Refresh "audio-preflight-0.2.1-037571056922" (F5)
+				131 pane
+					132 pane
+						133 pane
+							134 edit (settable, string) Search Box Description: Search audio-preflight-0.2.1-037571056922 ID: SearchEditBox
+							135 button Search ID: SearchBoxSearchButton
+			136 title bar (settable, string) Value: Select the plugin's manifest.json file
+				137 menu bar System ID: MenuBar
+					138 menu item System
+				139 button Close
+		20 document Value: file:///C:/Program%20Files/Adobe/Adobe%20UXP%20Developer%20Tools/resources/app.asar/dist/index.html ID: -151760784
+			21 tab udtWorkspace ID: react-aria2000788223-2
+				22 tab item (selectable) Developer Workspace ID: react-aria2000788223-2-tab-developerWorkspace
+				23 tab item (selectable) Playground ID: react-aria2000788223-2-tab-uxpPlayground
+			25 button
+			26 button ID: applicationLogsButton
+			27 button ID: preferenceButton
+			28 button ID: preferenceButton
+			29 text Your Developer Workspace helps you load and debug your plugins in development.
+			30 text You can get started by adding an existing plugin to your Workspace (click "Add Plugin" or drag plugin's manifest.json file here), or by creating a new plugin on the
+			31 link Adobe Developer Console
+			32 text .
+			33 button Add Plugin ID: emptyWorkspace_addPluginButton
+			34 button Create Plugin ID: emptyWorkspace_createPluginButton
+		19 pane (disabled)
+		2 title bar (settable, string) Value: Adobe UXP Developer Tools
+			3 menu bar System ID: MenuBar
+				4 menu item System
+			5 button Minimize
+			6 button Maximize
+			7 button Close
+		8 pane
+			9 pane
+			10 pane
+				11 pane
+					12 pane
+						13 menu item File
+						14 menu item Edit
+						15 menu item Actions
+						16 menu item View
+						17 menu item Help
+					18 pane
+		35 dialog Select the plugin's manifest.json file Secondary Actions: Raise
+			36 pane
+				37 tool bar Command Module ID: FolderBandModuleInner
+					38 button &Help Description: Get help. ID: HelpButton
+					39 check box Preview pane Description: Show the preview pane. ID: PreviewButton
+					40 split button Details Description: Change your view. ID: ViewControl
+						41 button View Slider Description: More options ID: SplitMenuButton
+					42 button Organize Description: Organize this folder's contents. ID: {7DDC1264-7E4D-4F74-BBC0-D191987C8D0F}
+					43 button New folder Description: Create a new folder. ID: {E44616AD-6DF1-4B94-85A4-E465AE8A19DB}
+				44 pane Control Host ID: ProperTreeHost
+					45 tree Navigation Pane ID: 100
+						46 scroll bar (settable, float) Vertical Value: 6 ID: NonClientVerticalScrollBar
+							47 button Line up ID: UpButton
+							48 button Page up ID: UpPageButton
+							49 thumb Position ID: ScrollbarThumb
+							50 button Page down ID: DownPageButton
+							51 button Line down ID: DownButton
+						52 tree item (selectable, settable, string) Desktop (OneDrive) Value: Desktop (OneDrive)
+							53 tree item (selectable, settable, string) Home Value: Home
+							54 tree item (selectable, settable, string) Gallery Value: Gallery
+							55 tree item (selectable, settable, string) Unn0wn - Personal (OneDrive) Value: Unn0wn - Personal (OneDrive)
+								56 tree item (selectable, settable, string) AppData (OneDrive) Value: AppData (OneDrive)
+								57 tree item (selectable, settable, string) Attachments (OneDrive) Value: Attachments (OneDrive)
+								58 tree item (selectable, settable, string) Creative Cloud Files (OneDrive) Value: Creative Cloud Files (OneDrive)
+								59 tree item (selectable, settable, string) Desktop (OneDrive) Value: Desktop (OneDrive)
+								60 tree item (selectable, settable, string) Documents (OneDrive) Value: Documents (OneDrive)
+								61 tree item (selectable, settable, string) Microsoft Copilot Chat Files (OneDrive) Value: Microsoft Copilot Chat Files (OneDrive)
+								62 tree item (selectable, settable, string) Pictures (OneDrive) Value: Pictures (OneDrive)
+							63 tree item (selectable, settable, string) Start of Quick Access - Desktop (pinned) Value: Start of Quick Access - Desktop (pinned)
+							64 tree item (selectable, settable, string) Downloads (pinned) Value: Downloads (pinned)
+							65 tree item (selectable, settable, string) Documents (pinned) Value: Documents (pinned)
+							66 tree item (selectable, settable, string) Pictures (pinned) Value: Pictures (pinned)
+							67 tree item (selectable, settable, string) Music (pinned) Value: Music (pinned)
+							68 tree item (selectable, settable, string) Videos (pinned) Value: Videos (pinned)
+							69 tree item (selectable, settable, string) Multimedia Value: Multimedia
+							70 tree item (selectable, settable, string) Kuliah Value: Kuliah
+							71 tree item (selectable, settable, string) UTS_KYOZORA_Paket_FINAL_13_Oktober_2026 Value: UTS_KYOZORA_Paket_FINAL_13_Oktober_2026
+							72 tree item (selectable, settable, string) End of Quick Access - Get Familiar Value: End of Quick Access - Get Familiar
+							73 tree item (selectable, settable, string) This PC Value: This PC
+							74 tree item (selectable, settable, string) Network Value: Network
+				75 pane Shell Folder View ID: listview
+					76 list Items View
+						77 header Header
+							78 split button Name ID: System.ItemNameDisplay
+								79 button Filter dropdown ID: DropDown
+							80 split button Date modified ID: System.DateModified
+								81 button Filter dropdown ID: DropDown
+							82 split button Type ID: System.ItemTypeText
+								83 button Filter dropdown ID: DropDown
+							84 split button Size ID: System.Size
+								85 button Filter dropdown ID: DropDown
+						86 group Earlier this week ID: 0
+							87 Group Header Earlier this week ID: UIGroupHeader
+								88 button Collapse Group ID: UIGroupButton
+								89 edit Name Value: Earlier this week ID: System.ItemNameDisplay
+							90 list item (selectable, settable, string) manifest Value: manifest ID: 0
+								91 edit (settable, string) Name Value: manifest ID: System.ItemNameDisplay
+								92 edit Date modified Value: ‎10/‎28/‎2026 ‏‎10:02 PM ID: System.DateModified
+								93 edit Type Value: JSON Source File ID: System.ItemTypeText
+								94 edit Size Value: 1 KB ID: System.Size
+							95 list item (selectable, settable, string) src Value: src ID: 1
+								96 edit (settable, string) Name Value: src ID: System.ItemNameDisplay
+								97 edit Date modified Value: ‎10/‎28/‎2026 ‏‎10:02 PM ID: System.DateModified
+								98 edit Type Value: File folder ID: System.ItemTypeText
+								99 edit Size ID: System.Size
+				100 tree Application Controls ID: AppControlsModuleInner
+			101 text File name: ID: 1090
+			102 combo box (settable, string) File name: ID: 1148
+				103 edit (settable, string) File name: ID: 1148
+				104 button Open ID: DropDown
+			105 combo box (settable, string) Files of type: Value: UXP Manifest File ID: 1136
+				106 text (settable, string) Files of type: Value: UXP Manifest File
+				107 button Open ID: DropDown
+			108 split button Open ID: 1
+				109 split button
+			110 button Cancel ID: 2
+			111 thumb (settable, float) Value: 0
+			112 pane ID: 40965
+				113 pane
+					114 tool bar Navigation buttons
+						115 button (disabled) Back (Alt + Left Arrow)
+						116 button (disabled) Forward (Alt + Right Arrow)
+						117 button (disabled) Recent locations
+				118 pane
+					119 tool bar Up band
+						120 button Up to "artifacts" (Alt + Up Arrow)
+				121 pane ID: 41477
+					122 progress bar Loading Value: 0
+						123 pane
+							124 tool bar Address: C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\artifacts\audio-preflight-0.2.1-037571056922 ID: 1001
+								125 split button All locations
+								126 split button ‎artifacts
+								127 split button ‎audio-preflight-0.2.1-037571056922
+						128 tool bar Address band
+							129 button Previous Locations
+							130 button Refresh "audio-preflight-0.2.1-037571056922" (F5)
+				131 pane
+					132 pane
+						133 pane
+							134 edit (settable, string) Search Box Description: Search audio-preflight-0.2.1-037571056922 ID: SearchEditBox
+							135 button Search ID: SearchBoxSearchButton
+			136 title bar (settable, string) Value: Select the plugin's manifest.json file
+				137 menu bar System ID: MenuBar
+					138 menu item System
+				139 button Close
+
+Document text: ```
+Developer Workspace  Playground            Add Plugins to your Workspace Your Developer Workspace helps you load and debug your plugins in development.
+You can get started by adding an existing plugin to your Workspace (click "Add Plugin" or drag plugin's manifest.json file here), or by creating a new plugin on the  Adobe Developer Console. Add Plugin   Create Plugin
+```

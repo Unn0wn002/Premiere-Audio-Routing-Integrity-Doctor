@@ -1,0 +1,119 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Audio Preflight report</title><style>body{font:16px system-ui;max-width:960px;margin:32px auto;padding:0 20px}article{border:1px solid #bbb;padding:16px;margin:12px 0}small{color:#555}pre{white-space:pre-wrap;overflow-wrap:anywhere}</style></head><body><h1>Audio Preflight</h1><p>Bounded scan completed. Routing and audio output require manual verification. Diagnostic status: COMPLETE.</p><p>Project: Boundary_B_Empty_20261030.prproj | 2026-10-30T14:56:12.781Z | Duration: 3 ms</p><p>premierepro 26.5.2 · UXP uxp-9.3.0-local · plugin 0.2.1 · locale en_US</p><p>Observation coverage COMPLETE · sequences: 0/0 known (COMPLETE) · tracks: 0/0 known (COMPLETE) · clips: 0/0 known (COMPLETE) · components: 0/0 known (COMPLETE). Mapping, output buses and playback/export correctness: UNKNOWN.</p><p>Read-only review. Intent is unknown. No routing or playback/export certification. Reports may contain project paths and names; review before sharing.</p><h2>Boundary_B_Empty_20261030.prproj</h2><article><strong>Unknown · ARID-U01</strong><p>Boundary_B_Empty_20261030.prproj</p><p>Final Audio Track Mixer output-bus routing topology is not established by this probe.</p><p>The current public-observable probe does not establish this state.</p><p>Verify manually in Premiere until a supported public API is proven in host testing.</p><small>Confidence: UNKNOWN_CANNOT_VERIFY | Review: unreviewed</small></article><article><strong>Unknown · ARID-U02</strong><p>Boundary_B_Empty_20261030.prproj</p><p>Modify &gt; Audio Channels source-channel mapping is not established by this probe.</p><p>The current public-observable probe does not establish this state.</p><p>Verify manually in Premiere until a supported public API is proven in host testing.</p><small>Confidence: UNKNOWN_CANNOT_VERIFY | Review: unreviewed</small></article><article><strong>Unknown · ARID-U03</strong><p>Boundary_B_Empty_20261030.prproj</p><p>End-to-end playback/export correctness is not established by DOM observation alone.</p><p>The current public-observable probe does not establish this state.</p><p>Verify manually in Premiere until a supported public API is proven in host testing.</p><small>Confidence: UNKNOWN_CANNOT_VERIFY | Review: unreviewed</small></article><h2>Raw evidence</h2><pre>{
+  &quot;reportVersion&quot;: &quot;1.0.0&quot;,
+  &quot;observation&quot;: {
+    &quot;schemaVersion&quot;: &quot;0.3.0&quot;,
+    &quot;completion&quot;: &quot;completed&quot;,
+    &quot;scanTraversalComplete&quot;: true,
+    &quot;durationMs&quot;: 3,
+    &quot;sequenceInventoryComplete&quot;: true,
+    &quot;sequenceCount&quot;: 0,
+    &quot;verification&quot;: &quot;HOST OBSERVATION WHEN EXECUTED IN PREMIERE&quot;,
+    &quot;generatedAt&quot;: &quot;2026-10-30T14:56:12.781Z&quot;,
+    &quot;host&quot;: {
+      &quot;name&quot;: &quot;premierepro&quot;,
+      &quot;version&quot;: &quot;26.5.2&quot;,
+      &quot;uiLocale&quot;: &quot;en_US&quot;,
+      &quot;uxpVersion&quot;: &quot;uxp-9.3.0-local&quot;,
+      &quot;pluginVersion&quot;: &quot;0.2.1&quot;
+    },
+    &quot;project&quot;: {
+      &quot;name&quot;: &quot;Boundary_B_Empty_20261030.prproj&quot;,
+      &quot;path&quot;: &quot;\\\\?\\C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\Boundary_B_Empty_20261030.prproj&quot;,
+      &quot;guid&quot;: &quot;28c1420f-0131-45ed-8b46-068afd51d829&quot;
+    },
+    &quot;sequences&quot;: [],
+    &quot;unknowns&quot;: [
+      &quot;Final Audio Track Mixer output-bus routing topology is not established by this probe.&quot;,
+      &quot;Modify &gt; Audio Channels source-channel mapping is not established by this probe.&quot;,
+      &quot;End-to-end playback/export correctness is not established by DOM observation alone.&quot;
+    ],
+    &quot;errors&quot;: []
+  },
+  &quot;diagnostics&quot;: {
+    &quot;schemaVersion&quot;: &quot;0.3.0&quot;,
+    &quot;completion&quot;: &quot;completed&quot;,
+    &quot;status&quot;: &quot;COMPLETE&quot;,
+    &quot;coverage&quot;: {
+      &quot;state&quot;: &quot;COMPLETE&quot;,
+      &quot;project&quot;: {
+        &quot;status&quot;: &quot;COMPLETE&quot;,
+        &quot;expected&quot;: 1,
+        &quot;observed&quot;: 1,
+        &quot;known&quot;: 1,
+        &quot;unknown&quot;: 0
+      },
+      &quot;sequences&quot;: {
+        &quot;status&quot;: &quot;COMPLETE&quot;,
+        &quot;expected&quot;: 0,
+        &quot;observed&quot;: 0,
+        &quot;known&quot;: 0,
+        &quot;unknown&quot;: 0
+      },
+      &quot;tracks&quot;: {
+        &quot;status&quot;: &quot;COMPLETE&quot;,
+        &quot;expected&quot;: 0,
+        &quot;observed&quot;: 0,
+        &quot;known&quot;: 0,
+        &quot;unknown&quot;: 0
+      },
+      &quot;clips&quot;: {
+        &quot;status&quot;: &quot;COMPLETE&quot;,
+        &quot;expected&quot;: 0,
+        &quot;observed&quot;: 0,
+        &quot;known&quot;: 0,
+        &quot;unknown&quot;: 0
+      },
+      &quot;components&quot;: {
+        &quot;status&quot;: &quot;COMPLETE&quot;,
+        &quot;expected&quot;: 0,
+        &quot;observed&quot;: 0,
+        &quot;known&quot;: 0,
+        &quot;unknown&quot;: 0
+      },
+      &quot;failedReads&quot;: 0,
+      &quot;capabilities&quot;: {
+        &quot;sourceChannelMapping&quot;: &quot;UNKNOWN&quot;,
+        &quot;outputBusTopology&quot;: &quot;UNKNOWN&quot;,
+        &quot;playbackExportCorrectness&quot;: &quot;UNKNOWN&quot;
+      }
+    },
+    &quot;risk&quot;: [],
+    &quot;information&quot;: [],
+    &quot;unknown&quot;: [
+      {
+        &quot;ruleId&quot;: &quot;ARID-U01&quot;,
+        &quot;severity&quot;: &quot;Unknown&quot;,
+        &quot;confidence&quot;: &quot;UNKNOWN_CANNOT_VERIFY&quot;,
+        &quot;location&quot;: {
+          &quot;project&quot;: &quot;Boundary_B_Empty_20261030.prproj&quot;
+        },
+        &quot;observed&quot;: &quot;Final Audio Track Mixer output-bus routing topology is not established by this probe.&quot;,
+        &quot;why&quot;: &quot;The current public-observable probe does not establish this state.&quot;,
+        &quot;remediation&quot;: &quot;Verify manually in Premiere until a supported public API is proven in host testing.&quot;
+      },
+      {
+        &quot;ruleId&quot;: &quot;ARID-U02&quot;,
+        &quot;severity&quot;: &quot;Unknown&quot;,
+        &quot;confidence&quot;: &quot;UNKNOWN_CANNOT_VERIFY&quot;,
+        &quot;location&quot;: {
+          &quot;project&quot;: &quot;Boundary_B_Empty_20261030.prproj&quot;
+        },
+        &quot;observed&quot;: &quot;Modify &gt; Audio Channels source-channel mapping is not established by this probe.&quot;,
+        &quot;why&quot;: &quot;The current public-observable probe does not establish this state.&quot;,
+        &quot;remediation&quot;: &quot;Verify manually in Premiere until a supported public API is proven in host testing.&quot;
+      },
+      {
+        &quot;ruleId&quot;: &quot;ARID-U03&quot;,
+        &quot;severity&quot;: &quot;Unknown&quot;,
+        &quot;confidence&quot;: &quot;UNKNOWN_CANNOT_VERIFY&quot;,
+        &quot;location&quot;: {
+          &quot;project&quot;: &quot;Boundary_B_Empty_20261030.prproj&quot;
+        },
+        &quot;observed&quot;: &quot;End-to-end playback/export correctness is not established by DOM observation alone.&quot;,
+        &quot;why&quot;: &quot;The current public-observable probe does not establish this state.&quot;,
+        &quot;remediation&quot;: &quot;Verify manually in Premiere until a supported public API is proven in host testing.&quot;
+      }
+    ]
+  },
+  &quot;annotations&quot;: {}
+}</pre></body></html>

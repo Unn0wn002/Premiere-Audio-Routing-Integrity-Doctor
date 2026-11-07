@@ -1,0 +1,10 @@
+{
+  "recordedAt": "2026-10-17T18:54:04.283Z",
+  "attempt": "Open disposable project via Ctrl+O",
+  "state": "Open Project dialog visible; no project opened",
+  "expected": "File name edit focus and set_value accept disposable path",
+  "actual": "Returned edit indexes 434/433 rejected as unavailable in cached app state for Adobe Premiere Pro.exe; fresh activation/rebinding, Alt+n, screenshot-based filename clicks retained conflicting Search Box focus",
+  "recovery": "Fresh list_windows returned only main Premiere and UDT, no separately bindable owned file dialog. Did not type into unverified focus.",
+  "evidence": "native-project-picker-blocker.png",
+  "scope": "Host-control blocker; no fixture observation or native pass"
+}

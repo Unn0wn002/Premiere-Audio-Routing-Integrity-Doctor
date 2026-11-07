@@ -1,0 +1,1 @@
+Package differs from staging receipt: manifest.json

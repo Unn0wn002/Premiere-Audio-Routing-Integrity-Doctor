@@ -1,0 +1,22 @@
+{
+  "recordType": "static-native-evidence-parser-input-regression",
+  "branch": "codex/validated-beta-20261017",
+  "verificationBaseHead": "58483f5",
+  "runtimeSourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "nativeExecutionPerformed": false,
+  "parser": "reports/verification-20261017/review-native-exports.cjs",
+  "check": "Original F02 R1 export and its byte-identical retained copy passed as two inputs must not count as two physical scans.",
+  "inputs": [
+    "reports/beta-20261004/audio-preflight-2026-10-18T04-44-36-320Z.json",
+    "reports/verification-20261017/F02-R1-current-export.json"
+  ],
+  "singleInput": {"exitCode": 0, "diagnosticReplayAgrees": true},
+  "duplicateAliases": {
+    "expectedExitCode": 1,
+    "actualExitCode": 1,
+    "message": "Duplicate physical native report across inputs (scan timestamp + stable observation/diagnostic identity)"
+  },
+  "result": "PASS",
+  "limit": "This is parser input validation against retained native bytes, not another host execution. Batch-specific duplicate identifiers will also be checked when a genuine batch is first available."
+}

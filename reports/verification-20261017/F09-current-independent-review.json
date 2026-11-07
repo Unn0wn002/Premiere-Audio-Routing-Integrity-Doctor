@@ -1,0 +1,103 @@
+{
+  "recordType": "independent-current-native-fixture-review",
+  "fixture": "F09",
+  "sourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "executionDate": "2026-10-18",
+  "timezone": "Asia/Jakarta",
+  "scope": {
+    "project": "ARID_Disposable_20261018.prproj",
+    "sequence": "F09 Actual Multichannel4",
+    "sequenceGuid": "9c2671d2-cc02-4005-988d-350951e9a7b2",
+    "sequenceOccurrenceIndex": 2,
+    "tracks": [{"name":"Audio 1","id":"2","index":0},{"name":"Audio 2","id":"3","index":1},{"name":"Audio 3","id":"4","index":2},{"name":"Audio 4","id":"5","index":3}],
+    "clip": "ARID_20261018_four_channel.wav",
+    "clipOccurrenceIndexPerTrack": 0,
+    "clipStart": {"ticks":"0","seconds":0},
+    "clipEnd": {"ticks":"752215464000","seconds":2.961291666666667}
+  },
+  "independentUiTruth": {
+    "method": "Analysis agent independently viewed before/after Settings, all four populated track M controls, linked clip selection/Enable menus and the import filename path. Created sequence is Multichannel / 4 / 48000 Hz. All four linked mono occurrences are enabled on unmuted A1-A4; operator reports no intervening setup edits.",
+    "channelFormat": "Multichannel",
+    "channelCount": 4,
+    "sampleRateHz": 48000,
+    "trackMute": [false,false,false,false],
+    "clipEnabled": [true,true,true,true],
+    "layout": "One four-channel source imported as four linked mono occurrences across A1-A4, one per track, with visible Ch.1-Ch.4 labels. This is the exercised layout, not a single multichannel track item.",
+    "contentAssociation": {
+      "importedFile":"reports/beta-20261004/ARID_20261018_four_channel.wav",
+      "associationEvidence":"F09-source-import-path-current.png shows the exact copied file path suffix in the observed Import filename field; timeline/Effect Controls show the imported four-channel source as four linked channel occurrences.",
+      "staticHeaderReview":"native-fixture-asset-independent-review.json",
+      "sha256":"283f645ab0f64dda448bdd6fa9be01d2c4e27ee6bd2a604ff5834aacaad8a1aa",
+      "sourceChannels":4,
+      "sourceDurationSeconds":3
+    },
+    "beforeEvidence":["F09-create-multichannel4-current.png","F09-settings-before-current.png","F09-source-import-path-current.png","F09-content-enabled-before-current.png","F09-four-tracks-unmuted-before-current.png"],
+    "afterEvidence":["F09-four-tracks-unmuted-after-current.png","F09-content-enabled-after-current.png","F09-settings-after-current.png"],
+    "truthLimit":"Settings establish actual Multichannel4 independently of its name. Source headers and linked channel labels do not prove source-channel mapping, output-bus topology, or playback/export correctness. The stale F03/F04 panel report is not F09 batch evidence."
+  },
+  "expectedActual": {
+    "expected":"ARID-I01 records Multichannel4 without a risk solely for the layout. Four enabled channel occurrences on active tracks do not produce ARID-001/002/003. Mapping, output buses and playback/export remain Unknown.",
+    "actual":"All three indexed reports record type3/count4/48000 Hz at the new sequence GUID and four enabled, unmuted track occurrences at the exact locators. No risk findings, three boundary Unknowns and zero failed reads.",
+    "agreement":true,
+    "configurationObservationAgreement":true,
+    "exportAnalysis":"F09-three-runs-independent-export-review.json"
+  },
+  "observedCurrentEvidence": {
+    "runs":3,
+    "physicalSetupId":"F09-actual-Multichannel4-linked-mono-content",
+    "physicalRunIds":["F09-2026-10-18T14-26-28-636Z-8a20e6:1","F09-2026-10-18T14-26-28-636Z-8a20e6:2","F09-2026-10-18T14-26-28-636Z-8a20e6:3"],
+    "executionMethod":"UDT_CONSOLE_STAGED_ADAPTER_SEQUENTIAL_NATIVE_READS",
+    "executionMethodLimit":"Actual frozen staged adapter/diagnostic/report execution in host, with independent UI truth. Panel controls/export/overlap guard are not exercised by this helper.",
+    "durationMs":[33,33,33],
+    "diagnosticStatus":"COMPLETE",
+    "failedReads":0,
+    "wholeProjectCoverage":{"sequences":4,"tracks":15,"clips":7,"components":18},
+    "riskRuleCounts":{"ARID-001":0,"ARID-002":0,"ARID-003":0},
+    "unknownBoundaryFindings":3,
+    "strictDocumentedShapes":"Four FrameRates and all 160 Keyframes valid per report; no animated parameter/keyframe-time paths exercised.",
+    "rawParent": {
+      "file":"F09-native-repeat-batch-export.json",
+      "original":"reports/beta-20261004/arid-native-F09-2026-10-18T14-26-28-636Z-8a20e6.json",
+      "bytes":474611,
+      "sha256":"daed241b5f1e79d05d53fb1d92ad884577baab64856b9c84004636604dfc740c",
+      "originalAndRetainedBytesEqual":true,
+      "helperVersion":"1.0.1",
+      "executionStatus":"THREE_REPORTS_COLLECTED",
+      "scanAttempts":3,
+      "actualRetainedReports":3,
+      "limit":"One whole parent was exported; embedded reports were not separately host-exported or reconstructed into standalone JSON files."
+    },
+    "repeatability": {
+      "observationFieldsStable":true,
+      "diagnosticsStable":true,
+      "diagnosticReplayAgreesAllRuns":true,
+      "excludedObservationFields":["generatedAt","durationMs"],
+      "stableObservationSha256":"817806eb202fc46c3736b4bdb504214ae475abe6a180f749fcfa42c8c00d83e1",
+      "stableDiagnosticSha256":"81217adaa7757d07ffa6122e7e2f3d01ee8510fafc46c4cf51ecee1a1453c93a",
+      "medianDurationMs":33,
+      "rawExports":["F09-native-repeat-batch-export.json"],
+      "rawReportReferences":[
+        {"source":"F09-native-repeat-batch-export.json","parentSha256":"daed241b5f1e79d05d53fb1d92ad884577baab64856b9c84004636604dfc740c","reportJsonPointer":"/runs/0/report","runId":"F09-2026-10-18T14-26-28-636Z-8a20e6:1"},
+        {"source":"F09-native-repeat-batch-export.json","parentSha256":"daed241b5f1e79d05d53fb1d92ad884577baab64856b9c84004636604dfc740c","reportJsonPointer":"/runs/1/report","runId":"F09-2026-10-18T14-26-28-636Z-8a20e6:2"},
+        {"source":"F09-native-repeat-batch-export.json","parentSha256":"daed241b5f1e79d05d53fb1d92ad884577baab64856b9c84004636604dfc740c","reportJsonPointer":"/runs/2/report","runId":"F09-2026-10-18T14-26-28-636Z-8a20e6:3"}
+      ],
+      "timingLimit":"Three sequential native adapter reads, with plugin-reported durations; no panel-interaction, save-wall-clock or broad performance claim."
+    },
+    "reopen":null,
+    "inspectedStateUnchanged": {
+      "settingsMultichannel4SampleRateUi":true,
+      "fourLinkedClipEnableAndTrackMuteUi":true,
+      "allObservedRawFields":true,
+      "evidence":["F09-settings-before-current.png","F09-settings-after-current.png","F09-content-enabled-before-current.png","F09-content-enabled-after-current.png","F09-four-tracks-unmuted-before-current.png","F09-four-tracks-unmuted-after-current.png"],
+      "limit":"Inspected Multichannel4/48000 Settings and linked clip Enable/M states remain unchanged. Stable collected raw fields do not prove all project properties or signal/output correctness."
+    }
+  },
+  "observableFixtureMetrics": {
+    "TP":0,"FP":0,"FN":0,
+    "observableEvaluatedFixtures":1,
+    "positiveObservableRiskConditions":0,
+    "interpretation":"One native negative-control setup for configuration-only Multichannel4 reporting. Configuration agreement is separate; mapping/output Unknowns and absent positive ARID risk conditions do not establish sensitivity."
+  },
+  "disposition":"THREE_NATIVE_ADAPTER_OBSERVATIONS_MATCHED_AND_STABLE; actual Multichannel4/linked mono content and inspected UI preserved; reopen pending"
+}

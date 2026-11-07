@@ -1,0 +1,98 @@
+{
+  "recordType":"independent-current-native-fixture-review",
+  "fixture":"F10",
+  "sourceGitSha":"64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity":"7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "executionDate":"2026-10-18",
+  "timezone":"Asia/Jakarta",
+  "scope": {
+    "project":"ARID_Disposable_20261018.prproj",
+    "sequence":"F09 Actual Multichannel4",
+    "sequenceGuid":"9c2671d2-cc02-4005-988d-350951e9a7b2",
+    "sequenceOccurrenceIndex":2,
+    "source":"ARID_20261018_four_channel.wav",
+    "projectItemSetting":"Modify > Audio Channels",
+    "sourceChannelAssignmentsOriginal":[1,2,3,4],
+    "sourceChannelAssignmentsAuthored":[2,1,3,4]
+  },
+  "independentUiTruth": {
+    "method":"Analysis agent independently viewed original, authored, reopened-before and post-scan Modify Clip Audio Channels screenshots. Original Use File matrix [1,2,3,4] becomes Custom [2,1,3,4]; Clip Channel Format Mono, four audio clips, Apply changes to all matching clips in sequences checked. Operator applied the change, reopened before scanning, and canceled subsequent inspections without edits.",
+    "clipChannelFormat":"Mono",
+    "audioClipCount":4,
+    "authoredSourceChannelPerClip":[2,1,3,4],
+    "applyToMatchingSequenceClips":true,
+    "declaredTestIntent":"Deliberate source-channel swap of the first two channel assignments, not an asserted creative error.",
+    "beforeEvidence":["F10-mapping-original-current.png","F10-mapping-authored-current.png","F10-mapping-before-current.png"],
+    "afterEvidence":["F10-mapping-after-current.png"],
+    "truthLimit":"The UI proves this particular project-source assignment state. It does not establish that the plugin observes source mapping, that output buses are correct, or that playback/export is correct. The stale panel is not F10 scan evidence."
+  },
+  "expectedActual": {
+    "expected":"Source-channel mapping remains explicitly Unknown; no unsupported mapping or full-output correctness claim. Preserve independently authored mapping state during read-only scans.",
+    "actual":"Every indexed native report retains sourceChannelMapping UNKNOWN and ARID-U02, outputBusTopology UNKNOWN and playbackExportCorrectness UNKNOWN. No risk findings. Collected raw observation fields and diagnostics match the F09 baseline despite the independently verified UI mapping change, so this probe does not distinguish that change.",
+    "agreement":true,
+    "sourceMappingCoverage":"UNKNOWN",
+    "mappingObservationAgreement":null,
+    "unsupportedMappingOrOutputAssertionObserved":false,
+    "exportAnalysis":"F10-three-runs-independent-export-review.json"
+  },
+  "observedCurrentEvidence": {
+    "runs":3,
+    "physicalSetupId":"F10-intentional-project-source-channel-swap",
+    "physicalRunIds":["F10-2026-10-18T14-32-35-819Z-cb4172:1","F10-2026-10-18T14-32-35-819Z-cb4172:2","F10-2026-10-18T14-32-35-819Z-cb4172:3"],
+    "executionMethod":"UDT_CONSOLE_STAGED_ADAPTER_SEQUENTIAL_NATIVE_READS",
+    "executionMethodLimit":"Actual frozen staged adapter/diagnostic/report execution in host; panel controls/export/overlap guard not exercised by helper.",
+    "durationMs":[37,35,36],
+    "diagnosticStatus":"COMPLETE",
+    "failedReads":0,
+    "wholeProjectCoverage":{"sequences":4,"tracks":15,"clips":7,"components":18},
+    "riskRuleCounts":{"ARID-001":0,"ARID-002":0,"ARID-003":0},
+    "unknownBoundaryFindings":3,
+    "strictDocumentedShapes":"Four FrameRates and all 160 Keyframes valid per report; no animated parameter/keyframe-time paths exercised.",
+    "rawParent": {
+      "file":"F10-native-repeat-batch-export.json",
+      "original":"reports/beta-20261004/arid-native-F10-2026-10-18T14-32-35-819Z-cb4172.json",
+      "bytes":474640,
+      "sha256":"d953e324c48e45caa03792bc7359353d5393b677e623b035a681a9fd4a77cf11",
+      "originalAndRetainedBytesEqual":true,
+      "helperVersion":"1.0.1",
+      "executionStatus":"THREE_REPORTS_COLLECTED",
+      "scanAttempts":3,
+      "actualRetainedReports":3,
+      "limit":"One whole native parent retained; embedded report envelopes are referenced by pointer, not represented as separate host-exported JSON files."
+    },
+    "repeatability": {
+      "observationFieldsStable":true,
+      "diagnosticsStable":true,
+      "diagnosticReplayAgreesAllRuns":true,
+      "excludedObservationFields":["generatedAt","durationMs"],
+      "stableObservationSha256":"817806eb202fc46c3736b4bdb504214ae475abe6a180f749fcfa42c8c00d83e1",
+      "stableDiagnosticSha256":"81217adaa7757d07ffa6122e7e2f3d01ee8510fafc46c4cf51ecee1a1453c93a",
+      "medianDurationMs":36,
+      "f09BaselineObservationAndDiagnosticsEqual":true,
+      "f09BaselineComparisonLimit":"Equality while UI mapping differs demonstrates this probe's limited observability; it is not evidence that mapping did not change or that output is correct.",
+      "rawExports":["F10-native-repeat-batch-export.json"],
+      "rawReportReferences":[
+        {"source":"F10-native-repeat-batch-export.json","parentSha256":"d953e324c48e45caa03792bc7359353d5393b677e623b035a681a9fd4a77cf11","reportJsonPointer":"/runs/0/report","runId":"F10-2026-10-18T14-32-35-819Z-cb4172:1"},
+        {"source":"F10-native-repeat-batch-export.json","parentSha256":"d953e324c48e45caa03792bc7359353d5393b677e623b035a681a9fd4a77cf11","reportJsonPointer":"/runs/1/report","runId":"F10-2026-10-18T14-32-35-819Z-cb4172:2"},
+        {"source":"F10-native-repeat-batch-export.json","parentSha256":"d953e324c48e45caa03792bc7359353d5393b677e623b035a681a9fd4a77cf11","reportJsonPointer":"/runs/2/report","runId":"F10-2026-10-18T14-32-35-819Z-cb4172:3"}
+      ],
+      "timingLimit":"Three sequential native reads with plugin-reported traversal durations; no UI wall-clock or broad performance claim."
+    },
+    "reopen":null,
+    "inspectedStateUnchanged": {
+      "authoredMappingMatrixUi":true,
+      "applyToMatchingCheckboxUi":true,
+      "allObservedRawFields":true,
+      "evidence":["F10-mapping-before-current.png","F10-mapping-after-current.png"],
+      "limit":"Independently inspected mapping state and Apply checkbox are unchanged before/after; raw observation stability does not verify mapping or all project/output state."
+    }
+  },
+  "observableFixtureMetrics": {
+    "TP":null,"FP":null,"FN":null,
+    "observableEvaluatedFixtures":0,
+    "positiveObservableRiskConditions":0,
+    "unknownFixtureConditions":1,
+    "interpretation":"The authored mapping condition is Unknown to this probe and is separately reported, not scored as mapping TP/FP/FN or added to the risk-condition setup denominator. COMPLETE traversal and absence of risks do not imply correct mapping/output."
+  },
+  "disposition":"THREE_NATIVE_ADAPTER_OBSERVATIONS_STABLE_WITH_EXPLICIT_MAPPING_UNKNOWN; authored mapping UI preserved; reopen pending"
+}

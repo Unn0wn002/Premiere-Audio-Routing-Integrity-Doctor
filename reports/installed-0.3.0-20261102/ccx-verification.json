@@ -1,0 +1,62 @@
+﻿{
+    "verifiedAt":  "2026-11-02T12:48:59.5352360Z",
+    "pluginId":  "com.unn0wn002.audio-preflight.beta",
+    "version":  "0.3.0",
+    "stagingIdentity":  "38a3997af84e6baf4ca60cef3fc41cc3f2f79dc2a6ebb9a642b0a4a646e2e9cf",
+    "source":  {
+                   "branch":  "release/package-0.3.0-20261102",
+                   "commit":  "3feb14b7fff70ae8b0618331962c7854a1d9ca66",
+                   "workingTreeDirty":  false
+               },
+    "package":  "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\artifacts\\ccx-0.3.0-38a3997af84e\\com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+    "packageSha256":  "fb61d5deeb330ec8ecbe6f32f99306af939ef69cf407990a12069b76eec1dcea",
+    "developerArchiveHashMatches":  false,
+    "runtimeMatchesStaging":  true,
+    "nativeValidation":  "NOT_ESTABLISHED_BY_PACKAGING",
+    "installationQualified":  false,
+    "qualification":  "Archive integrity only; no native or installation qualification",
+    "files":  [
+                  {
+                      "file":  "manifest.json",
+                      "sha256":  "77161a6e0ade34eeb79b395dc49ced3a72365f9e91def2d8bce387390d54db2a",
+                      "exactBytes":  false,
+                      "manifestValuesEqual":  true
+                  },
+                  {
+                      "file":  "index.html",
+                      "sha256":  "40b98d2c8e8dc948b844b99adac0314bbee67cdf6d5f10d5cc4007cf1e533203",
+                      "exactBytes":  true,
+                      "manifestValuesEqual":  null
+                  },
+                  {
+                      "file":  "index.js",
+                      "sha256":  "a9d7cb5a836354af25a915b3c1b2f73231fe0107db39988f18222196ab83b0a9",
+                      "exactBytes":  true,
+                      "manifestValuesEqual":  null
+                  },
+                  {
+                      "file":  "src/premiereAdapter.js",
+                      "sha256":  "1e6fe0bdf69b31f3065c7ba3a5779e00a1cb75f3527b583e35cb2ecf424006d1",
+                      "exactBytes":  true,
+                      "manifestValuesEqual":  null
+                  },
+                  {
+                      "file":  "src/diagnostics.js",
+                      "sha256":  "5ee7db940f0581fb687a3c6103f61b1f04b59fcb3c2d9034535062d3432ded90",
+                      "exactBytes":  true,
+                      "manifestValuesEqual":  null
+                  },
+                  {
+                      "file":  "src/valueSerializer.js",
+                      "sha256":  "3c874ee7243f30a66215fa3f1d6a5ee65bd18c0dd5a21dbaf59e17b3f787fc4a",
+                      "exactBytes":  true,
+                      "manifestValuesEqual":  null
+                  },
+                  {
+                      "file":  "src/report.js",
+                      "sha256":  "6e26c723e34b7978f5f99a10e635ea15352c99cfac17c3715f98855e70e345c7",
+                      "exactBytes":  true,
+                      "manifestValuesEqual":  null
+                  }
+              ]
+}

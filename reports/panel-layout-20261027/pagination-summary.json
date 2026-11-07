@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-27",
+  "status": "VERIFIED_THIS_SESSION_BOUNDED_DEVELOPER_RUNTIME",
+  "runtimeIdentity": "48bb1d177f4cb8ec4b8e90ff4d23fe618baec155a814db80f7b19e5d9096b28f",
+  "packageSha256": "689df3d49c9987e4390c69ed4381cb7bd839ed448a1394b136e449db50e8dd3e",
+  "sourceAndStageHashesMatch": true,
+  "previousStagePreserved": true,
+  "controlledChecks": {
+    "tests": {
+      "passed": 56,
+      "failed": 0,
+      "command": "node --test tests/*.test.js"
+    },
+    "fixtures": {
+      "passed": 6,
+      "failed": 0,
+      "command": "node tests/evaluate-fixtures.js"
+    },
+    "syntax": {
+      "status": "PASS",
+      "command": "node tests/check-syntax.js"
+    }
+  },
+  "native": {
+    "assertionsPassed": 47,
+    "assertionsTotal": 47,
+    "status": "PASS",
+    "runs": [
+      {
+        "wallMs": 4575,
+        "maxGapMs": 114,
+        "gapsOver100ms": 1,
+        "cardCount": 25,
+        "rawHidden": true,
+        "rawCharacters": 0
+      },
+      {
+        "wallMs": 4512,
+        "maxGapMs": 106,
+        "gapsOver100ms": 1,
+        "cardCount": 25,
+        "rawHidden": true,
+        "rawCharacters": 0
+      },
+      {
+        "wallMs": 4425,
+        "maxGapMs": 107,
+        "gapsOver100ms": 1,
+        "cardCount": 25,
+        "rawHidden": true,
+        "rawCharacters": 0
+      }
+    ],
+    "pages": 31,
+    "findings": 765,
+    "maxPageMs": 17,
+    "rawOpenParseHideMs": 135,
+    "diagnosticsMatchPriorAdapter": true,
+    "exports": {
+      "result": "PASS",
+      "nativeJSONMatchesFullReport": true,
+      "nativeHTMLRawMatchesJSON": true,
+      "htmlArticles": 765,
+      "jsonBytes": 26308531,
+      "htmlBytes": 32011500
+    }
+  },
+  "physicalChecks": {
+    "dockedNext": true,
+    "dockedPrevious": true,
+    "undockAndRedockPreservesResults": true,
+    "floatingResizeAttempt": "DID_NOT_CHANGE_SIZE; no added size coverage",
+    "finalPanel": "DOCKED_PAGE_1"
+  },
+  "fixtures": {
+    "Layout_Test_Copy.prproj": {
+      "sha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+      "unchanged": true
+    },
+    "Large_Inventory_Test.prproj": {
+      "sha256": "850a5354a3248815974526de640e2b040b927505ec7d5895c0be10b3fa046249",
+      "unchanged": true
+    },
+    "Positive_Signal_Test.prproj": {
+      "sha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+      "unchanged": true
+    }
+  },
+  "finalHost": {
+    "pid": 37304,
+    "responding": true,
+    "workingSetBytes": 3279810560
+  },
+  "limits": [
+    "Earlier opening stall root cause UNKNOWN",
+    "Three scanner capability unknowns remain",
+    "UXP timer gaps are not OS-wide latency",
+    "Developer load is not customer installation qualification"
+  ]
+}

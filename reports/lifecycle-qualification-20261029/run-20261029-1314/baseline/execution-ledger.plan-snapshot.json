@@ -1,0 +1,431 @@
+{
+  "recordType": "proposed-final-candidate-lifecycle-execution-ledger",
+  "preparedAt": "2026-10-29T05:45:09.779Z",
+  "status": "PLAN_READY_NOT_EXECUTED",
+  "candidate": {
+    "branch": "codex/validated-beta-20261017",
+    "head": "9330e242eadcd10623300ca39d01753355aefc7a",
+    "pluginId": "com.unn0wn002.audio-preflight.beta",
+    "version": "0.2.1",
+    "runtimeIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+    "receipt": "artifacts/audio-preflight-0.2.1-037571056922-receipt.json",
+    "developerZipSha256": "f989dccd51b54bdab7f790816fdec7dc93b65f508b9a17a88bbd967a9371d607",
+    "finalCCXPath": null,
+    "finalCCXSha256": null
+  },
+  "authorization": {
+    "currentDeliverable": "Planning and local evidence preparation only",
+    "nativeExecutionStarted": false,
+    "packageGenerationStarted": false,
+    "installationAuthorized": false,
+    "uninstallAuthorized": false,
+    "systemSettingsChangesAuthorized": false,
+    "outboundActionsAuthorized": false
+  },
+  "contextReadiness": {
+    "disposableLifecycleCopyPrepared": false,
+    "cleanCustomerProfileEstablished": false,
+    "operatorUnsavedWorkReadinessConfirmed": false,
+    "eligibleLowerVersionPackageVerified": false,
+    "finalRuntimeCCXVerified": false
+  },
+  "reuse": {
+    "layout": "reports/panel-layout-20261029/native-layout-completion.json",
+    "narrowPair": "reports/panel-layout-20261029/narrow-pair-verification.json",
+    "widePair": "reports/panel-layout-20261029/wide-pair-verification.json",
+    "crossLayout": "reports/panel-layout-20261029/cross-layout-verification.json",
+    "sameProjectScanReportsAvailable": 2,
+    "doNotRepeatSizesWithoutReason": true
+  },
+  "routes": {
+    "freshInstall": [
+      "LQ-I01",
+      "LQ-I02",
+      "LQ-I03",
+      "LQ-I05",
+      "LQ-I06"
+    ],
+    "upgrade": [
+      "LQ-I01",
+      "LQ-I04",
+      "LQ-I03"
+    ],
+    "upgradeNeedsSeparateVerifiedLowerVersionBaseline": true,
+    "downgradeDevelopmentProfileToCreateBaseline": false
+  },
+  "cases": [
+    {
+      "id": "LQ-P01",
+      "action": "Recheck branch/HEAD, seven source/stage hashes and receipt; identify current UDT path/load, exact host build/UXP/locale and disposable project. Capture fixture hash, clean/unsaved marker and relevant visible audio state before testing.",
+      "acceptance": "Explicit final-runtime binding and preservation baseline. Source/version strings alone are insufficient. Record fresh window identity; no project mutation or hidden setup.",
+      "context": "PREFLIGHT",
+      "dependenciesAll": [],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D01",
+      "action": "Reuse the two preserved unchanged-project narrow/wide reports as repeat observations 1\u20132. If three repeats are required, add at most one read-only scan before deliberate fixture changes.",
+      "acceptance": "Full reports stable after excluding only generation time/duration; any other difference investigated. These repeats do not add detection cases or establish a same-layout performance benchmark.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D02",
+      "action": "In the disposable project, physically select one finding's Reviewed/Intentional state; export JSON/HTML, then scan again.",
+      "acceptance": "Annotation changes only the report's review state, not findings/audio. Export pair contains that annotation; next scan resets annotations and selector to Unreviewed. Interaction is not evidence the finding was assessed as intentional.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D03",
+      "action": "Close and reopen only the plugin panel once in the same loaded UDT context, after an idle scan/annotation.",
+      "acceptance": "Report, annotation and controls remain consistent. Same-context report retention is expected; if the host recreates plugin context, record that separately and require honest empty state/disabled exports until a new scan. Context loss must not silently pass a retention assertion. No app quit or workspace reset.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01",
+        "LQ-D02"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D04",
+      "action": "Open one native export picker and Cancel, then export the retained report normally.",
+      "acceptance": "Cancel status, controls recovered, report retained, successful subsequent native export. Select the actual dialog, keep default filename/folder when focus is uncertain, verify actual file location. No rescan needed just to retry export.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D05",
+      "action": "Exercise an actual native write failure only with a harmless operator-approved unavailable destination already available; do not change ACLs/security or write into protected application folders.",
+      "acceptance": "A real plugin write rejection, visible error, recovered controls and successful subsequent export. A picker rejecting a path before plugin write is a different boundary. If a safe native write failure cannot be exercised, retain NOT_RUN and cite controlled coverage separately.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01",
+        "LQ-D04"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D06",
+      "action": "With operator readiness, distinguish no active project from a successfully enumerated empty disposable project. Preserve/create separate fixture copies and media references deliberately.",
+      "acceptance": "No-project acquisition remains failed/UNKNOWN; zero-sequence successful enumeration may be COMPLETE with zero observed inventory. Neither may invent complete unknown denominators or routing/output certification. Preserve raw reports and independent project/sequence UI truth.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D07",
+      "action": "While idle, switch between two distinct disposable projects A/B; export retained A report before scanning B.",
+      "acceptance": "A's captured identity/evidence stays A until a new scan; new B scan identifies B. Record active UI identity and report identity separately. Do not edit or switch while a scan is active to claim an atomic snapshot guarantee.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01",
+        "LQ-D06"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D08",
+      "action": "Use an independently responsive larger disposable inventory, user-opened with desktop inspection idle during loading. Request Cancel during visibly active traversal, then retry once.",
+      "acceptance": "Retained visited evidence, explicit unvisited Unknowns, cancellation request/completion timestamps, progress/denominators, recovered controls and one successful retry. If the scan finishes before Cancel is exercised, record NOT_EXERCISED, not PASS; no fake host delays/setters or fault injection in the frozen runtime.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": "LQ-D09",
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D09",
+      "action": "Combine with D08's visibly active scan: observe disabled Scan/export controls and one deliberate second Scan input.",
+      "acceptance": "Bounded UI guard evidence during a real active traversal. One final report alone does not prove rejected overlap or adapter invocation count. If invocation count cannot be observed without altering runtime, state that limit; never claim instrumented single-flight proof.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": "LQ-D08",
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D10",
+      "action": "Prepare/save a separate working lifecycle copy, freeze its post-setup baseline, then normally close/reopen that copy after user readiness. Keep desktop inspection idle during loading; inspect after the operator reports it settled.",
+      "acceptance": "Saved copy/media resolution and relevant audio state persist, scan/export work after reopening, original canonical fixture untouched. Separate intentional Save/serialization changes from scan-only preservation; compare post-setup baseline and independent visible mute/Enable/settings/undo or clean-state evidence. File hash alone proves saved bytes, not all in-memory state.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01",
+        "LQ-D07"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-K01",
+      "action": "When packaging execution is authorized, UDT Package the exact frozen final stage into a new local CCX. Independently verify with `scripts/verify-package.ps1` and the final receipt; allow only documented manifest formatting.",
+      "acceptance": "Actual CCX path/SHA256, plugin ID/version and seven-file equality; no staging overwrite. Archive PASS remains separate from installation. A verified final CCX is a dependency for every installed-context case.",
+      "context": "ARCHIVE",
+      "dependenciesAll": [
+        "LQ-P01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-I01",
+      "action": "User provides a designated clean test profile/host with normal Adobe access; record pre-install state and provenance.",
+      "acceptance": "Clean-context evidence, not merely an empty Creative Cloud acquired-plugin list or existing development profile. Never record credentials.",
+      "context": "INSTALLED_FINAL",
+      "dependenciesAll": [
+        "LQ-K01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-I02",
+      "action": "Explicitly authorized normal Creative Cloud installation of K01's exact CCX; user handles UAC/authentication. Verify installed contents and inactive developer registrations.",
+      "acceptance": "Installer outcome, selected package/hash, installed path/ID/version, six exact runtime files plus manifest values as appropriate. No UDT fallback/installed-predecessor substitution.",
+      "context": "INSTALLED_FINAL",
+      "dependenciesAll": [
+        "LQ-K01",
+        "LQ-I01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-I03",
+      "action": "After readiness/authorization, normal Premiere restart with UDT not launched; open installed panel, scan disposable project and export both reports; exercise the relevant panel/review/cancel recovery checks in installed context.",
+      "acceptance": "Fresh installed binding, host startup/menu/panel evidence and actual lifecycle results. Developer-context evidence may guide expectations but cannot replace installed execution. No forced quit or unsaved work discard.",
+      "context": "INSTALLED_FINAL",
+      "dependenciesAll": [
+        "LQ-K01",
+        "LQ-I01"
+      ],
+      "dependenciesAny": [
+        "LQ-I02",
+        "LQ-I04"
+      ],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-I04",
+      "action": "Separately authorized upgrade from an authentic, verified lower-version same-ID package. First establish that installed baseline, then install final 0.2.1 normally.",
+      "acceptance": "Genuine prior artifact/provenance, version transition and before/after installed identities with working panel/report. Same-version predecessor 0.2.1 replacement is not automatically an eligible upgrade. If no eligible prior package exists, keep NOT_RUN; do not relabel binaries/versions.",
+      "context": "INSTALLED_FINAL",
+      "dependenciesAll": [
+        "LQ-K01",
+        "LQ-I01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-I05",
+      "action": "Separately authorized normal uninstall in the test profile, after preservation/readiness.",
+      "acceptance": "Native removal result and absence of installed panel/files under the documented normal flow. Preserve exports and user projects; deletion is an operator-confirmed consequential action.",
+      "context": "INSTALLED_FINAL",
+      "dependenciesAll": [
+        "LQ-K01",
+        "LQ-I01",
+        "LQ-I03"
+      ],
+      "dependenciesAny": [
+        "LQ-I02",
+        "LQ-I04"
+      ],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-I06",
+      "action": "Separately authorized reinstall of the exact K01 candidate, followed by a normal restart/scan/export smoke.",
+      "acceptance": "Correct installed identity restored and bounded installed smoke passes. Reinstallation must not inherit PASS solely from I02.",
+      "context": "INSTALLED_FINAL",
+      "dependenciesAll": [
+        "LQ-I05"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    }
+  ],
+  "caseCount": 18,
+  "newNativeExecutions": 0,
+  "newInstalledExecutions": 0,
+  "distributionApproved": false,
+  "unknownCapabilities": [
+    "sourceChannelMapping",
+    "outputBusTopology",
+    "playbackExportCorrectness"
+  ],
+  "nextExecutionSequence": [
+    "LQ-P01",
+    "LQ-D02",
+    "LQ-D03",
+    "LQ-D04"
+  ],
+  "plan": "docs/LIFECYCLE_QUALIFICATION_PLAN_20261029.md",
+  "plannedEvidencePattern": "reports/lifecycle-qualification-20261029/<run-id>/<case-id>/",
+  "revisedAt": "2026-10-29T05:48:08.898924+00:00"
+}

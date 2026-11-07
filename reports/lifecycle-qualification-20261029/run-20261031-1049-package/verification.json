@@ -1,0 +1,162 @@
+{
+  "verifiedAt": "2026-10-31T08:44:27.673379+00:00",
+  "status": "PASS_PACKAGE_ARCHIVE_PRESERVATION_AND_RECORD_READBACK",
+  "nativePackagingStatus": "FINAL_RUNTIME_CCX_PREPARED_ARCHIVE_VERIFIED",
+  "runtimeSourceStageUnchanged": true,
+  "archiveIntegrityPass": true,
+  "manifestFormattingOnly": true,
+  "sixRuntimeFilesExact": true,
+  "fixtureAndProtectedOriginalsUnchanged": true,
+  "priorLinkedMediaUnchanged": true,
+  "inheritedPathsPresent": 499,
+  "inheritedTestsUnchanged": true,
+  "previousCCXAndDeveloperZipPreserved": true,
+  "onlyK01CaseChanged": true,
+  "ledgerCounts": {
+    "PASS_BOUNDED_NATIVE": 11,
+    "PASS_ARCHIVE_INTEGRITY": 1,
+    "NOT_RUN": 6
+  },
+  "rootSummaryReconciled": true,
+  "zeroNewScans": true,
+  "installationStarted": false,
+  "installationQualified": false,
+  "documentLinksExist": true,
+  "sharedHandoffHistoryPreserved": true,
+  "gitDiffCheck": true,
+  "helperSyntax": "PASS",
+  "evidenceLimit": "Native UDT action/path/options/success were observed separately; this verifier checks local files and record consistency, not screenshot facts or installed behavior.",
+  "editedDocs": [
+    {
+      "file": "README.md",
+      "sha256": "a86f50db0a52f406842d6a5a6b10640e672ad09346a22eacffdf24db0ac670d6"
+    },
+    {
+      "file": "docs/PROJECT_STATUS.md",
+      "sha256": "75451b5b6c0f2fe23c607cf2cf9ad857cb65a4d415d576e81b9c5e08f18ec969"
+    },
+    {
+      "file": "docs/LIFECYCLE_QUALIFICATION_PLAN_20261029.md",
+      "sha256": "95d771c1fe5eb6d16bb7b3d0a43038a2756aa9cf3f1f3e125de2068e275fc781"
+    },
+    {
+      "file": "docs/SUBMISSION_OPERATOR_HANDOFF.md",
+      "sha256": "6244909d7a5e6b20f69e968cbc273d08a974c1770ff6b3b4772bb6b38cc2c570"
+    },
+    {
+      "file": "docs/BETA_RELEASE_CHECKLIST.md",
+      "sha256": "aa738f12f0e468e29c17697713b313127e85b0db74970257960b4e010fd806be"
+    },
+    {
+      "file": "reports/panel-layout-20261029/CONTINUATION.md",
+      "sha256": "f78c94f97227f162cc94a7972f3249d36d6c22960b91ea4a08789552c9a0a74f"
+    }
+  ],
+  "sharedHandoffSha256": "390615496e2c0fd7c6a6117036b523bb382e1b6fa08b7ada6977b05cd4691f0c",
+  "files": [
+    {
+      "file": "archive-exact-result.txt",
+      "sha256": "c3bffdbfe6c625107e32653c63bba46d6bebaaa9483543b259e08f3b62d4eac4"
+    },
+    {
+      "file": "archive-verification.json",
+      "sha256": "048e77bd285fd4c8b83c5ce26b56b8abe968dd97febc2a2b95d96b5ac2abf223"
+    },
+    {
+      "file": "baseline/before-package-docs__BETA_RELEASE_CHECKLIST.md",
+      "sha256": "bd81c37ef62117d7c7bc6044fee3aed37114a545fd69207c835d8715794821e2"
+    },
+    {
+      "file": "baseline/before-package-docs__LIFECYCLE_QUALIFICATION_PLAN_20261029.md",
+      "sha256": "b5a1bb0cd03de565fec303e67e5c2e53b04c88b69eaec684c5a5f1131a063a5e"
+    },
+    {
+      "file": "baseline/before-package-docs__PROJECT_STATUS.md",
+      "sha256": "aeff039e191e8ac41e8dac149e2b9df92be807bc9e9a39348b30d87050cdf229"
+    },
+    {
+      "file": "baseline/before-package-docs__SUBMISSION_OPERATOR_HANDOFF.md",
+      "sha256": "6ee5ddd0cb087ed946e888640d16f2aac707ffe3a2b9d220965ab62120ca8a5b"
+    },
+    {
+      "file": "baseline/before-package-README.md",
+      "sha256": "845c0f32aaa0ec6dbd4cc06b9fa7087165380bc2745d509fb5bce400e44d64c5"
+    },
+    {
+      "file": "baseline/before-package-reports__panel-layout-20261029__CONTINUATION.md",
+      "sha256": "ea28d1fb8ce5fc714fcf855653afd09c481c24b9090d56bcd968e7122b6b8379"
+    },
+    {
+      "file": "baseline/before-package-reports__panel-layout-20261029__session-result.json",
+      "sha256": "6dd8d027d5de84b25f4c9001a6bc08991a2b297b61fea3896fd29e1750a2ba83"
+    },
+    {
+      "file": "baseline/git-status.txt",
+      "sha256": "297209c39d32b269c5543193e47569490086b077739e57381906e43f9d1f5ba7"
+    },
+    {
+      "file": "baseline/handoff-before-package.md",
+      "sha256": "241135fb862bd3f09cca4d8035a8fe4090d67c40db7e5e2cb2839fcddd63db02"
+    },
+    {
+      "file": "baseline/ledger-before.json",
+      "sha256": "12c161f269609249264afcc08fbffe55e5e52efca66d0a82bd79ed14cf8ed0dc"
+    },
+    {
+      "file": "baseline/runtime-receipt.json",
+      "sha256": "39e71c0e66826b38c33813d7a017708973d8a994e0bc7dabafa426e9a0d8a185"
+    },
+    {
+      "file": "finalize-package.py",
+      "sha256": "5e38ebf9356fded4de668f464759bba9c04b0a8ad39c86084e392ca6f3f16897"
+    },
+    {
+      "file": "independent-archive-readback.json",
+      "sha256": "52ff714f12d9ffb3f57217ee11cdcd0a44683ca96473e6688924359a893a3dbf"
+    },
+    {
+      "file": "package-destination.jpg",
+      "sha256": "289c404e15aaf5102dd1b866755640f132d3255a87d2e5b967c5f339e0e65c1c"
+    },
+    {
+      "file": "package-destination.txt",
+      "sha256": "f123bdefe3f98086e8a953d2dc0a5ab5ae04e466a649476c4bf1410428c96edb"
+    },
+    {
+      "file": "package-native-observation.json",
+      "sha256": "4ed6fc8e2b522787b9ac877e73bb7ce2c9bc551d734c0bdd74c833cbdb98c1c5"
+    },
+    {
+      "file": "package-result.json",
+      "sha256": "03e5f3f9a39f62c12d692a6f9381753d3589eb1711743d415568762ec670c8eb"
+    },
+    {
+      "file": "preflight.json",
+      "sha256": "ffe8e28ac210cfefb8060ba15a1011a8ba0198975fa2fd89d6c17a47fe6a4e2e"
+    },
+    {
+      "file": "README.md",
+      "sha256": "42df8c6b470a3adfa3d3c81bf0778e28cbad347485a92b919601ee5292ac9bc8"
+    },
+    {
+      "file": "registered-stage-folder.txt",
+      "sha256": "6289ce6fc0f3d04dca14dc3a7beeaa69baf31758946ec2b8a7c2bf9b9edb3527"
+    },
+    {
+      "file": "udt-candidate-before-package.jpg",
+      "sha256": "2f13b6713cde970dace5b2bd8499883cab016e14e4b77297d05363c56d7b4b9e"
+    },
+    {
+      "file": "udt-options-blank-override.jpg",
+      "sha256": "036d7c66223d2ec1137591b47951eab9bd57dae4fc8f6892eb3cf4470dbe4a03"
+    },
+    {
+      "file": "udt-package-success.jpg",
+      "sha256": "0c036048e3aac36ff5084459036a3cb4fd161a6011659dbf120d35e51c0c9003"
+    },
+    {
+      "file": "verify-package-record.py",
+      "sha256": "eec8c65344b223fbfaa446eb8b7195058af9e6b7923251dccec4bde87600cfb7"
+    }
+  ]
+}

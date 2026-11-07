@@ -1,0 +1,822 @@
+diff --git a/.gitignore b/.gitignore
+index e547b38..2f2e0a3 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -5,3 +5,4 @@ Thumbs.db
+ *.ccx
+ *.zip
+ qa_render/
++artifacts/
+diff --git a/README.md b/README.md
+index 16f2b20..300e06e 100644
+--- a/README.md
++++ b/README.md
+@@ -1,12 +1,12 @@
+ # Premiere Audio Routing Integrity Doctor
+ 
+-Research ID 37. Technical probe for Adobe Premiere Pro 26.5.
++Research ID 37. Audio Preflight 0.2.0 private beta candidate for Windows 11 / Adobe Premiere Pro 26.5.2.
+ 
+-Current gate: `PROTOTYPE IN PROGRESS`.
++Current gate: `BETA CANDIDATE / HOST REQUALIFICATION REQUIRED`. Not ready for public release or sale.
+ 
+ ## Purpose
+ 
+-Determine which audio-output/routing conditions can be directly observed through supported Premiere UXP APIs, which can only be inferred, and which must remain `UNKNOWN / CANNOT VERIFY`.
++Review muted non-empty audio tracks, disabled audio clips, and sequence audio configuration through supported Premiere UXP APIs. Findings include locations, evidence, and manual review guidance. Complete routing, source-channel mapping, pan interpretation, and playback/export correctness remain `UNKNOWN / CANNOT VERIFY`.
+ 
+ This is a diagnostic/QC prototype, not an audio editor or mixer replacement.
+ 
+@@ -24,9 +24,21 @@ npm run check:syntax
+ 
+ These checks validate the rule engine and JavaScript syntax only. They do not prove Premiere host behavior.
+ 
++The current candidate uses observation/diagnostic schema 0.3.0 and report envelope 1.0.0. If npm is unavailable, run `node --test tests/*.test.js`, `node tests/evaluate-fixtures.js`, and `node tests/check-syntax.js`. Record that npm itself was not verified.
++
+ ## Run in Premiere 26.5
+ 
+-Use UXP Developer Tool 2.2+ to load this folder into Premiere Pro 26.5, open the controlled fixture project, and run the panel `Audio Routing Integrity Probe`. Follow `docs/HOST_TEST_RUNBOOK.md`.
++Use UXP Developer Tools to load this folder into Premiere Pro 26.5.2, open a disposable fixture project, and run the panel `Audio Preflight`. Follow `docs/HOST_TEST_RUNBOOK.md` and `docs/BETA_RELEASE_CHECKLIST.md`.
++
++The panel groups findings by sequence and track, retains raw evidence, and supports Reviewed/Intentional annotations. Annotations reset on every scan and never modify Premiere. Cancellation takes effect between inventory items after an in-flight item finishes. JSON and readable HTML exports use a user-selected local save location. No telemetry or network uploads are implemented.
++
++## Prepare a private beta package
++
++Run `node scripts/prepare-beta.js` (or `npm run prepare:beta`). This stages seven allowlisted runtime files in a content-addressed folder under `artifacts/`, with a SHA-256 receipt alongside it. Add that folder's manifest to UDT and use Package to generate the CCX. See `docs/BETA_GUIDE.md`. The staging receipt is not host or installer approval.
++
++## Existing host evidence
++
++The October 2 final continuation report supersedes older NOT RUN statements: `reports/host-20261001-214943/HOST_VALIDATION_REPORT_FINAL.md`. The old 0.1.0 candidate loaded in Premiere 26.5.2 Build 5 and demonstrated bounded mute, disabled-clip, and location behavior. Mono/multichannel fixtures and timings remained unfinished. Those results do not qualify this changed 0.2.0 candidate.
+ 
+ ## Current capability boundary
+ 
+@@ -34,4 +46,4 @@ Documented public APIs support sequence enumeration, audio-track enumeration, se
+ 
+ ## Gate rule
+ 
+-Do not call this technically validated until the Premiere 26.5 host matrix is executed and TP/FP/FN/Unknown results are recorded.
++Do not distribute this candidate until its host matrix and customer installation checks pass. Do not sell until the private beta criteria in `docs/BETA_RELEASE_CHECKLIST.md` pass. No scan certifies final audio output.
+diff --git a/docs/API_CAPABILITY_MATRIX.md b/docs/API_CAPABILITY_MATRIX.md
+index b23f3b5..f619d6a 100644
+--- a/docs/API_CAPABILITY_MATRIX.md
++++ b/docs/API_CAPABILITY_MATRIX.md
+@@ -3,6 +3,8 @@
+ Status date: 2026-09-23
+ Verification level: DOCUMENTED from public Adobe UXP references. No Premiere 26.5 host execution has occurred in this environment.
+ 
++Historical-table correction (October 4, 2026): the table below records September 23 research status. Subsequent 0.1.0 host testing confirmed bounded enumeration/configuration, mute/disable, serialization examples and duplicate-clip locations on Premiere 26.5.2 Build 5. Pan, source mapping, routing and acoustic output remain unverified. See `../reports/host-20261001-214943/HOST_VALIDATION_REPORT_FINAL.md`. All changed 0.2.0 behavior requires fresh qualification.
++
+ | Condition / state | Public API path | Documentation status | Prototype handling | Host verification |
+ |---|---|---|---|---|
+ | Enumerate project sequences | `Project.getSequences()` | DOCUMENTED since 25.6 | Observe | NOT RUN |
+diff --git a/docs/DIAGNOSTIC_RULES.md b/docs/DIAGNOSTIC_RULES.md
+index 8158013..daab5ac 100644
+--- a/docs/DIAGNOSTIC_RULES.md
++++ b/docs/DIAGNOSTIC_RULES.md
+@@ -13,7 +13,7 @@
+ ## ARID-002 - Muted non-empty audio track
+ 
+ - Required observable inputs: track mute state, track clip count.
+-- Condition: at least one non-empty track is muted while another non-empty track remains active.
++- Condition: a directly observed non-empty track is muted and a whole-inventory ARID-001 assertion cannot be established (mixed mute or incomplete observations).
+ - Severity: Review.
+ - Confidence: high confidence in state; low confidence in intent.
+ - False-positive risk: intentional layer mute.
+@@ -34,7 +34,7 @@
+ 
+ - Inputs: channel type and channel count.
+ - Condition: channel type is observable.
+-- Severity: Healthy/informational.
++- Severity: Information. This is a configuration fact, not a health guarantee.
+ - Important constraint: mono, stereo, 5.1, and multichannel are not faults by themselves.
+ 
+ ## ARID-U01/U02/U03 - Unverifiable topology/output
+@@ -46,4 +46,6 @@
+ 
+ ## Pan/balance experiment
+ 
++Schema 0.2.0 adds scoped ARID-U-READ Unknowns and completeness guards; see OBSERVATION_SCHEMA.md. Failed enumeration never establishes an empty inventory.
++
+ No production diagnostic rule is enabled yet. The generic Component/ComponentParam APIs can inventory candidate parameters, but exact stable component match names and value semantics must first be verified in Premiere 26.5 across at least normal-center, hard-left, hard-right, keyframed, and intentional-pan controls. Until then, pan/balance remains an experiment, not a defect rule.
+diff --git a/docs/HOST_TEST_RUNBOOK.md b/docs/HOST_TEST_RUNBOOK.md
+index 9493f87..aeeaea9 100644
+--- a/docs/HOST_TEST_RUNBOOK.md
++++ b/docs/HOST_TEST_RUNBOOK.md
+@@ -5,6 +5,7 @@
+ - Premiere Pro exact version/build recorded.
+ - UXP Developer Tool 2.2+ available.
+ - Plugin loaded from this project root.
++- For release qualification, load the content-addressed runtime staging folder and record its receipt; test the packaged CCX installation separately.
+ - Controlled fixture project created from `fixtures/premiere/README.md`.
+ - No production project used for validation.
+ 
+@@ -20,6 +21,8 @@
+ 8. For reopen drift, capture before-save, after-reopen, and probe state. Do not label a Premiere bug unless the change is reproducible.
+ 9. For mapping mismatch, verify whether any public observable changes correlate with Modify > Audio Channels. If none do, retain UNKNOWN.
+ 10. Record scan runtime for each fixture.
++11. Use the report envelope's `observation` for comparison with historical raw observations. Preserve `diagnostics` and `annotations` alongside it. Check `durationMs`, progress, cancellation, review reset and both exports.
++12. Complete `BETA_RELEASE_CHECKLIST.md`; historical 0.1.0 passes do not approve 0.2.0.
+ 
+ ## Pass criteria
+ 
+diff --git a/docs/KNOWN_LIMITATIONS.md b/docs/KNOWN_LIMITATIONS.md
+index 479426a..e089f37 100644
+--- a/docs/KNOWN_LIMITATIONS.md
++++ b/docs/KNOWN_LIMITATIONS.md
+@@ -1,10 +1,14 @@
+ # Known Limitations
+ 
+-1. No Premiere 26.5 host test has run in this environment. API calls are documented and code can be statically checked, but runtime behavior remains unverified.
++1. The old 0.1.0 candidate was partially host-tested on Premiere 26.5.2 Build 5; see `../reports/host-20261001-214943/HOST_VALIDATION_REPORT_FINAL.md`. Current 0.2.0 code requires fresh qualification. Prior host evidence is not transferable approval.
+ 2. No supported public API for complete Audio Track Mixer output-bus/routing topology was identified in the Adobe public classes searched on 2026-09-23.
+ 3. No supported public API for Modify > Audio Channels source-channel mapping was identified in the Adobe public classes searched on 2026-09-23.
+ 4. Generic component and parameter enumeration does not prove which parameter is the canonical pan/balance control across clip types, effects, locales, and Premiere builds.
+ 5. DOM observation cannot by itself guarantee playback or export audio correctness.
+ 6. Intent is not observable. Mute, disabled clips, mono delivery, multichannel delivery, and hard pan can all be intentional.
+-7. The probe currently reports JSON and is intentionally not production UI.
++7. The 0.2.0 panel adds grouped findings, annotations, progress/cancellation, and local JSON/HTML exports. UXP rendering, file picker behavior, installation, and large-project responsiveness require host verification. Only Windows 11 / Premiere 26.5.2 is the initial qualification target.
+ 8. No automatic fix is implemented.
++9. Cancellation is cooperative between sequences, tracks, and clips. A pending host API call or current clip inspection cannot be interrupted; a hung call can delay cancellation.
++10. Scans are sequential observations, not atomic snapshots. Avoid editing or switching projects during a scan. Review annotations are scan-local and are never applied to subsequent scans.
++11. Mono and multichannel host fixtures, scan timings, missing-media and larger-project scenarios remain pending. Intentional mute/disable remains a review item, not proof of an error.
++12. Exported reports include project paths/names and raw observations. No automatic redaction or upload is performed; inspect before sharing.
+diff --git a/docs/PRODUCT_SPEC.md b/docs/PRODUCT_SPEC.md
+index aff796c..089abf0 100644
+--- a/docs/PRODUCT_SPEC.md
++++ b/docs/PRODUCT_SPEC.md
+@@ -6,9 +6,9 @@ A read-only Premiere preflight can reduce delivery risk by exposing supported au
+ 
+ ## Current gate
+ 
+-`PROTOTYPE IN PROGRESS`
++`BETA CANDIDATE / HOST REQUALIFICATION REQUIRED`
+ 
+-The project is not technically validated and is not an MVP.
++Audio Preflight 0.2.0 is a focused read-only beta candidate; it is not qualified for distribution or sale. The agreed first release is a free private beta for Windows 11 / Premiere 26.5.2. The old 0.1.0 has partial host evidence; this candidate requires a fresh run.
+ 
+ ## Scope
+ 
+@@ -19,6 +19,7 @@ In scope for the probe:
+ - audio component-chain and parameter inventory;
+ - evidence-oriented reporting with confidence state;
+ - explicit Unknown results for unsupported topology.
++- grouped findings, scan-local review annotations, progress/cancellation, and local JSON/HTML export.
+ 
+ Out of scope:
+ - automatic routing repair;
+diff --git a/docs/STATIC_VALIDATION_REPORT.md b/docs/STATIC_VALIDATION_REPORT.md
+index 7e7ebd8..8cfddc4 100644
+--- a/docs/STATIC_VALIDATION_REPORT.md
++++ b/docs/STATIC_VALIDATION_REPORT.md
+@@ -1,5 +1,7 @@
+ # Static Validation Report
+ 
++Historical September 23 record. See the current beta implementation record for later static checks; October 2 partial host evidence is in `../reports/host-20261001-214943/HOST_VALIDATION_REPORT_FINAL.md`. Neither qualifies changed 0.2.0 host behavior.
++
+ Date: 2026-09-23
+ Status: STATICALLY VERIFIED
+ Premiere host execution: NOT RUN
+diff --git a/docs/TEST_MATRIX.md b/docs/TEST_MATRIX.md
+index c808f73..f70d140 100644
+--- a/docs/TEST_MATRIX.md
++++ b/docs/TEST_MATRIX.md
+@@ -33,4 +33,6 @@ Required host record fields:
+ - scan runtime;
+ - reopen/export notes.
+ 
+-Current host execution status: NOT RUN / BLOCKED by absence of a Premiere 26.5 host in this execution environment.
++Historical 0.1.0 status: PARTIAL host qualification on Premiere 26.5.2 Build 5. F01-F07/F10/F11 ran; F08/F09 remained blocked. See `../reports/host-20261001-214943/HOST_VALIDATION_REPORT_FINAL.md` for precise assertion limits.
++
++Current 0.2.0 status: HOST REQUALIFICATION REQUIRED. The changed panel, exports and cancellation must be exercised against the packaged candidate; prior results do not qualify it. Additional acceptance matrix is in `BETA_RELEASE_CHECKLIST.md`.
+diff --git a/fixtures/premiere/README.md b/fixtures/premiere/README.md
+index 488285e..6c6b21a 100644
+--- a/fixtures/premiere/README.md
++++ b/fixtures/premiere/README.md
+@@ -1,6 +1,6 @@
+ # Controlled Premiere 26.5 Host Fixtures
+ 
+-Status: SPECIFIED, NOT CREATED OR HOST-EXECUTED in this environment.
++Historical table: original fixture specification. The 0.1.0 October 2 final continuation executed F01-F07/F10/F11; F08/F09 remained blocked. See `../../reports/host-20261001-214943/HOST_VALIDATION_REPORT_FINAL.md`. Current 0.2.0 requires a new run against a copy of the disposable project. NOT RUN cells below describe the original specification, not current evidence.
+ 
+ Create one isolated Premiere Pro 26.5 project named `ARID_26_5_Fixtures.prproj` and create these sequences. Use generated tone or licensed local audio so the fixture can be redistributed safely.
+ 
+diff --git a/index.html b/index.html
+index bca158d..6422b94 100644
+--- a/index.html
++++ b/index.html
+@@ -1,21 +1,40 @@
+ <!doctype html>
+-<html>
++<html lang="en">
+ <head>
+   <meta charset="utf-8">
+-  <title>Audio Routing Integrity Probe</title>
++  <title>Audio Preflight</title>
+   <style>
+-    body { font-family: sans-serif; margin: 16px; }
+-    button { margin: 8px 0 12px; }
++    html, body { height: 100%; margin: 0; overflow: hidden; }
++    body { font-family: sans-serif; color: #eee; background: #242424; }
++    #panel { height: 100%; overflow-y: auto; padding: 16px; box-sizing: border-box; }
++    h2 { margin-bottom: 6px; } h3 { font-size: 14px; margin-top: 24px; }
++    p { line-height: 1.5; } button { margin: 4px 6px 8px 0; padding: 8px; }
++    .finding { background: #303030; border-left: 3px solid #b6a57a; padding: 12px; margin: 8px 0; }
++    .information { border-color: #77aabb; } .unknown { border-color: #aaa; }
++    .location, small { font-size: 12px; color: #ccc; } label { display: block; margin-top: 12px; }
++    select { margin-left: 8px; } #status { margin: 12px 0; font-weight: bold; }
++    #progress, #summary, #exportStatus { margin: 8px 0; }
+     pre { white-space: pre-wrap; overflow-wrap: anywhere; font-family: monospace; font-size: 11px; }
+-    .status { margin: 8px 0; }
+   </style>
+ </head>
+ <body>
+-  <h2>Audio Routing Integrity Probe</h2>
+-  <p>Read-only technical probe. No mute, pan, routing, sequence, clip, or effect state is changed.</p>
++  <div id="panel">
++  <h2>Audio Preflight</h2>
++  <p>Private beta candidate · Read-only audio review</p>
++  <p>Review muted tracks, disabled clips, and sequence audio configuration. Routing, source-channel mapping, pan, and playback/export correctness require manual verification.</p>
+   <button id="scanButton">Scan active project</button>
+-  <div class="status" id="status">Ready.</div>
+-  <pre id="output"></pre>
++  <button id="cancelButton" disabled>Cancel scan</button>
++  <div id="status" role="status" aria-live="polite">Ready. Open a project to begin.</div>
++  <div id="progress" role="status"></div>
++  <div id="summary"></div>
++  <button id="jsonButton" disabled>Export JSON</button>
++  <button id="htmlButton" disabled>Export readable report</button>
++  <button id="detailsButton">Show / hide raw evidence</button>
++  <div id="exportStatus" role="status"></div>
++  <p>Review states reset with every scan. Reports contain local project names and paths; review before sharing.</p>
++  <div id="findings"></div>
++  <pre id="output" hidden></pre>
++  </div>
+   <script src="index.js"></script>
+ </body>
+ </html>
+diff --git a/index.js b/index.js
+index 8a62fe8..07e6d4f 100644
+--- a/index.js
++++ b/index.js
+@@ -1,36 +1,103 @@
+-const { entrypoints } = require("uxp");
+-const { scanActiveProject } = require("./src/premiereAdapter");
+-const { diagnose } = require("./src/diagnostics");
+-
++const { entrypoints, storage } = require('uxp');
++const { scanActiveProject } = require('./src/premiereAdapter');
++const { diagnose } = require('./src/diagnostics');
++const { COMPLETION, createReport, groups, locationText, annotate, toHTML } = require('./src/report');
++let inFlight = false;
++let exporting = false;
++let cancelRequested = false;
++let currentReport = null;
++const el = id => document.getElementById(id);
++function text(id, value) { if (el(id)) el(id).textContent = value; }
++function controls() {
++  for (const id of ['scanButton', 'jsonButton', 'htmlButton']) {
++    if (el(id)) el(id).disabled = inFlight || exporting || (id !== 'scanButton' && !currentReport);
++  }
++  if (el('cancelButton')) el('cancelButton').disabled = !inFlight || cancelRequested;
++}
++function append(parent, tag, value, className) {
++  const node = document.createElement(tag);
++  if (value != null) node.textContent = value;
++  if (className) node.className = className;
++  parent.appendChild(node);
++  return node;
++}
++function render() {
++  const report = currentReport;
++  text('output', report ? JSON.stringify(report, null, 2) : '');
++  const container = el('findings');
++  if (!container) return;
++  container.textContent = '';
++  text('summary', report ? `${report.observation.project ? report.observation.project.name : 'No active project'} · ${report.diagnostics.risk.length} review findings · ${report.diagnostics.unknown.length} unknowns · ${report.observation.durationMs ?? '—'} ms` : '');
++  if (!report) return;
++  for (const group of groups(report)) {
++    append(container, 'h3', group.label);
++    for (const finding of group.findings) {
++      const card = append(container, 'div', null, `finding ${finding.category}`);
++      append(card, 'strong', `${finding.severity} · ${finding.ruleId}`);
++      append(card, 'p', locationText(finding.location), 'location');
++      append(card, 'p', finding.observed);
++      append(card, 'p', finding.why);
++      append(card, 'p', finding.remediation);
++      append(card, 'small', `Confidence: ${finding.confidence}`);
++      const label = append(card, 'label', 'Review state ');
++      const select = append(label, 'select');
++      for (const [value, title] of [['unreviewed', 'Unreviewed'], ['reviewed', 'Reviewed'], ['intentional', 'Intentional']]) {
++        const option = append(select, 'option', title); option.value = value;
++      }
++      select.value = report.annotations[finding.key] || 'unreviewed';
++      select.addEventListener('change', () => {
++        annotate(report, finding.key, select.value);
++        text('output', JSON.stringify(report, null, 2));
++      });
++    }
++  }
++}
+ async function runScan() {
+-  const status = document.getElementById("status");
+-  const output = document.getElementById("output");
+-  status.textContent = "Scanning read-only observable state...";
+-  output.textContent = "";
++  if (inFlight || exporting) return;
++  inFlight = true; cancelRequested = false; currentReport = null;
++  controls(); render();
++  text('status', 'Scanning read-only observable state. Avoid editing or switching projects during the scan.');
++  text('exportStatus', '');
+   try {
+-    const observation = await scanActiveProject();
+-    const diagnostics = diagnose(observation);
+-    output.textContent = JSON.stringify({ observation, diagnostics }, null, 2);
+-    status.textContent = "Scan complete. UNKNOWN items require manual verification.";
++    const observation = await scanActiveProject({
++      isCancelled: () => cancelRequested,
++      onProgress: progress => text('progress', `${progress.phase}${progress.sequence ? ` · ${progress.sequence}` : ''}${progress.track ? ` · ${progress.track}` : ''}${progress.total != null ? ` · ${progress.item + 1}/${progress.total}` : ''}`)
++    });
++    currentReport = createReport(observation, diagnose(observation));
++    render();
++    text('status', COMPLETION[observation.completion] || 'Unverified scan.');
+   } catch (error) {
+-    status.textContent = "Scan failed.";
+-    output.textContent = error.stack || error.message || String(error);
++    text('status', 'Scan failed. Try again; host reads may be unavailable.');
++    text('output', error.stack || error.message || String(error));
++  } finally {
++    inFlight = false; text('progress', ''); controls();
+   }
+ }
+-
++async function exportReport(format) {
++  if (!currentReport || inFlight || exporting) return;
++  const snapshot = JSON.parse(JSON.stringify(currentReport));
++  exporting = true; controls();
++  try {
++    const file = await storage.localFileSystem.getFileForSaving(`audio-preflight-${snapshot.observation.generatedAt.replace(/[:.]/g, '-')}.${format}`, { types: [format] });
++    if (!file) { text('exportStatus', 'Export cancelled.'); return; }
++    await file.write(format === 'html' ? toHTML(snapshot) : JSON.stringify(snapshot, null, 2), { format: storage.formats.utf8 });
++    text('exportStatus', `Saved ${format.toUpperCase()} report. Review project names and paths before sharing.`);
++  } catch (error) {
++    text('exportStatus', `Export failed: ${error.message || String(error)}`);
++  } finally { exporting = false; controls(); }
++}
+ function bind() {
+-  const button = document.getElementById("scanButton");
+-  if (button && !button.dataset.bound) {
+-    button.dataset.bound = "true";
+-    button.addEventListener("click", runScan);
++  const handlers = {
++    scanButton: runScan,
++    cancelButton: () => { cancelRequested = true; text('status', 'Cancellation requested. Waiting for the current inventory item to finish.'); controls(); },
++    jsonButton: () => exportReport('json'),
++    htmlButton: () => exportReport('html'),
++    detailsButton: () => { if (el('output')) el('output').hidden = !el('output').hidden; }
++  };
++  for (const [id, handler] of Object.entries(handlers)) {
++    const button = el(id);
++    if (button && !button.dataset.bound) { button.dataset.bound = 'true'; button.addEventListener('click', handler); }
+   }
++  controls();
+ }
+-
+-entrypoints.setup({
+-  panels: {
+-    "audio-routing-integrity-probe": {
+-      create() { bind(); },
+-      show() { bind(); }
+-    }
+-  }
+-});
++entrypoints.setup({ panels: { 'audio-routing-integrity-probe': { create() { bind(); }, show() { bind(); } } } });
+diff --git a/manifest.json b/manifest.json
+index c89d7cd..9ed83ae 100644
+--- a/manifest.json
++++ b/manifest.json
+@@ -1,19 +1,20 @@
+ {
+   "manifestVersion": 5,
+-  "id": "com.unn0wn002.premiere-audio-routing-integrity-doctor.prototype",
+-  "name": "Premiere Audio Routing Integrity Doctor - Probe",
+-  "version": "0.1.0",
++  "id": "com.unn0wn002.audio-preflight.beta",
++  "name": "Audio Preflight - Private Beta",
++  "version": "0.2.0",
+   "main": "index.html",
+   "host": {
+     "app": "premierepro",
+-    "minVersion": "26.5.0"
++    "minVersion": "26.5.2"
+   },
++  "requiredPermissions": { "localFileSystem": "request" },
+   "entrypoints": [
+     {
+       "type": "panel",
+       "id": "audio-routing-integrity-probe",
+       "label": {
+-        "default": "Audio Routing Integrity Probe"
++        "default": "Audio Preflight"
+       },
+       "minimumSize": {
+         "width": 320,
+diff --git a/package.json b/package.json
+index 4f8edbe..c9b2040 100644
+--- a/package.json
++++ b/package.json
+@@ -1,11 +1,12 @@
+ {
+   "name": "premiere-audio-routing-integrity-doctor-prototype",
+-  "version": "0.1.0",
++  "version": "0.2.0",
+   "private": true,
+-  "description": "Read-only Premiere Pro 26.5 audio observable-state technical probe for Project 37.",
++  "description": "Read-only Audio Preflight private beta candidate for Premiere Pro 26.5.2.",
+   "scripts": {
+     "test": "node --test tests/*.test.js",
+     "test:fixtures": "node tests/evaluate-fixtures.js",
+-    "check:syntax": "node --check index.js && node --check src/premiereAdapter.js && node --check src/diagnostics.js"
++    "check:syntax": "node tests/check-syntax.js",
++    "prepare:beta": "node scripts/prepare-beta.js"
+   }
+ }
+diff --git a/src/diagnostics.js b/src/diagnostics.js
+index c995689..3c51eb1 100644
+--- a/src/diagnostics.js
++++ b/src/diagnostics.js
+@@ -12,17 +12,16 @@ function issue(ruleId, severity, confidence, location, observed, why, remediatio
+ function riskFindings(report) {
+   const findings = [];
+   for (const sequence of report.sequences || []) {
+-    const sequenceName = sequence.name || "<unnamed sequence>";
+     const tracks = sequence.audioTracks || [];
+     const nonEmptyTracks = tracks.filter((track) => (track.clips || []).length > 0);
+     const mutedNonEmpty = nonEmptyTracks.filter((track) => track.muted === true);
+ 
+-    if (nonEmptyTracks.length > 0 && mutedNonEmpty.length === nonEmptyTracks.length) {
++    if (sequence.trackInventoryComplete !== false && !(sequence.errors || []).some(e => /getAudioTrackCount/.test(e)) && tracks.every(t => t.clipInventoryComplete !== false && Array.isArray(t.clips) && typeof t.muted === "boolean" && !(t.errors || []).some(e => /getTrackItems|getAudioTrack:|isMuted/.test(e))) && nonEmptyTracks.length > 0 && mutedNonEmpty.length === nonEmptyTracks.length) {
+       findings.push(issue(
+         "ARID-001",
+         "Warning",
+         "HIGH_OBSERVATION_LOW_INTENT_CONFIDENCE",
+-        { sequence: sequenceName },
++        location(sequence),
+         `All ${nonEmptyTracks.length} non-empty audio tracks report muted=true.`,
+         "Track mute is directly observable and can suppress expected audio, but the creative intent is unknown.",
+         "Review track mute state before delivery. Do not auto-unmute."
+@@ -33,7 +32,7 @@ function riskFindings(report) {
+           "ARID-002",
+           "Review",
+           "HIGH_OBSERVATION_LOW_INTENT_CONFIDENCE",
+-          { sequence: sequenceName, track: track.name || `A${Number(track.index) + 1}` },
++          location(sequence, track),
+           "Audio track reports muted=true and contains audio clips.",
+           "This can be intentional. It is a delivery risk only if audio from this track is expected.",
+           "Confirm whether the mute is intentional. Do not auto-unmute."
+@@ -48,7 +47,7 @@ function riskFindings(report) {
+             "ARID-003",
+             "Review",
+             "HIGH_OBSERVATION_LOW_INTENT_CONFIDENCE",
+-            { sequence: sequenceName, track: track.name || `A${Number(track.index) + 1}`, clip: clip.name || "<unnamed clip>" },
++            location(sequence, track, clip),
+             "Audio clip track item reports disabled=true.",
+             "A disabled clip will not contribute expected timeline audio, but disabling may be intentional.",
+             "Confirm whether the clip disable state is intentional. Do not auto-enable."
+@@ -68,9 +67,9 @@ function informationalFindings(report) {
+     if (typeCode !== null && typeCode !== undefined) {
+       findings.push(issue(
+         "ARID-I01",
+-        "Healthy",
++        "Information",
+         "DIRECT_OBSERVATION",
+-        { sequence: sequence.name || "<unnamed sequence>" },
++        location(sequence),
+         `Sequence audio channel type=${CHANNEL_TYPE[typeCode] || `Unknown(${typeCode})`}, count=${count}.`,
+         "Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.",
+         "Compare against delivery requirements and source expectations."
+@@ -92,12 +91,30 @@ function unknownFindings(report) {
+   ));
+ }
+ 
++function location(sequence, track, clip) {
++  return { sequence: sequence.name || null, sequenceGuid: sequence.guid || null,
++    sequenceOccurrenceIndex: sequence.occurrenceIndex ?? null,
++    track: track ? track.name || null : null, trackId: track ? track.id ?? null : null,
++    trackIndex: track ? track.index ?? null : null,
++    clip: clip ? clip.name || null : null, clipOccurrenceIndex: clip ? clip.occurrenceIndex ?? null : null,
++    startTime: clip ? clip.startTime ?? null : null, endTime: clip ? clip.endTime ?? null : null };
++}
++function readFailures(report) {
++  const out = [];
++  function visit(value, scope) {
++    if (!value || typeof value !== 'object') return;
++    for (const error of value.errors || []) out.push(issue('ARID-U-READ', 'Unknown', 'UNKNOWN_CANNOT_VERIFY', { scope }, error, 'Required observation failed; inventory/state cannot be certified.', 'Verify this scope manually in Premiere.'));
++    for (const [key, child] of Object.entries(value)) if (key !== 'errors') visit(child, scope + '.' + key);
++  }
++  visit(report, 'project'); return out;
++}
+ function diagnose(report) {
+   return {
+-    schemaVersion: "0.1.0",
++    schemaVersion: "0.3.0",
++    completion: report.completion || "unverified-legacy",
+     risk: riskFindings(report),
+     information: informationalFindings(report),
+-    unknown: unknownFindings(report)
++    unknown: [...unknownFindings(report), ...readFailures(report), ...(report.completion === 'cancelled' ? [issue('ARID-U-CANCELLED', 'Unknown', 'UNKNOWN_CANNOT_VERIFY', { project: report.project ? report.project.name : null }, 'Scan cancelled. Unvisited state has not been checked.', 'Only observations already collected are available.', 'Run a new scan to inspect the entire project.')] : [])]
+   };
+ }
+ 
+diff --git a/src/premiereAdapter.js b/src/premiereAdapter.js
+index 3b0201a..b34085d 100644
+--- a/src/premiereAdapter.js
++++ b/src/premiereAdapter.js
+@@ -6,19 +6,7 @@ function errorText(error) {
+   return error.stack || error.message || String(error);
+ }
+ 
+-function plainValue(value) {
+-  if (value === null || value === undefined) return value;
+-  if (["string", "number", "boolean"].includes(typeof value)) return value;
+-  const out = {};
+-  for (const key of ["value", "ticks", "seconds", "numerator", "denominator"]) {
+-    try {
+-      if (value[key] !== undefined && ["string", "number", "boolean"].includes(typeof value[key])) {
+-        out[key] = value[key];
+-      }
+-    } catch (_) {}
+-  }
+-  return Object.keys(out).length ? out : String(value);
+-}
++const { plainValue } = require("./valueSerializer");
+ 
+ async function scanParam(param, index) {
+   const result = {
+@@ -29,8 +17,8 @@ async function scanParam(param, index) {
+     keyframeTimes: null,
+     errors: []
+   };
+-  try { result.displayName = param.displayName; } catch (e) { result.errors.push(`displayName: ${errorText(e)}`); }
+-  try { result.isTimeVarying = param.isTimeVarying(); } catch (e) { result.errors.push(`isTimeVarying: ${errorText(e)}`); }
++  try { result.displayName = metadata(param.displayName); } catch (e) { result.errors.push(`displayName: ${errorText(e)}`); }
++  try { result.isTimeVarying = boolean(await param.isTimeVarying()); } catch (e) { result.errors.push(`isTimeVarying: ${errorText(e)}`); }
+   try {
+     const keyframe = await param.getStartValue();
+     result.startValue = plainValue(keyframe);
+@@ -39,8 +27,8 @@ async function scanParam(param, index) {
+   }
+   if (result.isTimeVarying) {
+     try {
+-      const times = param.getKeyframeListAsTickTimes();
+-      result.keyframeTimes = Array.from(times || []).map(plainValue);
++      const times = await param.getKeyframeListAsTickTimes();
++      result.keyframeTimes = inventory(times).map(v => plainValue(v));
+     } catch (e) {
+       result.errors.push(`getKeyframeListAsTickTimes: ${errorText(e)}`);
+     }
+@@ -50,13 +38,13 @@ async function scanParam(param, index) {
+ 
+ async function scanComponent(component, index) {
+   const result = { index, displayName: null, matchName: null, params: [], errors: [] };
+-  try { result.displayName = await component.getDisplayName(); } catch (e) { result.errors.push(`getDisplayName: ${errorText(e)}`); }
+-  try { result.matchName = await component.getMatchName(); } catch (e) { result.errors.push(`getMatchName: ${errorText(e)}`); }
++  try { result.displayName = metadata(await component.getDisplayName()); } catch (e) { result.errors.push(`getDisplayName: ${errorText(e)}`); }
++  try { result.matchName = metadata(await component.getMatchName()); } catch (e) { result.errors.push(`getMatchName: ${errorText(e)}`); }
+   let count = 0;
+-  try { count = component.getParamCount(); } catch (e) { result.errors.push(`getParamCount: ${errorText(e)}`); }
++  try { count = validCount(await component.getParamCount()); } catch (e) { result.errors.push(`getParamCount: ${errorText(e)}`); }
+   for (let i = 0; i < count; i += 1) {
+     try {
+-      const param = component.getParam(i);
++      const param = await component.getParam(i);
+       result.params.push(await scanParam(param, i));
+     } catch (e) {
+       result.params.push({ index: i, errors: [`getParam: ${errorText(e)}`] });
+@@ -66,13 +54,13 @@ async function scanComponent(component, index) {
+ }
+ 
+ async function scanChain(chain) {
+-  if (!chain) return null;
++  if (!chain) throw Error('Missing component chain');
+   const result = { components: [], errors: [] };
+   let count = 0;
+-  try { count = chain.getComponentCount(); } catch (e) { result.errors.push(`getComponentCount: ${errorText(e)}`); }
++  try { count = validCount(await chain.getComponentCount()); } catch (e) { result.errors.push(`getComponentCount: ${errorText(e)}`); }
+   for (let i = 0; i < count; i += 1) {
+     try {
+-      result.components.push(await scanComponent(chain.getComponentAtIndex(i), i));
++      result.components.push(await scanComponent(await chain.getComponentAtIndex(i), i));
+     } catch (e) {
+       result.components.push({ index: i, errors: [`getComponentAtIndex: ${errorText(e)}`] });
+     }
+@@ -80,10 +68,13 @@ async function scanChain(chain) {
+   return result;
+ }
+ 
+-async function scanClip(clip, sequenceName, trackIndex) {
++async function scanClip(clip, sequenceName, trackIndex, occurrenceIndex) {
+   const result = {
+     sequenceName,
+     trackIndex,
++    occurrenceIndex,
++    startTime: null,
++    endTime: null,
+     name: null,
+     matchName: null,
+     disabled: null,
+@@ -91,16 +82,19 @@ async function scanClip(clip, sequenceName, trackIndex) {
+     sourceProjectItem: null,
+     errors: []
+   };
+-  try { result.name = await clip.getName(); } catch (e) { result.errors.push(`getName: ${errorText(e)}`); }
+-  try { result.matchName = await clip.getMatchName(); } catch (e) { result.errors.push(`getMatchName: ${errorText(e)}`); }
+-  try { result.disabled = await clip.isDisabled(); } catch (e) { result.errors.push(`isDisabled: ${errorText(e)}`); }
++  for (const [field, method] of [["startTime", "getStartTime"], ["endTime", "getEndTime"]]) {
++    try { result[field] = plainValue(await clip[method]()); } catch (e) { result.errors.push(`${method}: ${errorText(e)}`); }
++  }
++  try { result.name = metadata(await clip.getName()); } catch (e) { result.errors.push(`getName: ${errorText(e)}`); }
++  try { result.matchName = metadata(await clip.getMatchName()); } catch (e) { result.errors.push(`getMatchName: ${errorText(e)}`); }
++  try { result.disabled = boolean(await clip.isDisabled()); } catch (e) { result.errors.push(`isDisabled: ${errorText(e)}`); }
+   try { result.componentChain = await scanChain(await clip.getComponentChain()); } catch (e) { result.errors.push(`clip.getComponentChain: ${errorText(e)}`); }
+   try {
+     const projectItem = await clip.getProjectItem();
+     const clipProjectItem = ppro.ClipProjectItem.cast(projectItem);
+     const sourceChain = await clipProjectItem.getComponentChain(ppro.Constants.MediaType.AUDIO);
+     result.sourceProjectItem = {
+-      name: clipProjectItem.name,
++      name: metadata(clipProjectItem.name),
+       componentChain: await scanChain(sourceChain)
+     };
+   } catch (e) {
+@@ -109,34 +103,40 @@ async function scanClip(clip, sequenceName, trackIndex) {
+   return result;
+ }
+ 
+-async function scanTrack(track, sequenceName, fallbackIndex) {
++async function scanTrack(track, sequenceName, fallbackIndex, control) {
+   const result = {
+     id: null,
+     name: null,
+     index: fallbackIndex,
+     muted: null,
++    clipInventoryComplete: false,
+     clips: [],
+     errors: []
+   };
+-  try { result.id = track.id; } catch (_) {}
+-  try { result.name = track.name; } catch (_) {}
+-  try { result.index = await track.getIndex(); } catch (e) { result.errors.push(`getIndex: ${errorText(e)}`); }
+-  try { result.muted = await track.isMuted(); } catch (e) { result.errors.push(`isMuted: ${errorText(e)}`); }
++  try { result.id = identity(track.id); } catch (e) { result.errors.push(`id: ${errorText(e)}`); }
++  try { result.name = metadata(track.name); } catch (e) { result.errors.push(`name: ${errorText(e)}`); }
++  try { result.index = validCount(await track.getIndex()); } catch (e) { result.errors.push(`getIndex: ${errorText(e)}`); }
++  try { result.muted = boolean(await track.isMuted()); } catch (e) { result.errors.push(`isMuted: ${errorText(e)}`); }
+   try {
+-    const items = track.getTrackItems(ppro.Constants.TrackItemType.CLIP, false) || [];
+-    for (const item of Array.from(items)) {
+-      result.clips.push(await scanClip(item, sequenceName, result.index));
++    const items = inventory(await track.getTrackItems(ppro.Constants.TrackItemType.CLIP, false));
++    for (let i = 0; i < items.length; i++) {
++      if (await control.checkpoint({ phase: 'clips', sequence: sequenceName, track: result.name, item: i, total: items.length })) break;
++      try { result.clips.push(await scanClip(items[i], sequenceName, result.index, i)); }
++      catch (e) { result.clips.push({ occurrenceIndex: i, errors: [`scanClip: ${errorText(e)}`] }); }
+     }
++    result.clipInventoryComplete = result.clips.length === items.length;
+   } catch (e) {
+     result.errors.push(`getTrackItems: ${errorText(e)}`);
+   }
+   return result;
+ }
+ 
+-async function scanSequence(sequence) {
++async function scanSequence(sequence, occurrenceIndex, control) {
+   const result = {
+-    name: sequence.name || null,
+-    guid: sequence.guid ? String(sequence.guid) : null,
++    name: null,
++    guid: null,
++    occurrenceIndex,
++    trackInventoryComplete: false,
+     settings: {
+       audioChannelCount: null,
+       audioChannelType: null,
+@@ -145,19 +145,30 @@ async function scanSequence(sequence) {
+     audioTracks: [],
+     errors: []
+   };
++  for (const field of ["name", "guid"]) {
++    try { result[field] = field === "guid" ? identity(sequence[field]) : metadata(sequence[field]); }
++    catch (e) { result.errors.push(`${field}: ${errorText(e)}`); }
++  }
+   try {
+     const settings = await sequence.getSettings();
+-    try { result.settings.audioChannelCount = await settings.getAudioChannelCount(); } catch (e) { result.errors.push(`getAudioChannelCount: ${errorText(e)}`); }
+-    try { result.settings.audioChannelType = await settings.getAudioChannelType(); } catch (e) { result.errors.push(`getAudioChannelType: ${errorText(e)}`); }
++    try { result.settings.audioChannelCount = validCount(await settings.getAudioChannelCount()); } catch (e) { result.errors.push(`getAudioChannelCount: ${errorText(e)}`); }
++    try { result.settings.audioChannelType = validCount(await settings.getAudioChannelType()); } catch (e) { result.errors.push(`getAudioChannelType: ${errorText(e)}`); }
+     try { result.settings.audioSampleRate = plainValue(await settings.getAudioSampleRate()); } catch (e) { result.errors.push(`getAudioSampleRate: ${errorText(e)}`); }
+   } catch (e) {
+     result.errors.push(`getSettings: ${errorText(e)}`);
+   }
+   let count = 0;
+-  try { count = await sequence.getAudioTrackCount(); } catch (e) { result.errors.push(`getAudioTrackCount: ${errorText(e)}`); }
++  try { count = validCount(await sequence.getAudioTrackCount()); result.trackInventoryComplete = true; } catch (e) { result.errors.push(`getAudioTrackCount: ${errorText(e)}`); }
+   for (let i = 0; i < count; i += 1) {
++    if (await control.checkpoint({ phase: 'tracks', sequence: result.name, item: i, total: count })) { result.trackInventoryComplete = false; break; }
+     try {
+-      result.audioTracks.push(await scanTrack(await sequence.getAudioTrack(i), result.name, i));
++      const observedTrack = await scanTrack(await sequence.getAudioTrack(i), result.name, i, control);
++      for (const clip of observedTrack.clips) {
++        clip.sequenceGuid = result.guid;
++        clip.sequenceOccurrenceIndex = occurrenceIndex;
++        clip.trackId = observedTrack.id;
++      }
++      result.audioTracks.push(observedTrack);
+     } catch (e) {
+       result.audioTracks.push({ index: i, errors: [`getAudioTrack: ${errorText(e)}`] });
+     }
+@@ -165,17 +176,28 @@ async function scanSequence(sequence) {
+   return result;
+ }
+ 
+-async function scanActiveProject() {
++async function scanActiveProject(options = {}) {
++  const started = Date.now();
++  const control = {
++    cancelled: false,
++    async checkpoint(progress) {
++      // Yield to panel input between inventory items. An in-flight host call is not interrupted.
++      if (typeof setTimeout === 'function') await new Promise(resolve => setTimeout(resolve, 0));
++      this.cancelled = this.cancelled || Boolean(options.isCancelled && options.isCancelled());
++      if (!this.cancelled && options.onProgress) options.onProgress(progress);
++      return this.cancelled;
++    }
++  };
+   const report = {
+-    schemaVersion: "0.1.0",
++    schemaVersion: "0.3.0",
++    completion: "failed",
++    scanTraversalComplete: false,
++    durationMs: null,
++    sequenceInventoryComplete: false,
+     verification: "HOST OBSERVATION WHEN EXECUTED IN PREMIERE",
+     generatedAt: new Date().toISOString(),
+     host: {
+-      name: host.name,
+-      version: host.version,
+-      uiLocale: host.uiLocale,
+-      uxpVersion: versions.uxp,
+-      pluginVersion: versions.plugin
++      name: null, version: null, uiLocale: null, uxpVersion: null, pluginVersion: null
+     },
+     project: null,
+     sequences: [],
+@@ -186,17 +208,40 @@ async function scanActiveProject() {
+     ],
+     errors: []
+   };
+-  const project = await ppro.Project.getActiveProject();
+-  if (!project) {
+-    report.errors.push("No active Premiere project.");
+-    return report;
++  try {
++  if (await control.checkpoint({ phase: 'project' })) { report.completion = 'cancelled'; return report; }
++  for (const [field, source, key] of [["name",host,"name"],["version",host,"version"],["uiLocale",host,"uiLocale"],["uxpVersion",versions,"uxp"],["pluginVersion",versions,"plugin"]]) {
++    try { report.host[field] = plainValue(source[key]); } catch (e) { report.errors.push('host.' + field + ': ' + errorText(e)); }
+   }
+-  report.project = { name: project.name, path: project.path, guid: String(project.guid) };
+-  const sequences = await project.getSequences();
+-  for (const sequence of sequences) {
+-    report.sequences.push(await scanSequence(sequence));
++  let project;
++  try { project = await ppro.Project.getActiveProject(); } catch (e) { report.errors.push('getActiveProject: ' + errorText(e)); return report; }
++  if (!project) { report.errors.push('No active Premiere project.'); return report; }
++  report.project = { name: null, path: null, guid: null };
++  for (const field of ['name','path','guid']) {
++    try { report.project[field] = field === 'guid' ? identity(project[field]) : metadata(project[field]); }
++    catch (e) { report.errors.push('project.' + field + ': ' + errorText(e)); }
+   }
++  let sequences;
++  try { sequences = inventory(await project.getSequences()); report.sequenceInventoryComplete = true; }
++  catch (e) { report.errors.push('getSequences: ' + errorText(e)); return report; }
++  for (let i = 0; i < sequences.length; i++) {
++    if (await control.checkpoint({ phase: 'sequences', item: i, total: sequences.length })) break;
++    try { report.sequences.push(await scanSequence(sequences[i], i, control)); }
++    catch (e) { report.sequences.push({ occurrenceIndex: i, errors: ['scanSequence: ' + errorText(e)] }); }
++  }
++  await control.checkpoint({ phase: 'finished' });
++  report.scanTraversalComplete = !control.cancelled;
++  report.completion = control.cancelled ? 'cancelled' : hasErrors(report) ? 'partial' : 'completed';
+   return report;
++  } finally { report.durationMs = Date.now() - started; }
+ }
+ 
++
++function validCount(v) { if (!Number.isInteger(v) || v < 0 || v > 100000) throw Error('Invalid count/index'); return v; }
++function boolean(v) { if (typeof v !== 'boolean') throw Error('Invalid boolean observation'); return v; }
++function metadata(v) { if (typeof v !== 'string') throw Error('Missing/invalid metadata'); return v; }
++function identity(v) { if (v == null) throw Error('Missing identity'); const text = String(v); if (!text || text === '[object Object]') throw Error('Unsupported identity'); return text; }
++function inventory(v) { if (!v || typeof v[Symbol.iterator] !== 'function') throw Error('Missing/invalid inventory'); const out = []; for (const item of v) { if (out.length >= 100000) throw Error('Inventory bound exceeded'); out.push(item); } return out; }
++function hasErrors(v) { if (!v || typeof v !== 'object') return false; return (Array.isArray(v.errors) && v.errors.length > 0) || Object.entries(v).some(([k,x]) => k !== 'errors' && hasErrors(x)); }
++
+ module.exports = { scanActiveProject, plainValue };

@@ -1,0 +1,85 @@
+{
+  "recordType": "independent-demo-evidence-reuse-review",
+  "reviewedAt": "2026-10-19T02:15:13.844Z",
+  "method": "Read existing sample and previously qualified evidence provenance; no new synthetic tests, native fault injection or fixture executions.",
+  "simulatedPartialSegment": {
+    "source": "fixtures/sample_export.json",
+    "bytes": 9697,
+    "sha256": "aa4d9194d1793bb9455bd6ac902bee65d3651dfa6f513452af3eeb36a24a2300",
+    "verification": "SYNTHETIC_EXAMPLE_NOT_NATIVE_EVIDENCE",
+    "host": {
+      "name": "SYNTHETIC Premiere",
+      "version": "26.5.2",
+      "uiLocale": "en_US",
+      "uxpVersion": "MOCK",
+      "pluginVersion": "0.2.1"
+    },
+    "completion": "partial",
+    "diagnosticStatus": "PARTIAL",
+    "failedReads": 2,
+    "survivingRiskRules": [
+      "ARID-002",
+      "ARID-003"
+    ],
+    "scopedUnknownReads": [
+      {
+        "location": {
+          "project": "Disposable example",
+          "sequence": "Example sequence",
+          "sequenceGuid": "synthetic-sequence",
+          "sequenceOccurrenceIndex": 0,
+          "track": "A2",
+          "trackId": "2",
+          "trackIndex": 1,
+          "clip": null,
+          "clipOccurrenceIndex": null,
+          "startTime": null,
+          "endTime": null,
+          "scope": "sequences[0].audioTracks[1]"
+        },
+        "observed": "isMuted: synthetic rejected getter"
+      },
+      {
+        "location": {
+          "project": "Disposable example",
+          "sequence": "Example sequence",
+          "sequenceGuid": "synthetic-sequence",
+          "sequenceOccurrenceIndex": 0,
+          "track": "A2",
+          "trackId": "2",
+          "trackIndex": 1,
+          "clip": null,
+          "clipOccurrenceIndex": null,
+          "startTime": null,
+          "endTime": null,
+          "scope": "sequences[0].audioTracks[1]"
+        },
+        "observed": "getTrackItems: synthetic failed enumeration"
+      }
+    ],
+    "eligibility": "READY_FOR_EXPLICITLY_SIMULATED_PRESENTATION",
+    "presentationExecuted": false,
+    "limit": "Demonstrates the report/diagnostic contract only; not evidence of a current native rejected getter, native empty project, installed candidate behavior or detection accuracy."
+  },
+  "nativeReusableSegments": {
+    "context": "Frozen UDT staging identity only",
+    "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+    "baselineAndHost": "reports/verification-20261017/F01-current-independent-review.json",
+    "supportedRules": [
+      "reports/verification-20261017/F05-current-independent-review.json",
+      "reports/verification-20261017/F06-current-independent-review.json",
+      "reports/verification-20261017/F07-current-independent-review.json"
+    ],
+    "intentionalPanAndLayouts": [
+      "reports/verification-20261017/F03-current-independent-review.json",
+      "reports/verification-20261017/F04-current-independent-review.json",
+      "reports/verification-20261017/F08-current-independent-review.json",
+      "reports/verification-20261017/F09-current-independent-review.json"
+    ],
+    "unknownMappingBoundary": "reports/verification-20261017/F10-current-independent-review.json",
+    "savedReopenPreservation": "reports/verification-20261017/F11-current-independent-review.json",
+    "accounting": "Reuse contributes zero new host executions or metric denominators; presentation must identify the original context/date and the split-track duplicate layout of F07."
+  },
+  "nativeEmptyProject": "PENDING_NEW_EVIDENCE",
+  "remainingActualRehearsal": "Pending current closeout UI/lifecycle evidence; artifact eligibility is not completed rehearsal or submission readiness."
+}

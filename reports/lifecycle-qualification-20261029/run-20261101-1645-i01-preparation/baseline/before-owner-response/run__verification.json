@@ -1,0 +1,68 @@
+{
+  "verifiedAt": "2026-11-01T09:47:06.757202+00:00",
+  "status": "PASS_LOCAL_I01_PREPARATION_ONLY",
+  "caseStatus": "NOT_RUN",
+  "runtimeSourceStageUnchanged": true,
+  "archiveIntegrityPass": true,
+  "protectedFixturesAndInheritedTestsPreserved": true,
+  "inheritedPathsPresent": 499,
+  "projectLogUnchanged": true,
+  "ledgerCasesAndCountsUnchanged": true,
+  "docsLinksExist": true,
+  "sharedHistoryPreserved": true,
+  "gitDiffCheck": true,
+  "newNativeExecutions": 0,
+  "installationStarted": false,
+  "cleanContextEstablished": false,
+  "currentMissingInput": "Owner designation of accessible candidate clean context",
+  "files": [
+    {
+      "file": "archive-verification.json",
+      "sha256": "51837016d370d35799ff342d7e80ea1781148f39af2d1c84cb82e0c8d765439b"
+    },
+    {
+      "file": "baseline/docs__LIFECYCLE_QUALIFICATION_PLAN_20261029.md",
+      "sha256": "95d771c1fe5eb6d16bb7b3d0a43038a2756aa9cf3f1f3e125de2068e275fc781"
+    },
+    {
+      "file": "baseline/docs__PROJECT_STATUS.md",
+      "sha256": "75451b5b6c0f2fe23c607cf2cf9ad857cb65a4d415d576e81b9c5e08f18ec969"
+    },
+    {
+      "file": "baseline/docs__SUBMISSION_OPERATOR_HANDOFF.md",
+      "sha256": "6244909d7a5e6b20f69e968cbc273d08a974c1770ff6b3b4772bb6b38cc2c570"
+    },
+    {
+      "file": "baseline/git-status.txt",
+      "sha256": "a9299959943ae376d17c34920adbb82c63c3ec7ad6f2e9e47e0904c1a50ffdcf"
+    },
+    {
+      "file": "baseline/handoff-before.md",
+      "sha256": "52f0caf25cc85aeece7d04e25627202c428bb461d19712b617e6aa76366646e0"
+    },
+    {
+      "file": "baseline/ledger-before.json",
+      "sha256": "57d96b31f18d09ad08b2a15c5a66ee0ed464d92bfe011d11de54d63b386f55f9"
+    },
+    {
+      "file": "baseline/README.md",
+      "sha256": "a86f50db0a52f406842d6a5a6b10640e672ad09346a22eacffdf24db0ac670d6"
+    },
+    {
+      "file": "clean-context-baseline.json",
+      "sha256": "055965b5055901b842353634c8abbb368dd482b78f7c29587859953ead1c673e"
+    },
+    {
+      "file": "preparation-result.json",
+      "sha256": "d8c8e2ef5e3636f5fa48e23e011dd052d3ccb2d821b8e5fae537f8465af15de8"
+    },
+    {
+      "file": "README.md",
+      "sha256": "ab70e057d1308ee8596389b9b64b61750f43d3fb5e0542b3a69f6e6f2190751d"
+    },
+    {
+      "file": "record-preparation.py",
+      "sha256": "0e82fdde0390c0bd7541fcef17fb9d27524d9709702470f84a867179a9e25821"
+    }
+  ]
+}

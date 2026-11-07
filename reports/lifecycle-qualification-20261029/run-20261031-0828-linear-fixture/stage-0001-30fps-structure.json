@@ -1,0 +1,39 @@
+{
+  "verifiedAt": "2026-10-31T02:10:42.008251+00:00",
+  "evidenceClass": "SAVED_NATIVE_PROJECT_STRUCTURE_NOT_UI_OR_SCAN_PROOF",
+  "project": "working/Linear_Audio_20261031.prproj",
+  "projectSha256": "ca30fff35d5f39bbddef7fdc03d846a3215bf7c5f00cefca65394f398c4f3584",
+  "sequenceCount": 1,
+  "audioTrackCount": 3,
+  "populatedAudioTracks": 1,
+  "referencedAudioClipOccurrences": 1,
+  "rootAudioClipTrackItemObjects": 1,
+  "contiguousRepeatedClipRanges": true,
+  "tracks": [
+    {
+      "id": "5b61bca5-3ddb-4003-b0e5-4b80fb00f3af",
+      "clips": [
+        {
+          "objectId": "69",
+          "startTicks": 0,
+          "endTicks": 254016000000
+        }
+      ]
+    },
+    {
+      "id": "2ff4eda9-b23e-42db-bb42-9cefe8f7dfa7",
+      "clips": []
+    },
+    {
+      "id": "c4ab0d0f-8605-4c19-bf15-ac879978526f",
+      "clips": []
+    }
+  ],
+  "sourcePaths": [
+    "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\lifecycle-qualification-20261029\\run-20261031-0828-linear-fixture\\media\\ARID_Linear_Stereo_1s.wav"
+  ],
+  "limitations": [
+    "Saved structure is distinct from UI responsiveness and native adapter reads.",
+    "No routing, mapping, acoustic or customer-performance qualification."
+  ]
+}

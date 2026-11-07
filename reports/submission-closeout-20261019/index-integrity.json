@@ -1,0 +1,118 @@
+{
+  "recordedAt": "2026-10-19T02:23:25.984Z",
+  "branch": "codex/validated-beta-20261017",
+  "evidenceParentGitSha": "d1b2b091e28d76af60e33c99261d01108e2000db",
+  "frozenRuntimeAndPriorEvidenceUnchanged": true,
+  "qualification": "Git-index byte integrity only; no native execution or installation. The receipt itself is excluded from its artifact list.",
+  "command": "node reports/submission-closeout-20261019/verify-closeout-index.cjs",
+  "artifacts": [
+    {
+      "file": "reports/submission-closeout-20261019/CLOSEOUT_REVIEW.md",
+      "bytes": 3470,
+      "sha256": "526b6aac39754ca45205ba8bce169057fb437ad3cb1637eefb9738c6993caf3e",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/submission-closeout-20261019/PACKAGE_AUDIT.md",
+      "bytes": 3741,
+      "sha256": "20e52d95aff0c208287bb7240712f627c4794bb896be0ae79dd9b816d0342054",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/submission-closeout-20261019/closeout-ledger.json",
+      "bytes": 26102,
+      "sha256": "0cd047c9d6ab0687e47078f0abc1326532972f464708eaa74434c978b3c9ec61",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/submission-closeout-20261019/creative-cloud-ccx-uac-blocker.png",
+      "bytes": 95519,
+      "sha256": "5b7ae60a78717753049326ed79570e283ab3d96f5b992f2b3632e02fbbb3fe5d",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/submission-closeout-20261019/creative-cloud-existing-profile-apps.png",
+      "bytes": 108335,
+      "sha256": "52211007e0aea43c9bed06240b1fed0fe95401db3449636fbbe2e5fa00f2365c",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/submission-closeout-20261019/creative-cloud-first-observed.png",
+      "bytes": 72469,
+      "sha256": "72aa32cd20d9d03f3aa13c54b5cecad95761e24916eb3f9d8fb42d688afe3069",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/submission-closeout-20261019/creative-cloud-manage-plugins-before.png",
+      "bytes": 61615,
+      "sha256": "6294a40b4a13e030d404bded97f3d0d80b7684343e21bb7088443483d537d02e",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/submission-closeout-20261019/current-ccx-verification.json",
+      "bytes": 2304,
+      "sha256": "86cd1f7b14ae9462f28beb6081a05f1e91ad1acc6376e160af0d4f0410312ec4",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/submission-closeout-20261019/demo-evidence-reuse-review.json",
+      "bytes": 3661,
+      "sha256": "9b488df104493b3d9809e012a059635ddf3d8f1d76764e6a2b76f7439973082b",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/submission-closeout-20261019/final-preservation-check.json",
+      "bytes": 3182,
+      "sha256": "3e5a79ae0421c7f6465b81bce385b39d46b2dbcb682dc0ec7c2f87c4f83813e0",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/submission-closeout-20261019/independent-closeout-consistency.json",
+      "bytes": 958,
+      "sha256": "9a89624a73f119b445acc211ac3d3f2b771a6702b5e242a4d6e209312322025a",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/submission-closeout-20261019/installation-attempt.json",
+      "bytes": 1467,
+      "sha256": "c481a81b487c8ba3a21c387eb3fb59fee85cff3212381a49aba615a528f25378",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/submission-closeout-20261019/installation-precheck-independent-review.json",
+      "bytes": 4589,
+      "sha256": "eabe12e304c1b001e9e0c6db172329d023cd0b6485a26b156d20df20b2294e33",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/submission-closeout-20261019/lifecycle-project-copy.json",
+      "bytes": 643,
+      "sha256": "f71a2fcda0eade7c3abd0cabebc55844ffec9264b18004fadff56ef9ecb8c892",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/submission-closeout-20261019/package-audit-independent-review.json",
+      "bytes": 3004,
+      "sha256": "bb3454c9e875a76de7dc470608ee38feaedaf4199c9b94286fd8bf225aaa41c8",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/submission-closeout-20261019/package-source-stage-verification.json",
+      "bytes": 4419,
+      "sha256": "8c803257700f20a9ca5579003b43839a11107bb55aafa7989d73678fdbf41f83",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/submission-closeout-20261019/previous-beta-ccx-audit.json",
+      "bytes": 6430,
+      "sha256": "0f15e924bd435b223f7a0f36f3d9c69789204feb4dfc40b8d9b5b2b803437b40",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/submission-closeout-20261019/verify-closeout-index.cjs",
+      "bytes": 1949,
+      "sha256": "3cf6cbe9949b648871d7c8daedb1a21fdf7135fd49e15dd694393ef7763f65fd",
+      "indexBytesMatch": true
+    }
+  ]
+}

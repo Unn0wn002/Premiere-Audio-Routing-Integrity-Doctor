@@ -1,0 +1,58 @@
+{
+  "preparedAt": "2026-10-31T08:28:42.800710+07:00",
+  "status": "RESPONSIVE_LINEAR_FIXTURE_PREPARED_BOUNDED",
+  "scope": "Prepare a fresh linear audio-only disposable inventory and independently qualify responsiveness; no historical stalled fixture opening",
+  "runtime": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+  "branch": "codex/validated-beta-20261017",
+  "head": "9330e242eadcd10623300ca39d01753355aefc7a",
+  "asset": {
+    "file": "media/ARID_Linear_Stereo_1s.wav",
+    "sha256": "3db4c9dee27fd8ee8ed414cc12fb962cb67a780ef3f73445a5e1dad3b170ea8d",
+    "channels": 2,
+    "sampleRate": 48000,
+    "sampleWidthBytes": 2,
+    "frames": 48000,
+    "durationSeconds": 1,
+    "pcm": "signed 16-bit little-endian",
+    "generatedFrequenciesHz": [
+      220,
+      440
+    ],
+    "purpose": "Fixture media only, not an output/playback correctness oracle"
+  },
+  "plannedGrowth": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024
+  ],
+  "growthPolicy": "Advance only while native UI remains responsive; stop at first targeting mismatch, host stall or unresolved inventory difference",
+  "nativeScans": 0,
+  "D08": "NOT_RUN",
+  "D09": "NOT_RUN",
+  "systemPackageActions": false,
+  "savedEmptyProject": "working/Linear_Audio_20261031.prproj",
+  "savedEmptyStructure": "stage-empty-created-structure.json",
+  "nativeSettledObserved": true,
+  "currentSavedProjectSHA256": "544b63d0e826208df0bbe07f89181f97e4aa495f2110c72ce34d82f758266203",
+  "largerFixtureQualified": true,
+  "updatedAt": "2026-10-31T09:30:42.063363+07:00",
+  "currentSavedClipCount": 1024,
+  "currentSequenceTimebase": "30.00 frames/second",
+  "fixtureResult": "fixture-result.json",
+  "normalReopenRequested": true,
+  "reopenedReadinessIndependentlyObserved": true,
+  "historicalSetupDiagnostic": {
+    "file": "two-clip-gap-diagnostic.json",
+    "savedDiagnosticClipCount": 2,
+    "inMemoryAfterOwnUndo": 1,
+    "supersededBy": "30 fps corrected baseline and validated growth"
+  }
+}

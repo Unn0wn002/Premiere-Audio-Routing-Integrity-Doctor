@@ -1,0 +1,1240 @@
+{
+  "recordType": "final-candidate-lifecycle-execution-ledger",
+  "preparedAt": "2026-10-29T05:45:09.779Z",
+  "status": "FINAL_RUNTIME_CCX_PREPARED_ARCHIVE_VERIFIED",
+  "candidate": {
+    "branch": "codex/validated-beta-20261017",
+    "head": "9330e242eadcd10623300ca39d01753355aefc7a",
+    "pluginId": "com.unn0wn002.audio-preflight.beta",
+    "version": "0.2.1",
+    "runtimeIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+    "receipt": "artifacts/audio-preflight-0.2.1-037571056922-receipt.json",
+    "developerZipSha256": "f989dccd51b54bdab7f790816fdec7dc93b65f508b9a17a88bbd967a9371d607",
+    "finalCCXPath": "artifacts/ccx-0.2.1-037571056922/com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+    "finalCCXSha256": "ecb01b1a03e113f89ed355769ee737378feb240f2961187f795ae03e55580d06"
+  },
+  "authorization": {
+    "currentDeliverable": "User authorized final-runtime CCX preparation for local review only; completed without installation/publication/deployment.",
+    "nativeExecutionStarted": true,
+    "packageGenerationStarted": true,
+    "installationAuthorized": false,
+    "uninstallAuthorized": false,
+    "systemSettingsChangesAuthorized": false,
+    "outboundActionsAuthorized": false
+  },
+  "contextReadiness": {
+    "disposableLifecycleCopyPrepared": true,
+    "cleanCustomerProfileEstablished": false,
+    "operatorUnsavedWorkReadinessConfirmed": true,
+    "eligibleLowerVersionPackageVerified": false,
+    "finalRuntimeCCXVerified": true,
+    "workingCopyApproach": "Already-open report-directory disposable fixture; separate exact saved baseline preserved. No reopen/save/project-content edits needed for initial report-only checks."
+  },
+  "reuse": {
+    "layout": "reports/panel-layout-20261029/native-layout-completion.json",
+    "narrowPair": "reports/panel-layout-20261029/narrow-pair-verification.json",
+    "widePair": "reports/panel-layout-20261029/wide-pair-verification.json",
+    "crossLayout": "reports/panel-layout-20261029/cross-layout-verification.json",
+    "sameProjectScanReportsAvailable": 4,
+    "doNotRepeatSizesWithoutReason": true
+  },
+  "routes": {
+    "freshInstall": [
+      "LQ-I01",
+      "LQ-I02",
+      "LQ-I03",
+      "LQ-I05",
+      "LQ-I06"
+    ],
+    "upgrade": [
+      "LQ-I01",
+      "LQ-I04",
+      "LQ-I03"
+    ],
+    "upgradeNeedsSeparateVerifiedLowerVersionBaseline": true,
+    "downgradeDevelopmentProfileToCreateBaseline": false
+  },
+  "cases": [
+    {
+      "id": "LQ-P01",
+      "action": "Recheck branch/HEAD, seven source/stage hashes and receipt; identify current UDT path/load, exact host build/UXP/locale and disposable project. Capture fixture hash, clean/unsaved marker and relevant visible audio state before testing.",
+      "acceptance": "Explicit final-runtime binding and preservation baseline. Source/version strings alone are insufficient. Record fresh window identity; no project mutation or hidden setup.",
+      "context": "PREFLIGHT",
+      "dependenciesAll": [],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "PASS_BOUNDED_NATIVE",
+      "evidenceClass": "VERIFIED_THIS_SESSION_NATIVE_AND_FILESYSTEM",
+      "actual": {
+        "branch": "codex/validated-beta-20261017",
+        "head": "9330e242eadcd10623300ca39d01753355aefc7a",
+        "sourceStageIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+        "udtBetaLoaded": true,
+        "udtPathReadback": true,
+        "hostExeVersion": "26.5.2.5",
+        "projectTitleUnsavedMarkerVisible": false,
+        "preservedSavedBaseline": true
+      },
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [
+        "run-20261029-1314/preflight-files.json",
+        "run-20261029-1314/preflight-project.png",
+        "run-20261029-1314/preflight-udt-loaded.png",
+        "run-20261029-1314/preflight-udt-options.txt"
+      ],
+      "limitations": [
+        "Independent visible timeline state captured; mixer partly obscured by panel. Hash equality covers saved bytes, not every in-memory property.",
+        "Host UXP/locale strings are retained report metadata in the same session; executable file version read independently."
+      ],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D01",
+      "action": "Reuse the two preserved unchanged-project narrow/wide reports as repeat observations 1\u20132. If three repeats are required, add at most one read-only scan before deliberate fixture changes.",
+      "acceptance": "Full reports stable after excluding only generation time/duration; any other difference investigated. These repeats do not add detection cases or establish a same-layout performance benchmark.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "PASS_BOUNDED_NATIVE",
+      "evidenceClass": "VERIFIED_THIS_SESSION_NATIVE_AND_CONTENT_READBACK",
+      "actual": {
+        "unchangedProjectReports": 3,
+        "durationsMs": [
+          35,
+          31,
+          29
+        ],
+        "excludedFields": [
+          "observation.generatedAt",
+          "observation.durationMs"
+        ],
+        "fullReportEquality": true,
+        "newScansForThisComparison": 0
+      },
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [
+        "run-20261029-1314/repeatability-verification.json",
+        "run-20261029-1314/reset-report.json",
+        "run-20261029-1314/verification.json"
+      ],
+      "limitations": [
+        "Reuses two earlier 29 October layout reports and the reset scan; not a same-layout benchmark or additional detection cases."
+      ],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D02",
+      "action": "In the disposable project, physically select one finding's Reviewed/Intentional state; export JSON/HTML, then scan again.",
+      "acceptance": "Annotation changes only the report's review state, not findings/audio. Export pair contains that annotation; next scan resets annotations and selector to Unreviewed. Interaction is not evidence the finding was assessed as intentional.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "PASS_BOUNDED_NATIVE",
+      "evidenceClass": "VERIFIED_THIS_SESSION_NATIVE_AND_CONTENT_READBACK",
+      "actual": {
+        "baselineScanMs": 31,
+        "operatorStatement": "Selected",
+        "independentlyObservedValue": "Reviewed",
+        "annotatedFindingCount": 7,
+        "nativeJSONAndHTMLAgree": true,
+        "annotationOnlyReportChangeBeyondTimeDuration": true,
+        "resetScanMs": 29,
+        "resetAnnotations": {},
+        "visibleResetValue": "Unreviewed"
+      },
+      "durationMs": null,
+      "operatorActions": [
+        {
+          "evidenceClass": "USER_STATED",
+          "statement": "Selected",
+          "requestedAction": "First ARID-I01 Intentional",
+          "independentReadback": "First selector Reviewed; all seven exported annotations reviewed"
+        }
+      ],
+      "evidence": [
+        "run-20261029-1314/review-selected-reviewed.png",
+        "run-20261029-1314/annotated-report.json",
+        "run-20261029-1314/annotated-report.html",
+        "run-20261029-1314/annotated-export-files.json",
+        "run-20261029-1314/reset-scan-29ms.png",
+        "run-20261029-1314/review-reset-unreviewed.png",
+        "run-20261029-1314/reset-report.json",
+        "run-20261029-1314/native-events.json"
+      ],
+      "limitations": [
+        "User action is USER_STATED; UI/export values independently checked. Actual value was Reviewed for seven findings, not requested Intentional for one. Test annotations are not substantive assessments.",
+        "Original failed popup input preserved; recovery used operator selection. No product defect was established."
+      ],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D03",
+      "action": "Close and reopen only the plugin panel once in the same loaded UDT context, after an idle scan/annotation.",
+      "acceptance": "Report, annotation and controls remain consistent. Same-context report retention is expected; if the host recreates plugin context, record that separately and require honest empty state/disabled exports until a new scan. Context loss must not silently pass a retention assertion. No app quit or workspace reset.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "PASS_BOUNDED_NATIVE",
+      "evidenceClass": "VERIFIED_THIS_SESSION_NATIVE_AND_CONTENT_READBACK",
+      "actual": {
+        "panelClosedReopened": true,
+        "reportSummaryRetainedMs": 31,
+        "firstVisibleReviewRetained": "Reviewed",
+        "outerBoundsAfterReopen": [
+          326,
+          359
+        ],
+        "udtReload": false,
+        "appRestart": false,
+        "projectClosed": false
+      },
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [
+        "run-20261029-1314/panel-before-close.png",
+        "run-20261029-1314/panel-closed-project-open.png",
+        "run-20261029-1314/panel-reopened-summary.png",
+        "run-20261029-1314/panel-reopened-reviewed.png",
+        "run-20261029-1314/native-events.json"
+      ],
+      "limitations": [
+        "Same loaded-context panel-only retention. No full app/project restart or fresh installed context. All seven annotations were not re-exported after reopen.",
+        "Panel reopened narrow at 326 x 359 versus prior 807 x 359; no size-retention assertion."
+      ],
+      "blockingReason": null,
+      "dependencyMilestone": "LQ-D02 annotated state established and exported; reset deliberately deferred until after D03 so nonempty annotation retention could be observed."
+    },
+    {
+      "id": "LQ-D04",
+      "action": "Open one native export picker and Cancel, then export the retained report normally.",
+      "acceptance": "Cancel status, controls recovered, report retained, successful subsequent native export. Select the actual dialog, keep default filename/folder when focus is uncertain, verify actual file location. No rescan needed just to retry export.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "PASS_BOUNDED_NATIVE",
+      "evidenceClass": "VERIFIED_THIS_SESSION_NATIVE_AND_CONTENT_READBACK",
+      "actual": {
+        "pickerCancelled": true,
+        "cancelStatus": "Export cancelled.",
+        "controlsRecovered": true,
+        "retainedReportDurationMs": 29,
+        "retrySavedJSON": true,
+        "rescanBetweenCancelAndRetry": false,
+        "pickerClosed": true
+      },
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [
+        "run-20261029-1314/cancel-picker-open.jpg",
+        "run-20261029-1314/cancelled-picker.jpg",
+        "run-20261029-1314/retry-picker.jpg",
+        "run-20261029-1314/retry-saved-json.jpg",
+        "run-20261029-1314/reset-report.json",
+        "run-20261029-1314/reset-export-file.json",
+        "run-20261029-1314/native-events.json"
+      ],
+      "limitations": [
+        "Successful native picker cancellation/retry does not exercise a real plugin write failure; D05 remains NOT_RUN."
+      ],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D05",
+      "action": "Exercise an actual native write failure only with a harmless operator-approved unavailable destination already available; do not change ACLs/security or write into protected application folders.",
+      "acceptance": "A real plugin write rejection, visible error, recovered controls and successful subsequent export. A picker rejecting a path before plugin write is a different boundary. If a safe native write failure cannot be exercised, retain NOT_RUN and cite controlled coverage separately.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01",
+        "LQ-D04"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "PASS_BOUNDED_NATIVE",
+      "evidenceClass": "VERIFIED_THIS_SESSION_NATIVE_WITH_DEBUGGER_ASSISTED_STAGE_ATTRIBUTION_AND_BYTE_READBACK",
+      "actual": {
+        "verifiedAt": "2026-10-31T10:46:29.802316+07:00",
+        "status": "PASS_BOUNDED_NATIVE_D05_WRITE_FAILURE_AND_RECOVERY",
+        "case": "LQ-D05",
+        "runtime": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+        "context": "Frozen developer runtime; same loaded session as run-20261031-1006-inflight; no reload or new scan",
+        "fixture": "reports/lifecycle-qualification-20261029/run-20261031-0828-linear-fixture/working/Linear_Audio_20261031.prproj",
+        "fixtureSha256": "544b63d0e826208df0bbe07f89181f97e4aa495f2110c72ce34d82f758266203",
+        "target": "locked-write-target.json",
+        "targetBytesAfterFailure": 0,
+        "targetSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "temporaryHandle": "FileAccess.Read / FileShare.Read; read allowed, write/delete denied while held; no ACL/attribute/security changes",
+        "ordinaryAttempt": {
+          "visibleStatus": "Export failed: resource busy or locked",
+          "pickerClosed": true,
+          "controlsRecovered": true,
+          "stageAttribution": "Initially unresolved picker vs file.write; not alone a D05 PASS",
+          "recoveryExport": {
+            "file": "audio-preflight-2026-10-31T03-21-39-589Z.json",
+            "bytes": 51217142,
+            "sha256": "117ef210888fb74d2dce01bc2ec623c4d3db35db0943ac6408c4af9272d738e1",
+            "byteIdenticalToRetainedReport": true
+          }
+        },
+        "attributedAttempt": {
+          "method": "Temporary Sources breakpoint at index.js:113 after awaited getFileForSaving and before file.write at line 114; observed non-null returned File; only then acquired the temporary write-denying handle; removed breakpoint, resumed original code and observed identical native export error",
+          "trace": "stage-trace.json",
+          "fileReferenceObservedBeforeHandle": true,
+          "sourceBytesEdited": false,
+          "visibleStatus": "Export failed: resource busy or locked",
+          "pickerClosed": true,
+          "controlsRecovered": true,
+          "reportRetainedMs": 7966,
+          "postFailureRecoveryExport": {
+            "file": "post-trace-recovery.json",
+            "bytes": 51217142,
+            "sha256": "117ef210888fb74d2dce01bc2ec623c4d3db35db0943ac6408c4af9272d738e1",
+            "byteIdenticalToRetainedReport": true
+          }
+        },
+        "newScans": 0,
+        "allTemporaryHandlesReleased": true,
+        "breakpointRemoved": true,
+        "debuggerUnpaused": true,
+        "operatorActions": [
+          {
+            "class": "USER_STATED",
+            "statement": "Yes\u2014replace only the empty test file",
+            "scope": "Only new zero-byte locked-write-target.json"
+          },
+          {
+            "class": "USER_STATED",
+            "statement": "done",
+            "scope": "Manual replacement confirmation after Computer Use geometry error"
+          },
+          {
+            "class": "USER_STATED",
+            "statement": "done",
+            "scope": "Manual same-target confirmation for stage-attribution trial after foreground modal PID error"
+          }
+        ],
+        "toolLimits": [
+          "Initial Save As disappeared before destination could be changed; no target input sent and no D05 claim for that operation.",
+          "Confirm Save As button lay outside reported parent bounds; agent click rejected before input. Keyboard modal attempt also failed before input. Manual confirmations remain USER_STATED; their UI/file results independently observed."
+        ],
+        "limitations": [
+          "Debugger-assisted stage attribution is explicitly separate from the first ordinary native error/recovery; no unpaused timing/performance claim for the trace.",
+          "Failure was deliberately induced only on a new empty disposable file; it is expected recovery testing, not a reproduced product defect requiring source fixes.",
+          "No real disk-full/quota/removable-network/provider case is qualified.",
+          "Adobe API reference was consulted for picker/File distinction; actual stage claim relies on native boundary observation and unchanged source, not documentation alone."
+        ],
+        "nextAction": "All eleven planned developer-context cases P01 and D01-D10 now have bounded passes. Preserve these results and do not repeat them merely to resume. Remaining K01 and I01-I06 package/installed-context cases require their separate authorization, verified final-runtime CCX and designated clean context. No packaging or installation is started by this D05 task; mapping/output/playback correctness and earlier crash cause remain UNKNOWN, distribution NOT APPROVED."
+      },
+      "durationMs": null,
+      "operatorActions": [
+        {
+          "class": "USER_STATED",
+          "statement": "Yes\u2014replace only the empty test file",
+          "scope": "Only new zero-byte locked-write-target.json"
+        },
+        {
+          "class": "USER_STATED",
+          "statement": "done",
+          "scope": "Manual replacement confirmation after Computer Use geometry error"
+        },
+        {
+          "class": "USER_STATED",
+          "statement": "done",
+          "scope": "Manual same-target confirmation for stage-attribution trial after foreground modal PID error"
+        }
+      ],
+      "evidence": [
+        "run-20261031-1029-write-failure/native-result.json",
+        "run-20261031-1029-write-failure/stage-trace.json",
+        "run-20261031-1029-write-failure/native-export-resource-busy-or-locked.jpg",
+        "run-20261031-1029-write-failure/picker-returned-file-before-write.jpg",
+        "run-20261031-1029-write-failure/temporary-breakpoint-removed-before-resume.jpg",
+        "run-20261031-1029-write-failure/debugger-unpaused-no-breakpoints.jpg",
+        "run-20261031-1029-write-failure/attributed-file-write-rejection-controls-recovered.jpg",
+        "run-20261031-1029-write-failure/post-trace-recovery.json",
+        "run-20261031-1029-write-failure/exports.json",
+        "run-20261031-1029-write-failure/final-saved-json-recovered.jpg"
+      ],
+      "limitations": [
+        "Debugger-assisted stage attribution is explicitly separate from the first ordinary native error/recovery; no unpaused timing/performance claim for the trace.",
+        "Failure was deliberately induced only on a new empty disposable file; it is expected recovery testing, not a reproduced product defect requiring source fixes.",
+        "No real disk-full/quota/removable-network/provider case is qualified.",
+        "Adobe API reference was consulted for picker/File distinction; actual stage claim relies on native boundary observation and unchanged source, not documentation alone."
+      ],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D06",
+      "action": "With operator readiness, distinguish no active project from a successfully enumerated empty disposable project. Preserve/create separate fixture copies and media references deliberately.",
+      "acceptance": "No-project acquisition remains failed/UNKNOWN; zero-sequence successful enumeration may be COMPLETE with zero observed inventory. Neither may invent complete unknown denominators or routing/output certification. Preserve raw reports and independent project/sequence UI truth.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "PASS_BOUNDED_NATIVE",
+      "evidenceClass": "VERIFIED_THIS_SESSION_NATIVE_AND_CONTENT_READBACK",
+      "actual": {
+        "noProject": {
+          "durationMs": 1,
+          "completion": "failed",
+          "diagnosticStatus": "UNKNOWN",
+          "project": null,
+          "sequenceCount": null,
+          "inventoryDenominators": null,
+          "failedReads": 1
+        },
+        "emptyProject": {
+          "name": "Boundary_B_Empty_20261030.prproj",
+          "durationMs": 3,
+          "diagnosticStatus": "COMPLETE",
+          "sequenceCount": 0,
+          "coverageDenominators": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "failedReads": 0
+        },
+        "capabilitiesStillUnknown": true
+      },
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [
+        "run-20261030-2116-boundaries/no-project-scan-unknown.jpg",
+        "run-20261030-2116-boundaries/no-project.json",
+        "run-20261030-2116-boundaries/empty-project-settled.jpg",
+        "run-20261030-2116-boundaries/empty-project-scan-3ms-complete.jpg",
+        "run-20261030-2116-boundaries/empty-project.json",
+        "run-20261030-2116-boundaries/native-events.json"
+      ],
+      "limitations": [
+        "No-project failed acquisition is expected and distinct from empty-project COMPLETE enumeration. Neither establishes routing/output correctness."
+      ],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D07",
+      "action": "While idle, switch between two distinct disposable projects A/B; export retained A report before scanning B.",
+      "acceptance": "A's captured identity/evidence stays A until a new scan; new B scan identifies B. Record active UI identity and report identity separately. Do not edit or switch while a scan is active to claim an atomic snapshot guarantee.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01",
+        "LQ-D06"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "PASS_BOUNDED_NATIVE",
+      "evidenceClass": "VERIFIED_THIS_SESSION_NATIVE_AND_CONTENT_READBACK",
+      "actual": {
+        "direction": "Empty B captured -> populated A active -> retained B HTML exported -> new A scan",
+        "retainedHTMLMatchesEntirePreSwitchBReport": true,
+        "newScanIdentifiesA": true,
+        "newScanMs": 38,
+        "distinctNativeProjectPathsAndGUIDs": true,
+        "noActiveScanProjectSwitch": true
+      },
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [
+        "run-20261030-2116-boundaries/empty-project.json",
+        "run-20261030-2116-boundaries/A-active-retained-B-before-scan.jpg",
+        "run-20261030-2116-boundaries/retained-B-in-A.html",
+        "run-20261030-2116-boundaries/A-before-reopen.json",
+        "run-20261030-2116-boundaries/native-events.json"
+      ],
+      "limitations": [
+        "Direction reversed from populated-A to empty-B example to reuse the already captured B report; acceptance is captured-project identity retention across distinct idle projects.",
+        "Bounded idle project-switch evidence; no atomic snapshot claim during an active scan."
+      ],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D08",
+      "action": "Use an independently responsive larger disposable inventory, user-opened with desktop inspection idle during loading. Request Cancel during visibly active traversal, then retry once.",
+      "acceptance": "Retained visited evidence, explicit unvisited Unknowns, cancellation request/completion timestamps, progress/denominators, recovered controls and one successful retry. If the scan finishes before Cancel is exercised, record NOT_EXERCISED, not PASS; no fake host delays/setters or fault injection in the frozen runtime.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": "LQ-D09",
+      "status": "PASS_BOUNDED_NATIVE",
+      "evidenceClass": "VERIFIED_THIS_SESSION_NATIVE_AND_FULL_REPORT_READBACK",
+      "actual": {
+        "status": "PASS_BOUNDED_NATIVE",
+        "cancelledDurationMs": 6657,
+        "visitedClips": 869,
+        "visitedComponents": 3476,
+        "visitedClipsDeepEqualCompletePrefix": true,
+        "unvisitedUnknownsExplicit": true,
+        "incompleteOrUnvisitedTracks": 3,
+        "clipAndComponentExpectedUnknown": true,
+        "partialFailedReadsReported": 4,
+        "unknownFindings": 8,
+        "inputTimestamps": {
+          "scanRequestedAt": "2026-10-31T03:20:31.352Z",
+          "scanInputReturnedAt": "2026-10-31T03:20:31.470Z",
+          "activeObservationReturnedAt": "2026-10-31T03:20:32.714Z",
+          "cancelRequestedAt": "2026-10-31T03:20:38.051Z",
+          "cancelInputReturnedAt": "2026-10-31T03:20:38.171Z",
+          "resultObservationReturnedAt": "2026-10-31T03:20:38.514Z"
+        },
+        "generatedAt": "2026-10-31T03:20:31.529Z",
+        "estimatedScanFinishedAt": "2026-10-31T03:20:38.186Z",
+        "completionTimestampLimit": "Finish estimate is generatedAt plus durationMs; independently observed completion is resultObservationReturnedAt, not an instrumented callback.",
+        "retryDurationMs": 7966,
+        "retryCompleteInventory": [
+          1,
+          3,
+          1024,
+          4096
+        ],
+        "controlsRecoveredObserved": true
+      },
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [
+        "run-20261031-1006-inflight/native-result.json",
+        "run-20261031-1006-inflight/exports.json",
+        "run-20261031-1006-inflight/native-events.json",
+        "run-20261031-1006-inflight/cancel-trial-timestamps.json",
+        "run-20261031-1006-inflight/retry-timestamps.json",
+        "run-20261031-1006-inflight/cancel-trial-active-140.jpg",
+        "run-20261031-1006-inflight/cancel-trial-partial-6657ms.jpg",
+        "run-20261031-1006-inflight/cancelled.json",
+        "run-20261031-1006-inflight/cancelled-json-saved-controls-recovered.jpg",
+        "run-20261031-1006-inflight/retry-complete.json",
+        "run-20261031-1006-inflight/retry-complete-7966ms.jpg"
+      ],
+      "limitations": [
+        "Partial report retains 869 clips/3476 components and null unknown denominators; its 4 failedReads are incomplete-inventory diagnostics, not four proven host-call exceptions.",
+        "Cancel request/returned/observed timestamps are retained; finish estimate is generatedAt plus durationMs, not an instrumented callback.",
+        "Native Save recovery and operator observations retain their separate provenance."
+      ],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D09",
+      "action": "Combine with D08's visibly active scan: observe disabled Scan/export controls and one deliberate second Scan input.",
+      "acceptance": "Bounded UI guard evidence during a real active traversal. One final report alone does not prove rejected overlap or adapter invocation count. If invocation count cannot be observed without altering runtime, state that limit; never claim instrumented single-flight proof.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": "LQ-D08",
+      "status": "PASS_BOUNDED_NATIVE",
+      "evidenceClass": "VERIFIED_THIS_SESSION_NATIVE_AND_FULL_REPORT_READBACK",
+      "actual": {
+        "status": "PASS_BOUNDED_NATIVE",
+        "scope": "Native disabled-controls and deliberate second Scan input while the retained recovery scan was active; traversal progressed 101 to 980 without reset and final report retains original recovery generatedAt.",
+        "inputTimestamps": {
+          "scanRequestedAt": "2026-10-31T03:21:39.161Z",
+          "scanInputReturnedAt": "2026-10-31T03:21:39.536Z",
+          "activeObservationReturnedAt": "2026-10-31T03:21:40.487Z",
+          "secondScanRequestedAt": "2026-10-31T03:21:46.818Z",
+          "secondScanReturnedAt": "2026-10-31T03:21:46.958Z",
+          "secondInputObservationReturnedAt": "2026-10-31T03:21:47.190Z"
+        },
+        "secondInputInsideRetainedScanInterval": true,
+        "originalRetryGeneratedAtRetained": true,
+        "adapterInvocationCount": "NOT_INSTRUMENTED_UNKNOWN"
+      },
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [
+        "run-20261031-1006-inflight/native-result.json",
+        "run-20261031-1006-inflight/exports.json",
+        "run-20261031-1006-inflight/native-events.json",
+        "run-20261031-1006-inflight/cancel-trial-timestamps.json",
+        "run-20261031-1006-inflight/retry-timestamps.json",
+        "run-20261031-1006-inflight/retry-active-101.jpg",
+        "run-20261031-1006-inflight/retry-after-second-scan-active-980.jpg",
+        "run-20261031-1006-inflight/retry-complete.json"
+      ],
+      "limitations": [
+        "Native UI guard only. Actual adapter invocation count during overlap is not instrumented and remains UNKNOWN; one final report alone would not prove rejection.",
+        "This verified trial supersedes the initial delayed input, which started a fresh scan and remains NOT_EXERCISED historically."
+      ],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-D10",
+      "action": "Prepare/save a separate working lifecycle copy, freeze its post-setup baseline, then normally close/reopen that copy after user readiness. Keep desktop inspection idle during loading; inspect after the operator reports it settled.",
+      "acceptance": "Saved copy/media resolution and relevant audio state persist, scan/export work after reopening, original canonical fixture untouched. Separate intentional Save/serialization changes from scan-only preservation; compare post-setup baseline and independent visible mute/Enable/settings/undo or clean-state evidence. File hash alone proves saved bytes, not all in-memory state.",
+      "context": "UDT_FINAL",
+      "dependenciesAll": [
+        "LQ-P01",
+        "LQ-D07"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "PASS_BOUNDED_NATIVE",
+      "evidenceClass": "VERIFIED_THIS_SESSION_NATIVE_AND_CONTENT_READBACK",
+      "actual": {
+        "savedWorkingCopy": "working/Boundary_A.prproj",
+        "postSetupSHA256": "9cc2a7e49681d915795695ecf49e2c06ded37494b90576ec1c31fa472bb5d9d8",
+        "nativeCloseReopen": true,
+        "appRestart": false,
+        "beforeScanMs": 38,
+        "afterScanMs": 47,
+        "fullReportsEqualExcludingOnly": [
+          "observation.generatedAt",
+          "observation.durationMs"
+        ],
+        "nativeAfterJSONHTMLMatch": true,
+        "visibleMixerTimelineIndicatorsRetained": true,
+        "savedBytesUnchangedAfterSetup": true,
+        "originalFixturePreserved": true
+      },
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [
+        "run-20261030-2116-boundaries/working-copy-baseline.json",
+        "run-20261030-2116-boundaries/A-saved-audio-state-baseline.jpg",
+        "run-20261030-2116-boundaries/A-before-close-clean.jpg",
+        "run-20261030-2116-boundaries/A-closed-B-still-open.jpg",
+        "run-20261030-2116-boundaries/A-reopen-dialog.jpg",
+        "run-20261030-2116-boundaries/A-reopened-audio-state.jpg",
+        "run-20261030-2116-boundaries/A-before-reopen.json",
+        "run-20261030-2116-boundaries/A-after-reopen.json",
+        "run-20261030-2116-boundaries/A-after-reopen.html",
+        "run-20261030-2116-boundaries/final-idle-47ms.jpg",
+        "run-20261030-2116-boundaries/native-events.json"
+      ],
+      "limitations": [
+        "Post-setup native Save intentionally changed only the disposable working file; canonical fixture remains unchanged.",
+        "Visible active-sequence mute/solo/record, pan/fader/Read and timeline/title indicators checked; every in-memory property, clip context Enable toggle/undo history and all settings were not independently inspected.",
+        "No media-relink dialog was observed; saved references and report inventory persisted. Playback/export audio correctness remains UNKNOWN."
+      ],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-K01",
+      "action": "When packaging execution is authorized, UDT Package the exact frozen final stage into a new local CCX. Independently verify with `scripts/verify-package.ps1` and the final receipt; allow only documented manifest formatting.",
+      "acceptance": "Actual CCX path/SHA256, plugin ID/version and seven-file equality; no staging overwrite. Archive PASS remains separate from installation. A verified final CCX is a dependency for every installed-context case.",
+      "context": "ARCHIVE",
+      "dependenciesAll": [
+        "LQ-P01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "PASS_ARCHIVE_INTEGRITY",
+      "evidenceClass": "VERIFIED_THIS_SESSION_NATIVE_UDT_PACKAGING_AND_STATIC_ARCHIVE",
+      "actual": {
+        "completedAt": "2026-10-31T08:43:32.235985+00:00",
+        "status": "FINAL_RUNTIME_CCX_PREPARED_ARCHIVE_VERIFIED",
+        "case": "LQ-K01",
+        "caseStatus": "PASS_ARCHIVE_INTEGRITY",
+        "evidenceClass": "VERIFIED_THIS_SESSION_NATIVE_UDT_PACKAGING_AND_STATIC_ARCHIVE",
+        "runtime": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+        "branch": "codex/validated-beta-20261017",
+        "head": "9330e242eadcd10623300ca39d01753355aefc7a",
+        "package": "artifacts/ccx-0.2.1-037571056922/com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+        "packageSha256": "ecb01b1a03e113f89ed355769ee737378feb240f2961187f795ae03e55580d06",
+        "packageBytes": 15698,
+        "nativeAction": "UDT ellipsis > Package > Select target directory; Successfully packaged plugin observed",
+        "registeredStagePathVerified": true,
+        "buildFolderOverride": "blank",
+        "sixRuntimeFilesExact": true,
+        "manifestValuesEqual": true,
+        "manifestBytesExact": false,
+        "sourceStageUnchanged": true,
+        "newScans": 0,
+        "newInstalledExecutions": 0,
+        "installationStarted": false,
+        "installationQualified": false,
+        "distributionApproved": false,
+        "nextAction": "Designate a clean customer test profile/host and record I01 pre-install provenance. Installation/restart/upgrade/uninstall/reinstall require separate explicit authorization; none is started. Preserve completed developer/layout checks. Mapping, output topology, playback/export correctness and earlier crash cause remain UNKNOWN; distribution NOT APPROVED.",
+        "limits": [
+          "Archive integrity and native packaging UI do not qualify installed runtime behavior or clean-customer installation.",
+          "Strict byte verification rejected only manifest.json; documented AllowManifestReformat passed after authenticated staged-manifest value comparison.",
+          "Previously recorded developer native observations retain their dates and bounds; no repeat scan/test-suite or installation smoke was performed."
+        ]
+      },
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [
+        "run-20261031-1049-package/registered-stage-folder.txt",
+        "run-20261031-1049-package/udt-options-blank-override.jpg",
+        "run-20261031-1049-package/package-destination.jpg",
+        "run-20261031-1049-package/udt-package-success.jpg",
+        "run-20261031-1049-package/archive-exact-result.txt",
+        "run-20261031-1049-package/archive-verification.json",
+        "run-20261031-1049-package/independent-archive-readback.json",
+        "run-20261031-1049-package/package-result.json"
+      ],
+      "limitations": [
+        "Archive integrity and native packaging UI do not qualify installed runtime behavior or clean-customer installation.",
+        "Strict byte verification rejected only manifest.json; documented AllowManifestReformat passed after authenticated staged-manifest value comparison.",
+        "Previously recorded developer native observations retain their dates and bounds; no repeat scan/test-suite or installation smoke was performed."
+      ],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-I01",
+      "action": "User provides a designated clean test profile/host with normal Adobe access; record pre-install state and provenance.",
+      "acceptance": "Clean-context evidence, not merely an empty Creative Cloud acquired-plugin list or existing development profile. Never record credentials.",
+      "context": "INSTALLED_FINAL",
+      "dependenciesAll": [
+        "LQ-K01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-I02",
+      "action": "Explicitly authorized normal Creative Cloud installation of K01's exact CCX; user handles UAC/authentication. Verify installed contents and inactive developer registrations.",
+      "acceptance": "Installer outcome, selected package/hash, installed path/ID/version, six exact runtime files plus manifest values as appropriate. No UDT fallback/installed-predecessor substitution.",
+      "context": "INSTALLED_FINAL",
+      "dependenciesAll": [
+        "LQ-K01",
+        "LQ-I01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-I03",
+      "action": "After readiness/authorization, normal Premiere restart with UDT not launched; open installed panel, scan disposable project and export both reports; exercise the relevant panel/review/cancel recovery checks in installed context.",
+      "acceptance": "Fresh installed binding, host startup/menu/panel evidence and actual lifecycle results. Developer-context evidence may guide expectations but cannot replace installed execution. No forced quit or unsaved work discard.",
+      "context": "INSTALLED_FINAL",
+      "dependenciesAll": [
+        "LQ-K01",
+        "LQ-I01"
+      ],
+      "dependenciesAny": [
+        "LQ-I02",
+        "LQ-I04"
+      ],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-I04",
+      "action": "Separately authorized upgrade from an authentic, verified lower-version same-ID package. First establish that installed baseline, then install final 0.2.1 normally.",
+      "acceptance": "Genuine prior artifact/provenance, version transition and before/after installed identities with working panel/report. Same-version predecessor 0.2.1 replacement is not automatically an eligible upgrade. If no eligible prior package exists, keep NOT_RUN; do not relabel binaries/versions.",
+      "context": "INSTALLED_FINAL",
+      "dependenciesAll": [
+        "LQ-K01",
+        "LQ-I01"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-I05",
+      "action": "Separately authorized normal uninstall in the test profile, after preservation/readiness.",
+      "acceptance": "Native removal result and absence of installed panel/files under the documented normal flow. Preserve exports and user projects; deletion is an operator-confirmed consequential action.",
+      "context": "INSTALLED_FINAL",
+      "dependenciesAll": [
+        "LQ-K01",
+        "LQ-I01",
+        "LQ-I03"
+      ],
+      "dependenciesAny": [
+        "LQ-I02",
+        "LQ-I04"
+      ],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    },
+    {
+      "id": "LQ-I06",
+      "action": "Separately authorized reinstall of the exact K01 candidate, followed by a normal restart/scan/export smoke.",
+      "acceptance": "Correct installed identity restored and bounded installed smoke passes. Reinstallation must not inherit PASS solely from I02.",
+      "context": "INSTALLED_FINAL",
+      "dependenciesAll": [
+        "LQ-I05"
+      ],
+      "dependenciesAny": [],
+      "sharesActiveRunWith": null,
+      "status": "NOT_RUN",
+      "evidenceClass": null,
+      "actual": null,
+      "durationMs": null,
+      "operatorActions": [],
+      "evidence": [],
+      "limitations": [],
+      "blockingReason": null
+    }
+  ],
+  "caseCount": 18,
+  "newNativeExecutions": 10,
+  "newInstalledExecutions": 0,
+  "distributionApproved": false,
+  "unknownCapabilities": [
+    "sourceChannelMapping",
+    "outputBusTopology",
+    "playbackExportCorrectness"
+  ],
+  "nextExecutionSequence": [
+    "LQ-I01 after owner designates accessible candidate clean context"
+  ],
+  "plan": "docs/LIFECYCLE_QUALIFICATION_PLAN_20261029.md",
+  "plannedEvidencePattern": "reports/lifecycle-qualification-20261029/<run-id>/<case-id>/",
+  "revisedAt": "2026-10-31T08:43:32.235985+00:00",
+  "currentRun": "run-20261031-1049-package",
+  "executionStartedAt": "2026-10-29T06:21:37.204238+00:00",
+  "executionCompletedAt": "2026-10-29T06:57:03.390073+00:00",
+  "actualExecutionSequence": [
+    "LQ-P01",
+    "LQ-D02 annotate and export",
+    "LQ-D03 panel-only close/reopen with nonempty review state",
+    "LQ-D02 reset scan",
+    "LQ-D04 cancel picker and retry retained JSON",
+    "LQ-D01 compare two earlier layout reports with reset report",
+    "LQ-K01 UDT final-stage Package and independent archive verification"
+  ],
+  "nextExecutionPrerequisites": [
+    "Await owner designation of a different Windows profile or PC, or confirmation that none is available; then inspect only that context read-only for I01 provenance. No install/restart/profile creation/system change is authorized by this preparation."
+  ],
+  "counts": {
+    "passBoundedNative": 11,
+    "passArchiveIntegrity": 1,
+    "notRun": 6,
+    "total": 18
+  },
+  "finalObservedHostState": {
+    "evidenceClass": "HISTORICAL_RECORDED_LAST_NATIVE_PREMIERE_STATE",
+    "sourceRun": "run-20261031-1029-write-failure",
+    "state": {
+      "project": "Linear_Audio_20261031",
+      "projectCleanTitleObserved": true,
+      "panel": "left-docked",
+      "retainedScanMs": 7966,
+      "lastExportStatus": "Saved JSON report",
+      "scanAvailable": true,
+      "cancelDisabled": true,
+      "pickerClosed": true,
+      "inspector": "open, unpaused, no breakpoints",
+      "allTemporaryFileHandlesReleased": true,
+      "savedFixtureSha256": "544b63d0e826208df0bbe07f89181f97e4aa495f2110c72ce34d82f758266203"
+    },
+    "thisRunPremiereRechecked": false,
+    "thisRunUDT": "Successfully packaged plugin; beta row Debugging; no reload/unload"
+  },
+  "currentBoundaryRun": {
+    "directory": "reports/lifecycle-qualification-20261029/run-20261030-2116-boundaries",
+    "status": "PROJECT_BOUNDARY_DEVELOPER_CHECKS_COMPLETE_BOUNDED",
+    "nativeCaseScans": 4,
+    "caseStatus": {
+      "LQ-D06": "PASS_BOUNDED_NATIVE",
+      "LQ-D07": "PASS_BOUNDED_NATIVE",
+      "LQ-D10": "PASS_BOUNDED_NATIVE"
+    },
+    "loadedFinalRuntime": "VERIFIED_THIS_SESSION_NATIVE_REGISTRATION_PATH_AND_LOADED",
+    "preservedSourceStageIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+    "nextAction": "Preserve completed project boundaries; D05 needs a harmless approved unavailable destination; D08/D09 need a responsive larger disposable fixture. Packaging/installed phase remains separately authorized and unqualified.",
+    "completedAt": "2026-10-30T22:06:47.568979+07:00"
+  },
+  "largerFixturePreparation": {
+    "updatedAt": "2026-10-31T09:30:42.063363+07:00",
+    "status": "RESPONSIVE_LINEAR_FIXTURE_PREPARED_BOUNDED",
+    "run": "reports/lifecycle-qualification-20261029/run-20261031-0828-linear-fixture",
+    "project": "working/Linear_Audio_20261031.prproj",
+    "projectSha256": "544b63d0e826208df0bbe07f89181f97e4aa495f2110c72ce34d82f758266203",
+    "sequenceCount": 1,
+    "audioTrackCount": 3,
+    "populatedAudioTracks": 1,
+    "referencedAudioClipOccurrences": 1024,
+    "clipDurationSeconds": 1,
+    "sequenceDurationSeconds": 1024,
+    "nativeEndTimecode": "00:17:04:00",
+    "sequenceTimebase": "30.00 frames/second",
+    "audio": "Stereo 2 channels / 48000 Hz",
+    "contiguousEqualDurationRangesVerified": true,
+    "stages": [
+      {
+        "clips": 1,
+        "structure": "stage-0001-30fps-structure.json",
+        "snapshotSha256": "ca30fff35d5f39bbddef7fdc03d846a3215bf7c5f00cefca65394f398c4f3584"
+      },
+      {
+        "clips": 2,
+        "structure": "stage-0002-30fps-structure.json",
+        "snapshotSha256": "2b95d6168e8bd49f2b0d9a2d6b6bd80aca20ff229a99c5b27d593dc03df75f5e"
+      },
+      {
+        "clips": 4,
+        "structure": "stage-0004-30fps-structure.json",
+        "snapshotSha256": "36a8a76940fa0658dd86b3951879718d065eb4cb29f81e8f3e8e6d9972ef166d"
+      },
+      {
+        "clips": 8,
+        "structure": "stage-0008-30fps-structure.json",
+        "snapshotSha256": "6cb1eba8e0646521843e8cb174c385e552bb7ee6081f27489eb1074f7f563ea6"
+      },
+      {
+        "clips": 16,
+        "structure": "stage-0016-30fps-structure.json",
+        "snapshotSha256": "10dd193de03a2d4592306c0f5e00d3a7fd07bcbe4accdc8190d83f2b06224bd5"
+      },
+      {
+        "clips": 32,
+        "structure": "stage-0032-30fps-structure.json",
+        "snapshotSha256": "2e374c43ecf06d2bc67af32696c9ef6ea8c7f42f64df858228a29500a68c59ee"
+      },
+      {
+        "clips": 64,
+        "structure": "stage-0064-30fps-structure.json",
+        "snapshotSha256": "4a19db539f9efc0cc681c92d074545fd37edb84228d659cbfe9c47ccd8ad342a"
+      },
+      {
+        "clips": 128,
+        "structure": "stage-0128-30fps-structure.json",
+        "snapshotSha256": "e6530a20cca402e9c3d9478e78a92e29bf00bbc184aaef1e264ece1531768e8e"
+      },
+      {
+        "clips": 256,
+        "structure": "stage-0256-30fps-structure.json",
+        "snapshotSha256": "2a55162c52808775af9d790dc17f92fd875d7589ab4009b69b2aca877f3a31e3"
+      },
+      {
+        "clips": 512,
+        "structure": "stage-0512-30fps-structure.json",
+        "snapshotSha256": "5128092b22ab13515c0b7bd991850f99b2fdd30808254d14f808af7413a14528"
+      },
+      {
+        "clips": 1024,
+        "structure": "stage-1024-30fps-structure.json",
+        "snapshotSha256": "544b63d0e826208df0bbe07f89181f97e4aa495f2110c72ce34d82f758266203"
+      }
+    ],
+    "operatorTimebaseSelection": {
+      "class": "USER_STATED",
+      "statement": "30 selected."
+    },
+    "timebaseIndependentlyObserved": "sequence-settings-30fps-verified.jpg",
+    "nativeSaveFitAndFileMenuResponsive": true,
+    "nativeEvidence": [
+      "stage-0002-30fps-native.jpg",
+      "stage-0128-30fps-native.jpg",
+      "stage-1024-30fps-saved-native.jpg",
+      "stage-1024-fit-native.jpg",
+      "stage-1024-file-menu-responsive.jpg",
+      "stage-1024-normal-close-home.jpg",
+      "stage-1024-reopened-native.jpg",
+      "stage-1024-reopened-file-menu.jpg"
+    ],
+    "normalCloseObserved": true,
+    "normalReopenRequested": true,
+    "reopenedReadinessIndependentlyObserved": true,
+    "responsiveLargerFixtureEstablished": true,
+    "nativeScansThisRun": 0,
+    "finalRuntimeLoadedThisRun": "NOT_INDEPENDENTLY_ESTABLISHED",
+    "runtimeSourceStageIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+    "runtimeSourceStageUnchanged": true,
+    "D08": "NOT_RUN",
+    "D09": "NOT_RUN",
+    "nextAction": "Freshly bind UDT registration path and Loaded state to final 037571056922 before any scan. Then use this independent fixture for the planned bounded D08/D09 trial; actual active traversal/cancel/overlap evidence is required. No forced delays or fixture growth beyond 1024 merely to catch a short scan.",
+    "limits": [
+      "Synthetic single-sequence preparation, not representative customer performance or cancellation qualification.",
+      "Saved native project structure, observed UI responsiveness and plugin adapter reads are separate evidence classes.",
+      "Mapping, output-bus topology, playback/export correctness and earlier docking crash cause remain UNKNOWN.",
+      "Customer installation and broader lifecycle remain separate; distribution NOT APPROVED."
+    ],
+    "operatorReopenReady": {
+      "class": "USER_STATED",
+      "statement": "ready"
+    }
+  },
+  "updatedAt": "2026-11-01T09:47:06.757202+00:00",
+  "currentNativeHostState": {
+    "project": "Linear_Audio_20261031",
+    "projectCleanTitleObserved": true,
+    "panel": "left-docked",
+    "retainedScanMs": 7966,
+    "lastExportStatus": "Saved JSON report",
+    "scanAvailable": true,
+    "cancelDisabled": true,
+    "pickerClosed": true,
+    "inspector": "open, unpaused, no breakpoints",
+    "allTemporaryFileHandlesReleased": true,
+    "savedFixtureSha256": "544b63d0e826208df0bbe07f89181f97e4aa495f2110c72ce34d82f758266203"
+  },
+  "inFlightAttempt": {
+    "preparedAt": "2026-10-31T03:06:46.832049+00:00",
+    "status": "INFLIGHT_DEVELOPER_CHECKS_COMPLETE_BOUNDED",
+    "runtime": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+    "sourceStageUnchanged": true,
+    "branch": "codex/validated-beta-20261017",
+    "head": "9330e242eadcd10623300ca39d01753355aefc7a",
+    "fixture": "reports/lifecycle-qualification-20261029/run-20261031-0828-linear-fixture/working/Linear_Audio_20261031.prproj",
+    "fixtureSha256": "544b63d0e826208df0bbe07f89181f97e4aa495f2110c72ce34d82f758266203",
+    "fixtureClips": 1024,
+    "fixtureSequences": 1,
+    "fixtureAudioTracks": 3,
+    "udtLaunchedNormally": true,
+    "loadedRuntimeBound": true,
+    "D08": "PASS_BOUNDED_NATIVE",
+    "D09": "PASS_BOUNDED_NATIVE",
+    "growthBeyond1024": false,
+    "updatedAt": "2026-10-31T10:26:20.145547+07:00",
+    "registrationPath": "artifacts/audio-preflight-0.2.1-037571056922",
+    "buildFolderOverride": null,
+    "nativeScanButtonInputs": 5,
+    "retainedCompleteReportsObserved": 2,
+    "exportedReportVerified": true,
+    "nextAction": "Preserve the completed layout/review/picker/project-boundary/cancellation/guard evidence. Remaining developer case D05 requires an already available harmless operator-approved native write-failure destination. Do not create ACL/security changes or protected-folder writes. Packaging, host-restart and installed-customer cases require their separate artifact/profile/authorization prerequisites; no final CCX or customer qualification is established.",
+    "nativeScanInvocationCount": "NOT_INSTRUMENTED_UNKNOWN",
+    "retainedCancelledReportsObserved": 1,
+    "newNativeScans": 4,
+    "initialAttempt": "NOT_EXERCISED for cancellation/overlap; preserved as historical attempt, superseded by verified later trial",
+    "nativeScanStartsEstablished": 4
+  },
+  "currentRunCompletedAt": "2026-10-31T08:43:32.235985+00:00",
+  "inFlightResult": {
+    "verifiedAt": "2026-10-31T03:25:46.375Z",
+    "status": "PASS_BOUNDED_NATIVE_D08_D09_REPORT_AND_TIMING_READBACK",
+    "runtime": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+    "D08": {
+      "status": "PASS_BOUNDED_NATIVE",
+      "cancelledDurationMs": 6657,
+      "visitedClips": 869,
+      "visitedComponents": 3476,
+      "visitedClipsDeepEqualCompletePrefix": true,
+      "unvisitedUnknownsExplicit": true,
+      "incompleteOrUnvisitedTracks": 3,
+      "clipAndComponentExpectedUnknown": true,
+      "partialFailedReadsReported": 4,
+      "unknownFindings": 8,
+      "inputTimestamps": {
+        "scanRequestedAt": "2026-10-31T03:20:31.352Z",
+        "scanInputReturnedAt": "2026-10-31T03:20:31.470Z",
+        "activeObservationReturnedAt": "2026-10-31T03:20:32.714Z",
+        "cancelRequestedAt": "2026-10-31T03:20:38.051Z",
+        "cancelInputReturnedAt": "2026-10-31T03:20:38.171Z",
+        "resultObservationReturnedAt": "2026-10-31T03:20:38.514Z"
+      },
+      "generatedAt": "2026-10-31T03:20:31.529Z",
+      "estimatedScanFinishedAt": "2026-10-31T03:20:38.186Z",
+      "completionTimestampLimit": "Finish estimate is generatedAt plus durationMs; independently observed completion is resultObservationReturnedAt, not an instrumented callback.",
+      "retryDurationMs": 7966,
+      "retryCompleteInventory": [
+        1,
+        3,
+        1024,
+        4096
+      ],
+      "controlsRecoveredObserved": true
+    },
+    "D09": {
+      "status": "PASS_BOUNDED_NATIVE",
+      "scope": "Native disabled-controls and deliberate second Scan input while the retained recovery scan was active; traversal progressed 101 to 980 without reset and final report retains original recovery generatedAt.",
+      "inputTimestamps": {
+        "scanRequestedAt": "2026-10-31T03:21:39.161Z",
+        "scanInputReturnedAt": "2026-10-31T03:21:39.536Z",
+        "activeObservationReturnedAt": "2026-10-31T03:21:40.487Z",
+        "secondScanRequestedAt": "2026-10-31T03:21:46.818Z",
+        "secondScanReturnedAt": "2026-10-31T03:21:46.958Z",
+        "secondInputObservationReturnedAt": "2026-10-31T03:21:47.190Z"
+      },
+      "secondInputInsideRetainedScanInterval": true,
+      "originalRetryGeneratedAtRetained": true,
+      "adapterInvocationCount": "NOT_INSTRUMENTED_UNKNOWN"
+    },
+    "completeReportsEqualExcept": [
+      "observation.generatedAt",
+      "observation.durationMs"
+    ],
+    "fullReportEquality": true,
+    "diagnosticsReproducedForAllThree": true,
+    "initialDelayedAttempt": "NOT_EXERCISED; preserved separately, not promoted",
+    "nativeScanStartsEstablished": 4,
+    "nativeCompleteReportsRetained": 2,
+    "nativeCancelledReportsRetained": 1,
+    "firstScanReportNotRetained": true,
+    "limits": [
+      "Bounded developer-context fixture evidence, not instrumented single-flight proof or representative customer performance.",
+      "The unknown clip/component denominators remain null after cancellation; do not substitute 1024/4096 from a different completed report.",
+      "Mapping/output topology/playback-export correctness and earlier crash cause UNKNOWN.",
+      "No new HTML pair required for these cases; native JSON reports retained. Customer installation and broader lifecycle remain separate."
+    ]
+  },
+  "finalHostState": {
+    "project": "Linear_Audio_20261031",
+    "projectCleanTitleObserved": true,
+    "panel": "left-docked",
+    "retainedScanMs": 7966,
+    "lastExportStatus": "Saved JSON report",
+    "scanAvailable": true,
+    "cancelDisabled": true,
+    "pickerClosed": true,
+    "inspector": "open, unpaused, no breakpoints",
+    "allTemporaryFileHandlesReleased": true,
+    "savedFixtureSha256": "544b63d0e826208df0bbe07f89181f97e4aa495f2110c72ce34d82f758266203"
+  },
+  "writeFailureResult": {
+    "verifiedAt": "2026-10-31T10:46:29.802316+07:00",
+    "status": "PASS_BOUNDED_NATIVE_D05_WRITE_FAILURE_AND_RECOVERY",
+    "case": "LQ-D05",
+    "runtime": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+    "context": "Frozen developer runtime; same loaded session as run-20261031-1006-inflight; no reload or new scan",
+    "fixture": "reports/lifecycle-qualification-20261029/run-20261031-0828-linear-fixture/working/Linear_Audio_20261031.prproj",
+    "fixtureSha256": "544b63d0e826208df0bbe07f89181f97e4aa495f2110c72ce34d82f758266203",
+    "target": "locked-write-target.json",
+    "targetBytesAfterFailure": 0,
+    "targetSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "temporaryHandle": "FileAccess.Read / FileShare.Read; read allowed, write/delete denied while held; no ACL/attribute/security changes",
+    "ordinaryAttempt": {
+      "visibleStatus": "Export failed: resource busy or locked",
+      "pickerClosed": true,
+      "controlsRecovered": true,
+      "stageAttribution": "Initially unresolved picker vs file.write; not alone a D05 PASS",
+      "recoveryExport": {
+        "file": "audio-preflight-2026-10-31T03-21-39-589Z.json",
+        "bytes": 51217142,
+        "sha256": "117ef210888fb74d2dce01bc2ec623c4d3db35db0943ac6408c4af9272d738e1",
+        "byteIdenticalToRetainedReport": true
+      }
+    },
+    "attributedAttempt": {
+      "method": "Temporary Sources breakpoint at index.js:113 after awaited getFileForSaving and before file.write at line 114; observed non-null returned File; only then acquired the temporary write-denying handle; removed breakpoint, resumed original code and observed identical native export error",
+      "trace": "stage-trace.json",
+      "fileReferenceObservedBeforeHandle": true,
+      "sourceBytesEdited": false,
+      "visibleStatus": "Export failed: resource busy or locked",
+      "pickerClosed": true,
+      "controlsRecovered": true,
+      "reportRetainedMs": 7966,
+      "postFailureRecoveryExport": {
+        "file": "post-trace-recovery.json",
+        "bytes": 51217142,
+        "sha256": "117ef210888fb74d2dce01bc2ec623c4d3db35db0943ac6408c4af9272d738e1",
+        "byteIdenticalToRetainedReport": true
+      }
+    },
+    "newScans": 0,
+    "allTemporaryHandlesReleased": true,
+    "breakpointRemoved": true,
+    "debuggerUnpaused": true,
+    "operatorActions": [
+      {
+        "class": "USER_STATED",
+        "statement": "Yes\u2014replace only the empty test file",
+        "scope": "Only new zero-byte locked-write-target.json"
+      },
+      {
+        "class": "USER_STATED",
+        "statement": "done",
+        "scope": "Manual replacement confirmation after Computer Use geometry error"
+      },
+      {
+        "class": "USER_STATED",
+        "statement": "done",
+        "scope": "Manual same-target confirmation for stage-attribution trial after foreground modal PID error"
+      }
+    ],
+    "toolLimits": [
+      "Initial Save As disappeared before destination could be changed; no target input sent and no D05 claim for that operation.",
+      "Confirm Save As button lay outside reported parent bounds; agent click rejected before input. Keyboard modal attempt also failed before input. Manual confirmations remain USER_STATED; their UI/file results independently observed."
+    ],
+    "limitations": [
+      "Debugger-assisted stage attribution is explicitly separate from the first ordinary native error/recovery; no unpaused timing/performance claim for the trace.",
+      "Failure was deliberately induced only on a new empty disposable file; it is expected recovery testing, not a reproduced product defect requiring source fixes.",
+      "No real disk-full/quota/removable-network/provider case is qualified.",
+      "Adobe API reference was consulted for picker/File distinction; actual stage claim relies on native boundary observation and unchanged source, not documentation alone."
+    ],
+    "nextAction": "All eleven planned developer-context cases P01 and D01-D10 now have bounded passes. Preserve these results and do not repeat them merely to resume. Remaining K01 and I01-I06 package/installed-context cases require their separate authorization, verified final-runtime CCX and designated clean context. No packaging or installation is started by this D05 task; mapping/output/playback correctness and earlier crash cause remain UNKNOWN, distribution NOT APPROVED."
+  },
+  "packagePreparation": {
+    "completedAt": "2026-10-31T08:43:32.235985+00:00",
+    "status": "FINAL_RUNTIME_CCX_PREPARED_ARCHIVE_VERIFIED",
+    "case": "LQ-K01",
+    "caseStatus": "PASS_ARCHIVE_INTEGRITY",
+    "evidenceClass": "VERIFIED_THIS_SESSION_NATIVE_UDT_PACKAGING_AND_STATIC_ARCHIVE",
+    "runtime": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+    "branch": "codex/validated-beta-20261017",
+    "head": "9330e242eadcd10623300ca39d01753355aefc7a",
+    "package": "artifacts/ccx-0.2.1-037571056922/com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+    "packageSha256": "ecb01b1a03e113f89ed355769ee737378feb240f2961187f795ae03e55580d06",
+    "packageBytes": 15698,
+    "nativeAction": "UDT ellipsis > Package > Select target directory; Successfully packaged plugin observed",
+    "registeredStagePathVerified": true,
+    "buildFolderOverride": "blank",
+    "sixRuntimeFilesExact": true,
+    "manifestValuesEqual": true,
+    "manifestBytesExact": false,
+    "sourceStageUnchanged": true,
+    "newScans": 0,
+    "newInstalledExecutions": 0,
+    "installationStarted": false,
+    "installationQualified": false,
+    "distributionApproved": false,
+    "nextAction": "Designate a clean customer test profile/host and record I01 pre-install provenance. Installation/restart/upgrade/uninstall/reinstall require separate explicit authorization; none is started. Preserve completed developer/layout checks. Mapping, output topology, playback/export correctness and earlier crash cause remain UNKNOWN; distribution NOT APPROVED.",
+    "limits": [
+      "Archive integrity and native packaging UI do not qualify installed runtime behavior or clean-customer installation.",
+      "Strict byte verification rejected only manifest.json; documented AllowManifestReformat passed after authenticated staged-manifest value comparison.",
+      "Previously recorded developer native observations retain their dates and bounds; no repeat scan/test-suite or installation smoke was performed."
+    ]
+  },
+  "cleanContextPreparation": {
+    "updatedAt": "2026-11-01T09:47:06.757202+00:00",
+    "status": "AWAITING_CLEAN_CONTEXT_DESIGNATION",
+    "run": "reports/lifecycle-qualification-20261029/run-20261101-1645-i01-preparation",
+    "case": "LQ-I01",
+    "caseStatus": "NOT_RUN",
+    "contextDesignated": false,
+    "cleanContextEstablished": false,
+    "ownerQuestion": "Another Windows user on this PC / another PC / none available yet; include name if available",
+    "newScans": 0,
+    "desktopCalls": 0,
+    "installationStarted": false,
+    "nextAction": "Await owner designation of a different Windows profile or PC, or confirmation that none is available; then inspect only that context read-only for I01 provenance. No install/restart/profile creation/system change is authorized by this preparation."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "savedAt": "2026-10-29T04:51:47.031Z",
+  "observation": "Fresh project screenshot after user resumed, before denied UDT access; not a per-size panel check",
+  "window": {
+    "app": "{6D809377-6AF0-444B-8957-A3773F02200E}\\Adobe\\Adobe Premiere Pro 2026\\Adobe Premiere Pro.exe",
+    "id": 6622944,
+    "title": "Adobe Premiere - C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\Positive_Signal_Test"
+  },
+  "screenshot": {
+    "id": "screenshot-0",
+    "width": 1505,
+    "height": 809,
+    "originX": 162,
+    "originY": 0,
+    "units": "logical pixels per sky API"
+  },
+  "finalCandidateLoaded": null,
+  "finalCandidateLoadedInterpretation": "Not independently established; no plugin panel visible"
+}

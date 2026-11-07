@@ -1,0 +1,114 @@
+{
+  "verifiedAt": "2026-10-31T02:14:29.545709+00:00",
+  "evidenceClass": "SAVED_NATIVE_PROJECT_STRUCTURE_NOT_UI_OR_SCAN_PROOF",
+  "project": "working/Linear_Audio_20261031.prproj",
+  "projectSha256": "10dd193de03a2d4592306c0f5e00d3a7fd07bcbe4accdc8190d83f2b06224bd5",
+  "sequenceCount": 1,
+  "audioTrackCount": 3,
+  "populatedAudioTracks": 1,
+  "referencedAudioClipOccurrences": 16,
+  "rootAudioClipTrackItemObjects": 16,
+  "contiguousRepeatedClipRanges": true,
+  "tracks": [
+    {
+      "id": "5b61bca5-3ddb-4003-b0e5-4b80fb00f3af",
+      "clips": [
+        {
+          "objectId": "69",
+          "startTicks": 0,
+          "endTicks": 254016000000
+        },
+        {
+          "objectId": "70",
+          "startTicks": 254016000000,
+          "endTicks": 508032000000
+        },
+        {
+          "objectId": "71",
+          "startTicks": 508032000000,
+          "endTicks": 762048000000
+        },
+        {
+          "objectId": "72",
+          "startTicks": 762048000000,
+          "endTicks": 1016064000000
+        },
+        {
+          "objectId": "73",
+          "startTicks": 1016064000000,
+          "endTicks": 1270080000000
+        },
+        {
+          "objectId": "74",
+          "startTicks": 1270080000000,
+          "endTicks": 1524096000000
+        },
+        {
+          "objectId": "75",
+          "startTicks": 1524096000000,
+          "endTicks": 1778112000000
+        },
+        {
+          "objectId": "76",
+          "startTicks": 1778112000000,
+          "endTicks": 2032128000000
+        },
+        {
+          "objectId": "77",
+          "startTicks": 2032128000000,
+          "endTicks": 2286144000000
+        },
+        {
+          "objectId": "78",
+          "startTicks": 2286144000000,
+          "endTicks": 2540160000000
+        },
+        {
+          "objectId": "79",
+          "startTicks": 2540160000000,
+          "endTicks": 2794176000000
+        },
+        {
+          "objectId": "80",
+          "startTicks": 2794176000000,
+          "endTicks": 3048192000000
+        },
+        {
+          "objectId": "81",
+          "startTicks": 3048192000000,
+          "endTicks": 3302208000000
+        },
+        {
+          "objectId": "82",
+          "startTicks": 3302208000000,
+          "endTicks": 3556224000000
+        },
+        {
+          "objectId": "83",
+          "startTicks": 3556224000000,
+          "endTicks": 3810240000000
+        },
+        {
+          "objectId": "84",
+          "startTicks": 3810240000000,
+          "endTicks": 4064256000000
+        }
+      ]
+    },
+    {
+      "id": "2ff4eda9-b23e-42db-bb42-9cefe8f7dfa7",
+      "clips": []
+    },
+    {
+      "id": "c4ab0d0f-8605-4c19-bf15-ac879978526f",
+      "clips": []
+    }
+  ],
+  "sourcePaths": [
+    "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\lifecycle-qualification-20261029\\run-20261031-0828-linear-fixture\\media\\ARID_Linear_Stereo_1s.wav"
+  ],
+  "limitations": [
+    "Saved structure is distinct from UI responsiveness and native adapter reads.",
+    "No routing, mapping, acoustic or customer-performance qualification."
+  ]
+}

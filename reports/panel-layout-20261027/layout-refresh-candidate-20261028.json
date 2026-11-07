@@ -1,0 +1,50 @@
+{
+  "receiptVersion": 1,
+  "version": "0.2.1",
+  "pluginId": "com.unn0wn002.audio-preflight.beta",
+  "identity": "9b0796ebae7aab7a16de87c133c0065426d44238e6c1e494f4e9d5eb5b9b95f0",
+  "files": [
+    {
+      "file": "manifest.json",
+      "sha256": "d362207dcb2c4e32fb7b7e5b1d2201f5898f1f0c5b6ae3400793dda5b140a06b"
+    },
+    {
+      "file": "index.html",
+      "sha256": "0edd442d855319c348d78d11b4726e71cb70eaec4c4f4bc67bf7c9c0a2029ad6"
+    },
+    {
+      "file": "index.js",
+      "sha256": "6d3eee4c019a4ee3f54b939562f993bf1f901b404774e476735107ce7ec76899"
+    },
+    {
+      "file": "src/premiereAdapter.js",
+      "sha256": "bc7054386b37174676f4d3302216cb43d82214bdc2582dc9f46c52fe738748bf"
+    },
+    {
+      "file": "src/diagnostics.js",
+      "sha256": "5ee7db940f0581fb687a3c6103f61b1f04b59fcb3c2d9034535062d3432ded90"
+    },
+    {
+      "file": "src/valueSerializer.js",
+      "sha256": "3c874ee7243f30a66215fa3f1d6a5ee65bd18c0dd5a21dbaf59e17b3f787fc4a"
+    },
+    {
+      "file": "src/report.js",
+      "sha256": "c93e14044b68ce27862c48c14210136e764c8ac727115b4ca848934f615eb92d"
+    }
+  ],
+  "source": {
+    "branch": "codex/validated-beta-20261017",
+    "commit": "9330e242eadcd10623300ca39d01753355aefc7a",
+    "workingTreeDirty": true
+  },
+  "normalization": "UTF-8 runtime text; CRLF normalized to LF",
+  "qualification": "STATIC ONLY; unsigned developer ZIP; host validation and installation qualification pending",
+  "packageKind": "unsigned-developer-zip",
+  "nativeValidation": "NOT_ESTABLISHED_BY_PACKAGING",
+  "installationQualified": false,
+  "stagingDirectory": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\artifacts\\audio-preflight-0.2.1-9b0796ebae7a",
+  "packageFile": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\artifacts\\audio-preflight-0.2.1-9b0796ebae7a-developer.zip",
+  "packageSha256": "2c045798e6d48a48141f99beaf98d82513707ea2aec532df9e7eed781d9c0123",
+  "receiptPath": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\artifacts\\audio-preflight-0.2.1-9b0796ebae7a-receipt.json"
+}

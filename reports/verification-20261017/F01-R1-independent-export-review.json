@@ -1,0 +1,264 @@
+{
+  "recordType": "independent-native-export-analysis",
+  "reviewedAt": "2026-10-18T04:29:57.285Z",
+  "sourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "interpretation": "Actual retained native export parsing; diagnostic replay is static consistency only. No fixture truth, TP/FP/FN, thenable behavior or unchanged UI state is inferred by this script.",
+  "exports": [
+    {
+      "source": "reports/beta-20261004/audio-preflight-2026-10-17T19-08-26-002Z.json",
+      "bytes": 108161,
+      "sha256": "34853cbd02fb205500b5df5d760087d08a150691335ebeef5393faf60548793e",
+      "generatedAt": "2026-10-17T19:08:26.002Z",
+      "host": {
+        "name": "premierepro",
+        "version": "26.5.2",
+        "uiLocale": "en_US",
+        "uxpVersion": "uxp-9.3.0-local",
+        "pluginVersion": "0.2.1"
+      },
+      "completion": "completed",
+      "durationMs": 23,
+      "status": "COMPLETE",
+      "coverage": {
+        "state": "COMPLETE",
+        "project": {
+          "status": "COMPLETE",
+          "expected": 1,
+          "observed": 1,
+          "known": 1,
+          "unknown": 0
+        },
+        "sequences": {
+          "status": "COMPLETE",
+          "expected": 2,
+          "observed": 2,
+          "known": 2,
+          "unknown": 0
+        },
+        "tracks": {
+          "status": "COMPLETE",
+          "expected": 7,
+          "observed": 7,
+          "known": 7,
+          "unknown": 0
+        },
+        "clips": {
+          "status": "COMPLETE",
+          "expected": 2,
+          "observed": 2,
+          "known": 2,
+          "unknown": 0
+        },
+        "components": {
+          "status": "COMPLETE",
+          "expected": 8,
+          "observed": 8,
+          "known": 8,
+          "unknown": 0
+        },
+        "failedReads": 0,
+        "capabilities": {
+          "sourceChannelMapping": "UNKNOWN",
+          "outputBusTopology": "UNKNOWN",
+          "playbackExportCorrectness": "UNKNOWN"
+        }
+      },
+      "stableObservationSha256": "1c2936dbdcf06afc918ad3c41406f11732e94f760e09025beb7d78a8f3dc1d2b",
+      "stableDiagnosticSha256": "1d4ef2e4670a2aa487cdc44131fdeba63cb34662ee5d8349f272d94fb8f88e65",
+      "diagnosticReplayAgrees": true,
+      "recursiveErrors": [],
+      "strictDocumentedShapeChecks": {
+        "allObservedShapesValid": true,
+        "parameterCount": 140,
+        "keyframeCount": 140,
+        "animatedParameterCount": 0,
+        "keyframeTimeCount": 0,
+        "issues": []
+      },
+      "sequences": [
+        {
+          "name": "stereo-l440-r880",
+          "guid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+          "occurrenceIndex": 0,
+          "settings": {
+            "audioChannelCount": 2,
+            "audioChannelType": 1,
+            "audioSampleRate": {
+              "value": 48000,
+              "ticksPerFrame": 5292000
+            }
+          },
+          "audioTrackCount": 3,
+          "tracks": [
+            {
+              "name": "Audio 1",
+              "id": "2",
+              "index": 0,
+              "muted": false,
+              "clipCount": 2,
+              "clips": [
+                {
+                  "name": "stereo-l440-r880.wav",
+                  "occurrenceIndex": 0,
+                  "disabled": false,
+                  "startTime": {
+                    "ticks": "0",
+                    "seconds": 0
+                  },
+                  "endTime": {
+                    "ticks": "762810048000",
+                    "seconds": 3.003
+                  }
+                },
+                {
+                  "name": "stereo-l440-r880.wav",
+                  "occurrenceIndex": 1,
+                  "disabled": false,
+                  "startTime": {
+                    "ticks": "762810048000",
+                    "seconds": 3.003
+                  },
+                  "endTime": {
+                    "ticks": "1525620096000",
+                    "seconds": 6.006
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Audio 2",
+              "id": "3",
+              "index": 1,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 3",
+              "id": "4",
+              "index": 2,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            }
+          ]
+        },
+        {
+          "name": "F08_Mono",
+          "guid": "ca7fe906-c517-4456-a63a-7ce5c3042092",
+          "occurrenceIndex": 1,
+          "settings": {
+            "audioChannelCount": 2,
+            "audioChannelType": 1,
+            "audioSampleRate": {
+              "value": 48000,
+              "ticksPerFrame": 5292000
+            }
+          },
+          "audioTrackCount": 4,
+          "tracks": [
+            {
+              "name": "Audio 1",
+              "id": "2",
+              "index": 0,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 2",
+              "id": "3",
+              "index": 1,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 3",
+              "id": "4",
+              "index": 2,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 4",
+              "id": "5",
+              "index": 3,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            }
+          ]
+        }
+      ],
+      "risk": [],
+      "information": [
+        {
+          "ruleId": "ARID-I01",
+          "severity": "Information",
+          "confidence": "DIRECT_OBSERVATION",
+          "location": {
+            "sequence": "stereo-l440-r880",
+            "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+            "sequenceOccurrenceIndex": 0,
+            "track": null,
+            "trackId": null,
+            "trackIndex": null,
+            "clip": null,
+            "clipOccurrenceIndex": null,
+            "startTime": null,
+            "endTime": null
+          },
+          "observed": "Sequence audio channel type=Stereo, count=2.",
+          "why": "Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.",
+          "remediation": "Compare against delivery requirements and source expectations."
+        },
+        {
+          "ruleId": "ARID-I01",
+          "severity": "Information",
+          "confidence": "DIRECT_OBSERVATION",
+          "location": {
+            "sequence": "F08_Mono",
+            "sequenceGuid": "ca7fe906-c517-4456-a63a-7ce5c3042092",
+            "sequenceOccurrenceIndex": 1,
+            "track": null,
+            "trackId": null,
+            "trackIndex": null,
+            "clip": null,
+            "clipOccurrenceIndex": null,
+            "startTime": null,
+            "endTime": null
+          },
+          "observed": "Sequence audio channel type=Stereo, count=2.",
+          "why": "Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.",
+          "remediation": "Compare against delivery requirements and source expectations."
+        }
+      ],
+      "unknown": [
+        {
+          "ruleId": "ARID-U01",
+          "location": {
+            "project": "ARID_Disposable_20261018.prproj"
+          },
+          "observed": "Final Audio Track Mixer output-bus routing topology is not established by this probe."
+        },
+        {
+          "ruleId": "ARID-U02",
+          "location": {
+            "project": "ARID_Disposable_20261018.prproj"
+          },
+          "observed": "Modify > Audio Channels source-channel mapping is not established by this probe."
+        },
+        {
+          "ruleId": "ARID-U03",
+          "location": {
+            "project": "ARID_Disposable_20261018.prproj"
+          },
+          "observed": "End-to-end playback/export correctness is not established by DOM observation alone."
+        }
+      ]
+    }
+  ]
+}

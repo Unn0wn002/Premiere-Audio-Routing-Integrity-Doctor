@@ -1,0 +1,8 @@
+{
+  "result": "PASS",
+  "nativeJSONMatchesFullReport": true,
+  "nativeHTMLRawMatchesJSON": true,
+  "htmlArticles": 765,
+  "jsonBytes": 26308531,
+  "htmlBytes": 32011500
+}

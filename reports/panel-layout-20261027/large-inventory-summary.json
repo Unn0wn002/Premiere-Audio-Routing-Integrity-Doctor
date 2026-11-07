@@ -1,0 +1,23 @@
+{
+  "result": "FUNCTIONAL_CANCEL_PASS_RESPONSIVENESS_UNQUALIFIED_HOST_STALL",
+  "fixtureSequences": 256,
+  "fixtureSHA256": "850A5354A3248815974526DE640E2B040B927505EC7D5895C0BE10B3FA046249",
+  "sourceUnchanged": true,
+  "nativeEvidenceSHA256": "2D5563F04013BB33FCCF0E0935749FEE16B0FCE1597E1037A51A5AA002866267",
+  "cancellationAtMs": 101,
+  "retainedSequences": 6,
+  "cancelToIdleMs": 22,
+  "fullWallMs": 5206,
+  "adapterMs": 4618,
+  "maxTimerGapMs": 619,
+  "functionalAssertionsPassed": 13,
+  "functionalAssertionsTotal": 13,
+  "host": {
+    "Id": 23620,
+    "Responding": false,
+    "CPU": 2556.765625,
+    "WorkingSet64": 4247150592
+  },
+  "repeatTrials": "BLOCKED while host reports Responding=false",
+  "cause": "UNKNOWN; eager full-report serialization/card rendering is a candidate, not established root cause"
+}

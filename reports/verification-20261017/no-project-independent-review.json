@@ -1,0 +1,31 @@
+{
+  "recordType": "independent-native-export-review",
+  "reviewedAt": "2026-10-17T19:08:21.735Z",
+  "source": "reports/verification-20261017/no-project-current-export.json",
+  "sourceSha256": "9cc70a6bf60be3e8ffe3ec2a9a1e9f8526659d15aaf425187a8a42cc8dd51d8c",
+  "sourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "classification": "NATIVE_NO_PROJECT_ONLY",
+  "checks": {
+    "hostScalarsAreNonemptyStrings": true,
+    "completionIsFailed": true,
+    "diagnosticIsUnknown": true,
+    "riskCountIsZero": true,
+    "unknownCountIsFour": true,
+    "unavailableSequenceDenominatorIsNull": true,
+    "diagnosticReplayAgrees": true
+  },
+  "allChecksPassed": true,
+  "durationMs": 1,
+  "nativeFixtureMetrics": {
+    "tp": null,
+    "fp": null,
+    "fn": null,
+    "exercisedDenominator": 0
+  },
+  "limitations": [
+    "No active-project getters, track or clip conditions were exercised.",
+    "Diagnostic replay is a static consistency comparison, not a second host execution.",
+    "Fixture names were not treated as independently verified UI truth."
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "recordedAt": "2026-10-28T15:32:14.637Z",
+  "runtimeIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+  "status": "VERIFIED_THIS_SESSION_BOUNDED_DOCKED_SCAN_AND_EXPORTS",
+  "hostPid": 46824,
+  "windowId": 2950814,
+  "hostResponsiveBeforeDisconnect": true,
+  "dockedScanMs": 42,
+  "reviewFindings": 0,
+  "unknowns": 3,
+  "exports": {
+    "verifiedAt": "2026-10-28T15:31:01.107Z",
+    "status": "VERIFIED_THIS_SESSION_BOUNDED_EXPORT_CONTENT",
+    "runtimeIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+    "provenance": "Assistant-operated native docked scan and save dialogs; exported content independently verified",
+    "durationMs": 42,
+    "checks": {
+      "embeddedHTMLDeepEqualsJSON": true,
+      "fullHTMLMatchesRenderer": true,
+      "diagnosticsReproduce": true,
+      "htmlFindingArticles": 7
+    },
+    "coverage": {
+      "state": "COMPLETE",
+      "project": {
+        "status": "COMPLETE",
+        "expected": 1,
+        "observed": 1,
+        "known": 1,
+        "unknown": 0
+      },
+      "sequences": {
+        "status": "COMPLETE",
+        "expected": 4,
+        "observed": 4,
+        "known": 4,
+        "unknown": 0
+      },
+      "tracks": {
+        "status": "COMPLETE",
+        "expected": 15,
+        "observed": 15,
+        "known": 15,
+        "unknown": 0
+      },
+      "clips": {
+        "status": "COMPLETE",
+        "expected": 7,
+        "observed": 7,
+        "known": 7,
+        "unknown": 0
+      },
+      "components": {
+        "status": "COMPLETE",
+        "expected": 18,
+        "observed": 18,
+        "known": 18,
+        "unknown": 0
+      },
+      "failedReads": 0,
+      "capabilities": {
+        "sourceChannelMapping": "UNKNOWN",
+        "outputBusTopology": "UNKNOWN",
+        "playbackExportCorrectness": "UNKNOWN"
+      }
+    },
+    "files": [
+      {
+        "file": "audio-preflight-2026-10-28T15-26-38-306Z.json",
+        "sha256": "44876bea0ba9fd3dc1790aa8c82a47374439959687be8b5595d88050110dafc1"
+      },
+      {
+        "file": "audio-preflight-2026-10-28T15-26-38-306Z.html",
+        "sha256": "030f5449c3d171024906acd370749d4d23d9c32ccbfa454142eaed0b11f026be"
+      }
+    ],
+    "limits": [
+      "These exports bind to the final 037571056922 raw-textarea candidate after manual restart and post-settling reconnection.",
+      "No full lifecycle or customer installation qualification."
+    ]
+  },
+  "dockedRawTextarea": "Expanded readable wrapped JSON and collapsed successfully",
+  "widerDocked": "Resize gesture did not establish geometry change",
+  "transientReviewTag": "A wheel gesture changed one information finding to Intentional after exports. This is an interaction observation, not an assessment. No later export; fresh scan resets.",
+  "fixtureSha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+  "helperState": "Session reset, then process inventory found Premiere responsive and no codex-computer-use process",
+  "limits": [
+    "Previous docking crash unresolved; no repeated automated docking drag.",
+    "Manual helper-off undock/redock comparison pending.",
+    "Wider floating and customer lifecycle qualification remain incomplete."
+  ],
+  "distributionApproved": false
+}

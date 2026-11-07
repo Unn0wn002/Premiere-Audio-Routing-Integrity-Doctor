@@ -1,0 +1,111 @@
+{
+  "updatedAt": "2026-10-31T09:30:42.063363+07:00",
+  "status": "RESPONSIVE_LINEAR_FIXTURE_PREPARED_BOUNDED",
+  "run": "reports/lifecycle-qualification-20261029/run-20261031-0828-linear-fixture",
+  "project": "working/Linear_Audio_20261031.prproj",
+  "projectSha256": "544b63d0e826208df0bbe07f89181f97e4aa495f2110c72ce34d82f758266203",
+  "sequenceCount": 1,
+  "audioTrackCount": 3,
+  "populatedAudioTracks": 1,
+  "referencedAudioClipOccurrences": 1024,
+  "clipDurationSeconds": 1,
+  "sequenceDurationSeconds": 1024,
+  "nativeEndTimecode": "00:17:04:00",
+  "sequenceTimebase": "30.00 frames/second",
+  "audio": "Stereo 2 channels / 48000 Hz",
+  "contiguousEqualDurationRangesVerified": true,
+  "stages": [
+    {
+      "clips": 1,
+      "structure": "stage-0001-30fps-structure.json",
+      "snapshotSha256": "ca30fff35d5f39bbddef7fdc03d846a3215bf7c5f00cefca65394f398c4f3584"
+    },
+    {
+      "clips": 2,
+      "structure": "stage-0002-30fps-structure.json",
+      "snapshotSha256": "2b95d6168e8bd49f2b0d9a2d6b6bd80aca20ff229a99c5b27d593dc03df75f5e"
+    },
+    {
+      "clips": 4,
+      "structure": "stage-0004-30fps-structure.json",
+      "snapshotSha256": "36a8a76940fa0658dd86b3951879718d065eb4cb29f81e8f3e8e6d9972ef166d"
+    },
+    {
+      "clips": 8,
+      "structure": "stage-0008-30fps-structure.json",
+      "snapshotSha256": "6cb1eba8e0646521843e8cb174c385e552bb7ee6081f27489eb1074f7f563ea6"
+    },
+    {
+      "clips": 16,
+      "structure": "stage-0016-30fps-structure.json",
+      "snapshotSha256": "10dd193de03a2d4592306c0f5e00d3a7fd07bcbe4accdc8190d83f2b06224bd5"
+    },
+    {
+      "clips": 32,
+      "structure": "stage-0032-30fps-structure.json",
+      "snapshotSha256": "2e374c43ecf06d2bc67af32696c9ef6ea8c7f42f64df858228a29500a68c59ee"
+    },
+    {
+      "clips": 64,
+      "structure": "stage-0064-30fps-structure.json",
+      "snapshotSha256": "4a19db539f9efc0cc681c92d074545fd37edb84228d659cbfe9c47ccd8ad342a"
+    },
+    {
+      "clips": 128,
+      "structure": "stage-0128-30fps-structure.json",
+      "snapshotSha256": "e6530a20cca402e9c3d9478e78a92e29bf00bbc184aaef1e264ece1531768e8e"
+    },
+    {
+      "clips": 256,
+      "structure": "stage-0256-30fps-structure.json",
+      "snapshotSha256": "2a55162c52808775af9d790dc17f92fd875d7589ab4009b69b2aca877f3a31e3"
+    },
+    {
+      "clips": 512,
+      "structure": "stage-0512-30fps-structure.json",
+      "snapshotSha256": "5128092b22ab13515c0b7bd991850f99b2fdd30808254d14f808af7413a14528"
+    },
+    {
+      "clips": 1024,
+      "structure": "stage-1024-30fps-structure.json",
+      "snapshotSha256": "544b63d0e826208df0bbe07f89181f97e4aa495f2110c72ce34d82f758266203"
+    }
+  ],
+  "operatorTimebaseSelection": {
+    "class": "USER_STATED",
+    "statement": "30 selected."
+  },
+  "timebaseIndependentlyObserved": "sequence-settings-30fps-verified.jpg",
+  "nativeSaveFitAndFileMenuResponsive": true,
+  "nativeEvidence": [
+    "stage-0002-30fps-native.jpg",
+    "stage-0128-30fps-native.jpg",
+    "stage-1024-30fps-saved-native.jpg",
+    "stage-1024-fit-native.jpg",
+    "stage-1024-file-menu-responsive.jpg",
+    "stage-1024-normal-close-home.jpg",
+    "stage-1024-reopened-native.jpg",
+    "stage-1024-reopened-file-menu.jpg"
+  ],
+  "normalCloseObserved": true,
+  "normalReopenRequested": true,
+  "reopenedReadinessIndependentlyObserved": true,
+  "responsiveLargerFixtureEstablished": true,
+  "nativeScansThisRun": 0,
+  "finalRuntimeLoadedThisRun": "NOT_INDEPENDENTLY_ESTABLISHED",
+  "runtimeSourceStageIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+  "runtimeSourceStageUnchanged": true,
+  "D08": "NOT_RUN",
+  "D09": "NOT_RUN",
+  "nextAction": "Freshly bind UDT registration path and Loaded state to final 037571056922 before any scan. Then use this independent fixture for the planned bounded D08/D09 trial; actual active traversal/cancel/overlap evidence is required. No forced delays or fixture growth beyond 1024 merely to catch a short scan.",
+  "limits": [
+    "Synthetic single-sequence preparation, not representative customer performance or cancellation qualification.",
+    "Saved native project structure, observed UI responsiveness and plugin adapter reads are separate evidence classes.",
+    "Mapping, output-bus topology, playback/export correctness and earlier docking crash cause remain UNKNOWN.",
+    "Customer installation and broader lifecycle remain separate; distribution NOT APPROVED."
+  ],
+  "operatorReopenReady": {
+    "class": "USER_STATED",
+    "statement": "ready"
+  }
+}

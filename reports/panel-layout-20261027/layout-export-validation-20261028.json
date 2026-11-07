@@ -1,0 +1,71 @@
+{
+  "verifiedAt": "2026-10-28T15:07:13.509Z",
+  "status": "VERIFIED_THIS_SESSION_BOUNDED_EXPORT_CONTENT",
+  "runtimeIdentity": "9b0796ebae7aab7a16de87c133c0065426d44238e6c1e494f4e9d5eb5b9b95f0",
+  "provenance": "Assistant-operated native floating scan and save dialogs; exported content independently verified",
+  "durationMs": 32,
+  "checks": {
+    "embeddedHTMLDeepEqualsJSON": true,
+    "fullHTMLMatchesRenderer": true,
+    "diagnosticsReproduce": true,
+    "htmlFindingArticles": 7
+  },
+  "coverage": {
+    "state": "COMPLETE",
+    "project": {
+      "status": "COMPLETE",
+      "expected": 1,
+      "observed": 1,
+      "known": 1,
+      "unknown": 0
+    },
+    "sequences": {
+      "status": "COMPLETE",
+      "expected": 4,
+      "observed": 4,
+      "known": 4,
+      "unknown": 0
+    },
+    "tracks": {
+      "status": "COMPLETE",
+      "expected": 15,
+      "observed": 15,
+      "known": 15,
+      "unknown": 0
+    },
+    "clips": {
+      "status": "COMPLETE",
+      "expected": 7,
+      "observed": 7,
+      "known": 7,
+      "unknown": 0
+    },
+    "components": {
+      "status": "COMPLETE",
+      "expected": 18,
+      "observed": 18,
+      "known": 18,
+      "unknown": 0
+    },
+    "failedReads": 0,
+    "capabilities": {
+      "sourceChannelMapping": "UNKNOWN",
+      "outputBusTopology": "UNKNOWN",
+      "playbackExportCorrectness": "UNKNOWN"
+    }
+  },
+  "files": [
+    {
+      "file": "audio-preflight-2026-10-28T14-56-29-341Z.json",
+      "sha256": "d970681cfc249ec7c86e13e33947a768592bf6a619dfe80ac0215c31d0c13fd6"
+    },
+    {
+      "file": "audio-preflight-2026-10-28T14-56-29-341Z.html",
+      "sha256": "a5c3c6a414977275c90e31a5935c9d5403602ec0bff0ab8be4a9d7121d65e2e5"
+    }
+  ],
+  "limits": [
+    "These exports bind to the initial 9b0796ebae7a layout candidate, not the later 037571056922 raw-textarea candidate.",
+    "No full lifecycle or customer installation qualification."
+  ]
+}

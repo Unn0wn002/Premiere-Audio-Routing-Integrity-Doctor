@@ -1,0 +1,20 @@
+{
+  "createdAt": "2026-10-17T19:09:09.885Z",
+  "scope": "Fresh disposable copies of existing generated fixture tones; not host execution",
+  "assets": [
+    {
+      "file": "reports/beta-20261004/ARID_20261018_mono.wav",
+      "sha256": "759763e2dbfc66aa157eac5bd26b5ad68d9d961bbd79096bc6fddee9acdde433",
+      "channels": 1,
+      "sampleRate": 48000,
+      "bitsPerSample": 16
+    },
+    {
+      "file": "reports/beta-20261004/ARID_20261018_four_channel.wav",
+      "sha256": "283f645ab0f64dda448bdd6fa9be01d2c4e27ee6bd2a604ff5834aacaad8a1aa",
+      "channels": 4,
+      "sampleRate": 48000,
+      "bitsPerSample": 16
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+[
+  {
+    "file": "Positive_Signal_Test.prproj",
+    "sha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+    "gzipValid": true,
+    "xmlWellFormed": true,
+    "xmlElements": 4120,
+    "xmlRoot": "PremiereData",
+    "mediaReferences": [
+      {
+        "name": "stereo-l440-r880.wav",
+        "exists": true
+      },
+      {
+        "name": "ARID_20261018_four_channel.wav",
+        "exists": true
+      },
+      {
+        "name": "ARID_20261018_mono.wav",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "file": "Layout_Test_Copy.prproj",
+    "sha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+    "gzipValid": true,
+    "xmlWellFormed": true,
+    "xmlElements": 4110,
+    "xmlRoot": "PremiereData",
+    "mediaReferences": [
+      {
+        "name": "stereo-l440-r880.wav",
+        "exists": true
+      },
+      {
+        "name": "ARID_20261018_four_channel.wav",
+        "exists": true
+      },
+      {
+        "name": "ARID_20261018_mono.wav",
+        "exists": true
+      }
+    ]
+  },
+  {
+    "file": "reload-control-20261028.prproj",
+    "sha256": "4ec4a6a959676f5f36b7f27ae0b1f984c4d1302afe28dd2f59daa63efb626aad",
+    "gzipValid": true,
+    "xmlWellFormed": true,
+    "xmlElements": 828,
+    "xmlRoot": "PremiereData",
+    "mediaReferences": []
+  }
+]

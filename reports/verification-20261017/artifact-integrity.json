@@ -1,0 +1,172 @@
+{
+  "recordedAt": "2026-10-19T01:29:21.734Z",
+  "branch": "codex/validated-beta-20261017",
+  "evidenceParentHead": "7efdd4f614dbc81679a5cc287b260e8bc825261c",
+  "sourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "scope": "Verbatim raw native-export and inherited-patch bytes verified against Git index; seven runtime files unchanged from source commit",
+  "command": "node reports/verification-20261017/verify-evidence-index.cjs",
+  "artifacts": [
+    {
+      "file": "reports/verification-20261017/F01-R1-current-export.json",
+      "bytes": 108161,
+      "sha256": "34853cbd02fb205500b5df5d760087d08a150691335ebeef5393faf60548793e",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F01-R2-current-export.json",
+      "bytes": 108161,
+      "sha256": "d1ddaeac6fb449d838558576ee02ad7edf0875b958217a7d421f2b98de2a9064",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F01-R3-current-export.json",
+      "bytes": 108161,
+      "sha256": "8066aa1df68a5515db976e0166e5b328866a8e0ea8f6897e6d7e42066de62316",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F02-R1-current-export.json",
+      "bytes": 108173,
+      "sha256": "704586f2f8a9cb913b13898195d2d5af992fdaa9f364e11aa6a17ab58c185ada",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F02-R2-current-export.json",
+      "bytes": 108173,
+      "sha256": "871bbb522b39fef3a5cc43a57f5a8ac57a7d3e7507edda43257314a6e9c6ef8d",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F02-R3-current-export.json",
+      "bytes": 108173,
+      "sha256": "21aee920c05aac4da0fe59a48a4ea07e8b2bbfe5df0f6a93a23bc441ce7cc2bd",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F03-F04-R1-current-export.json",
+      "bytes": 108188,
+      "sha256": "9c081a40e7da76f012be69147c166104d7c5bd9e03d74888e572fed93ba850bf",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F03-F04-R2-current-export.json",
+      "bytes": 108188,
+      "sha256": "3112cfae66028d6f535a2a3fc1919eb5dca90e0c177cd0669169e45bdb963631",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F03-F04-R3-current-export.json",
+      "bytes": 108188,
+      "sha256": "487d85af7a8d31594958ff8235d84eeabcdccc8cbae9d57649df3fcca19ad6e9",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F05-R1-current-export.json",
+      "bytes": 108965,
+      "sha256": "6ca988d8da2c67e9a705e0a2617983cea3823fcc645ad17755c9f8493abfb9fa",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F05-R2-current-export.json",
+      "bytes": 108965,
+      "sha256": "a77922d9bedd8b48c6d843aacddaddcc411ed1f77827c1eb51b329649f37827b",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F05-R3-current-export.json",
+      "bytes": 108965,
+      "sha256": "99b131ea7eee8371374e791e75836e124c8bdefb48aba518c7111d6d9f84de8e",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F06-R1-current-export.json",
+      "bytes": 108973,
+      "sha256": "4afcdcb0d9f0cf5e23a72da13c3c6429c271cd28288e5002be1570b60132a306",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F06-R2-current-export.json",
+      "bytes": 108973,
+      "sha256": "24e50a294d65ce5331c471b6e900172fbd724fe92f8b7e636d570206994272ce",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F06-R3-current-export.json",
+      "bytes": 108973,
+      "sha256": "efb39f16ed509bb4df4eca6b15302d4e4141943142cbc10978bbcc8f4d16bf12",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F07-R1-current-export.json",
+      "bytes": 109146,
+      "sha256": "83f5a649dfed318a64d442fda6a2a12ff234960014ce8f69e4a680e0ddb34796",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F07-R2-current-export.json",
+      "bytes": 109146,
+      "sha256": "0a1fe9a1a97a08fd4b3c3da5219809f870ee1a0eea4bb0f8c7f19f15e0eafb1f",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F07-R3-current-export.json",
+      "bytes": 109146,
+      "sha256": "6f0c5edfc8c4a0cb6282215724334fb4f03e1f4fd67cac5c3d29b0fa22b6cf47",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F08-native-repeat-batch-export.json",
+      "bytes": 399374,
+      "sha256": "6fe85951869cf58dea04ad6d17abb774b357d4a33baade31692281260d2f0358",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F09-native-repeat-batch-export.json",
+      "bytes": 474611,
+      "sha256": "daed241b5f1e79d05d53fb1d92ad884577baab64856b9c84004636604dfc740c",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F10-native-repeat-batch-export.json",
+      "bytes": 474640,
+      "sha256": "d953e324c48e45caa03792bc7359353d5393b677e623b035a681a9fd4a77cf11",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F11-POST-native-repeat-batch-export.json",
+      "bytes": 480810,
+      "sha256": "ca0767be686f3f77bbf8cc31924cb48f1bd197596aea6fa9688f76be4e6a3b00",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F11-PRE-native-repeat-batch-export.json",
+      "bytes": 480787,
+      "sha256": "9580f1bbc0964ff267739774a8200026feefe448c1abf042e2dd7f74d4c927ab",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/F11-supplemental-panel-current-export.json",
+      "bytes": 138696,
+      "sha256": "de5c0cf9a86c93567c1e0ecb9bb194b05d25ab7c720ca8096bee98fb7004296e",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/current-native-api-export.json",
+      "bytes": 22027,
+      "sha256": "9f1186c90996d697ffe740032ccbb5fe019f3c1167f3bf3d4364ff056fd3ff3e",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/inherited-working-tree.patch",
+      "bytes": 45250,
+      "sha256": "7a9adf6bdf745eddce2f5eb93b6f41c36fdef578fe3726defa7a758c80455613",
+      "indexBytesMatch": true
+    },
+    {
+      "file": "reports/verification-20261017/no-project-current-export.json",
+      "bytes": 4038,
+      "sha256": "9cc70a6bf60be3e8ffe3ec2a9a1e9f8526659d15aaf425187a8a42cc8dd51d8c",
+      "indexBytesMatch": true
+    }
+  ]
+}

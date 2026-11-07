@@ -1,0 +1,36 @@
+{
+  "recordType": "MOCK_CONTROL_VALIDATION_NOT_NATIVE",
+  "recordedAt": "2026-10-18T09:37:54.035Z",
+  "command": "node reports/verification-20261017/check-native-repeat-helper.cjs",
+  "helperSha256": "e577d18e4953ff6b3318729c386778d8ce6268f02c7c82cd29131fde0720541f",
+  "scope": "Verification-helper batch retention and picker recovery only; no Premiere/UXP executed.",
+  "scenarios": [
+    {
+      "scenario": "three-reports",
+      "passed": true,
+      "scanCalls": 3,
+      "retainedReports": 3,
+      "executionStatus": "THREE_REPORTS_COLLECTED",
+      "savePickers": 1,
+      "savedBatches": 1
+    },
+    {
+      "scenario": "unexpected-second-run",
+      "passed": true,
+      "scanCalls": 2,
+      "retainedReports": 1,
+      "executionStatus": "INCOMPLETE_UNEXPECTED_EXCEPTION",
+      "savePickers": 1,
+      "savedBatches": 1
+    },
+    {
+      "scenario": "cancel-retry",
+      "passed": true,
+      "scanCalls": 3,
+      "retainedReports": 3,
+      "executionStatus": "THREE_REPORTS_COLLECTED",
+      "savePickers": 2,
+      "savedBatches": 1
+    }
+  ]
+}

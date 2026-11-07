@@ -1,0 +1,139 @@
+{
+  "verifiedAt": "2026-10-31T03:13:56.679423+00:00",
+  "status": "PASS_LOCAL_PRESERVATION_AND_CHECKPOINT_READBACK_NATIVE_GAPS_OPEN",
+  "nativeStatus": "INFLIGHT_ATTEMPT_AWAITING_OPERATOR_JSON_SAVE",
+  "runtimeSourceStageUnchanged": true,
+  "fixtureAndProtectedOriginalsUnchanged": true,
+  "inheritedPathsPresent": 499,
+  "inheritedTestsUnchanged": true,
+  "priorLinkedMediaUnchanged": true,
+  "ledgerCounts": {
+    "PASS_BOUNDED_NATIVE": 8,
+    "NOT_RUN": 8,
+    "NOT_EXERCISED": 2
+  },
+  "documentLinksExist": true,
+  "gitDiffCheck": true,
+  "helperSyntax": "PASS",
+  "rawExportVerified": false,
+  "nativePassClaimAdded": false,
+  "sharedHandoffSha256": "9b533d0290f20d11c3391728ddb974833915828ff16536ef0007c27af0b4c622",
+  "files": [
+    {
+      "file": "after-second-scan-active-277.jpg",
+      "sha256": "21540c68ccfde8d77bca7f66d61c5a6b11eef26a038f2b399b8c254b551a4bed"
+    },
+    {
+      "file": "after-second-scan-panel-active-281.jpg",
+      "sha256": "413f07edc99fbe80548fc4a217b897460097c6a21c30596b4e62902f95bb9374"
+    },
+    {
+      "file": "attempt1-complete-7295ms.jpg",
+      "sha256": "379fad63ca29c6c9ac481da6449be3943e5631d447574c59b774ca7b354efdc8"
+    },
+    {
+      "file": "attempt1-complete-coverage.jpg",
+      "sha256": "aac015ebde4181b0244494c185be83a48ee564656f7ca0906fbbfd90e9f6a1f0"
+    },
+    {
+      "file": "baseline/fixture-before.prproj",
+      "sha256": "544b63d0e826208df0bbe07f89181f97e4aa495f2110c72ce34d82f758266203"
+    },
+    {
+      "file": "baseline/git-status.txt",
+      "sha256": "e9f5e4cdb7c0d3c685397f6674bf8ae5d4419a1c44c7480686dd7680f795fa70"
+    },
+    {
+      "file": "baseline/ledger-before.json",
+      "sha256": "ea996e7e4f8805ee8d6825451f1c48ad228565c41c244c04f1fe867add3b3f9d"
+    },
+    {
+      "file": "baseline/runtime-receipt.json",
+      "sha256": "39e71c0e66826b38c33813d7a017708973d8a994e0bc7dabafa426e9a0d8a185"
+    },
+    {
+      "file": "before-scan-0.jpg",
+      "sha256": "e503eb9ee55cd28693313e07414d2c5e437485da0b81832433b2b60f55e76d72"
+    },
+    {
+      "file": "before-scan-1.jpg",
+      "sha256": "89ed6ad0c30f539fd58c9be9742ca8faea5642d211552ca8134983995e8f5f5c"
+    },
+    {
+      "file": "complete-json-picker.jpg",
+      "sha256": "7a1d280d4336af1dc710da8970a4479430d45b008de6f6b330c05afced16df89"
+    },
+    {
+      "file": "native-attempt-timestamps.json",
+      "sha256": "e927d55a2af85daf3381047ef5e8dbd8867acdac8fb502d1bb3660a78aa17e4c"
+    },
+    {
+      "file": "native-events.json",
+      "sha256": "7f7c8fbdbf9b855dac6394225c004f9b352de257032fd086e184812aeecbc35b"
+    },
+    {
+      "file": "native-window-metadata.json",
+      "sha256": "ddb81206d5be6c8daa2ec6b87956559778c69e1f53b86de0670d975cb3789eb3"
+    },
+    {
+      "file": "operator-docked-report-export-visible.jpg",
+      "sha256": "831b5a550b0d102c0224752b7a3180c8b9603eee23e0d7e6e3478585325db773"
+    },
+    {
+      "file": "panel-resize-not-applied-input-stopped.jpg",
+      "sha256": "0319f7d1c44d96863bcb6e0085792fabf30ed01079ab9662706d45db471646b0"
+    },
+    {
+      "file": "preflight.json",
+      "sha256": "dfe2e541913c243f388a9e05ce54c9b37d7cb3a802a0b8a199c96ca88a5ac1be"
+    },
+    {
+      "file": "README.md",
+      "sha256": "4ebb5c837b4fe85631f2414d347e72608ab48dd3d6df00d8762bb09c115c3246"
+    },
+    {
+      "file": "record-checkpoint.py",
+      "sha256": "3a87a1b9bc7f2aafb392b44d2160add853d8584c2b1c7beece393137ed2ce091"
+    },
+    {
+      "file": "registered-folder-0.jpg",
+      "sha256": "ee3888304f75a1dd10cef01c77c160dc6078e6e17aea4790815548a5d9100440"
+    },
+    {
+      "file": "registered-folder-1.jpg",
+      "sha256": "d6552f9798f2d17305afa8bd0735f2789fe190c4e48416c0ce275d56c2a75ecd"
+    },
+    {
+      "file": "registered-folder.txt",
+      "sha256": "0fb616aae1e22e63236f39bd52248af865c2c8e8ae6a0de11158ac889ad6312d"
+    },
+    {
+      "file": "save-as-still-open.txt",
+      "sha256": "9afde3bf37e8c89e58b923cd56c016651149fe500a2e0647d61f378657a71b18"
+    },
+    {
+      "file": "scan-active-132-of-1024.jpg",
+      "sha256": "e6da9ed17986327fabe256b7e7dd4c87ae41e8e9b907be426c04999dab7c4d7d"
+    },
+    {
+      "file": "udt-loaded.jpg",
+      "sha256": "b5151fd6fc93dd4a934d3f69aad09f524e768e5fa208f4b47d22cb7399c2f630"
+    },
+    {
+      "file": "udt-not-loaded.jpg",
+      "sha256": "fdc85eb65e1a21a0878a6829d1535dc3a78532088bc347b4648917d999f44237"
+    },
+    {
+      "file": "udt-options.jpg",
+      "sha256": "5de62405b07559e21a3fa1b4b6756332a627e1db2e4b6064137e611f4a35c0ba"
+    },
+    {
+      "file": "udt-options.txt",
+      "sha256": "ef11e72701159ca1790e55931e9426a98455e3e16aaad5fa1701c199569ba89f"
+    },
+    {
+      "file": "verify-checkpoint.py",
+      "sha256": "9990c8636c2856b6cd70d9eecd8dd521b9609bee1e6c4234acb9ca9893a18b07"
+    }
+  ]
+}

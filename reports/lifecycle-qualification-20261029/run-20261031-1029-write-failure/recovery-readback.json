@@ -1,0 +1,13 @@
+{
+  "verifiedAt": "2026-10-31T03:37:42.883436+00:00",
+  "visibleFailure": "Export failed: resource busy or locked",
+  "pickerClosedAfterConfirmedReplacement": true,
+  "failureStage": "UNRESOLVED_GETFILEFORSAVING_VS_FILE_WRITE",
+  "temporaryFileHandleReleased": true,
+  "recoveryExport": "audio-preflight-2026-10-31T03-21-39-589Z.json",
+  "recoveryBytes": 51217142,
+  "recoverySha256": "117ef210888fb74d2dce01bc2ec623c4d3db35db0943ac6408c4af9272d738e1",
+  "fullByteEqualityWithRetainedBaseline": true,
+  "newScans": 0,
+  "D05": "PENDING_FAILURE_STAGE_ATTRIBUTION"
+}

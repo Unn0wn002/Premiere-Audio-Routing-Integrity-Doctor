@@ -1,0 +1,10 @@
+{
+  "recordedAt": "2026-10-28T06:15:55.5266885Z",
+  "saveChoice": "USER_STATED: Save",
+  "previousSha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+  "currentSha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+  "snapshot": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\manual-control-20261028\\Positive_Signal_Test-user-saved-7bfc2f703ec7.prproj",
+  "bytes": 23183,
+  "sourceLastWriteTimeUtc": "2026-10-28T06:13:05.1184718Z",
+  "qualification": "User-saved bytes differ from previous fixture; semantic changes not yet established; original is not overwritten or reverted"
+}

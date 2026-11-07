@@ -1,0 +1,26 @@
+{
+  "completedAt": "2026-10-31T10:46:29.802316+07:00",
+  "nativeResult": "native-result.json",
+  "initialAttemptTimestamps": "attempt-timestamps.json",
+  "attributedAttemptTrace": "stage-trace.json",
+  "ordinaryRecoveryReadback": "recovery-readback.json",
+  "finalExports": "exports.json",
+  "fileHandleSessions": [
+    {
+      "sessionId": 23470,
+      "result": "released before operator coordination"
+    },
+    {
+      "sessionId": 89185,
+      "result": "ordinary native error then released"
+    },
+    {
+      "sessionId": 70043,
+      "result": "post-picker stage-attributed native write rejection then released"
+    }
+  ],
+  "zeroNewScans": true,
+  "recoveredReportUnchanged": true,
+  "allHelpersExited": true,
+  "noRuntimeSourceEdits": true
+}

@@ -1,0 +1,145 @@
+{
+  "method": "Native WAV exhaustive PCM statistics plus 440/880 Hz projections in two interior windows",
+  "baseline": {
+    "name": "active-sequence-baseline.wav",
+    "sha256": "55a3281e8a38c54bbcde0be843c4664f510bcf3c49167745b88c91b8f93e395d",
+    "rate": 48000,
+    "frames": 288288,
+    "durationSeconds": 6.006,
+    "channels": [
+      {
+        "channel": "Left",
+        "peakInteger": 0,
+        "rmsDBFS": "-Infinity",
+        "nonzeroSamples": 0,
+        "clippedSamples": 0,
+        "tones": {
+          "0.5": {
+            "440": {
+              "amplitude": 0,
+              "dBFS": "-Infinity"
+            },
+            "880": {
+              "amplitude": 0,
+              "dBFS": "-Infinity"
+            }
+          },
+          "3.5": {
+            "440": {
+              "amplitude": 0,
+              "dBFS": "-Infinity"
+            },
+            "880": {
+              "amplitude": 0,
+              "dBFS": "-Infinity"
+            }
+          }
+        }
+      },
+      {
+        "channel": "Right",
+        "peakInteger": 0,
+        "rmsDBFS": "-Infinity",
+        "nonzeroSamples": 0,
+        "clippedSamples": 0,
+        "tones": {
+          "0.5": {
+            "440": {
+              "amplitude": 0,
+              "dBFS": "-Infinity"
+            },
+            "880": {
+              "amplitude": 0,
+              "dBFS": "-Infinity"
+            }
+          },
+          "3.5": {
+            "440": {
+              "amplitude": 0,
+              "dBFS": "-Infinity"
+            },
+            "880": {
+              "amplitude": 0,
+              "dBFS": "-Infinity"
+            }
+          }
+        }
+      }
+    ]
+  },
+  "positive": {
+    "name": "positive-centered.wav",
+    "sha256": "f1ca70c9ad83dafa82ee0c55e45a314c16bde598a8aac1e5329b4e4f2b3fecb5",
+    "rate": 48000,
+    "frames": 288288,
+    "durationSeconds": 6.006,
+    "channels": [
+      {
+        "channel": "Left",
+        "peakInteger": 8191,
+        "rmsDBFS": -16.306596228905622,
+        "nonzeroSamples": 287520,
+        "clippedSamples": 0,
+        "tones": {
+          "0.5": {
+            "440": {
+              "amplitude": 0.2499697758419242,
+              "dBFS": -12.042249984846627
+            },
+            "880": {
+              "amplitude": 2.5431315375463738e-9,
+              "dBFS": -171.89262352748722
+            }
+          },
+          "3.5": {
+            "440": {
+              "amplitude": 0.1767359258398472,
+              "dBFS": -15.05350321381328
+            },
+            "880": {
+              "amplitude": 2.2024164806519676e-9,
+              "dBFS": -173.14201103565966
+            }
+          }
+        }
+      },
+      {
+        "channel": "Right",
+        "peakInteger": 8191,
+        "rmsDBFS": -15.056877120661007,
+        "nonzeroSamples": 287040,
+        "clippedSamples": 0,
+        "tones": {
+          "0.5": {
+            "440": {
+              "amplitude": 3.814697278599787e-9,
+              "dBFS": -168.37079840949025
+            },
+            "880": {
+              "amplitude": 0.24997016724463747,
+              "dBFS": -12.04223638448995
+            }
+          },
+          "3.5": {
+            "440": {
+              "amplitude": 3.814697272150209e-9,
+              "dBFS": -168.37079842417563
+            },
+            "880": {
+              "amplitude": 0.2499701672446187,
+              "dBFS": -12.0422363844906
+            }
+          }
+        }
+      }
+    ]
+  },
+  "checks": {
+    "sameDurationAndRate": true,
+    "baselineSilent": true,
+    "positiveBothChannelsPresent": true,
+    "separatedTonesBothWindows": true
+  },
+  "result": "PASS_BOUNDED_RENDERED_CHANNEL_CONTROL",
+  "limits": "One active sequence and fixed render settings. No physical device or general routing certification."
+}

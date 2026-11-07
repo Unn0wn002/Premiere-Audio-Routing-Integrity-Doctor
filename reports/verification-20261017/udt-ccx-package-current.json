@@ -1,0 +1,19 @@
+{
+  "recordedAt": "2026-10-17T19:05:41.987Z",
+  "timezone": "Asia/Jakarta",
+  "sourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "pluginId": "com.unn0wn002.audio-preflight.beta",
+  "pluginVersion": "0.2.1",
+  "result": "UDT_PACKAGE_SUCCESS",
+  "outputFolder": "artifacts/ccx-0.2.1-7b544bd27f3b",
+  "outputFiles": [
+    "com.unn0wn002.audio-preflight.beta_premierepro.ccx"
+  ],
+  "evidence": "udt-ccx-package-success-current.png",
+  "selection": "Uniquely named precreated empty output folder selected from observed file list; no filename typing or overwrite",
+  "packagedInstallation": "NOT_RUN",
+  "marketplacePublished": false,
+  "nativeFixtureStatus": "BLOCKED_NATIVE_VALIDATION",
+  "scope": "UDT packaging only; root must independently verify current archive hashes against runtime receipt"
+}

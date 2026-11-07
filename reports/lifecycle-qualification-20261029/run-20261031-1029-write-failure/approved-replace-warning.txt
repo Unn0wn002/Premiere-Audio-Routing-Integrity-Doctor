@@ -1,0 +1,126 @@
+Window: "Save As", App: Adobe Premiere Pro.exe.
+	0 dialog (disabled) Save As Secondary Actions: Raise
+		116 dialog Confirm Save As Secondary Actions: Raise
+			117 image MainInstructionIcon ID: MainIcon
+			118 text locked-write-target.json already exists. Do you want to replace it? ID: ContentText
+			119 button Yes ID: CommandButton_6
+			120 button No ID: CommandButton_7
+			121 title bar (settable, string) Value: Confirm Save As
+		1 pane
+			2 tool bar Command Module ID: FolderBandModuleInner
+				3 button &Help Description: Get help. ID: HelpButton
+				4 split button Details Description: Change your view. ID: ViewControl
+					5 button View Slider Description: More options ID: SplitMenuButton
+				6 button Organize Description: Organize this folder's contents. ID: {7DDC1264-7E4D-4F74-BBC0-D191987C8D0F}
+				7 button New folder Description: Create a new folder. ID: {E44616AD-6DF1-4B94-85A4-E465AE8A19DB}
+			8 pane Control Host ID: ProperTreeHost
+				9 tree Navigation Pane ID: 100
+					10 scroll bar (settable, float) Vertical Value: 11 ID: NonClientVerticalScrollBar
+						11 button Line up ID: UpButton
+						12 button Page up ID: UpPageButton
+						13 thumb Position ID: ScrollbarThumb
+						14 button Page down ID: DownPageButton
+						15 button Line down ID: DownButton
+					16 tree item (selectable, disabled, settable, string) Desktop (OneDrive) Value: Desktop (OneDrive)
+						17 tree item (selectable, disabled, settable, string) Home Value: Home
+						18 tree item (selectable, disabled, settable, string) Gallery Value: Gallery
+						19 tree item (selectable, disabled, settable, string) Unn0wn - Personal (OneDrive) Value: Unn0wn - Personal (OneDrive)
+							20 tree item (selectable, disabled, settable, string) AppData (OneDrive) Value: AppData (OneDrive)
+							21 tree item (selectable, disabled, settable, string) Attachments (OneDrive) Value: Attachments (OneDrive)
+							22 tree item (selectable, disabled, settable, string) Creative Cloud Files (OneDrive) Value: Creative Cloud Files (OneDrive)
+							23 tree item (selectable, disabled, settable, string) Desktop (OneDrive) Value: Desktop (OneDrive)
+							24 tree item (selectable, disabled, settable, string) Documents (OneDrive) Value: Documents (OneDrive)
+							25 tree item (selectable, disabled, settable, string) Microsoft Copilot Chat Files (OneDrive) Value: Microsoft Copilot Chat Files (OneDrive)
+							26 tree item (selectable, disabled, settable, string) Pictures (OneDrive) Value: Pictures (OneDrive)
+						27 tree item (selectable, disabled, settable, string) Start of Quick Access - Desktop (pinned) Value: Start of Quick Access - Desktop (pinned)
+						28 tree item (selectable, disabled, settable, string) Downloads (pinned) Value: Downloads (pinned)
+						29 tree item (selectable, disabled, settable, string) Documents (pinned) Value: Documents (pinned)
+						30 tree item (selectable, disabled, settable, string) Pictures (pinned) Value: Pictures (pinned)
+						31 tree item (selectable, disabled, settable, string) Music (pinned) Value: Music (pinned)
+						32 tree item (selectable, disabled, settable, string) Videos (pinned) Value: Videos (pinned)
+						33 tree item (selectable, disabled, settable, string) Multimedia Value: Multimedia
+						34 tree item (selectable, disabled, settable, string) Kuliah Value: Kuliah
+						35 tree item (selectable, disabled, settable, string) UTS_KYOZORA_Paket_FINAL_13_Oktober_2026 Value: UTS_KYOZORA_Paket_FINAL_13_Oktober_2026
+						36 tree item (selectable, disabled, settable, string) End of Quick Access - Get Familiar Value: End of Quick Access - Get Familiar
+						37 tree item (selectable, disabled, settable, string) This PC Value: This PC
+						38 tree item (selectable, disabled, settable, string) Network Value: Network
+			39 pane Shell Folder View ID: listview
+				40 list Items View
+					41 header Header
+						42 split button Name ID: System.ItemNameDisplay
+							43 button Filter dropdown ID: DropDown
+						44 split button Date modified ID: System.DateModified
+							45 button Filter dropdown ID: DropDown
+						46 split button Type ID: System.ItemTypeText
+							47 button Filter dropdown ID: DropDown
+						48 split button Size ID: System.Size
+							49 button Filter dropdown ID: DropDown
+					50 group Today ID: 0
+						51 Group Header Today ID: UIGroupHeader
+							52 button Collapse Group ID: UIGroupButton
+							53 edit Name Value: Today ID: System.ItemNameDisplay
+						54 list item (selectable, settable, string) audio-preflight-2026-10-31T03-21-39-589Z Value: audio-preflight-2026-10-31T03-21-39-589Z ID: 0
+							55 edit (settable, string) Name Value: audio-preflight-2026-10-31T03-21-39-589Z ID: System.ItemNameDisplay
+							56 edit Date modified Value: ‎10/‎31/‎2026 ‏‎10:30 AM ID: System.DateModified
+							57 edit Type Value: JSON Source File ID: System.ItemTypeText
+							58 edit Size Value: 50,017 KB ID: System.Size
+						59 list item (selectable, settable, string) audio-preflight-2026-10-31T03-20-31-529Z Value: audio-preflight-2026-10-31T03-20-31-529Z ID: 1
+							60 edit (settable, string) Name Value: audio-preflight-2026-10-31T03-20-31-529Z ID: System.ItemNameDisplay
+							61 edit Date modified Value: ‎10/‎31/‎2026 ‏‎10:20 AM ID: System.DateModified
+							62 edit Type Value: JSON Source File ID: System.ItemTypeText
+							63 edit Size Value: 42,451 KB ID: System.Size
+						64 list item (selectable, settable, string) audio-preflight-2026-10-31T03-08-24-777Z Value: audio-preflight-2026-10-31T03-08-24-777Z ID: 2
+							65 edit (settable, string) Name Value: audio-preflight-2026-10-31T03-08-24-777Z ID: System.ItemNameDisplay
+							66 edit Date modified Value: ‎10/‎31/‎2026 ‏‎10:19 AM ID: System.DateModified
+							67 edit Type Value: JSON Source File ID: System.ItemTypeText
+							68 edit Size Value: 50,017 KB ID: System.Size
+			69 text File name: Description: File name: ID: SaveDialogLabel
+			70 combo box (settable, string) File name: Value: C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\lifecycle-qualification-20261029\run-20261031-1029-write-failure\locked-write-target.json ID: FileNameControlHost
+				71 edit (disabled, settable, string) File name: Value: C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\lifecycle-qualification-20261029\run-20261031-1029-write-failure\locked-write-target.json ID: 1001
+				72 button Open ID: DropDown
+			73 text Save as type: Description: Save as type: ID: SaveDialogLabel
+			74 combo box (settable, string) Save as type: Value: All files ID: FileTypeControlHost
+				75 text (settable, string) Value: All files
+				76 button Open ID: DropDown
+			77 tree Save Fields ID: SaveDialogPreviewMetadataInner
+			78 tree Application Controls ID: AppControlsModuleInner
+		79 tool bar
+			80 button Hide Folders
+		81 button Save ID: 1
+		82 button Cancel ID: 2
+		83 thumb (settable, float) Value: 0
+		84 pane ID: 40965
+			85 pane
+				86 tool bar Navigation buttons
+					87 button (disabled) Back (Alt + Left Arrow)
+					88 button (disabled) Forward (Alt + Right Arrow)
+					89 button (disabled) Recent locations
+			90 pane
+				91 tool bar Up band
+					92 button Up to "run-20261031-0828-linear-fixture" (Alt + Up Arrow)
+			93 pane ID: 41477
+				94 progress bar Loading Value: 0
+					95 pane
+						96 tool bar Address: C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\lifecycle-qualification-20261029\run-20261031-0828-linear-fixture\media ID: 1001
+							97 split button All locations
+							98 split button ‎lifecycle-qualification-20261029
+							99 split button ‎run-20261031-0828-linear-fixture
+							100 menu item ‎media
+					101 tool bar Address band
+						102 button Previous Locations
+						103 button Refresh "media" (F5)
+			104 pane
+				105 pane
+					106 pane
+						107 edit (settable, string) Search Box Description: Search media ID: SearchEditBox
+						108 button Search ID: SearchBoxSearchButton
+		109 title bar (settable, string) Value: Save As
+			110 button Close
+		116 dialog Confirm Save As Secondary Actions: Raise
+			117 image MainInstructionIcon ID: MainIcon
+			118 text locked-write-target.json already exists. Do you want to replace it? ID: ContentText
+			119 button Yes ID: CommandButton_6
+			120 button No ID: CommandButton_7
+			121 title bar (settable, string) Value: Confirm Save As
+
+The focused UI element is 107 edit (settable, string) Search Box Description: Search media ID: SearchEditBox.

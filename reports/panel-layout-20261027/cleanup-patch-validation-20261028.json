@@ -1,0 +1,52 @@
+{
+  "verifiedAt": "2026-10-28T14:35:47.492Z",
+  "sourceBaseHEAD": "9330e242eadcd10623300ca39d01753355aefc7a",
+  "sourceDirty": true,
+  "changedRuntimeFiles": [
+    "index.js"
+  ],
+  "regressionFile": "tests/beta.test.js",
+  "regressions": {
+    "beforeFix": {
+      "passed": 0,
+      "failed": 2
+    },
+    "afterFix": {
+      "passed": 2,
+      "failed": 0
+    }
+  },
+  "checks": {
+    "unit": {
+      "command": "node --test tests/*.test.js",
+      "passed": 58,
+      "failed": 0,
+      "skipped": 0
+    },
+    "fixtures": {
+      "command": "node tests/evaluate-fixtures.js",
+      "passed": 6,
+      "total": 6
+    },
+    "syntax": "PASS: node tests/check-syntax.js",
+    "whitespace": "PASS: git diff --check",
+    "package": "PASS: scripts/verify-package.ps1; seven exact files"
+  },
+  "candidateIdentity": "6fb3f7af946ff01d90137acdf1f6c5199b9fd1f022df9f421edd1ec8ade517ab",
+  "packageSha256": "838ac5c0f3ffefe4bb7d45b89f73045ba19e77b40ae41d153e5b9c28b8ffe93f",
+  "newNativeValidation": "NOT_RUN",
+  "newCCXGenerated": false,
+  "installedRuntimePreserved": true,
+  "otherSixRuntimeFilesUnchanged": true,
+  "desktopAutomationReconnected": false,
+  "documentation": [
+    "README.md",
+    "docs/PROJECT_STATUS.md",
+    "docs/BETA_RELEASE_CHECKLIST.md",
+    "docs/SUBMISSION_OPERATOR_HANDOFF.md",
+    "docs/IMPLEMENTATION_REVIEW_20261028.md"
+  ],
+  "trackedDiffFile": "cleanup-patch-working-diff-20261028.patch",
+  "trackedDiffSha256": "750281b5f31a3fb3cbf72367e09cbb0d1b29cdd53ffefa261fe6d9de57d2e3c3",
+  "commitPushMergePerformed": false
+}

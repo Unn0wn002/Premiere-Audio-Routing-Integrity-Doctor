@@ -1,0 +1,75 @@
+{
+  "recordType": "closeout-frozen-runtime-integrity",
+  "recordedAt": "2026-10-19T02:10:27.117Z",
+  "branch": "codex/validated-beta-20261017",
+  "reviewHead": "d1b2b091e28d76af60e33c99261d01108e2000db",
+  "implementationGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "normalization": "Working UTF-8 CRLF normalized to LF; staging and git blob hashes are exact bytes.",
+  "allSevenFilesUnchanged": true,
+  "files": [
+    {
+      "file": "manifest.json",
+      "receiptSha256": "d362207dcb2c4e32fb7b7e5b1d2201f5898f1f0c5b6ae3400793dda5b140a06b",
+      "workingNormalizedSha256": "d362207dcb2c4e32fb7b7e5b1d2201f5898f1f0c5b6ae3400793dda5b140a06b",
+      "stagedByteSha256": "d362207dcb2c4e32fb7b7e5b1d2201f5898f1f0c5b6ae3400793dda5b140a06b",
+      "implementationSha256": "d362207dcb2c4e32fb7b7e5b1d2201f5898f1f0c5b6ae3400793dda5b140a06b",
+      "currentCommitSha256": "d362207dcb2c4e32fb7b7e5b1d2201f5898f1f0c5b6ae3400793dda5b140a06b",
+      "allMatchReceipt": true
+    },
+    {
+      "file": "index.html",
+      "receiptSha256": "ae62ee6acbc761e9e02df534319461a04b37be71a6115a0e831af12509324945",
+      "workingNormalizedSha256": "ae62ee6acbc761e9e02df534319461a04b37be71a6115a0e831af12509324945",
+      "stagedByteSha256": "ae62ee6acbc761e9e02df534319461a04b37be71a6115a0e831af12509324945",
+      "implementationSha256": "ae62ee6acbc761e9e02df534319461a04b37be71a6115a0e831af12509324945",
+      "currentCommitSha256": "ae62ee6acbc761e9e02df534319461a04b37be71a6115a0e831af12509324945",
+      "allMatchReceipt": true
+    },
+    {
+      "file": "index.js",
+      "receiptSha256": "c1db1c4074ee8cea0a2d668c562ffe1c9aa0e40968c820cdc0592e6b687f80f7",
+      "workingNormalizedSha256": "c1db1c4074ee8cea0a2d668c562ffe1c9aa0e40968c820cdc0592e6b687f80f7",
+      "stagedByteSha256": "c1db1c4074ee8cea0a2d668c562ffe1c9aa0e40968c820cdc0592e6b687f80f7",
+      "implementationSha256": "c1db1c4074ee8cea0a2d668c562ffe1c9aa0e40968c820cdc0592e6b687f80f7",
+      "currentCommitSha256": "c1db1c4074ee8cea0a2d668c562ffe1c9aa0e40968c820cdc0592e6b687f80f7",
+      "allMatchReceipt": true
+    },
+    {
+      "file": "src/premiereAdapter.js",
+      "receiptSha256": "bc7054386b37174676f4d3302216cb43d82214bdc2582dc9f46c52fe738748bf",
+      "workingNormalizedSha256": "bc7054386b37174676f4d3302216cb43d82214bdc2582dc9f46c52fe738748bf",
+      "stagedByteSha256": "bc7054386b37174676f4d3302216cb43d82214bdc2582dc9f46c52fe738748bf",
+      "implementationSha256": "bc7054386b37174676f4d3302216cb43d82214bdc2582dc9f46c52fe738748bf",
+      "currentCommitSha256": "bc7054386b37174676f4d3302216cb43d82214bdc2582dc9f46c52fe738748bf",
+      "allMatchReceipt": true
+    },
+    {
+      "file": "src/diagnostics.js",
+      "receiptSha256": "5ee7db940f0581fb687a3c6103f61b1f04b59fcb3c2d9034535062d3432ded90",
+      "workingNormalizedSha256": "5ee7db940f0581fb687a3c6103f61b1f04b59fcb3c2d9034535062d3432ded90",
+      "stagedByteSha256": "5ee7db940f0581fb687a3c6103f61b1f04b59fcb3c2d9034535062d3432ded90",
+      "implementationSha256": "5ee7db940f0581fb687a3c6103f61b1f04b59fcb3c2d9034535062d3432ded90",
+      "currentCommitSha256": "5ee7db940f0581fb687a3c6103f61b1f04b59fcb3c2d9034535062d3432ded90",
+      "allMatchReceipt": true
+    },
+    {
+      "file": "src/valueSerializer.js",
+      "receiptSha256": "3c874ee7243f30a66215fa3f1d6a5ee65bd18c0dd5a21dbaf59e17b3f787fc4a",
+      "workingNormalizedSha256": "3c874ee7243f30a66215fa3f1d6a5ee65bd18c0dd5a21dbaf59e17b3f787fc4a",
+      "stagedByteSha256": "3c874ee7243f30a66215fa3f1d6a5ee65bd18c0dd5a21dbaf59e17b3f787fc4a",
+      "implementationSha256": "3c874ee7243f30a66215fa3f1d6a5ee65bd18c0dd5a21dbaf59e17b3f787fc4a",
+      "currentCommitSha256": "3c874ee7243f30a66215fa3f1d6a5ee65bd18c0dd5a21dbaf59e17b3f787fc4a",
+      "allMatchReceipt": true
+    },
+    {
+      "file": "src/report.js",
+      "receiptSha256": "c93e14044b68ce27862c48c14210136e764c8ac727115b4ca848934f615eb92d",
+      "workingNormalizedSha256": "c93e14044b68ce27862c48c14210136e764c8ac727115b4ca848934f615eb92d",
+      "stagedByteSha256": "c93e14044b68ce27862c48c14210136e764c8ac727115b4ca848934f615eb92d",
+      "implementationSha256": "c93e14044b68ce27862c48c14210136e764c8ac727115b4ca848934f615eb92d",
+      "currentCommitSha256": "c93e14044b68ce27862c48c14210136e764c8ac727115b4ca848934f615eb92d",
+      "allMatchReceipt": true
+    }
+  ]
+}

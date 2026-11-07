@@ -1,0 +1,129 @@
+{
+  "reportVersion": "1.0.0",
+  "observation": {
+    "schemaVersion": "0.3.0",
+    "completion": "failed",
+    "scanTraversalComplete": false,
+    "durationMs": 6,
+    "sequenceInventoryComplete": false,
+    "sequenceCount": null,
+    "verification": "HOST OBSERVATION WHEN EXECUTED IN PREMIERE",
+    "generatedAt": "2026-10-26T18:28:07.970Z",
+    "host": {
+      "name": "premierepro",
+      "version": "26.5.2",
+      "uiLocale": "en_US",
+      "uxpVersion": "uxp-9.3.0-local",
+      "pluginVersion": "0.2.1"
+    },
+    "project": null,
+    "sequences": [],
+    "unknowns": [
+      "Final Audio Track Mixer output-bus routing topology is not established by this probe.",
+      "Modify > Audio Channels source-channel mapping is not established by this probe.",
+      "End-to-end playback/export correctness is not established by DOM observation alone."
+    ],
+    "errors": [
+      "No active Premiere project."
+    ]
+  },
+  "diagnostics": {
+    "schemaVersion": "0.3.0",
+    "completion": "failed",
+    "status": "UNKNOWN",
+    "coverage": {
+      "state": "UNKNOWN",
+      "project": {
+        "status": "UNKNOWN",
+        "expected": 1,
+        "observed": 0,
+        "known": 0,
+        "unknown": 1
+      },
+      "sequences": {
+        "status": "UNKNOWN",
+        "expected": null,
+        "observed": 0,
+        "known": 0,
+        "unknown": null
+      },
+      "tracks": {
+        "status": "UNKNOWN",
+        "expected": null,
+        "observed": 0,
+        "known": 0,
+        "unknown": null
+      },
+      "clips": {
+        "status": "UNKNOWN",
+        "expected": null,
+        "observed": 0,
+        "known": 0,
+        "unknown": null
+      },
+      "components": {
+        "status": "UNKNOWN",
+        "expected": null,
+        "observed": 0,
+        "known": 0,
+        "unknown": null
+      },
+      "failedReads": 1,
+      "capabilities": {
+        "sourceChannelMapping": "UNKNOWN",
+        "outputBusTopology": "UNKNOWN",
+        "playbackExportCorrectness": "UNKNOWN"
+      }
+    },
+    "risk": [],
+    "information": [],
+    "unknown": [
+      {
+        "ruleId": "ARID-U01",
+        "severity": "Unknown",
+        "confidence": "UNKNOWN_CANNOT_VERIFY",
+        "location": {
+          "project": null
+        },
+        "observed": "Final Audio Track Mixer output-bus routing topology is not established by this probe.",
+        "why": "The current public-observable probe does not establish this state.",
+        "remediation": "Verify manually in Premiere until a supported public API is proven in host testing."
+      },
+      {
+        "ruleId": "ARID-U02",
+        "severity": "Unknown",
+        "confidence": "UNKNOWN_CANNOT_VERIFY",
+        "location": {
+          "project": null
+        },
+        "observed": "Modify > Audio Channels source-channel mapping is not established by this probe.",
+        "why": "The current public-observable probe does not establish this state.",
+        "remediation": "Verify manually in Premiere until a supported public API is proven in host testing."
+      },
+      {
+        "ruleId": "ARID-U03",
+        "severity": "Unknown",
+        "confidence": "UNKNOWN_CANNOT_VERIFY",
+        "location": {
+          "project": null
+        },
+        "observed": "End-to-end playback/export correctness is not established by DOM observation alone.",
+        "why": "The current public-observable probe does not establish this state.",
+        "remediation": "Verify manually in Premiere until a supported public API is proven in host testing."
+      },
+      {
+        "ruleId": "ARID-U-READ",
+        "severity": "Unknown",
+        "confidence": "UNKNOWN_CANNOT_VERIFY",
+        "location": {
+          "project": null,
+          "scope": "project"
+        },
+        "observed": "No active Premiere project.",
+        "why": "This read is unavailable or incomplete. Other independently observed states remain usable; this scope is Unknown.",
+        "remediation": "Verify this scope manually in Premiere, then repeat the scan."
+      }
+    ]
+  },
+  "annotations": {}
+}

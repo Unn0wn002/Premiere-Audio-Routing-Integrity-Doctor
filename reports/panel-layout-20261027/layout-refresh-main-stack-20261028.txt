@@ -1,0 +1,150 @@
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+OK                                             C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\symbol-cache
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+OK                                             C:\Program Files\Adobe\Adobe Premiere Pro 2026
+Opened log file '.\reports\panel-layout-20261027\layout-refresh-main-stack-20261028.txt'
+
+************* Preparing the environment for Debugger Extensions Gallery repositories **************
+   ExtensionRepository : Implicit
+   UseExperimentalFeatureForNugetShare : true
+   AllowNugetExeUpdate : true
+   NonInteractiveNuget : true
+   AllowNugetMSCredentialProviderInstall : true
+   AllowParallelInitializationOfLocalRepositories : true
+
+   -- Configuring repositories
+      ----> Repository : LocalInstalled, Enabled: true
+      ----> Repository : UserExtensions, Enabled: true
+
+>>>>>>>>>>>>> Preparing the environment for Debugger Extensions Gallery repositories completed, duration 0.000 seconds
+
+************* Waiting for Debugger Extensions Gallery to Initialize **************
+
+>>>>>>>>>>>>> Waiting for Debugger Extensions Gallery to Initialize completed, duration 0.312 seconds
+   ----> Repository : UserExtensions, Enabled: true, Packages count: 0
+   ----> Repository : LocalInstalled, Enabled: true, Packages count: 46
+
+Microsoft (R) Windows Debugger Version 10.0.29661.1004 AMD64
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+
+Loading Dump File [C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\layout-refresh-reconnect-14208-20261028.dmp]
+Comment: '
+*** "C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\hang-capture-tools\procdump64.exe" -accepteula -mm -h -n 1 -s 5 -at 10 14208 .\reports\panel-layout-20261027\layout-refresh-reconnect-14208-20261028.dmp
+*** Hung window detected: 3e0958'
+User Mini Dump File: Only registers, stack and portions of memory are available
+
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+OK                                             C:\Program Files\Adobe\Adobe Premiere Pro 2026
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+OK                                             C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\symbol-cache
+Symbol search path is: C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\symbol-cache
+Executable search path is: C:\Program Files\Adobe\Adobe Premiere Pro 2026
+Windows 10 Version 26300 MP (16 procs) Free x64
+Product: WinNt, suite: SingleUserTS
+Edition build lab: 26100.1.amd64fre.ge_release.240331-1435
+Debug session time: Wed Oct 28 21:48:13.000 2026 (UTC + 7:00)
+System Uptime: 1 days 3:55:54.688
+Process Uptime: 0 days 0:10:13.000
+.NatVis script successfully loaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\atlmfc.natvis'
+NatVis script successfully loaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\concurrency.natvis'
+NatVis script successfully loaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\cpp_rest.natvis'
+NatVis script successfully loaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\ObjectiveC.natvis'
+NatVis script successfully loaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\stl.natvis'
+NatVis script successfully loaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\Windows.Data.Json.natvis'
+NatVis script successfully loaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\Windows.Devices.Geolocation.natvis'
+NatVis script successfully loaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\Windows.Devices.Sensors.natvis'
+NatVis script successfully loaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\Windows.Media.natvis'
+NatVis script successfully loaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\windows.natvis'
+NatVis script successfully loaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\winrt.natvis'
+...............................................................
+................................................................
+................................................................
+................................................................
+....................................................
+Loading unloaded module list
+......................................
+
++------------------------------------------------------------------------+
+| This target supports Hardware-enforced Stack Protection. A HW based    |
+| "Shadow Stack" may be available to assist in debugging and analysis.   |
+| See aka.ms/userhsp for more info.                                      |
+|                                                                        |
+| dps @ssp                                                               |
+|                                                                        |
++------------------------------------------------------------------------+
+
+For analysis of this file, run !analyze -v
+Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x931626:
+00007ff7`c9e44ec6 4883c108        add     rcx,8
+0:000> ~0s; k 40; q
+Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x931626:
+00007ff7`c9e44ec6 4883c108        add     rcx,8
+Child-SP          RetAddr               Call Site
+00000047`047bc4b0 00007ff7`c9e44eaa     Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x931626
+00000047`047bc500 00007ff7`c9e44eaa     Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x93160a
+00000047`047bc550 00007ff7`c9e44fd2     Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x93160a
+00000047`047bc5a0 00007ff7`c9e44ff9     Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x931732
+00000047`047bc600 00007ff7`c9e44ff9     Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x931759
+00000047`047bc660 00007ff7`c9e44ff9     Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x931759
+00000047`047bc6c0 00007ff7`c9f1f475     Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x931759
+00000047`047bc720 00007ff7`c9f5f589     Adobe_Premiere_Pro!pion::algorithm::xml_encode+0xa0bbd5
+00000047`047bc760 00007ff7`c9e69688     Adobe_Premiere_Pro!pion::algorithm::xml_encode+0xa4bce9
+00000047`047bc7e0 00007ff7`c9e6e379     Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x955de8
+00000047`047bc970 00007ff7`c9e689e9     Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x95aad9
+00000047`047bc9a0 00007ff7`c9e700d3     Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x955149
+00000047`047bcae0 00007ff7`c9e67fec     Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x95c833
+00000047`047bcb20 00007ff7`c92de280     Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x95474c
+00000047`047bcb50 00007ff7`c9382585     Adobe_Premiere_Pro+0x185ee280
+00000047`047bcbf0 00007ff7`d137d776     Adobe_Premiere_Pro+0x18692585
+00000047`047bcc90 00007ff7`d137d7a2     Adobe_Premiere_Pro!boost::serialization::singleton_module::unlock+0x14e7b26
+00000047`047bce90 00007ff7`c92de419     Adobe_Premiere_Pro!boost::serialization::singleton_module::unlock+0x14e7b52
+00000047`047bd090 00007ff7`c9e6875a     Adobe_Premiere_Pro+0x185ee419
+00000047`047bd160 00007ffd`459352e6     Adobe_Premiere_Pro!pion::algorithm::xml_encode+0x954eba
+00000047`047bd270 00007ffd`45934b6c     user32!UserCallWinProcCheckWow+0x356
+00000047`047bd3d0 00007ffd`4595f593     user32!DispatchClientMessage+0x9c
+00000047`047bd430 00007ffd`45e85d94     user32!_fnDWORD+0x33
+00000047`047bd490 00007ffd`43a01384     ntdll!KiUserCallbackDispatcherContinue
+00000047`047bd518 00007ffd`45962d9a     win32u!NtUserMessageCall+0x14
+00000047`047bd520 00007ffd`156f4917     user32!SendMessageTimeoutW+0xca
+00000047`047bd5b0 00007ffd`06458eeb     oleacc!AccessibleObjectFromWindowTimeout+0x107
+00000047`047bd710 00007ffd`0647d16c     uiautomationcore!CreateMsaaProxy+0x8b
+00000047`047bd870 00007ffd`0647cbce     uiautomationcore!BuiltinProxyFactory::TryCreateProxy+0x68
+00000047`047bd8d0 00007ffd`0648ed27     uiautomationcore!InProcProxyEventManager::TranslateWinEvents+0x27a
+00000047`047bde30 00007ffd`0648e92a     uiautomationcore!HandleHookMessage+0x387
+00000047`047bee70 00007ffd`4593b4fb     uiautomationcore!HookMessageWndProc+0x2a
+00000047`047beea0 00007ffd`4595f593     user32!fnHkINLPCWPSTRUCTW+0xeb
+00000047`047bef50 00007ffd`45e85d94     user32!_fnDWORD+0x33
+00000047`047befb0 00007ffd`43a01304     ntdll!KiUserCallbackDispatcherContinue
+00000047`047bf038 00007ffd`459319df     win32u!NtUserPeekMessage+0x14
+00000047`047bf040 00007ffd`45931968     user32!_PeekMessage+0x3f
+00000047`047bf0b0 00007ff7`d131615b     user32!PeekMessageW+0x168
+00000047`047bf120 00007ff7`d131055b     Adobe_Premiere_Pro!boost::serialization::singleton_module::unlock+0x148050b
+00000047`047bf280 00007ff7`d12bbd43     Adobe_Premiere_Pro!boost::serialization::singleton_module::unlock+0x147a90b
+00000047`047bf3d0 00007ff7`d12a5ad8     Adobe_Premiere_Pro!boost::serialization::singleton_module::unlock+0x14260f3
+00000047`047bf610 00007ff7`d12a5cde     Adobe_Premiere_Pro!boost::serialization::singleton_module::unlock+0x140fe88
+00000047`047bf680 00007ff7`c83ed0b7     Adobe_Premiere_Pro!boost::serialization::singleton_module::unlock+0x141008e
+00000047`047bf700 00007ff7`d27314b2     Adobe_Premiere_Pro+0x176fd0b7
+00000047`047bfba0 00007ffd`43f9dda7     Adobe_Premiere_Pro!HandlerTools::CreateModule+0x482d2
+00000047`047bfbe0 00007ffd`45d9ee4c     kernel32!BaseThreadInitThunk+0x17
+00000047`047bfc10 00000000`00000000     ntdll!RtlUserThreadStart+0x2c
+quit:
+NatVis script unloaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\atlmfc.natvis'
+NatVis script unloaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\concurrency.natvis'
+NatVis script unloaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\cpp_rest.natvis'
+NatVis script unloaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\ObjectiveC.natvis'
+NatVis script unloaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\stl.natvis'
+NatVis script unloaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\Windows.Data.Json.natvis'
+NatVis script unloaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\Windows.Devices.Geolocation.natvis'
+NatVis script unloaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\Windows.Devices.Sensors.natvis'
+NatVis script unloaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\Windows.Media.natvis'
+NatVis script unloaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\windows.natvis'
+NatVis script unloaded from 'C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\reports\panel-layout-20261027\debugger-tools\windbg-1.2610.1001.0\amd64\Visualizers\winrt.natvis'

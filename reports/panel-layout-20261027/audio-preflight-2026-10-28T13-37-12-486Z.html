@@ -1,0 +1,3436 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Audio Preflight report</title><style>body{font:16px system-ui;max-width:960px;margin:32px auto;padding:0 20px}article{border:1px solid #bbb;padding:16px;margin:12px 0}small{color:#555}pre{white-space:pre-wrap;overflow-wrap:anywhere}</style></head><body><h1>Audio Preflight</h1><p>Bounded scan completed. Routing and audio output require manual verification. Diagnostic status: COMPLETE.</p><p>Project: Positive_Signal_Test.prproj | 2026-10-28T13:37:12.486Z | Duration: 37 ms</p><p>premierepro 26.5.2 · UXP uxp-9.3.0-local · plugin 0.2.1 · locale en_US</p><p>Observation coverage COMPLETE · sequences: 4/4 known (COMPLETE) · tracks: 15/15 known (COMPLETE) · clips: 7/7 known (COMPLETE) · components: 18/18 known (COMPLETE). Mapping, output buses and playback/export correctness: UNKNOWN.</p><p>Read-only review. Intent is unknown. No routing or playback/export certification. Reports may contain project paths and names; review before sharing.</p><h2>stereo-l440-r880 / sequence #1</h2><article><strong>Information · ARID-I01</strong><p>stereo-l440-r880 / sequence #1</p><p>Sequence audio channel type=Stereo, count=2.</p><p>Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.</p><p>Compare against delivery requirements and source expectations.</p><small>Confidence: DIRECT_OBSERVATION | Review: unreviewed</small></article><h2>F08 Actual Mono1 / sequence #2</h2><article><strong>Information · ARID-I01</strong><p>F08 Actual Mono1 / sequence #2</p><p>Sequence audio channel type=Mono, count=1.</p><p>Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.</p><p>Compare against delivery requirements and source expectations.</p><small>Confidence: DIRECT_OBSERVATION | Review: unreviewed</small></article><h2>F09 Actual Multichannel4 / sequence #3</h2><article><strong>Information · ARID-I01</strong><p>F09 Actual Multichannel4 / sequence #3</p><p>Sequence audio channel type=Multichannel, count=4.</p><p>Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.</p><p>Compare against delivery requirements and source expectations.</p><small>Confidence: DIRECT_OBSERVATION | Review: unreviewed</small></article><h2>F08_Mono / sequence #4</h2><article><strong>Information · ARID-I01</strong><p>F08_Mono / sequence #4</p><p>Sequence audio channel type=Stereo, count=2.</p><p>Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.</p><p>Compare against delivery requirements and source expectations.</p><small>Confidence: DIRECT_OBSERVATION | Review: unreviewed</small></article><h2>Positive_Signal_Test.prproj</h2><article><strong>Unknown · ARID-U01</strong><p>Positive_Signal_Test.prproj</p><p>Final Audio Track Mixer output-bus routing topology is not established by this probe.</p><p>The current public-observable probe does not establish this state.</p><p>Verify manually in Premiere until a supported public API is proven in host testing.</p><small>Confidence: UNKNOWN_CANNOT_VERIFY | Review: unreviewed</small></article><article><strong>Unknown · ARID-U02</strong><p>Positive_Signal_Test.prproj</p><p>Modify &gt; Audio Channels source-channel mapping is not established by this probe.</p><p>The current public-observable probe does not establish this state.</p><p>Verify manually in Premiere until a supported public API is proven in host testing.</p><small>Confidence: UNKNOWN_CANNOT_VERIFY | Review: unreviewed</small></article><article><strong>Unknown · ARID-U03</strong><p>Positive_Signal_Test.prproj</p><p>End-to-end playback/export correctness is not established by DOM observation alone.</p><p>The current public-observable probe does not establish this state.</p><p>Verify manually in Premiere until a supported public API is proven in host testing.</p><small>Confidence: UNKNOWN_CANNOT_VERIFY | Review: unreviewed</small></article><h2>Raw evidence</h2><pre>{
+  &quot;reportVersion&quot;: &quot;1.0.0&quot;,
+  &quot;observation&quot;: {
+    &quot;schemaVersion&quot;: &quot;0.3.0&quot;,
+    &quot;completion&quot;: &quot;completed&quot;,
+    &quot;scanTraversalComplete&quot;: true,
+    &quot;durationMs&quot;: 37,
+    &quot;sequenceInventoryComplete&quot;: true,
+    &quot;sequenceCount&quot;: 4,
+    &quot;verification&quot;: &quot;HOST OBSERVATION WHEN EXECUTED IN PREMIERE&quot;,
+    &quot;generatedAt&quot;: &quot;2026-10-28T13:37:12.486Z&quot;,
+    &quot;host&quot;: {
+      &quot;name&quot;: &quot;premierepro&quot;,
+      &quot;version&quot;: &quot;26.5.2&quot;,
+      &quot;uiLocale&quot;: &quot;en_US&quot;,
+      &quot;uxpVersion&quot;: &quot;uxp-9.3.0-local&quot;,
+      &quot;pluginVersion&quot;: &quot;0.2.1&quot;
+    },
+    &quot;project&quot;: {
+      &quot;name&quot;: &quot;Positive_Signal_Test.prproj&quot;,
+      &quot;path&quot;: &quot;\\\\?\\C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\Positive_Signal_Test.prproj&quot;,
+      &quot;guid&quot;: &quot;e27b97e8-83d0-45fb-960f-d3c9ea4f9cb6&quot;
+    },
+    &quot;sequences&quot;: [
+      {
+        &quot;name&quot;: &quot;stereo-l440-r880&quot;,
+        &quot;guid&quot;: &quot;06a6a407-a666-40bd-b196-ebd09a74fc7f&quot;,
+        &quot;occurrenceIndex&quot;: 0,
+        &quot;trackInventoryComplete&quot;: true,
+        &quot;audioTrackCount&quot;: 3,
+        &quot;settings&quot;: {
+          &quot;audioChannelCount&quot;: 2,
+          &quot;audioChannelType&quot;: 1,
+          &quot;audioSampleRate&quot;: {
+            &quot;value&quot;: 48000,
+            &quot;ticksPerFrame&quot;: 5292000
+          }
+        },
+        &quot;audioTracks&quot;: [
+          {
+            &quot;id&quot;: &quot;2&quot;,
+            &quot;name&quot;: &quot;Audio 1&quot;,
+            &quot;index&quot;: 0,
+            &quot;muted&quot;: false,
+            &quot;clipInventoryComplete&quot;: true,
+            &quot;clipCount&quot;: 1,
+            &quot;clips&quot;: [
+              {
+                &quot;sequenceName&quot;: &quot;stereo-l440-r880&quot;,
+                &quot;trackIndex&quot;: 0,
+                &quot;occurrenceIndex&quot;: 0,
+                &quot;startTime&quot;: {
+                  &quot;ticks&quot;: &quot;0&quot;,
+                  &quot;seconds&quot;: 0
+                },
+                &quot;endTime&quot;: {
+                  &quot;ticks&quot;: &quot;762810048000&quot;,
+                  &quot;seconds&quot;: 3.003
+                },
+                &quot;name&quot;: &quot;F04 Intentional creative hard-right&quot;,
+                &quot;matchName&quot;: &quot;stereo-l440-r880.wav&quot;,
+                &quot;disabled&quot;: false,
+                &quot;componentChain&quot;: {
+                  &quot;componentCount&quot;: 2,
+                  &quot;componentInventoryComplete&quot;: true,
+                  &quot;components&quot;: [
+                    {
+                      &quot;index&quot;: 0,
+                      &quot;displayName&quot;: &quot;Volume&quot;,
+                      &quot;matchName&quot;: &quot;Internal Volume Stereo&quot;,
+                      &quot;paramCount&quot;: 2,
+                      &quot;paramInventoryComplete&quot;: true,
+                      &quot;params&quot;: [
+                        {
+                          &quot;index&quot;: 0,
+                          &quot;displayName&quot;: &quot;Mute&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: false
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 1,
+                          &quot;displayName&quot;: &quot;Level&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        }
+                      ],
+                      &quot;errors&quot;: []
+                    },
+                    {
+                      &quot;index&quot;: 1,
+                      &quot;displayName&quot;: &quot;Channel Volume&quot;,
+                      &quot;matchName&quot;: &quot;Internal Channel Volume Stereo&quot;,
+                      &quot;paramCount&quot;: 33,
+                      &quot;paramInventoryComplete&quot;: true,
+                      &quot;params&quot;: [
+                        {
+                          &quot;index&quot;: 0,
+                          &quot;displayName&quot;: &quot;Bypass&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: false
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 1,
+                          &quot;displayName&quot;: &quot;Left&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 2,
+                          &quot;displayName&quot;: &quot;Right&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 3,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 4,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 5,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 6,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 7,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 8,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 9,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 10,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 11,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 12,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 13,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 14,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 15,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 16,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 17,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 18,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 19,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 20,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 21,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 22,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 23,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 24,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 25,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 26,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 27,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 28,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 29,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 30,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 31,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 32,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        }
+                      ],
+                      &quot;errors&quot;: []
+                    }
+                  ],
+                  &quot;errors&quot;: []
+                },
+                &quot;sourceProjectItem&quot;: {
+                  &quot;name&quot;: &quot;stereo-l440-r880.wav&quot;,
+                  &quot;componentChain&quot;: {
+                    &quot;componentCount&quot;: 2,
+                    &quot;componentInventoryComplete&quot;: true,
+                    &quot;components&quot;: [
+                      {
+                        &quot;index&quot;: 0,
+                        &quot;displayName&quot;: &quot;Volume&quot;,
+                        &quot;matchName&quot;: &quot;Internal Volume Stereo&quot;,
+                        &quot;paramCount&quot;: 2,
+                        &quot;paramInventoryComplete&quot;: true,
+                        &quot;params&quot;: [
+                          {
+                            &quot;index&quot;: 0,
+                            &quot;displayName&quot;: &quot;Mute&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: false
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 1,
+                            &quot;displayName&quot;: &quot;Level&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          }
+                        ],
+                        &quot;errors&quot;: []
+                      },
+                      {
+                        &quot;index&quot;: 1,
+                        &quot;displayName&quot;: &quot;Channel Volume&quot;,
+                        &quot;matchName&quot;: &quot;Internal Channel Volume Stereo&quot;,
+                        &quot;paramCount&quot;: 33,
+                        &quot;paramInventoryComplete&quot;: true,
+                        &quot;params&quot;: [
+                          {
+                            &quot;index&quot;: 0,
+                            &quot;displayName&quot;: &quot;Bypass&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: false
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 1,
+                            &quot;displayName&quot;: &quot;Left&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 2,
+                            &quot;displayName&quot;: &quot;Right&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 3,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 4,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 5,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 6,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 7,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 8,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 9,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 10,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 11,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 12,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 13,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 14,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 15,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 16,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 17,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 18,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 19,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 20,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 21,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 22,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 23,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 24,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 25,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 26,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 27,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 28,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 29,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 30,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 31,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 32,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          }
+                        ],
+                        &quot;errors&quot;: []
+                      }
+                    ],
+                    &quot;errors&quot;: []
+                  },
+                  &quot;errors&quot;: []
+                },
+                &quot;errors&quot;: [],
+                &quot;sequenceGuid&quot;: &quot;06a6a407-a666-40bd-b196-ebd09a74fc7f&quot;,
+                &quot;sequenceOccurrenceIndex&quot;: 0,
+                &quot;trackId&quot;: &quot;2&quot;
+              }
+            ],
+            &quot;errors&quot;: []
+          },
+          {
+            &quot;id&quot;: &quot;3&quot;,
+            &quot;name&quot;: &quot;Audio 2&quot;,
+            &quot;index&quot;: 1,
+            &quot;muted&quot;: false,
+            &quot;clipInventoryComplete&quot;: true,
+            &quot;clipCount&quot;: 1,
+            &quot;clips&quot;: [
+              {
+                &quot;sequenceName&quot;: &quot;stereo-l440-r880&quot;,
+                &quot;trackIndex&quot;: 1,
+                &quot;occurrenceIndex&quot;: 0,
+                &quot;startTime&quot;: {
+                  &quot;ticks&quot;: &quot;762810048000&quot;,
+                  &quot;seconds&quot;: 3.003
+                },
+                &quot;endTime&quot;: {
+                  &quot;ticks&quot;: &quot;1525620096000&quot;,
+                  &quot;seconds&quot;: 6.006
+                },
+                &quot;name&quot;: &quot;stereo-l440-r880.wav&quot;,
+                &quot;matchName&quot;: &quot;stereo-l440-r880.wav&quot;,
+                &quot;disabled&quot;: false,
+                &quot;componentChain&quot;: {
+                  &quot;componentCount&quot;: 2,
+                  &quot;componentInventoryComplete&quot;: true,
+                  &quot;components&quot;: [
+                    {
+                      &quot;index&quot;: 0,
+                      &quot;displayName&quot;: &quot;Volume&quot;,
+                      &quot;matchName&quot;: &quot;Internal Volume Stereo&quot;,
+                      &quot;paramCount&quot;: 2,
+                      &quot;paramInventoryComplete&quot;: true,
+                      &quot;params&quot;: [
+                        {
+                          &quot;index&quot;: 0,
+                          &quot;displayName&quot;: &quot;Mute&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: false
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 1,
+                          &quot;displayName&quot;: &quot;Level&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        }
+                      ],
+                      &quot;errors&quot;: []
+                    },
+                    {
+                      &quot;index&quot;: 1,
+                      &quot;displayName&quot;: &quot;Channel Volume&quot;,
+                      &quot;matchName&quot;: &quot;Internal Channel Volume Stereo&quot;,
+                      &quot;paramCount&quot;: 33,
+                      &quot;paramInventoryComplete&quot;: true,
+                      &quot;params&quot;: [
+                        {
+                          &quot;index&quot;: 0,
+                          &quot;displayName&quot;: &quot;Bypass&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: false
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 1,
+                          &quot;displayName&quot;: &quot;Left&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 2,
+                          &quot;displayName&quot;: &quot;Right&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 3,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 4,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 5,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 6,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 7,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 8,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 9,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 10,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 11,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 12,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 13,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 14,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 15,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 16,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 17,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 18,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 19,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 20,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 21,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 22,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 23,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 24,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 25,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 26,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 27,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 28,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 29,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 30,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 31,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 32,
+                          &quot;displayName&quot;: &quot;&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        }
+                      ],
+                      &quot;errors&quot;: []
+                    }
+                  ],
+                  &quot;errors&quot;: []
+                },
+                &quot;sourceProjectItem&quot;: {
+                  &quot;name&quot;: &quot;stereo-l440-r880.wav&quot;,
+                  &quot;componentChain&quot;: {
+                    &quot;componentCount&quot;: 2,
+                    &quot;componentInventoryComplete&quot;: true,
+                    &quot;components&quot;: [
+                      {
+                        &quot;index&quot;: 0,
+                        &quot;displayName&quot;: &quot;Volume&quot;,
+                        &quot;matchName&quot;: &quot;Internal Volume Stereo&quot;,
+                        &quot;paramCount&quot;: 2,
+                        &quot;paramInventoryComplete&quot;: true,
+                        &quot;params&quot;: [
+                          {
+                            &quot;index&quot;: 0,
+                            &quot;displayName&quot;: &quot;Mute&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: false
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 1,
+                            &quot;displayName&quot;: &quot;Level&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          }
+                        ],
+                        &quot;errors&quot;: []
+                      },
+                      {
+                        &quot;index&quot;: 1,
+                        &quot;displayName&quot;: &quot;Channel Volume&quot;,
+                        &quot;matchName&quot;: &quot;Internal Channel Volume Stereo&quot;,
+                        &quot;paramCount&quot;: 33,
+                        &quot;paramInventoryComplete&quot;: true,
+                        &quot;params&quot;: [
+                          {
+                            &quot;index&quot;: 0,
+                            &quot;displayName&quot;: &quot;Bypass&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: false
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 1,
+                            &quot;displayName&quot;: &quot;Left&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 2,
+                            &quot;displayName&quot;: &quot;Right&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 3,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 4,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 5,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 6,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 7,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 8,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 9,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 10,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 11,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 12,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 13,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 14,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 15,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 16,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 17,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 18,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 19,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 20,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 21,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 22,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 23,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 24,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 25,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 26,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 27,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 28,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 29,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 30,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 31,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 32,
+                            &quot;displayName&quot;: &quot;&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          }
+                        ],
+                        &quot;errors&quot;: []
+                      }
+                    ],
+                    &quot;errors&quot;: []
+                  },
+                  &quot;errors&quot;: []
+                },
+                &quot;errors&quot;: [],
+                &quot;sequenceGuid&quot;: &quot;06a6a407-a666-40bd-b196-ebd09a74fc7f&quot;,
+                &quot;sequenceOccurrenceIndex&quot;: 0,
+                &quot;trackId&quot;: &quot;3&quot;
+              }
+            ],
+            &quot;errors&quot;: []
+          },
+          {
+            &quot;id&quot;: &quot;4&quot;,
+            &quot;name&quot;: &quot;Audio 3&quot;,
+            &quot;index&quot;: 2,
+            &quot;muted&quot;: false,
+            &quot;clipInventoryComplete&quot;: true,
+            &quot;clipCount&quot;: 0,
+            &quot;clips&quot;: [],
+            &quot;errors&quot;: []
+          }
+        ],
+        &quot;errors&quot;: []
+      },
+      {
+        &quot;name&quot;: &quot;F08 Actual Mono1&quot;,
+        &quot;guid&quot;: &quot;0bafa115-0b9a-40b8-a5b4-931ca848ed8c&quot;,
+        &quot;occurrenceIndex&quot;: 1,
+        &quot;trackInventoryComplete&quot;: true,
+        &quot;audioTrackCount&quot;: 4,
+        &quot;settings&quot;: {
+          &quot;audioChannelCount&quot;: 1,
+          &quot;audioChannelType&quot;: 0,
+          &quot;audioSampleRate&quot;: {
+            &quot;value&quot;: 48000,
+            &quot;ticksPerFrame&quot;: 5292000
+          }
+        },
+        &quot;audioTracks&quot;: [
+          {
+            &quot;id&quot;: &quot;2&quot;,
+            &quot;name&quot;: &quot;Audio 1&quot;,
+            &quot;index&quot;: 0,
+            &quot;muted&quot;: false,
+            &quot;clipInventoryComplete&quot;: true,
+            &quot;clipCount&quot;: 1,
+            &quot;clips&quot;: [
+              {
+                &quot;sequenceName&quot;: &quot;F08 Actual Mono1&quot;,
+                &quot;trackIndex&quot;: 0,
+                &quot;occurrenceIndex&quot;: 0,
+                &quot;startTime&quot;: {
+                  &quot;ticks&quot;: &quot;0&quot;,
+                  &quot;seconds&quot;: 0
+                },
+                &quot;endTime&quot;: {
+                  &quot;ticks&quot;: &quot;752215464000&quot;,
+                  &quot;seconds&quot;: 2.961291666666667
+                },
+                &quot;name&quot;: &quot;ARID_20261018_mono.wav&quot;,
+                &quot;matchName&quot;: &quot;ARID_20261018_mono.wav&quot;,
+                &quot;disabled&quot;: false,
+                &quot;componentChain&quot;: {
+                  &quot;componentCount&quot;: 1,
+                  &quot;componentInventoryComplete&quot;: true,
+                  &quot;components&quot;: [
+                    {
+                      &quot;index&quot;: 0,
+                      &quot;displayName&quot;: &quot;Volume&quot;,
+                      &quot;matchName&quot;: &quot;Internal Volume Mono&quot;,
+                      &quot;paramCount&quot;: 2,
+                      &quot;paramInventoryComplete&quot;: true,
+                      &quot;params&quot;: [
+                        {
+                          &quot;index&quot;: 0,
+                          &quot;displayName&quot;: &quot;Mute&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: false
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 1,
+                          &quot;displayName&quot;: &quot;Level&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        }
+                      ],
+                      &quot;errors&quot;: []
+                    }
+                  ],
+                  &quot;errors&quot;: []
+                },
+                &quot;sourceProjectItem&quot;: {
+                  &quot;name&quot;: &quot;ARID_20261018_mono.wav&quot;,
+                  &quot;componentChain&quot;: {
+                    &quot;componentCount&quot;: 1,
+                    &quot;componentInventoryComplete&quot;: true,
+                    &quot;components&quot;: [
+                      {
+                        &quot;index&quot;: 0,
+                        &quot;displayName&quot;: &quot;Volume&quot;,
+                        &quot;matchName&quot;: &quot;Internal Volume Mono&quot;,
+                        &quot;paramCount&quot;: 2,
+                        &quot;paramInventoryComplete&quot;: true,
+                        &quot;params&quot;: [
+                          {
+                            &quot;index&quot;: 0,
+                            &quot;displayName&quot;: &quot;Mute&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: false
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 1,
+                            &quot;displayName&quot;: &quot;Level&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          }
+                        ],
+                        &quot;errors&quot;: []
+                      }
+                    ],
+                    &quot;errors&quot;: []
+                  },
+                  &quot;errors&quot;: []
+                },
+                &quot;errors&quot;: [],
+                &quot;sequenceGuid&quot;: &quot;0bafa115-0b9a-40b8-a5b4-931ca848ed8c&quot;,
+                &quot;sequenceOccurrenceIndex&quot;: 1,
+                &quot;trackId&quot;: &quot;2&quot;
+              }
+            ],
+            &quot;errors&quot;: []
+          },
+          {
+            &quot;id&quot;: &quot;3&quot;,
+            &quot;name&quot;: &quot;Audio 2&quot;,
+            &quot;index&quot;: 1,
+            &quot;muted&quot;: false,
+            &quot;clipInventoryComplete&quot;: true,
+            &quot;clipCount&quot;: 0,
+            &quot;clips&quot;: [],
+            &quot;errors&quot;: []
+          },
+          {
+            &quot;id&quot;: &quot;4&quot;,
+            &quot;name&quot;: &quot;Audio 3&quot;,
+            &quot;index&quot;: 2,
+            &quot;muted&quot;: false,
+            &quot;clipInventoryComplete&quot;: true,
+            &quot;clipCount&quot;: 0,
+            &quot;clips&quot;: [],
+            &quot;errors&quot;: []
+          },
+          {
+            &quot;id&quot;: &quot;5&quot;,
+            &quot;name&quot;: &quot;Audio 4&quot;,
+            &quot;index&quot;: 3,
+            &quot;muted&quot;: false,
+            &quot;clipInventoryComplete&quot;: true,
+            &quot;clipCount&quot;: 0,
+            &quot;clips&quot;: [],
+            &quot;errors&quot;: []
+          }
+        ],
+        &quot;errors&quot;: []
+      },
+      {
+        &quot;name&quot;: &quot;F09 Actual Multichannel4&quot;,
+        &quot;guid&quot;: &quot;9c2671d2-cc02-4005-988d-350951e9a7b2&quot;,
+        &quot;occurrenceIndex&quot;: 2,
+        &quot;trackInventoryComplete&quot;: true,
+        &quot;audioTrackCount&quot;: 4,
+        &quot;settings&quot;: {
+          &quot;audioChannelCount&quot;: 4,
+          &quot;audioChannelType&quot;: 3,
+          &quot;audioSampleRate&quot;: {
+            &quot;value&quot;: 48000,
+            &quot;ticksPerFrame&quot;: 5292000
+          }
+        },
+        &quot;audioTracks&quot;: [
+          {
+            &quot;id&quot;: &quot;2&quot;,
+            &quot;name&quot;: &quot;Audio 1&quot;,
+            &quot;index&quot;: 0,
+            &quot;muted&quot;: false,
+            &quot;clipInventoryComplete&quot;: true,
+            &quot;clipCount&quot;: 1,
+            &quot;clips&quot;: [
+              {
+                &quot;sequenceName&quot;: &quot;F09 Actual Multichannel4&quot;,
+                &quot;trackIndex&quot;: 0,
+                &quot;occurrenceIndex&quot;: 0,
+                &quot;startTime&quot;: {
+                  &quot;ticks&quot;: &quot;0&quot;,
+                  &quot;seconds&quot;: 0
+                },
+                &quot;endTime&quot;: {
+                  &quot;ticks&quot;: &quot;752215464000&quot;,
+                  &quot;seconds&quot;: 2.961291666666667
+                },
+                &quot;name&quot;: &quot;ARID_20261018_four_channel.wav&quot;,
+                &quot;matchName&quot;: &quot;ARID_20261018_four_channel.wav&quot;,
+                &quot;disabled&quot;: false,
+                &quot;componentChain&quot;: {
+                  &quot;componentCount&quot;: 1,
+                  &quot;componentInventoryComplete&quot;: true,
+                  &quot;components&quot;: [
+                    {
+                      &quot;index&quot;: 0,
+                      &quot;displayName&quot;: &quot;Volume&quot;,
+                      &quot;matchName&quot;: &quot;Internal Volume Mono&quot;,
+                      &quot;paramCount&quot;: 2,
+                      &quot;paramInventoryComplete&quot;: true,
+                      &quot;params&quot;: [
+                        {
+                          &quot;index&quot;: 0,
+                          &quot;displayName&quot;: &quot;Mute&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: false
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 1,
+                          &quot;displayName&quot;: &quot;Level&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        }
+                      ],
+                      &quot;errors&quot;: []
+                    }
+                  ],
+                  &quot;errors&quot;: []
+                },
+                &quot;sourceProjectItem&quot;: {
+                  &quot;name&quot;: &quot;ARID_20261018_four_channel.wav&quot;,
+                  &quot;componentChain&quot;: {
+                    &quot;componentCount&quot;: 1,
+                    &quot;componentInventoryComplete&quot;: true,
+                    &quot;components&quot;: [
+                      {
+                        &quot;index&quot;: 0,
+                        &quot;displayName&quot;: &quot;Volume&quot;,
+                        &quot;matchName&quot;: &quot;Internal Volume Mono&quot;,
+                        &quot;paramCount&quot;: 2,
+                        &quot;paramInventoryComplete&quot;: true,
+                        &quot;params&quot;: [
+                          {
+                            &quot;index&quot;: 0,
+                            &quot;displayName&quot;: &quot;Mute&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: false
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 1,
+                            &quot;displayName&quot;: &quot;Level&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          }
+                        ],
+                        &quot;errors&quot;: []
+                      }
+                    ],
+                    &quot;errors&quot;: []
+                  },
+                  &quot;errors&quot;: []
+                },
+                &quot;errors&quot;: [],
+                &quot;sequenceGuid&quot;: &quot;9c2671d2-cc02-4005-988d-350951e9a7b2&quot;,
+                &quot;sequenceOccurrenceIndex&quot;: 2,
+                &quot;trackId&quot;: &quot;2&quot;
+              }
+            ],
+            &quot;errors&quot;: []
+          },
+          {
+            &quot;id&quot;: &quot;3&quot;,
+            &quot;name&quot;: &quot;Audio 2&quot;,
+            &quot;index&quot;: 1,
+            &quot;muted&quot;: false,
+            &quot;clipInventoryComplete&quot;: true,
+            &quot;clipCount&quot;: 1,
+            &quot;clips&quot;: [
+              {
+                &quot;sequenceName&quot;: &quot;F09 Actual Multichannel4&quot;,
+                &quot;trackIndex&quot;: 1,
+                &quot;occurrenceIndex&quot;: 0,
+                &quot;startTime&quot;: {
+                  &quot;ticks&quot;: &quot;0&quot;,
+                  &quot;seconds&quot;: 0
+                },
+                &quot;endTime&quot;: {
+                  &quot;ticks&quot;: &quot;752215464000&quot;,
+                  &quot;seconds&quot;: 2.961291666666667
+                },
+                &quot;name&quot;: &quot;ARID_20261018_four_channel.wav&quot;,
+                &quot;matchName&quot;: &quot;ARID_20261018_four_channel.wav&quot;,
+                &quot;disabled&quot;: false,
+                &quot;componentChain&quot;: {
+                  &quot;componentCount&quot;: 1,
+                  &quot;componentInventoryComplete&quot;: true,
+                  &quot;components&quot;: [
+                    {
+                      &quot;index&quot;: 0,
+                      &quot;displayName&quot;: &quot;Volume&quot;,
+                      &quot;matchName&quot;: &quot;Internal Volume Mono&quot;,
+                      &quot;paramCount&quot;: 2,
+                      &quot;paramInventoryComplete&quot;: true,
+                      &quot;params&quot;: [
+                        {
+                          &quot;index&quot;: 0,
+                          &quot;displayName&quot;: &quot;Mute&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: false
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 1,
+                          &quot;displayName&quot;: &quot;Level&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        }
+                      ],
+                      &quot;errors&quot;: []
+                    }
+                  ],
+                  &quot;errors&quot;: []
+                },
+                &quot;sourceProjectItem&quot;: {
+                  &quot;name&quot;: &quot;ARID_20261018_four_channel.wav&quot;,
+                  &quot;componentChain&quot;: {
+                    &quot;componentCount&quot;: 1,
+                    &quot;componentInventoryComplete&quot;: true,
+                    &quot;components&quot;: [
+                      {
+                        &quot;index&quot;: 0,
+                        &quot;displayName&quot;: &quot;Volume&quot;,
+                        &quot;matchName&quot;: &quot;Internal Volume Mono&quot;,
+                        &quot;paramCount&quot;: 2,
+                        &quot;paramInventoryComplete&quot;: true,
+                        &quot;params&quot;: [
+                          {
+                            &quot;index&quot;: 0,
+                            &quot;displayName&quot;: &quot;Mute&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: false
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 1,
+                            &quot;displayName&quot;: &quot;Level&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          }
+                        ],
+                        &quot;errors&quot;: []
+                      }
+                    ],
+                    &quot;errors&quot;: []
+                  },
+                  &quot;errors&quot;: []
+                },
+                &quot;errors&quot;: [],
+                &quot;sequenceGuid&quot;: &quot;9c2671d2-cc02-4005-988d-350951e9a7b2&quot;,
+                &quot;sequenceOccurrenceIndex&quot;: 2,
+                &quot;trackId&quot;: &quot;3&quot;
+              }
+            ],
+            &quot;errors&quot;: []
+          },
+          {
+            &quot;id&quot;: &quot;4&quot;,
+            &quot;name&quot;: &quot;Audio 3&quot;,
+            &quot;index&quot;: 2,
+            &quot;muted&quot;: false,
+            &quot;clipInventoryComplete&quot;: true,
+            &quot;clipCount&quot;: 1,
+            &quot;clips&quot;: [
+              {
+                &quot;sequenceName&quot;: &quot;F09 Actual Multichannel4&quot;,
+                &quot;trackIndex&quot;: 2,
+                &quot;occurrenceIndex&quot;: 0,
+                &quot;startTime&quot;: {
+                  &quot;ticks&quot;: &quot;0&quot;,
+                  &quot;seconds&quot;: 0
+                },
+                &quot;endTime&quot;: {
+                  &quot;ticks&quot;: &quot;752215464000&quot;,
+                  &quot;seconds&quot;: 2.961291666666667
+                },
+                &quot;name&quot;: &quot;ARID_20261018_four_channel.wav&quot;,
+                &quot;matchName&quot;: &quot;ARID_20261018_four_channel.wav&quot;,
+                &quot;disabled&quot;: false,
+                &quot;componentChain&quot;: {
+                  &quot;componentCount&quot;: 1,
+                  &quot;componentInventoryComplete&quot;: true,
+                  &quot;components&quot;: [
+                    {
+                      &quot;index&quot;: 0,
+                      &quot;displayName&quot;: &quot;Volume&quot;,
+                      &quot;matchName&quot;: &quot;Internal Volume Mono&quot;,
+                      &quot;paramCount&quot;: 2,
+                      &quot;paramInventoryComplete&quot;: true,
+                      &quot;params&quot;: [
+                        {
+                          &quot;index&quot;: 0,
+                          &quot;displayName&quot;: &quot;Mute&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: false
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 1,
+                          &quot;displayName&quot;: &quot;Level&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        }
+                      ],
+                      &quot;errors&quot;: []
+                    }
+                  ],
+                  &quot;errors&quot;: []
+                },
+                &quot;sourceProjectItem&quot;: {
+                  &quot;name&quot;: &quot;ARID_20261018_four_channel.wav&quot;,
+                  &quot;componentChain&quot;: {
+                    &quot;componentCount&quot;: 1,
+                    &quot;componentInventoryComplete&quot;: true,
+                    &quot;components&quot;: [
+                      {
+                        &quot;index&quot;: 0,
+                        &quot;displayName&quot;: &quot;Volume&quot;,
+                        &quot;matchName&quot;: &quot;Internal Volume Mono&quot;,
+                        &quot;paramCount&quot;: 2,
+                        &quot;paramInventoryComplete&quot;: true,
+                        &quot;params&quot;: [
+                          {
+                            &quot;index&quot;: 0,
+                            &quot;displayName&quot;: &quot;Mute&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: false
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 1,
+                            &quot;displayName&quot;: &quot;Level&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          }
+                        ],
+                        &quot;errors&quot;: []
+                      }
+                    ],
+                    &quot;errors&quot;: []
+                  },
+                  &quot;errors&quot;: []
+                },
+                &quot;errors&quot;: [],
+                &quot;sequenceGuid&quot;: &quot;9c2671d2-cc02-4005-988d-350951e9a7b2&quot;,
+                &quot;sequenceOccurrenceIndex&quot;: 2,
+                &quot;trackId&quot;: &quot;4&quot;
+              }
+            ],
+            &quot;errors&quot;: []
+          },
+          {
+            &quot;id&quot;: &quot;5&quot;,
+            &quot;name&quot;: &quot;Audio 4&quot;,
+            &quot;index&quot;: 3,
+            &quot;muted&quot;: false,
+            &quot;clipInventoryComplete&quot;: true,
+            &quot;clipCount&quot;: 1,
+            &quot;clips&quot;: [
+              {
+                &quot;sequenceName&quot;: &quot;F09 Actual Multichannel4&quot;,
+                &quot;trackIndex&quot;: 3,
+                &quot;occurrenceIndex&quot;: 0,
+                &quot;startTime&quot;: {
+                  &quot;ticks&quot;: &quot;0&quot;,
+                  &quot;seconds&quot;: 0
+                },
+                &quot;endTime&quot;: {
+                  &quot;ticks&quot;: &quot;752215464000&quot;,
+                  &quot;seconds&quot;: 2.961291666666667
+                },
+                &quot;name&quot;: &quot;ARID_20261018_four_channel.wav&quot;,
+                &quot;matchName&quot;: &quot;ARID_20261018_four_channel.wav&quot;,
+                &quot;disabled&quot;: false,
+                &quot;componentChain&quot;: {
+                  &quot;componentCount&quot;: 1,
+                  &quot;componentInventoryComplete&quot;: true,
+                  &quot;components&quot;: [
+                    {
+                      &quot;index&quot;: 0,
+                      &quot;displayName&quot;: &quot;Volume&quot;,
+                      &quot;matchName&quot;: &quot;Internal Volume Mono&quot;,
+                      &quot;paramCount&quot;: 2,
+                      &quot;paramInventoryComplete&quot;: true,
+                      &quot;params&quot;: [
+                        {
+                          &quot;index&quot;: 0,
+                          &quot;displayName&quot;: &quot;Mute&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: false
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        },
+                        {
+                          &quot;index&quot;: 1,
+                          &quot;displayName&quot;: &quot;Level&quot;,
+                          &quot;isTimeVarying&quot;: false,
+                          &quot;startValue&quot;: {
+                            &quot;value&quot;: {
+                              &quot;value&quot;: 0.17782793939113617
+                            },
+                            &quot;position&quot;: {
+                              &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                              &quot;seconds&quot;: -360000
+                            }
+                          },
+                          &quot;keyframeTimes&quot;: null,
+                          &quot;errors&quot;: []
+                        }
+                      ],
+                      &quot;errors&quot;: []
+                    }
+                  ],
+                  &quot;errors&quot;: []
+                },
+                &quot;sourceProjectItem&quot;: {
+                  &quot;name&quot;: &quot;ARID_20261018_four_channel.wav&quot;,
+                  &quot;componentChain&quot;: {
+                    &quot;componentCount&quot;: 1,
+                    &quot;componentInventoryComplete&quot;: true,
+                    &quot;components&quot;: [
+                      {
+                        &quot;index&quot;: 0,
+                        &quot;displayName&quot;: &quot;Volume&quot;,
+                        &quot;matchName&quot;: &quot;Internal Volume Mono&quot;,
+                        &quot;paramCount&quot;: 2,
+                        &quot;paramInventoryComplete&quot;: true,
+                        &quot;params&quot;: [
+                          {
+                            &quot;index&quot;: 0,
+                            &quot;displayName&quot;: &quot;Mute&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: false
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          },
+                          {
+                            &quot;index&quot;: 1,
+                            &quot;displayName&quot;: &quot;Level&quot;,
+                            &quot;isTimeVarying&quot;: false,
+                            &quot;startValue&quot;: {
+                              &quot;value&quot;: {
+                                &quot;value&quot;: 0.17782793939113617
+                              },
+                              &quot;position&quot;: {
+                                &quot;ticks&quot;: &quot;-91445760000000000&quot;,
+                                &quot;seconds&quot;: -360000
+                              }
+                            },
+                            &quot;keyframeTimes&quot;: null,
+                            &quot;errors&quot;: []
+                          }
+                        ],
+                        &quot;errors&quot;: []
+                      }
+                    ],
+                    &quot;errors&quot;: []
+                  },
+                  &quot;errors&quot;: []
+                },
+                &quot;errors&quot;: [],
+                &quot;sequenceGuid&quot;: &quot;9c2671d2-cc02-4005-988d-350951e9a7b2&quot;,
+                &quot;sequenceOccurrenceIndex&quot;: 2,
+                &quot;trackId&quot;: &quot;5&quot;
+              }
+            ],
+            &quot;errors&quot;: []
+          }
+        ],
+        &quot;errors&quot;: []
+      },
+      {
+        &quot;name&quot;: &quot;F08_Mono&quot;,
+        &quot;guid&quot;: &quot;ca7fe906-c517-4456-a63a-7ce5c3042092&quot;,
+        &quot;occurrenceIndex&quot;: 3,
+        &quot;trackInventoryComplete&quot;: true,
+        &quot;audioTrackCount&quot;: 4,
+        &quot;settings&quot;: {
+          &quot;audioChannelCount&quot;: 2,
+          &quot;audioChannelType&quot;: 1,
+          &quot;audioSampleRate&quot;: {
+            &quot;value&quot;: 48000,
+            &quot;ticksPerFrame&quot;: 5292000
+          }
+        },
+        &quot;audioTracks&quot;: [
+          {
+            &quot;id&quot;: &quot;2&quot;,
+            &quot;name&quot;: &quot;Audio 1&quot;,
+            &quot;index&quot;: 0,
+            &quot;muted&quot;: false,
+            &quot;clipInventoryComplete&quot;: true,
+            &quot;clipCount&quot;: 0,
+            &quot;clips&quot;: [],
+            &quot;errors&quot;: []
+          },
+          {
+            &quot;id&quot;: &quot;3&quot;,
+            &quot;name&quot;: &quot;Audio 2&quot;,
+            &quot;index&quot;: 1,
+            &quot;muted&quot;: false,
+            &quot;clipInventoryComplete&quot;: true,
+            &quot;clipCount&quot;: 0,
+            &quot;clips&quot;: [],
+            &quot;errors&quot;: []
+          },
+          {
+            &quot;id&quot;: &quot;4&quot;,
+            &quot;name&quot;: &quot;Audio 3&quot;,
+            &quot;index&quot;: 2,
+            &quot;muted&quot;: false,
+            &quot;clipInventoryComplete&quot;: true,
+            &quot;clipCount&quot;: 0,
+            &quot;clips&quot;: [],
+            &quot;errors&quot;: []
+          },
+          {
+            &quot;id&quot;: &quot;5&quot;,
+            &quot;name&quot;: &quot;Audio 4&quot;,
+            &quot;index&quot;: 3,
+            &quot;muted&quot;: false,
+            &quot;clipInventoryComplete&quot;: true,
+            &quot;clipCount&quot;: 0,
+            &quot;clips&quot;: [],
+            &quot;errors&quot;: []
+          }
+        ],
+        &quot;errors&quot;: []
+      }
+    ],
+    &quot;unknowns&quot;: [
+      &quot;Final Audio Track Mixer output-bus routing topology is not established by this probe.&quot;,
+      &quot;Modify &gt; Audio Channels source-channel mapping is not established by this probe.&quot;,
+      &quot;End-to-end playback/export correctness is not established by DOM observation alone.&quot;
+    ],
+    &quot;errors&quot;: []
+  },
+  &quot;diagnostics&quot;: {
+    &quot;schemaVersion&quot;: &quot;0.3.0&quot;,
+    &quot;completion&quot;: &quot;completed&quot;,
+    &quot;status&quot;: &quot;COMPLETE&quot;,
+    &quot;coverage&quot;: {
+      &quot;state&quot;: &quot;COMPLETE&quot;,
+      &quot;project&quot;: {
+        &quot;status&quot;: &quot;COMPLETE&quot;,
+        &quot;expected&quot;: 1,
+        &quot;observed&quot;: 1,
+        &quot;known&quot;: 1,
+        &quot;unknown&quot;: 0
+      },
+      &quot;sequences&quot;: {
+        &quot;status&quot;: &quot;COMPLETE&quot;,
+        &quot;expected&quot;: 4,
+        &quot;observed&quot;: 4,
+        &quot;known&quot;: 4,
+        &quot;unknown&quot;: 0
+      },
+      &quot;tracks&quot;: {
+        &quot;status&quot;: &quot;COMPLETE&quot;,
+        &quot;expected&quot;: 15,
+        &quot;observed&quot;: 15,
+        &quot;known&quot;: 15,
+        &quot;unknown&quot;: 0
+      },
+      &quot;clips&quot;: {
+        &quot;status&quot;: &quot;COMPLETE&quot;,
+        &quot;expected&quot;: 7,
+        &quot;observed&quot;: 7,
+        &quot;known&quot;: 7,
+        &quot;unknown&quot;: 0
+      },
+      &quot;components&quot;: {
+        &quot;status&quot;: &quot;COMPLETE&quot;,
+        &quot;expected&quot;: 18,
+        &quot;observed&quot;: 18,
+        &quot;known&quot;: 18,
+        &quot;unknown&quot;: 0
+      },
+      &quot;failedReads&quot;: 0,
+      &quot;capabilities&quot;: {
+        &quot;sourceChannelMapping&quot;: &quot;UNKNOWN&quot;,
+        &quot;outputBusTopology&quot;: &quot;UNKNOWN&quot;,
+        &quot;playbackExportCorrectness&quot;: &quot;UNKNOWN&quot;
+      }
+    },
+    &quot;risk&quot;: [],
+    &quot;information&quot;: [
+      {
+        &quot;ruleId&quot;: &quot;ARID-I01&quot;,
+        &quot;severity&quot;: &quot;Information&quot;,
+        &quot;confidence&quot;: &quot;DIRECT_OBSERVATION&quot;,
+        &quot;location&quot;: {
+          &quot;sequence&quot;: &quot;stereo-l440-r880&quot;,
+          &quot;sequenceGuid&quot;: &quot;06a6a407-a666-40bd-b196-ebd09a74fc7f&quot;,
+          &quot;sequenceOccurrenceIndex&quot;: 0,
+          &quot;track&quot;: null,
+          &quot;trackId&quot;: null,
+          &quot;trackIndex&quot;: null,
+          &quot;clip&quot;: null,
+          &quot;clipOccurrenceIndex&quot;: null,
+          &quot;startTime&quot;: null,
+          &quot;endTime&quot;: null
+        },
+        &quot;observed&quot;: &quot;Sequence audio channel type=Stereo, count=2.&quot;,
+        &quot;why&quot;: &quot;Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.&quot;,
+        &quot;remediation&quot;: &quot;Compare against delivery requirements and source expectations.&quot;
+      },
+      {
+        &quot;ruleId&quot;: &quot;ARID-I01&quot;,
+        &quot;severity&quot;: &quot;Information&quot;,
+        &quot;confidence&quot;: &quot;DIRECT_OBSERVATION&quot;,
+        &quot;location&quot;: {
+          &quot;sequence&quot;: &quot;F08 Actual Mono1&quot;,
+          &quot;sequenceGuid&quot;: &quot;0bafa115-0b9a-40b8-a5b4-931ca848ed8c&quot;,
+          &quot;sequenceOccurrenceIndex&quot;: 1,
+          &quot;track&quot;: null,
+          &quot;trackId&quot;: null,
+          &quot;trackIndex&quot;: null,
+          &quot;clip&quot;: null,
+          &quot;clipOccurrenceIndex&quot;: null,
+          &quot;startTime&quot;: null,
+          &quot;endTime&quot;: null
+        },
+        &quot;observed&quot;: &quot;Sequence audio channel type=Mono, count=1.&quot;,
+        &quot;why&quot;: &quot;Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.&quot;,
+        &quot;remediation&quot;: &quot;Compare against delivery requirements and source expectations.&quot;
+      },
+      {
+        &quot;ruleId&quot;: &quot;ARID-I01&quot;,
+        &quot;severity&quot;: &quot;Information&quot;,
+        &quot;confidence&quot;: &quot;DIRECT_OBSERVATION&quot;,
+        &quot;location&quot;: {
+          &quot;sequence&quot;: &quot;F09 Actual Multichannel4&quot;,
+          &quot;sequenceGuid&quot;: &quot;9c2671d2-cc02-4005-988d-350951e9a7b2&quot;,
+          &quot;sequenceOccurrenceIndex&quot;: 2,
+          &quot;track&quot;: null,
+          &quot;trackId&quot;: null,
+          &quot;trackIndex&quot;: null,
+          &quot;clip&quot;: null,
+          &quot;clipOccurrenceIndex&quot;: null,
+          &quot;startTime&quot;: null,
+          &quot;endTime&quot;: null
+        },
+        &quot;observed&quot;: &quot;Sequence audio channel type=Multichannel, count=4.&quot;,
+        &quot;why&quot;: &quot;Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.&quot;,
+        &quot;remediation&quot;: &quot;Compare against delivery requirements and source expectations.&quot;
+      },
+      {
+        &quot;ruleId&quot;: &quot;ARID-I01&quot;,
+        &quot;severity&quot;: &quot;Information&quot;,
+        &quot;confidence&quot;: &quot;DIRECT_OBSERVATION&quot;,
+        &quot;location&quot;: {
+          &quot;sequence&quot;: &quot;F08_Mono&quot;,
+          &quot;sequenceGuid&quot;: &quot;ca7fe906-c517-4456-a63a-7ce5c3042092&quot;,
+          &quot;sequenceOccurrenceIndex&quot;: 3,
+          &quot;track&quot;: null,
+          &quot;trackId&quot;: null,
+          &quot;trackIndex&quot;: null,
+          &quot;clip&quot;: null,
+          &quot;clipOccurrenceIndex&quot;: null,
+          &quot;startTime&quot;: null,
+          &quot;endTime&quot;: null
+        },
+        &quot;observed&quot;: &quot;Sequence audio channel type=Stereo, count=2.&quot;,
+        &quot;why&quot;: &quot;Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.&quot;,
+        &quot;remediation&quot;: &quot;Compare against delivery requirements and source expectations.&quot;
+      }
+    ],
+    &quot;unknown&quot;: [
+      {
+        &quot;ruleId&quot;: &quot;ARID-U01&quot;,
+        &quot;severity&quot;: &quot;Unknown&quot;,
+        &quot;confidence&quot;: &quot;UNKNOWN_CANNOT_VERIFY&quot;,
+        &quot;location&quot;: {
+          &quot;project&quot;: &quot;Positive_Signal_Test.prproj&quot;
+        },
+        &quot;observed&quot;: &quot;Final Audio Track Mixer output-bus routing topology is not established by this probe.&quot;,
+        &quot;why&quot;: &quot;The current public-observable probe does not establish this state.&quot;,
+        &quot;remediation&quot;: &quot;Verify manually in Premiere until a supported public API is proven in host testing.&quot;
+      },
+      {
+        &quot;ruleId&quot;: &quot;ARID-U02&quot;,
+        &quot;severity&quot;: &quot;Unknown&quot;,
+        &quot;confidence&quot;: &quot;UNKNOWN_CANNOT_VERIFY&quot;,
+        &quot;location&quot;: {
+          &quot;project&quot;: &quot;Positive_Signal_Test.prproj&quot;
+        },
+        &quot;observed&quot;: &quot;Modify &gt; Audio Channels source-channel mapping is not established by this probe.&quot;,
+        &quot;why&quot;: &quot;The current public-observable probe does not establish this state.&quot;,
+        &quot;remediation&quot;: &quot;Verify manually in Premiere until a supported public API is proven in host testing.&quot;
+      },
+      {
+        &quot;ruleId&quot;: &quot;ARID-U03&quot;,
+        &quot;severity&quot;: &quot;Unknown&quot;,
+        &quot;confidence&quot;: &quot;UNKNOWN_CANNOT_VERIFY&quot;,
+        &quot;location&quot;: {
+          &quot;project&quot;: &quot;Positive_Signal_Test.prproj&quot;
+        },
+        &quot;observed&quot;: &quot;End-to-end playback/export correctness is not established by DOM observation alone.&quot;,
+        &quot;why&quot;: &quot;The current public-observable probe does not establish this state.&quot;,
+        &quot;remediation&quot;: &quot;Verify manually in Premiere until a supported public API is proven in host testing.&quot;
+      }
+    ]
+  },
+  &quot;annotations&quot;: {}
+}</pre></body></html>

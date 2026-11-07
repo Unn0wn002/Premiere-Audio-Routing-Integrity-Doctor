@@ -1,0 +1,162 @@
+Window: "audio-preflight-0.2.1-037571056922 - File Explorer", App: explorer.exe.
+	0 window audio-preflight-0.2.1-037571056922 - File Explorer Secondary Actions: Raise
+		1 pane
+		2 pane audio-preflight-0.2.1-037571056922
+			3 pane
+				4 pane Details Pane
+					5 pane
+						6 pane
+							7 group audio-preflight-0.2.1-037571056922 (4 items) ID: DetailsViewControlRootGrid
+								8 pane
+									9 image Thumbnail for current selection ID: Icon
+									10 text audio-preflight-0.2.1-037571056922 (4 items)
+									11 text Select a single file to get more information and share your cloud content.
+				12 status bar Status bar ID: StatusBarModuleInner
+					13 group Property Field ID: System.StatusBarViewItemCount
+						14 text 4 items Description: Total item count ID: PropertyValue
+					15 group View Modes ID: ViewButtonsGroup
+						16 radio button (selectable) Details Description: Displays information about each item in the window. (Ctrl+Shift+6) ID: ViewMode_Details
+						17 radio button (selectable) Large Icons Description: Displays items by using large thumbnails. (Ctrl+Shift+2) ID: ViewMode_LargeIcons
+				18 pane Control Host ID: ProperTreeHost
+					19 tree Navigation Pane ID: 100
+						20 scroll bar (settable, float) Vertical Value: 87 ID: NonClientVerticalScrollBar
+							21 button Line up ID: UpButton
+							22 button Page up ID: UpPageButton
+							23 thumb Position ID: ScrollbarThumb
+							24 button Page down ID: DownPageButton
+							25 button Line down ID: DownButton
+						26 tree item (selectable, settable, string) Desktop (OneDrive) Value: Desktop (OneDrive)
+							27 tree item (selectable, settable, string) Home Value: Home
+							28 tree item (selectable, settable, string) Gallery Value: Gallery
+							29 tree item (selectable, settable, string) Unn0wn - Personal (OneDrive) Value: Unn0wn - Personal (OneDrive)
+								30 tree item (selectable, settable, string) AppData (OneDrive) Value: AppData (OneDrive)
+								31 tree item (selectable, settable, string) Attachments (OneDrive) Value: Attachments (OneDrive)
+								32 tree item (selectable, settable, string) Creative Cloud Files (OneDrive) Value: Creative Cloud Files (OneDrive)
+								33 tree item (selectable, settable, string) Desktop (OneDrive) Value: Desktop (OneDrive)
+								34 tree item (selectable, settable, string) Documents (OneDrive) Value: Documents (OneDrive)
+								35 tree item (selectable, settable, string) Microsoft Copilot Chat Files (OneDrive) Value: Microsoft Copilot Chat Files (OneDrive)
+								36 tree item (selectable, settable, string) Pictures (OneDrive) Value: Pictures (OneDrive)
+							37 tree item (selectable, settable, string) Start of Quick Access - Desktop (pinned) Value: Start of Quick Access - Desktop (pinned)
+							38 tree item (selectable, settable, string) Downloads (pinned) Value: Downloads (pinned)
+							39 tree item (selectable, settable, string) Documents (pinned) Value: Documents (pinned)
+							40 tree item (selectable, settable, string) Pictures (pinned) Value: Pictures (pinned)
+							41 tree item (selectable, settable, string) Music (pinned) Value: Music (pinned)
+							42 tree item (selectable, settable, string) Videos (pinned) Value: Videos (pinned)
+							43 tree item (selectable, settable, string) Multimedia Value: Multimedia
+							44 tree item (selectable, settable, string) Kuliah Value: Kuliah
+							45 tree item (selectable, settable, string) UTS_KYOZORA_Paket_FINAL_13_Oktober_2026 Value: UTS_KYOZORA_Paket_FINAL_13_Oktober_2026
+							46 tree item (selectable, settable, string) End of Quick Access - Get Familiar Value: End of Quick Access - Get Familiar
+							47 tree item (selectable, settable, string) This PC Value: This PC
+							48 tree item (selectable, settable, string) Network Value: Network
+				49 pane Shell Folder View ID: listview
+					50 list Items View
+						51 scroll bar (settable, float) Horizontal Value: 0 ID: HorizontalScrollBar
+							52 button Column left ID: UpButton
+							53 thumb Position ID: ScrollbarThumb
+							54 button Page right ID: DownPageButton
+							55 button Column right ID: DownButton
+						56 header Header
+							57 split button Name ID: System.ItemNameDisplay
+								58 button Filter dropdown ID: DropDown
+							59 split button Date modified ID: System.DateModified
+								60 button Filter dropdown ID: DropDown
+							61 split button Type ID: System.ItemTypeText
+								62 button Filter dropdown ID: DropDown
+							63 split button Size ID: System.Size
+								64 button Filter dropdown ID: DropDown
+						65 group Earlier this week ID: 0
+							66 Group Header Earlier this week ID: UIGroupHeader
+								67 button Collapse Group ID: UIGroupButton
+								68 edit Name Value: Earlier this week ID: System.ItemNameDisplay
+							69 list item (selectable, settable, string) index Value: index ID: 0
+								70 edit (settable, string) Name Value: index ID: System.ItemNameDisplay
+								71 edit Date modified Value: ‎10/‎28/‎2026 ‏‎10:02 PM ID: System.DateModified
+								72 edit Type Value: Microsoft Edge HTML Document ID: System.ItemTypeText
+								73 edit Size Value: 4 KB ID: System.Size
+							74 list item (selectable, settable, string) index.js Value: index.js ID: 1
+								75 edit (settable, string) Name Value: index.js ID: System.ItemNameDisplay
+								76 edit Date modified Value: ‎10/‎28/‎2026 ‏‎10:02 PM ID: System.DateModified
+								77 edit Type Value: JSFile ID: System.ItemTypeText
+								78 edit Size Value: 8 KB ID: System.Size
+							79 list item (selectable, settable, string) manifest Value: manifest ID: 2
+								80 edit (settable, string) Name Value: manifest ID: System.ItemNameDisplay
+								81 edit Date modified Value: ‎10/‎28/‎2026 ‏‎10:02 PM ID: System.DateModified
+								82 edit Type Value: JSON Source File ID: System.ItemTypeText
+								83 edit Size Value: 1 KB ID: System.Size
+							84 list item (selectable, settable, string) src Value: src ID: 3
+								85 edit (settable, string) Name Value: src ID: System.ItemNameDisplay
+								86 edit Date modified Value: ‎10/‎28/‎2026 ‏‎10:02 PM ID: System.DateModified
+								87 edit Type Value: File folder ID: System.ItemTypeText
+								88 edit Size ID: System.Size
+		89 pane
+			90 pane
+				91 tab ID: TabView
+					92 list ID: TabListView
+						93 tab item (selectable) audio-preflight-0.2.1-037571056922
+							94 image
+							95 text audio-preflight-0.2.1-037571056922
+							96 button Close Tab ID: CloseButton
+					97 button Add New Tab ID: AddButton
+				98 app bar ID: NavigationCommands
+					99 app bar button (disabled) Back Description: Back ID: backButton
+					100 app bar button (disabled) Forward Description: Forward ID: forwardButton
+					101 app bar button Up to "artifacts" (Alt + Up Arrow) Description: Up to "artifacts" (Alt + Up Arrow) ID: upButton
+					102 app bar button Refresh "audio-preflight-0.2.1-037571056922" (F5) Description: Refresh "audio-preflight-0.2.1-037571056922" (F5) ID: refreshButton
+				103 group ID: PART_AutoSuggestBox
+					104 edit (settable, string) Address Bar ID: TextBox
+				105 split button This PC ID: FirstCrumbStackPanel
+					106 image
+				107 group ID: PART_BreadcrumbBar
+					108 split button More
+					109 split button This PC
+						110 text This PC
+					111 split button Local Disk (C:)
+						112 text Local Disk (C:)
+					113 split button Users
+						114 text Users
+					115 split button unn0w
+						116 text unn0w
+					117 split button Downloads
+						118 text Downloads
+					119 split button 02_Projects
+						120 text 02_Projects
+					121 split button Premiere-Audio-Routing-Integrity-Doctor
+						122 text Premiere-Audio-Routing-Integrity-Doctor
+					123 split button artifacts
+						124 text artifacts
+					125 split button audio-preflight-0.2.1-037571056922
+						126 text audio-preflight-0.2.1-037571056922
+				127 group ID: FileExplorerSearchBox
+					128 edit (settable, string) Search audio-preflight-0.2.1-037571056922 ID: TextBox
+						129 text Search audio-preflight-0.2.1-037571056922
+				130 app bar ID: FileExplorerCommandBar
+					131 app bar button New
+						132 image
+					133 app bar button (disabled) Cut Description: Move the selected items to the Clipboard.
+						134 image
+					135 app bar button (disabled) Copy Description: Copy the selected items to the Clipboard.
+						136 image
+					137 app bar button (disabled) Paste Description: Paste the contents of the Clipboard to the current location.
+						138 image
+					139 app bar button (disabled) Rename Description: Rename the selected item.
+						140 image
+					141 app bar button (disabled) Share Description: Choose an app to share the selected files.
+						142 image
+					143 app bar button (disabled) Delete Description: Move the selected items to the Recycle Bin or permanently delete them.
+						144 image
+					145 app bar button Sort ID: SortAndGroupButton
+						146 image
+					147 app bar button View
+						148 image
+					149 button More options ID: MoreButton
+				150 app bar ID: FileExplorerSecondaryCommandBar
+					151 app bar button Details Description: Show or hide the details pane. ID: DetailsPaneToggleButton
+						152 image
+		153 title bar (settable, string) Value: audio-preflight-0.2.1-037571056922 - File Explorer
+			154 menu bar System ID: MenuBar
+				155 menu item System
+			156 button Minimize
+			157 button Maximize
+			158 button Close
+
+The focused UI element is 104 edit (settable, string) Address Bar ID: TextBox.

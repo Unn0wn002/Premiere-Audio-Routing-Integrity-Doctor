@@ -1,0 +1,48 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+*.ccx
+*.zip
+qa_render/
+artifacts/
+
+# --- Local debug material: never commit (added 2026-11-01) ---------------------------------------------
+# Crash dumps (can contain process memory), performance traces, debugger installers, symbol caches.
+*.dmp
+*.mdmp
+*.etl
+*.msix
+*.pdb
+reports/panel-layout-20261027/debugger-tools/
+reports/panel-layout-20261027/performance-analysis-tools/
+reports/panel-layout-20261027/accessibility-trace-*/
+reports/panel-layout-20261027/hang-capture-*/
+
+# Agent tool state (not project content; skills-lock.json holds a local path)
+.agents/
+.claude/
+skills-lock.json
+
+# Premiere's own auto-save backups of test projects (not evidence; some paths exceed the Windows limit)
+**/Adobe Premiere Pro Auto-Save/
+
+# Huge local evidence files (10 MB or more each). They stay on disk; keep them in your own backup.
+# The size guard in tests/repo-hygiene.test.js fails if any tracked file reaches 2 MB.
+reports/lifecycle-qualification-20261029/run-20261031-0828-linear-fixture/media/audio-preflight-2026-10-31T03-08-24-777Z.json
+reports/lifecycle-qualification-20261029/run-20261031-0828-linear-fixture/media/audio-preflight-2026-10-31T03-20-31-529Z.json
+reports/lifecycle-qualification-20261029/run-20261031-0828-linear-fixture/media/audio-preflight-2026-10-31T03-21-39-589Z.json
+reports/lifecycle-qualification-20261029/run-20261031-1006-inflight/cancelled.json
+reports/lifecycle-qualification-20261029/run-20261031-1006-inflight/complete-before-cancel.json
+reports/lifecycle-qualification-20261029/run-20261031-1006-inflight/retry-complete.json
+reports/lifecycle-qualification-20261029/run-20261031-1029-write-failure/audio-preflight-2026-10-31T03-21-39-589Z.json
+reports/lifecycle-qualification-20261029/run-20261031-1029-write-failure/post-trace-recovery.json
+reports/panel-layout-20261027/large-inventory-native.json
+reports/panel-layout-20261027/large-isolation-native.json
+reports/panel-layout-20261027/large-panel-recheck-native.json
+reports/panel-layout-20261027/pagination-export.html
+reports/panel-layout-20261027/pagination-export.json
+reports/panel-layout-20261027/pagination-native-results.json
+
+# Disposable projects and generated test files for native runs (owner rule, 02_Projects/CLAUDE.md)
+_qa_scratch/

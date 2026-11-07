@@ -1,0 +1,31 @@
+{
+  "recordType": "normal-ccx-installation-attempt",
+  "recordedAt": "2026-10-19 02:21:25 UTC",
+  "observedAt": "2026-10-19T02:18:35.393Z",
+  "branch": "codex/validated-beta-20261017",
+  "checkpoint": "d1b2b091e28d76af60e33c99261d01108e2000db",
+  "package": "artifacts/ccx-0.2.1-7b544bd27f3b/com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+  "packageBytes": 14797,
+  "packageSha256": "8c3c27a8dc281db5e3f4fe0555dd7455a77e7860c5e63036b728b1596f8209e2",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "profile": {
+    "context": "Existing Windows UDT development profile",
+    "cleanTestProfileEstablished": false
+  },
+  "normalFlow": "File Explorer double-click of the exact verified current CCX",
+  "observedBoundary": {
+    "type": "Windows User Account Control",
+    "app": "Adobe Creative Cloud",
+    "verifiedPublisher": "Adobe Inc.",
+    "fileOrigin": "Hard drive",
+    "securityConsentInputSent": false,
+    "screenshot": "creative-cloud-ccx-uac-blocker.png"
+  },
+  "result": "BLOCKED_INSTALLATION",
+  "interpretation": "Unresolved system consent, not an observed package rejection or reproduced runtime defect",
+  "installedIdentityEstablished": false,
+  "newLifecycleChecksExecuted": false,
+  "automationConstraint": "Computer Use guidance: Do not act on security or privacy permission requests.",
+  "operatorHandoff": "../../docs/SUBMISSION_OPERATOR_HANDOFF.md",
+  "independentReview": "CLOSEOUT_REVIEW.md"
+}

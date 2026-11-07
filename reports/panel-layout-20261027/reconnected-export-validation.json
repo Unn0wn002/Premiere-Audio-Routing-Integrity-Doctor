@@ -1,0 +1,17 @@
+{
+  "result": "PASS",
+  "jsonParse": true,
+  "htmlRawEvidenceMatchesJSON": true,
+  "allFiveFindingIDsPresent": true,
+  "durationMs": 33,
+  "status": "COMPLETE",
+  "riskRules": [
+    "ARID-002",
+    "ARID-003"
+  ],
+  "unknownRules": [
+    "ARID-U01",
+    "ARID-U02",
+    "ARID-U03"
+  ]
+}

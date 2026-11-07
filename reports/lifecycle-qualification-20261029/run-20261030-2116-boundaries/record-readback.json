@@ -1,0 +1,46 @@
+{
+  "verifiedAt": "2026-10-30T15:12:04.804523+00:00",
+  "status": "PASS_CURRENT_RECORD_LINK_AND_LEDGER_READBACK",
+  "scopeStatus": "PROJECT_BOUNDARY_DEVELOPER_CHECKS_COMPLETE_BOUNDED",
+  "counts": {
+    "passBoundedNative": 8,
+    "notRun": 10,
+    "total": 18
+  },
+  "nativeCaseScansThisRun": 4,
+  "cumulativeLifecycleScans": 6,
+  "desktopInspectionDuringLoading": false,
+  "sourceRuntimeChanged": false,
+  "readyResponseStillRequired": false,
+  "emptySavedBaselineUnchanged": true,
+  "workingCopyPostSaveBaselineUnchanged": true,
+  "sharedHandoffSha256": "3715cb066948135b5e86ed6f4017d6cf0d52d31bb3af62b638c4c5858fb26d56",
+  "documentationFiles": [
+    {
+      "file": "README.md",
+      "sha256": "5eb041764fa4ea897f23462bae3b8ab7f60947cb5256904aa9494febf1e34c8b"
+    },
+    {
+      "file": "docs/PROJECT_STATUS.md",
+      "sha256": "ec72034914888111cd726c740a8c14ce96a7b30d58dd8af1e52b381bae2d8516"
+    },
+    {
+      "file": "docs/LIFECYCLE_QUALIFICATION_PLAN_20261029.md",
+      "sha256": "818fb8c69a1a44feb4c919abbeceb822dfb8b0b88bba94239f5db6c4ce4e76e4"
+    },
+    {
+      "file": "docs/BETA_RELEASE_CHECKLIST.md",
+      "sha256": "bf493afc7fb08305cb4df7bb3dfca0c1460ab52ec80ab4313abe0f9778015029"
+    },
+    {
+      "file": "docs/SUBMISSION_OPERATOR_HANDOFF.md",
+      "sha256": "1f5b41ca7745fa6dffd3ec3f9863e1f3186931b118e17490fbce794897ee824c"
+    },
+    {
+      "file": "reports/panel-layout-20261029/CONTINUATION.md",
+      "sha256": "44937d632afe5af93ae4ceac86baa07895a15a41180d42106af66619a5a0bf00"
+    }
+  ],
+  "executionLedgerSha256": "0ca4b921dd94ccdbb8214770cdf274eb1d48c2171cb3cf0fccce707bc9f6c0e0",
+  "nativeArtifactVerificationSha256": "6aac55d61e54fc84a9459a68350674ad3bfb98fb5589ab1ed2820c39ab64ff5a"
+}

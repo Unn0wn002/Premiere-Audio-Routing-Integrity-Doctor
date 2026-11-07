@@ -1,0 +1,91 @@
+[
+  {
+    "event": "PRECHECK",
+    "branch": "codex/validated-beta-20261017",
+    "head": "9330e242eadcd10623300ca39d01753355aefc7a",
+    "sourceStageRuntimeUnchanged": true,
+    "premiereAndUDTInitiallyOpen": false
+  },
+  {
+    "event": "PREMIERE_NORMAL_LAUNCH",
+    "homeObserved": true,
+    "noProjectOpened": true,
+    "evidence": "premiere-home.jpg",
+    "aeLaunched": false,
+    "udtLaunched": false
+  },
+  {
+    "event": "NEW_LINEAR_PROJECT_REQUESTED",
+    "name": "Linear_Audio_20261031.prproj",
+    "destination": "working/Linear_Audio_20261031.prproj",
+    "template": "None",
+    "skipImportMode": true,
+    "nameAndPathEnteredInObservedFocusedFormFields": true,
+    "createRequestedOnce": true,
+    "desktopInspectionIdleDuringLoading": true,
+    "operatorSettledConfirmation": "REQUESTED_PENDING",
+    "evidence": "new-project-form.jpg"
+  },
+  {
+    "event": "SAVED_EMPTY_STRUCTURE_READBACK",
+    "evidenceClass": "FILESYSTEM_ONLY_NOT_NATIVE_SETTLED_PROOF",
+    "sequences": 0,
+    "audioTracks": 0,
+    "audioClipOccurrences": 0,
+    "evidence": "stage-empty-created-structure.json"
+  },
+  {
+    "event": "EMPTY_PROJECT_SETTLED",
+    "operatorStatement": "ready",
+    "operatorClass": "USER_STATED",
+    "independentUIObserved": true,
+    "evidence": "empty-project-settled.jpg"
+  },
+  {
+    "event": "NEW_WAV_IMPORT_AND_SEQUENCE",
+    "nativeActions": "Ctrl+I; focused native filename; Open; drag imported WAV into empty timeline; Ctrl+S",
+    "sequenceCount": 1,
+    "audioTracks": 3,
+    "populatedTracks": 1,
+    "clipOccurrences": 1,
+    "nativeStructure": "stage-0001-structure.json",
+    "sourcePathsOnlyNewWav": true,
+    "evidence": [
+      "media-imported.jpg",
+      "stage-0001-native.jpg"
+    ]
+  },
+  {
+    "event": "FIRST_DUPLICATION_CHECK",
+    "nativeActions": "Timeline Ctrl+A/C, End, Ctrl+V, Ctrl+S",
+    "savedClipCount": 2,
+    "savedContinuityCheck": "FAIL",
+    "gapTicks": 254016000,
+    "originalClipLengthTicks": 254016000000,
+    "pastedClipLengthTicks": 254270016000,
+    "growthStopped": true,
+    "evidence": [
+      "two-clip-gap-diagnostic.json",
+      "baseline/two-clip-gap-diagnostic.prproj",
+      "two-clip-gap-native.jpg"
+    ],
+    "pluginDefect": false
+  },
+  {
+    "event": "TIMEBASE_CORRECTION_PENDING",
+    "undoOwnLastPaste": true,
+    "inMemoryClipCountVisible": 1,
+    "nativeSequenceTimebaseObserved": "29.97 frames/second",
+    "nativeAudioObserved": "Stereo 2 channels, 48000 Hz",
+    "attemptedPopupSelection": "30.00 frames/second",
+    "actualReadback": "29.97 frames/second",
+    "inputStopped": true,
+    "operatorRequested": "Select 30.00 fps, leave audio unchanged, OK, reply 30 selected",
+    "onDiskProjectStillTwoClipDiagnostic": true,
+    "unsavedDisposableSetupWork": true,
+    "evidence": [
+      "sequence-settings-2997-before-correction.jpg",
+      "sequence-timebase-popup-selection-not-applied.jpg"
+    ]
+  }
+]

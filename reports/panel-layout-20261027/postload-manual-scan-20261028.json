@@ -1,0 +1,105 @@
+{
+  "recordedAt": "2026-10-28T13:38:47.587Z",
+  "status": "VERIFIED_THIS_SESSION_SCREENSHOT_CONTENT; BOUNDED_MANUAL_SCAN_COMPLETE",
+  "provenance": "User-supplied native screenshot after request for one manual scan; execution was not observed live by the assistant",
+  "screenshot": {
+    "file": "postload-manual-scan-20261028.png",
+    "sha256": "2122d9ab929b7550f00cb435a18c27fd06f171dd8497744c625bc44720de3866"
+  },
+  "displayedResult": {
+    "project": "Positive_Signal_Test.prproj",
+    "diagnosticStatus": "COMPLETE",
+    "reportedDurationMs": 37,
+    "reviewFindings": 0,
+    "unknowns": 3,
+    "coverage": {
+      "sequences": {
+        "known": 4,
+        "total": 4
+      },
+      "tracks": {
+        "known": 15,
+        "total": 15
+      },
+      "clips": {
+        "known": 7,
+        "total": 7
+      },
+      "components": {
+        "known": 18,
+        "total": 18
+      }
+    },
+    "capabilityUnknowns": [
+      "Source-channel mapping",
+      "Output buses",
+      "Playback/export correctness"
+    ],
+    "host": "premierepro 26.5.2",
+    "uxp": "uxp-9.3.0-local",
+    "pluginVersion": "0.2.1",
+    "locale": "en_US",
+    "panelConfiguration": "Visible docked left panel",
+    "findingRange": "1-7 of 7; page 1 of 1"
+  },
+  "fixture": {
+    "sha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+    "matchesPreservedUserSavedSnapshot": true
+  },
+  "installedBytes": {
+    "checked": true,
+    "receiptIdentity": "48bb1d177f4cb8ec4b8e90ff4d23fe618baec155a814db80f7b19e5d9096b28f",
+    "files": [
+      {
+        "file": "manifest.json",
+        "exactBytes": false,
+        "manifestValuesEqual": true
+      },
+      {
+        "file": "index.html",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "index.js",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "src/premiereAdapter.js",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "src/diagnostics.js",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "src/valueSerializer.js",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      },
+      {
+        "file": "src/report.js",
+        "exactBytes": true,
+        "manifestValuesEqual": null
+      }
+    ],
+    "qualification": "Independent filesystem verification; screenshot version alone does not prove the exact loaded path/identity"
+  },
+  "priorAutomationAttempt": {
+    "file": "postload-scan-attempt-20261028.json",
+    "status": "Historical failed automation attempt remains valid; no scan was invoked by that attempt"
+  },
+  "freshJSONExportVerified": false,
+  "freshHTMLExportVerified": false,
+  "computerUseCallsThisTurn": 0,
+  "limitations": [
+    "Screenshot evidence does not verify full fresh report contents or zero failed-read counters not shown in the panel.",
+    "The displayed 37 ms is scan duration, not project opening time.",
+    "This one manual docked scan does not establish broad lifecycle reliability or fix the loading delay.",
+    "The three capability unknowns remain UNKNOWN; zero review findings is not proof of correct routing, mapping or playback."
+  ],
+  "nextEvidence": "Export this completed scan as fresh JSON and readable HTML for full content comparison if continuing report validation."
+}

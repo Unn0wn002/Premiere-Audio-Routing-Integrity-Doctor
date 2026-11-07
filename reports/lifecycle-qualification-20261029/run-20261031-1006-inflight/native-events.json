@@ -1,0 +1,154 @@
+[
+  {
+    "event": "FINAL_RUNTIME_BOUND_AND_LOADED",
+    "class": "VERIFIED_THIS_SESSION_NATIVE_AND_FILESYSTEM",
+    "registrationPathObservedVia": "UDT Open Folder -> Explorer full breadcrumb accessibility tree",
+    "buildFolderOverride": "blank; no change",
+    "loaded": true,
+    "evidence": [
+      "registered-folder.txt",
+      "registered-folder-0.jpg",
+      "registered-folder-1.jpg",
+      "udt-options.jpg",
+      "udt-options.txt",
+      "udt-loaded.jpg"
+    ]
+  },
+  {
+    "event": "REAL_TRAVERSAL_AND_TIMING_LIMIT",
+    "actual": {
+      "inputRequestedAt": "2026-10-31T03:08:16.070Z",
+      "purpose": "D08/D09 bounded real traversal observation",
+      "secondScanInput": true,
+      "cancelInput": true,
+      "inputReturnedAt": "2026-10-31T03:08:16.195Z",
+      "firstObservationReturnedAt": "2026-10-31T03:08:17.730Z",
+      "activeProgressObserved": "clips 132/1024; Scan/export disabled, Cancel enabled",
+      "secondScanInputRequestedAt": "2026-10-31T03:08:24.653Z",
+      "secondScanInputReturnedAt": "2026-10-31T03:08:24.773Z",
+      "cancelInputRequestedAt": "2026-10-31T03:08:33.114Z",
+      "cancelInputReturnedAt": "2026-10-31T03:08:33.235Z",
+      "cancelFirstObservationReturnedAt": "2026-10-31T03:08:34.771Z"
+    },
+    "firstProgress": "132/1024",
+    "laterProgress": "277/1024 main capture; 281/1024 later panel capture",
+    "sequentialSnapshotsAreNotAtomic": true,
+    "scanAndExportDisabledVisibly": true,
+    "cancelEnabledVisibly": true,
+    "secondInputBusyStateAtInput": "NOT_ESTABLISHED; input was 8.583 seconds after initial Scan",
+    "retainedReport": "COMPLETE, 7295 ms, 1/1 sequences, 3/3 tracks, 1024/1024 clips, 4096/4096 components, 0 review findings, 3 capability Unknowns",
+    "nativeSaveDialogDefaultStem": "audio-preflight-2026-10-31T03-08-24-777Z",
+    "cancelledReportObtained": false,
+    "D08": "NOT_EXERCISED",
+    "D09": "NOT_EXERCISED",
+    "limits": "Disabled controls in a past screenshot do not establish their state at a delayed input. No rejected-overlap, invocation-count or cancellation PASS."
+  },
+  {
+    "event": "RESIZE_TARGET_DID_NOT_APPLY",
+    "inputStopped": true,
+    "operatorRequested": "Expose Export JSON",
+    "operatorStatement": "ready",
+    "operatorClass": "USER_STATED",
+    "independentReadback": "Panel now docked at left, export controls visible and retained 7295 ms report unchanged",
+    "evidence": [
+      "panel-resize-not-applied-input-stopped.jpg",
+      "operator-docked-report-export-visible.jpg"
+    ]
+  },
+  {
+    "event": "JSON_SAVE_TARGET_DISAGREEMENT",
+    "nativePickerObserved": true,
+    "defaultFolder": "run-20261031-0828-linear-fixture/media",
+    "saveClickTarget": "main Premiere window",
+    "actual": "Save As still exists behind main window; no file found",
+    "inputStopped": true,
+    "operatorRequested": "Bring Save As forward, Save default name/folder, reply saved",
+    "response": "PENDING",
+    "productWriteFailureEstablished": false,
+    "evidence": [
+      "complete-json-picker.jpg",
+      "native-window-metadata.json"
+    ]
+  },
+  {
+    "event": "COMPLETE_JSON_MANUAL_SAVE_RECOVERY",
+    "operatorStatement": "saved.",
+    "class": "USER_STATED",
+    "independentReadback": "complete-before-cancel.json; generatedAt 03:08:24.777Z / 7295 ms COMPLETE; native original/copy exact SHA in exports.json",
+    "dialogClosed": true
+  },
+  {
+    "event": "VERIFIED_CANCELLATION_RETRY_AND_NATIVE_GUARD",
+    "class": "VERIFIED_THIS_SESSION_NATIVE_AND_FULL_REPORT_READBACK",
+    "D08": {
+      "status": "PASS_BOUNDED_NATIVE",
+      "cancelledDurationMs": 6657,
+      "visitedClips": 869,
+      "visitedComponents": 3476,
+      "visitedClipsDeepEqualCompletePrefix": true,
+      "unvisitedUnknownsExplicit": true,
+      "incompleteOrUnvisitedTracks": 3,
+      "clipAndComponentExpectedUnknown": true,
+      "partialFailedReadsReported": 4,
+      "unknownFindings": 8,
+      "inputTimestamps": {
+        "scanRequestedAt": "2026-10-31T03:20:31.352Z",
+        "scanInputReturnedAt": "2026-10-31T03:20:31.470Z",
+        "activeObservationReturnedAt": "2026-10-31T03:20:32.714Z",
+        "cancelRequestedAt": "2026-10-31T03:20:38.051Z",
+        "cancelInputReturnedAt": "2026-10-31T03:20:38.171Z",
+        "resultObservationReturnedAt": "2026-10-31T03:20:38.514Z"
+      },
+      "generatedAt": "2026-10-31T03:20:31.529Z",
+      "estimatedScanFinishedAt": "2026-10-31T03:20:38.186Z",
+      "completionTimestampLimit": "Finish estimate is generatedAt plus durationMs; independently observed completion is resultObservationReturnedAt, not an instrumented callback.",
+      "retryDurationMs": 7966,
+      "retryCompleteInventory": [
+        1,
+        3,
+        1024,
+        4096
+      ],
+      "controlsRecoveredObserved": true
+    },
+    "D09": {
+      "status": "PASS_BOUNDED_NATIVE",
+      "scope": "Native disabled-controls and deliberate second Scan input while the retained recovery scan was active; traversal progressed 101 to 980 without reset and final report retains original recovery generatedAt.",
+      "inputTimestamps": {
+        "scanRequestedAt": "2026-10-31T03:21:39.161Z",
+        "scanInputReturnedAt": "2026-10-31T03:21:39.536Z",
+        "activeObservationReturnedAt": "2026-10-31T03:21:40.487Z",
+        "secondScanRequestedAt": "2026-10-31T03:21:46.818Z",
+        "secondScanReturnedAt": "2026-10-31T03:21:46.958Z",
+        "secondInputObservationReturnedAt": "2026-10-31T03:21:47.190Z"
+      },
+      "secondInputInsideRetainedScanInterval": true,
+      "originalRetryGeneratedAtRetained": true,
+      "adapterInvocationCount": "NOT_INSTRUMENTED_UNKNOWN"
+    },
+    "fullReportEqualityExcept": [
+      "observation.generatedAt",
+      "observation.durationMs"
+    ],
+    "evidence": [
+      "cancel-trial-active-140.jpg",
+      "cancel-trial-partial-6657ms.jpg",
+      "cancel-trial-timestamps.json",
+      "cancelled.json",
+      "cancelled-json-saved-controls-recovered.jpg",
+      "retry-active-101.jpg",
+      "retry-after-second-scan-active-980.jpg",
+      "retry-timestamps.json",
+      "retry-complete-7966ms.jpg",
+      "retry-complete.json",
+      "final-idle-retry-json-saved.jpg"
+    ]
+  },
+  {
+    "event": "NATIVE_SAVE_TARGET_RECOVERY",
+    "cancelledJSON": "Actual Save As disappeared before agent could select it; native file appeared and Saved JSON UI observed. No agent Save input issued; who completed Save is not established.",
+    "retryJSON": "Selected/activated actual returned Save As window, observed native control positions and clicked Save in that dialog; file and Saved JSON UI independently verified.",
+    "nativeOriginalsAndCopies": "exports.json",
+    "noExtraRescanForExport": true
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "name": "premiere-audio-routing-integrity-doctor-prototype",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Read-only Audio Preflight private beta candidate for Premiere Pro 26.5.2.",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "test:fixtures": "node tests/evaluate-fixtures.js",
+    "check:syntax": "node tests/check-syntax.js",
+    "prepare:beta": "node scripts/prepare-beta.js"
+  }
+}

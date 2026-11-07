@@ -1,0 +1,116 @@
+{
+  "recordType": "independent-current-native-fixture-review",
+  "fixture": "F04",
+  "sourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "executionDate": "2026-10-18",
+  "timezone": "Asia/Jakarta",
+  "scope": {
+    "project": "ARID_Disposable_20261018.prproj",
+    "sequence": "stereo-l440-r880",
+    "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+    "sequenceOccurrenceIndex": 0,
+    "selectedTrackIndex": 0,
+    "selectedClipOccurrenceIndex": 0,
+    "selectedClipName": "F04 Intentional creative hard-right",
+    "clipStart": {
+      "ticks": "0",
+      "seconds": 0
+    },
+    "clipEnd": {
+      "ticks": "762810048000",
+      "seconds": 3.003
+    }
+  },
+  "independentUiTruth": {
+    "method": "Joint before/after native screenshots independently viewed by analysis agent: full selected A1 clip label F04 Intentional creative hard-right, Panner Balance +100.0, Enable checked and all track M controls off. Operator authored the label before all three shared scans and reports no intervening edits.",
+    "selectedClipBalanceUi": 100,
+    "selectedClipEnableUi": true,
+    "declaredTestIntent": "Intentional creative hard-right; explicit UI clip label is the declaration, not an inference from audio or the API.",
+    "trackMute": [
+      false,
+      false,
+      false
+    ],
+    "beforeEvidence": [
+      "F03-F04-intentional-hard-right-before-current.png"
+    ],
+    "afterEvidence": [
+      "F03-F04-intentional-hard-right-after-current.png"
+    ],
+    "sharedFixtureAssertions": [
+      "F03",
+      "F04"
+    ],
+    "truthLimit": "One authored physical state supports two assertions. Semantic pan coverage, source mapping, bus routing and playback/export correctness remain Unknown. The UI intent declaration is not proof of output correctness."
+  },
+  "expectedActual": {
+    "expected": "F04: explicitly labeled intentional creative hard-right pan must not cause an unsupported risk finding. Declared intent does not prove playback/output correctness; semantic pan coverage remains Unknown.",
+    "actual": "All three shared native exports contain no risk findings, Stereo2 Information and three product-boundary Unknowns; the exact renamed A1 clip is enabled at the expected locator.",
+    "agreement": true,
+    "exportAnalysis": "F03-F04-three-runs-independent-export-review.json",
+    "semanticPanCoverage": "UNKNOWN"
+  },
+  "observedCurrentEvidence": {
+    "runs": 3,
+    "physicalSetupId": "F03-F04-shared-intentional-hard-right",
+    "physicalRunIds": [
+      "F03-F04-R1",
+      "F03-F04-R2",
+      "F03-F04-R3"
+    ],
+    "executionMethod": "NATIVE_PANEL_SCAN_AND_JSON_EXPORT",
+    "sharedWithFixture": "F03",
+    "durationMs": [
+      25,
+      21,
+      21
+    ],
+    "diagnosticStatus": "COMPLETE",
+    "failedReads": 0,
+    "riskRuleCounts": {
+      "ARID-001": 0,
+      "ARID-002": 0,
+      "ARID-003": 0
+    },
+    "unknownBoundaryFindings": 3,
+    "strictDocumentedShapes": "Both FrameRates and all 140 Keyframes valid in each export; no animated parameter/keyframe-time paths exercised.",
+    "repeatability": {
+      "observationFieldsStable": true,
+      "diagnosticsStable": true,
+      "excludedObservationFields": [
+        "generatedAt",
+        "durationMs"
+      ],
+      "stableObservationSha256": "b5c3ae48362b2b49af7b47a09df75e4ebdac7aeeec9c40bdd6f0c728551cd52e",
+      "stableDiagnosticSha256": "1d4ef2e4670a2aa487cdc44131fdeba63cb34662ee5d8349f272d94fb8f88e65",
+      "medianDurationMs": 21,
+      "rawExports": [
+        "F03-F04-R1-current-export.json",
+        "F03-F04-R2-current-export.json",
+        "F03-F04-R3-current-export.json"
+      ],
+      "timingLimit": "Three physical panel scans shared by F03/F04, not six. Plugin-reported traversal times only; no broad performance or UI-wall-clock claim."
+    },
+    "reopen": null,
+    "inspectedStateUnchanged": {
+      "labelBalanceEnableMuteUi": true,
+      "allObservedRawFields": true,
+      "evidence": [
+        "F03-F04-intentional-hard-right-before-current.png",
+        "F03-F04-intentional-hard-right-after-current.png"
+      ],
+      "limit": "The same full intent label, +100.0 Balance, checked Enable and active track states are retained before/after. Stable collected raw fields do not establish all-property nonmutation or correct output."
+    }
+  },
+  "observableFixtureMetrics": {
+    "TP": 0,
+    "FP": 0,
+    "FN": 0,
+    "observableEvaluatedFixtures": 0,
+    "evaluationGroupId": "F03-F04-shared-intentional-hard-right",
+    "positiveObservableRiskConditions": 0,
+    "interpretation": "F04 evaluates the intentional-pan assertion on the same physical setup and three actual runs already counted by F03. It adds no native executions, unique negative-control setup or detection denominator. Unknown semantic pan/output correctness remains unscored."
+  },
+  "disposition": "THREE_SHARED_NATIVE_OBSERVATIONS_MATCHED_AND_STABLE; intentional hard-right UI preserved; semantic pan UNKNOWN; reopen pending"
+}

@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-23",
+  "verification": "STATICALLY VERIFIED",
+  "hostExecution": "NOT RUN",
+  "commands": {
+    "unitTests": "npm test",
+    "fixtureContracts": "npm run test:fixtures",
+    "syntax": "npm run check:syntax"
+  },
+  "results": {
+    "unitTests": {"passed": 6, "failed": 0},
+    "syntheticFixtureContracts": {"passed": 6, "failed": 0},
+    "syntaxCheck": "PASS"
+  },
+  "empiricalPremiereMetrics": {
+    "truePositives": null,
+    "falsePositives": null,
+    "falseNegatives": null,
+    "unknownCases": null,
+    "status": "BLOCKED_UNTIL_PREMIERE_26_5_HOST_RUN"
+  },
+  "interpretation": "Synthetic contract tests validate only the pure diagnostic rules. They do not validate Premiere API runtime behavior, UI agreement, acoustic output, or export correctness."
+}

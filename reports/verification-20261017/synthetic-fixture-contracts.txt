@@ -1,0 +1,7 @@
+PASS healthy-stereo: expected=none actual=none
+PASS single-muted-track: expected=ARID-001 actual=ARID-001
+PASS mixed-mute-state: expected=ARID-002 actual=ARID-002
+PASS disabled-clip: expected=ARID-003 actual=ARID-003
+PASS mono-is-not-failure: expected=none actual=none
+PASS multichannel-is-not-failure: expected=none actual=none
+STATIC CONTRACT RESULT 6/6 fixtures passed

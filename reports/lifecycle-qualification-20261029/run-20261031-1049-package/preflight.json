@@ -1,0 +1,26 @@
+{
+  "preparedAt": "2026-10-31T03:49:38.427890+00:00",
+  "status": "FINAL_RUNTIME_CCX_PREPARED_ARCHIVE_VERIFIED",
+  "scope": "User approved final-runtime CCX preparation for local review only; no installation/publication/deployment",
+  "runtime": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+  "sourceStageUnchanged": true,
+  "branch": "codex/validated-beta-20261017",
+  "head": "9330e242eadcd10623300ca39d01753355aefc7a",
+  "stage": "artifacts/audio-preflight-0.2.1-037571056922",
+  "stageAllowlistFiles": 7,
+  "destination": "artifacts/ccx-0.2.1-037571056922",
+  "destinationInitiallyEmpty": true,
+  "priorCCXs": [
+    {
+      "file": "artifacts/ccx-0.2.1-48bb1d177f4c/com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+      "sha256": "15026dd9df78c2437ab0e295a6d62c7df5f0276486ba130981c68dc9876662f5"
+    }
+  ],
+  "K01": "PASS_ARCHIVE_INTEGRITY",
+  "newScans": 0,
+  "installationStarted": false,
+  "packageGenerationStarted": true,
+  "newCCX": "artifacts/ccx-0.2.1-037571056922/com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+  "completedAt": "2026-10-31T08:43:32.235985+00:00",
+  "newCCXSha256": "ecb01b1a03e113f89ed355769ee737378feb240f2961187f795ae03e55580d06"
+}

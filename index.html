@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Audio Preflight</title>
+  <style>
+    html, body { height: 100%; margin: 0; overflow: hidden; }
+    body { font-family: sans-serif; font-size: 12px; color: #eee; background: #242424; }
+    #panel { height: 100%; width: 100%; overflow-y: auto; padding: 12px; box-sizing: border-box; }
+    #panel, .finding { min-width: 0; overflow-wrap: break-word; }
+    h2 { font-size: 18px; margin: 0 0 4px; } h3 { font-size: 12px; margin: 12px 0 6px; }
+    p { line-height: 1.4; margin: 6px 0; }
+    .subtitle, .note { font-size: 11px; color: #bdbdbd; }
+    .intro { margin: 8px 0 12px; color: #ccc; }
+    .section { border-top: 1px solid #414141; margin-top: 12px; padding-top: 10px; }
+    .section-title { font-size: 11px; color: #bdbdbd; margin: 0 0 6px; }
+    .actions { display: flex; flex-direction: row; width: 100%; }
+    button { min-width: 0; height: 32px; padding: 0 8px; margin: 0; max-width: 100%; white-space: normal; border-radius: 4px; font-size: 12px; }
+    .actions button { flex: 1; margin-right: 6px; }
+    .actions button:last-child { margin-right: 0; }
+    #scanButton { background: #3578bb; color: #fff; flex: 2; }
+    #cancelButton { flex: 1; }
+    .finding { background: #303030; border-left: 3px solid #b6a57a; padding: 10px; margin: 6px 0; }
+    .information { border-color: #77aabb; } .unknown { border-color: #aaa; }
+    .location, small { font-size: 11px; color: #ccc; } label { display: block; margin-top: 8px; }
+    select { display: block; width: 100%; max-width: 280px; margin-top: 4px; }
+    #status { margin: 10px 0 6px; font-weight: bold; line-height: 1.4; }
+    #status.badge { font-size: 14px; padding: 6px 10px; border-radius: 6px; color: #111; }
+    #status.tone-OK { background: #66d980; }
+    #status.tone-WARN { background: #ffc74d; }
+    #status.tone-BAD { background: #ff6b6b; }
+    #status.tone-INFO { background: #d9d9d9; }
+    #summary { font-weight: bold; margin: 6px 0; line-height: 1.5; }
+    #progress, #exportStatus, #pageStatus { margin: 6px 0; line-height: 1.4; }
+    #coverage { line-height: 1.4; }
+    #status:empty, #summary:empty, #progress:empty, #exportStatus:empty, #hostIdentity:empty, #coverage:empty { display: none; }
+    [hidden] { display: none; }
+    #output { width: 100%; height: 240px; box-sizing: border-box; font-family: monospace; font-size: 11px; }
+    .cards { display: flex; flex-direction: row; flex-wrap: wrap; margin: 6px 0; }
+    .card { flex: 1; min-width: 84px; margin: 0 6px 6px 0; padding: 6px 8px; border-radius: 6px; background: #303030; border-left: 4px solid #777; }
+    .card .num { font-size: 20px; font-weight: bold; }
+    .card .lbl { font-size: 11px; color: #ccc; }
+    .card.c-risk { border-color: #ffc74d; } .card.c-unknown { border-color: #d9d9d9; } .card.c-information { border-color: #77aabb; }
+    .sevtext.sev-Warning { color: #ff9f5a; } .sevtext.sev-Review { color: #ffc74d; }
+    .sevtext.sev-Information { color: #8ec5d9; } .sevtext.sev-Unknown { color: #d9d9d9; }
+    .showrow { margin-top: 6px; }
+    .showchip { display: block; box-sizing: border-box; max-width: 100%; margin: 4px 0 0; padding: 4px 10px; border-radius: 12px; background: #4a4a4a; color: #fff; font-size: 11px; line-height: 1.35; overflow-wrap: anywhere; word-break: break-all; }
+    #previewStatus { font-size: 11px; color: #8ec5ff; margin: 4px 0; line-height: 1.4; }
+    #previewStatus:empty, #scopeLine:empty, #cards:empty { display: none; }
+    .seqname { font-size: 11px; color: #ccc; margin: 8px 0 4px; line-height: 1.4; }
+    .track { display: flex; flex-direction: row; align-items: center; height: 22px; margin-bottom: 3px; }
+    .tlabel { width: 30px; font-size: 11px; color: #bbb; }
+    .lane { flex: 1; position: relative; height: 20px; background: #1b1b1b; border-radius: 3px; }
+    .lane.muted { background: #5a2626; }
+    .block { position: absolute; top: 2px; height: 16px; border-radius: 3px; box-sizing: border-box; overflow: hidden; font-size: 10px; line-height: 16px; padding: 0 3px; color: #111; white-space: nowrap; background: #9fb4c7; }
+    .block.inmuted { background: #c49aa8; }
+    .block.disabled { background: #ffc74d; }
+    .block.flagged { border: 2px solid #ff6b6b; line-height: 12px; }
+    .titlerow { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+    .titlerow h2 { margin: 0; }
+    .langbtn { min-width: 0; padding: 2px 10px; font-size: 11px; }
+    .legend { font-size: 10px; color: #bbb; margin-top: 4px; line-height: 1.6; }
+    .dot { display: inline-block; width: 9px; height: 9px; border-radius: 2px; margin: 0 4px 0 8px; }
+    @media (max-width: 380px) {
+      #panel { padding: 10px; }
+      .finding { padding: 8px; }
+    }
+  </style>
+</head>
+<body>
+  <div id="panel">
+  <div class="titlerow"><h2 id="panelTitle">Audio Preflight</h2><button id="langButton" class="langbtn" title="Language / 言語">日本語</button></div>
+  <div class="subtitle" id="panelSubtitle">Read-only audio review · Private beta</div>
+  <p class="intro" id="panelIntro">Review muted tracks, disabled clips and sequence audio settings. Routing and audio output need manual verification.</p>
+  <div class="actions">
+    <button id="scanButton">Scan active project</button>
+    <button id="cancelButton" disabled>Cancel</button>
+  </div>
+  <div id="status" role="status" aria-live="polite">Ready. Open a project to begin.</div>
+  <div id="progress" role="status"></div>
+  <div id="summary"></div>
+  <div id="cards" class="cards"></div>
+  <p id="scopeLine" class="note"></p>
+  <p id="coverage" class="location"></p>
+  <div class="section">
+    <div class="section-title" id="exportTitle">Export report</div>
+    <div class="actions">
+      <button id="jsonButton" disabled>Export JSON</button>
+      <button id="htmlButton" disabled>Readable report</button>
+    </div>
+    <div id="exportStatus" role="status"></div>
+  </div>
+  <div class="section" id="mapSection" hidden>
+    <div class="section-title" id="mapTitle">Audio timeline</div>
+    <p class="note" id="mapNote">Click a clip to open its sequence and move the playhead to it (view only; nothing is edited).</p>
+    <div id="trackMap"></div>
+    <div class="legend"><span class="dot" style="background:#9fb4c7"></span><span id="legendClip">Clip</span> <span class="dot" style="background:#ffc74d"></span><span id="legendDisabled">Disabled</span> <span class="dot" style="border:2px solid #ff6b6b; box-sizing:border-box"></span><span id="legendReview">To review</span> <span class="dot" style="background:#c49aa8"></span><span id="legendMuted">On a muted track</span></div>
+  </div>
+  <div class="section">
+    <div class="section-title" id="findingsTitle">Findings</div>
+    <div id="previewStatus" role="status" aria-live="polite"></div>
+    <div id="pageStatus" role="status" aria-live="polite"></div>
+    <div class="actions">
+      <button id="previousPageButton" disabled>Previous</button>
+      <button id="nextPageButton" disabled>Next</button>
+    </div>
+    <div id="findings"></div>
+  </div>
+  <div class="section">
+    <div class="section-title" id="evidenceTitle">Evidence &amp; environment</div>
+    <div id="hostIdentity" class="location"></div>
+    <button id="detailsButton">Show / hide raw evidence</button>
+    <textarea id="output" readonly aria-label="Raw scan evidence" hidden></textarea>
+  </div>
+  <p class="note" id="footNote">Review tags reset each scan. Reports include local names and paths; review before sharing.</p>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

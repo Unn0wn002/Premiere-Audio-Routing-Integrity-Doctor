@@ -1,0 +1,20 @@
+{
+  "observedAt": "2026-10-31T02:02:39.900788+00:00",
+  "savedProjectSha256": "a1f1ae55ad57c55aa3e8de44602062baed8ebcff8347a2a32431f90b5421637e",
+  "clipOccurrences": 2,
+  "ranges": [
+    {
+      "startTicks": 0,
+      "endTicks": 254016000000
+    },
+    {
+      "startTicks": 254270016000,
+      "endTicks": 508540032000
+    }
+  ],
+  "gapTicks": 254016000,
+  "evidenceClass": "SAVED_NATIVE_STRUCTURE",
+  "nativeUI": "One-second WAV in default 29.97 sequence; End then Paste",
+  "growthStopped": true,
+  "rootCause": "Not established; inspect observed native frame settings before choosing setup correction"
+}

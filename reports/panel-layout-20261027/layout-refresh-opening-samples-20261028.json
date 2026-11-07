@@ -1,0 +1,37 @@
+[
+  {
+    "atUTC": "2026-10-28T14:46:51.8153071Z",
+    "pid": 14208,
+    "exists": true,
+    "responding": false,
+    "cpuSeconds": 126.078125
+  },
+  {
+    "atUTC": "2026-10-28T14:46:56.8794430Z",
+    "pid": 14208,
+    "exists": true,
+    "responding": false,
+    "cpuSeconds": 131.140625
+  },
+  {
+    "atUTC": "2026-10-28T14:47:01.8848336Z",
+    "pid": 14208,
+    "exists": true,
+    "responding": false,
+    "cpuSeconds": 136.15625
+  },
+  {
+    "atUTC": "2026-10-28T14:47:06.8972143Z",
+    "pid": 14208,
+    "exists": true,
+    "responding": false,
+    "cpuSeconds": 141.3125
+  },
+  {
+    "atUTC": "2026-10-28T14:47:11.9035595Z",
+    "pid": 14208,
+    "exists": true,
+    "responding": false,
+    "cpuSeconds": 146.375
+  }
+]

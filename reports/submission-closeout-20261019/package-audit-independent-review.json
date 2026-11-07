@@ -1,0 +1,60 @@
+{
+  "recordType": "independent-closeout-package-audit-review",
+  "reviewedAt": "2026-10-19T02:13:07.414Z",
+  "branch": "codex/validated-beta-20261017",
+  "evidenceParentGitSha": "d1b2b091e28d76af60e33c99261d01108e2000db",
+  "method": "Independent read of newly executed package verification/source-stage audit and retained previous-package audit; no duplicate verifier run, native read or installation performed by reviewer.",
+  "checks": {
+    "currentHashMatchesExpected": true,
+    "currentIdVersionMatches": true,
+    "currentRuntimeMatchesReceipt": true,
+    "currentSixExactAndManifestValues": true,
+    "allSevenFrozenSourceStage": true,
+    "previousSameIdOlderVersion": true,
+    "previousReceiptArchiveProvenance": true,
+    "installationRemainsUnqualified": true
+  },
+  "inputs": [
+    {
+      "file": "PACKAGE_AUDIT.md",
+      "bytes": 3741,
+      "sha256": "20e52d95aff0c208287bb7240712f627c4794bb896be0ae79dd9b816d0342054"
+    },
+    {
+      "file": "current-ccx-verification.json",
+      "bytes": 2304,
+      "sha256": "86cd1f7b14ae9462f28beb6081a05f1e91ad1acc6376e160af0d4f0410312ec4"
+    },
+    {
+      "file": "package-source-stage-verification.json",
+      "bytes": 4419,
+      "sha256": "8c803257700f20a9ca5579003b43839a11107bb55aafa7989d73678fdbf41f83"
+    },
+    {
+      "file": "previous-beta-ccx-audit.json",
+      "bytes": 6430,
+      "sha256": "0f15e924bd435b223f7a0f36f3d9c69789204feb4dfc40b8d9b5b2b803437b40"
+    }
+  ],
+  "current": {
+    "result": "ARCHIVE_INTEGRITY_PASS_ONLY",
+    "ccxSha256": "8c3c27a8dc281db5e3f4fe0555dd7455a77e7860c5e63036b728b1596f8209e2",
+    "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+    "manifestComparison": "Six files exact; manifest parsed values equal after documented UDT formatting.",
+    "developerArchiveHashMatchesMeaning": "false is expected for a genuine CCX compared with the different developer ZIP; runtime/manifest checks pass.",
+    "installationQualified": false
+  },
+  "upgrade": {
+    "result": "ELIGIBLE_PACKAGE_ARTIFACT_ONLY",
+    "previousVersion": "0.2.0",
+    "previousPluginId": "com.unn0wn002.audio-preflight.beta",
+    "previousPackage": "artifacts/com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+    "previousSha256": "70726062905df989c2f59d11b007c41be562a85219906eace5fef37210c76a97",
+    "previousRuntimeReceiptIdentity": "29d17cda3a16f0637d812e733740fe32d3da4ca527a44d67bc676fb542e1d6d9",
+    "previousGitSourceSha": null,
+    "provenanceLimit": "Legacy receipt has no Git source SHA or sourceIdentity field. Frozen package identity and byte hashes match the retained 4 October 2026 CCX archive verification; this is not a current host/native or installation approval.",
+    "installedBaselineEstablished": false,
+    "upgradeExecuted": false
+  },
+  "conclusion": "Prepared current CCX and eligible genuine same-ID previous package are established at archive level. Clean-profile installation, installed identity, baseline installation and upgrade remain pending."
+}

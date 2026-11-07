@@ -1,0 +1,13 @@
+{
+  "recordedAt": "2026-10-18T14:49:53.4951725Z",
+  "scope": "Second read-only process snapshot after bounded normal F11 reopen settling; no POST scan or app input during unresponsive interval",
+  "processes": [
+    {
+      "Id": 22888,
+      "ProcessName": "Adobe Premiere Pro",
+      "Responding": true,
+      "CPU": 5881.796875,
+      "StartTime": "2026-10-18T01:49:16.8023322+07:00"
+    }
+  ]
+}

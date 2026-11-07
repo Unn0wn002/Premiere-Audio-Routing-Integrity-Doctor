@@ -1,0 +1,36 @@
+{
+  "verifiedAt": "2026-11-01T09:49:09.363242+00:00",
+  "status": "PASS_OWNER_RESPONSE_RECORD_ONLY",
+  "caseStatus": "NOT_RUN",
+  "availabilityEvidenceClass": "USER_STATED",
+  "cleanContextEstablished": false,
+  "ownerQuestionPending": false,
+  "sourceTestsAndProjectLogPreserved": true,
+  "ledgerCasesAndCountsUnchanged": true,
+  "docsLinksExist": true,
+  "sharedDatedHistoryPreserved": true,
+  "gitDiffCheck": true,
+  "newNativeExecutions": 0,
+  "installationStarted": false,
+  "currentMissingInput": "A suitable clean environment does not yet exist or is not available according to the owner; no repeated question pending.",
+  "responseFiles": [
+    {
+      "file": "owner-response.json",
+      "sha256": "fb08e550d78c0b9fba67e0a09ba945ef1b1f7973426b06bcfa4b0d4765dcf679"
+    },
+    {
+      "file": "preparation-result.json",
+      "sha256": "51b0bcb16f6203bb7e536252a0c58a2cc32090f9dd1c81ef3c61225183eb4e43"
+    },
+    {
+      "file": "clean-context-baseline.json",
+      "sha256": "66d87263cae973546141cc8a0c3e42f49ce8d32da15c85290098f9fff4cc14ed"
+    },
+    {
+      "file": "README.md",
+      "sha256": "a6163f62f27f104b2ed3fc6cc5562db5f63071d03b14651deabbb9759f3a9ad8"
+    }
+  ],
+  "priorArchiveCheck": "Historical to this response; fresh verification remains the earlier same-day archive-verification.json.",
+  "priorVerification": "baseline/before-owner-response/run__verification.json"
+}

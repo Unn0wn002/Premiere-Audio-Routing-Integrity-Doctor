@@ -1,0 +1,148 @@
+diff --git a/README.md b/README.md
+index e41dcb9..18fc4ba 100644
+--- a/README.md
++++ b/README.md
+@@ -4,7 +4,7 @@ Research ID 37. Audio Preflight 0.2.1 private beta candidate for Windows 11 / Ad
+ 
+ Current gate and exact candidate: [PROJECT_STATUS](docs/PROJECT_STATUS.md). Working target: **22 October 2026**; official submission deadline **unconfirmed**. Native and installation qualification are required before distribution.
+ 
+-Submission closeout is **BLOCKED_INSTALLATION** at unresolved Windows UAC in the existing development profile. The completed native fixture pass is preserved. Resume from the single [operator handoff](docs/SUBMISSION_OPERATOR_HANDOFF.md); installed-runtime lifecycle and distribution qualification remain pending.
++Latest checkpoint: **28 October 2026**. The previous runtime `48bb1d177f4c` is installed and has a verified bounded manual scan/export pair in the existing development profile. The current working candidate `6fb3f7af946f` fixes cleanup after UI initialization failures and passes 58 controlled tests; its native validation is **NOT_RUN**. See the [implementation review and remaining gates](docs/IMPLEMENTATION_REVIEW_20261028.md). Clean-profile installation, broader lifecycle and distribution qualification remain pending. The 19 October UAC [handoff](docs/SUBMISSION_OPERATOR_HANDOFF.md) is preserved as historical evidence.
+ 
+ ## Purpose
+ 
+@@ -40,7 +40,7 @@ Run `node scripts/prepare-beta.js` (or `npm run prepare:beta`). This stages seve
+ 
+ ## Existing host evidence
+ 
+-Current 0.2.1 has a bounded F01–F11 native fixture pass on Premiere 26.5.2 Build 5: 33 retained repeated reads, actual Mono1/Multichannel4 settings and inspected save-close-reopen preservation. Three capability Unknown findings remain separate from observable risk counts. Installation and broader lifecycle/performance checks remain unqualified; see [current evidence and limits](docs/PROJECT_STATUS.md).
++Earlier 0.2.1 runtimes have bounded F01–F11 native fixture evidence and a later installed 37 ms manual scan/export pair. These results stay bound to their recorded runtime identities; they do not qualify the changed working candidate `6fb3f7af946f`. Three capability Unknown findings remain separate from observable risk counts. Clean-profile installation and broader lifecycle/performance checks remain unqualified; see [current evidence and limits](docs/PROJECT_STATUS.md).
+ 
+ The October 2 final continuation report supersedes older NOT RUN statements: `reports/host-20261001-214943/HOST_VALIDATION_REPORT_FINAL.md`. The old 0.1.0 candidate loaded in Premiere 26.5.2 Build 5 and demonstrated bounded mute, disabled-clip, and location behavior. Mono/multichannel fixtures and timings remained unfinished. Those results do not qualify this changed 0.2.1 candidate. Current native evidence and remaining steps are recorded in [PROJECT_STATUS](docs/PROJECT_STATUS.md).
+ 
+diff --git a/docs/BETA_RELEASE_CHECKLIST.md b/docs/BETA_RELEASE_CHECKLIST.md
+index 21a2fa4..eaff9d0 100644
+--- a/docs/BETA_RELEASE_CHECKLIST.md
++++ b/docs/BETA_RELEASE_CHECKLIST.md
+@@ -1,5 +1,7 @@
+ # Beta qualification and paid-release gates
+ 
++**28 October checkpoint:** the working cleanup-patch candidate is `6fb3f7af946f`, with 58 controlled tests, six synthetic fixtures, syntax and developer archive verification passing; native qualification for this changed identity is NOT_RUN. The installed predecessor `48bb1d177f4c` has bounded existing-profile scan/export evidence. The 19 October installation blocker below is historical for that older checkpoint, and its checked fixture/package items must not be transferred to the new runtime. [Current matrix and remaining gates](IMPLEMENTATION_REVIEW_20261028.md). Clean-profile/customer lifecycle qualification and distribution approval remain pending.
++
+ Candidate: Audio Preflight 0.2.1. Status: NOT APPROVED FOR DISTRIBUTION. Exact current gate: `PROJECT_STATUS.md`. Record date, OS, Premiere exact version/build, UXP/UDT versions, staged identity and CCX hash for every run. Use disposable fixtures and copies of projects. Record actual outcomes; pending is never a pass.
+ 
+ Submission closeout is separately **BLOCKED_INSTALLATION**: the 19 October normal CCX launch reached unresolved Windows UAC in a non-clean development profile. Installed identity and dependent lifecycle/demo checks remain unexecuted. See the [closeout ledger](../reports/submission-closeout-20261019/closeout-ledger.json) and single [operator handoff](SUBMISSION_OPERATOR_HANDOFF.md). No checkbox below is waived by the submission rehearsal or archive verification; larger-project performance, cohort and paid-release work remain pending.
+diff --git a/docs/PROJECT_STATUS.md b/docs/PROJECT_STATUS.md
+index ea016ff..321875e 100644
+--- a/docs/PROJECT_STATUS.md
++++ b/docs/PROJECT_STATUS.md
+@@ -1,5 +1,15 @@
+ # Project status
+ 
++Latest checkpoint: **28 October 2026 (Asia/Jakarta)**. Current source base HEAD `9330e242eadcd10623300ca39d01753355aefc7a`, branch `codex/validated-beta-20261017`, with uncommitted cleanup fix and regressions. Working runtime identity: **`6fb3f7af946ff01d90137acdf1f6c5199b9fd1f022df9f421edd1ec8ade517ab`**. Gate: **CONTROLLED_PASS / NEW_RUNTIME_NATIVE_NOT_RUN / DISTRIBUTION_NOT_APPROVED**. All 58 controlled tests, six synthetic fixtures, syntax, whitespace and independent seven-file developer archive verification pass. UI initialization is now covered by scan/export lock cleanup. No new CCX or install/native pass is claimed for this change.
++
++The previous runtime **`48bb1d177f4c`** remains installed and preserved. Existing-profile installation, a 37 ms complete manual scan and matching JSON/HTML were independently recorded on 28 October. That supersedes the old UAC/installed-identity blocker for that older candidate in the existing profile only. Clean-customer install, upgrade/uninstall/reinstall, broad lifecycle and performance gates remain incomplete. No distribution approval follows. Desktop-helper isolation removed its captured minute-long accessibility requests in one comparison; subsequent manual warm opening measured 2–4 seconds, without a complete root-cause or broad reliability claim.
++
++Current matrix, exact package identity, changed scope and next native steps: [IMPLEMENTATION_REVIEW_20261028](IMPLEMENTATION_REVIEW_20261028.md). Detailed dated native/runtime records: [PANEL_LAYOUT_VALIDATION](PANEL_LAYOUT_VALIDATION.md). New developer ZIP: `artifacts/audio-preflight-0.2.1-6fb3f7af946f-developer.zip`, SHA256 `838ac5c0f3ffefe4bb7d45b89f73045ba19e77b40ae41d153e5b9c28b8ffe93f`.
++
++## Historical checkpoint — 19 October 2026
++
++The following records retain their original runtime/package binding and dates. Statements of current state below refer to that historical checkpoint, not the 28 October working candidate.
++
+ Updated: 19 October 2026 (Asia/Jakarta). Working target: **22 October 2026**. Official submission deadline: **UNCONFIRMED**.
+ 
+ Current gate: **NATIVE_FIXTURES_BOUNDED_PASS**. F01–F11 agree with independently verified current-host conditions. Independent implementation and static/package checks are complete. Candidate: Audio Preflight 0.2.1, Windows / Premiere 26.5.2. Customer installation and broader lifecycle/performance checks remain unqualified; no distribution or output-correctness approval.
+diff --git a/docs/SUBMISSION_OPERATOR_HANDOFF.md b/docs/SUBMISSION_OPERATOR_HANDOFF.md
+index 3002e7f..ca3de23 100644
+--- a/docs/SUBMISSION_OPERATOR_HANDOFF.md
++++ b/docs/SUBMISSION_OPERATOR_HANDOFF.md
+@@ -1,5 +1,7 @@
+ # Submission installation operator handoff
+ 
++**Historical handoff notice (28 October):** preserve this 19 October stopping point for its recorded package. A later installed predecessor `48bb1d177f4c` has verified files and bounded manual scan/export evidence in the existing profile. The new working cleanup candidate `6fb3f7af946f` is staged but native NOT_RUN. Resume from the [current implementation review](IMPLEMENTATION_REVIEW_20261028.md), not by assuming the old UAC prompt is still pending. Clean-customer installation and broader lifecycle gates remain unqualified.
++
+ Status: **BLOCKED_INSTALLATION**. Submission readiness is blocked; distribution is **NOT APPROVED**. This is the single handoff for the 19 October closeout attempt.
+ 
+ ## Exact stopping point
+diff --git a/index.js b/index.js
+index 12e9049..db1834c 100644
+--- a/index.js
++++ b/index.js
+@@ -83,11 +83,11 @@ async function runScan() {
+   if (inFlight || exporting) return;
+   inFlight = true; cancelRequested = false; currentReport = null;
+   findingRows = []; findingPage = 0; scanError = ''; rawDirty = true;
+-  if (el('output')) el('output').hidden = true;
+-  controls(); render();
+-  text('status', 'Scanning read-only observable state. Avoid editing or switching projects during the scan.');
+-  text('exportStatus', '');
+   try {
++    if (el('output')) el('output').hidden = true;
++    controls(); render();
++    text('status', 'Scanning read-only observable state. Avoid editing or switching projects during the scan.');
++    text('exportStatus', '');
+     const observation = await scanActiveProject({
+       isCancelled: () => cancelRequested,
+       onProgress: progress => text('progress', `${progress.phase}${progress.sequence ? ` · ${progress.sequence}` : ''}${progress.track ? ` · ${progress.track}` : ''}${progress.total != null ? ` · ${progress.item + 1}/${progress.total}` : ''}`)
+@@ -106,8 +106,9 @@ async function runScan() {
+ async function exportReport(format) {
+   if (!currentReport || inFlight || exporting) return;
+   const snapshot = JSON.parse(JSON.stringify(currentReport));
+-  exporting = true; controls();
++  exporting = true;
+   try {
++    controls();
+     const file = await storage.localFileSystem.getFileForSaving(`audio-preflight-${snapshot.observation.generatedAt.replace(/[:.]/g, '-')}.${format}`, { types: [format] });
+     if (!file) { text('exportStatus', 'Export cancelled.'); return; }
+     await file.write(format === 'html' ? toHTML(snapshot) : JSON.stringify(snapshot, null, 2), { format: storage.formats.utf8 });
+diff --git a/tests/beta.test.js b/tests/beta.test.js
+index bbfb6ae..5db52f1 100644
+--- a/tests/beta.test.js
++++ b/tests/beta.test.js
+@@ -30,6 +30,46 @@ function ui(scan, picker = async () => null, diagnostic = diagnose) {
+   const panel = setup.panels['audio-routing-integrity-probe']; panel.create(); panel.show();
+   return elements;
+ }
++test('A4 initial panel render failure releases scan lock and allows retry', async () => {
++  let calls = 0, fail = true;
++  const e = ui(async () => { calls++; return observation(); });
++  Object.defineProperty(e.summary, 'textContent', {
++    get() { return this.valueText; },
++    set(value) { if (fail) { fail = false; throw Error('panel render unavailable'); } this.valueText = value; }
++  });
++  await e.scanButton.handlers.click();
++  assert.equal(calls, 0, 'failed initialization must not start host reads');
++  assert.match(e.status.textContent, /failed/i);
++  assert.equal(e.scanButton.disabled, false);
++  await e.scanButton.handlers.click();
++  assert.equal(calls, 1);
++  assert.match(e.status.textContent, /completed/i);
++  assert.equal(e.jsonButton.disabled, false);
++});
++
++test('A4 initial export control failure releases export lock and allows retry', async () => {
++  let pickerCalls = 0, written;
++  const e = ui(async () => observation(), async () => {
++    pickerCalls++;
++    return { write: async value => { written = value; } };
++  });
++  await e.scanButton.handlers.click();
++  let fail = true, disabled = e.jsonButton.disabled;
++  Object.defineProperty(e.jsonButton, 'disabled', {
++    get() { return disabled; },
++    set(value) { if (fail) { fail = false; throw Error('export controls unavailable'); } disabled = value; }
++  });
++  await e.jsonButton.handlers.click();
++  assert.equal(pickerCalls, 0);
++  assert.match(e.exportStatus.textContent, /Export failed: export controls unavailable/);
++  assert.equal(e.scanButton.disabled, false);
++  assert.equal(e.jsonButton.disabled, false);
++  await e.jsonButton.handlers.click();
++  assert.equal(pickerCalls, 1);
++  assert.equal(JSON.parse(written).observation.project.name, 'Captured');
++  assert.equal(e.scanButton.disabled, false);
++});
++
+ test('cancel before acquisition avoids host reads and measures duration', async () => {
+   const report = await adapter(null).scanActiveProject({ isCancelled: () => true });
+   assert.equal(report.completion, 'cancelled'); assert.equal(report.project, null);

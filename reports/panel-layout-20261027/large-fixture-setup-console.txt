@@ -1,0 +1,593 @@
+Window: "Audio Preflight - Private Beta - Premiere Pro v26.5.2 (Debug)", App: Adobe UXP Developer Tools.exe.
+	0 pane Audio Preflight - Private Beta - Premiere Pro v26.5.2 (Debug) Secondary Actions: Raise
+		1 document Audio Preflight - Private Beta - Premiere Pro v26.5.2 (Debug) Value: file:///C%3a/Program%20Files/Adobe/Adobe%20UXP%20Developer%20Tools/resources/app.asar/node_modules/%40adobe/uxp-inspect-frontend/main/front_end/devtools_app.html?ws=127.0.0.1%3A14001%2Fsocket%2Fcdt%2F21e3da84-8beb-42f6-bfff-9989bf8aa0ac&uxp_window_title=Audio+Preflight+-+Private+Beta+-+Premiere+Pro+v26.5.2+%28Debug%29&uxp_window_type=debug&memory_tab=false&protocol_monitor=false ID: -1104332272
+			20 group Select an element in the page to inspect it Panels Console panel
+				27 button Select an element in the page to inspect it
+				21 tab Panels
+					22 tab item (selectable) Elements ID: tab-elements
+					23 tab item (selectable) Console ID: tab-console
+					24 tab item (selectable) Sources ID: tab-sources
+					25 tab item (selectable) Network ID: tab-network
+				28 button Settings
+				29 menu item Customize and control DevTools
+				26 tab panel Console panel
+					30 button Show console sidebar
+					31 button Clear console
+					32 button JavaScript context: Audio Preflight - Private Beta
+					33 button Create live expression
+					34 edit (settable, string) Filter Description: Filter
+					35 menu item Log level: Default levels
+						36 text Default levels
+					37 button No Issues
+					38 button Console settings
+					39 log ID: console-messages
+						40 group JSON.stringify({title:document.title,selects:document.querySelectorAll('select').length,dispatch:typeofdocument.querySelector('select').dispatchEvent,event:typeofEvent,click:typeofdocument.getElementById('scanButton').click}) "{\"selects\":9,\"dispatch\":\"function\",\"event\":\"function\",\"click\":\"function\"}" // Run in the loaded plugin's UDT console, with a disposable project open.// Programmatic native UXP DOM events; no stubs, host setters, or source edits.// Does not qualify physical mouse selection, large-project cancellation, or installation. (asyncfunction () { constrecord=globalThis.aridNativeUI= { method: 'NATIVE_PREMIERE_UXP_PROGRAMMATIC_DOM_EVENTS', startedAt: newDate().toISOString(), results: [], reports: {}, qualification: 'Native panel handlers and actual host reads; not physical mouse interaction.' }; constel=id=>document.getElementById(id); constreport= () =>JSON.parse(el('output').textContent); constassert= (name, ok, actual) => { record.results.push({ name, pass: Boolean(ok), actual }); if (!ok) throwError(name); }; constidle
+							302 group JSON.stringify({title:document.title,selects:document.querySelectorAll('select').length,dispatch:typeofdocument.querySelector('select').dispatchEvent,event:typeofEvent,click:typeofdocument.getElementById('scanButton').click})
+								303 group
+									304 text JSON
+									305 text .
+									306 text stringify
+									307 text ({
+									308 text title
+									309 text :
+									310 text document
+									311 text .
+									312 text title
+									313 text ,
+									314 text selects
+									315 text :
+									316 text document
+									317 text .
+									318 text querySelectorAll
+									319 text (
+									320 text 'select'
+									321 text ).
+									322 text length
+									323 text ,
+									324 text dispatch
+									325 text :
+									326 text typeof
+									327 text 
+									328 text document
+									329 text .
+									330 text querySelector
+									331 text (
+									332 text 'select'
+									333 text ).
+									334 text dispatchEvent
+									335 text ,
+									336 text event
+									337 text :
+									338 text typeof
+									339 text 
+									340 text Event
+									341 text ,
+									342 text click
+									343 text :
+									344 text typeof
+									345 text 
+									346 text document
+									347 text .
+									348 text getElementById
+									349 text (
+									350 text 'scanButton'
+									351 text ).
+									352 text click
+									353 text })
+							354 group "{\"selects\":9,\"dispatch\":\"function\",\"event\":\"function\",\"click\":\"function\"}"
+								355 group
+									356 text "{\"selects\":9,\"dispatch\":\"function\",\"event\":\"function\",\"click\":\"function\"}"
+							568 group // Run in the loaded plugin's UDT console, with a disposable project open.// Programmatic native UXP DOM events; no stubs, host setters, or source edits.// Does not qualify physical mouse selection, large-project cancellation, or installation. (asyncfunction () { constrecord=globalThis.aridNativeUI= { method: 'NATIVE_PREMIERE_UXP_PROGRAMMATIC_DOM_EVENTS', startedAt: newDate().toISOString(), results: [], reports: {}, qualification: 'Native panel handlers and actual host reads; not physical mouse interaction.' }; constel=id=>document.getElementById(id); constreport= () =>JSON.parse(el('output').textContent); constassert= (name, ok, actual) => { record.results.push({ name, pass: Boolean(ok), actual }); if (!ok) throwError(name); }; constidle=async () => { conststarted=Date.now(); while (el('scanButton').disabled) { if (Date.now() -started>10000) throwError('UI did not become idle within 10 seconds'); awaitnewPromise(resolve=>setTimeout(resolve, 10)); } }; letcountAcceptedClicks=0; constcountClick
+								569 group (truncated: child_limit, omitted 921 children)
+							570 group
+								571 group
+									572 group
+										573 tree
+											574 tree item (selectable) Promise {<fulfilled>: "{\"status\":\"FAIL_OR_UNSUPPORTED\",\"results\":[{\"name\"… at <anonymous>:36:5\\n at <anonymous>:67:3\"}"}
+												575 group
+													576 text 
+												577 group Promise {<fulfilled>: "{\"status\":\"FAIL_OR_UNSUPPORTED\",\"results\":[{\"name\"… at <anonymous>:36:5\\n at <anonymous>:67:3\"}"}
+													578 text Promise
+													579 text {
+													580 text <fulfilled>
+													581 text :
+													582 text "{\"status\":\"FAIL_OR_UNSUPPORTED\",\"results\":[{\"name\"… at <anonymous>:36:5\\n at <anonymous>:67:3\"}"
+													583 text }
+							632 group JSON.stringify({status:aridNativeUI.status,results:aridNativeUI.results,error:aridNativeUI.error})
+								633 group
+									634 text JSON
+									635 text .
+									636 text stringify
+									637 text ({
+									638 text status
+									639 text :
+									640 text aridNativeUI
+									641 text .
+									642 text status
+									643 text ,
+									644 text results
+									645 text :
+									646 text aridNativeUI
+									647 text .
+									648 text results
+									649 text ,
+									650 text error
+									651 text :
+									652 text aridNativeUI
+									653 text .
+									654 text error
+									655 text })
+							656 group "{\"status\":\"FAIL_OR_UNSUPPORTED\",\"results\":[{\"name\":\"initial report available\",\"pass\":true,\"actual\":\"completed\"},{\"name\":\"annotation change reaches raw report\",\"pass\":true,\"actual\":{\"risk:0\":\"intentional\"}},{\"name\":\"selector retains annotation\",\"pass\":true,\"actual\":\"intentional\"},{\"name\":\"scan disables start and exports\",\"pass\":false,\"actual\":{\"scan\":false,\"json\":false,\"html\":false}}],\"error\":\"Error: scan disables start and exports\\n at assert (<anonymous>:14:20)\\n at <anonymous>:36:5\\n at <anonymous>:67:3\"}"
+								657 group
+									658 text "{\"status\":\"FAIL_OR_UNSUPPORTED\",\"results\":[{\"name\":\"initial report available\",\"pass\":true,\"actual\":\"completed\"},{\"name\":\"annotation change reaches raw report\",\"pass\":true,\"actual\":{\"risk:0\":\"intentional\"}},{\"name\":\"selector retains annotation\",\"pass\":true,\"actual\":\"intentional\"},{\"name\":\"scan disables start and exports\",\"pass\":false,\"actual\":{\"scan\":false,\"json\":false,\"html\":false}}],\"error\":\"Error: scan disables start and exports\\n at assert (<anonymous>:14:20)\\n at <anonymous>:36:5\\n at <anonymous>:67:3\"}"
+							696 group globalThis.aridNativeUIAttempt1=globalThis.aridNativeUI; // Run in the loaded plugin's UDT console, with a disposable project open.// Programmatic native UXP DOM events; no stubs, host setters, or source edits.// Does not qualify physical mouse selection, large-project cancellation, or installation. (asyncfunction () { constrecord=globalThis.aridNativeUI= { method: 'NATIVE_PREMIERE_UXP_PROGRAMMATIC_DOM_EVENTS', startedAt: newDate().toISOString(), results: [], reports: {}, qualification: 'Native panel handlers and actual host reads; not physical mouse interaction.' }; constel=id=>document.getElementById(id); constreport= () =>JSON.parse(el('output').textContent); constassert= (name, ok, actual) => { record.results.push({ name, pass: Boolean(ok), actual }); if (!ok) throwError(name); }; constidle=async () => { conststarted=Date.now(); while (el('scanButton').disabled) { if (Date.now() -started>10000) throwError('UI did not become idle within 10 seconds'); awaitnewPromise(resolve=>setTimeout(resolve, 10)); } }; let
+								697 group (truncated: child_limit, omitted 998 children)
+							698 group
+								699 group
+									700 group
+										701 tree
+											702 tree item (selectable) Promise {<pending>}
+												703 group
+													704 text 
+												705 group Promise {<pending>}
+													706 text Promise
+													707 text {
+													708 text <pending>
+													709 text }
+							752 group JSON.stringify({status:aridNativeUI.status,results:aridNativeUI.results,error:aridNativeUI.error})
+								753 group
+									754 text JSON
+									755 text .
+									756 text stringify
+									757 text ({
+									758 text status
+									759 text :
+									760 text aridNativeUI
+									761 text .
+									762 text status
+									763 text ,
+									764 text results
+									765 text :
+									766 text aridNativeUI
+									767 text .
+									768 text results
+									769 text ,
+									770 text error
+									771 text :
+									772 text aridNativeUI
+									773 text .
+									774 text error
+									775 text })
+							776 group "{\"status\":\"PASS\",\"results\":[{\"name\":\"initial report available\",\"pass\":true,\"actual\":\"completed\"},{\"name\":\"annotation change reaches raw report\",\"pass\":true,\"actual\":{\"risk:0\":\"intentional\"}},{\"name\":\"selector retains annotation\",\"pass\":true,\"actual\":\"intentional\"},{\"name\":\"scan disables start and exports\",\"pass\":true,\"actual\":{\"scan\":true,\"json\":true,\"html\":true}},{\"name\":\"cancel enabled during scan\",\"pass\":true,\"actual\":false},{\"name\":\"duplicate synthetic click leaves busy state intact\",\"pass\":true,\"actual\":{\"deliveredEvents\":2,\"busy\":true}},{\"name\":\"immediate cancellation retained\",\"pass\":true,\"actual\":\"cancelled\"},{\"name\":\"cancellation message honest\",\"pass\":true,\"actual\":\"Scan cancelled. Unvisited state has not been checked. Diagnostic status: UNKNOWN.\"},{\"name\":\"cancel cleanup restores controls\",\"pass\":true,\"actual\":{\"scan\":false,\"cancel\":true,\"json\":false}},{\"name\":\"retry completes native host traversal\",\"pass\":true,\"actual\":{\"completion\":\"completed\",\"status\":\"COMPLETE\"}},{\"name\":\"new scan resets annotations\",\"pass\":true,\"actual\":{}},{\"name\":\"new selector resets review state\",\"pass\":true,\"actual\":\"unreviewed\"},{\"name\":\"raw evidence toggle works\",\"pass\":true,\"actual\":true}]}"
+								777 group
+									778 text "{\"status\":\"PASS\",\"results\":[{\"name\":\"initial report available\",\"pass\":true,\"actual\":\"completed\"},{\"name\":\"annotation change reaches raw report\",\"pass\":true,\"actual\":{\"risk:0\":\"intentional\"}},{\"name\":\"selector retains annotation\",\"pass\":true,\"actual\":\"intentional\"},{\"name\":\"scan disables start and exports\",\"pass\":true,\"actual\":{\"scan\":true,\"json\":true,\"html\":true}},{\"name\":\"cancel enabled during scan\",\"pass\":true,\"actual\":false},{\"name\":\"duplicate synthetic click leaves busy state intact\",\"pass\":true,\"actual\":{\"deliveredEvents\":2,\"busy\":true}},{\"name\":\"immediate cancellation retained\",\"pass\":true,\"actual\":\"cancelled\"},{\"name\":\"cancellation message honest\",\"pass\":true,\"actual\":\"Scan cancelled. Unvisited state has not been checked. Diagnostic status: UNKNOWN.\"},{\"name\":\"cancel cleanup restores controls\",\"pass\":true,\"actual\":{\"scan\":false,\"cancel\":true,\"json\":false}},{\"name\":\"retry completes native host traversal\",\"pass\":true,\"actual\":{\"completion\":\"completed\",\"status\":\"COMPLETE\"}},{\"name\":\"new scan resets annotations\",\"pass\":true,\"actual\":{}},{\"name\":\"new selector resets review state\",\"pass\":true,\"actual\":\"unreviewed\"},{\"name\":\"raw evidence toggle works\",\"pass\":true,\"actual\":true}]}"
+							795 group globalThis.aridNativeDocked=globalThis.aridNativeUI; // Run in the loaded plugin's UDT console, with a disposable project open.// Programmatic native UXP DOM events; no stubs, host setters, or source edits.// Does not qualify physical mouse selection, large-project cancellation, or installation. (asyncfunction () { constrecord=globalThis.aridNativeUI= { method: 'NATIVE_PREMIERE_UXP_PROGRAMMATIC_DOM_EVENTS', startedAt: newDate().toISOString(), results: [], reports: {}, qualification: 'Native panel handlers and actual host reads; not physical mouse interaction.' }; constel=id=>document.getElementById(id); constreport= () =>JSON.parse(el('output').textContent); constassert= (name, ok, actual) => { record.results.push({ name, pass: Boolean(ok), actual }); if (!ok) throwError(name); }; constidle=async () => { conststarted=Date.now(); while (el('scanButton').disabled) { if (Date.now() -started>10000) throwError('UI did not become idle within 10 seconds'); awaitnewPromise(resolve=>setTimeout(resolve, 10)); } }; let
+								796 group (truncated: child_limit, omitted 998 children)
+							797 group
+								798 group
+									799 group
+										800 tree
+											801 tree item (selectable) Promise {<pending>}
+												802 group
+													803 text 
+												804 group Promise {<pending>}
+													805 text Promise
+													806 text {
+													807 text <pending>
+													808 text }
+							1021 group (async()=>{conststart=Date.now();while(!aridNativeUI.status){if(Date.now()-start>10000)throwError('Harness still running');awaitnewPromise(r=>setTimeout(r,10));}console.log(JSON.stringify({docked:aridNativeDocked.status,floating:aridNativeUI.status,dockedChecks:aridNativeDocked.results.length,floatingChecks:aridNativeUI.results.length}));constu=require('uxp');constf=awaitu.storage.localFileSystem.getFileForSaving('native-ui-lifecycle.json',{types:['json']});if(!f)return'CANCELLED';awaitf.write(JSON.stringify({method:'NATIVE_PREMIERE_UXP_PROGRAMMATIC_DOM_EVENTS',declaredRuntimeIdentity:'b4460b46135c7e7b07b1ff905cbd27afd110f66fbb07c6fda4e46627fb3a140a',attempt1:aridNativeUIAttempt1,docked:aridNativeDocked,floating:aridNativeUI},null,2),{format:u.storage.formats.utf8});return'SAVED';})()
+								1022 group
+									1023 text (
+									1024 text async
+									1025 text ()
+									1026 text =>
+									1027 text {
+									1028 text const
+									1029 text 
+									1030 text start
+									1031 text =
+									1032 text Date
+									1033 text .
+									1034 text now
+									1035 text ();
+									1036 text while
+									1037 text (
+									1038 text !
+									1039 text aridNativeUI
+									1040 text .
+									1041 text status
+									1042 text ){
+									1043 text if
+									1044 text (
+									1045 text Date
+									1046 text .
+									1047 text now
+									1048 text ()
+									1049 text -
+									1050 text start
+									1051 text >
+									1052 text 10000
+									1053 text )
+									1054 text throw
+									1055 text 
+									1056 text Error
+									1057 text (
+									1058 text 'Harness still running'
+									1059 text );
+									1060 text await
+									1061 text 
+									1062 text new
+									1063 text 
+									1064 text Promise
+									1065 text (
+									1066 text r
+									1067 text =>
+									1068 text setTimeout
+									1069 text (
+									1070 text r
+									1071 text ,
+									1072 text 10
+									1073 text ));}
+									1074 text console
+									1075 text .
+									1076 text log
+									1077 text (
+									1078 text JSON
+									1079 text .
+									1080 text stringify
+									1081 text ({
+									1082 text docked
+									1083 text :
+									1084 text aridNativeDocked
+									1085 text .
+									1086 text status
+									1087 text ,
+									1088 text floating
+									1089 text :
+									1090 text aridNativeUI
+									1091 text .
+									1092 text status
+									1093 text ,
+									1094 text dockedChecks
+									1095 text :
+									1096 text aridNativeDocked
+									1097 text .
+									1098 text results
+									1099 text .
+									1100 text length
+									1101 text ,
+									1102 text floatingChecks
+									1103 text :
+									1104 text aridNativeUI
+									1105 text .
+									1106 text results
+									1107 text .
+									1108 text length
+									1109 text }));
+									1110 text const
+									1111 text 
+									1112 text u
+									1113 text =
+									1114 text require
+									1115 text (
+									1116 text 'uxp'
+									1117 text );
+									1118 text const
+									1119 text 
+									1120 text f
+									1121 text =
+									1122 text await
+									1123 text 
+									1124 text u
+									1125 text .
+									1126 text storage
+									1127 text .
+									1128 text localFileSystem
+									1129 text .
+									1130 text getFileForSaving
+									1131 text (
+									1132 text 'native-ui-lifecycle.json'
+									1133 text ,{
+									1134 text types
+									1135 text :[
+									1136 text 'json'
+									1137 text ]});
+									1138 text if
+									1139 text (
+									1140 text !
+									1141 text f
+									1142 text )
+									1143 text return
+									1144 text 
+									1145 text 'CANCELLED'
+									1146 text ;
+									1147 text await
+									1148 text 
+									1149 text f
+									1150 text .
+									1151 text write
+									1152 text (
+									1153 text JSON
+									1154 text .
+									1155 text stringify
+									1156 text ({
+									1157 text method
+									1158 text :
+									1159 text 'NATIVE_PREMIERE_UXP_PROGRAMMATIC_DOM_EVENTS'
+									1160 text ,
+									1161 text declaredRuntimeIdentity
+									1162 text :
+									1163 text 'b4460b46135c7e7b07b1ff905cbd27afd110f66fbb07c6fda4e46627fb3a140a'
+									1164 text ,
+									1165 text attempt1
+									1166 text :
+									1167 text aridNativeUIAttempt1
+									1168 text ,
+									1169 text docked
+									1170 text :
+									1171 text aridNativeDocked
+									1172 text ,
+									1173 text floating
+									1174 text :
+									1175 text aridNativeUI
+									1176 text },
+									1177 text null
+									1178 text ,
+									1179 text 2
+									1180 text ),{
+									1181 text format
+									1182 text :
+									1183 text u
+									1184 text .
+									1185 text storage
+									1186 text .
+									1187 text formats
+									1188 text .
+									1189 text utf8
+									1190 text });
+									1191 text return
+									1192 text 
+									1193 text 'SAVED'
+									1194 text ;})()
+							1195 group (index):1 {"docked":"PASS","floating":"PASS","dockedChecks":13,"floatingChecks":13}
+								1196 group
+									1197 link (index):1
+									1198 text 
+									1199 text {"docked":"PASS","floating":"PASS","dockedChecks":13,"floatingChecks":13}
+							1200 group
+								1201 group
+									1202 group
+										1203 tree
+											1204 tree item (selectable) Promise {<pending>}
+												1205 group
+													1206 text 
+												1207 group Promise {<pending>}
+													1208 text Promise
+													1209 text {
+													1210 text <pending>
+													1211 text }
+							1493 group (async()=>{constp=awaitrequire('premierepro').Project.getActiveProject();returnJSON.stringify({path:p.path,sequences:(awaitp.getSequences()).length,idle:!document.getElementById('scanButton').disabled});})()
+								1494 group
+									1495 text (
+									1496 text async
+									1497 text ()
+									1498 text =>
+									1499 text {
+									1500 text const
+									1501 text 
+									1502 text p
+									1503 text =
+									1504 text await
+									1505 text 
+									1506 text require
+									1507 text (
+									1508 text 'premierepro'
+									1509 text ).
+									1510 text Project
+									1511 text .
+									1512 text getActiveProject
+									1513 text ();
+									1514 text return
+									1515 text 
+									1516 text JSON
+									1517 text .
+									1518 text stringify
+									1519 text ({
+									1520 text path
+									1521 text :
+									1522 text p
+									1523 text .
+									1524 text path
+									1525 text ,
+									1526 text sequences
+									1527 text :(
+									1528 text await
+									1529 text 
+									1530 text p
+									1531 text .
+									1532 text getSequences
+									1533 text ()).
+									1534 text length
+									1535 text ,
+									1536 text idle
+									1537 text :
+									1538 text !
+									1539 text document
+									1540 text .
+									1541 text getElementById
+									1542 text (
+									1543 text 'scanButton'
+									1544 text ).
+									1545 text disabled
+									1546 text });})()
+							1547 group
+								1548 group
+									1549 group
+										1550 tree
+											1551 tree item (selectable) Promise {<pending>}
+												1552 group
+													1553 text 
+												1554 group Promise {<pending>}
+													1555 text Promise
+													1556 text {
+													1557 text <pending>
+													1558 text }
+							1571 group // SETUP ONLY: explicit mutations confined to a new disposable test project.// Never packaged or called by the read-only scanner.// Adobe Project.saveAs/lockedAccess/executeTransaction and Sequence.createCloneAction. (asyncfunction () { constrecord=globalThis.aridLargeFixtureRecord= { startedAt: newDate().toISOString(), status: 'BUILDING', transactions: [] }; try { constp=awaitrequire('premierepro').Project.getActiveProject(); constroot='C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\'; if (!p||p.path!==root+'Layout_Test_Copy.prproj') throwError('Unexpected source project; no mutations permitted'); if (document.getElementById('scanButton').disabled) throwError('Panel busy'); record.source=p.path; constbefore=awaitp.getSequences(); if (before.length!==4) throwError('Unexpected source sequence count'); record.initialSequences=before.length; record.target=root+'Large_Inventory_Test.prproj'; if (!awaitp.saveAs(record.target)) throwError('saveAs failed'); // saveAs updates this Project handle in place (documented Adobe behavior).if (p.path!==
+								1572 group (truncated: child_limit, omitted 552 children)
+							1573 group
+								1574 group
+									1575 group
+										1576 tree
+											1577 tree item (selectable) Promise {<pending>}
+												1578 group
+													1579 text 
+												1580 group Promise {<pending>}
+													1581 text Promise
+													1582 text {
+													1583 text <pending>
+													1584 text }
+							1585 group (index):38 LARGE_FIXTURE {"startedAt":"2026-10-27T02:15:40.104Z","status":"BLOCKED","transactions":[],"error":"Error: Unexpected source project; no mutations permitted\n at <anonymous>:9:66","finishedAt":"2026-10-27T02:15:40.104Z"}
+								1586 group
+									1587 link (index):38
+									1588 text 
+									1589 text LARGE_FIXTURE {"startedAt":"2026-10-27T02:15:40.104Z","status":"BLOCKED","transactions":[],"error":"Error: Unexpected source project; no mutations permitted\n at <anonymous>:9:66","finishedAt":"2026-10-27T02:15:40.104Z"}
+							1676 group (async()=>{constp=awaitrequire('premierepro').Project.getActiveProject();console.log('ACTIVE_IDENTITY '+JSON.stringify({path:p&&p.path,name:p&&p.name,sequences:p?(awaitp.getSequences()).length:null}));})()
+								1677 group
+									1678 text (
+									1679 text async
+									1680 text ()
+									1681 text =>
+									1682 text {
+									1683 text const
+									1684 text 
+									1685 text p
+									1686 text =
+									1687 text await
+									1688 text 
+									1689 text require
+									1690 text (
+									1691 text 'premierepro'
+									1692 text ).
+									1693 text Project
+									1694 text .
+									1695 text getActiveProject
+									1696 text ();
+									1697 text console
+									1698 text .
+									1699 text log
+									1700 text (
+									1701 text 'ACTIVE_IDENTITY '
+									1702 text +
+									1703 text JSON
+									1704 text .
+									1705 text stringify
+									1706 text ({
+									1707 text path
+									1708 text :
+									1709 text p
+									1710 text &&
+									1711 text p
+									1712 text .
+									1713 text path
+									1714 text ,
+									1715 text name
+									1716 text :
+									1717 text p
+									1718 text &&
+									1719 text p
+									1720 text .
+									1721 text name
+									1722 text ,
+									1723 text sequences
+									1724 text :
+									1725 text p
+									1726 text ?
+									1727 text (
+									1728 text await
+									1729 text 
+									1730 text p
+									1731 text .
+									1732 text getSequences
+									1733 text ()).
+									1734 text length
+									1735 text :
+									1736 text null
+									1737 text }));})()
+							1738 group
+								1739 group
+									1740 group
+										1741 tree
+											1742 tree item (selectable) Promise {<pending>}
+												1743 group
+													1744 text 
+												1745 group Promise {<pending>}
+													1746 text Promise
+													1747 text {
+													1748 text <pending>
+													1749 text }
+							1750 group (index):1 ACTIVE_IDENTITY {"path":"\\\\?\\C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\Layout_Test_Copy.prproj","name":"Layout_Test_Copy.prproj","sequences":4}
+								1751 group
+									1752 link (index):1
+									1753 text 
+									1754 text ACTIVE_IDENTITY {"path":"\\\\?\\C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\Layout_Test_Copy.prproj","name":"Layout_Test_Copy.prproj","sequences":4}
+							1762 group globalThis.aridLargeSetupAttempt1=globalThis.aridLargeFixtureRecord; // SETUP ONLY: explicit mutations confined to a new disposable test project.// Never packaged or called by the read-only scanner.// Adobe Project.saveAs/lockedAccess/executeTransaction and Sequence.createCloneAction. (asyncfunction () { constrecord=globalThis.aridLargeFixtureRecord= { startedAt: newDate().toISOString(), status: 'BUILDING', transactions: [] }; try { constp=awaitrequire('premierepro').Project.getActiveProject(); constroot='C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\'; // The native host returns Windows extended-length paths with a \\?\ prefix.constnormalizedPath=value=>value.startsWith('\\\\?\\') ?value.slice(4) : value; if (!p||normalizedPath(p.path) !==root+'Layout_Test_Copy.prproj') throwError('Unexpected source project; no mutations permitted'); if (document.getElementById('scanButton').disabled) throwError('Panel busy'); record.source=p.path; constbefore=awaitp.getSequences(); if (before.length!==4) throwError('Unexpected source sequence count'); record.initialSequences=before.length; record.
+								1763 group (truncated: child_limit, omitted 598 children)
+							1764 group
+								1765 group
+									1766 group
+										1767 tree
+											1768 tree item (selectable) Promise {<pending>}
+												1769 group
+													1770 text 
+												1771 group Promise {<pending>}
+													1772 text Promise
+													1773 text {
+													1774 text <pending>
+													1775 text }
+							1781 group (index):41 LARGE_FIXTURE {"startedAt":"2026-10-27T02:17:16.797Z","status":"READY","transactions":[{"offset":0,"success":true},{"offset":12,"success":true},{"offset":24,"success":true},{"offset":36,"success":true},{"offset":48,"success":true},{"offset":60,"success":true},{"offset":72,"success":true},{"offset":84,"success":true},{"offset":96,"success":true},{"offset":108,"success":true},{"offset":120,"success":true},{"offset":132,"success":true},{"offset":144,"success":true},{"offset":156,"success":true},{"offset":168,"success":true},{"offset":180,"success":true},{"offset":192,"success":true},{"offset":204,"success":true},{"offset":216,"success":true},{"offset":228,"success":true},{"offset":240,"success":true}],"source":"\\\\?\\C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\Layout_Test_Copy.prproj","initialSequences":4,"target":"C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\Large_Inventory_Test.prproj","finalSequences":256,"saved":true,"finishedAt":"2026-10-27T02:17:21.152Z"}
+								1782 group
+									1783 link (index):41
+									1784 text 
+									1785 text LARGE_FIXTURE {"startedAt":"2026-10-27T02:17:16.797Z","status":"READY","transactions":[{"offset":0,"success":true},{"offset":12,"success":true},{"offset":24,"success":true},{"offset":36,"success":true},{"offset":48,"success":true},{"offset":60,"success":true},{"offset":72,"success":true},{"offset":84,"success":true},{"offset":96,"success":true},{"offset":108,"success":true},{"offset":120,"success":true},{"offset":132,"success":true},{"offset":144,"success":true},{"offset":156,"success":true},{"offset":168,"success":true},{"offset":180,"success":true},{"offset":192,"success":true},{"offset":204,"success":true},{"offset":216,"success":true},{"offset":228,"success":true},{"offset":240,"success":true}],"source":"\\\\?\\C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\Layout_Test_Copy.prproj","initialSequences":4,"target":"C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\Large_Inventory_Test.prproj","finalSequences":256,"saved":true,"finishedAt":"2026-10-27T02:17:21.152Z"}
+						41 group ID: console-prompt
+							42 group
+								43 group ​
+									44 group
+										45 group
+											46 edit (settable, string) Console prompt
+										47 group ​
+											48 group
+												49 group
+													1776 group
+													1789 group
+														1790 group
+															1791 text 
+													1777 group
+														1778 group
+														1779 group
+														1780 text ​
+											58 group
+								59 group
+									60 group
+		2 pane (disabled)
+		3 title bar (settable, string) Value: Audio Preflight - Private Beta - Premiere Pro v26.5.2 (Debug)
+			4 menu bar System ID: MenuBar
+				1220 menu item System
+			6 button Minimize
+			7 button Maximize
+			8 button Close
+		9 pane
+			10 pane
+			11 pane
+				12 pane
+					13 pane
+						14 menu item File
+						15 menu item Edit
+						16 menu item Actions
+						17 menu item View
+						18 menu item Help
+					19 pane
+
+Document text: ```
+Filter
+```

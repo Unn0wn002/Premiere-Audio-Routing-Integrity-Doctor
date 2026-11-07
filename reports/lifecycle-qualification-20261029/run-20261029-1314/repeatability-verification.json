@@ -1,0 +1,19 @@
+{
+  "reports": [
+    "reports/panel-layout-20261029/narrow-scan.json",
+    "reports/panel-layout-20261029/wide-scan.json",
+    "reports\\lifecycle-qualification-20261029\\run-20261029-1314\\reset-report.json"
+  ],
+  "durationsMs": [
+    35,
+    31,
+    29
+  ],
+  "fullReportEquality": true,
+  "excludedFields": [
+    "observation.generatedAt",
+    "observation.durationMs"
+  ],
+  "additionalDetectionCases": 0,
+  "performanceBenchmark": false
+}

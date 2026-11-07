@@ -1,0 +1,14 @@
+{
+  "updatedAt": "2026-11-01T09:47:06.757202+00:00",
+  "status": "AWAITING_CLEAN_CONTEXT_DESIGNATION",
+  "run": "reports/lifecycle-qualification-20261029/run-20261101-1645-i01-preparation",
+  "case": "LQ-I01",
+  "caseStatus": "NOT_RUN",
+  "contextDesignated": false,
+  "cleanContextEstablished": false,
+  "ownerQuestion": "Another Windows user on this PC / another PC / none available yet; include name if available",
+  "newScans": 0,
+  "desktopCalls": 0,
+  "installationStarted": false,
+  "nextAction": "Await owner designation of a different Windows profile or PC, or confirmation that none is available; then inspect only that context read-only for I01 provenance. No install/restart/profile creation/system change is authorized by this preparation."
+}

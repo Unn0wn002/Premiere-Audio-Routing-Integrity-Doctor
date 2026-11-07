@@ -1,0 +1,160 @@
+{
+  "recordType": "independent-native-api-export-review",
+  "reviewedAt": "2026-10-18T04:34:07.944Z",
+  "branch": "codex/validated-beta-20261017",
+  "reviewHead": "4ec285a7a18e0d53cedd52d135838060b694ed05",
+  "sourceCommit": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "source": {
+    "path": "reports/beta-20261004/arid-native-api-2026-10-18T04-31-40-896Z-dff77a.json",
+    "bytes": 22027,
+    "sha256": "9f1186c90996d697ffe740032ccbb5fe019f3c1167f3bf3d4364ff056fd3ff3e"
+  },
+  "retained": {
+    "path": "reports/verification-20261017/current-native-api-export.json",
+    "bytes": 22027,
+    "sha256": "9f1186c90996d697ffe740032ccbb5fe019f3c1167f3bf3d4364ff056fd3ff3e",
+    "byteIdentical": true
+  },
+  "script": {
+    "path": "scripts/native-api-probe.js",
+    "sha256": "06f356228e1f059efe531801bedb313ca2db15694532854cfe3ed31667dac541",
+    "outsideFrozenRuntime": true
+  },
+  "host": {
+    "name": "premierepro",
+    "version": "26.5.2",
+    "uiLocale": "en_US",
+    "uxpVersion": "uxp-9.3.0-local",
+    "pluginVersion": "0.2.1"
+  },
+  "generatedAt": "2026-10-18T04:31:40.896Z",
+  "durationMs": 9,
+  "representative": {
+    "project": "ARID_Disposable_20261018.prproj",
+    "sequence": "stereo-l440-r880",
+    "sequenceIndex": 0,
+    "trackIndex": 0,
+    "clipOccurrenceIndex": 0
+  },
+  "checks": {
+    "totalCalls": 57,
+    "returnedThenFunction": 24,
+    "returnedThenUndefined": 33,
+    "statusObserved": 57,
+    "statusUnknown": 0,
+    "rawErrors": [],
+    "rawUnknowns": [],
+    "documentedPromiseDirectMismatches": [],
+    "duplicateLabels": [],
+    "reportedShapeIssues": [],
+    "frameRate": {
+      "value": {
+        "kind": "number",
+        "value": 48000
+      },
+      "ticksPerFrame": {
+        "kind": "number",
+        "value": 5292000
+      }
+    },
+    "keyframes": [
+      {
+        "label": "clipChain.component[0].param[0].getStartValue()",
+        "value": {
+          "kind": "boolean",
+          "value": false
+        },
+        "position": {
+          "ticks": {
+            "kind": "string",
+            "value": "-91445760000000000"
+          },
+          "seconds": {
+            "kind": "number",
+            "value": -360000
+          },
+          "ticksNumber": {
+            "kind": "number",
+            "value": -91445760000000000
+          }
+        }
+      },
+      {
+        "label": "sourceChain.component[0].param[0].getStartValue()",
+        "value": {
+          "kind": "boolean",
+          "value": false
+        },
+        "position": {
+          "ticks": {
+            "kind": "string",
+            "value": "-91445760000000000"
+          },
+          "seconds": {
+            "kind": "number",
+            "value": -360000
+          },
+          "ticksNumber": {
+            "kind": "number",
+            "value": -91445760000000000
+          }
+        }
+      }
+    ],
+    "keyframeLists": [
+      {
+        "label": "clipChain.component[0].param[0].getKeyframeListAsTickTimes()",
+        "returnedThenType": "undefined",
+        "resolved": {
+          "kind": "array",
+          "length": 0,
+          "samples": [],
+          "samplesTruncated": false
+        }
+      },
+      {
+        "label": "sourceChain.component[0].param[0].getKeyframeListAsTickTimes()",
+        "returnedThenType": "undefined",
+        "resolved": {
+          "kind": "array",
+          "length": 0,
+          "samples": [],
+          "samplesTruncated": false
+        }
+      }
+    ],
+    "opaqueAudioEnum": {
+      "kind": "object"
+    },
+    "trackClipEnum": {
+      "kind": "number",
+      "value": 1
+    },
+    "adapterCompatible": true,
+    "independentDescriptorValidation": {
+      "finitePositiveFrameRate": true,
+      "exactClipTickTimeStrings": true,
+      "nestedBooleanKeyframeValues": true,
+      "exactKeyframePositionTickStrings": true,
+      "directEmptyKeyframeLists": true,
+      "allPromiseLabelsThenable": true,
+      "allDirectLabelsImmediate": true,
+      "allPrimitivePromiseResolvedKinds": true,
+      "directTrackInventoryArray": true,
+      "sequenceInventoryArray": true
+    },
+    "independentDescriptorValidationPass": true,
+    "independentMethod": "Raw resolved descriptors and immediate-kind/then fields independently checked for known representative contracts, exact integer tick strings, finite positive rate fields, false nested Keyframe wrapper values and static empty lists; this does not rely solely on the probe status or shapeIssues fields."
+  },
+  "conclusion": "OBSERVED_REPRESENTATIVE_NATIVE_API_CONTRACTS: no Promise/direct mismatch or missing required sampled FrameRate/Keyframe/TickTime field found; no frozen runtime change required.",
+  "unexercised": [
+    "isTimeVarying true and nonempty keyframe-time list",
+    "numeric/string/Color/PointF Keyframe value variants",
+    "nullable absent source component chain",
+    "native rejected/throwing/missing getters",
+    "successfully empty project/audio-track inventory",
+    "other components/params and host versions beyond bounded representative"
+  ],
+  "qualification": "Native console getter probe, not F01-F11 fixture acceptance or TP/FP/FN; probe duration excludes full scan/export/picker/UI time. JSON structural host objects are intentionally not enumerated."
+}

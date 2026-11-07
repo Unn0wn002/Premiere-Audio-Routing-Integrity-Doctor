@@ -1,0 +1,49 @@
+{
+  "recordedAt": "2026-10-29T04:59:51.972Z",
+  "evidenceClass": "VERIFIED_THIS_SESSION_BOUNDED_ACCESS_RECOVERY",
+  "precedingMismatch": "Selected Premiere returned Codex screenshot; no desktop input followed in that turn",
+  "recovery": [
+    "Reset node_repl JavaScript kernel",
+    "Initialize supported @oai/sky",
+    "Fresh returned window enumeration and unique Premiere selection",
+    "Explicit activate_window then screenshot-only capture"
+  ],
+  "window": {
+    "app": "{6D809377-6AF0-444B-8957-A3773F02200E}\\Adobe\\Adobe Premiere Pro 2026\\Adobe Premiere Pro.exe",
+    "id": 6622944,
+    "title": "Adobe Premiere - C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\Positive_Signal_Test"
+  },
+  "screenshot": {
+    "file": "access-recovery-premiere.png",
+    "width": 1503,
+    "height": 809,
+    "units": "logical pixels per sky API"
+  },
+  "observed": "Correct Premiere project title, timeline and Audio Preflight panel with pre-existing displayed 28 ms result, zero review findings and three Unknowns",
+  "scanInvoked": false,
+  "displayedResultExecutionObserved": false,
+  "loadedRuntime": "NOT_INDEPENDENTLY_IDENTIFIED",
+  "udtAfterReset": "Computer Use was not approved to use Adobe UXP Developer Tools",
+  "udtApp": {
+    "app": "process:C:\\Program Files\\Adobe\\Adobe UXP Developer Tools\\Adobe UXP Developer Tools.exe",
+    "id": 1116468
+  },
+  "configReadOnly": {
+    "currentComputerUseWindowsSectionPresent": false,
+    "legacyFile": "C:/Users/unn0w/.codex/computer-use/config.toml",
+    "legacyAllowedAdobeApps": [
+      "adobe premiere pro.exe"
+    ],
+    "udtInObservedAllowedApps": false,
+    "settingsChanged": false
+  },
+  "pluginManagementRegistry": "computer-use name returned not_installed in ChatGPT plugin registry; bundled sky tools are present and working for Premiere, so this is not evidence the desktop tool is uninstalled",
+  "rootCauseOfTargetMismatch": "UNKNOWN; one successful capture after reset/activation",
+  "permissionBypassAttempted": false,
+  "projectContentEdited": false,
+  "limits": [
+    "No per-size scan/export evidence",
+    "No exact final loaded-runtime binding",
+    "No broader reliability qualification"
+  ]
+}

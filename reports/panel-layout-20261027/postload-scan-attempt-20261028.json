@@ -1,0 +1,35 @@
+{
+  "recordedAt": "2026-10-28T13:28:11.3641117Z",
+  "status": "BLOCKED_UI_INSPECTION; SCAN_NOT_RUN",
+  "requestedAction": "One installed Audio Preflight scan after host settling",
+  "host": {
+    "pid": 34960,
+    "path": "C:\\Program Files\\Adobe\\Adobe Premiere Pro 2026\\Adobe Premiere Pro.exe",
+    "responding": true,
+    "processTitle": "Adobe Premiere"
+  },
+  "window": {
+    "id": 6032238,
+    "title": "Adobe Premiere",
+    "currentProject": "UNVERIFIED",
+    "panelVisible": "UNVERIFIED"
+  },
+  "inspection": {
+    "skill": "computer-use",
+    "includeScreenshot": true,
+    "includeText": false,
+    "error": "foreground window did not report a process id",
+    "initialAttemptFailed": true,
+    "freshWindowSelectionDone": true,
+    "retryFailed": true,
+    "furtherAppInputStopped": true
+  },
+  "scanInvoked": false,
+  "scanButtonClicked": false,
+  "projectOpenedByAssistant": false,
+  "newNativeResultsAvailable": false,
+  "fixtureSha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+  "matchesPreservedUserSnapshot": true,
+  "sourceRuntimeEdited": false,
+  "requiredOperatorAction": "Manually open the saved Positive_Signal_Test if necessary, click Scan active project once, and provide the displayed completion status, duration and finding counts or a fresh JSON export"
+}

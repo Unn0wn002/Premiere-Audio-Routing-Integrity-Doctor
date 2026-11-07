@@ -1,0 +1,508 @@
+{
+  "recordType": "independent-submission-closeout-ledger",
+  "createdAt": "2026-10-19T02:11:57.866Z",
+  "updatedAt": "2026-10-19T02:21:18.097Z",
+  "branch": "codex/validated-beta-20261017",
+  "evidenceParentGitSha": "d1b2b091e28d76af60e33c99261d01108e2000db",
+  "scope": "User closeout priorities 1-5, relayed by root; no runtime changes, UI inputs or commits by independent reviewer.",
+  "expectedCandidate": {
+    "pluginId": "com.unn0wn002.audio-preflight.beta",
+    "pluginVersion": "0.2.1",
+    "runtimeGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+    "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+    "host": "Adobe Premiere Pro 26.5.2 Build 5",
+    "uxp": "uxp-9.3.0-local",
+    "ccx": "artifacts/ccx-0.2.1-7b544bd27f3b/com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+    "ccxSha256": "8c3c27a8dc281db5e3f4fe0555dd7455a77e7860c5e63036b728b1596f8209e2"
+  },
+  "sources": [
+    "docs/BETA_GUIDE.md",
+    "docs/BETA_RELEASE_CHECKLIST.md",
+    "docs/DEMO_CHECKLIST.md",
+    "docs/HOST_TEST_RUNBOOK.md",
+    "docs/PROJECT_STATUS.md"
+  ],
+  "roles": {
+    "uiOwner": "native_continue",
+    "independentReviewer": "native_analysis",
+    "rootOwner": "Single operator handoff, repository status/docs, branch/PR and commits"
+  },
+  "gates": {
+    "existingNativeFixtures": "REUSED_BOUNDED_PASS_UDT_CONTEXT_ONLY",
+    "newInstallation": "BLOCKED_SYSTEM_CONSENT_NON_CLEAN_PROFILE",
+    "installedIdentity": "NOT_ESTABLISHED",
+    "boundedLifecycle": "NOT_RUN_UI_BLOCKED",
+    "submissionDemoReadiness": "BLOCKED_INSTALLATION",
+    "distributionReadiness": "NOT_APPROVED",
+    "packageIntegrity": "ARCHIVE_INTEGRITY_PASS_ONLY",
+    "upgradePackageAvailability": "ELIGIBLE_PREVIOUS_SAME_ID_PACKAGE",
+    "submissionReadiness": "BLOCKED_INSTALLATION"
+  },
+  "existingEvidence": {
+    "directory": "reports/verification-20261017",
+    "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+    "fixtureAssertionIds": 11,
+    "uniquePhysicalSetups": 10,
+    "retainedRepeatReports": 33,
+    "repeatMethodCounts": {
+      "panel": 18,
+      "console": 15
+    },
+    "supplementalPanelReports": 1,
+    "totalFixtureRelatedReports": 34,
+    "metrics": {
+      "TP": 3,
+      "FP": 0,
+      "FN": 0,
+      "riskEvaluatedPhysicalSetups": 8,
+      "positiveObservableConditions": 3,
+      "unknownOnlyFixtureAssertions": [
+        "F10"
+      ],
+      "preservationOnlyFixtureAssertions": [
+        "F11"
+      ]
+    },
+    "provenanceLimit": "All prior host reads are bound to the recorded frozen UDT staging context, not customer CCX installation. No new fixture reads or metric denominators are created by reuse.",
+    "records": [
+      "reports/verification-20261017/native-fixtures-current.json",
+      "reports/verification-20261017/NATIVE_VALIDATION_20261018.md",
+      "reports/verification-20261017/F11-current-independent-review.json",
+      "reports/verification-20261017/F11-supplemental-panel-current-independent-review.json",
+      "reports/verification-20261017/F11-project-file-snapshots.json",
+      "reports/verification-20261017/ccx-verification.json"
+    ]
+  },
+  "checks": [
+    {
+      "id": "PKG-01",
+      "title": "Prepared CCX and receipt",
+      "expectedOutcome": "Current CCX bytes/hash, allowlist and manifest match the frozen receipt; archive integrity remains separate from installation.",
+      "context": "ARCHIVE",
+      "status": "ARCHIVE_INTEGRITY_PASS_ONLY",
+      "actual": {
+        "result": "ARCHIVE_INTEGRITY_PASS_ONLY",
+        "ccxSha256": "8c3c27a8dc281db5e3f4fe0555dd7455a77e7860c5e63036b728b1596f8209e2",
+        "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+        "manifestComparison": "Six files exact; manifest parsed values equal after documented UDT formatting.",
+        "developerArchiveHashMatchesMeaning": "false is expected for a genuine CCX compared with the different developer ZIP; runtime/manifest checks pass.",
+        "installationQualified": false
+      },
+      "evidence": [
+        "PACKAGE_AUDIT.md",
+        "current-ccx-verification.json",
+        "package-source-stage-verification.json",
+        "previous-beta-ccx-audit.json"
+      ],
+      "independentReview": "package-audit-independent-review.json",
+      "blockingReason": null,
+      "nextAction": "Continue normal clean-profile installation; do not infer installation from archive proof."
+    },
+    {
+      "id": "INST-01",
+      "title": "Clean test profile",
+      "expectedOutcome": "Normal UI establishes the test profile and absence of the candidate; profile/entitlement/authentication limits are recorded without inventing a clean customer install.",
+      "context": "INSTALLED_CANDIDATE",
+      "status": "UNQUALIFIED_EXISTING_NON_CLEAN_PROFILE",
+      "actual": {
+        "profile": "Existing non-clean profile, as confirmed by sole UI owner",
+        "acquiredPluginList": "No plugins acquired",
+        "cleanTestProfileEstablished": false
+      },
+      "evidence": [
+        "creative-cloud-first-observed.png",
+        "creative-cloud-existing-profile-apps.png",
+        "creative-cloud-manage-plugins-before.png"
+      ],
+      "independentReview": "installation-precheck-independent-review.json",
+      "blockingReason": "Clean test profile not established.",
+      "nextAction": "Pending root consolidated operator handoff; no independent second request."
+    },
+    {
+      "id": "INST-02",
+      "title": "Creative Cloud installation",
+      "expectedOutcome": "The exact prepared CCX is opened through the normal Creative Cloud flow; selected package, prompts, success or exact failure are retained.",
+      "context": "INSTALLED_CANDIDATE",
+      "status": "BLOCKED_SYSTEM_CONSENT",
+      "actual": {
+        "creativeCloudAccess": true,
+        "appsPage": "Installed on this machine shows Premiere and UXP Developer Tools among existing Adobe apps.",
+        "managePlugins": "No plugins acquired is visible before the attempt; this bounds the acquired-plugin list only, not UDT loading or a clean profile.",
+        "profile": "Sole UI owner explicitly confirms existing non-clean profile; a clean test profile is not established.",
+        "normalPackageOpen": "Sole UI owner confirms normal Explorer double-click of the exact current verified CCX. The screenshot alone does not display the selected CCX path.",
+        "systemConsent": {
+          "prompt": "User Account Control",
+          "application": "Adobe Creative Cloud",
+          "verifiedPublisher": "Adobe Inc.",
+          "fileOrigin": "Hard drive on this computer",
+          "options": [
+            "Yes",
+            "No"
+          ],
+          "operatorReportedCapturedAt": "2026-10-19T02:18:35.393Z",
+          "responseProvided": false
+        },
+        "installationCompleted": false,
+        "installedCandidateIdentityEstablished": false,
+        "nativeLifecycleScans": 0,
+        "nativeLifecycleExports": 0
+      },
+      "evidence": [
+        "creative-cloud-ccx-uac-blocker.png"
+      ],
+      "independentReview": "installation-precheck-independent-review.json",
+      "blockingReason": "Normal installation is halted at the unresolved Windows UAC consent prompt. No CCX rejection, successful installation, installed-content identity or native lifecycle outcome is established.",
+      "nextAction": "Pending root consolidated operator handoff and normal-flow continuation."
+    },
+    {
+      "id": "INST-03",
+      "title": "Premiere restart and panel",
+      "expectedOutcome": "Premiere restarts normally and Audio Preflight opens/renders; natural stalls and response samples are recorded without assigning a cause.",
+      "context": "INSTALLED_CANDIDATE",
+      "status": "BLOCKED_INSTALLATION_NOT_COMPLETED",
+      "actual": null,
+      "evidence": [],
+      "independentReview": null,
+      "blockingReason": "No completed normal installation or installed candidate identity exists in this closeout.",
+      "nextAction": "Requires root handoff and completed normal install/identity binding first.",
+      "newCloseoutNativeExecutionOccurred": false
+    },
+    {
+      "id": "INST-04",
+      "title": "Installed identity binding",
+      "expectedOutcome": "Installed plugin ID/version/content are bound to the selected CCX and receipt. Host/plugin strings alone and prior UDT loading do not establish installed content identity.",
+      "context": "INSTALLED_CANDIDATE",
+      "status": "BLOCKED_INSTALLATION_NOT_COMPLETED",
+      "actual": null,
+      "evidence": [],
+      "independentReview": null,
+      "blockingReason": "No completed normal installation or installed candidate identity exists in this closeout.",
+      "nextAction": "Requires root handoff and completed normal install/identity binding first.",
+      "newCloseoutNativeExecutionOccurred": false
+    },
+    {
+      "id": "LIFE-01",
+      "title": "Successfully empty project",
+      "expectedOutcome": "A genuinely zero-sequence disposable project enumerates successfully with COMPLETE bounded coverage, no risk and explicit product Unknowns; no active project/failed enumeration remain distinct.",
+      "context": "INSTALLED_CANDIDATE_OR_EXPLICIT_STAGED_FALLBACK",
+      "status": "NOT_RUN_UI_BLOCKED",
+      "actual": null,
+      "evidence": [],
+      "independentReview": null,
+      "blockingReason": "No closeout scan/rehearsal occurred; unresolved UAC prompt currently blocks native UI continuation.",
+      "nextAction": "After root coordination, execute in installed context or explicitly label staged fallback. Existing UDT evidence is not new installed proof.",
+      "newCloseoutNativeExecutionOccurred": false
+    },
+    {
+      "id": "LIFE-02",
+      "title": "Repeat scan",
+      "expectedOutcome": "Repeat scan of unchanged independently inspected state returns stable supported observations/diagnostics apart from scan metadata; repeats do not add detection cases.",
+      "context": "INSTALLED_CANDIDATE_OR_EXPLICIT_STAGED_FALLBACK",
+      "status": "NOT_RUN_UI_BLOCKED",
+      "actual": null,
+      "evidence": [],
+      "independentReview": null,
+      "blockingReason": "No closeout scan/rehearsal occurred; unresolved UAC prompt currently blocks native UI continuation.",
+      "nextAction": "After root coordination, execute in installed context or explicitly label staged fallback. Existing UDT evidence is not new installed proof.",
+      "newCloseoutNativeExecutionOccurred": false
+    },
+    {
+      "id": "LIFE-03",
+      "title": "Overlapping scan prevention",
+      "expectedOutcome": "Rapid Scan input permits one in-flight traversal and recovers controls. A single final report alone is insufficient proof of rejected overlap.",
+      "context": "INSTALLED_CANDIDATE_OR_EXPLICIT_STAGED_FALLBACK",
+      "status": "NOT_RUN_UI_BLOCKED",
+      "actual": null,
+      "evidence": [],
+      "independentReview": null,
+      "blockingReason": "No closeout scan/rehearsal occurred; unresolved UAC prompt currently blocks native UI continuation.",
+      "nextAction": "After root coordination, execute in installed context or explicitly label staged fallback. Existing UDT evidence is not new installed proof.",
+      "newCloseoutNativeExecutionOccurred": false
+    },
+    {
+      "id": "LIFE-04",
+      "title": "Cancellation and recovery",
+      "expectedOutcome": "Cancel is acknowledged after an in-flight read, retains supported visited findings, marks unvisited scope Unknown, and permits a clean subsequent scan. An unexercised short cancel window is not a pass.",
+      "context": "INSTALLED_CANDIDATE_OR_EXPLICIT_STAGED_FALLBACK",
+      "status": "NOT_RUN_UI_BLOCKED",
+      "actual": null,
+      "evidence": [],
+      "independentReview": null,
+      "blockingReason": "No closeout scan/rehearsal occurred; unresolved UAC prompt currently blocks native UI continuation.",
+      "nextAction": "After root coordination, execute in installed context or explicitly label staged fallback. Existing UDT evidence is not new installed proof.",
+      "newCloseoutNativeExecutionOccurred": false
+    },
+    {
+      "id": "LIFE-05",
+      "title": "Project switching",
+      "expectedOutcome": "The report retains its captured project identity during deliberate disposable-project switching; sequential snapshot limits are explicit.",
+      "context": "INSTALLED_CANDIDATE_OR_EXPLICIT_STAGED_FALLBACK",
+      "status": "NOT_RUN_UI_BLOCKED",
+      "actual": null,
+      "evidence": [],
+      "independentReview": null,
+      "blockingReason": "No closeout scan/rehearsal occurred; unresolved UAC prompt currently blocks native UI continuation.",
+      "nextAction": "After root coordination, execute in installed context or explicitly label staged fallback. Existing UDT evidence is not new installed proof.",
+      "newCloseoutNativeExecutionOccurred": false
+    },
+    {
+      "id": "LIFE-06",
+      "title": "Annotations and reset",
+      "expectedOutcome": "Reviewed/Intentional changes appear in export, preserve findings/evidence, do not mutate Premiere, and reset at the next scan.",
+      "context": "INSTALLED_CANDIDATE_OR_EXPLICIT_STAGED_FALLBACK",
+      "status": "NOT_RUN_UI_BLOCKED",
+      "actual": null,
+      "evidence": [],
+      "independentReview": null,
+      "blockingReason": "No closeout scan/rehearsal occurred; unresolved UAC prompt currently blocks native UI continuation.",
+      "nextAction": "After root coordination, execute in installed context or explicitly label staged fallback. Existing UDT evidence is not new installed proof.",
+      "newCloseoutNativeExecutionOccurred": false
+    },
+    {
+      "id": "LIFE-07",
+      "title": "JSON and HTML export",
+      "expectedOutcome": "Actual native JSON/HTML exports agree with visible host/coverage/annotations/locations/exact ticks; source names cannot execute markup. Preserve raw files and distinguish static inspection from rendered evidence.",
+      "context": "INSTALLED_CANDIDATE_OR_EXPLICIT_STAGED_FALLBACK",
+      "status": "NOT_RUN_UI_BLOCKED",
+      "actual": null,
+      "evidence": [],
+      "independentReview": null,
+      "blockingReason": "No closeout scan/rehearsal occurred; unresolved UAC prompt currently blocks native UI continuation.",
+      "nextAction": "After root coordination, execute in installed context or explicitly label staged fallback. Existing UDT evidence is not new installed proof.",
+      "newCloseoutNativeExecutionOccurred": false
+    },
+    {
+      "id": "LIFE-08",
+      "title": "Cancelled picker recovery",
+      "expectedOutcome": "Cancel a real native save picker; controls recover and a later export succeeds without pretending the cancellation created a report.",
+      "context": "INSTALLED_CANDIDATE_OR_EXPLICIT_STAGED_FALLBACK",
+      "status": "NOT_RUN_UI_BLOCKED",
+      "actual": null,
+      "evidence": [],
+      "independentReview": null,
+      "blockingReason": "No closeout scan/rehearsal occurred; unresolved UAC prompt currently blocks native UI continuation.",
+      "nextAction": "After root coordination, execute in installed context or explicitly label staged fallback. Existing UDT evidence is not new installed proof.",
+      "newCloseoutNativeExecutionOccurred": false
+    },
+    {
+      "id": "LIFE-09",
+      "title": "Export failure recovery",
+      "expectedOutcome": "Retain the actual save/write failure and successful control recovery. Picker input validation is identified separately from an application write exception.",
+      "context": "INSTALLED_CANDIDATE_OR_EXPLICIT_STAGED_FALLBACK",
+      "status": "NOT_RUN_UI_BLOCKED",
+      "actual": null,
+      "evidence": [],
+      "independentReview": null,
+      "blockingReason": "No closeout scan/rehearsal occurred; unresolved UAC prompt currently blocks native UI continuation.",
+      "nextAction": "After root coordination, execute in installed context or explicitly label staged fallback. Existing UDT evidence is not new installed proof.",
+      "newCloseoutNativeExecutionOccurred": false
+    },
+    {
+      "id": "UNINST-01",
+      "title": "Uninstall",
+      "expectedOutcome": "Normal Creative Cloud uninstall removes the installed candidate; panel/package state is verified, with no project mutation.",
+      "context": "INSTALLED_CANDIDATE",
+      "status": "BLOCKED_INSTALLATION_NOT_COMPLETED",
+      "actual": null,
+      "evidence": [],
+      "independentReview": null,
+      "blockingReason": "No completed normal installation or installed candidate identity exists in this closeout.",
+      "nextAction": "Requires root handoff and completed normal install/identity binding first.",
+      "newCloseoutNativeExecutionOccurred": false
+    },
+    {
+      "id": "REINST-01",
+      "title": "Reinstall",
+      "expectedOutcome": "Reinstall the same frozen CCX through the normal flow, restart/open panel, rebind installed identity and retain a bounded native report.",
+      "context": "INSTALLED_CANDIDATE",
+      "status": "BLOCKED_INSTALLATION_NOT_COMPLETED",
+      "actual": null,
+      "evidence": [],
+      "independentReview": null,
+      "blockingReason": "No completed normal installation or installed candidate identity exists in this closeout.",
+      "nextAction": "Requires root handoff and completed normal install/identity binding first.",
+      "newCloseoutNativeExecutionOccurred": false
+    },
+    {
+      "id": "UPGRADE-01",
+      "title": "Upgrade if legitimate prior package exists",
+      "expectedOutcome": "Only an available legitimate previous package with the same plugin ID qualifies upgrade testing. Otherwise mark unavailable/unqualified; no invented predecessor or ID swap.",
+      "context": "INSTALLED_CANDIDATE",
+      "status": "BLOCKED_NO_INSTALLED_PREVIOUS_BASELINE",
+      "actual": {
+        "result": "ELIGIBLE_PACKAGE_ARTIFACT_ONLY",
+        "previousVersion": "0.2.0",
+        "previousPluginId": "com.unn0wn002.audio-preflight.beta",
+        "previousPackage": "artifacts/com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+        "previousSha256": "70726062905df989c2f59d11b007c41be562a85219906eace5fef37210c76a97",
+        "previousRuntimeReceiptIdentity": "29d17cda3a16f0637d812e733740fe32d3da4ca527a44d67bc676fb542e1d6d9",
+        "previousGitSourceSha": null,
+        "provenanceLimit": "Legacy receipt has no Git source SHA or sourceIdentity field. Frozen package identity and byte hashes match the retained 4 October 2026 CCX archive verification; this is not a current host/native or installation approval.",
+        "installedBaselineEstablished": false,
+        "upgradeExecuted": false
+      },
+      "evidence": [
+        "PACKAGE_AUDIT.md",
+        "previous-beta-ccx-audit.json"
+      ],
+      "independentReview": "package-audit-independent-review.json",
+      "blockingReason": "Eligible genuine same-ID 0.2.0 package is available, but no installed 0.2.0 baseline or upgrade has been observed.",
+      "nextAction": "Sole UI owner may install and independently observe legitimate same-ID 0.2.0 baseline, then upgrade to exact prepared 0.2.1 CCX. Record actual outcomes separately.",
+      "newCloseoutNativeExecutionOccurred": false
+    },
+    {
+      "id": "REOPEN-01",
+      "title": "Save-close-reopen rehearsal",
+      "expectedOutcome": "Rehearse normal disposable save/close/reopen with inspected state, native evidence and disk snapshots. Existing F11 proof may be referenced only for its frozen UDT context; no full fixture campaign rerun.",
+      "context": "INSTALLED_CANDIDATE_OR_EXPLICIT_STAGED_FALLBACK",
+      "status": "NOT_RUN_UI_BLOCKED",
+      "actual": null,
+      "evidence": [],
+      "independentReview": null,
+      "blockingReason": "No closeout scan/rehearsal occurred; unresolved UAC prompt currently blocks native UI continuation.",
+      "nextAction": "After root coordination, execute in installed context or explicitly label staged fallback. Existing UDT evidence is not new installed proof.",
+      "newCloseoutNativeExecutionOccurred": false
+    },
+    {
+      "id": "DEMO-01",
+      "title": "Documented demo rehearsal",
+      "expectedOutcome": "Rehearsal references exact candidate/host/provenance, supported rule locations and intent guidance, actual Mono/Multichannel/pan evidence, scoped Unknown/Partial behavior, lifecycle/export controls and bounded metrics. Mocked examples are labeled.",
+      "context": "SUBMISSION_REHEARSAL",
+      "status": "PARTIAL_REUSABLE_EVIDENCE_REHEARSAL_NOT_RUN",
+      "actual": {
+        "reusableEvidenceReview": "demo-evidence-reuse-review.json",
+        "simulatedPartialSegment": "READY_FOR_EXPLICITLY_SIMULATED_PRESENTATION",
+        "actualRehearsal": "PENDING"
+      },
+      "evidence": [
+        "demo-evidence-reuse-review.json",
+        "fixtures/sample_export.json"
+      ],
+      "independentReview": "demo-evidence-reuse-review.json",
+      "blockingReason": "Native lifecycle/current rehearsal and customer installation are incomplete; simulated partial and prior UDT fixture segments are reusable with explicit provenance only.",
+      "nextAction": "Await the sole UI owner/root evidence for this check; do not infer execution from names or prior UDT proof.",
+      "newCloseoutNativeExecutionOccurred": false
+    },
+    {
+      "id": "BOUND-01",
+      "title": "Readiness and responsiveness bounds",
+      "expectedOutcome": "Separate submission/demo readiness from distribution. Retain bounded timings/stalls without a general performance claim; larger-project/cohort/paid gates remain pending.",
+      "context": "CLOSEOUT",
+      "status": "BOUNDARIES_RECORDED",
+      "actual": {
+        "newNativeTiming": null,
+        "newNativeScans": 0,
+        "systemConsentPromptNotAProductHang": true,
+        "existingFixtureMetricsUnchanged": true,
+        "distributionApproval": false
+      },
+      "evidence": [
+        "installation-precheck-independent-review.json",
+        "demo-evidence-reuse-review.json",
+        "package-audit-independent-review.json"
+      ],
+      "independentReview": null,
+      "blockingReason": null,
+      "nextAction": "Keep all pending gates explicit; root owns one operator handoff and final status."
+    }
+  ],
+  "newEvidence": [
+    {
+      "file": "PACKAGE_AUDIT.md",
+      "bytes": 3741,
+      "sha256": "20e52d95aff0c208287bb7240712f627c4794bb896be0ae79dd9b816d0342054"
+    },
+    {
+      "file": "current-ccx-verification.json",
+      "bytes": 2304,
+      "sha256": "86cd1f7b14ae9462f28beb6081a05f1e91ad1acc6376e160af0d4f0410312ec4"
+    },
+    {
+      "file": "package-source-stage-verification.json",
+      "bytes": 4419,
+      "sha256": "8c803257700f20a9ca5579003b43839a11107bb55aafa7989d73678fdbf41f83"
+    },
+    {
+      "file": "previous-beta-ccx-audit.json",
+      "bytes": 6430,
+      "sha256": "0f15e924bd435b223f7a0f36f3d9c69789204feb4dfc40b8d9b5b2b803437b40"
+    },
+    {
+      "file": "package-audit-independent-review.json",
+      "kind": "Independent static audit review; no new native execution"
+    },
+    {
+      "file": "demo-evidence-reuse-review.json",
+      "kind": "Existing evidence eligibility; zero new test or host executions"
+    },
+    {
+      "file": "creative-cloud-first-observed.png",
+      "bytes": 72469,
+      "sha256": "72aa32cd20d9d03f3aa13c54b5cecad95761e24916eb3f9d8fb42d688afe3069",
+      "fileLastWriteTime": "2026-10-19T02:14:18.737Z"
+    },
+    {
+      "file": "creative-cloud-existing-profile-apps.png",
+      "bytes": 108335,
+      "sha256": "52211007e0aea43c9bed06240b1fed0fe95401db3449636fbbe2e5fa00f2365c",
+      "fileLastWriteTime": "2026-10-19T02:17:14.193Z"
+    },
+    {
+      "file": "creative-cloud-manage-plugins-before.png",
+      "bytes": 61615,
+      "sha256": "6294a40b4a13e030d404bded97f3d0d80b7684343e21bb7088443483d537d02e",
+      "fileLastWriteTime": "2026-10-19T02:17:48.856Z"
+    },
+    {
+      "file": "creative-cloud-ccx-uac-blocker.png",
+      "bytes": 95519,
+      "sha256": "5b7ae60a78717753049326ed79570e283ab3d96f5b992f2b3632e02fbbb3fe5d",
+      "fileLastWriteTime": "2026-10-19T02:18:35.393Z"
+    },
+    {
+      "file": "lifecycle-project-copy.json",
+      "kind": "Disposable-copy baseline metadata; independently verified bytes/hash"
+    },
+    {
+      "file": "installation-precheck-independent-review.json",
+      "kind": "Independent precheck/system-consent blocker review; zero host scans"
+    }
+  ],
+  "nativeExecutions": {
+    "newRetainedReports": 0,
+    "newUiOnlyScans": 0,
+    "ruleDetectionMetricsAdded": 0
+  },
+  "remainingNonCloseoutGates": [
+    "Controlled larger-project performance",
+    "Private beta cohort outcomes",
+    "Paid release/commercialization gates",
+    "Any other unexercised broad beta checklist item"
+  ],
+  "operatorHandoff": {
+    "issuedByIndependentReviewer": false,
+    "coordination": "Root-owned single consolidated operator handoff; no second independent operator request.",
+    "artifact": "docs/SUBMISSION_OPERATOR_HANDOFF.md",
+    "owner": "root"
+  },
+  "blockers": [
+    {
+      "id": "SYSTEM_CONSENT",
+      "evidence": "creative-cloud-ccx-uac-blocker.png",
+      "actual": "Unresolved Windows UAC for Adobe Creative Cloud; no Yes/No response or installation input was given.",
+      "cause": "No product/package failure cause established."
+    },
+    {
+      "id": "CLEAN_TEST_PROFILE",
+      "evidence": "installation-precheck-independent-review.json",
+      "actual": "Attempt used the existing non-clean profile; clean-profile installation remains unqualified."
+    }
+  ],
+  "nextAction": "Root consolidates the single operator handoff. After normal consent/profile resolution, resume installation/identity and bounded lifecycle/rehearsal; a staged fallback must be separately labeled and cannot pass final installed submission readiness.",
+  "status": "BLOCKED_SUBMISSION_CLOSEOUT",
+  "finalizedAt": "2026-10-19T02:21:18.097Z",
+  "liveDemoReopenRehearsalExecuted": false,
+  "runtimeChangesRequiredOrPerformed": false,
+  "nativeFixtureGateRemains": "NATIVE_FIXTURES_BOUNDED_PASS",
+  "finalization": "Blocked closeout evidence only; frozen fixture/native/runtime qualification remains intact. No runtime defect, CCX rejection, installed identity, lifecycle result or live demo/reopen closeout is inferred."
+}

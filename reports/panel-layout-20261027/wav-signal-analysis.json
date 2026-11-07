@@ -1,0 +1,64 @@
+{
+  "method": "Parse native-export RIFF PCM and inspect every 16-bit sample",
+  "file": "reports/panel-layout-20261027/active-sequence-baseline.wav",
+  "sha256": "55a3281e8a38c54bbcde0be843c4664f510bcf3c49167745b88c91b8f93e395d",
+  "bytes": 1165468,
+  "format": "PCM",
+  "channels": 2,
+  "sampleRateHz": 48000,
+  "bitsPerSample": 16,
+  "frames": 288288,
+  "durationSeconds": 6.006,
+  "chunks": [
+    {
+      "id": "fmt ",
+      "bytes": 16
+    },
+    {
+      "id": "data",
+      "bytes": 1153152
+    },
+    {
+      "id": "LIST",
+      "bytes": 82
+    },
+    {
+      "id": "bext",
+      "bytes": 602
+    },
+    {
+      "id": "iXML",
+      "bytes": 1649
+    },
+    {
+      "id": "_PMX",
+      "bytes": 9905
+    }
+  ],
+  "channelMetrics": [
+    {
+      "channel": 1,
+      "peakInteger": 0,
+      "peakDBFS": "-Infinity",
+      "rmsDBFS": "-Infinity",
+      "nonzeroSamples": 0,
+      "clippedSamples": 0
+    },
+    {
+      "channel": 2,
+      "peakInteger": 0,
+      "peakDBFS": "-Infinity",
+      "rmsDBFS": "-Infinity",
+      "nonzeroSamples": 0,
+      "clippedSamples": 0
+    }
+  ],
+  "differentFrames": 0,
+  "allSamplesDigitalZero": true,
+  "interpretation": "Rendered-file measurement only; no speaker playback or routing intent certification",
+  "projectUnchanged": true,
+  "host": {
+    "Id": 37304,
+    "Responding": true
+  }
+}

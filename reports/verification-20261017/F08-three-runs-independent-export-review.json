@@ -1,0 +1,1179 @@
+{
+  "recordType": "independent-native-export-analysis",
+  "reviewedAt": "2026-10-18T09:47:58.443Z",
+  "sourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "interpretation": "Actual retained native export parsing; diagnostic replay is static consistency only. No fixture truth, TP/FP/FN, thenable behavior or unchanged UI state is inferred by this script.",
+  "duplicateInputPolicy": "Reject repeated batchId/runId or repeated scan timestamp + stable observation/diagnostic identity across inputs; aliases do not count as new executions.",
+  "batches": [
+    {
+      "source": "reports/verification-20261017/F08-native-repeat-batch-export.json",
+      "bytes": 399374,
+      "sha256": "6fe85951869cf58dea04ad6d17abb774b357d4a33baade31692281260d2f0358",
+      "fileLastWriteTime": "2026-10-18T09:44:52.411Z",
+      "recordType": "arid-native-fixture-repeat-batch",
+      "helperVersion": "1.0.1",
+      "helperFile": "scripts/native-fixture-repeat-probe.js",
+      "batchId": "F08-2026-10-18T09-44-04-730Z-3ba17b",
+      "fixtureIds": [
+        "F08"
+      ],
+      "stateLabel": "UI verified Mono1 with enabled ARID_20261018_mono.wav on unmuted A1",
+      "expectedRuntime": {
+        "pluginVersion": "0.2.1",
+        "hostName": "premierepro",
+        "hostVersion": "26.5.2",
+        "implementationGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+        "declaredRuntimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408"
+      },
+      "executionMethod": "UDT_CONSOLE_STAGED_ADAPTER_SEQUENTIAL_NATIVE_READS",
+      "batchStartedAt": "2026-10-18T09:44:04.730Z",
+      "batchFinishedAt": "2026-10-18T09:44:04.815Z",
+      "executionStatus": "THREE_REPORTS_COLLECTED",
+      "scansRequested": 3,
+      "scanAttempts": 3,
+      "actualRetainedReports": 3,
+      "executionError": null,
+      "threeReportCollectionComplete": true,
+      "repeatCollectionQualification": "THREE_REPORT_ENVELOPES_ONLY_REQUIRES_INDEPENDENT_FIXTURE_REVIEW",
+      "declarationsAreNotIndependentUiTruth": true,
+      "runtimeIdentityLimit": "UDT loaded staging path and source-identity.json; helper does not recompute source hashes."
+    }
+  ],
+  "exports": [
+    {
+      "source": "reports/verification-20261017/F08-native-repeat-batch-export.json",
+      "bytes": 399374,
+      "sha256": "6fe85951869cf58dea04ad6d17abb774b357d4a33baade31692281260d2f0358",
+      "rawByteScope": "Whole host-saved native repeat batch; this embedded report was not separately host-exported.",
+      "reportJsonPointer": "/runs/0/report",
+      "parentBatch": {
+        "recordType": "arid-native-fixture-repeat-batch",
+        "helperVersion": "1.0.1",
+        "helperFile": "scripts/native-fixture-repeat-probe.js",
+        "batchId": "F08-2026-10-18T09-44-04-730Z-3ba17b",
+        "fixtureIds": [
+          "F08"
+        ],
+        "stateLabel": "UI verified Mono1 with enabled ARID_20261018_mono.wav on unmuted A1",
+        "expectedRuntime": {
+          "pluginVersion": "0.2.1",
+          "hostName": "premierepro",
+          "hostVersion": "26.5.2",
+          "implementationGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+          "declaredRuntimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408"
+        },
+        "executionMethod": "UDT_CONSOLE_STAGED_ADAPTER_SEQUENTIAL_NATIVE_READS",
+        "batchStartedAt": "2026-10-18T09:44:04.730Z",
+        "batchFinishedAt": "2026-10-18T09:44:04.815Z",
+        "executionStatus": "THREE_REPORTS_COLLECTED",
+        "scansRequested": 3,
+        "scanAttempts": 3,
+        "actualRetainedReports": 3,
+        "executionError": null,
+        "threeReportCollectionComplete": true,
+        "repeatCollectionQualification": "THREE_REPORT_ENVELOPES_ONLY_REQUIRES_INDEPENDENT_FIXTURE_REVIEW",
+        "declarationsAreNotIndependentUiTruth": true,
+        "runtimeIdentityLimit": "UDT loaded staging path and source-identity.json; helper does not recompute source hashes."
+      },
+      "nativeBatchRun": {
+        "runId": "F08-2026-10-18T09-44-04-730Z-3ba17b:1",
+        "runIndex": 1,
+        "startedAt": "2026-10-18T09:44:04.730Z",
+        "finishedAt": "2026-10-18T09:44:04.760Z"
+      },
+      "nativeScanGeneratedAt": "2026-10-18T09:44:04.730Z",
+      "fileLastWriteTime": "2026-10-18T09:44:52.411Z",
+      "timestampMeaning": "nativeScanGeneratedAt is the plugin scan timestamp; fileLastWriteTime is filesystem save/copy metadata and is not another scan time.",
+      "generatedAt": "2026-10-18T09:44:04.730Z",
+      "host": {
+        "name": "premierepro",
+        "version": "26.5.2",
+        "uiLocale": "en_US",
+        "uxpVersion": "uxp-9.3.0-local",
+        "pluginVersion": "0.2.1"
+      },
+      "completion": "completed",
+      "durationMs": 30,
+      "status": "COMPLETE",
+      "coverage": {
+        "state": "COMPLETE",
+        "project": {
+          "status": "COMPLETE",
+          "expected": 1,
+          "observed": 1,
+          "known": 1,
+          "unknown": 0
+        },
+        "sequences": {
+          "status": "COMPLETE",
+          "expected": 3,
+          "observed": 3,
+          "known": 3,
+          "unknown": 0
+        },
+        "tracks": {
+          "status": "COMPLETE",
+          "expected": 11,
+          "observed": 11,
+          "known": 11,
+          "unknown": 0
+        },
+        "clips": {
+          "status": "COMPLETE",
+          "expected": 3,
+          "observed": 3,
+          "known": 3,
+          "unknown": 0
+        },
+        "components": {
+          "status": "COMPLETE",
+          "expected": 10,
+          "observed": 10,
+          "known": 10,
+          "unknown": 0
+        },
+        "failedReads": 0,
+        "capabilities": {
+          "sourceChannelMapping": "UNKNOWN",
+          "outputBusTopology": "UNKNOWN",
+          "playbackExportCorrectness": "UNKNOWN"
+        }
+      },
+      "stableObservationSha256": "8a89697f0b67bf646fdbaacab68be3cc998190fcd2a1bd4471083779985f5419",
+      "stableDiagnosticSha256": "8870ff2c8d4bbc6e9fddf8d178596cb26c37140af08ccd25ae909eec4642f46e",
+      "diagnosticReplayAgrees": true,
+      "recursiveErrors": [],
+      "strictDocumentedShapeChecks": {
+        "allObservedShapesValid": true,
+        "parameterCount": 144,
+        "keyframeCount": 144,
+        "animatedParameterCount": 0,
+        "keyframeTimeCount": 0,
+        "issues": []
+      },
+      "sequences": [
+        {
+          "name": "stereo-l440-r880",
+          "guid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+          "occurrenceIndex": 0,
+          "settings": {
+            "audioChannelCount": 2,
+            "audioChannelType": 1,
+            "audioSampleRate": {
+              "value": 48000,
+              "ticksPerFrame": 5292000
+            }
+          },
+          "audioTrackCount": 3,
+          "tracks": [
+            {
+              "name": "Audio 1",
+              "id": "2",
+              "index": 0,
+              "muted": false,
+              "clipCount": 1,
+              "clips": [
+                {
+                  "name": "F04 Intentional creative hard-right",
+                  "occurrenceIndex": 0,
+                  "disabled": false,
+                  "startTime": {
+                    "ticks": "0",
+                    "seconds": 0
+                  },
+                  "endTime": {
+                    "ticks": "762810048000",
+                    "seconds": 3.003
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Audio 2",
+              "id": "3",
+              "index": 1,
+              "muted": false,
+              "clipCount": 1,
+              "clips": [
+                {
+                  "name": "stereo-l440-r880.wav",
+                  "occurrenceIndex": 0,
+                  "disabled": false,
+                  "startTime": {
+                    "ticks": "762810048000",
+                    "seconds": 3.003
+                  },
+                  "endTime": {
+                    "ticks": "1525620096000",
+                    "seconds": 6.006
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Audio 3",
+              "id": "4",
+              "index": 2,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            }
+          ]
+        },
+        {
+          "name": "F08 Actual Mono1",
+          "guid": "0bafa115-0b9a-40b8-a5b4-931ca848ed8c",
+          "occurrenceIndex": 1,
+          "settings": {
+            "audioChannelCount": 1,
+            "audioChannelType": 0,
+            "audioSampleRate": {
+              "value": 48000,
+              "ticksPerFrame": 5292000
+            }
+          },
+          "audioTrackCount": 4,
+          "tracks": [
+            {
+              "name": "Audio 1",
+              "id": "2",
+              "index": 0,
+              "muted": false,
+              "clipCount": 1,
+              "clips": [
+                {
+                  "name": "ARID_20261018_mono.wav",
+                  "occurrenceIndex": 0,
+                  "disabled": false,
+                  "startTime": {
+                    "ticks": "0",
+                    "seconds": 0
+                  },
+                  "endTime": {
+                    "ticks": "752215464000",
+                    "seconds": 2.961291666666667
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Audio 2",
+              "id": "3",
+              "index": 1,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 3",
+              "id": "4",
+              "index": 2,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 4",
+              "id": "5",
+              "index": 3,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            }
+          ]
+        },
+        {
+          "name": "F08_Mono",
+          "guid": "ca7fe906-c517-4456-a63a-7ce5c3042092",
+          "occurrenceIndex": 2,
+          "settings": {
+            "audioChannelCount": 2,
+            "audioChannelType": 1,
+            "audioSampleRate": {
+              "value": 48000,
+              "ticksPerFrame": 5292000
+            }
+          },
+          "audioTrackCount": 4,
+          "tracks": [
+            {
+              "name": "Audio 1",
+              "id": "2",
+              "index": 0,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 2",
+              "id": "3",
+              "index": 1,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 3",
+              "id": "4",
+              "index": 2,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 4",
+              "id": "5",
+              "index": 3,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            }
+          ]
+        }
+      ],
+      "risk": [],
+      "information": [
+        {
+          "ruleId": "ARID-I01",
+          "severity": "Information",
+          "confidence": "DIRECT_OBSERVATION",
+          "location": {
+            "sequence": "stereo-l440-r880",
+            "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+            "sequenceOccurrenceIndex": 0,
+            "track": null,
+            "trackId": null,
+            "trackIndex": null,
+            "clip": null,
+            "clipOccurrenceIndex": null,
+            "startTime": null,
+            "endTime": null
+          },
+          "observed": "Sequence audio channel type=Stereo, count=2.",
+          "why": "Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.",
+          "remediation": "Compare against delivery requirements and source expectations."
+        },
+        {
+          "ruleId": "ARID-I01",
+          "severity": "Information",
+          "confidence": "DIRECT_OBSERVATION",
+          "location": {
+            "sequence": "F08 Actual Mono1",
+            "sequenceGuid": "0bafa115-0b9a-40b8-a5b4-931ca848ed8c",
+            "sequenceOccurrenceIndex": 1,
+            "track": null,
+            "trackId": null,
+            "trackIndex": null,
+            "clip": null,
+            "clipOccurrenceIndex": null,
+            "startTime": null,
+            "endTime": null
+          },
+          "observed": "Sequence audio channel type=Mono, count=1.",
+          "why": "Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.",
+          "remediation": "Compare against delivery requirements and source expectations."
+        },
+        {
+          "ruleId": "ARID-I01",
+          "severity": "Information",
+          "confidence": "DIRECT_OBSERVATION",
+          "location": {
+            "sequence": "F08_Mono",
+            "sequenceGuid": "ca7fe906-c517-4456-a63a-7ce5c3042092",
+            "sequenceOccurrenceIndex": 2,
+            "track": null,
+            "trackId": null,
+            "trackIndex": null,
+            "clip": null,
+            "clipOccurrenceIndex": null,
+            "startTime": null,
+            "endTime": null
+          },
+          "observed": "Sequence audio channel type=Stereo, count=2.",
+          "why": "Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.",
+          "remediation": "Compare against delivery requirements and source expectations."
+        }
+      ],
+      "unknown": [
+        {
+          "ruleId": "ARID-U01",
+          "location": {
+            "project": "ARID_Disposable_20261018.prproj"
+          },
+          "observed": "Final Audio Track Mixer output-bus routing topology is not established by this probe."
+        },
+        {
+          "ruleId": "ARID-U02",
+          "location": {
+            "project": "ARID_Disposable_20261018.prproj"
+          },
+          "observed": "Modify > Audio Channels source-channel mapping is not established by this probe."
+        },
+        {
+          "ruleId": "ARID-U03",
+          "location": {
+            "project": "ARID_Disposable_20261018.prproj"
+          },
+          "observed": "End-to-end playback/export correctness is not established by DOM observation alone."
+        }
+      ]
+    },
+    {
+      "source": "reports/verification-20261017/F08-native-repeat-batch-export.json",
+      "bytes": 399374,
+      "sha256": "6fe85951869cf58dea04ad6d17abb774b357d4a33baade31692281260d2f0358",
+      "rawByteScope": "Whole host-saved native repeat batch; this embedded report was not separately host-exported.",
+      "reportJsonPointer": "/runs/1/report",
+      "parentBatch": {
+        "recordType": "arid-native-fixture-repeat-batch",
+        "helperVersion": "1.0.1",
+        "helperFile": "scripts/native-fixture-repeat-probe.js",
+        "batchId": "F08-2026-10-18T09-44-04-730Z-3ba17b",
+        "fixtureIds": [
+          "F08"
+        ],
+        "stateLabel": "UI verified Mono1 with enabled ARID_20261018_mono.wav on unmuted A1",
+        "expectedRuntime": {
+          "pluginVersion": "0.2.1",
+          "hostName": "premierepro",
+          "hostVersion": "26.5.2",
+          "implementationGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+          "declaredRuntimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408"
+        },
+        "executionMethod": "UDT_CONSOLE_STAGED_ADAPTER_SEQUENTIAL_NATIVE_READS",
+        "batchStartedAt": "2026-10-18T09:44:04.730Z",
+        "batchFinishedAt": "2026-10-18T09:44:04.815Z",
+        "executionStatus": "THREE_REPORTS_COLLECTED",
+        "scansRequested": 3,
+        "scanAttempts": 3,
+        "actualRetainedReports": 3,
+        "executionError": null,
+        "threeReportCollectionComplete": true,
+        "repeatCollectionQualification": "THREE_REPORT_ENVELOPES_ONLY_REQUIRES_INDEPENDENT_FIXTURE_REVIEW",
+        "declarationsAreNotIndependentUiTruth": true,
+        "runtimeIdentityLimit": "UDT loaded staging path and source-identity.json; helper does not recompute source hashes."
+      },
+      "nativeBatchRun": {
+        "runId": "F08-2026-10-18T09-44-04-730Z-3ba17b:2",
+        "runIndex": 2,
+        "startedAt": "2026-10-18T09:44:04.760Z",
+        "finishedAt": "2026-10-18T09:44:04.788Z"
+      },
+      "nativeScanGeneratedAt": "2026-10-18T09:44:04.760Z",
+      "fileLastWriteTime": "2026-10-18T09:44:52.411Z",
+      "timestampMeaning": "nativeScanGeneratedAt is the plugin scan timestamp; fileLastWriteTime is filesystem save/copy metadata and is not another scan time.",
+      "generatedAt": "2026-10-18T09:44:04.760Z",
+      "host": {
+        "name": "premierepro",
+        "version": "26.5.2",
+        "uiLocale": "en_US",
+        "uxpVersion": "uxp-9.3.0-local",
+        "pluginVersion": "0.2.1"
+      },
+      "completion": "completed",
+      "durationMs": 27,
+      "status": "COMPLETE",
+      "coverage": {
+        "state": "COMPLETE",
+        "project": {
+          "status": "COMPLETE",
+          "expected": 1,
+          "observed": 1,
+          "known": 1,
+          "unknown": 0
+        },
+        "sequences": {
+          "status": "COMPLETE",
+          "expected": 3,
+          "observed": 3,
+          "known": 3,
+          "unknown": 0
+        },
+        "tracks": {
+          "status": "COMPLETE",
+          "expected": 11,
+          "observed": 11,
+          "known": 11,
+          "unknown": 0
+        },
+        "clips": {
+          "status": "COMPLETE",
+          "expected": 3,
+          "observed": 3,
+          "known": 3,
+          "unknown": 0
+        },
+        "components": {
+          "status": "COMPLETE",
+          "expected": 10,
+          "observed": 10,
+          "known": 10,
+          "unknown": 0
+        },
+        "failedReads": 0,
+        "capabilities": {
+          "sourceChannelMapping": "UNKNOWN",
+          "outputBusTopology": "UNKNOWN",
+          "playbackExportCorrectness": "UNKNOWN"
+        }
+      },
+      "stableObservationSha256": "8a89697f0b67bf646fdbaacab68be3cc998190fcd2a1bd4471083779985f5419",
+      "stableDiagnosticSha256": "8870ff2c8d4bbc6e9fddf8d178596cb26c37140af08ccd25ae909eec4642f46e",
+      "diagnosticReplayAgrees": true,
+      "recursiveErrors": [],
+      "strictDocumentedShapeChecks": {
+        "allObservedShapesValid": true,
+        "parameterCount": 144,
+        "keyframeCount": 144,
+        "animatedParameterCount": 0,
+        "keyframeTimeCount": 0,
+        "issues": []
+      },
+      "sequences": [
+        {
+          "name": "stereo-l440-r880",
+          "guid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+          "occurrenceIndex": 0,
+          "settings": {
+            "audioChannelCount": 2,
+            "audioChannelType": 1,
+            "audioSampleRate": {
+              "value": 48000,
+              "ticksPerFrame": 5292000
+            }
+          },
+          "audioTrackCount": 3,
+          "tracks": [
+            {
+              "name": "Audio 1",
+              "id": "2",
+              "index": 0,
+              "muted": false,
+              "clipCount": 1,
+              "clips": [
+                {
+                  "name": "F04 Intentional creative hard-right",
+                  "occurrenceIndex": 0,
+                  "disabled": false,
+                  "startTime": {
+                    "ticks": "0",
+                    "seconds": 0
+                  },
+                  "endTime": {
+                    "ticks": "762810048000",
+                    "seconds": 3.003
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Audio 2",
+              "id": "3",
+              "index": 1,
+              "muted": false,
+              "clipCount": 1,
+              "clips": [
+                {
+                  "name": "stereo-l440-r880.wav",
+                  "occurrenceIndex": 0,
+                  "disabled": false,
+                  "startTime": {
+                    "ticks": "762810048000",
+                    "seconds": 3.003
+                  },
+                  "endTime": {
+                    "ticks": "1525620096000",
+                    "seconds": 6.006
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Audio 3",
+              "id": "4",
+              "index": 2,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            }
+          ]
+        },
+        {
+          "name": "F08 Actual Mono1",
+          "guid": "0bafa115-0b9a-40b8-a5b4-931ca848ed8c",
+          "occurrenceIndex": 1,
+          "settings": {
+            "audioChannelCount": 1,
+            "audioChannelType": 0,
+            "audioSampleRate": {
+              "value": 48000,
+              "ticksPerFrame": 5292000
+            }
+          },
+          "audioTrackCount": 4,
+          "tracks": [
+            {
+              "name": "Audio 1",
+              "id": "2",
+              "index": 0,
+              "muted": false,
+              "clipCount": 1,
+              "clips": [
+                {
+                  "name": "ARID_20261018_mono.wav",
+                  "occurrenceIndex": 0,
+                  "disabled": false,
+                  "startTime": {
+                    "ticks": "0",
+                    "seconds": 0
+                  },
+                  "endTime": {
+                    "ticks": "752215464000",
+                    "seconds": 2.961291666666667
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Audio 2",
+              "id": "3",
+              "index": 1,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 3",
+              "id": "4",
+              "index": 2,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 4",
+              "id": "5",
+              "index": 3,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            }
+          ]
+        },
+        {
+          "name": "F08_Mono",
+          "guid": "ca7fe906-c517-4456-a63a-7ce5c3042092",
+          "occurrenceIndex": 2,
+          "settings": {
+            "audioChannelCount": 2,
+            "audioChannelType": 1,
+            "audioSampleRate": {
+              "value": 48000,
+              "ticksPerFrame": 5292000
+            }
+          },
+          "audioTrackCount": 4,
+          "tracks": [
+            {
+              "name": "Audio 1",
+              "id": "2",
+              "index": 0,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 2",
+              "id": "3",
+              "index": 1,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 3",
+              "id": "4",
+              "index": 2,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 4",
+              "id": "5",
+              "index": 3,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            }
+          ]
+        }
+      ],
+      "risk": [],
+      "information": [
+        {
+          "ruleId": "ARID-I01",
+          "severity": "Information",
+          "confidence": "DIRECT_OBSERVATION",
+          "location": {
+            "sequence": "stereo-l440-r880",
+            "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+            "sequenceOccurrenceIndex": 0,
+            "track": null,
+            "trackId": null,
+            "trackIndex": null,
+            "clip": null,
+            "clipOccurrenceIndex": null,
+            "startTime": null,
+            "endTime": null
+          },
+          "observed": "Sequence audio channel type=Stereo, count=2.",
+          "why": "Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.",
+          "remediation": "Compare against delivery requirements and source expectations."
+        },
+        {
+          "ruleId": "ARID-I01",
+          "severity": "Information",
+          "confidence": "DIRECT_OBSERVATION",
+          "location": {
+            "sequence": "F08 Actual Mono1",
+            "sequenceGuid": "0bafa115-0b9a-40b8-a5b4-931ca848ed8c",
+            "sequenceOccurrenceIndex": 1,
+            "track": null,
+            "trackId": null,
+            "trackIndex": null,
+            "clip": null,
+            "clipOccurrenceIndex": null,
+            "startTime": null,
+            "endTime": null
+          },
+          "observed": "Sequence audio channel type=Mono, count=1.",
+          "why": "Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.",
+          "remediation": "Compare against delivery requirements and source expectations."
+        },
+        {
+          "ruleId": "ARID-I01",
+          "severity": "Information",
+          "confidence": "DIRECT_OBSERVATION",
+          "location": {
+            "sequence": "F08_Mono",
+            "sequenceGuid": "ca7fe906-c517-4456-a63a-7ce5c3042092",
+            "sequenceOccurrenceIndex": 2,
+            "track": null,
+            "trackId": null,
+            "trackIndex": null,
+            "clip": null,
+            "clipOccurrenceIndex": null,
+            "startTime": null,
+            "endTime": null
+          },
+          "observed": "Sequence audio channel type=Stereo, count=2.",
+          "why": "Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.",
+          "remediation": "Compare against delivery requirements and source expectations."
+        }
+      ],
+      "unknown": [
+        {
+          "ruleId": "ARID-U01",
+          "location": {
+            "project": "ARID_Disposable_20261018.prproj"
+          },
+          "observed": "Final Audio Track Mixer output-bus routing topology is not established by this probe."
+        },
+        {
+          "ruleId": "ARID-U02",
+          "location": {
+            "project": "ARID_Disposable_20261018.prproj"
+          },
+          "observed": "Modify > Audio Channels source-channel mapping is not established by this probe."
+        },
+        {
+          "ruleId": "ARID-U03",
+          "location": {
+            "project": "ARID_Disposable_20261018.prproj"
+          },
+          "observed": "End-to-end playback/export correctness is not established by DOM observation alone."
+        }
+      ]
+    },
+    {
+      "source": "reports/verification-20261017/F08-native-repeat-batch-export.json",
+      "bytes": 399374,
+      "sha256": "6fe85951869cf58dea04ad6d17abb774b357d4a33baade31692281260d2f0358",
+      "rawByteScope": "Whole host-saved native repeat batch; this embedded report was not separately host-exported.",
+      "reportJsonPointer": "/runs/2/report",
+      "parentBatch": {
+        "recordType": "arid-native-fixture-repeat-batch",
+        "helperVersion": "1.0.1",
+        "helperFile": "scripts/native-fixture-repeat-probe.js",
+        "batchId": "F08-2026-10-18T09-44-04-730Z-3ba17b",
+        "fixtureIds": [
+          "F08"
+        ],
+        "stateLabel": "UI verified Mono1 with enabled ARID_20261018_mono.wav on unmuted A1",
+        "expectedRuntime": {
+          "pluginVersion": "0.2.1",
+          "hostName": "premierepro",
+          "hostVersion": "26.5.2",
+          "implementationGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+          "declaredRuntimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408"
+        },
+        "executionMethod": "UDT_CONSOLE_STAGED_ADAPTER_SEQUENTIAL_NATIVE_READS",
+        "batchStartedAt": "2026-10-18T09:44:04.730Z",
+        "batchFinishedAt": "2026-10-18T09:44:04.815Z",
+        "executionStatus": "THREE_REPORTS_COLLECTED",
+        "scansRequested": 3,
+        "scanAttempts": 3,
+        "actualRetainedReports": 3,
+        "executionError": null,
+        "threeReportCollectionComplete": true,
+        "repeatCollectionQualification": "THREE_REPORT_ENVELOPES_ONLY_REQUIRES_INDEPENDENT_FIXTURE_REVIEW",
+        "declarationsAreNotIndependentUiTruth": true,
+        "runtimeIdentityLimit": "UDT loaded staging path and source-identity.json; helper does not recompute source hashes."
+      },
+      "nativeBatchRun": {
+        "runId": "F08-2026-10-18T09-44-04-730Z-3ba17b:3",
+        "runIndex": 3,
+        "startedAt": "2026-10-18T09:44:04.788Z",
+        "finishedAt": "2026-10-18T09:44:04.815Z"
+      },
+      "nativeScanGeneratedAt": "2026-10-18T09:44:04.788Z",
+      "fileLastWriteTime": "2026-10-18T09:44:52.411Z",
+      "timestampMeaning": "nativeScanGeneratedAt is the plugin scan timestamp; fileLastWriteTime is filesystem save/copy metadata and is not another scan time.",
+      "generatedAt": "2026-10-18T09:44:04.788Z",
+      "host": {
+        "name": "premierepro",
+        "version": "26.5.2",
+        "uiLocale": "en_US",
+        "uxpVersion": "uxp-9.3.0-local",
+        "pluginVersion": "0.2.1"
+      },
+      "completion": "completed",
+      "durationMs": 26,
+      "status": "COMPLETE",
+      "coverage": {
+        "state": "COMPLETE",
+        "project": {
+          "status": "COMPLETE",
+          "expected": 1,
+          "observed": 1,
+          "known": 1,
+          "unknown": 0
+        },
+        "sequences": {
+          "status": "COMPLETE",
+          "expected": 3,
+          "observed": 3,
+          "known": 3,
+          "unknown": 0
+        },
+        "tracks": {
+          "status": "COMPLETE",
+          "expected": 11,
+          "observed": 11,
+          "known": 11,
+          "unknown": 0
+        },
+        "clips": {
+          "status": "COMPLETE",
+          "expected": 3,
+          "observed": 3,
+          "known": 3,
+          "unknown": 0
+        },
+        "components": {
+          "status": "COMPLETE",
+          "expected": 10,
+          "observed": 10,
+          "known": 10,
+          "unknown": 0
+        },
+        "failedReads": 0,
+        "capabilities": {
+          "sourceChannelMapping": "UNKNOWN",
+          "outputBusTopology": "UNKNOWN",
+          "playbackExportCorrectness": "UNKNOWN"
+        }
+      },
+      "stableObservationSha256": "8a89697f0b67bf646fdbaacab68be3cc998190fcd2a1bd4471083779985f5419",
+      "stableDiagnosticSha256": "8870ff2c8d4bbc6e9fddf8d178596cb26c37140af08ccd25ae909eec4642f46e",
+      "diagnosticReplayAgrees": true,
+      "recursiveErrors": [],
+      "strictDocumentedShapeChecks": {
+        "allObservedShapesValid": true,
+        "parameterCount": 144,
+        "keyframeCount": 144,
+        "animatedParameterCount": 0,
+        "keyframeTimeCount": 0,
+        "issues": []
+      },
+      "sequences": [
+        {
+          "name": "stereo-l440-r880",
+          "guid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+          "occurrenceIndex": 0,
+          "settings": {
+            "audioChannelCount": 2,
+            "audioChannelType": 1,
+            "audioSampleRate": {
+              "value": 48000,
+              "ticksPerFrame": 5292000
+            }
+          },
+          "audioTrackCount": 3,
+          "tracks": [
+            {
+              "name": "Audio 1",
+              "id": "2",
+              "index": 0,
+              "muted": false,
+              "clipCount": 1,
+              "clips": [
+                {
+                  "name": "F04 Intentional creative hard-right",
+                  "occurrenceIndex": 0,
+                  "disabled": false,
+                  "startTime": {
+                    "ticks": "0",
+                    "seconds": 0
+                  },
+                  "endTime": {
+                    "ticks": "762810048000",
+                    "seconds": 3.003
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Audio 2",
+              "id": "3",
+              "index": 1,
+              "muted": false,
+              "clipCount": 1,
+              "clips": [
+                {
+                  "name": "stereo-l440-r880.wav",
+                  "occurrenceIndex": 0,
+                  "disabled": false,
+                  "startTime": {
+                    "ticks": "762810048000",
+                    "seconds": 3.003
+                  },
+                  "endTime": {
+                    "ticks": "1525620096000",
+                    "seconds": 6.006
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Audio 3",
+              "id": "4",
+              "index": 2,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            }
+          ]
+        },
+        {
+          "name": "F08 Actual Mono1",
+          "guid": "0bafa115-0b9a-40b8-a5b4-931ca848ed8c",
+          "occurrenceIndex": 1,
+          "settings": {
+            "audioChannelCount": 1,
+            "audioChannelType": 0,
+            "audioSampleRate": {
+              "value": 48000,
+              "ticksPerFrame": 5292000
+            }
+          },
+          "audioTrackCount": 4,
+          "tracks": [
+            {
+              "name": "Audio 1",
+              "id": "2",
+              "index": 0,
+              "muted": false,
+              "clipCount": 1,
+              "clips": [
+                {
+                  "name": "ARID_20261018_mono.wav",
+                  "occurrenceIndex": 0,
+                  "disabled": false,
+                  "startTime": {
+                    "ticks": "0",
+                    "seconds": 0
+                  },
+                  "endTime": {
+                    "ticks": "752215464000",
+                    "seconds": 2.961291666666667
+                  }
+                }
+              ]
+            },
+            {
+              "name": "Audio 2",
+              "id": "3",
+              "index": 1,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 3",
+              "id": "4",
+              "index": 2,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 4",
+              "id": "5",
+              "index": 3,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            }
+          ]
+        },
+        {
+          "name": "F08_Mono",
+          "guid": "ca7fe906-c517-4456-a63a-7ce5c3042092",
+          "occurrenceIndex": 2,
+          "settings": {
+            "audioChannelCount": 2,
+            "audioChannelType": 1,
+            "audioSampleRate": {
+              "value": 48000,
+              "ticksPerFrame": 5292000
+            }
+          },
+          "audioTrackCount": 4,
+          "tracks": [
+            {
+              "name": "Audio 1",
+              "id": "2",
+              "index": 0,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 2",
+              "id": "3",
+              "index": 1,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 3",
+              "id": "4",
+              "index": 2,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            },
+            {
+              "name": "Audio 4",
+              "id": "5",
+              "index": 3,
+              "muted": false,
+              "clipCount": 0,
+              "clips": []
+            }
+          ]
+        }
+      ],
+      "risk": [],
+      "information": [
+        {
+          "ruleId": "ARID-I01",
+          "severity": "Information",
+          "confidence": "DIRECT_OBSERVATION",
+          "location": {
+            "sequence": "stereo-l440-r880",
+            "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+            "sequenceOccurrenceIndex": 0,
+            "track": null,
+            "trackId": null,
+            "trackIndex": null,
+            "clip": null,
+            "clipOccurrenceIndex": null,
+            "startTime": null,
+            "endTime": null
+          },
+          "observed": "Sequence audio channel type=Stereo, count=2.",
+          "why": "Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.",
+          "remediation": "Compare against delivery requirements and source expectations."
+        },
+        {
+          "ruleId": "ARID-I01",
+          "severity": "Information",
+          "confidence": "DIRECT_OBSERVATION",
+          "location": {
+            "sequence": "F08 Actual Mono1",
+            "sequenceGuid": "0bafa115-0b9a-40b8-a5b4-931ca848ed8c",
+            "sequenceOccurrenceIndex": 1,
+            "track": null,
+            "trackId": null,
+            "trackIndex": null,
+            "clip": null,
+            "clipOccurrenceIndex": null,
+            "startTime": null,
+            "endTime": null
+          },
+          "observed": "Sequence audio channel type=Mono, count=1.",
+          "why": "Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.",
+          "remediation": "Compare against delivery requirements and source expectations."
+        },
+        {
+          "ruleId": "ARID-I01",
+          "severity": "Information",
+          "confidence": "DIRECT_OBSERVATION",
+          "location": {
+            "sequence": "F08_Mono",
+            "sequenceGuid": "ca7fe906-c517-4456-a63a-7ce5c3042092",
+            "sequenceOccurrenceIndex": 2,
+            "track": null,
+            "trackId": null,
+            "trackIndex": null,
+            "clip": null,
+            "clipOccurrenceIndex": null,
+            "startTime": null,
+            "endTime": null
+          },
+          "observed": "Sequence audio channel type=Stereo, count=2.",
+          "why": "Channel configuration is observable. This rule records it but does not label mono, stereo, 5.1, or multichannel as faulty by itself.",
+          "remediation": "Compare against delivery requirements and source expectations."
+        }
+      ],
+      "unknown": [
+        {
+          "ruleId": "ARID-U01",
+          "location": {
+            "project": "ARID_Disposable_20261018.prproj"
+          },
+          "observed": "Final Audio Track Mixer output-bus routing topology is not established by this probe."
+        },
+        {
+          "ruleId": "ARID-U02",
+          "location": {
+            "project": "ARID_Disposable_20261018.prproj"
+          },
+          "observed": "Modify > Audio Channels source-channel mapping is not established by this probe."
+        },
+        {
+          "ruleId": "ARID-U03",
+          "location": {
+            "project": "ARID_Disposable_20261018.prproj"
+          },
+          "observed": "End-to-end playback/export correctness is not established by DOM observation alone."
+        }
+      ]
+    }
+  ]
+}

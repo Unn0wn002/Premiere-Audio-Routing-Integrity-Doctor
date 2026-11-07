@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-28",
+  "runtimeIdentity": "48bb1d177f4cb8ec4b8e90ff4d23fe618baec155a814db80f7b19e5d9096b28f",
+  "fixture": "Positive_Signal_Test.prproj",
+  "session": "User-opened responsive Premiere, PID 38364, no UDT window present",
+  "installedPanelMenu": "Window > UXP Plugins > Audio Preflight - Private Beta",
+  "physicalScans": [
+    {
+      "layout": "docked",
+      "durationMs": 36,
+      "status": "COMPLETE",
+      "reviewFindings": 0,
+      "capabilityUnknowns": 3
+    },
+    {
+      "layout": "floating",
+      "durationMs": 32,
+      "status": "COMPLETE",
+      "reviewFindings": 0,
+      "capabilityUnknowns": 3
+    }
+  ],
+  "coverage": {
+    "sequences": "4/4",
+    "tracks": "15/15",
+    "clips": "7/7",
+    "components": "18/18"
+  },
+  "redockRetainedReport": true,
+  "nativeExport": "NOT_VERIFIED",
+  "automationIncident": "Save As was a separate native window. Keyboard filename input targeted the parent Premiere window, invoking shortcuts and marking the disposable project edited. Export was cancelled through the actual Save As window; controls recovered. No project save occurred. Native File > Revert discarded the automation-induced unsaved changes; the edit marker cleared and the six-second saved timeline reappeared. Subsequent reload/export retry encountered nonresponse.",
+  "savedFixtureSha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+  "savedFixtureUnchanged": true,
+  "postRevertHost": "Responding=false; project reload qualification unresolved",
+  "limits": "Physical visible installed-runtime scan and docking evidence only. No new exported JSON/HTML or complete installed lifecycle PASS. Earlier project-opening/nonresponse root cause remains UNKNOWN. No termination, restart, host preferences, installed files or runtime source changes performed.",
+  "postRevertProcessObservations": [
+    {
+      "pid": 38364,
+      "responding": false,
+      "cpuSeconds": 352.65625
+    },
+    {
+      "afterWaitAtLeastSeconds": 20,
+      "pid": 38364,
+      "responding": false,
+      "cpuSeconds": 395.59375
+    }
+  ]
+}

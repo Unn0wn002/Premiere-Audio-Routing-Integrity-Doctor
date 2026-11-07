@@ -1,0 +1,77 @@
+{
+  "recordType": "closeout-read-only-preservation-check",
+  "recordedAt": "2026-10-19T02:21:11.504Z",
+  "branch": "codex/validated-beta-20261017",
+  "head": "d1b2b091e28d76af60e33c99261d01108e2000db",
+  "baseline": "d1b2b091e28d76af60e33c99261d01108e2000db",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "checks": {
+    "trackedScope": {
+      "runtimeFiles": 7,
+      "priorVerificationFiles": 156,
+      "gitWorkingAndIndexChangesAgainstBaseline": [],
+      "gitIndexChangesAgainstBaseline": [],
+      "missingTrackedFiles": [],
+      "unchanged": true
+    },
+    "verbatimNativeEvidence": {
+      "method": "Exact working bytes hashed as Git blob and compared with baseline Git blob; native -export.json files, screenshots/binary evidence, inherited binary patch.",
+      "filesChecked": 87,
+      "mismatches": [],
+      "unchanged": true
+    },
+    "frozenRuntime": {
+      "normalization": "UTF-8 working CRLF normalized to LF, matching frozen receipt.",
+      "allSevenMatch": true,
+      "files": [
+        {
+          "file": "manifest.json",
+          "sha256": "d362207dcb2c4e32fb7b7e5b1d2201f5898f1f0c5b6ae3400793dda5b140a06b",
+          "matchesFrozenReceipt": true
+        },
+        {
+          "file": "index.html",
+          "sha256": "ae62ee6acbc761e9e02df534319461a04b37be71a6115a0e831af12509324945",
+          "matchesFrozenReceipt": true
+        },
+        {
+          "file": "index.js",
+          "sha256": "c1db1c4074ee8cea0a2d668c562ffe1c9aa0e40968c820cdc0592e6b687f80f7",
+          "matchesFrozenReceipt": true
+        },
+        {
+          "file": "src/premiereAdapter.js",
+          "sha256": "bc7054386b37174676f4d3302216cb43d82214bdc2582dc9f46c52fe738748bf",
+          "matchesFrozenReceipt": true
+        },
+        {
+          "file": "src/diagnostics.js",
+          "sha256": "5ee7db940f0581fb687a3c6103f61b1f04b59fcb3c2d9034535062d3432ded90",
+          "matchesFrozenReceipt": true
+        },
+        {
+          "file": "src/valueSerializer.js",
+          "sha256": "3c874ee7243f30a66215fa3f1d6a5ee65bd18c0dd5a21dbaf59e17b3f787fc4a",
+          "matchesFrozenReceipt": true
+        },
+        {
+          "file": "src/report.js",
+          "sha256": "c93e14044b68ce27862c48c14210136e764c8ac727115b4ca848934f615eb92d",
+          "matchesFrozenReceipt": true
+        }
+      ]
+    },
+    "acceptedDisposable": {
+      "file": "reports/beta-20261004/ARID_Disposable_20261018.prproj",
+      "bytes": 19889,
+      "sha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+      "lastWriteTimeUtc": "2026-10-18T14:42:51.572Z",
+      "expectedSha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+      "hashMatchesAcceptedOriginal": true,
+      "bytesMatchAcceptedOriginal": true,
+      "mtimeMatchesAcceptedOriginal": true
+    }
+  },
+  "qualification": "Read-only filesystem/Git integrity checks only; no UI, host calls, installation consent, installation/lifecycle execution, broad tests or native reruns performed. Git text normalization applies to tracked metadata; separately listed verbatim evidence is checked byte-for-byte.",
+  "preservationPass": true
+}

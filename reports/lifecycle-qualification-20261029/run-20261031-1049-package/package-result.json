@@ -1,0 +1,31 @@
+{
+  "completedAt": "2026-10-31T08:43:32.235985+00:00",
+  "status": "FINAL_RUNTIME_CCX_PREPARED_ARCHIVE_VERIFIED",
+  "case": "LQ-K01",
+  "caseStatus": "PASS_ARCHIVE_INTEGRITY",
+  "evidenceClass": "VERIFIED_THIS_SESSION_NATIVE_UDT_PACKAGING_AND_STATIC_ARCHIVE",
+  "runtime": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+  "branch": "codex/validated-beta-20261017",
+  "head": "9330e242eadcd10623300ca39d01753355aefc7a",
+  "package": "artifacts/ccx-0.2.1-037571056922/com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+  "packageSha256": "ecb01b1a03e113f89ed355769ee737378feb240f2961187f795ae03e55580d06",
+  "packageBytes": 15698,
+  "nativeAction": "UDT ellipsis > Package > Select target directory; Successfully packaged plugin observed",
+  "registeredStagePathVerified": true,
+  "buildFolderOverride": "blank",
+  "sixRuntimeFilesExact": true,
+  "manifestValuesEqual": true,
+  "manifestBytesExact": false,
+  "sourceStageUnchanged": true,
+  "newScans": 0,
+  "newInstalledExecutions": 0,
+  "installationStarted": false,
+  "installationQualified": false,
+  "distributionApproved": false,
+  "nextAction": "Designate a clean customer test profile/host and record I01 pre-install provenance. Installation/restart/upgrade/uninstall/reinstall require separate explicit authorization; none is started. Preserve completed developer/layout checks. Mapping, output topology, playback/export correctness and earlier crash cause remain UNKNOWN; distribution NOT APPROVED.",
+  "limits": [
+    "Archive integrity and native packaging UI do not qualify installed runtime behavior or clean-customer installation.",
+    "Strict byte verification rejected only manifest.json; documented AllowManifestReformat passed after authenticated staged-manifest value comparison.",
+    "Previously recorded developer native observations retain their dates and bounds; no repeat scan/test-suite or installation smoke was performed."
+  ]
+}

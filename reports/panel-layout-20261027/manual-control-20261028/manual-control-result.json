@@ -1,0 +1,75 @@
+{
+  "recordedAt": "2026-10-28T06:19:02.690Z",
+  "status": "USER_REPORTED_RECOVERY; VERIFIED_LATER_BUSY_PERIOD_AND_RECOVERY; MODIFIED_SAVED_FIXTURE",
+  "userObservations": {
+    "provenance": "USER_STATED",
+    "firstOpening": "Frozen initially, recovered after an unspecified delay",
+    "closeAndReopen": "Same delay then recovery",
+    "fan": "Faster for a while when opening AP; no quantitative telemetry",
+    "timelineVisible": true,
+    "fileMenuResponds": true,
+    "audioPreflightPanelVisible": true,
+    "savePrompt": true,
+    "saveChoice": "Save"
+  },
+  "savedSnapshot": {
+    "recordedAt": "2026-10-28T06:15:55.5266885Z",
+    "saveChoice": "USER_STATED: Save",
+    "previousSha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+    "currentSha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+    "snapshot": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\manual-control-20261028\\Positive_Signal_Test-user-saved-7bfc2f703ec7.prproj",
+    "bytes": 23183,
+    "sourceLastWriteTimeUtc": "2026-10-28T06:13:05.1184718Z",
+    "qualification": "User-saved bytes differ from previous fixture; semantic changes not yet established; original is not overwritten or reverted"
+  },
+  "currentProjectSha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+  "snapshotContainerAudit": {
+    "checkedAt": "2026-10-28T06:16:33.8437396Z",
+    "snapshotSha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+    "gzipValid": true,
+    "xmlWellFormed": true,
+    "root": "PremiereData",
+    "xmlElements": 4121,
+    "qualification": "Container parsing only; no semantic comparison with the earlier saved fixture"
+  },
+  "processObservations": {
+    "provenance": "VERIFIED_THIS_SESSION_PROCESS_ONLY",
+    "pid": 46156,
+    "nonresponsiveSamples": 7,
+    "allNonresponsive": true,
+    "observationSpanSeconds": 30.131,
+    "cpuSecondsAdded": 30.765625,
+    "approximateCPUCoreEquivalents": 1.0210621950814776,
+    "recoverySamples": 4,
+    "allRecoverySamplesResponsive": true,
+    "recoveryObservationSpanSeconds": 15.09,
+    "recoverySampleCPUSecondsAdded": 0.46875,
+    "finalObservation": {
+      "at": "2026-10-28T06:17:36.5466452Z",
+      "pid": 46156,
+      "exists": true,
+      "responding": true,
+      "cpuSeconds": 241.875,
+      "title": "Adobe Premiere - C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\Positive_Signal_Test"
+    },
+    "qualification": "Samples were taken after the user report, not synchronized to opening. Exact opening delay and total unresponsive duration are unknown."
+  },
+  "captureAttempt": {
+    "status": "SKIPPED_BY_GUARD",
+    "reason": "Target became responsive before capture invocation",
+    "newDumpCreated": false,
+    "targetTerminated": false
+  },
+  "inference": "A sustained CPU-busy, nonresponsive interval can recover without termination in this session. It does not establish the cause or equivalence to the earlier captured hang.",
+  "limits": [
+    "The user chose Save and project bytes changed; this is not the unchanged saved-fixture control originally specified.",
+    "The changed hash does not identify semantic edits or their cause.",
+    "Fan speed was user observed; no thermal/fan telemetry was measured.",
+    "No new computer-use calls occurred during these samples; existing accessibility clients are not established as detached.",
+    "Process responsiveness and user menu observations do not establish broad lifecycle qualification."
+  ],
+  "mutationsByAssistant": [
+    "Created a separate verified copy of the user-saved project and local diagnostic records only"
+  ],
+  "nextStep": "Keep the recovered session open. A later timing trial should use this preserved snapshot, record elapsed time from Open until the menu responds, and avoid new automated UI inspection during opening."
+}

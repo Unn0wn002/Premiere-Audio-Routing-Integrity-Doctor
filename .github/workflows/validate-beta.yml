@@ -1,0 +1,62 @@
+name: Validate beta candidate
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  static-validation:
+    name: Static checks (${{ matrix.os }}, Node ${{ matrix.node }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        node: [22, 24]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Unit and mocked adapter regressions (not native validation)
+        run: npm test
+      - name: Synthetic diagnostic contracts (not native fixtures)
+        run: npm run test:fixtures
+      - name: JavaScript syntax
+        run: npm run check:syntax
+      - name: Whitespace check
+        shell: pwsh
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          if ($env:BASE_SHA -and $env:BASE_SHA -notmatch '^0+$') {
+            git diff --check $env:BASE_SHA HEAD
+          } else {
+            git show --format= --check HEAD
+          }
+          exit $LASTEXITCODE
+      - name: Build deterministic developer ZIP
+        run: npm run prepare:beta
+      - name: Verify archive allowlist and identity
+        shell: pwsh
+        run: |
+          $receipt = Get-ChildItem -LiteralPath artifacts -Filter '*-receipt.json' | Select-Object -First 1
+          $candidate = Get-Content -LiteralPath $receipt.FullName -Raw | ConvertFrom-Json
+          ./scripts/verify-package.ps1 -Package $candidate.packageFile -Receipt $receipt.FullName -Output artifacts/package-verification.json
+      - name: Retain unsigned developer handoff (static/package evidence only)
+        if: matrix.os == 'ubuntu-latest' && matrix.node == 24
+        uses: actions/upload-artifact@v4
+        with:
+          name: audio-preflight-developer-candidate
+          path: |
+            artifacts/*-developer.zip
+            artifacts/*-receipt.json
+            artifacts/package-verification.json
+          if-no-files-found: error
+          retention-days: 14

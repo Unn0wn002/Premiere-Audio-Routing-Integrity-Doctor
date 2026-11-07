@@ -1,0 +1,81 @@
+{
+  "recordType": "independent-current-native-fixture-review",
+  "fixture": "F01",
+  "sourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "executionDate": "2026-10-18",
+  "timezone": "Asia/Jakarta",
+  "scope": {
+    "project": "ARID_Disposable_20261018.prproj",
+    "sequence": "stereo-l440-r880",
+    "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+    "sequenceOccurrenceIndex": 0
+  },
+  "independentUiTruth": {
+    "method": "Retained native screenshots viewed independently by analysis agent; UI operator independently confirmed exact scope and controls.",
+    "channelFormat": "Stereo",
+    "channelCount": 2,
+    "sampleRateHz": 48000,
+    "trackMute": [false, false, false],
+    "clipEnabled": [true, true],
+    "clipTrackIndex": 0,
+    "beforeEvidence": [
+      "F01-settings-before-current.png",
+      "F01-clip0-enabled-before-current.png",
+      "F01-clip1-enabled-before-current.png"
+    ],
+    "truthLimit": "No source-channel mapping, mixer topology, playback/export correctness or intent inferred. Empty F08_Mono sequence is outside F01 scope and its name is not Mono truth."
+  },
+  "expectedActual": {
+    "expected": "Stereo2 Information; no ARID-001/002/003 because all tracks are unmuted and both clips enabled. Product boundaries remain Unknown.",
+    "actual": "Scoped channel type=1 (Stereo), count=2, 48000Hz; Audio 1/2/3 muted=false; A1 clip occurrences 0 and 1 disabled=false; no risk findings; three boundary Unknowns.",
+    "agreement": true,
+    "rawExport": "reports/beta-20261004/audio-preflight-2026-10-17T19-08-26-002Z.json",
+    "rawExportSha256": "34853cbd02fb205500b5df5d760087d08a150691335ebeef5393faf60548793e",
+    "exportAnalysis": "F01-R1-independent-export-review.json"
+  },
+  "observedCurrentEvidence": {
+    "runs": 3,
+    "durationMs": [23, 24, 26],
+    "diagnosticStatus": "COMPLETE",
+    "failedReads": 0,
+    "nativeEmptyTrackCollections": {
+      "count": 6,
+      "knownEmpty": true,
+      "evidence": "Main sequence Audio2/Audio3 and four tracks in the separate empty Stereo2 sequence have clipCount=0, clips=[], clipInventoryComplete=true, muted=false and no read errors. Whole-project track/clip coverage remains COMPLETE.",
+      "limit": "This establishes successfully empty track enumeration, not an empty project or failed-getter host simulation. Independent UI truth for F01 is scoped to the main sequence."
+    },
+    "documentedResolvedShapes": "Both FrameRates and all 140 observed Keyframe nested values/positions valid in whole-project raw export. No animated parameters; keyframe-time lists unexercised.",
+    "thenableBehavior": "Not inferable from resolved export; dedicated probe required.",
+    "repeatability": {
+      "analysis": "F01-three-runs-independent-export-review.json",
+      "observationFieldsStable": true,
+      "diagnosticsStable": true,
+      "excludedObservationFields": ["generatedAt", "durationMs"],
+      "stableObservationSha256": "1c2936dbdcf06afc918ad3c41406f11732e94f760e09025beb7d78a8f3dc1d2b",
+      "stableDiagnosticSha256": "1d4ef2e4670a2aa487cdc44131fdeba63cb34662ee5d8349f272d94fb8f88e65",
+      "medianDurationMs": 24,
+      "timingLimit": "Plugin-reported Date.now traversal duration. Three local observations; no broad performance or UI-wall-clock claim.",
+      "rawExports": ["F01-R1-current-export.json", "F01-R2-current-export.json", "F01-R3-current-export.json"]
+    },
+    "reopen": null,
+    "inspectedStateUnchanged": {
+      "trackMuteAndClipEnableUi": true,
+      "clipBalanceUiValuesBeforeAfter": [0, 50],
+      "clipOccurrencesAndTimingRaw": true,
+      "channelConfigurationRaw": true,
+      "channelConfigurationAfterUiReopened": null,
+      "evidence": ["F01-R3-after-current.png", "F01-clip0-enabled-after-current.png", "F01-clip1-enabled-after-current.png"],
+      "limit": "After screenshots independently retain unhighlighted track M controls, both Enable menu checks and the same clip Balance values. Channel configuration and locator fields agree in all three raw exports; the Settings dialog was not independently reopened after the scans. This is scoped inspected-state evidence, not proof that every project property is unchanged."
+    }
+  },
+  "observableFixtureMetrics": {
+    "TP": 0,
+    "FP": 0,
+    "FN": 0,
+    "observableEvaluatedFixtures": 1,
+    "positiveObservableRiskConditions": 0,
+    "interpretation": "F01 is a negative control for ARID-001/002/003. Zero positive conditions prevents sensitivity conclusions. Metrics concern only independently verified unmuted/enabled conditions in the scoped sequence; Unknown capabilities are excluded."
+  },
+  "disposition": "THREE_NATIVE_OBSERVATIONS_MATCHED_AND_STABLE; inspected mute/enable state preserved in UI; reopen pending"
+}

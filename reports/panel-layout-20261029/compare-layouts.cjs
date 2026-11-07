@@ -1,0 +1,17 @@
+const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict');
+const read=file=>JSON.parse(fs.readFileSync(path.join(__dirname,file),'utf8'));
+const narrow=read('narrow-scan.json'),wide=read('wide-scan.json');
+const normalized=report=>{const copy=structuredClone(report);delete copy.observation.generatedAt;delete copy.observation.durationMs;return copy;};
+assert.deepEqual(normalized(narrow),normalized(wide),'Reports differ beyond generation time/scan duration');
+const result={verifiedAt:new Date().toISOString(),status:'PASS_BOUNDED_CROSS_LAYOUT_REPORT_EQUALITY',excludedOnly:['observation.generatedAt','observation.durationMs'],allOtherReportFieldsEqual:true,narrowMs:35,wideMs:31,timingLimit:'One scan per size; these are individual samples, not a performance comparison or benchmark'};
+fs.writeFileSync(path.join(__dirname,'cross-layout-verification.json'),JSON.stringify(result,null,2)+'\n');
+const sessionFile=path.join(__dirname,'session-result.json');
+const s=read('session-result.json');s.status='BOUNDED_NARROW_WIDE_LAYOUT_AND_EXPORTS_COMPLETE';
+s.nativeAccess.exportTargetMismatch='HISTORICAL_THIS_CHAT; narrow HTML final Save completed by user; subsequent default-name wide JSON/HTML save actions verified';
+s.nativeAccess.newScanInvoked=true;s.nativeAccess.currentDisplayedScanMs=31;s.nativeAccess.completionEvidence='native-layout-completion.json';
+s.nativeAccess.safeExportWorkaround='Select actual Save As/full screenshot, retain default names, click Save; explicit parent activation after modal closes; no filename typing';
+s.perSizeNative={narrow:{status:'BOUNDED_NATIVE_SCAN_AND_EXPORT_PAIR_VERIFIED',outerWidth:326,outerHeight:359,units:'logical pixels',durationMs:35,coverage:{sequences:'4/4',tracks:'15/15',clips:'7/7',components:'18/18'},failedReads:0,reviewFindings:0,capabilityUnknowns:3,screenshot:'narrow-scan.png',json:'narrow-scan.json',html:'narrow-scan.html',pairVerification:'narrow-pair-verification.json',htmlFinalSave:'USER_STATED saved; file independently verified'},wide:{status:'BOUNDED_NATIVE_SCAN_AND_EXPORT_PAIR_VERIFIED',outerWidth:807,outerHeight:359,units:'logical pixels',durationMs:31,coverage:{sequences:'4/4',tracks:'15/15',clips:'7/7',components:'18/18'},failedReads:0,reviewFindings:0,capabilityUnknowns:3,screenshot:'wide-scan.png',json:'wide-scan.json',html:'wide-scan.html',pairVerification:'wide-pair-verification.json',saveActions:'Assistant native default-filename dialog clicks; files independently verified'},screenshots:['narrow-scan.png','narrow-exports-controls.png','wide-findings.png','wide-scan.png','wide-final-idle.png'],freshExports:['narrow-scan.json','narrow-scan.html','wide-scan.json','wide-scan.html'],crossLayoutVerification:'cross-layout-verification.json',cssViewport:'NOT_MEASURED_NOT_CLAIMED'};
+s.nextAction='Bounded requested narrow/wide measurements and native export-content checks are complete. Preserve the final candidate and evidence. Next separate project stage is lifecycle/customer-installation planning or remaining qualification, only within new explicit authorization; do not repeat these size scans or automated redocking without a reason.';
+s.finalHostState={project:'Positive_Signal_Test',panel:'floating 807 x 359 logical pixels',retainedScanMs:31,status:'idle, Saved HTML report',saveDialogClosed:true};
+fs.writeFileSync(sessionFile,JSON.stringify(s,null,2)+'\n');
+console.log(JSON.stringify(result,null,2));

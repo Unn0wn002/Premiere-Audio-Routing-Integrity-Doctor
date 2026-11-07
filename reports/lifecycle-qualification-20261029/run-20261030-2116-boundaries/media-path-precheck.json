@@ -1,0 +1,23 @@
+[
+  {
+    "path": "C:\\Users\\unn0w\\Downloads\\Management Project\\Premiere Audio Routing Integrity Doctor\\fixtures\\premiere\\runs\\host-20261001-213604\\stereo-l440-r880.wav",
+    "exists": true,
+    "relocatedCandidate": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\fixtures\\premiere\\runs\\host-20261001-213604\\stereo-l440-r880.wav",
+    "relocatedCandidateExists": false,
+    "sha256": "4d3f81af9a607482540d4ecd3d32474a9b5e2f66da3153bec4360954a65c7349"
+  },
+  {
+    "path": "C:\\Users\\unn0w\\Downloads\\Management Project\\Premiere Audio Routing Integrity Doctor\\reports\\beta-20261004\\ARID_20261018_four_channel.wav",
+    "exists": true,
+    "relocatedCandidate": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\beta-20261004\\ARID_20261018_four_channel.wav",
+    "relocatedCandidateExists": false,
+    "sha256": "283f645ab0f64dda448bdd6fa9be01d2c4e27ee6bd2a604ff5834aacaad8a1aa"
+  },
+  {
+    "path": "C:\\Users\\unn0w\\Downloads\\Management Project\\Premiere Audio Routing Integrity Doctor\\reports\\beta-20261004\\ARID_20261018_mono.wav",
+    "exists": true,
+    "relocatedCandidate": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\beta-20261004\\ARID_20261018_mono.wav",
+    "relocatedCandidateExists": false,
+    "sha256": "759763e2dbfc66aa157eac5bd26b5ad68d9d961bbd79096bc6fddee9acdde433"
+  }
+]

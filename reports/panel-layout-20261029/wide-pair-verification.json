@@ -1,0 +1,77 @@
+{
+  "verifiedAt": "2026-10-29T05:33:20.516Z",
+  "status": "VERIFIED_THIS_SESSION_BOUNDED_NATIVE_EXPORT_PAIR",
+  "label": "wide",
+  "runtimeIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+  "durationMs": 31,
+  "coverage": {
+    "state": "COMPLETE",
+    "project": {
+      "status": "COMPLETE",
+      "expected": 1,
+      "observed": 1,
+      "known": 1,
+      "unknown": 0
+    },
+    "sequences": {
+      "status": "COMPLETE",
+      "expected": 4,
+      "observed": 4,
+      "known": 4,
+      "unknown": 0
+    },
+    "tracks": {
+      "status": "COMPLETE",
+      "expected": 15,
+      "observed": 15,
+      "known": 15,
+      "unknown": 0
+    },
+    "clips": {
+      "status": "COMPLETE",
+      "expected": 7,
+      "observed": 7,
+      "known": 7,
+      "unknown": 0
+    },
+    "components": {
+      "status": "COMPLETE",
+      "expected": 18,
+      "observed": 18,
+      "known": 18,
+      "unknown": 0
+    },
+    "failedReads": 0,
+    "capabilities": {
+      "sourceChannelMapping": "UNKNOWN",
+      "outputBusTopology": "UNKNOWN",
+      "playbackExportCorrectness": "UNKNOWN"
+    }
+  },
+  "reviewFindings": 0,
+  "capabilityUnknowns": 3,
+  "embeddedJSONEquals": true,
+  "rendererEquals": true,
+  "diagnosticsReproduce": true,
+  "findingArticles": 7,
+  "files": [
+    {
+      "file": "wide-scan.json",
+      "original": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\audio-preflight-2026-10-29T05-32-27-170Z.json",
+      "sha256": "534ea0504fc8bcf166f95f77140428f9e7a301dc71415a3b2d4c0550931b7c03",
+      "bytes": 136908,
+      "originalPreserved": true,
+      "copyByteIdentical": true
+    },
+    {
+      "file": "wide-scan.html",
+      "original": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\reports\\panel-layout-20261027\\audio-preflight-2026-10-29T05-32-27-170Z.html",
+      "sha256": "325f924eedd36df716473b65b7bca1f64f462be3dc350a61a534b96a488e308d",
+      "bytes": 170614,
+      "originalPreserved": true,
+      "copyByteIdentical": true
+    }
+  ],
+  "executionProvenance": "See native wide trial record for scan/dialog/final-Save provenance",
+  "qualification": "Bounded panel/export-content evidence; no routing correctness, customer installation or full lifecycle qualification"
+}

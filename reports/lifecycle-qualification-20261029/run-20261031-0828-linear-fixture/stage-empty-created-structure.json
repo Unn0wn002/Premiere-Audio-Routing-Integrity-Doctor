@@ -1,0 +1,18 @@
+{
+  "verifiedAt": "2026-10-31T01:31:33.550068+00:00",
+  "evidenceClass": "SAVED_NATIVE_PROJECT_STRUCTURE_NOT_UI_OR_SCAN_PROOF",
+  "project": "working/Linear_Audio_20261031.prproj",
+  "projectSha256": "265765cffa1a5a17ebd3cf0f030ab46d3cd5d40e73b4b3a3ab3722f7cefd8d5e",
+  "sequenceCount": 0,
+  "audioTrackCount": 0,
+  "populatedAudioTracks": 0,
+  "referencedAudioClipOccurrences": 0,
+  "rootAudioClipTrackItemObjects": 0,
+  "contiguousRepeatedClipRanges": true,
+  "tracks": [],
+  "sourcePaths": [],
+  "limitations": [
+    "Saved structure is distinct from UI responsiveness and native adapter reads.",
+    "No routing, mapping, acoustic or customer-performance qualification."
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "verifiedAt": "2026-10-28T13:41:13.260Z",
+  "status": "VERIFIED_THIS_SESSION_BOUNDED_EXPORT_CONTENT",
+  "provenance": "User-performed native exports; saved file contents independently checked",
+  "json": {
+    "file": "audio-preflight-2026-10-28T13-37-12-486Z.json",
+    "bytes": 136908,
+    "sha256": "4e51efc297ad9e4555e2699fcff9d3f0a04822e888a84e05807528a1d68187c4"
+  },
+  "html": {
+    "file": "audio-preflight-2026-10-28T13-37-12-486Z.html",
+    "bytes": 170614,
+    "sha256": "2ee217e1286b3ee01a7ab6adc90ea8d1f951a873074256c42bfe14c5546ce2d4"
+  },
+  "checks": {
+    "jsonParsed": true,
+    "embeddedHTMLDeepEqualsJSON": true,
+    "fullHTMLMatchesRenderer": true,
+    "diagnosticsReproduce": true,
+    "screenshotCountsAndDurationAgree": true,
+    "fullTraversalComplete": true,
+    "sequenceInventoryComplete": true,
+    "htmlFindingArticles": 7,
+    "allFindingRuleIdsPresent": true
+  },
+  "project": "Positive_Signal_Test.prproj",
+  "generatedAt": "2026-10-28T13:37:12.486Z",
+  "durationMs": 37,
+  "host": {
+    "name": "premierepro",
+    "version": "26.5.2",
+    "uiLocale": "en_US",
+    "uxpVersion": "uxp-9.3.0-local",
+    "pluginVersion": "0.2.1"
+  },
+  "diagnosticStatus": "COMPLETE",
+  "reviewFindings": 0,
+  "information": 4,
+  "unknown": 3,
+  "unknownRuleIds": [
+    "ARID-U01",
+    "ARID-U02",
+    "ARID-U03"
+  ],
+  "coverage": {
+    "state": "COMPLETE",
+    "project": {
+      "status": "COMPLETE",
+      "expected": 1,
+      "observed": 1,
+      "known": 1,
+      "unknown": 0
+    },
+    "sequences": {
+      "status": "COMPLETE",
+      "expected": 4,
+      "observed": 4,
+      "known": 4,
+      "unknown": 0
+    },
+    "tracks": {
+      "status": "COMPLETE",
+      "expected": 15,
+      "observed": 15,
+      "known": 15,
+      "unknown": 0
+    },
+    "clips": {
+      "status": "COMPLETE",
+      "expected": 7,
+      "observed": 7,
+      "known": 7,
+      "unknown": 0
+    },
+    "components": {
+      "status": "COMPLETE",
+      "expected": 18,
+      "observed": 18,
+      "known": 18,
+      "unknown": 0
+    },
+    "failedReads": 0,
+    "capabilities": {
+      "sourceChannelMapping": "UNKNOWN",
+      "outputBusTopology": "UNKNOWN",
+      "playbackExportCorrectness": "UNKNOWN"
+    }
+  },
+  "annotations": {},
+  "installedRuntimeIdentity": "48bb1d177f4cb8ec4b8e90ff4d23fe618baec155a814db80f7b19e5d9096b28f",
+  "installedFiles": [
+    {
+      "file": "manifest.json",
+      "exactBytes": false,
+      "manifestValuesEqual": true
+    },
+    {
+      "file": "index.html",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "index.js",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "src/premiereAdapter.js",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "src/diagnostics.js",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "src/valueSerializer.js",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "src/report.js",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    }
+  ],
+  "fixtureSha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+  "earlierExportComparison": {
+    "file": "installed-test.json",
+    "equalExceptGeneratedAtAndDuration": true,
+    "qualification": "Equality covers exported observations/diagnostics only, not all native project semantics"
+  },
+  "limits": [
+    "No browser visual-render QA was performed.",
+    "This validates one completed scan/export pair; it does not resolve the opening delay or qualify full lifecycle reliability.",
+    "Mapping, output buses and playback/export correctness remain UNKNOWN.",
+    "No new native input or scan was performed by the assistant during file verification."
+  ]
+}

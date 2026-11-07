@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-28",
+  "result": "INSTALLED_RUNTIME_BYTES_VERIFIED",
+  "installedDirectory": "C:\\Users\\unn0w\\AppData\\Roaming\\Adobe\\UXP\\Plugins\\External\\com.unn0wn002.audio-preflight.beta_0.2.1",
+  "runtimeIdentity": "48bb1d177f4cb8ec4b8e90ff4d23fe618baec155a814db80f7b19e5d9096b28f",
+  "pluginId": "com.unn0wn002.audio-preflight.beta",
+  "version": "0.2.1",
+  "files": [
+    {
+      "file": "manifest.json",
+      "sha256": "b64a06e9c9ad68438f3d2eb4f0ca4c07c6002ca470c767035539aadc29e46401",
+      "exactBytes": false,
+      "manifestValuesEqual": true
+    },
+    {
+      "file": "index.html",
+      "sha256": "984534960aef9a3a6d90457a3073f979451a4c28d3f7cfb49813f56513764bdf",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "index.js",
+      "sha256": "a3e0b20c49519be0457bb1c493593ed88b0f8354a74d4804d6c9976b3aaceccc",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "src/premiereAdapter.js",
+      "sha256": "bc7054386b37174676f4d3302216cb43d82214bdc2582dc9f46c52fe738748bf",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "src/diagnostics.js",
+      "sha256": "5ee7db940f0581fb687a3c6103f61b1f04b59fcb3c2d9034535062d3432ded90",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "src/valueSerializer.js",
+      "sha256": "3c874ee7243f30a66215fa3f1d6a5ee65bd18c0dd5a21dbaf59e17b3f787fc4a",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    },
+    {
+      "file": "src/report.js",
+      "sha256": "c93e14044b68ce27862c48c14210136e764c8ac727115b4ca848934f615eb92d",
+      "exactBytes": true,
+      "manifestValuesEqual": null
+    }
+  ],
+  "installerConfirmation": "USER_SUPPLIED_SCREENSHOT: Creative Cloud reports installed",
+  "hostMenu": "VERIFIED_THIS_SESSION: Window > UXP Plugins > Audio Preflight - Private Beta",
+  "installedLifecycle": "BLOCKED_PROJECT_OPEN_NONRESPONSE",
+  "cleanProfile": "NOT_ESTABLISHED",
+  "installedPanelRender": "VERIFIED_THIS_SESSION: floating native panel, UDT not launched",
+  "noProjectScan": {
+    "status": "UNKNOWN",
+    "unknowns": 4,
+    "reviewFindings": 0,
+    "durationMs": 7,
+    "controlsRecovered": true
+  },
+  "projectOpen": {
+    "fixture": "Positive_Signal_Test.prproj",
+    "savedFixtureUnchanged": true,
+    "sha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+    "projectScanStarted": false,
+    "pid": 18076,
+    "observations": [
+      {
+        "responding": false,
+        "cpuSeconds": 89.765625,
+        "workingSetBytes": 2466611200
+      },
+      {
+        "afterWaitAtLeastSeconds": 20,
+        "responding": false,
+        "cpuSeconds": 121.0625,
+        "workingSetBytes": 2465722368
+      }
+    ],
+    "rootCause": "UNKNOWN",
+    "recoveryPerformed": false
+  },
+  "installationConclusion": "Current installed identity and standard-menu panel loading verified in existing development profile; full installed-runtime lifecycle and clean-profile qualification remain unverified.",
+  "latestInstalledLifecycle": "BOUNDED_PROJECT_SCANS_DOCKED_FLOATING_AND_USER_NATIVE_EXPORTS_VERIFIED; RELOAD_STABILITY_UNRESOLVED",
+  "exportFollowup": "installed-export-validation-20261028.json"
+}

@@ -1,0 +1,13 @@
+{
+  "pickerReturnedFileObjectObservedAt": "2026-10-31T03:42:29.739Z",
+  "pausedAt": "index.js:113 after getFileForSaving; before file.write at line 114",
+  "returnedFileObjectObserved": true,
+  "sourceBytesEdited": false,
+  "postPickerHandleReadyObservedAt": "2026-10-31T03:42:53.016Z",
+  "resumeRequestedAt": "2026-10-31T03:43:07.755Z",
+  "resumeObservationReturnedAt": "2026-10-31T03:43:10.945Z",
+  "postResumePanelObservedAt": "2026-10-31T03:43:28.991Z",
+  "attributedFailure": "file.write after picker returned File; Export failed: resource busy or locked",
+  "temporaryBreakpointRemoved": true,
+  "debuggerUnpaused": true
+}

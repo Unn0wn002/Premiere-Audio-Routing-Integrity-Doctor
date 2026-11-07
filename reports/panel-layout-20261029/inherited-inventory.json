@@ -1,0 +1,2520 @@
+[
+  {
+    "file": "README.md",
+    "bytes": 5628,
+    "mtime": "2026-10-28T15:07:57.674Z",
+    "sha256": "039efae25cfa83db312a259a5df10cb916c39fc3a67bded5cdeeed078af00934"
+  },
+  {
+    "file": "docs/BETA_RELEASE_CHECKLIST.md",
+    "bytes": 6403,
+    "mtime": "2026-10-28T15:41:44.611Z",
+    "sha256": "89e48845316e9c26d3a4fdda5062b695825f0c852556c2070b9c2864f9200da0"
+  },
+  {
+    "file": "docs/PROJECT_STATUS.md",
+    "bytes": 20891,
+    "mtime": "2026-10-28T15:41:44.611Z",
+    "sha256": "810c2829a749f17d5b3ed4ebdac3ef138c7f61e8fe94eafa2e3112cef44f4a0c"
+  },
+  {
+    "file": "docs/SUBMISSION_OPERATOR_HANDOFF.md",
+    "bytes": 4473,
+    "mtime": "2026-10-28T15:07:57.675Z",
+    "sha256": "3142422dcb4262b90e528b8d6d78e97ca8c39c3af3636615d219e4ce22abccf6"
+  },
+  {
+    "file": "index.html",
+    "bytes": 4015,
+    "mtime": "2026-10-28T15:02:17.964Z",
+    "sha256": "bb9d665654de7bee853ac656bb0e75006676013310c19d1d4b3830dee3407b0c"
+  },
+  {
+    "file": "index.js",
+    "bytes": 7534,
+    "mtime": "2026-10-28T15:02:17.965Z",
+    "sha256": "ef4beef50854509dc712938bcf2f5c1366fd5a9036c51c57ec0c4d7c7c31cf17"
+  },
+  {
+    "file": "tests/beta.test.js",
+    "bytes": 15724,
+    "mtime": "2026-10-28T15:02:18.344Z",
+    "sha256": "88edbfa3046d784d7fdd596946e418c41885726cb7c73acce080c93f8b76fb79"
+  },
+  {
+    "file": "tests/recovery.test.js",
+    "bytes": 12401,
+    "mtime": "2026-10-28T15:03:12.546Z",
+    "sha256": "1e9165b9320e95e06a33c571cfc76b346e9af96ced16b755ab4c328b45402f6a"
+  },
+  {
+    "file": "docs/IMPLEMENTATION_REVIEW_20261028.md",
+    "bytes": 7262,
+    "mtime": "2026-10-28T14:51:07.158Z"
+  },
+  {
+    "file": "docs/LAYOUT_REFRESH_20261028.md",
+    "bytes": 14642,
+    "mtime": "2026-10-28T15:41:44.610Z"
+  },
+  {
+    "file": "docs/PANEL_LAYOUT_VALIDATION.md",
+    "bytes": 49738,
+    "mtime": "2026-10-28T15:31:49.610Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/Adobe Premiere Pro Auto-Save/Large_Inventory_Test--36458151-57fb-80ba-62b4-9df3f59649a5-2026-10-27_09-22-16.prproj",
+    "bytes": 382876,
+    "mtime": "2026-10-27T02:17:17.733Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/Adobe Premiere Pro Auto-Save/Positive_Signal_Test--cd3cfa48-a510-910a-0081-99843bb54109-2026-10-27_13-12-20.prproj",
+    "bytes": 23158,
+    "mtime": "2026-10-27T06:10:47.515Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/EXTENDED_VALIDATION.md",
+    "bytes": 4636,
+    "mtime": "2026-10-27T06:15:00.168Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/FLOATING_AND_PACKAGE_FOLLOWUP.md",
+    "bytes": 4296,
+    "mtime": "2026-10-27T08:00:37.018Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/HANG_CAPTURE_20261028.md",
+    "bytes": 5725,
+    "mtime": "2026-10-28T06:00:29.259Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/LARGE_STALL_INVESTIGATION.md",
+    "bytes": 5178,
+    "mtime": "2026-10-27T07:17:27.509Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/Large_Inventory_Test.prin",
+    "bytes": 13375,
+    "mtime": "2026-10-27T02:17:16.799Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/Large_Inventory_Test.prproj",
+    "bytes": 382876,
+    "mtime": "2026-10-27T02:17:17.733Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/Layout_Test_Copy.prin",
+    "bytes": 15751,
+    "mtime": "2026-10-27T06:08:18.387Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/Layout_Test_Copy.prproj",
+    "bytes": 19889,
+    "mtime": "2026-10-18T14:42:51.572Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/MANUAL_REOPEN_CONTROL_20261028.md",
+    "bytes": 3643,
+    "mtime": "2026-10-28T06:19:02.774Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/NATIVE_HANG_ANALYSIS_20261028.md",
+    "bytes": 7067,
+    "mtime": "2026-10-28T06:00:29.258Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/PAGINATION_VALIDATION.md",
+    "bytes": 4533,
+    "mtime": "2026-10-27T07:50:04.236Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/Positive_Signal_Test.prin",
+    "bytes": 13375,
+    "mtime": "2026-10-28T06:13:05.202Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/Positive_Signal_Test.prproj",
+    "bytes": 23183,
+    "mtime": "2026-10-28T06:13:05.118Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/RELOAD_INVESTIGATION_20261028.md",
+    "bytes": 6119,
+    "mtime": "2026-10-28T05:16:40.613Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-205631/FINDINGS.md",
+    "bytes": 4529,
+    "mtime": "2026-10-28T14:06:36.983Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-205631/capture-end.json",
+    "bytes": 203,
+    "mtime": "2026-10-28T13:59:32.504Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-205631/capture-start.json",
+    "bytes": 323,
+    "mtime": "2026-10-28T13:56:32.060Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-205631/etl-header.xml",
+    "bytes": 712,
+    "mtime": "2026-10-28T14:04:53.627Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-205631/event-definitions.json",
+    "bytes": 616,
+    "mtime": "2026-10-28T14:05:44.054Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-205631/event-inventory.json",
+    "bytes": 10543,
+    "mtime": "2026-10-28T14:01:28.778Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-205631/findings-summary.json",
+    "bytes": 3188,
+    "mtime": "2026-10-28T14:07:07.795Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-205631/helper-detach.json",
+    "bytes": 382,
+    "mtime": "2026-10-28T14:04:13.161Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-205631/method-timing.json",
+    "bytes": 209434,
+    "mtime": "2026-10-28T14:07:07.771Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-205631/process-samples.jsonl",
+    "bytes": 2836,
+    "mtime": "2026-10-28T13:59:27.435Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-205631/request-events.jsonl",
+    "bytes": 1427546,
+    "mtime": "2026-10-28T14:02:48.115Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-205631/request-timing.json",
+    "bytes": 187164,
+    "mtime": "2026-10-28T14:03:20.617Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-205631/trace-summary.txt",
+    "bytes": 17621,
+    "mtime": "2026-10-28T14:05:30.765Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-205631/tracerpt-status.txt",
+    "bytes": 2118,
+    "mtime": "2026-10-28T14:05:30.769Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-205631/uia.etl",
+    "bytes": 33554432,
+    "mtime": "2026-10-28T13:59:32.488Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-210730/COMPARISON.md",
+    "bytes": 3246,
+    "mtime": "2026-10-28T14:14:22.331Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-210730/callback-timing.json",
+    "bytes": 8437,
+    "mtime": "2026-10-28T14:13:25.801Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-210730/capture-end.json",
+    "bytes": 203,
+    "mtime": "2026-10-28T14:10:32.984Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-210730/capture-start.json",
+    "bytes": 324,
+    "mtime": "2026-10-28T14:07:30.913Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-210730/comparison-summary.json",
+    "bytes": 1639,
+    "mtime": "2026-10-28T14:14:22.720Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-210730/event-inventory.json",
+    "bytes": 986,
+    "mtime": "2026-10-28T14:11:20.681Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-210730/premiere-callback-events.json",
+    "bytes": 16123,
+    "mtime": "2026-10-28T14:13:25.753Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-210730/process-samples.jsonl",
+    "bytes": 5969,
+    "mtime": "2026-10-28T14:10:27.938Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-210730/trace-summary.txt",
+    "bytes": 6347,
+    "mtime": "2026-10-28T14:10:56.521Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-210730/tracerpt-status.txt",
+    "bytes": 358,
+    "mtime": "2026-10-28T14:10:56.525Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/20261028-210730/uia.etl",
+    "bytes": 1769472,
+    "mtime": "2026-10-28T14:10:32.976Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/Capture-PremiereOpenPerformance.ps1",
+    "bytes": 4058,
+    "mtime": "2026-10-28T14:17:22.204Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/Capture-PremiereUIA-v2.ps1",
+    "bytes": 3689,
+    "mtime": "2026-10-28T14:06:36.879Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/Capture-PremiereUIA.ps1",
+    "bytes": 3433,
+    "mtime": "2026-10-28T13:48:09.969Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/INVESTIGATION_STATUS.md",
+    "bytes": 2475,
+    "mtime": "2026-10-28T13:48:09.970Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/performance-20261028-211900/capture-end.json",
+    "bytes": 280,
+    "mtime": "2026-10-28T14:20:32.098Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/performance-20261028-211900/capture-start.json",
+    "bytes": 383,
+    "mtime": "2026-10-28T14:19:00.781Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/performance-20261028-211900/process-samples.jsonl",
+    "bytes": 9685,
+    "mtime": "2026-10-28T14:20:00.609Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/performance-20261028-211900/project-open.etl",
+    "bytes": 1314914304,
+    "mtime": "2026-10-28T14:20:31.704Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/performance-20261028-212121/FINDINGS.md",
+    "bytes": 5244,
+    "mtime": "2026-10-28T14:29:19.353Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/performance-20261028-212121/capture-end.json",
+    "bytes": 280,
+    "mtime": "2026-10-28T14:22:50.994Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/performance-20261028-212121/capture-start.json",
+    "bytes": 383,
+    "mtime": "2026-10-28T14:21:22.185Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/performance-20261028-212121/cpu-intervals.json",
+    "bytes": 14871,
+    "mtime": "2026-10-28T14:23:54.447Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/performance-20261028-212121/performance-summary.json",
+    "bytes": 19648,
+    "mtime": "2026-10-28T14:29:02.453Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/performance-20261028-212121/process-samples.jsonl",
+    "bytes": 16984,
+    "mtime": "2026-10-28T14:22:21.879Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/performance-20261028-212121/project-open.etl",
+    "bytes": 1209008128,
+    "mtime": "2026-10-28T14:22:50.629Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/performance-20261028-212121/target-process-analysis.json",
+    "bytes": 17986,
+    "mtime": "2026-10-28T14:27:45.504Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/performance-20261028-212121/trace-summary.txt",
+    "bytes": 63472,
+    "mtime": "2026-10-28T14:25:23.327Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/accessibility-trace-20261028/performance-20261028-212121/tracerpt-status.txt",
+    "bytes": 881,
+    "mtime": "2026-10-28T14:25:23.332Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/active-sequence-baseline.wav",
+    "bytes": 1165468,
+    "mtime": "2026-10-27T06:04:50.205Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/analyze-positive-wav.js",
+    "bytes": 3619,
+    "mtime": "2026-10-27T06:11:31.126Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/audio-preflight-2026-10-26T18-36-11-466Z.html",
+    "bytes": 173974,
+    "mtime": "2026-10-26T18:37:04.636Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/audio-preflight-2026-10-28T13-37-12-486Z.html",
+    "bytes": 170614,
+    "mtime": "2026-10-28T13:39:31.399Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/audio-preflight-2026-10-28T13-37-12-486Z.json",
+    "bytes": 136908,
+    "mtime": "2026-10-28T13:39:29.154Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/audio-preflight-2026-10-28T14-09-23-669Z.html",
+    "bytes": 170614,
+    "mtime": "2026-10-28T14:09:30.289Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/audio-preflight-2026-10-28T14-09-23-669Z.json",
+    "bytes": 136908,
+    "mtime": "2026-10-28T14:09:28.792Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/audio-preflight-2026-10-28T14-56-29-341Z.html",
+    "bytes": 170614,
+    "mtime": "2026-10-28T14:57:23.331Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/audio-preflight-2026-10-28T14-56-29-341Z.json",
+    "bytes": 136908,
+    "mtime": "2026-10-28T14:57:00.818Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/audio-preflight-2026-10-28T15-26-38-306Z.html",
+    "bytes": 170614,
+    "mtime": "2026-10-28T15:27:50.890Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/audio-preflight-2026-10-28T15-26-38-306Z.json",
+    "bytes": 136908,
+    "mtime": "2026-10-28T15:27:15.204Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/cleanup-patch-candidate-20261028.json",
+    "bytes": 2131,
+    "mtime": "2026-10-28T14:33:32.575Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/cleanup-patch-package-verification-20261028.json",
+    "bytes": 2269,
+    "mtime": "2026-10-28T14:33:47.689Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/cleanup-patch-validation-20261028.json",
+    "bytes": 1547,
+    "mtime": "2026-10-28T14:35:47.494Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/cleanup-patch-working-diff-20261028.patch",
+    "bytes": 12494,
+    "mtime": "2026-10-28T14:35:47.352Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/controlled-tests.txt",
+    "bytes": 4812,
+    "mtime": "2026-10-26T18:31:13.479Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/create-large-fixture.js",
+    "bytes": 2663,
+    "mtime": "2026-10-27T02:16:57.942Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/current-ccx-verification.json",
+    "bytes": 2297,
+    "mtime": "2026-10-27T07:59:34.743Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/bundle-entries.json",
+    "bytes": 969,
+    "mtime": "2026-10-28T05:51:30.738Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/bundle-source.json",
+    "bytes": 237,
+    "mtime": "2026-10-28T05:50:36.133Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/bundle-tail.bin",
+    "bytes": 65536,
+    "mtime": "2026-10-28T05:51:07.804Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/debugger-verification.json",
+    "bytes": 2099,
+    "mtime": "2026-10-28T05:53:11.235Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/CoreMessaging.pdb/052FB356A489D212B0DC4D9D8EC959DD1/CoreMessaging.pdb",
+    "bytes": 3878912,
+    "mtime": "2026-10-28T05:55:28.058Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/InputHost.pdb/C86077DEBCC0C420D1F5A68FECD570691/InputHost.pdb",
+    "bytes": 7344128,
+    "mtime": "2026-10-28T05:55:31.981Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/UIAutomationCore.pdb/7EB15B847D3ABFE3E9351438DA8595C31/UIAutomationCore.pdb",
+    "bytes": 9392128,
+    "mtime": "2026-10-28T05:55:02.743Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/combase.pdb/4AC91D91223808F3AE6A3164A1B8B4041/combase.pdb",
+    "bytes": 83357696,
+    "mtime": "2026-10-28T05:56:28.861Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/d3d11on12.pdb/EB38F124E0EE1F75D53FF36F17C6A2311/d3d11on12.pdb",
+    "bytes": 1396736,
+    "mtime": "2026-10-28T05:55:55.584Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/d3d12core.pdb/A904C5E5AEC57387682D9A0FC9A45CF51/d3d12core.pdb",
+    "bytes": 7663616,
+    "mtime": "2026-10-28T05:55:53.374Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/gdiplus.pdb/BA2F5D920F4F3526D998763C7A014E781/gdiplus.pdb",
+    "bytes": 1388544,
+    "mtime": "2026-10-28T05:55:23.050Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/kernel32.pdb/E8C3A48CAC7EB60D8781D8C10020C44F1/kernel32.pdb",
+    "bytes": 1060864,
+    "mtime": "2026-10-28T05:54:45.991Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/kernelbase.pdb/79B505276F140450EB83DF0440BF06C61/kernelbase.pdb",
+    "bytes": 12554240,
+    "mtime": "2026-10-28T05:54:51.123Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/msiltcfg.pdb/5920B28FB4EE820786481D7AE7E193ED1/msiltcfg.pdb",
+    "bytes": 118784,
+    "mtime": "2026-10-28T05:56:00.079Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/msvcp140.amd64.pdb/81A826A7605336D1A2DA7A2100AA48AA1/msvcp140.amd64.pdb",
+    "bytes": 5812224,
+    "mtime": "2026-10-28T05:55:17.295Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/msvcp_win.pdb/E690ABC4E4A0A67042936D5CB65C760C1/msvcp_win.pdb",
+    "bytes": 1110016,
+    "mtime": "2026-10-28T05:55:49.643Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/ntdll.pdb/C031D45B0DA18A6E74D06ED6AB2DD9E11/ntdll.pdb",
+    "bytes": 1912832,
+    "mtime": "2026-10-28T05:54:43.920Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/ole32.pdb/7A0E668D517F5167B9AB6FE73BCC86E21/ole32.pdb",
+    "bytes": 24399872,
+    "mtime": "2026-10-28T05:55:11.160Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/oleacc.pdb/B0D82BFE47D5641B5B854C5EF26B98351/oleacc.pdb",
+    "bytes": 757760,
+    "mtime": "2026-10-28T05:54:58.154Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/onnxruntime.pdb/E7CBE13A16BF443CB1082C2165BB3CE01/onnxruntime.pdb",
+    "bytes": 35344384,
+    "mtime": "2026-10-28T05:55:42.853Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/pingme.txt",
+    "bytes": 0,
+    "mtime": "2026-10-28T05:54:43.927Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/quartz.pdb/CC7F8175BF97338DDB785B66D01B99491/quartz.pdb",
+    "bytes": 1806336,
+    "mtime": "2026-10-28T05:55:58.614Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/rpcrt4.pdb/98EB0270D0FF305F7ED48A570CFD4FF61/rpcrt4.pdb",
+    "bytes": 905216,
+    "mtime": "2026-10-28T05:56:07.641Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/threadpoolwinrt.pdb/63B3ECE774D4E81CA2E5DF1D237ACFF21/threadpoolwinrt.pdb",
+    "bytes": 290816,
+    "mtime": "2026-10-28T05:56:32.650Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/twinapi.appcore.pdb/7A40554282DB96892247A45B2DCBACBC1/twinapi.appcore.pdb",
+    "bytes": 11210752,
+    "mtime": "2026-10-28T05:56:40.099Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/ucrtbase.pdb/66A3E8DFB8B886146544529E6A6DD4F41/ucrtbase.pdb",
+    "bytes": 2748416,
+    "mtime": "2026-10-28T05:55:20.645Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/user32.pdb/F0BF56EE0A784974D49A58173A7CBC7E1/user32.pdb",
+    "bytes": 1191936,
+    "mtime": "2026-10-28T05:54:53.586Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/wdmaud.pdb/E1F6CE1189C99AAACEC905AA10967FD01/wdmaud.pdb",
+    "bytes": 503808,
+    "mtime": "2026-10-28T05:56:34.541Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/symbol-cache/win32u.pdb/DC2BE92BCDB1EFC31195235C45385FF11/win32u.pdb",
+    "bytes": 274432,
+    "mtime": "2026-10-28T05:54:55.639Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/1394/1394dbg.cat",
+    "bytes": 11655,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/1394/1394dbg.inf",
+    "bytes": 3404,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/1394/1394kdbg.sys",
+    "bytes": 87816,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/CredentialProviders/DbgCredentialProvider_gcmw.xml",
+    "bytes": 418,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/CredentialProviders/GCMW/DbgCredentialProvider_gcmw.dll",
+    "bytes": 149304,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/CredentialProviders/GCMW/DbgCredentialProvider_redirect.txt",
+    "bytes": 45,
+    "mtime": "2026-10-01T10:02:24.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/DbgCredentialProvider.config.xml",
+    "bytes": 402,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/DbgCredentialProvider.dll",
+    "bytes": 235360,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/EngHost.exe",
+    "bytes": 42808,
+    "mtime": "2026-10-01T10:02:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ExdiGdbSrv.dll",
+    "bytes": 1455416,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/NOTICE.txt",
+    "bytes": 99930,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/Acxkd_GalleryManifest.xml",
+    "bytes": 5915,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/Bookmarks_GalleryManifest.xml",
+    "bytes": 574,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/CLRCompositionPackage_GalleryManifest.xml",
+    "bytes": 2215,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/Crashpad_GalleryManifest.xml",
+    "bytes": 4532,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/DbgEngCoreDMExt_GalleryManifest.xml",
+    "bytes": 2689,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/DbgModelApiXtn_GalleryManifest.xml",
+    "bytes": 2996,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/ElfBin_GalleryManifest.xml",
+    "bytes": 1854,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/GDBServer_GalleryManifest.xml",
+    "bytes": 1768,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/GroupedStacks_GalleryManifest.xml",
+    "bytes": 739,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/I3cKd_GalleryManifest.xml",
+    "bytes": 2730,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/ImageInfo_GalleryManifest.xml",
+    "bytes": 1043,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/JsProvider_GalleryManifest.xml",
+    "bytes": 2329,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/KdExtsScript_GalleryManifest.xml",
+    "bytes": 4995,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/LinuxKernel_GalleryManifest.xml",
+    "bytes": 25626,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/LinuxUserXtn_GalleryManifest.xml",
+    "bytes": 1443,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/MachOBinCompositionPackage_GalleryManifest.xml",
+    "bytes": 792,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/NTSnapshot_GalleryManifest.xml",
+    "bytes": 10952,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/Natvis_GalleryManifest.xml",
+    "bytes": 8923,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/OpenEnclave_GalleryManifest.xml",
+    "bytes": 1474,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/PEBin_GalleryManifest.xml",
+    "bytes": 2648,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/RemoteSourceComposition_GalleryManifest.xml",
+    "bytes": 2948,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/SmFxDbg_GalleryManifest.xml",
+    "bytes": 1662,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/Usb3kd_GalleryManifest.xml",
+    "bytes": 15039,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/Usb4kd_GalleryManifest.xml",
+    "bytes": 4524,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/ext_GalleryManifest.xml",
+    "bytes": 20210,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/kdexts_GalleryManifest.xml",
+    "bytes": 136096,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/sos_GalleryManifest.xml",
+    "bytes": 1614,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/storagekd_GalleryManifest.xml",
+    "bytes": 3791,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/OptionalExtensions/wdfkd_GalleryManifest.xml",
+    "bytes": 16728,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/VerifiedNICList.xml",
+    "bytes": 37631,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/Visualizers/I3cKd.natvis",
+    "bytes": 144,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/Visualizers/Kernel.natvis",
+    "bytes": 60164,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/Visualizers/ObjectiveC.natvis",
+    "bytes": 4056,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/Visualizers/Usb4Kd.natvis",
+    "bytes": 741,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/Visualizers/Windows.Data.Json.natvis",
+    "bytes": 4020,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/Visualizers/Windows.Devices.Geolocation.natvis",
+    "bytes": 6015,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/Visualizers/Windows.Devices.Sensors.natvis",
+    "bytes": 8409,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/Visualizers/Windows.Media.natvis",
+    "bytes": 20414,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/Visualizers/atlmfc.natvis",
+    "bytes": 6626,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/Visualizers/concurrency.natvis",
+    "bytes": 40986,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/Visualizers/cpp_rest.natvis",
+    "bytes": 3587,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/Visualizers/gstl.natvis",
+    "bytes": 29894,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/Visualizers/stl.natvis",
+    "bytes": 118149,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/Visualizers/windows.natvis",
+    "bytes": 67349,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/Visualizers/winrt.natvis",
+    "bytes": 53603,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/cdb.exe",
+    "bytes": 178016,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/dbgcore.dll",
+    "bytes": 300856,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/dbgeng.dll",
+    "bytes": 11368288,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/dbghelp.dll",
+    "bytes": 747320,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/dbgmodel.dll",
+    "bytes": 1214264,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/dbgsrv.exe",
+    "bytes": 87904,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/dotnet_allow_list.txt",
+    "bytes": 509718,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/exdiConfigData.xml",
+    "bytes": 41698,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/kd.exe",
+    "bytes": 202552,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/kdbgctrl.exe",
+    "bytes": 87864,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/kdnet-dev-ext.dll",
+    "bytes": 254776,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/kdnet.exe",
+    "bytes": 177976,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/manifest.1.xml",
+    "bytes": 192,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/manifestversion.txt",
+    "bytes": 14,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/mdviewer.exe",
+    "bytes": 153440,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/mdviewercore.dll",
+    "bytes": 100152,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/msdia140.dll",
+    "bytes": 2700600,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ntsd.exe",
+    "bytes": 178016,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/srcsrv.dll",
+    "bytes": 345952,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/symsrv.dll",
+    "bytes": 2017080,
+    "mtime": "2026-10-01T10:02:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/systemregisters.xml",
+    "bytes": 11436,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/triage/pooltag.txt",
+    "bytes": 267601,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/triage/triage.ini",
+    "bytes": 2110,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/Analyzers/HeapAnalysis.js",
+    "bytes": 8286,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/Analyzers/Resources.json",
+    "bytes": 518,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/Analyzers/TtdAnalyze.js",
+    "bytes": 2329,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/Bookmarks.js",
+    "bytes": 21100,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/TTD.exe",
+    "bytes": 104288,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/TTDAnalyze.dll",
+    "bytes": 751416,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/TTDInject.exe",
+    "bytes": 300896,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/TTDLoader.dll",
+    "bytes": 51000,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/TTDRecord.dll",
+    "bytes": 853816,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/TTDRecordCPU.dll",
+    "bytes": 1521464,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/TTDReplay.dll",
+    "bytes": 1177440,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/TTDReplayCPU.dll",
+    "bytes": 3491680,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/TtdExt.dll",
+    "bytes": 1050424,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/wow64/Analyzers/HeapAnalysis.js",
+    "bytes": 8286,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/wow64/Analyzers/Resources.json",
+    "bytes": 518,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/wow64/Analyzers/TtdAnalyze.js",
+    "bytes": 2329,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/wow64/Bookmarks.js",
+    "bytes": 21032,
+    "mtime": "2026-10-01T10:02:12.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/wow64/TTD.exe",
+    "bytes": 92000,
+    "mtime": "2026-10-01T10:02:14.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/wow64/TTDAnalyze.dll",
+    "bytes": 538464,
+    "mtime": "2026-10-01T10:02:12.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/wow64/TTDInject.exe",
+    "bytes": 255800,
+    "mtime": "2026-10-01T10:02:12.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/wow64/TTDLoader.dll",
+    "bytes": 42848,
+    "mtime": "2026-10-01T10:02:12.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/wow64/TTDRecord.dll",
+    "bytes": 698208,
+    "mtime": "2026-10-01T10:02:12.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/wow64/TTDRecordCPU.dll",
+    "bytes": 1333048,
+    "mtime": "2026-10-01T10:02:12.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/wow64/TTDReplay.dll",
+    "bytes": 792376,
+    "mtime": "2026-10-01T10:02:12.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/wow64/TTDReplayCPU.dll",
+    "bytes": 1296224,
+    "mtime": "2026-10-01T10:02:12.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/ttd/wow64/TtdExt.dll",
+    "bytes": 849720,
+    "mtime": "2026-10-01T10:02:12.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/usb/usb2dbg.cat",
+    "bytes": 11510,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/usb/usb2dbg.inf",
+    "bytes": 4100,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/usb/usb2dbg.sys",
+    "bytes": 71424,
+    "mtime": "2026-10-01T10:02:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/usb/usbnet.cat",
+    "bytes": 11738,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/usb/usbnet.inf",
+    "bytes": 16352,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/usb/usbnet.sys",
+    "bytes": 100104,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/ApiExtension/CodeFlow.js",
+    "bytes": 26075,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/ApiExtension/SynTypes.js",
+    "bytes": 106968,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/CLRComposition.dll",
+    "bytes": 1828704,
+    "mtime": "2026-10-01T10:02:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/CrashpadComposition.dll",
+    "bytes": 63288,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/DbgEngCoreDMExt.dll",
+    "bytes": 284512,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/DbgModelApiXtn.dll",
+    "bytes": 2553656,
+    "mtime": "2026-10-01T10:02:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/DbgShim.dll",
+    "bytes": 143672,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/ELFBinComposition.dll",
+    "bytes": 2934584,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/GDBServerComposition.dll",
+    "bytes": 718648,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/GroupedStacks/GroupedStacks.js",
+    "bytes": 12227,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/ImageInfo/ImageInfo.js",
+    "bytes": 159838,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/JsProvider.d.ts",
+    "bytes": 52632,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/JsProvider.dll",
+    "bytes": 32528224,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/KdExtsScript/KdExtsScript.js",
+    "bytes": 3150,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/LinuxKernel.js",
+    "bytes": 142436,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/LinuxUserXtn.dll",
+    "bytes": 206648,
+    "mtime": "2026-10-01T10:02:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/MachOBinComposition.dll",
+    "bytes": 1046328,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/Microsoft.Diagnostics.Analysis.Utilities.dll",
+    "bytes": 2889528,
+    "mtime": "2026-10-01T10:02:28.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/NTSnapshotComposition.dll",
+    "bytes": 210744,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/OpenEnclaveComposition.dll",
+    "bytes": 124768,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/PEBinComposition.dll",
+    "bytes": 710456,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/RemoteSourceComposition.dll",
+    "bytes": 83808,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/SmFxDbg.dll",
+    "bytes": 198456,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/acxkd.dll",
+    "bytes": 169824,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/bthkd.dll",
+    "bytes": 149304,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/dwarf.dll",
+    "bytes": 680760,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/exdiConfigData.xml",
+    "bytes": 42748,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/ext.dll",
+    "bytes": 6554936,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/gpiokd.dll",
+    "bytes": 63288,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/hidkd.dll",
+    "bytes": 763704,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/i3ckd.dll",
+    "bytes": 681824,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/icudtl.dat",
+    "bytes": 10822192,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/jscript9diagdump.dll",
+    "bytes": 75576,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/kext.dll",
+    "bytes": 231264,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/rcdrkd.dll",
+    "bytes": 857912,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Azure.Core.dll",
+    "bytes": 418336,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Azure.Identity.dll",
+    "bytes": 349736,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Microsoft.Bcl.AsyncInterfaces.dll",
+    "bytes": 26464,
+    "mtime": "2026-10-01T10:02:28.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Microsoft.DiaSymReader.Native.amd64.dll",
+    "bytes": 2308920,
+    "mtime": "2026-10-01T10:02:28.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Microsoft.Diagnostics.DebugServices.Implementation.dll",
+    "bytes": 148792,
+    "mtime": "2026-10-01T10:02:30.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Microsoft.Diagnostics.DebugServices.dll",
+    "bytes": 41272,
+    "mtime": "2026-10-01T10:02:28.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Microsoft.Diagnostics.ExtensionCommands.dll",
+    "bytes": 517432,
+    "mtime": "2026-10-01T10:02:30.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Microsoft.Diagnostics.NETCore.Client.dll",
+    "bytes": 147296,
+    "mtime": "2026-10-01T10:02:28.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Microsoft.Diagnostics.Runtime.dll",
+    "bytes": 680800,
+    "mtime": "2026-10-01T10:02:28.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+    "bytes": 47928,
+    "mtime": "2026-10-01T10:02:26.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Microsoft.Extensions.DependencyInjection.dll",
+    "bytes": 79160,
+    "mtime": "2026-10-01T10:02:26.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Microsoft.Extensions.Logging.Abstractions.dll",
+    "bytes": 64312,
+    "mtime": "2026-10-01T10:02:28.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Microsoft.Extensions.Logging.dll",
+    "bytes": 45408,
+    "mtime": "2026-10-01T10:02:26.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Microsoft.Extensions.Options.dll",
+    "bytes": 59192,
+    "mtime": "2026-10-01T10:02:28.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Microsoft.Extensions.Primitives.dll",
+    "bytes": 43872,
+    "mtime": "2026-10-01T10:02:26.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Microsoft.FileFormats.dll",
+    "bytes": 116024,
+    "mtime": "2026-10-01T10:02:26.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Microsoft.Identity.Client.Extensions.Msal.dll",
+    "bytes": 65336,
+    "mtime": "2026-10-01T10:02:26.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Microsoft.Identity.Client.dll",
+    "bytes": 1580856,
+    "mtime": "2026-10-01T10:02:30.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Microsoft.IdentityModel.Abstractions.dll",
+    "bytes": 18744,
+    "mtime": "2026-10-01T10:02:26.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/Microsoft.SymbolStore.dll",
+    "bytes": 68448,
+    "mtime": "2026-10-01T10:02:28.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/SOS.Extensions.dll",
+    "bytes": 68640,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/SOS.Hosting.dll",
+    "bytes": 327192,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/SOS.InstallHelper.dll",
+    "bytes": 24096,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.Buffers.dll",
+    "bytes": 21376,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.ClientModel.dll",
+    "bytes": 114232,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.Collections.Immutable.dll",
+    "bytes": 252680,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.CommandLine.dll",
+    "bytes": 148536,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.ComponentModel.Annotations.dll",
+    "bytes": 81040,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.Diagnostics.DiagnosticSource.dll",
+    "bytes": 154288,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.IO.FileSystem.AccessControl.dll",
+    "bytes": 31624,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.Memory.Data.dll",
+    "bytes": 29800,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.Memory.dll",
+    "bytes": 142752,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.Numerics.Vectors.dll",
+    "bytes": 163464,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.Reflection.Metadata.dll",
+    "bytes": 487696,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.Runtime.CompilerServices.Unsafe.dll",
+    "bytes": 18024,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.Runtime.Loader.dll",
+    "bytes": 22232,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.Security.AccessControl.dll",
+    "bytes": 55688,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.Security.Cryptography.ProtectedData.dll",
+    "bytes": 25232,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.Security.Principal.Windows.dll",
+    "bytes": 37768,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.Text.Encodings.Web.dll",
+    "bytes": 79120,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.Text.Json.dll",
+    "bytes": 608520,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/System.Threading.Tasks.Extensions.dll",
+    "bytes": 25984,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/extensions/Microsoft.Diagnostics.DataContractReader.Extension.dll",
+    "bytes": 59192,
+    "mtime": "2026-10-01T10:02:26.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/extensions/Microsoft.Diagnostics.DataContractReader.dll",
+    "bytes": 181048,
+    "mtime": "2026-10-01T10:02:28.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/extensions/Microsoft.Diagnostics.DebuggerCommands.dll",
+    "bytes": 29496,
+    "mtime": "2026-10-01T10:02:28.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/sos/sos.dll",
+    "bytes": 822304,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/storagekd.dll",
+    "bytes": 165688,
+    "mtime": "2026-10-01T10:02:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/systemregisters.xml",
+    "bytes": 11436,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/uext.dll",
+    "bytes": 141112,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/usb3kd.dll",
+    "bytes": 1288032,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/usb4kd.dll",
+    "bytes": 2430776,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/usbkd.dll",
+    "bytes": 706400,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winext/wdfkd.dll",
+    "bytes": 1423200,
+    "mtime": "2026-10-01T10:02:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winxp/WudfExt.dll",
+    "bytes": 173880,
+    "mtime": "2026-10-01T10:02:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winxp/acpikd.dll",
+    "bytes": 137016,
+    "mtime": "2026-10-01T10:02:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winxp/default.tmf",
+    "bytes": 5609,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winxp/exts.dll",
+    "bytes": 653152,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winxp/fltkd.dll",
+    "bytes": 145208,
+    "mtime": "2026-10-01T10:02:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winxp/kdexts.dll",
+    "bytes": 2922296,
+    "mtime": "2026-10-01T10:02:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winxp/ks.dll",
+    "bytes": 546616,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winxp/minipkd.dll",
+    "bytes": 91960,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winxp/ndiskd.dll",
+    "bytes": 2611000,
+    "mtime": "2026-10-01T10:02:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winxp/ntsdexts.dll",
+    "bytes": 91960,
+    "mtime": "2026-10-01T10:02:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winxp/nvkd.dll",
+    "bytes": 169824,
+    "mtime": "2026-10-01T10:02:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winxp/rpcexts.dll",
+    "bytes": 268088,
+    "mtime": "2026-10-01T10:02:18.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winxp/scsikd.dll",
+    "bytes": 96096,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winxp/system.tmf",
+    "bytes": 40946,
+    "mtime": "2026-10-01T10:02:10.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winxp/wmiTrace.dll",
+    "bytes": 1038136,
+    "mtime": "2026-10-01T10:02:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg-1.2610.1001.0/amd64/winxp/wow64exts.dll",
+    "bytes": 63328,
+    "mtime": "2026-10-01T10:02:16.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg.appinstaller",
+    "bytes": 685,
+    "mtime": "2026-10-28T05:50:27.028Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/windbg_win-x64.msix",
+    "bytes": 404832537,
+    "mtime": "2026-10-28T05:52:25.568Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/x64-local-header.bin",
+    "bytes": 256,
+    "mtime": "2026-10-28T05:51:42.819Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/debugger-tools/x64-range.json",
+    "bytes": 173,
+    "mtime": "2026-10-28T05:51:42.842Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/docked-final.png",
+    "bytes": 207258,
+    "mtime": "2026-10-26T18:40:56.974Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/docked-fixture.json",
+    "bytes": 138657,
+    "mtime": "2026-10-26T18:35:02.830Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/extended-validation-summary.json",
+    "bytes": 1301,
+    "mtime": "2026-10-27T06:14:20.258Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/fixture-tests.txt",
+    "bytes": 379,
+    "mtime": "2026-10-26T18:31:13.557Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/floating-no-project.json",
+    "bytes": 4038,
+    "mtime": "2026-10-26T18:28:50.662Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/floating-package-followup.json",
+    "bytes": 1593,
+    "mtime": "2026-10-27T08:01:13.854Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/analyze-cached-stacks.cdb",
+    "bytes": 356,
+    "mtime": "2026-10-28T05:56:32.440Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/analyze-hang-symbols.cdb",
+    "bytes": 368,
+    "mtime": "2026-10-28T05:54:38.142Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/analyze-hang.cdb",
+    "bytes": 229,
+    "mtime": "2026-10-28T05:53:42.436Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/debugger-cached-stderr.txt",
+    "bytes": 0,
+    "mtime": "2026-10-28T05:56:32.766Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/debugger-cached-stdout.txt",
+    "bytes": 204528,
+    "mtime": "2026-10-28T05:56:33.528Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/debugger-symbols-stderr.txt",
+    "bytes": 0,
+    "mtime": "2026-10-28T05:54:38.499Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/debugger-symbols-stdout.txt",
+    "bytes": 222328,
+    "mtime": "2026-10-28T05:56:40.575Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/debugger-verification-stderr.txt",
+    "bytes": 0,
+    "mtime": "2026-10-28T05:57:48.893Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/debugger-verification-stdout.txt",
+    "bytes": 10905,
+    "mtime": "2026-10-28T05:57:49.275Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/dump-metadata.json",
+    "bytes": 30170,
+    "mtime": "2026-10-28T05:46:39.130Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/inspect-dump-metadata.cjs",
+    "bytes": 4299,
+    "mtime": "2026-10-28T05:46:38.655Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/monitor-start.json",
+    "bytes": 343,
+    "mtime": "2026-10-28T05:41:27.937Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/monitor-stderr.txt",
+    "bytes": 156,
+    "mtime": "2026-10-28T05:41:27.967Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/monitor-stdout.txt",
+    "bytes": 2604,
+    "mtime": "2026-10-28T05:44:51.536Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/native-analysis-host-state.json",
+    "bytes": 321,
+    "mtime": "2026-10-28T06:01:09.605Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/native-analysis-preservation.json",
+    "bytes": 2314,
+    "mtime": "2026-10-28T06:01:09.793Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/native-analysis-summary.json",
+    "bytes": 54886,
+    "mtime": "2026-10-28T05:59:19.903Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/native-stack-analysis-cached.txt",
+    "bytes": 210255,
+    "mtime": "2026-10-28T05:56:33.480Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/native-stack-analysis-offline.txt",
+    "bytes": 233506,
+    "mtime": "2026-10-28T05:54:01.239Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/native-stack-analysis-symbols.txt",
+    "bytes": 228202,
+    "mtime": "2026-10-28T05:56:40.518Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/native-symbol-verification.txt",
+    "bytes": 13488,
+    "mtime": "2026-10-28T05:57:49.247Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/premiere-11556-reopen-mini.dmp",
+    "bytes": 201778984,
+    "mtime": "2026-10-28T05:44:51.265Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/process-after-recovery.json",
+    "bytes": 490,
+    "mtime": "2026-10-28T05:48:32.966Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/process-before-recovery.json",
+    "bytes": 466,
+    "mtime": "2026-10-28T05:45:52.177Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/recovery.json",
+    "bytes": 222,
+    "mtime": "2026-10-28T05:45:52.189Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-20261028/summarize-native-analysis.cjs",
+    "bytes": 6379,
+    "mtime": "2026-10-28T05:59:19.395Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-summary-20261028.json",
+    "bytes": 6020,
+    "mtime": "2026-10-28T05:48:33.021Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-tool-verification.json",
+    "bytes": 481,
+    "mtime": "2026-10-28T05:41:00.438Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-tools/Eula.txt",
+    "bytes": 7490,
+    "mtime": "2026-10-15T15:36:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-tools/procdump.exe",
+    "bytes": 1374520,
+    "mtime": "2026-10-15T15:39:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-tools/procdump64.exe",
+    "bytes": 743752,
+    "mtime": "2026-10-15T15:39:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/hang-capture-tools/procdump64a.exe",
+    "bytes": 749344,
+    "mtime": "2026-10-15T15:39:20.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/installation-error-17-20261028.json",
+    "bytes": 1409,
+    "mtime": "2026-10-27T17:21:52.570Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/installation-open-20261028.json",
+    "bytes": 928,
+    "mtime": "2026-10-27T17:19:16.010Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/installed-export-validation-20261028.json",
+    "bytes": 1857,
+    "mtime": "2026-10-28T05:08:00.678Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/installed-fixture-followup-20261028.json",
+    "bytes": 2083,
+    "mtime": "2026-10-28T05:00:19.747Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/installed-runtime-verification-20261028.json",
+    "bytes": 3251,
+    "mtime": "2026-10-28T05:08:00.679Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/installed-test.html",
+    "bytes": 170614,
+    "mtime": "2026-10-28T05:06:29.209Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/installed-test.json",
+    "bytes": 136908,
+    "mtime": "2026-10-28T05:06:22.093Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/isolation-final-recovery.json",
+    "bytes": 136,
+    "mtime": "2026-10-27T04:47:07.842Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/large-adapter-only-process.json",
+    "bytes": 96,
+    "mtime": "2026-10-27T07:12:14.282Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/large-fixture-setup-console.txt",
+    "bytes": 31259,
+    "mtime": "2026-10-27T02:19:10.308Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/large-host-state.json",
+    "bytes": 99,
+    "mtime": "2026-10-27T02:26:23.579Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/large-inventory-first-console.txt",
+    "bytes": 36136,
+    "mtime": "2026-10-27T02:21:02.908Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/large-inventory-harness.js",
+    "bytes": 5065,
+    "mtime": "2026-10-27T02:19:10.291Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/large-inventory-native.json",
+    "bytes": 32185254,
+    "mtime": "2026-10-27T02:24:43.197Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/large-inventory-summary.json",
+    "bytes": 844,
+    "mtime": "2026-10-27T02:26:25.068Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/large-isolation-harness.js",
+    "bytes": 2331,
+    "mtime": "2026-10-27T07:10:16.472Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/large-isolation-native.json",
+    "bytes": 27582909,
+    "mtime": "2026-10-27T07:11:37.652Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/large-panel-recheck-native.json",
+    "bytes": 30809945,
+    "mtime": "2026-10-27T07:13:31.100Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/large-panel-recheck.js",
+    "bytes": 5389,
+    "mtime": "2026-10-27T07:12:45.033Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/large-recheck-summary.json",
+    "bytes": 1806,
+    "mtime": "2026-10-27T07:16:38.734Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/large-stable-open-process.json",
+    "bytes": 276,
+    "mtime": "2026-10-27T07:08:49.387Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/layout-export-validation-20261028.json",
+    "bytes": 1916,
+    "mtime": "2026-10-28T15:07:13.512Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/layout-final-export-validation-20261028.json",
+    "bytes": 1919,
+    "mtime": "2026-10-28T15:31:01.109Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/layout-final-package-verification-20261028.json",
+    "bytes": 2269,
+    "mtime": "2026-10-28T15:06:54.775Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/layout-final-tests-20261028.txt",
+    "bytes": 5296,
+    "mtime": "2026-10-28T15:04:45.571Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/layout-postrestart-validation-20261028.json",
+    "bytes": 3245,
+    "mtime": "2026-10-28T15:32:14.639Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/layout-refresh-candidate-20261028.json",
+    "bytes": 2131,
+    "mtime": "2026-10-28T14:41:05.446Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/layout-refresh-capture-stderr-20261028.txt",
+    "bytes": 0,
+    "mtime": "2026-10-28T14:48:11.803Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/layout-refresh-capture-stdout-20261028.txt",
+    "bytes": 2880,
+    "mtime": "2026-10-28T14:48:14.303Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/layout-refresh-debugger-stderr-20261028.txt",
+    "bytes": 0,
+    "mtime": "2026-10-28T14:49:14.658Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/layout-refresh-debugger-stdout-20261028.txt",
+    "bytes": 11018,
+    "mtime": "2026-10-28T14:49:15.604Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/layout-refresh-helper-detach-20261028.json",
+    "bytes": 510,
+    "mtime": "2026-10-28T14:49:14.654Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/layout-refresh-main-stack-20261028.txt",
+    "bytes": 13577,
+    "mtime": "2026-10-28T14:49:15.576Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/layout-refresh-opening-samples-20261028.json",
+    "bytes": 764,
+    "mtime": "2026-10-28T14:47:11.923Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/layout-refresh-package-verification-20261028.json",
+    "bytes": 2269,
+    "mtime": "2026-10-28T14:47:38.270Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/layout-refresh-package-verification-stdout-20261028.txt",
+    "bytes": 2269,
+    "mtime": "2026-10-28T14:47:38.271Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/layout-refresh-reconnect-14208-20261028.dmp",
+    "bytes": 187104189,
+    "mtime": "2026-10-28T14:48:14.041Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/layout-refresh-tests-20261028.txt",
+    "bytes": 5232,
+    "mtime": "2026-10-28T14:41:12.770Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/layout-refresh-validation-20261028.json",
+    "bytes": 7705,
+    "mtime": "2026-10-28T15:09:48.431Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/manual-audio-inspection.json",
+    "bytes": 1096,
+    "mtime": "2026-10-27T05:58:34.039Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/manual-control-20261028/Positive_Signal_Test-user-saved-7bfc2f703ec7.prproj",
+    "bytes": 23183,
+    "mtime": "2026-10-28T06:13:05.118Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/manual-control-20261028/manual-control-result.json",
+    "bytes": 3977,
+    "mtime": "2026-10-28T06:19:02.691Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/manual-control-20261028/process-samples.jsonl",
+    "bytes": 2751,
+    "mtime": "2026-10-28T06:16:25.696Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/manual-control-20261028/recovery-samples.json",
+    "bytes": 1277,
+    "mtime": "2026-10-28T06:17:36.556Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/manual-control-20261028/saved-snapshot-audit.json",
+    "bytes": 342,
+    "mtime": "2026-10-28T06:16:33.861Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/manual-control-20261028/saved-snapshot.json",
+    "bytes": 707,
+    "mtime": "2026-10-28T06:15:55.543Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/manual-docking-validation-20261028.json",
+    "bytes": 935,
+    "mtime": "2026-10-28T15:37:44.931Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/manual-resize-validation-20261028.json",
+    "bytes": 1023,
+    "mtime": "2026-10-28T15:41:44.958Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/native-ui-attempt1-console.txt",
+    "bytes": 8884,
+    "mtime": "2026-10-27T01:41:36.090Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/native-ui-harness.js",
+    "bytes": 4650,
+    "mtime": "2026-10-27T01:41:36.072Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/native-ui-lifecycle.json",
+    "bytes": 814272,
+    "mtime": "2026-10-27T01:46:54.291Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/native-ui-pass-console.txt",
+    "bytes": 13723,
+    "mtime": "2026-10-27T01:43:47.634Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/pagination-export-validation.json",
+    "bytes": 170,
+    "mtime": "2026-10-27T07:45:32.763Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/pagination-export.html",
+    "bytes": 32011500,
+    "mtime": "2026-10-27T07:45:31.009Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/pagination-export.json",
+    "bytes": 26308531,
+    "mtime": "2026-10-27T07:43:57.619Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/pagination-native-harness.js",
+    "bytes": 4413,
+    "mtime": "2026-10-27T07:39:19.528Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/pagination-native-results.json",
+    "bytes": 55168150,
+    "mtime": "2026-10-27T07:41:03.545Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/pagination-summary.json",
+    "bytes": 2690,
+    "mtime": "2026-10-27T07:50:21.180Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/OpeningTraceAnalyzer.cs",
+    "bytes": 2550,
+    "mtime": "2026-10-28T14:27:25.162Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/.signature.p7s",
+    "bytes": 25995,
+    "mtime": "2026-10-14T05:33:56.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/Microsoft.Diagnostics.Tracing.TraceEvent.nuspec",
+    "bytes": 2439,
+    "mtime": "2026-10-14T07:30:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/[Content_Types].xml",
+    "bytes": 593,
+    "mtime": "2026-10-14T07:30:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/_rels/.rels",
+    "bytes": 507,
+    "mtime": "2026-10-14T07:30:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/build/Microsoft.Diagnostics.Tracing.TraceEvent.props",
+    "bytes": 4467,
+    "mtime": "2026-10-14T07:30:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/build/native/amd64/KernelTraceControl.dll",
+    "bytes": 266696,
+    "mtime": "2026-10-14T07:30:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/build/native/amd64/msdia140.dll",
+    "bytes": 2255920,
+    "mtime": "2026-10-14T07:30:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/build/native/arm64/KernelTraceControl.dll",
+    "bytes": 258504,
+    "mtime": "2026-10-14T07:30:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/build/native/arm64/msdia140.dll",
+    "bytes": 5185968,
+    "mtime": "2026-10-14T07:30:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/build/native/x86/KernelTraceControl.dll",
+    "bytes": 185800,
+    "mtime": "2026-10-14T07:30:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/build/native/x86/msdia140.dll",
+    "bytes": 2191912,
+    "mtime": "2026-10-14T07:30:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/buildTransitive/Microsoft.Diagnostics.Tracing.TraceEvent.props",
+    "bytes": 4467,
+    "mtime": "2026-10-14T07:30:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/lib/netstandard2.0/Dia2Lib.dll",
+    "bytes": 59024,
+    "mtime": "2026-10-14T07:30:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/lib/netstandard2.0/Microsoft.Diagnostics.FastSerialization.dll",
+    "bytes": 76600,
+    "mtime": "2026-10-14T07:30:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/lib/netstandard2.0/Microsoft.Diagnostics.FastSerialization.xml",
+    "bytes": 106517,
+    "mtime": "2026-10-14T07:30:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/lib/netstandard2.0/Microsoft.Diagnostics.Tracing.TraceEvent.dll",
+    "bytes": 3327800,
+    "mtime": "2026-10-14T07:30:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/lib/netstandard2.0/Microsoft.Diagnostics.Tracing.TraceEvent.xml",
+    "bytes": 1002745,
+    "mtime": "2026-10-14T07:30:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/lib/netstandard2.0/TraceReloggerLib.dll",
+    "bytes": 23216,
+    "mtime": "2026-10-14T07:30:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent-4.0.0/package/services/metadata/core-properties/nuget.psmdcp",
+    "bytes": 1538,
+    "mtime": "2026-10-14T07:30:58.000Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/TraceEvent.nupkg",
+    "bytes": 5408782,
+    "mtime": "2026-10-28T14:26:02.019Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/performance-analysis-tools/tool-verification.json",
+    "bytes": 541,
+    "mtime": "2026-10-28T14:29:20.295Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/positive-centered-analysis.json",
+    "bytes": 3749,
+    "mtime": "2026-10-27T06:11:39.600Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/positive-centered.wav",
+    "bytes": 1165472,
+    "mtime": "2026-10-27T06:11:30.746Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/positive-native-harness.js",
+    "bytes": 3235,
+    "mtime": "2026-10-27T06:12:13.177Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/positive-native-results.json",
+    "bytes": 605928,
+    "mtime": "2026-10-27T06:12:42.917Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/positive-report.html",
+    "bytes": 170614,
+    "mtime": "2026-10-27T06:13:09.213Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/positive-report.json",
+    "bytes": 136908,
+    "mtime": "2026-10-27T06:13:09.207Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/positive-signal-analysis.json",
+    "bytes": 3664,
+    "mtime": "2026-10-27T06:09:46.656Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/positive-signal.wav",
+    "bytes": 1165472,
+    "mtime": "2026-10-27T06:09:21.449Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/postload-export-validation-20261028.json",
+    "bytes": 3793,
+    "mtime": "2026-10-28T13:41:13.264Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/postload-manual-scan-20261028.json",
+    "bytes": 3386,
+    "mtime": "2026-10-28T13:38:47.597Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/postload-manual-scan-20261028.png",
+    "bytes": 116946,
+    "mtime": "2026-10-28T13:37:27.884Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/postload-scan-attempt-20261028.json",
+    "bytes": 1348,
+    "mtime": "2026-10-28T13:28:11.404Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/reconnected-export-validation.json",
+    "bytes": 286,
+    "mtime": "2026-10-27T05:56:02.627Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/reconnected-native-scan.json",
+    "bytes": 772,
+    "mtime": "2026-10-27T05:52:58.798Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/reconnected-report.html",
+    "bytes": 173974,
+    "mtime": "2026-10-27T05:55:48.986Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/reconnected-report.json",
+    "bytes": 138657,
+    "mtime": "2026-10-27T05:55:08.691Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/record-layout-checkpoint-20261028.cjs",
+    "bytes": 3548,
+    "mtime": "2026-10-28T15:09:48.060Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/record-manual-docking-20261028.cjs",
+    "bytes": 1570,
+    "mtime": "2026-10-28T15:37:44.543Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/record-manual-resize-20261028.cjs",
+    "bytes": 1628,
+    "mtime": "2026-10-28T15:41:44.612Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/record-postrestart-layout-20261028.cjs",
+    "bytes": 2042,
+    "mtime": "2026-10-28T15:32:14.264Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/recovery-installed-session-20261028.json",
+    "bytes": 673,
+    "mtime": "2026-10-28T05:01:30.098Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/recovery-process-after.json",
+    "bytes": 115,
+    "mtime": "2026-10-27T04:40:58.420Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/recovery-process-before.json",
+    "bytes": 311,
+    "mtime": "2026-10-27T04:40:08.432Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/reload-control-20261028.prproj",
+    "bytes": 5409,
+    "mtime": "2026-10-28T05:12:24.083Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/reload-fixture-audit-20261028.json",
+    "bytes": 1366,
+    "mtime": "2026-10-28T05:15:11.461Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/reload-investigation-summary-20261028.json",
+    "bytes": 3150,
+    "mtime": "2026-10-28T05:17:11.660Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/reopen-without-scan-process-final.json",
+    "bytes": 273,
+    "mtime": "2026-10-27T04:44:50.597Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/reopen-without-scan-process.json",
+    "bytes": 275,
+    "mtime": "2026-10-27T04:44:21.087Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/session-result.json",
+    "bytes": 150464,
+    "mtime": "2026-10-28T15:41:44.960Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/small-control-recovery.json",
+    "bytes": 270,
+    "mtime": "2026-10-27T05:12:45.616Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/small-reopen-unloaded-process-final.json",
+    "bytes": 271,
+    "mtime": "2026-10-27T05:12:12.773Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/small-reopen-unloaded-process.json",
+    "bytes": 270,
+    "mtime": "2026-10-27T05:11:39.262Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/syntax-checks.txt",
+    "bytes": 533,
+    "mtime": "2026-10-26T18:31:14.402Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/udt-build-folder.txt",
+    "bytes": 1538,
+    "mtime": "2026-10-26T18:37:42.284Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/unloaded-control-process-final.json",
+    "bytes": 275,
+    "mtime": "2026-10-27T04:46:45.768Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/unloaded-control-process.json",
+    "bytes": 274,
+    "mtime": "2026-10-27T04:46:18.226Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/unloaded-control-udt.txt",
+    "bytes": 359,
+    "mtime": "2026-10-27T04:45:45.819Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/user-open-session-process.json",
+    "bytes": 271,
+    "mtime": "2026-10-27T05:20:28.457Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/user-open-session-udt-error.txt",
+    "bytes": 656,
+    "mtime": "2026-10-27T05:20:27.802Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/validate-final-layout-exports-20261028.cjs",
+    "bytes": 2315,
+    "mtime": "2026-10-28T15:31:01.004Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/validate-layout-exports-20261028.cjs",
+    "bytes": 2306,
+    "mtime": "2026-10-28T15:07:13.116Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/validate-postload-exports.cjs",
+    "bytes": 6155,
+    "mtime": "2026-10-28T13:41:12.878Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/wav-export-attempt.json",
+    "bytes": 516,
+    "mtime": "2026-10-27T06:00:01.820Z"
+  },
+  {
+    "file": "reports/panel-layout-20261027/wav-signal-analysis.json",
+    "bytes": 1398,
+    "mtime": "2026-10-27T06:05:33.131Z"
+  },
+  {
+    "file": "reports/panel-layout-20261029/inherited-git-status.txt",
+    "bytes": 45768,
+    "mtime": "2026-10-29T04:44:10.065Z"
+  },
+  {
+    "file": "reports/panel-layout-20261029/inherited-tracked.patch",
+    "bytes": 28416,
+    "mtime": "2026-10-29T04:44:10.150Z"
+  },
+  {
+    "file": "reports/panel-layout-20261029/verify-checkpoint.cjs",
+    "bytes": 6659,
+    "mtime": "2026-10-29T04:44:09.428Z"
+  }
+]

@@ -1,0 +1,44 @@
+Window: "Adobe UXP Developer Tools", App: Adobe UXP Developer Tools.exe.
+	0 pane Adobe UXP Developer Tools Secondary Actions: Raise
+		118 document Value: file:///C:/Program%20Files/Adobe/Adobe%20UXP%20Developer%20Tools/resources/app.asar/dist/index.html ID: -505501104
+			120 button
+			121 button ID: applicationLogsButton
+			122 button ID: preferenceButton
+			123 button ID: preferenceButton
+			125 edit (settable, string) Search... ID: react-aria4441177288-10
+			153 dialog Plugin Options
+				154 text Manifest v5 Plugin
+				155 separator
+				156 text Debug
+				157 check box Break on Start
+				158 text Effective only when your plugin is in the 'Debugging' state. You may have to 'Reload' to break on start.
+				159 text Advanced
+				160 text Select Plugin Build Folder
+				161 edit (settable, string) Value: C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\artifacts\audio-preflight-0.2.1-037571056922 ID: buildFolder
+				162 button Select
+				163 button Cancel
+				164 button Save
+		2 pane (disabled)
+		3 title bar (settable, string) Value: Adobe UXP Developer Tools
+			4 menu bar System ID: MenuBar
+				5 menu item System
+			6 button Minimize
+			7 button Maximize
+			8 button Close
+		9 pane
+			10 pane
+			11 pane
+				12 pane
+					13 pane
+						14 menu item File
+						15 menu item Edit
+						16 menu item Actions
+						17 menu item View
+						18 menu item Help
+					19 pane
+
+Selected text: ```
+ 
+```
+
+Note: Pay special attention to the content selected by the user. If the user asks a question or refers to the content they are looking at on-screen, they might be referring to the selected content (but they might be referring to something else that's visible, too).

@@ -1,0 +1,66 @@
+{
+  "recordType": "independent-static-native-fixture-asset-review",
+  "reviewedAt": "2026-10-18T09:39:58.871Z",
+  "branch": "codex/validated-beta-20261017",
+  "verificationBaseHead": "58483f5",
+  "nativeExecutionPerformed": false,
+  "interpretation": "Static PCM WAV header/hash validation only. Association to an imported timeline clip requires independent UI/path evidence; this does not prove host playback or output correctness.",
+  "assets": [
+    {
+      "file": "reports/beta-20261004/ARID_20261018_mono.wav",
+      "bytes": 288044,
+      "sha256": "759763e2dbfc66aa157eac5bd26b5ad68d9d961bbd79096bc6fddee9acdde433",
+      "fmt": {
+        "formatTag": 1,
+        "channels": 1,
+        "sampleRate": 48000,
+        "byteRate": 96000,
+        "blockAlign": 2,
+        "bitsPerSample": 16
+      },
+      "dataBytes": 288000,
+      "frames": 144000,
+      "durationSeconds": 3,
+      "checks": {
+        "riffWave": true,
+        "receiptSha256": true,
+        "channels": true,
+        "sampleRate": true,
+        "bitsPerSample": true,
+        "pcm": true,
+        "blockAlign": true,
+        "byteRate": true,
+        "nonemptyWholeFrames": true
+      },
+      "allChecksPass": true
+    },
+    {
+      "file": "reports/beta-20261004/ARID_20261018_four_channel.wav",
+      "bytes": 1152044,
+      "sha256": "283f645ab0f64dda448bdd6fa9be01d2c4e27ee6bd2a604ff5834aacaad8a1aa",
+      "fmt": {
+        "formatTag": 1,
+        "channels": 4,
+        "sampleRate": 48000,
+        "byteRate": 384000,
+        "blockAlign": 8,
+        "bitsPerSample": 16
+      },
+      "dataBytes": 1152000,
+      "frames": 144000,
+      "durationSeconds": 3,
+      "checks": {
+        "riffWave": true,
+        "receiptSha256": true,
+        "channels": true,
+        "sampleRate": true,
+        "bitsPerSample": true,
+        "pcm": true,
+        "blockAlign": true,
+        "byteRate": true,
+        "nonemptyWholeFrames": true
+      },
+      "allChecksPass": true
+    }
+  ]
+}

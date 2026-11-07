@@ -1,0 +1,73 @@
+{
+  "verifiedAt": "2026-10-31T10:46:29.802316+07:00",
+  "status": "PASS_BOUNDED_NATIVE_D05_WRITE_FAILURE_AND_RECOVERY",
+  "case": "LQ-D05",
+  "runtime": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+  "context": "Frozen developer runtime; same loaded session as run-20261031-1006-inflight; no reload or new scan",
+  "fixture": "reports/lifecycle-qualification-20261029/run-20261031-0828-linear-fixture/working/Linear_Audio_20261031.prproj",
+  "fixtureSha256": "544b63d0e826208df0bbe07f89181f97e4aa495f2110c72ce34d82f758266203",
+  "target": "locked-write-target.json",
+  "targetBytesAfterFailure": 0,
+  "targetSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "temporaryHandle": "FileAccess.Read / FileShare.Read; read allowed, write/delete denied while held; no ACL/attribute/security changes",
+  "ordinaryAttempt": {
+    "visibleStatus": "Export failed: resource busy or locked",
+    "pickerClosed": true,
+    "controlsRecovered": true,
+    "stageAttribution": "Initially unresolved picker vs file.write; not alone a D05 PASS",
+    "recoveryExport": {
+      "file": "audio-preflight-2026-10-31T03-21-39-589Z.json",
+      "bytes": 51217142,
+      "sha256": "117ef210888fb74d2dce01bc2ec623c4d3db35db0943ac6408c4af9272d738e1",
+      "byteIdenticalToRetainedReport": true
+    }
+  },
+  "attributedAttempt": {
+    "method": "Temporary Sources breakpoint at index.js:113 after awaited getFileForSaving and before file.write at line 114; observed non-null returned File; only then acquired the temporary write-denying handle; removed breakpoint, resumed original code and observed identical native export error",
+    "trace": "stage-trace.json",
+    "fileReferenceObservedBeforeHandle": true,
+    "sourceBytesEdited": false,
+    "visibleStatus": "Export failed: resource busy or locked",
+    "pickerClosed": true,
+    "controlsRecovered": true,
+    "reportRetainedMs": 7966,
+    "postFailureRecoveryExport": {
+      "file": "post-trace-recovery.json",
+      "bytes": 51217142,
+      "sha256": "117ef210888fb74d2dce01bc2ec623c4d3db35db0943ac6408c4af9272d738e1",
+      "byteIdenticalToRetainedReport": true
+    }
+  },
+  "newScans": 0,
+  "allTemporaryHandlesReleased": true,
+  "breakpointRemoved": true,
+  "debuggerUnpaused": true,
+  "operatorActions": [
+    {
+      "class": "USER_STATED",
+      "statement": "Yes\u2014replace only the empty test file",
+      "scope": "Only new zero-byte locked-write-target.json"
+    },
+    {
+      "class": "USER_STATED",
+      "statement": "done",
+      "scope": "Manual replacement confirmation after Computer Use geometry error"
+    },
+    {
+      "class": "USER_STATED",
+      "statement": "done",
+      "scope": "Manual same-target confirmation for stage-attribution trial after foreground modal PID error"
+    }
+  ],
+  "toolLimits": [
+    "Initial Save As disappeared before destination could be changed; no target input sent and no D05 claim for that operation.",
+    "Confirm Save As button lay outside reported parent bounds; agent click rejected before input. Keyboard modal attempt also failed before input. Manual confirmations remain USER_STATED; their UI/file results independently observed."
+  ],
+  "limitations": [
+    "Debugger-assisted stage attribution is explicitly separate from the first ordinary native error/recovery; no unpaused timing/performance claim for the trace.",
+    "Failure was deliberately induced only on a new empty disposable file; it is expected recovery testing, not a reproduced product defect requiring source fixes.",
+    "No real disk-full/quota/removable-network/provider case is qualified.",
+    "Adobe API reference was consulted for picker/File distinction; actual stage claim relies on native boundary observation and unchanged source, not documentation alone."
+  ],
+  "nextAction": "All eleven planned developer-context cases P01 and D01-D10 now have bounded passes. Preserve these results and do not repeat them merely to resume. Remaining K01 and I01-I06 package/installed-context cases require their separate authorization, verified final-runtime CCX and designated clean context. No packaging or installation is started by this D05 task; mapping/output/playback correctness and earlier crash cause remain UNKNOWN, distribution NOT APPROVED."
+}

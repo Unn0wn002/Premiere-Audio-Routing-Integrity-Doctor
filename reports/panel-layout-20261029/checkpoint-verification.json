@@ -1,0 +1,142 @@
+{
+  "verifiedAt": "2026-10-29T04:44:10.599Z",
+  "evidenceClass": "VERIFIED_THIS_SESSION_STATIC_AND_FILESYSTEM",
+  "branch": "codex/validated-beta-20261017",
+  "head": "9330e242eadcd10623300ca39d01753355aefc7a",
+  "inheritedDirtyPaths": [
+    "README.md",
+    "docs/BETA_RELEASE_CHECKLIST.md",
+    "docs/PROJECT_STATUS.md",
+    "docs/SUBMISSION_OPERATOR_HANDOFF.md",
+    "index.html",
+    "index.js",
+    "tests/beta.test.js",
+    "tests/recovery.test.js"
+  ],
+  "inheritedUntrackedCount": 494,
+  "normalizedRuntimeIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+  "sourceFiles": [
+    {
+      "file": "manifest.json",
+      "sha256": "d362207dcb2c4e32fb7b7e5b1d2201f5898f1f0c5b6ae3400793dda5b140a06b",
+      "stageMatches": true,
+      "rawSourceSha256": "bdd5eb88f9cd3de8e1d13b0a8459893b4daa1d73b5dad385549a880fb59d5e41"
+    },
+    {
+      "file": "index.html",
+      "sha256": "211a54f25ced54808d83a6da0fb18736f7130b18fb191d9fa1fb93305c659e77",
+      "stageMatches": true,
+      "rawSourceSha256": "bb9d665654de7bee853ac656bb0e75006676013310c19d1d4b3830dee3407b0c"
+    },
+    {
+      "file": "index.js",
+      "sha256": "950092bcccf4a3f8bc5725fd2f5e3707f30ef0292cd3c13f5d27299c441b8d37",
+      "stageMatches": true,
+      "rawSourceSha256": "ef4beef50854509dc712938bcf2f5c1366fd5a9036c51c57ec0c4d7c7c31cf17"
+    },
+    {
+      "file": "src/premiereAdapter.js",
+      "sha256": "bc7054386b37174676f4d3302216cb43d82214bdc2582dc9f46c52fe738748bf",
+      "stageMatches": true,
+      "rawSourceSha256": "da18aa9998a26aa8fa893b7f30dec4d42fd9ab164f1675d6f1f24e54230efd53"
+    },
+    {
+      "file": "src/diagnostics.js",
+      "sha256": "5ee7db940f0581fb687a3c6103f61b1f04b59fcb3c2d9034535062d3432ded90",
+      "stageMatches": true,
+      "rawSourceSha256": "f48eafaa9c556854637f12abe8ac8d2522d6bfd2f714701a4d439ff6b5dd6d5c"
+    },
+    {
+      "file": "src/valueSerializer.js",
+      "sha256": "3c874ee7243f30a66215fa3f1d6a5ee65bd18c0dd5a21dbaf59e17b3f787fc4a",
+      "stageMatches": true,
+      "rawSourceSha256": "b66757b8631fe7eab100bdca798e8dca7280092ce38206de5e97ccbfe0389887"
+    },
+    {
+      "file": "src/report.js",
+      "sha256": "c93e14044b68ce27862c48c14210136e764c8ac727115b4ca848934f615eb92d",
+      "stageMatches": true,
+      "rawSourceSha256": "d0e4f5e9a2db90b4ce754b06de6688f1b5556f8959829f0d75640d39dca57754"
+    }
+  ],
+  "packageSha256": "f989dccd51b54bdab7f790816fdec7dc93b65f508b9a17a88bbd967a9371d607",
+  "installedPredecessor": {
+    "expectedIdentity": "48bb1d177f4cb8ec4b8e90ff4d23fe618baec155a814db80f7b19e5d9096b28f",
+    "files": [
+      {
+        "file": "manifest.json",
+        "sha256": "b64a06e9c9ad68438f3d2eb4f0ca4c07c6002ca470c767035539aadc29e46401",
+        "exact": false,
+        "manifestValuesEqual": true,
+        "matchesPredecessor": true
+      },
+      {
+        "file": "index.html",
+        "sha256": "984534960aef9a3a6d90457a3073f979451a4c28d3f7cfb49813f56513764bdf",
+        "exact": true,
+        "manifestValuesEqual": null,
+        "matchesPredecessor": true
+      },
+      {
+        "file": "index.js",
+        "sha256": "a3e0b20c49519be0457bb1c493593ed88b0f8354a74d4804d6c9976b3aaceccc",
+        "exact": true,
+        "manifestValuesEqual": null,
+        "matchesPredecessor": true
+      },
+      {
+        "file": "src/premiereAdapter.js",
+        "sha256": "bc7054386b37174676f4d3302216cb43d82214bdc2582dc9f46c52fe738748bf",
+        "exact": true,
+        "manifestValuesEqual": null,
+        "matchesPredecessor": true
+      },
+      {
+        "file": "src/diagnostics.js",
+        "sha256": "5ee7db940f0581fb687a3c6103f61b1f04b59fcb3c2d9034535062d3432ded90",
+        "exact": true,
+        "manifestValuesEqual": null,
+        "matchesPredecessor": true
+      },
+      {
+        "file": "src/valueSerializer.js",
+        "sha256": "3c874ee7243f30a66215fa3f1d6a5ee65bd18c0dd5a21dbaf59e17b3f787fc4a",
+        "exact": true,
+        "manifestValuesEqual": null,
+        "matchesPredecessor": true
+      },
+      {
+        "file": "src/report.js",
+        "sha256": "c93e14044b68ce27862c48c14210136e764c8ac727115b4ca848934f615eb92d",
+        "exact": true,
+        "manifestValuesEqual": null,
+        "matchesPredecessor": true
+      }
+    ],
+    "allMatch": true
+  },
+  "historicalAggregateSha256": "4053d0576760f7fef7593141f074fec0ce72851be98e1e50dd0bbea167e42d6d",
+  "historicalExportsRechecked": {
+    "files": [
+      {
+        "file": "audio-preflight-2026-10-28T15-26-38-306Z.json",
+        "sha256": "44876bea0ba9fd3dc1790aa8c82a47374439959687be8b5595d88050110dafc1"
+      },
+      {
+        "file": "audio-preflight-2026-10-28T15-26-38-306Z.html",
+        "sha256": "030f5449c3d171024906acd370749d4d23d9c32ccbfa454142eaed0b11f026be"
+      }
+    ],
+    "embeddedJSONEquality": true,
+    "rendererEquality": true,
+    "reproducibleDiagnostics": true,
+    "historicalScanMs": 42,
+    "newNativeScan": false
+  },
+  "fixtureSha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec",
+  "limits": [
+    "Source/stage/archive identity is not proof of a currently loaded native runtime.",
+    "Historical scan/export origins remain HISTORICAL_RECORDED; this run verifies retained file contents only.",
+    "Installed predecessor bytes do not qualify clean-customer installation or lifecycle."
+  ]
+}

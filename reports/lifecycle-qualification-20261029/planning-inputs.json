@@ -1,0 +1,131 @@
+{
+  "recordedAt": "2026-10-29T05:45:09.779Z",
+  "evidenceClass": "VERIFIED_THIS_SESSION_STATIC_PLANNING_INPUTS",
+  "branch": "codex/validated-beta-20261017",
+  "head": "9330e242eadcd10623300ca39d01753355aefc7a",
+  "runtimeIdentity": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+  "packageSha256": "f989dccd51b54bdab7f790816fdec7dc93b65f508b9a17a88bbd967a9371d607",
+  "sourceFiles": [
+    {
+      "file": "manifest.json",
+      "sha256": "d362207dcb2c4e32fb7b7e5b1d2201f5898f1f0c5b6ae3400793dda5b140a06b",
+      "sourceMatches": true,
+      "stageMatches": true
+    },
+    {
+      "file": "index.html",
+      "sha256": "211a54f25ced54808d83a6da0fb18736f7130b18fb191d9fa1fb93305c659e77",
+      "sourceMatches": true,
+      "stageMatches": true
+    },
+    {
+      "file": "index.js",
+      "sha256": "950092bcccf4a3f8bc5725fd2f5e3707f30ef0292cd3c13f5d27299c441b8d37",
+      "sourceMatches": true,
+      "stageMatches": true
+    },
+    {
+      "file": "src/premiereAdapter.js",
+      "sha256": "bc7054386b37174676f4d3302216cb43d82214bdc2582dc9f46c52fe738748bf",
+      "sourceMatches": true,
+      "stageMatches": true
+    },
+    {
+      "file": "src/diagnostics.js",
+      "sha256": "5ee7db940f0581fb687a3c6103f61b1f04b59fcb3c2d9034535062d3432ded90",
+      "sourceMatches": true,
+      "stageMatches": true
+    },
+    {
+      "file": "src/valueSerializer.js",
+      "sha256": "3c874ee7243f30a66215fa3f1d6a5ee65bd18c0dd5a21dbaf59e17b3f787fc4a",
+      "sourceMatches": true,
+      "stageMatches": true
+    },
+    {
+      "file": "src/report.js",
+      "sha256": "c93e14044b68ce27862c48c14210136e764c8ac727115b4ca848934f615eb92d",
+      "sourceMatches": true,
+      "stageMatches": true
+    }
+  ],
+  "fixtures": [
+    {
+      "file": "reports/panel-layout-20261027/Positive_Signal_Test.prproj",
+      "present": true,
+      "sha256": "7bfc2f703ec78c5592f4150986a4635270feb6e197806f11d02d61f478d723ec"
+    },
+    {
+      "file": "reports/panel-layout-20261027/Large_Inventory_Test.prproj",
+      "present": true,
+      "sha256": "850a5354a3248815974526de640e2b040b927505ec7d5895c0be10b3fa046249"
+    },
+    {
+      "file": "reports/panel-layout-20261027/Layout_Test_Copy.prproj",
+      "present": true,
+      "sha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e"
+    }
+  ],
+  "ccxInventory": [
+    {
+      "file": "artifacts/ccx-0.2.1-48bb1d177f4c/com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+      "sha256": "15026dd9df78c2437ab0e295a6d62c7df5f0276486ba130981c68dc9876662f5",
+      "runtimeFiles": [
+        {
+          "file": "manifest.json",
+          "exactFinalBytes": false,
+          "manifestValuesEqual": true,
+          "matchesFinal": true
+        },
+        {
+          "file": "index.html",
+          "exactFinalBytes": false,
+          "manifestValuesEqual": null,
+          "matchesFinal": false
+        },
+        {
+          "file": "index.js",
+          "exactFinalBytes": false,
+          "manifestValuesEqual": null,
+          "matchesFinal": false
+        },
+        {
+          "file": "src/premiereAdapter.js",
+          "exactFinalBytes": true,
+          "manifestValuesEqual": null,
+          "matchesFinal": true
+        },
+        {
+          "file": "src/diagnostics.js",
+          "exactFinalBytes": true,
+          "manifestValuesEqual": null,
+          "matchesFinal": true
+        },
+        {
+          "file": "src/valueSerializer.js",
+          "exactFinalBytes": true,
+          "manifestValuesEqual": null,
+          "matchesFinal": true
+        },
+        {
+          "file": "src/report.js",
+          "exactFinalBytes": true,
+          "manifestValuesEqual": null,
+          "matchesFinal": true
+        }
+      ],
+      "pluginId": "com.unn0wn002.audio-preflight.beta",
+      "version": "0.2.1",
+      "matchesFinalRuntime": false
+    }
+  ],
+  "finalRuntimeCCXFound": false,
+  "ccxInventoryScope": "Files under this checkout artifacts directory only; absence is not proof about other locations",
+  "existingLayoutEvidence": "reports/panel-layout-20261029/session-result.json",
+  "historicalLedgers": [
+    "reports/submission-closeout-20261019/closeout-ledger.json"
+  ],
+  "nativeTestsExecutedForPlan": 0,
+  "hostInputsPerformedForPlan": 0,
+  "ccxInventoryRecordedAt": "2026-10-29T05:46:30.100870+00:00"
+}

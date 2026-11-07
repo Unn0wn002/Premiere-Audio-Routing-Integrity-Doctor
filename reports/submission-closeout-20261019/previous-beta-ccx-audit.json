@@ -1,0 +1,144 @@
+{
+  "recordType": "closeout-historical-ccx-package-audit",
+  "recordedAt": "2026-10-19T02:10:52.7142567Z",
+  "reviewHead": "d1b2b091e28d76af60e33c99261d01108e2000db",
+  "package": "artifacts/com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+  "bytes": 11458,
+  "sha256": "70726062905df989c2f59d11b007c41be562a85219906eace5fef37210c76a97",
+  "manifest": {
+    "manifestVersion": 5,
+    "id": "com.unn0wn002.audio-preflight.beta",
+    "name": "Audio Preflight - Private Beta",
+    "version": "0.2.0",
+    "main": "index.html",
+    "host": {
+      "app": "premierepro",
+      "minVersion": "26.5.2"
+    },
+    "requiredPermissions": {
+      "localFileSystem": "request"
+    },
+    "entrypoints": [
+      {
+        "type": "panel",
+        "id": "audio-routing-integrity-probe",
+        "label": {
+          "default": "Audio Preflight"
+        },
+        "minimumSize": {
+          "width": 320,
+          "height": 300
+        },
+        "preferredDockedSize": {
+          "width": 420,
+          "height": 640
+        },
+        "preferredFloatingSize": {
+          "width": 560,
+          "height": 720
+        }
+      }
+    ]
+  },
+  "receipt": "artifacts/audio-preflight-0.2.0-29d17cda3a16-receipt.json",
+  "receiptSha256": "652182a5d4acc5007f522a265e33f810b7987e5f1d1c178681f43192f27d2bab",
+  "receiptIdentity": "29d17cda3a16f0637d812e733740fe32d3da4ca527a44d67bc676fb542e1d6d9",
+  "computedReceiptIdentity": "29d17cda3a16f0637d812e733740fe32d3da4ca527a44d67bc676fb542e1d6d9",
+  "receiptIdentityMatches": true,
+  "historicalVerification": "reports/beta-20261004/package-verification.json",
+  "historicalVerificationSha256": "73c63826a98a456547fbb599b070a468025d39ab36542ffb97aab6ca8701e673",
+  "historicalArchiveHashMatches": true,
+  "historicalVerifiedAt": "2026-10-04T08:11:41.1085232Z",
+  "historicalInstallationQualified": false,
+  "allowlistMatches": true,
+  "sevenRuntimeFilesMatchReceipt": true,
+  "files": [
+    {
+      "file": "manifest.json",
+      "bytes": 709,
+      "packageSha256": "e75cd6b75cf8a19b9ded1dd0331ca877595e1d4c16c50b01442951d64b5000e7",
+      "receiptSha256": "a8d1f09ede8b9924dae9cb1f9ce96b6166b7e88e5501b051c719dc00119607af",
+      "stagedSha256": "a8d1f09ede8b9924dae9cb1f9ce96b6166b7e88e5501b051c719dc00119607af",
+      "stageMatchesReceipt": true,
+      "exactBytes": false,
+      "manifestValuesEqual": true,
+      "matchesReceipt": true
+    },
+    {
+      "file": "index.html",
+      "bytes": 2043,
+      "packageSha256": "abebd04a678ec774d02392de9f41069b0c330d8ec7a702314e4a4d568d88c459",
+      "receiptSha256": "abebd04a678ec774d02392de9f41069b0c330d8ec7a702314e4a4d568d88c459",
+      "stagedSha256": "abebd04a678ec774d02392de9f41069b0c330d8ec7a702314e4a4d568d88c459",
+      "stageMatchesReceipt": true,
+      "exactBytes": true,
+      "manifestValuesEqual": null,
+      "matchesReceipt": true
+    },
+    {
+      "file": "index.js",
+      "bytes": 5232,
+      "packageSha256": "96d467b0978141fc3e5beafcaffb53fa66945e59f424d400464ca9d57f3af698",
+      "receiptSha256": "96d467b0978141fc3e5beafcaffb53fa66945e59f424d400464ca9d57f3af698",
+      "stagedSha256": "96d467b0978141fc3e5beafcaffb53fa66945e59f424d400464ca9d57f3af698",
+      "stageMatchesReceipt": true,
+      "exactBytes": true,
+      "manifestValuesEqual": null,
+      "matchesReceipt": true
+    },
+    {
+      "file": "src/premiereAdapter.js",
+      "bytes": 11867,
+      "packageSha256": "78db61f3c3fd1cfc88724e742612483f7988d53ccd4d36f97de17f7352e30811",
+      "receiptSha256": "78db61f3c3fd1cfc88724e742612483f7988d53ccd4d36f97de17f7352e30811",
+      "stagedSha256": "78db61f3c3fd1cfc88724e742612483f7988d53ccd4d36f97de17f7352e30811",
+      "stageMatchesReceipt": true,
+      "exactBytes": true,
+      "manifestValuesEqual": null,
+      "matchesReceipt": true
+    },
+    {
+      "file": "src/diagnostics.js",
+      "bytes": 5620,
+      "packageSha256": "62fec4ebdf2e20ce91be5da8dd44f054e09f732601282efb1a848a46be11e26b",
+      "receiptSha256": "62fec4ebdf2e20ce91be5da8dd44f054e09f732601282efb1a848a46be11e26b",
+      "stagedSha256": "62fec4ebdf2e20ce91be5da8dd44f054e09f732601282efb1a848a46be11e26b",
+      "stageMatchesReceipt": true,
+      "exactBytes": true,
+      "manifestValuesEqual": null,
+      "matchesReceipt": true
+    },
+    {
+      "file": "src/valueSerializer.js",
+      "bytes": 1935,
+      "packageSha256": "d46a31755c961fe14f80cbe4f0946e21b6c5121c9f421b379b5930da42210776",
+      "receiptSha256": "d46a31755c961fe14f80cbe4f0946e21b6c5121c9f421b379b5930da42210776",
+      "stagedSha256": "d46a31755c961fe14f80cbe4f0946e21b6c5121c9f421b379b5930da42210776",
+      "stageMatchesReceipt": true,
+      "exactBytes": true,
+      "manifestValuesEqual": null,
+      "matchesReceipt": true
+    },
+    {
+      "file": "src/report.js",
+      "bytes": 3844,
+      "packageSha256": "da50c131b36c0435d843ebf2ab03fd51dd87025a59733a7806255482c4e4eab9",
+      "receiptSha256": "da50c131b36c0435d843ebf2ab03fd51dd87025a59733a7806255482c4e4eab9",
+      "stagedSha256": "da50c131b36c0435d843ebf2ab03fd51dd87025a59733a7806255482c4e4eab9",
+      "stageMatchesReceipt": true,
+      "exactBytes": true,
+      "manifestValuesEqual": null,
+      "matchesReceipt": true
+    }
+  ],
+  "eligiblePackageForOptionalUpgradeTest": true,
+  "upgradeQualification": "NOT_RUN",
+  "previousInstalledVersionEstablished": false,
+  "sourceCommitProvenance": "Legacy receipt has no Git source SHA or sourceIdentity field. Frozen package identity and byte hashes match the retained 4 October 2026 CCX archive verification; this is not a current host/native or installation approval.",
+  "conclusion": "A genuine retained same-plugin-ID 0.2.0 CCX is an eligible package artifact for an optional controlled 0.2.0-to-0.2.1 upgrade test. No previous actual installed baseline or upgrade success is established by archive inspection. Installing baseline and observing host/version before upgrading are separate native actions.",
+  "excludedAlternative": {
+    "package": "artifacts/com.unn0wn002.premiere-audio-routing-integrity-doctor.prototype_premierepro.ccx",
+    "sha256": "6df09d950a6727b176d387e37b06319a9545c80b5b2f3c15ce067acfe0ffbda7",
+    "reason": "Different historical prototype plugin identity, so not an in-place beta upgrade baseline. Developer ZIPs are also not installed-package evidence."
+  }
+}

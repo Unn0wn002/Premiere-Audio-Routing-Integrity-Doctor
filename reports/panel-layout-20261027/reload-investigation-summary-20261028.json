@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-28",
+  "status": "INVESTIGATION_BOUNDED; ROOT_CAUSE_UNKNOWN",
+  "sourceHead": "9330e242eadcd10623300ca39d01753355aefc7a",
+  "fixtures": [
+    {
+      "file": "Positive_Signal_Test.prproj",
+      "sha256": "6403c37515e1a96ff6e34b049e5845f21ba2d692e3bf2a8202d51737facf7012",
+      "gzipValid": true,
+      "xmlWellFormed": true,
+      "xmlElements": 4120,
+      "xmlRoot": "PremiereData",
+      "mediaReferences": [
+        {
+          "name": "stereo-l440-r880.wav",
+          "exists": true
+        },
+        {
+          "name": "ARID_20261018_four_channel.wav",
+          "exists": true
+        },
+        {
+          "name": "ARID_20261018_mono.wav",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "file": "Layout_Test_Copy.prproj",
+      "sha256": "f243358de98eb0024a0364eb6f8a90a7d8ef1b5250db2169ae2ec1d973e82a8e",
+      "gzipValid": true,
+      "xmlWellFormed": true,
+      "xmlElements": 4110,
+      "xmlRoot": "PremiereData",
+      "mediaReferences": [
+        {
+          "name": "stereo-l440-r880.wav",
+          "exists": true
+        },
+        {
+          "name": "ARID_20261018_four_channel.wav",
+          "exists": true
+        },
+        {
+          "name": "ARID_20261018_mono.wav",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "file": "reload-control-20261028.prproj",
+      "sha256": "4ec4a6a959676f5f36b7f27ae0b1f984c4d1302afe28dd2f59daa63efb626aad",
+      "gzipValid": true,
+      "xmlWellFormed": true,
+      "xmlElements": 828,
+      "xmlRoot": "PremiereData",
+      "mediaReferences": []
+    }
+  ],
+  "control": {
+    "nativeNewProject": true,
+    "template": "None",
+    "skipImport": true,
+    "sequenceObjects": 0,
+    "sourceMediaReferences": 0,
+    "closedAndReopenedOnce": true,
+    "reopenPath": "Native File > Open Recent",
+    "originalProjectStillLoaded": true,
+    "panelOpenIdle": true,
+    "scanInvoked": false,
+    "responsiveMenuCheck": true,
+    "fileHashUnchanged": true,
+    "controlClosedAfterward": true
+  },
+  "logComparison": [
+    {
+      "log": "UXPLogs_2026-10-28_11-44-47_533852.log",
+      "betaMentions": 1,
+      "homeFallbackErrors": 2,
+      "homeContainerFailures": 2
+    },
+    {
+      "log": "UXPLogs_2026-10-28_11-49-37_730250.log",
+      "betaMentions": 1,
+      "homeFallbackErrors": 2,
+      "homeContainerFailures": 2
+    },
+    {
+      "log": "UXPLogs_2026-10-27_12-29-28_998833.log",
+      "betaMentions": 6,
+      "homeFallbackErrors": 2,
+      "homeContainerFailures": 2
+    }
+  ],
+  "currentUXPLogBytes": 0,
+  "nativeHangStackAvailable": false,
+  "debuggerCLIFoundOnPath": false,
+  "userExportsUnchanged": true,
+  "finalHost": {
+    "pid": 11556,
+    "responding": true,
+    "project": "Positive_Signal_Test",
+    "unsavedMarker": false
+  },
+  "nextEvidence": "Native hang capture during one guarded reproduction; no code fix justified yet",
+  "limits": [
+    "One warm multi-project empty control; no cold start, unloaded-plugin, or Revert equivalence",
+    "Gzip/XML and path existence checks do not prove full native project semantics",
+    "Generic Home errors occur in both failed and previously successful sessions"
+  ]
+}

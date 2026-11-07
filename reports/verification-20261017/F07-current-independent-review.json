@@ -1,0 +1,71 @@
+{
+  "recordType": "independent-current-native-fixture-review",
+  "fixture": "F07",
+  "sourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "executionDate": "2026-10-18",
+  "timezone": "Asia/Jakarta",
+  "scope": {
+    "project": "ARID_Disposable_20261018.prproj",
+    "sequence": "stereo-l440-r880",
+    "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+    "sequenceOccurrenceIndex": 0,
+    "disabledTrack": "Audio 2",
+    "disabledTrackId": "3",
+    "disabledTrackIndex": 1,
+    "disabledClipOccurrenceIndex": 0,
+    "disabledClipStart": {"ticks": "762810048000", "seconds": 3.003},
+    "disabledClipEnd": {"ticks": "1525620096000", "seconds": 6.006}
+  },
+  "independentUiTruth": {
+    "method": "F07-disabled-before-current.png viewed independently by analysis agent: second chronological same-name clip selected on A2, Enable context item unchecked, track M controls all unselected. Operator reports unmuting A1 then toggling only the A2 clip Enable.",
+    "trackMute": [false, false, false],
+    "nonemptyTrackIndices": [0, 1],
+    "clipsPerTrack": [1, 1, 0],
+    "disabledClips": [{"trackIndex": 1, "occurrenceIndex": 0}],
+    "beforeEvidence": ["F07-disabled-before-current.png"],
+    "layoutDeviation": "The duplicate source occurrences remain split across A1 and A2 after F06. This current run qualifies exact cross-track locator discrimination and disabled-clip observation; it does not qualify the same-track duplicate occurrence-index-1 edge. That edge remains mock/historical unless separately restored and exercised.",
+    "truthLimit": "Clip disable state is directly observed; whether the disabled clip should contribute creative audio remains unknown. Mapping, bus and playback/export truth are not inferred."
+  },
+  "expectedActual": {
+    "expected": "ARID-003 exactly once at A2 trackIndex1/occurrence0, start3.003s/end6.006s; no ARID-001/002 because all tracks active. Retain intent-aware review/do-not-auto-enable guidance.",
+    "actual": "All three exports contain exactly one ARID-003 Review at the full expected sequence/track/occurrence/time locator, with no ARID-001/002 and low intent confidence/manual review guidance.",
+    "agreement": true,
+    "exportAnalysis": "F07-three-runs-independent-export-review.json"
+  },
+  "observedCurrentEvidence": {
+    "runs": 3,
+    "durationMs": [24, 21, 23],
+    "diagnosticStatus": "COMPLETE",
+    "failedReads": 0,
+    "riskRuleCounts": {"ARID-001": 0, "ARID-002": 0, "ARID-003": 1},
+    "unknownBoundaryFindings": 3,
+    "strictDocumentedShapes": "Both FrameRates and all 140 Keyframes valid in each export; no animated parameter/keyframe-time paths exercised.",
+    "repeatability": {
+      "observationFieldsStable": true,
+      "diagnosticsStable": true,
+      "excludedObservationFields": ["generatedAt", "durationMs"],
+      "stableObservationSha256": "a4dde97a54fadb849740efc861f5d5bb05305ea1b6015c9394251443f9782735",
+      "stableDiagnosticSha256": "8820b35883400922a3f533c4927e329852b25541a3fc4ba994d031494a5af840",
+      "medianDurationMs": 23,
+      "timingLimit": "Plugin-reported Date.now traversal duration; three local observations, no broad performance or UI-wall-clock claim.",
+      "rawExports": ["F07-R1-current-export.json", "F07-R2-current-export.json", "F07-R3-current-export.json"]
+    },
+    "reopen": null,
+    "inspectedStateUnchanged": {
+      "trackMuteAndDisabledClipUi": true,
+      "allObservedRawFields": true,
+      "evidence": ["F07-disabled-before-current.png", "F07-disabled-after-current.png"],
+      "limit": "Both independently reviewed context-menu screenshots retain Enable unchecked on the same A2 duplicate and all M controls unselected. Raw observed fields stable except generatedAt/durationMs; no all-property or playback/output claim."
+    }
+  },
+  "observableFixtureMetrics": {
+    "TP": 1,
+    "FP": 0,
+    "FN": 0,
+    "observableEvaluatedFixtures": 1,
+    "positiveObservableRiskConditions": 1,
+    "interpretation": "One independently verified disabled-clip occurrence, evaluated once. This is observation detection, not a finding that the intentional disable is an error. Unknown capabilities and same-track duplicate edge are excluded."
+  },
+  "disposition": "THREE_NATIVE_OBSERVATIONS_MATCHED_AND_STABLE_WITH_DOCUMENTED_LAYOUT_DEVIATION; inspected mute/disabled state preserved in UI; reopen pending"
+}

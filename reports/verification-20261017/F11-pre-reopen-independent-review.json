@@ -1,0 +1,225 @@
+{
+  "recordType": "independent-current-native-fixture-pre-reopen-review",
+  "fixture": "F11",
+  "sourceGitSha": "64e75e382cfee9626bb743d949f412d290f180e1",
+  "runtimeIdentity": "7b544bd27f3b12b11b21eb695187af4ed51be661385f2821657e73f23225f408",
+  "reviewedAt": "2026-10-18T14:48:52.266Z",
+  "qualification": "PRE_REOPEN_ONLY; F11 preservation assertion remains pending actual POST3 and independent responsive post-state verification.",
+  "scope": {
+    "project": "ARID_Disposable_20261018.prproj",
+    "sequence": "stereo-l440-r880",
+    "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+    "sequenceOccurrenceIndex": 0
+  },
+  "independentUiTruth": {
+    "method": "Analysis agent independently viewed saved screenshots. A1 M selected, one enabled first clip labeled F04 Intentional creative hard-right with Balance +100.0; A2 M off, second stereo duplicate Enable unchecked. A3 empty M off. Manual save screenshot title has no asterisk; closed-project Home screenshot followed by reopened disposable title/timeline. Reopened title alone does not establish responsiveness or post-state qualification.",
+    "evidence": [
+      "F11-disabled-before-current.png",
+      "F11-pan-enabled-before-current.png",
+      "F11-saved-before-close-current.png",
+      "F11-project-closed-current.png",
+      "F11-reopened-current.png"
+    ],
+    "postReopenPropertyChecks": null
+  },
+  "expectedActual": {
+    "expected": "ARID-002 at nonempty muted A1 and ARID-003 at disabled A2 occurrence0, no ARID-001; mapping/output/playback Unknown.",
+    "actualRiskFindings": [
+      {
+        "ruleId": "ARID-002",
+        "severity": "Review",
+        "confidence": "HIGH_OBSERVATION_LOW_INTENT_CONFIDENCE",
+        "location": {
+          "sequence": "stereo-l440-r880",
+          "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+          "sequenceOccurrenceIndex": 0,
+          "track": "Audio 1",
+          "trackId": "2",
+          "trackIndex": 0,
+          "clip": null,
+          "clipOccurrenceIndex": null,
+          "startTime": null,
+          "endTime": null
+        },
+        "observed": "Audio track reports muted=true and contains audio clips.",
+        "why": "This can be intentional. It is a delivery risk only if audio from this track is expected.",
+        "remediation": "Confirm whether the mute is intentional. Do not auto-unmute."
+      },
+      {
+        "ruleId": "ARID-003",
+        "severity": "Review",
+        "confidence": "HIGH_OBSERVATION_LOW_INTENT_CONFIDENCE",
+        "location": {
+          "sequence": "stereo-l440-r880",
+          "sequenceGuid": "06a6a407-a666-40bd-b196-ebd09a74fc7f",
+          "sequenceOccurrenceIndex": 0,
+          "track": "Audio 2",
+          "trackId": "3",
+          "trackIndex": 1,
+          "clip": "stereo-l440-r880.wav",
+          "clipOccurrenceIndex": 0,
+          "startTime": {
+            "ticks": "762810048000",
+            "seconds": 3.003
+          },
+          "endTime": {
+            "ticks": "1525620096000",
+            "seconds": 6.006
+          }
+        },
+        "observed": "Audio clip track item reports disabled=true.",
+        "why": "A disabled clip will not contribute expected timeline audio, but disabling may be intentional.",
+        "remediation": "Confirm whether the clip disable state is intentional. Do not auto-enable."
+      }
+    ],
+    "agreement": true,
+    "unknownBoundaryFindings": [
+      {
+        "ruleId": "ARID-U01",
+        "location": {
+          "project": "ARID_Disposable_20261018.prproj"
+        },
+        "observed": "Final Audio Track Mixer output-bus routing topology is not established by this probe."
+      },
+      {
+        "ruleId": "ARID-U02",
+        "location": {
+          "project": "ARID_Disposable_20261018.prproj"
+        },
+        "observed": "Modify > Audio Channels source-channel mapping is not established by this probe."
+      },
+      {
+        "ruleId": "ARID-U03",
+        "location": {
+          "project": "ARID_Disposable_20261018.prproj"
+        },
+        "observed": "End-to-end playback/export correctness is not established by DOM observation alone."
+      }
+    ],
+    "limit": "Expected observable conditions match independently authored UI; intentionality/output correctness are not inferred. F11 is a preservation assertion and adds no detection metrics."
+  },
+  "nativePreEvidence": {
+    "executionMethod": "UDT_CONSOLE_STAGED_ADAPTER_SEQUENTIAL_NATIVE_READS",
+    "helperVersion": "1.0.1",
+    "executionStatus": "THREE_REPORTS_COLLECTED",
+    "scansRequested": 3,
+    "scanAttempts": 3,
+    "actualRetainedReports": 3,
+    "durationMs": [
+      38,
+      33,
+      36
+    ],
+    "timingCorrection": "Exact embedded report.durationMs values are 38/33/36; earlier operator note 38/36/36 is superseded by raw bytes.",
+    "coverage": {
+      "state": "COMPLETE",
+      "project": {
+        "status": "COMPLETE",
+        "expected": 1,
+        "observed": 1,
+        "known": 1,
+        "unknown": 0
+      },
+      "sequences": {
+        "status": "COMPLETE",
+        "expected": 4,
+        "observed": 4,
+        "known": 4,
+        "unknown": 0
+      },
+      "tracks": {
+        "status": "COMPLETE",
+        "expected": 15,
+        "observed": 15,
+        "known": 15,
+        "unknown": 0
+      },
+      "clips": {
+        "status": "COMPLETE",
+        "expected": 7,
+        "observed": 7,
+        "known": 7,
+        "unknown": 0
+      },
+      "components": {
+        "status": "COMPLETE",
+        "expected": 18,
+        "observed": 18,
+        "known": 18,
+        "unknown": 0
+      },
+      "failedReads": 0,
+      "capabilities": {
+        "sourceChannelMapping": "UNKNOWN",
+        "outputBusTopology": "UNKNOWN",
+        "playbackExportCorrectness": "UNKNOWN"
+      }
+    },
+    "recursiveErrors": [
+      [],
+      [],
+      []
+    ],
+    "strictDocumentedShapeChecks": [
+      {
+        "allObservedShapesValid": true,
+        "parameterCount": 160,
+        "keyframeCount": 160,
+        "animatedParameterCount": 0,
+        "keyframeTimeCount": 0,
+        "issues": []
+      },
+      {
+        "allObservedShapesValid": true,
+        "parameterCount": 160,
+        "keyframeCount": 160,
+        "animatedParameterCount": 0,
+        "keyframeTimeCount": 0,
+        "issues": []
+      },
+      {
+        "allObservedShapesValid": true,
+        "parameterCount": 160,
+        "keyframeCount": 160,
+        "animatedParameterCount": 0,
+        "keyframeTimeCount": 0,
+        "issues": []
+      }
+    ],
+    "observationFieldsStable": true,
+    "diagnosticsStable": true,
+    "diagnosticReplayAgreesAllRuns": true,
+    "stableObservationSha256": "7fbb3f58a05132f51168eefc0d40532255699674cd0ccccdc932ad8cf3aaf21d",
+    "stableDiagnosticSha256": "825a822c3adc95052f27c045f5f480953ae88c01f13ed46ab7c6d306d2a02919",
+    "rawParent": {
+      "file": "F11-PRE-native-repeat-batch-export.json",
+      "original": "reports/beta-20261004/arid-native-F11-2026-10-18T14-39-03-832Z-3f1b52.json",
+      "bytes": 480787,
+      "sha256": "9580f1bbc0964ff267739774a8200026feefe448c1abf042e2dd7f74d4c927ab",
+      "originalAndRetainedBytesEqual": true
+    },
+    "rawReportReferences": [
+      {
+        "source": "F11-PRE-native-repeat-batch-export.json",
+        "parentSha256": "9580f1bbc0964ff267739774a8200026feefe448c1abf042e2dd7f74d4c927ab",
+        "reportJsonPointer": "/runs/0/report",
+        "runId": "F11-2026-10-18T14-39-03-832Z-3f1b52:1"
+      },
+      {
+        "source": "F11-PRE-native-repeat-batch-export.json",
+        "parentSha256": "9580f1bbc0964ff267739774a8200026feefe448c1abf042e2dd7f74d4c927ab",
+        "reportJsonPointer": "/runs/1/report",
+        "runId": "F11-2026-10-18T14-39-03-832Z-3f1b52:2"
+      },
+      {
+        "source": "F11-PRE-native-repeat-batch-export.json",
+        "parentSha256": "9580f1bbc0964ff267739774a8200026feefe448c1abf042e2dd7f74d4c927ab",
+        "reportJsonPointer": "/runs/2/report",
+        "runId": "F11-2026-10-18T14-39-03-832Z-3f1b52:3"
+      }
+    ]
+  },
+  "savedProjectSnapshot": "F11-project-file-snapshots.json",
+  "postReopenNativeReports": null,
+  "disposition": "PRE3_VALID_POST_REOPEN_VALIDATION_PENDING"
+}

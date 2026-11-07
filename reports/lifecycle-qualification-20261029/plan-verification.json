@@ -1,0 +1,76 @@
+{
+  "verifiedAt": "2026-10-29T05:48:09.023Z",
+  "status": "PASS_PLAN_AND_LOCAL_INPUT_READBACK_NOT_NATIVE_QUALIFICATION",
+  "caseCount": 18,
+  "allCasesNotRun": true,
+  "actualResultsAndDurationsNull": true,
+  "evidenceArraysEmpty": true,
+  "dependenciesAcyclic": true,
+  "freshInstallAndUpgradeSeparate": true,
+  "sourceAndFixtureHashesMatch": true,
+  "finalCCXAvailability": "NOT_FOUND_UNDER_CURRENT_ARTIFACTS",
+  "localLinksExist": true,
+  "sharedHandoffSection99Present": true,
+  "gitDiffCheck": true,
+  "newHostInputs": 0,
+  "newNativeExecutions": 0,
+  "newInstallations": 0,
+  "distributionApproved": false,
+  "files": [
+    {
+      "file": "execution-ledger.json",
+      "sha256": "dc8e09f8a1eae3c6dff0004e174703121fd42c443c3c7da62058c4bd9298f00b"
+    },
+    {
+      "file": "planning-inputs.json",
+      "sha256": "0765f50820a1266e3e82aaf77cadc72f366f6def910b3c039625cfa3e0cf47b5"
+    },
+    {
+      "file": "prepare-plan.cjs",
+      "sha256": "a2b730d68b4fca57939fbf143729c41c13fa17c32f6454a6050f9df077b200c8"
+    },
+    {
+      "file": "verify-plan.cjs",
+      "sha256": "36f903f30fa62ef78dda669578cbee9c5b6b47822dc5c4d81466b9af4b704545"
+    }
+  ],
+  "plan": {
+    "file": "docs/LIFECYCLE_QUALIFICATION_PLAN_20261029.md",
+    "sha256": "3b104fee2dd88feaf9c92dade8a94c53cd3b09f54138182ca3438e0e0da7bb0a"
+  },
+  "routingDocs": [
+    {
+      "file": "README.md",
+      "sha256": "5886e09e990cda82ce372be98c00c1db19d45e5ad0d73e324ddd3991faadb506"
+    },
+    {
+      "file": "docs/PROJECT_STATUS.md",
+      "sha256": "8b3e95bc1db61a315855ad44d042a03791746f0996b242a122b14cf66615d7fe"
+    },
+    {
+      "file": "docs/BETA_RELEASE_CHECKLIST.md",
+      "sha256": "e4a814dbbd14763c4c29ed006f1bc8a0d5b6df0203a332869a5150b8e7cc70a6"
+    },
+    {
+      "file": "docs/SUBMISSION_OPERATOR_HANDOFF.md",
+      "sha256": "50ccd57bef9909fc4cb05830660c2fd7e1e26153e0fc5c9db4fd80b0ea7389e9"
+    },
+    {
+      "file": "docs/BETA_GUIDE.md",
+      "sha256": "476063b60353b8ca00086149d4607442e029f216a8aaf721a36c526362a521fe"
+    },
+    {
+      "file": "docs/DEMO_CHECKLIST.md",
+      "sha256": "a0fa6629445f0e9cf5781b4e001ceafbb043bc0eb7bd38d6180b73e4ef1fdb4a"
+    },
+    {
+      "file": "docs/HOST_TEST_RUNBOOK.md",
+      "sha256": "1ce36181be1c3819d4ae4b2105e310926b3b8190339879a8b90b06f60fe7f315"
+    },
+    {
+      "file": "reports/panel-layout-20261029/CONTINUATION.md",
+      "sha256": "c3eb15df2ac88a717cc6ecc3b87a6aa0c914e7dbf89b329b237f234f86091cc0"
+    }
+  ],
+  "sharedHandoffSha256": "56136586ed27ec3aeb37cb4dd56ede1d4de3b4f82b670d80b39a616bce7d16f0"
+}

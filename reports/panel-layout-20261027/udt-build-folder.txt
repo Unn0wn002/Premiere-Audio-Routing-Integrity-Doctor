@@ -1,0 +1,42 @@
+Window: "Adobe UXP Developer Tools", App: Adobe UXP Developer Tools.exe.
+	0 pane Adobe UXP Developer Tools Secondary Actions: Raise
+		1 document Value: file:///C:/Program%20Files/Adobe/Adobe%20UXP%20Developer%20Tools/resources/app.asar/dist/index.html ID: 1601753776
+			5 button
+			6 button ID: applicationLogsButton
+			7 button ID: preferenceButton
+			8 button ID: preferenceButton
+			12 edit (settable, string) Search... ID: react-aria6885989996-10
+			84 dialog Plugin Options
+				85 text Manifest v5 Plugin
+				86 separator
+				87 text Debug
+				88 check box Break on Start
+				89 text Effective only when your plugin is in the 'Debugging' state. You may have to 'Reload' to break on start.
+				90 text Advanced
+				91 text Select Plugin Build Folder
+				92 edit (settable, string) Value: C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\artifacts\audio-preflight-0.2.1-b4460b46135c ID: buildFolder
+				93 button Select
+				94 button Cancel
+				95 button Save
+		55 pane (disabled)
+		56 title bar (settable, string) Value: Adobe UXP Developer Tools
+			57 menu bar System ID: MenuBar
+				58 menu item System
+			59 button Minimize
+			60 button Maximize
+			61 button Close
+		62 pane
+			63 pane
+			64 pane
+				65 pane
+					66 pane
+						67 menu item File
+						68 menu item Edit
+						69 menu item Actions
+						70 menu item View
+						71 menu item Help
+					72 pane
+
+Document text: ```
+C:\Users\unn0w\Downloads\02_Projects\Premiere-Audio-Routing-Integrity-Doctor\artifacts\audio-preflight-0.2.1-b4460b46135c
+```

@@ -1,0 +1,10 @@
+{
+  "workingCopy": "reports/lifecycle-qualification-20261029/run-20261030-2116-boundaries/working/Boundary_A.prproj",
+  "sha256": "9cc2a7e49681d915795695ecf49e2c06ded37494b90576ec1c31fa472bb5d9d8",
+  "baseline": "baseline/Boundary_A-post-save.prproj",
+  "frozenAt": "2026-10-30T15:00:14.241609+00:00",
+  "lastWriteTime": "2026-10-30T15:00:00.061033+00:00",
+  "saveInput": "Native Ctrl+S issued in identified Boundary_A context",
+  "differsFromOriginalFixture": true,
+  "limit": "Save/serialization setup is distinct from scan-only preservation"
+}

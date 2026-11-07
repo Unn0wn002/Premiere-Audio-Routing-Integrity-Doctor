@@ -1,0 +1,19 @@
+{
+  "verifiedAt": "2026-10-29T05:10:30.084974+00:00",
+  "status": "CONFIG_REPAIRED_INSTALLED_CLI_LOAD_PASS",
+  "config": "C:\\Users\\unn0w\\.codex\\config.toml",
+  "backup": "C:\\Users\\unn0w\\.codex\\config.toml.before-empty-table-repair-20261029-120938.bak",
+  "removed": "Empty [computer_use.windows.always_allowed_app_ids] table",
+  "reason": "Field expects array of app IDs, not a TOML table",
+  "unrelatedSettingsPreserved": true,
+  "appPermissionsAdded": false,
+  "beforeSha256": "9d362e99a3f83239d547e222f925444eb1eefb430670aa60717e4274d41dc17e",
+  "afterSha256": "18084f2dd9eccef90263ab099d1dc6def15e5f144a8d4d3cbc247ee1d77bf5b8",
+  "verification": {
+    "tomlSyntax": "PASS",
+    "installedCLICommand": "codex features list",
+    "exitCode": 0,
+    "desktopWorkspaceReload": "NOT_OBSERVED"
+  },
+  "udtAccess": "NOT_RESOLVED_BY_THIS_REPAIR"
+}

@@ -1,0 +1,353 @@
+diff --git a/README.md b/README.md
+index e41dcb9..3a364c0 100644
+--- a/README.md
++++ b/README.md
+@@ -4,7 +4,7 @@ Research ID 37. Audio Preflight 0.2.1 private beta candidate for Windows 11 / Ad
+ 
+ Current gate and exact candidate: [PROJECT_STATUS](docs/PROJECT_STATUS.md). Working target: **22 October 2026**; official submission deadline **unconfirmed**. Native and installation qualification are required before distribution.
+ 
+-Submission closeout is **BLOCKED_INSTALLATION** at unresolved Windows UAC in the existing development profile. The completed native fixture pass is preserved. Resume from the single [operator handoff](docs/SUBMISSION_OPERATOR_HANDOFF.md); installed-runtime lifecycle and distribution qualification remain pending.
++Latest checkpoint: **28 October 2026**. Current working candidate `037571056922` adds grouped action rows and a read-only raw-evidence text area, correcting the narrow-view overlap observed during native testing. All 58 controlled tests and six synthetic fixtures pass. Disconnecting computer use during a stalled opening allowed recovery; reconnecting after the project settled supported docked/floating scans and matching exports on the initial layout candidate. The final candidate completed a 39 ms floating scan and readable raw-evidence check, but Premiere exited during a subsequent docking gesture. Full layout/lifecycle qualification remains blocked by that observed host failure; its cause is unresolved. See [exact candidate evidence and limits](docs/LAYOUT_REFRESH_20261028.md). The installed predecessor and frozen stages remain preserved. No distribution or clean-profile installation approval.
+ 
+ ## Purpose
+ 
+@@ -40,7 +40,7 @@ Run `node scripts/prepare-beta.js` (or `npm run prepare:beta`). This stages seve
+ 
+ ## Existing host evidence
+ 
+-Current 0.2.1 has a bounded F01–F11 native fixture pass on Premiere 26.5.2 Build 5: 33 retained repeated reads, actual Mono1/Multichannel4 settings and inspected save-close-reopen preservation. Three capability Unknown findings remain separate from observable risk counts. Installation and broader lifecycle/performance checks remain unqualified; see [current evidence and limits](docs/PROJECT_STATUS.md).
++Earlier 0.2.1 runtimes have bounded F01–F11 native fixture evidence and a later installed 37 ms manual scan/export pair. These results stay bound to their recorded runtime identities; they do not qualify all behavior of the changed working candidate `9b0796ebae7a`. Three capability Unknown findings remain separate from observable risk counts. Clean-profile installation and broader lifecycle/performance checks remain unqualified; see [current evidence and limits](docs/PROJECT_STATUS.md).
+ 
+ The October 2 final continuation report supersedes older NOT RUN statements: `reports/host-20261001-214943/HOST_VALIDATION_REPORT_FINAL.md`. The old 0.1.0 candidate loaded in Premiere 26.5.2 Build 5 and demonstrated bounded mute, disabled-clip, and location behavior. Mono/multichannel fixtures and timings remained unfinished. Those results do not qualify this changed 0.2.1 candidate. Current native evidence and remaining steps are recorded in [PROJECT_STATUS](docs/PROJECT_STATUS.md).
+ 
+diff --git a/docs/BETA_RELEASE_CHECKLIST.md b/docs/BETA_RELEASE_CHECKLIST.md
+index 21a2fa4..34662ee 100644
+--- a/docs/BETA_RELEASE_CHECKLIST.md
++++ b/docs/BETA_RELEASE_CHECKLIST.md
+@@ -1,5 +1,9 @@
+ # Beta qualification and paid-release gates
+ 
++**Latest layout candidate:** `037571056922`: 58 controlled tests pass; final docked scan/JSON/HTML and floating scan/raw-textarea checks have bounded native evidence. USER_STATED helper-off undock/redock and narrow/wide floating views behaved normally with no freeze/crash; exact sizes and fresh per-size scan results were not provided. Basic manual layout checks are complete for this trial. Earlier automated docking crash remains unexplained; customer installation and broader lifecycle gates remain incomplete. [Exact evidence and remaining checks](LAYOUT_REFRESH_20261028.md). No distribution approval. The historical checklist below retains its original identities.
++
++**28 October checkpoint:** the working cleanup-patch candidate is `6fb3f7af946f`, with 58 controlled tests, six synthetic fixtures, syntax and developer archive verification passing; native qualification for this changed identity is NOT_RUN. The installed predecessor `48bb1d177f4c` has bounded existing-profile scan/export evidence. The 19 October installation blocker below is historical for that older checkpoint, and its checked fixture/package items must not be transferred to the new runtime. [Current matrix and remaining gates](IMPLEMENTATION_REVIEW_20261028.md). Clean-profile/customer lifecycle qualification and distribution approval remain pending.
++
+ Candidate: Audio Preflight 0.2.1. Status: NOT APPROVED FOR DISTRIBUTION. Exact current gate: `PROJECT_STATUS.md`. Record date, OS, Premiere exact version/build, UXP/UDT versions, staged identity and CCX hash for every run. Use disposable fixtures and copies of projects. Record actual outcomes; pending is never a pass.
+ 
+ Submission closeout is separately **BLOCKED_INSTALLATION**: the 19 October normal CCX launch reached unresolved Windows UAC in a non-clean development profile. Installed identity and dependent lifecycle/demo checks remain unexecuted. See the [closeout ledger](../reports/submission-closeout-20261019/closeout-ledger.json) and single [operator handoff](SUBMISSION_OPERATOR_HANDOFF.md). No checkbox below is waived by the submission rehearsal or archive verification; larger-project performance, cohort and paid-release work remain pending.
+diff --git a/docs/PROJECT_STATUS.md b/docs/PROJECT_STATUS.md
+index ea016ff..d6b95d7 100644
+--- a/docs/PROJECT_STATUS.md
++++ b/docs/PROJECT_STATUS.md
+@@ -1,5 +1,23 @@
+ # Project status
+ 
++**Latest manual results, 28 October:** USER_STATED helper-off undock/redock and narrow/wide floating layout checks were normal: buttons/text normal, no freeze or crash. Basic manual layout checks are complete for this trial; exact dimensions and per-size scan results were not supplied. Final candidate `037571056922` also has independently verified docked scan/exports and an observed floating scan/raw-textarea test. The earlier automated docking crash remains unexplained; customer installation/lifecycle qualification and distribution approval remain pending. See [latest layout record](LAYOUT_REFRESH_20261028.md). Older checkpoints below retain their dated intermediate gaps.
++
++**Post-restart update, 28 October 22:31 WIB:** final candidate `037571056922` now has a 42 ms docked native scan and independently matching JSON/HTML exports; docked raw-evidence textarea rendering and scrolling were observed. Prior floating scan/raw evidence remains recorded. Docking transition crash is still unresolved, and resize attempts did not establish wider-layout coverage. Next isolation step: manual helper-off undock/redock. See [latest checkpoint](LAYOUT_REFRESH_20261028.md). This supersedes the final-candidate docked/export NOT_RUN statements in the earlier checkpoint below; distribution remains on hold.
++
++Latest layout checkpoint (28 October): working runtime **`03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4`**. Gate: **CONTROLLED_PASS / BOUNDED_FLOATING_NATIVE_PASS / DOCKING_CRASH_OBSERVED / DISTRIBUTION_NOT_APPROVED**. Compact grouped action rows and a native read-only raw-evidence text area are implemented. Controlled 58/58, synthetic 6/6, syntax, whitespace and independent seven-file archive checks pass. Native final-candidate floating scan: 39 ms, zero review findings, three capability Unknowns; raw text wraps and scrolls without the earlier overlap. Premiere exited during the next docking gesture and exposed its crash reporter; no causal attribution is established. The earlier `9b0796ebae7a` candidate had a 36 ms docked scan and 32 ms floating scan with independently matching JSON/HTML. Disconnect/reconnect after settling enabled those checks once; opening with the helper connected still stalled. Wider floating, final-candidate docking/export and customer lifecycle qualification remain incomplete. Saved fixture unchanged. See [LAYOUT_REFRESH_20261028](LAYOUT_REFRESH_20261028.md). No CCX/customer install or distribution approval.
++
++## Preserved cleanup-only checkpoint
++
++Latest checkpoint: **28 October 2026 (Asia/Jakarta)**. Current source base HEAD `9330e242eadcd10623300ca39d01753355aefc7a`, branch `codex/validated-beta-20261017`, with uncommitted cleanup fix and regressions. Working runtime identity: **`6fb3f7af946ff01d90137acdf1f6c5199b9fd1f022df9f421edd1ec8ade517ab`**. Gate: **CONTROLLED_PASS / NEW_RUNTIME_NATIVE_NOT_RUN / DISTRIBUTION_NOT_APPROVED**. All 58 controlled tests, six synthetic fixtures, syntax, whitespace and independent seven-file developer archive verification pass. UI initialization is now covered by scan/export lock cleanup. No new CCX or install/native pass is claimed for this change.
++
++The previous runtime **`48bb1d177f4c`** remains installed and preserved. Existing-profile installation, a 37 ms complete manual scan and matching JSON/HTML were independently recorded on 28 October. That supersedes the old UAC/installed-identity blocker for that older candidate in the existing profile only. Clean-customer install, upgrade/uninstall/reinstall, broad lifecycle and performance gates remain incomplete. No distribution approval follows. Desktop-helper isolation removed its captured minute-long accessibility requests in one comparison; subsequent manual warm opening measured 2–4 seconds, without a complete root-cause or broad reliability claim.
++
++Current matrix, exact package identity, changed scope and next native steps: [IMPLEMENTATION_REVIEW_20261028](IMPLEMENTATION_REVIEW_20261028.md). Detailed dated native/runtime records: [PANEL_LAYOUT_VALIDATION](PANEL_LAYOUT_VALIDATION.md). New developer ZIP: `artifacts/audio-preflight-0.2.1-6fb3f7af946f-developer.zip`, SHA256 `838ac5c0f3ffefe4bb7d45b89f73045ba19e77b40ae41d153e5b9c28b8ffe93f`.
++
++## Historical checkpoint — 19 October 2026
++
++The following records retain their original runtime/package binding and dates. Statements of current state below refer to that historical checkpoint, not the 28 October working candidate.
++
+ Updated: 19 October 2026 (Asia/Jakarta). Working target: **22 October 2026**. Official submission deadline: **UNCONFIRMED**.
+ 
+ Current gate: **NATIVE_FIXTURES_BOUNDED_PASS**. F01–F11 agree with independently verified current-host conditions. Independent implementation and static/package checks are complete. Candidate: Audio Preflight 0.2.1, Windows / Premiere 26.5.2. Customer installation and broader lifecycle/performance checks remain unqualified; no distribution or output-correctness approval.
+diff --git a/docs/SUBMISSION_OPERATOR_HANDOFF.md b/docs/SUBMISSION_OPERATOR_HANDOFF.md
+index 3002e7f..df0cb8a 100644
+--- a/docs/SUBMISSION_OPERATOR_HANDOFF.md
++++ b/docs/SUBMISSION_OPERATOR_HANDOFF.md
+@@ -1,5 +1,7 @@
+ # Submission installation operator handoff
+ 
++**Historical handoff notice (28 October):** preserve this 19 October stopping point for its recorded package. Later installed predecessor `48bb1d177f4c` has bounded existing-profile scan/export evidence. Current layout candidate `037571056922` has controlled and bounded floating-native evidence, but Premiere exited during docking. Resume from the [latest layout validation](LAYOUT_REFRESH_20261028.md); the old UAC prompt is historical. Clean-customer installation and broader lifecycle gates remain unqualified.
++
+ Status: **BLOCKED_INSTALLATION**. Submission readiness is blocked; distribution is **NOT APPROVED**. This is the single handoff for the 19 October closeout attempt.
+ 
+ ## Exact stopping point
+diff --git a/index.html b/index.html
+index 6229aff..ec22885 100644
+--- a/index.html
++++ b/index.html
+@@ -5,46 +5,75 @@
+   <title>Audio Preflight</title>
+   <style>
+     html, body { height: 100%; margin: 0; overflow: hidden; }
+-    body { font-family: sans-serif; color: #eee; background: #242424; }
+-    #panel { height: 100%; width: 100%; overflow-y: auto; padding: 16px; box-sizing: border-box; }
++    body { font-family: sans-serif; font-size: 12px; color: #eee; background: #242424; }
++    #panel { height: 100%; width: 100%; overflow-y: auto; padding: 12px; box-sizing: border-box; }
+     #panel, .finding { min-width: 0; overflow-wrap: break-word; }
+-    h2 { margin-bottom: 6px; } h3 { font-size: 14px; margin-top: 24px; }
+-    p { line-height: 1.5; } button { margin: 4px 6px 8px 0; padding: 8px; max-width: 100%; white-space: normal; }
+-    .finding { background: #303030; border-left: 3px solid #b6a57a; padding: 12px; margin: 8px 0; }
++    h2 { font-size: 18px; margin: 0 0 4px; } h3 { font-size: 12px; margin: 12px 0 6px; }
++    p { line-height: 1.4; margin: 6px 0; }
++    .subtitle, .note { font-size: 11px; color: #bdbdbd; }
++    .intro { margin: 8px 0 12px; color: #ccc; }
++    .section { border-top: 1px solid #414141; margin-top: 12px; padding-top: 10px; }
++    .section-title { font-size: 11px; color: #bdbdbd; margin: 0 0 6px; }
++    .actions { display: flex; flex-direction: row; width: 100%; }
++    button { min-width: 0; height: 32px; padding: 0 8px; margin: 0; max-width: 100%; white-space: normal; border-radius: 4px; font-size: 12px; }
++    .actions button { flex: 1; margin-right: 6px; }
++    .actions button:last-child { margin-right: 0; }
++    #scanButton { background: #3578bb; color: #fff; flex: 2; }
++    #cancelButton { flex: 1; }
++    .finding { background: #303030; border-left: 3px solid #b6a57a; padding: 10px; margin: 6px 0; }
+     .information { border-color: #77aabb; } .unknown { border-color: #aaa; }
+-    .location, small { font-size: 12px; color: #ccc; } label { display: block; margin-top: 12px; }
+-    select { display: block; width: 100%; max-width: 280px; margin-top: 6px; } #status { margin: 12px 0; font-weight: bold; }
+-    #progress, #summary, #exportStatus { margin: 8px 0; }
+-    pre { white-space: pre-wrap; overflow-wrap: anywhere; font-family: monospace; font-size: 11px; }
++    .location, small { font-size: 11px; color: #ccc; } label { display: block; margin-top: 8px; }
++    select { display: block; width: 100%; max-width: 280px; margin-top: 4px; }
++    #status { margin: 10px 0 6px; font-weight: bold; line-height: 1.4; }
++    #summary { font-weight: bold; margin: 6px 0; line-height: 1.5; }
++    #progress, #exportStatus, #pageStatus { margin: 6px 0; line-height: 1.4; }
++    #coverage { line-height: 1.4; }
++    #status:empty, #summary:empty, #progress:empty, #exportStatus:empty, #hostIdentity:empty, #coverage:empty { display: none; }
++    [hidden] { display: none; }
++    #output { width: 100%; height: 240px; box-sizing: border-box; font-family: monospace; font-size: 11px; }
+     @media (max-width: 380px) {
+       #panel { padding: 10px; }
+       .finding { padding: 8px; }
+-      button { display: block; width: 100%; margin-right: 0; }
+     }
+   </style>
+ </head>
+ <body>
+   <div id="panel">
+   <h2>Audio Preflight</h2>
+-  <p>Private beta candidate · Read-only audio review</p>
+-  <p>Review muted tracks, disabled clips, and sequence audio configuration. Routing, source-channel mapping, pan, and playback/export correctness require manual verification.</p>
+-  <button id="scanButton">Scan active project</button>
+-  <button id="cancelButton" disabled>Cancel scan</button>
++  <div class="subtitle">Read-only audio review · Private beta</div>
++  <p class="intro">Review muted tracks, disabled clips and sequence audio settings. Routing and audio output need manual verification.</p>
++  <div class="actions">
++    <button id="scanButton">Scan active project</button>
++    <button id="cancelButton" disabled>Cancel</button>
++  </div>
+   <div id="status" role="status" aria-live="polite">Ready. Open a project to begin.</div>
+   <div id="progress" role="status"></div>
+   <div id="summary"></div>
+-  <div id="hostIdentity" class="location"></div>
+   <p id="coverage" class="location"></p>
+-  <button id="jsonButton" disabled>Export JSON</button>
+-  <button id="htmlButton" disabled>Export readable report</button>
+-  <button id="detailsButton">Show / hide raw evidence</button>
+-  <div id="exportStatus" role="status"></div>
+-  <p>Review states reset with every scan. Reports contain local project names and paths; review before sharing.</p>
+-  <div id="pageStatus" role="status" aria-live="polite"></div>
+-  <button id="previousPageButton" disabled>Previous findings</button>
+-  <button id="nextPageButton" disabled>Next findings</button>
+-  <div id="findings"></div>
+-  <pre id="output" hidden></pre>
++  <div class="section">
++    <div class="section-title">Export report</div>
++    <div class="actions">
++      <button id="jsonButton" disabled>Export JSON</button>
++      <button id="htmlButton" disabled>Readable report</button>
++    </div>
++    <div id="exportStatus" role="status"></div>
++  </div>
++  <div class="section">
++    <div class="section-title">Findings</div>
++    <div id="pageStatus" role="status" aria-live="polite"></div>
++    <div class="actions">
++      <button id="previousPageButton" disabled>Previous</button>
++      <button id="nextPageButton" disabled>Next</button>
++    </div>
++    <div id="findings"></div>
++  </div>
++  <div class="section">
++    <div class="section-title">Evidence &amp; environment</div>
++    <div id="hostIdentity" class="location"></div>
++    <button id="detailsButton">Show / hide raw evidence</button>
++    <textarea id="output" readonly aria-label="Raw scan evidence" hidden></textarea>
++  </div>
++  <p class="note">Review tags reset each scan. Reports include local names and paths; review before sharing.</p>
+   </div>
+   <script src="index.js"></script>
+ </body>
+diff --git a/index.js b/index.js
+index 12e9049..d957402 100644
+--- a/index.js
++++ b/index.js
+@@ -32,9 +32,9 @@ function append(parent, tag, value, className) {
+ function renderRawEvidence() {
+   const output = el('output');
+   if (!output) return;
+-  if (output.hidden) { output.textContent = ''; rawDirty = true; return; }
++  if (output.hidden) { output.value = ''; rawDirty = true; return; }
+   if (rawDirty) {
+-    output.textContent = currentReport ? JSON.stringify(currentReport, null, 2) : scanError;
++    output.value = currentReport ? JSON.stringify(currentReport, null, 2) : scanError;
+     rawDirty = false;
+   }
+ }
+@@ -83,11 +83,11 @@ async function runScan() {
+   if (inFlight || exporting) return;
+   inFlight = true; cancelRequested = false; currentReport = null;
+   findingRows = []; findingPage = 0; scanError = ''; rawDirty = true;
+-  if (el('output')) el('output').hidden = true;
+-  controls(); render();
+-  text('status', 'Scanning read-only observable state. Avoid editing or switching projects during the scan.');
+-  text('exportStatus', '');
+   try {
++    if (el('output')) el('output').hidden = true;
++    controls(); render();
++    text('status', 'Scanning read-only observable state. Avoid editing or switching projects during the scan.');
++    text('exportStatus', '');
+     const observation = await scanActiveProject({
+       isCancelled: () => cancelRequested,
+       onProgress: progress => text('progress', `${progress.phase}${progress.sequence ? ` · ${progress.sequence}` : ''}${progress.track ? ` · ${progress.track}` : ''}${progress.total != null ? ` · ${progress.item + 1}/${progress.total}` : ''}`)
+@@ -106,8 +106,9 @@ async function runScan() {
+ async function exportReport(format) {
+   if (!currentReport || inFlight || exporting) return;
+   const snapshot = JSON.parse(JSON.stringify(currentReport));
+-  exporting = true; controls();
++  exporting = true;
+   try {
++    controls();
+     const file = await storage.localFileSystem.getFileForSaving(`audio-preflight-${snapshot.observation.generatedAt.replace(/[:.]/g, '-')}.${format}`, { types: [format] });
+     if (!file) { text('exportStatus', 'Export cancelled.'); return; }
+     await file.write(format === 'html' ? toHTML(snapshot) : JSON.stringify(snapshot, null, 2), { format: storage.formats.utf8 });
+diff --git a/tests/beta.test.js b/tests/beta.test.js
+index bbfb6ae..26bef0f 100644
+--- a/tests/beta.test.js
++++ b/tests/beta.test.js
+@@ -30,6 +30,46 @@ function ui(scan, picker = async () => null, diagnostic = diagnose) {
+   const panel = setup.panels['audio-routing-integrity-probe']; panel.create(); panel.show();
+   return elements;
+ }
++test('A4 initial panel render failure releases scan lock and allows retry', async () => {
++  let calls = 0, fail = true;
++  const e = ui(async () => { calls++; return observation(); });
++  Object.defineProperty(e.summary, 'textContent', {
++    get() { return this.valueText; },
++    set(value) { if (fail) { fail = false; throw Error('panel render unavailable'); } this.valueText = value; }
++  });
++  await e.scanButton.handlers.click();
++  assert.equal(calls, 0, 'failed initialization must not start host reads');
++  assert.match(e.status.textContent, /failed/i);
++  assert.equal(e.scanButton.disabled, false);
++  await e.scanButton.handlers.click();
++  assert.equal(calls, 1);
++  assert.match(e.status.textContent, /completed/i);
++  assert.equal(e.jsonButton.disabled, false);
++});
++
++test('A4 initial export control failure releases export lock and allows retry', async () => {
++  let pickerCalls = 0, written;
++  const e = ui(async () => observation(), async () => {
++    pickerCalls++;
++    return { write: async value => { written = value; } };
++  });
++  await e.scanButton.handlers.click();
++  let fail = true, disabled = e.jsonButton.disabled;
++  Object.defineProperty(e.jsonButton, 'disabled', {
++    get() { return disabled; },
++    set(value) { if (fail) { fail = false; throw Error('export controls unavailable'); } disabled = value; }
++  });
++  await e.jsonButton.handlers.click();
++  assert.equal(pickerCalls, 0);
++  assert.match(e.exportStatus.textContent, /Export failed: export controls unavailable/);
++  assert.equal(e.scanButton.disabled, false);
++  assert.equal(e.jsonButton.disabled, false);
++  await e.jsonButton.handlers.click();
++  assert.equal(pickerCalls, 1);
++  assert.equal(JSON.parse(written).observation.project.name, 'Captured');
++  assert.equal(e.scanButton.disabled, false);
++});
++
+ test('cancel before acquisition avoids host reads and measures duration', async () => {
+   const report = await adapter(null).scanActiveProject({ isCancelled: () => true });
+   assert.equal(report.completion, 'cancelled'); assert.equal(report.project, null);
+@@ -83,12 +123,12 @@ test('panel cancellation, recovery, duplicate scan guard and review reset', asyn
+   finish(observation()); await second;
+   const select = e.findings.children.find(c => c.className === 'finding unknown').children.find(c => c.tag === 'label').children[0];
+   select.value = 'intentional'; select.handlers.change();
+-  assert.equal(e.output.textContent, '');
++  assert.equal(e.output.value, '');
+   e.detailsButton.handlers.click();
+-  assert.equal(JSON.parse(e.output.textContent).annotations['unknown:0'], 'intentional');
++  assert.equal(JSON.parse(e.output.value).annotations['unknown:0'], 'intentional');
+   const third = e.scanButton.handlers.click(); finish(observation()); await third;
+   e.detailsButton.handlers.click();
+-  assert.deepEqual(JSON.parse(e.output.textContent).annotations, {});
++  assert.deepEqual(JSON.parse(e.output.value).annotations, {});
+ });
+ 
+ const manyDiagnostics = () => ({ status: 'COMPLETE', risk: Array.from({ length: 60 }, (_, i) => ({ruleId: `REVIEW-${i}`, severity: 'Review', location: {sequence: 'Repeated', sequenceOccurrenceIndex: i % 2, trackIndex: 0}, observed: `Evidence ${i}`})), information: [], unknown: [{ruleId: 'CAPABILITY', severity: 'Unknown', location: {project: 'Captured'}, observed: 'Routing unknown'}] });
+@@ -99,7 +139,7 @@ test('paged review reaches every finding once and preserves annotations and full
+   let written;
+   const e = ui(async () => observation(), async () => ({write: async value => {written = value;}}), manyDiagnostics);
+   await e.scanButton.handlers.click();
+-  assert.equal(e.output.textContent, '');
++  assert.equal(e.output.value, '');
+   assert.equal(cards(e).length, 25); assert.equal(e.previousPageButton.disabled, true);
+   const seen = [];
+   const first = reviewSelect(cards(e)[0]); first.value = 'intentional'; first.handlers.change();
+@@ -114,7 +154,7 @@ test('paged review reaches every finding once and preserves annotations and full
+   e.nextPageButton.handlers.click(); assert.match(e.pageStatus.textContent, /Page 3 of 3/);
+   e.previousPageButton.handlers.click(); e.previousPageButton.handlers.click();
+   assert.equal(reviewSelect(cards(e)[0]).value, 'intentional');
+-  assert.equal(e.output.textContent, '');
++  assert.equal(e.output.value, '');
+   await e.jsonButton.handlers.click();
+   const report = JSON.parse(written);
+   assert.equal(report.diagnostics.risk.length, 60); assert.equal(report.diagnostics.unknown.length, 1);
+@@ -126,14 +166,14 @@ test('paged review reaches every finding once and preserves annotations and full
+ 
+ test('raw evidence is demand-driven, refreshed on annotation and cleared/reset by hide or rescan', async () => {
+   const e = ui(async () => observation(), undefined, manyDiagnostics);
+-  await e.scanButton.handlers.click(); assert.equal(e.output.textContent, '');
+-  e.detailsButton.handlers.click(); assert.equal(JSON.parse(e.output.textContent).diagnostics.risk.length, 60);
++  await e.scanButton.handlers.click(); assert.equal(e.output.value, '');
++  e.detailsButton.handlers.click(); assert.equal(JSON.parse(e.output.value).diagnostics.risk.length, 60);
+   const select = reviewSelect(cards(e)[0]); select.value = 'reviewed'; select.handlers.change();
+-  assert.equal(JSON.parse(e.output.textContent).annotations['risk:0'], 'reviewed');
+-  e.detailsButton.handlers.click(); assert.equal(e.output.hidden, true); assert.equal(e.output.textContent, '');
++  assert.equal(JSON.parse(e.output.value).annotations['risk:0'], 'reviewed');
++  e.detailsButton.handlers.click(); assert.equal(e.output.hidden, true); assert.equal(e.output.value, '');
+   e.nextPageButton.handlers.click(); await e.scanButton.handlers.click();
+   assert.match(e.pageStatus.textContent, /Page 1 of 3/); assert.equal(e.output.hidden, true);
+-  e.detailsButton.handlers.click(); assert.deepEqual(JSON.parse(e.output.textContent).annotations, {});
++  e.detailsButton.handlers.click(); assert.deepEqual(JSON.parse(e.output.value).annotations, {});
+ });
+ 
+ test('pagination and raw controls cannot change during export or scan; failure remains inspectable', async () => {
+@@ -147,8 +187,8 @@ test('pagination and raw controls cannot change during export or scan; failure r
+   assert.match(e.pageStatus.textContent, /Page 1/); assert.equal(e.output.hidden, true);
+   resolvePicker(null); await exporting; assert.equal(e.nextPageButton.disabled, false);
+   const failed = ui(async () => {throw Error('host unavailable');});
+-  await failed.scanButton.handlers.click(); assert.equal(failed.output.textContent, '');
+-  failed.detailsButton.handlers.click(); assert.match(failed.output.textContent, /host unavailable/);
++  await failed.scanButton.handlers.click(); assert.equal(failed.output.value, '');
++  failed.detailsButton.handlers.click(); assert.match(failed.output.value, /host unavailable/);
+   assert.equal(failed.jsonButton.disabled, true); assert.equal(failed.nextPageButton.disabled, true);
+ });
+ test('JSON export captures annotations and locks scan while picker is open', async () => {
+diff --git a/tests/recovery.test.js b/tests/recovery.test.js
+index 29a240f..2b43d4f 100644
+--- a/tests/recovery.test.js
++++ b/tests/recovery.test.js
+@@ -74,7 +74,7 @@ test('A4 single flight, duplicate binding, cleanup and recovery', async () => {
+   assert.equal(calls, 1); assert.equal(e.scanButton.disabled, true);
+   resolve({ completion: 'completed', project: { name: 'captured' }, sequences: [] }); await first; await second;
+   e.detailsButton.handlers[0]();
+-  assert.equal(e.scanButton.disabled, false); assert.match(e.output.textContent, /captured/);
++  assert.equal(e.scanButton.disabled, false); assert.match(e.output.value, /captured/);
+   const third = click(); reject(Error('failure')); await third;
+   assert.equal(e.scanButton.disabled, false); assert.match(e.status.textContent, /failed/i);
+   const fourth = click(); resolve({ completion: 'partial', sequences: [] }); await fourth;

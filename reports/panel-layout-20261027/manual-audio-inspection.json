@@ -1,0 +1,33 @@
+{
+  "method": "Native Premiere UI inspection; no audio capture",
+  "scope": "Active stereo-l440-r880 sequence and selected source only",
+  "routing": {
+    "Audio2": "Mix",
+    "Audio3": "Mix",
+    "Audio1": "Mix",
+    "Audio1Muted": true,
+    "pan": "All three displayed centered 0.0"
+  },
+  "mapping": {
+    "mediaSourceRight": "Unchecked for both rows",
+    "preset": "Custom",
+    "clipRight": "Media source Left",
+    "intent": "UNKNOWN",
+    "dialog": "Canceled without applying",
+    "format": "Stereo",
+    "clipLeft": "Media source Left",
+    "clips": 1
+  },
+  "playback": {
+    "transport": "Advanced from 00:00:00:00 through 00:00:00:04 and 00:00:05:21 to 00:00:06:00, stopped at end",
+    "sampledMeters": "No visible signal in sampled mixer frames",
+    "qualification": "No end-to-end audio PASS",
+    "exportAudio": "NOT_RUN",
+    "audibleOutput": "NOT_VERIFIED: no listening/audio capture evidence"
+  },
+  "projectHash": "F243358DE98EB0024A0364EB6F8A90A7D8EF1B5250DB2169AE2EC1D973E82A8E",
+  "host": {
+    "Id": 37304,
+    "Responding": true
+  }
+}

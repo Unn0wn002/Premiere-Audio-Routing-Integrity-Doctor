@@ -1,0 +1,23 @@
+{
+  "recordedAt": "2026-10-28T15:41:44.956Z",
+  "evidenceClass": "USER_STATED",
+  "requestedTest": "Helper-off floating panel resized narrow and wide; check buttons, text and host stability.",
+  "userReport": "Button Normal, text Normal, not freezing, not crashed",
+  "outcome": {
+    "buttonsReportedNormal": true,
+    "textReportedNormal": true,
+    "freezeReported": false,
+    "crashReported": false
+  },
+  "runtimeIdentityFromSessionContext": "03757105692238f9fdc51a17a39aa4a3c6021ca08a6e8c799aa51d43db8d29a4",
+  "basicManualLayoutStatus": "COMPLETE_FOR_REPORTED_TRIAL",
+  "limits": [
+    "Exact dimensions and screenshots not supplied.",
+    "No fresh per-size scan result or duration supplied.",
+    "Runtime association is continued session context, not fresh independent readback.",
+    "Earlier helper-connected automated docking crash remains unexplained.",
+    "Customer installation and broader lifecycle qualification remain pending."
+  ],
+  "computerUseReconnected": false,
+  "distributionApproved": false
+}

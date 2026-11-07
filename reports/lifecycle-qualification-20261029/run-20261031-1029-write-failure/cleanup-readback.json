@@ -1,0 +1,12 @@
+{
+  "verifiedAt": "2026-10-31T03:47:58.0703052Z",
+  "exclusiveReadWriteOpenSucceeded": true,
+  "targetBytes": 0,
+  "readOnlyAttribute": false,
+  "targetSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "helperSessionsReleased": [
+    23470,
+    89185,
+    70043
+  ]
+}

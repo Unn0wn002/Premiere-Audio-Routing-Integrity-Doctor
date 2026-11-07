@@ -1,0 +1,863 @@
+{
+  "recordType": "native-api-contract-observation",
+  "probeVersion": 1,
+  "generatedAt": "2026-10-18T04:31:40.896Z",
+  "execution": "OBSERVATIONS_COLLECTED",
+  "durationMs": 9,
+  "qualification": "Representative native getter observations only; not fixture acceptance, unchanged-state proof, or routing/output certification.",
+  "bounds": {
+    "sequences": 4,
+    "tracksPerSequence": 8,
+    "componentsPerChain": 4,
+    "parametersPerComponent": 1,
+    "keyframeTimeSamples": 4
+  },
+  "host": {
+    "name": "premierepro",
+    "version": "26.5.2",
+    "uiLocale": "en_US",
+    "uxpVersion": "uxp-9.3.0-local",
+    "pluginVersion": "0.2.1"
+  },
+  "selection": {
+    "sequenceIndex": 0,
+    "trackIndex": 0,
+    "clipOccurrenceIndex": 0
+  },
+  "calls": [
+    {
+      "label": "uxp.name",
+      "documented": "direct runtime identity property",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "string",
+      "resolved": {
+        "kind": "string",
+        "value": "premierepro"
+      },
+      "durationMs": 1,
+      "shapeIssues": []
+    },
+    {
+      "label": "uxp.version",
+      "documented": "direct runtime identity property",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "string",
+      "resolved": {
+        "kind": "string",
+        "value": "26.5.2"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "uxp.uiLocale",
+      "documented": "direct runtime identity property",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "string",
+      "resolved": {
+        "kind": "string",
+        "value": "en_US"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "uxp.uxpVersion",
+      "documented": "direct runtime identity property",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "string",
+      "resolved": {
+        "kind": "string",
+        "value": "uxp-9.3.0-local"
+      },
+      "durationMs": 1,
+      "shapeIssues": []
+    },
+    {
+      "label": "uxp.pluginVersion",
+      "documented": "direct runtime identity property",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "string",
+      "resolved": {
+        "kind": "string",
+        "value": "0.2.1"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "Constants.TrackItemType.CLIP",
+      "documented": "public enum",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "number",
+      "resolved": {
+        "kind": "number",
+        "value": 1
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "Constants.MediaType.AUDIO",
+      "documented": "public enum",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "Project.getActiveProject()",
+      "documented": "Promise<Project>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "project.name",
+      "documented": "string (direct property)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "string",
+      "resolved": {
+        "kind": "string",
+        "value": "ARID_Disposable_20261018.prproj"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "project.path",
+      "documented": "string (direct property)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "string",
+      "resolved": {
+        "kind": "string",
+        "value": "\\\\?\\C:\\Users\\unn0w\\Downloads\\Management Project\\Premiere Audio Routing Integrity Doctor\\reports\\beta-20261004\\ARID_Disposable_20261018.prproj"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "project.guid",
+      "documented": "Guid (direct property)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "project.guid.toString()",
+      "documented": "string (direct)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "string",
+      "resolved": {
+        "kind": "string",
+        "value": "5fe57359-da5b-4852-909d-c3595b59c6a5"
+      },
+      "durationMs": 1,
+      "shapeIssues": []
+    },
+    {
+      "label": "project.getSequences()",
+      "documented": "Promise<Sequence[]>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "array",
+        "length": 2,
+        "samples": [
+          {
+            "kind": "object"
+          }
+        ],
+        "samplesTruncated": true
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "sequence[0].getAudioTrackCount()",
+      "documented": "Promise<number>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "number",
+        "value": 3
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "sequence[0].getAudioTrack(0)",
+      "documented": "Promise<AudioTrack>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "sequence[0].track[0].getTrackItems(CLIP,false)",
+      "documented": "AudioClipTrackItem[] (direct)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "array",
+      "resolved": {
+        "kind": "array",
+        "length": 2,
+        "samples": [
+          {
+            "kind": "object"
+          }
+        ],
+        "samplesTruncated": true
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "selectedSequence.name",
+      "documented": "string (direct property)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "string",
+      "resolved": {
+        "kind": "string",
+        "value": "stereo-l440-r880"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "selectedSequence.guid",
+      "documented": "Guid (direct property)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "selectedSequence.guid.toString()",
+      "documented": "string (direct)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "string",
+      "resolved": {
+        "kind": "string",
+        "value": "06a6a407-a666-40bd-b196-ebd09a74fc7f"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "selectedSequence.getSettings()",
+      "documented": "Promise<SequenceSettings>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "settings.getAudioChannelCount()",
+      "documented": "Promise<number>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "number",
+        "value": 2
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "settings.getAudioChannelType()",
+      "documented": "Promise<number>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "number",
+        "value": 1
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "settings.getAudioSampleRate()",
+      "documented": "Promise<FrameRate>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object",
+        "fields": {
+          "value": {
+            "kind": "number",
+            "value": 48000
+          },
+          "ticksPerFrame": {
+            "kind": "number",
+            "value": 5292000
+          }
+        }
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "track.id",
+      "documented": "number (direct property)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "number",
+      "resolved": {
+        "kind": "number",
+        "value": 2
+      },
+      "durationMs": 1,
+      "shapeIssues": []
+    },
+    {
+      "label": "track.name",
+      "documented": "string (direct property)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "string",
+      "resolved": {
+        "kind": "string",
+        "value": "Audio 1"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "track.getIndex()",
+      "documented": "Promise<number>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "number",
+        "value": 0
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "track.isMuted()",
+      "documented": "Promise<boolean>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "boolean",
+        "value": false
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "clip.getName()",
+      "documented": "Promise<string>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "string",
+        "value": "stereo-l440-r880.wav"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "clip.getMatchName()",
+      "documented": "Promise<string>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "string",
+        "value": "stereo-l440-r880.wav"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "clip.isDisabled()",
+      "documented": "Promise<boolean>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "boolean",
+        "value": false
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "clip.getStartTime()",
+      "documented": "Promise<TickTime>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object",
+        "fields": {
+          "ticks": {
+            "kind": "string",
+            "value": "0"
+          },
+          "seconds": {
+            "kind": "number",
+            "value": 0
+          },
+          "ticksNumber": {
+            "kind": "number",
+            "value": 0
+          }
+        }
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "clip.getEndTime()",
+      "documented": "Promise<TickTime>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object",
+        "fields": {
+          "ticks": {
+            "kind": "string",
+            "value": "762810048000"
+          },
+          "seconds": {
+            "kind": "number",
+            "value": 3.003
+          },
+          "ticksNumber": {
+            "kind": "number",
+            "value": 762810048000
+          }
+        }
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "clip.getComponentChain()",
+      "documented": "Promise<AudioComponentChain>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object"
+      },
+      "durationMs": 1,
+      "shapeIssues": []
+    },
+    {
+      "label": "clipChain.getComponentCount()",
+      "documented": "number (direct)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "number",
+      "resolved": {
+        "kind": "number",
+        "value": 2
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "clipChain.component[0]",
+      "documented": "Component (direct)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "clipChain.component[0].getParamCount()",
+      "documented": "number (direct)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "number",
+      "resolved": {
+        "kind": "number",
+        "value": 2
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "clipChain.component[0].getDisplayName()",
+      "documented": "Promise<string>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "string",
+        "value": "Volume"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "clipChain.component[0].getMatchName()",
+      "documented": "Promise<string>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "string",
+        "value": "Internal Volume Stereo"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "clipChain.component[0].getParam(0)",
+      "documented": "ComponentParam (direct)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "clipChain.component[0].param[0].displayName",
+      "documented": "string (direct property)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "string",
+      "resolved": {
+        "kind": "string",
+        "value": "Mute"
+      },
+      "durationMs": 1,
+      "shapeIssues": []
+    },
+    {
+      "label": "clipChain.component[0].param[0].isTimeVarying()",
+      "documented": "boolean (direct)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "boolean",
+      "resolved": {
+        "kind": "boolean",
+        "value": false
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "clipChain.component[0].param[0].getStartValue()",
+      "documented": "Promise<Keyframe>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object",
+        "fields": {
+          "value": {
+            "kind": "object",
+            "fields": {
+              "value": {
+                "kind": "boolean",
+                "value": false
+              }
+            }
+          },
+          "position": {
+            "kind": "object",
+            "fields": {
+              "ticks": {
+                "kind": "string",
+                "value": "-91445760000000000"
+              },
+              "seconds": {
+                "kind": "number",
+                "value": -360000
+              },
+              "ticksNumber": {
+                "kind": "number",
+                "value": -91445760000000000
+              }
+            }
+          }
+        }
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "clipChain.component[0].param[0].getKeyframeListAsTickTimes()",
+      "documented": "TickTime[] (direct)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "array",
+      "resolved": {
+        "kind": "array",
+        "length": 0,
+        "samples": [],
+        "samplesTruncated": false
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "clip.getProjectItem()",
+      "documented": "Promise<ProjectItem>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "ClipProjectItem.cast(source)",
+      "documented": "ClipProjectItem (direct)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object"
+      },
+      "durationMs": 1,
+      "shapeIssues": []
+    },
+    {
+      "label": "sourceClip.name",
+      "documented": "string (direct property)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "string",
+      "resolved": {
+        "kind": "string",
+        "value": "stereo-l440-r880.wav"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "sourceClip.getComponentChain(AUDIO)",
+      "documented": "Promise<AudioComponentChain | VideoComponentChain | null>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "sourceChain.getComponentCount()",
+      "documented": "number (direct)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "number",
+      "resolved": {
+        "kind": "number",
+        "value": 2
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "sourceChain.component[0]",
+      "documented": "Component (direct)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "sourceChain.component[0].getParamCount()",
+      "documented": "number (direct)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "number",
+      "resolved": {
+        "kind": "number",
+        "value": 2
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "sourceChain.component[0].getDisplayName()",
+      "documented": "Promise<string>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "string",
+        "value": "Volume"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "sourceChain.component[0].getMatchName()",
+      "documented": "Promise<string>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "string",
+        "value": "Internal Volume Stereo"
+      },
+      "durationMs": 1,
+      "shapeIssues": []
+    },
+    {
+      "label": "sourceChain.component[0].getParam(0)",
+      "documented": "ComponentParam (direct)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "sourceChain.component[0].param[0].displayName",
+      "documented": "string (direct property)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "string",
+      "resolved": {
+        "kind": "string",
+        "value": "Mute"
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "sourceChain.component[0].param[0].isTimeVarying()",
+      "documented": "boolean (direct)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "boolean",
+      "resolved": {
+        "kind": "boolean",
+        "value": false
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "sourceChain.component[0].param[0].getStartValue()",
+      "documented": "Promise<Keyframe>",
+      "status": "OBSERVED",
+      "returnedThenType": "function",
+      "immediateKind": "object",
+      "resolved": {
+        "kind": "object",
+        "fields": {
+          "value": {
+            "kind": "object",
+            "fields": {
+              "value": {
+                "kind": "boolean",
+                "value": false
+              }
+            }
+          },
+          "position": {
+            "kind": "object",
+            "fields": {
+              "ticks": {
+                "kind": "string",
+                "value": "-91445760000000000"
+              },
+              "seconds": {
+                "kind": "number",
+                "value": -360000
+              },
+              "ticksNumber": {
+                "kind": "number",
+                "value": -91445760000000000
+              }
+            }
+          }
+        }
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    },
+    {
+      "label": "sourceChain.component[0].param[0].getKeyframeListAsTickTimes()",
+      "documented": "TickTime[] (direct)",
+      "status": "OBSERVED",
+      "returnedThenType": "undefined",
+      "immediateKind": "array",
+      "resolved": {
+        "kind": "array",
+        "length": 0,
+        "samples": [],
+        "samplesTruncated": false
+      },
+      "durationMs": 0,
+      "shapeIssues": []
+    }
+  ],
+  "unknowns": [],
+  "errors": []
+}

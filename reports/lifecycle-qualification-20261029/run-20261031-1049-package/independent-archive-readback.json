@@ -1,0 +1,130 @@
+{
+  "verifiedAt": "2026-10-31T08:43:32.235985+00:00",
+  "status": "PASS_ARCHIVE_INTEGRITY",
+  "package": "artifacts/ccx-0.2.1-037571056922/com.unn0wn002.audio-preflight.beta_premierepro.ccx",
+  "sha256": "ecb01b1a03e113f89ed355769ee737378feb240f2961187f795ae03e55580d06",
+  "bytes": 15698,
+  "zipCRC": "PASS",
+  "uniqueEntries": true,
+  "allowlistOnly": true,
+  "manifestValuesEqual": true,
+  "manifestFormattingOnly": true,
+  "manifest": {
+    "manifestVersion": 5,
+    "id": "com.unn0wn002.audio-preflight.beta",
+    "name": "Audio Preflight - Private Beta",
+    "version": "0.2.1",
+    "main": "index.html",
+    "host": {
+      "app": "premierepro",
+      "minVersion": "26.5.2"
+    },
+    "requiredPermissions": {
+      "localFileSystem": "request"
+    },
+    "entrypoints": [
+      {
+        "type": "panel",
+        "id": "audio-routing-integrity-probe",
+        "label": {
+          "default": "Audio Preflight"
+        },
+        "minimumSize": {
+          "width": 320,
+          "height": 300
+        },
+        "preferredDockedSize": {
+          "width": 420,
+          "height": 640
+        },
+        "preferredFloatingSize": {
+          "width": 560,
+          "height": 720
+        }
+      }
+    ]
+  },
+  "files": [
+    {
+      "file": "manifest.json",
+      "bytes": 709,
+      "sha256": "b64a06e9c9ad68438f3d2eb4f0ca4c07c6002ca470c767035539aadc29e46401",
+      "exactBytes": false
+    },
+    {
+      "file": "index.html",
+      "bytes": 3935,
+      "sha256": "211a54f25ced54808d83a6da0fb18736f7130b18fb191d9fa1fb93305c659e77",
+      "exactBytes": true
+    },
+    {
+      "file": "index.js",
+      "bytes": 7398,
+      "sha256": "950092bcccf4a3f8bc5725fd2f5e3707f30ef0292cd3c13f5d27299c441b8d37",
+      "exactBytes": true
+    },
+    {
+      "file": "src/premiereAdapter.js",
+      "bytes": 14177,
+      "sha256": "bc7054386b37174676f4d3302216cb43d82214bdc2582dc9f46c52fe738748bf",
+      "exactBytes": true
+    },
+    {
+      "file": "src/diagnostics.js",
+      "bytes": 15319,
+      "sha256": "5ee7db940f0581fb687a3c6103f61b1f04b59fcb3c2d9034535062d3432ded90",
+      "exactBytes": true
+    },
+    {
+      "file": "src/valueSerializer.js",
+      "bytes": 1952,
+      "sha256": "3c874ee7243f30a66215fa3f1d6a5ee65bd18c0dd5a21dbaf59e17b3f787fc4a",
+      "exactBytes": true
+    },
+    {
+      "file": "src/report.js",
+      "bytes": 5176,
+      "sha256": "c93e14044b68ce27862c48c14210136e764c8ac727115b4ca848934f615eb92d",
+      "exactBytes": true
+    }
+  ],
+  "sourceStageChecks": [
+    {
+      "file": "manifest.json",
+      "sourceNormalizedMatches": true,
+      "stageExactMatches": true
+    },
+    {
+      "file": "index.html",
+      "sourceNormalizedMatches": true,
+      "stageExactMatches": true
+    },
+    {
+      "file": "index.js",
+      "sourceNormalizedMatches": true,
+      "stageExactMatches": true
+    },
+    {
+      "file": "src/premiereAdapter.js",
+      "sourceNormalizedMatches": true,
+      "stageExactMatches": true
+    },
+    {
+      "file": "src/diagnostics.js",
+      "sourceNormalizedMatches": true,
+      "stageExactMatches": true
+    },
+    {
+      "file": "src/valueSerializer.js",
+      "sourceNormalizedMatches": true,
+      "stageExactMatches": true
+    },
+    {
+      "file": "src/report.js",
+      "sourceNormalizedMatches": true,
+      "stageExactMatches": true
+    }
+  ],
+  "installationQualified": false,
+  "nativeValidation": "NOT_ESTABLISHED_BY_PACKAGING"
+}

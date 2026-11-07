@@ -1,0 +1,49 @@
+{
+  "receiptVersion": 1,
+  "version": "0.3.0",
+  "pluginId": "com.unn0wn002.audio-preflight.beta",
+  "identity": "38a3997af84e6baf4ca60cef3fc41cc3f2f79dc2a6ebb9a642b0a4a646e2e9cf",
+  "files": [
+    {
+      "file": "manifest.json",
+      "sha256": "093bda6638c97115f5b10b9b865966fc06d76e3a006debafc42223ff5389e77e"
+    },
+    {
+      "file": "index.html",
+      "sha256": "40b98d2c8e8dc948b844b99adac0314bbee67cdf6d5f10d5cc4007cf1e533203"
+    },
+    {
+      "file": "index.js",
+      "sha256": "a9d7cb5a836354af25a915b3c1b2f73231fe0107db39988f18222196ab83b0a9"
+    },
+    {
+      "file": "src/premiereAdapter.js",
+      "sha256": "1e6fe0bdf69b31f3065c7ba3a5779e00a1cb75f3527b583e35cb2ecf424006d1"
+    },
+    {
+      "file": "src/diagnostics.js",
+      "sha256": "5ee7db940f0581fb687a3c6103f61b1f04b59fcb3c2d9034535062d3432ded90"
+    },
+    {
+      "file": "src/valueSerializer.js",
+      "sha256": "3c874ee7243f30a66215fa3f1d6a5ee65bd18c0dd5a21dbaf59e17b3f787fc4a"
+    },
+    {
+      "file": "src/report.js",
+      "sha256": "6e26c723e34b7978f5f99a10e635ea15352c99cfac17c3715f98855e70e345c7"
+    }
+  ],
+  "source": {
+    "branch": "release/package-0.3.0-20261102",
+    "commit": "3feb14b7fff70ae8b0618331962c7854a1d9ca66",
+    "workingTreeDirty": false
+  },
+  "normalization": "UTF-8 runtime text; CRLF normalized to LF",
+  "qualification": "STATIC ONLY; unsigned developer ZIP; host validation and installation qualification pending",
+  "packageKind": "unsigned-developer-zip",
+  "nativeValidation": "NOT_ESTABLISHED_BY_PACKAGING",
+  "installationQualified": false,
+  "stagingDirectory": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\artifacts\\audio-preflight-0.3.0-38a3997af84e",
+  "packageFile": "C:\\Users\\unn0w\\Downloads\\02_Projects\\Premiere-Audio-Routing-Integrity-Doctor\\artifacts\\audio-preflight-0.3.0-38a3997af84e-developer.zip",
+  "packageSha256": "89969c174e627a898512aefe45f2ba55ef13c9479c6a77a85f07d61d20adeb66"
+}
