@@ -46,6 +46,8 @@ const STATIC_TEXT = [['panelTitle', 'title'], ['panelSubtitle', 'subtitle'], ['p
   ['findingsTitle', 'sec_findings'], ['previousPageButton', 'btn_prev'], ['nextPageButton', 'btn_next'], ['evidenceTitle', 'sec_evidence'],
   ['detailsButton', 'btn_details'], ['footNote', 'foot_note'], ['langButton', 'btn_lang']];
 function applyStatic() {
+  // The page language follows the panel language (matters for CJK glyph choice and screen readers).
+  try { if (typeof document !== 'undefined' && document.documentElement) document.documentElement.lang = lang; } catch (ignored) { /* not essential */ }
   for (const [id, key] of STATIC_TEXT) text(id, L(key));
   const output = el('output');
   if (output && typeof output.setAttribute === 'function') output.setAttribute('aria-label', L('aria_output'));

@@ -45,3 +45,5 @@ Reconciled 2026-11-06 from git (read-only), `PROJECT_LOG.md` (2026-11-02 entries
 
 **Next recommended step**
 - Fix the `verify-package.ps1` relocation defect (explicit staging-directory override authenticated by the receipt hashes, keep original receipts), then with Aria's approval merge PR #9 and decide on the unpushed docked-JA evidence branch.
+
+**Update 2026-11-07 (UI polish, source only):** the source now has the page lang attribute follows the language switch (U4). A CCX of this build was made and natively checked by development load (`evidence/native-20261107-polish/README.md`): sha256 `183378d1a6202ffc92d05ebbb1181a22002211c70ac2315308eacb94e07519fa`, staging `0a90b974...`. That CCX is NOT installed in the owner profile, so the installed package is still the earlier CCX recorded above; install the new CCX to match this source. Not approved for distribution.

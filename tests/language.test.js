@@ -129,7 +129,7 @@ function panel({ stored = null, locale = null, scan } = {}) {
   const saved = [];
   let setup;
   const sandbox = {
-    document: { getElementById: id => elements[id], createElement: element },
+    document: { getElementById: id => elements[id], createElement: element, documentElement: { lang: 'en' } },
     require: name => name === 'uxp' ? { entrypoints: { setup: value => { setup = value; } }, storage: { localFileSystem: { getFileForSaving: async () => null }, formats: { utf8: 'utf8' } }, host: locale ? { uiLocale: locale } : undefined }
       : name.includes('premiereAdapter') ? { scanActiveProject: scan || (async () => observation()), showLocation: async () => ({ opened: true, positioned: true }) }
       : name.includes('report') ? reporting : { diagnose }
@@ -137,8 +137,18 @@ function panel({ stored = null, locale = null, scan } = {}) {
   if (stored !== undefined) sandbox.localStorage = { getItem: () => stored, setItem: (k, v) => saved.push([k, v]) };
   vm.runInNewContext(fs.readFileSync(path.join(__dirname, '../index.js'), 'utf8'), sandbox);
   const p = setup.panels['audio-routing-integrity-probe']; p.create(); p.show();
-  return { e: elements, saved };
+  return { e: elements, saved, root: sandbox.document.documentElement };
 }
+
+test('the page lang attribute follows the panel language, at start and after a switch', () => {
+  const ja = panel({ stored: 'ja' });
+  assert.equal(ja.root.lang, 'ja');
+  ja.e.langButton.handlers.click();
+  assert.equal(ja.root.lang, 'en');
+  ja.e.langButton.handlers.click();
+  assert.equal(ja.root.lang, 'ja');
+  assert.equal(panel({ stored: 'en' }).root.lang, 'en');
+});
 
 test('panel language: a saved choice wins, then a Japanese host locale, else English', () => {
   assert.equal(panel({ stored: 'ja' }).e.scanButton.textContent, 'アクティブなプロジェクトをスキャン');
