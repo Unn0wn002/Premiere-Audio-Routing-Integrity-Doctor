@@ -1,6 +1,6 @@
 # Audio Preflight (Premiere Audio Routing Integrity Doctor): user guide
 
-Host: Adobe Premiere Pro 26.5.2 on Windows. Status: beta, not released.
+Host: Adobe Premiere Pro 26.5.2 on Windows. Status: beta pre-release (unsigned CCX), not approved for general distribution.
 
 ## What it does
 A read-only UXP panel that reviews the active project for muted non-empty audio tracks, disabled audio clips and sequence audio settings, and lists findings with their locations, the observation coverage and explicit Unknowns.
@@ -9,7 +9,7 @@ A read-only UXP panel that reviews the active project for muted non-empty audio 
 It does not and cannot certify source mapping, output-bus routing or playback/export correctness. Those stay Unknown. It changes nothing in the project; the only host action beyond reading is the optional "show location" playhead move.
 
 ## Install
-1. Open the packaged `.ccx` with Creative Cloud Desktop and follow its install flow (it may ask you to confirm a non-marketplace plugin). Restart Premiere Pro.
+1. Download `com.unn0wn002.audio-preflight.beta_premierepro.ccx` from the GitHub pre-release v0.3.0-beta.1 (Releases page of this repo), then double-click it or open it with Creative Cloud Desktop and follow its install flow. The package is unsigned, so Creative Cloud may ask you to confirm a non-marketplace plugin. Restart Premiere Pro. Needs Premiere Pro 26.5.2 or newer on Windows.
 2. Open Window > UXP Plugins > Audio Preflight and dock it as a tab.
 3. For development: load the staged `manifest.json` in Adobe UXP Developer Tools.
 4. A first launch once showed an unexplained "Compatible app required" message; a second launch of the same package installed normally.
